@@ -1,0 +1,96 @@
+#+TITLE: Plurality Rule
+- tag :: [[file:20200522123528-what_is_a_voting_method.org][What is a voting method?]], [[file:20200520210843-social_choice_theory_general.org][Social Choice Theory - General]]
+
+
+
+- [[file:20200522171947-what_is_plurality_with_runoff.org][What is Plurality with Runoff?]]
+
+
+
+- Laslier, J. (2011). And the loser is… plurality voting. Electoral Systems, (),
+  327–351. http://dx.doi.org/10.1007/978-3-642-20441-8_13
+
+
+*  What is the problem of plurality rule? :fc:
+
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:32:03Z
+:FC_TYPE:  normal
+:ID:       74748a46-5be8-45be-b5f3-16732307ac44
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:32:03Z |
+:END:
+- source :: cite:sep-social-choice
+** Back
+An alternative that is majority-dispreferred to every other alternative may win
+under plurality rule. Violates weak pareto principle too.
+
+Actually many, see [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]].
+** Full quote by list
+#+begin_quote
+an alternative that is majority-dispreferred to every other alternative may win
+under plurality rule: if 34% of the voters rank x above y above z, 33% rank y
+above z above x, and 33% rank z above y above x, plurality rule ranks x above
+each of y and z, while pairwise majority voting would rank y above z above x (y
+is the Condorcet winner). By disregarding individuals' lower-ranked
+alternatives, plurality rule also violates the weak Pareto principle. However,
+plurality rule may be plausible in ‘restricted informational environments’,
+where the balloting procedure collects information only about voters' top
+preferences, not about their full preference rankings. Here plurality rule
+satisfies generalized variants of May's four conditions introduced above (Goodin
+and List 2006).
+#+end_quote
+
+** Further investigation
+For further criticism of the method see :
+
+- cite:Laslier_2011
+
+  Laslier, J. (2011). And the loser is… plurality voting. Electoral Systems, (),
+  327–351. http://dx.doi.org/10.1007/978-3-642-20441-8_13
+For a defense see:
+- cite:Goodin_2006
+
+- Goodin, R. E., & List, C. (2006). A conditional defense of plurality rule:
+  generalizing may’s theorem in a restricted informational environment. American
+  Journal of Political Science, 50(4), 940–949.
+  http://dx.doi.org/10.1111/j.1540-5907.2006.00225.x
+
+
+*  What is the difference between plurality and majority rule? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T18:08:35Z
+:FC_TYPE:  normal
+:ID:       8e717238-e825-4432-847a-7b973e33158c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   2 |     1.00 | 2020-07-04T10:24:52Z |
+:END:
+- tags :: [[file:20200522123528-what_is_a_voting_method.org][What is a voting method?]]
+
+** Back
+ Plurality rule the winner is the one with the most votes, while majority rule is the one with more than 50% of the votes.
+*  When should plurality rule be used? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:32:18Z
+:FC_TYPE:  normal
+:ID:       a71a0f8b-1b92-4cca-bd38-72be386ce494
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-22T02:28:32Z |
+:END:
+- source cite:sep-social-choice
+
+** Back
+plurality rule may be plausible in ‘restricted informational environments’,
+where the balloting procedure collects information only about voters' top
+preferences, not about their full preference rankings. Here plurality rule
+satisfies generalized variants of May's four conditions introduced above (Goodin
+and List 2006). For more see [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]].

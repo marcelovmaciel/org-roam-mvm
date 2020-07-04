@@ -1,0 +1,30 @@
+#+TITLE: Game Theory General Entry
+- tags :: [[file:20200519125138-formal_political_theory.org][Formal Political Theory]]
+
+
+* Index
+** Introducing Game theory
+
+- [[file:20200519143719-what_differentiates_cooperative_game_theory_from_non_cooperative.org][What differentiates cooperative game theory from non-cooperative?]]
+
+** Concepts
+- [[file:20200519161456-what_is_an_equilibrium_refinement.org][What is an equilibrium refinement?]]
+- [[file:20200519173037-what_is_a_sequantial_equilibrium.org][What is a sequential equilibrium?]]
+- [[file:20200519173427-what_is_an_information_set.org][What is an information set?]]
+
+- [[file:20200519181426-what_is_a_strictly_mixed_strategy.org][What is a strictly mixed strategy?]]
+- [[file:20200519180010-what_is_a_trembling_hand_perfect_equilibrium.org][What is a trembling-hand perfect equilibrium?]]
+
+
+
+** Applications
+
+- [[file:20200519191104-why_the_concept_of_learning_matters_for_the_applied_game_theorist.org][Why the concept of learning matters for the applied game theorist?]]
+
+
+- [[file:20200519191955-how_cognitive_complexity_impacts_the_applicability_of_gt.org][How cognitive complexity impacts the applicability of gt?]]
+- [[file:20200519192236-how_do_humans_compare_to_other_animals_regarding_agt.org][How do humans compare to other animals regarding AGT?]]
+
+** Ideas
+- [[file:20200519185746-why_conditional_game_theory_matters_for_preference_change.org][Why conditional game theory matters for preference change?]]
+- [[file:20200519192644-what_impacts_the_applicability_of_game_theory.org][What impacts the applicability of game theory?]]

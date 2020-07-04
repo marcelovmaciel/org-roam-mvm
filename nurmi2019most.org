@@ -1,0 +1,121 @@
+#+TITLE: nurmi2019most: Why most politicians don’t give a hoot about voting theory?
+#+ROAM_KEY: cite:nurmi2019most
+
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]] , [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+- keywords :: [[file:20200520210843-social_choice_theory_general.org][Social Choice Theory - General]]
+
+
+* Why most politicians don’t give a hoot about voting theory?
+  :PROPERTIES:
+  :Custom_ID: nurmi2019most
+  :URL:
+  :AUTHOR: Nurmi, H.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:
+
+#+begin_quote
+It looks as if there is a demand for research that aims at building
+bridges over the wide gap that exists between the abstract social choice results and
+the behavioural-institutional realities characterizing political systems of today and
+tomorrow.
+#+end_quote
+
+
+Political actors are usually interested in getting to a decision by minimizing unnecessary conflict.
+
+#+begin_quote
+The latter are accustomed to seeing voting systems as disagreement-settling
+devices, not necessarily methods for finding the best solutions. The emphasis is in
+decisiveness, not in optimization.
+[...]
+the specific other properties of voting rules may be viewed as
+somewhat secondary once the decisiveness and acceptability are established.
+#+end_quote
+
+Scholars may be seen as a nuisance because their results are possibilities, not probabilities.
+
+#+begin_quote
+what the results suggest are possibilities, not
+inevitabilities. Bizarre things can happen, but we do not encounter them all the time.
+#+end_quote
+
+Nurmi considers that to bridge the gap we must be able to answer the question:
+
+#+begin_quote
+how often can
+one expect such failures to occur in a given voting body?
+
+[...]
+the focus is shifted to
+classifying the profiles and determining the probabilities or relative frequencies of
+failures within those classes Gehrlein and Lepelley 2011; Merrill 1988; Tideman
+and Plassmann 2012).
+#+end_quote
+
+Those references are:
+
+- Merrill, S. (1988). Making multicandidate elections more democratic. Princeton: Princeton Univer-sity Press.
+- Gehrlein, W. V., & Lepelley, D. (2011). Voting paradoxes and group coherence: The condorcet efficiency of voting rules. Berlin: Springer.
+- Tideman, T. N., & Plassmann, F. (2012). Modeling the outcomes of vote-casting in actual elec- tions. In D. Felsenthal & M. Machover (Eds.), Electoral systems: Paradoxes, assumptions, and procedures (pp. 217–251). Berlin: Springer.
+
+  So, we must know more about probabilities of bad behavior. He considers that there are two sides. On the one hand we have learnt a lot, on the other we still don't have enough EMPIRICAL knowledge about profiles' cultures.
+
+  #+begin_quote
+The results of probabilistic modeling are in many
+respects valuable e.g. in showing the variation of criterion violations under modifica-
+tions of ‘cultures’, in establishing variables that increase or decrease vulnerabilities
+to anomalies, in creating order of priority between rules under various cultures, etc.
+
+[...]
+
+the empirical
+elections may take place is a much narrower range of profiles than those considered
+in the probabilistic models. To make things even more complicated from the practical
+point of view, we should observe that thus far a relatively limited number of different
+cultures has been thoroughly studied
+
+[...] The theory is not capable of answering conclusively to the question of
+which voting procedure should be chosen. All procedures have serious theoretical
+shortcomings. All theories aim at maximum coverage or generality. In the present
+context this may be a vice rather than virtue since the voting procedures are to
+be applied in specific environments. *These may imply distinctive and significant
+domain restrictions with respect to profiles. Hence results based on unrestricted domains may yield unnecessarily negative results. Thus, more work in classifying the specific contexts where the procedures will be applied would be most welcome.*
+  #+end_quote
+
+Furthermore, there are many criterion. Given that we have some knowledge about how probably a method will output a paradoxical result in some contexts, how do we rank different kinds of criteria? What matters more monotonicity, no-show, condorcet? This is a multiple criterion optimization problem.
+
+#+begin_quote
+. Suppose that system A has a better success grade than system B on criterion
+x, but on criterion y the ranking between the two is reversed. Making a choice calls
+for a ranking, or better yet, grading of criteria and rules of compensation. What one
+then ends up with is essentially a multiple criterion optimization problem.
+#+end_quote
+
+This is directly related to cite:Piggins_2007 discussion.
+
+
+He also considers that the criteria themselves should be better elaborated to encompass different ballot mechanisms. We use the same criteria to judge different ballot AND aggregation mechanisms. I'm making a connection here with cite:Goodin_2006.
+
+When talking about approval and majority judgment voting methods Nurmi argues the following :
+
+#+begin_quote
+[...], it can be argued that the very fact
+that the methods require much more or much less information about voters opinions
+than the more traditional procedures makes the criteria applicable to the evaluation
+of the traditional procedures inappropriate or even misleading. After all, criteria like
+Condorcet efficiency are hardly relevant in environments where individuals assign
+utility values to alternatives.
+
+[...]
+
+Finally, relatively little attention has been paid on the importance of choice-
+theoretic criteria (monotonicity, consistency, Condorcet efficiency etc.) when com-
+pared with each other. The group decision context is surely a factor that determines
+the practical importance, but more general hierarchies of importance of criteria have
+not been constructed, perhaps for the plausible reason that this is a value issue on
+which reasonable persons may disagree.
+#+end_quote
+
+
+* Summary

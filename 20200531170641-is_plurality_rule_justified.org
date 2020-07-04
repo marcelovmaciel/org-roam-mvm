@@ -1,0 +1,320 @@
+#+TITLE: Is plurality rule justifiable?
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]]; [[file:20200522143832-plurality_rule.org][Plurality Rule]],   [[file:20200522123528-what_is_a_voting_method.org][What is a voting method?]]
+
+  - Define plurality rule
+  - Define justification
+  - justified to whom?
+  - context (even ai counts here)
+  - consequentialist/instrumental vs procedural
+  - micro vs macro (black)
+  - level (ostrom)
+  - costs (buchanan)
+
+
+* Structure so far
+
+- [X] Justifiability (act vs reason)
+- [X] Plurality rule in general
+  - [X] see it as a procedure
+  - [X] the composition of two procedures
+  - [X] From algorithms to collective decision making in humans
+- [X] Rules, criteria and context I (show that there is a connection)
+- Rules, criteria and context II
+- The case of presidential elections and in a committee of my choice
+- Empirical studies of normative judgments
+- Conclusion
+
+
+* Provisional argument
+** Introduction
+ "[[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]"
+
+Though seemly trivial the question poses a plethora of conundrums upon
+reflection. It is a general question, and a strategy of resolution is to start
+decomposing it.
+
+(fancy shading of is plurality rule and bold justifiable)
+
+Let's zoom on justifiable.
+
+"What is justifiable?"
+
+Justifiable means that an act or belief is capable of being justified - which
+means there are good reasons for the act, or that the reasons for doing it
+outweigh the reasons against it. There are two routes that can be followed here.
+One is to start after the act and see whether there are reasons that justify it.
+"Alice killed the Red Queen. Was she justified in doing so?" It amounts to
+analyzing concrete action situations. The second route is to think before any
+act at all. This is an abstract inquiry about the general justifiability of an
+act. For example: "Is killing justified?" This is the route I'll follow, though
+the example already insinuates the importance of context and we'll end up
+getting back to the first interpretation of the question.
+
+Hereafter, arguably, we can work with the following question :
+"Is using plurality rule justified?"
+
+The question begs an agent, a time and a place, but let keep them at bay, for
+now, and go to plurality rule.
+
+"What *is* plurality rule ?"
+
+It is a voting procedure. Procedure is defined here as in the colloquial
+programming parlance: a series of computational steps to be carried out. If we
+have a set of alternatives and a set of "agents", a voting procedure first
+collects information from agents regarding the alternatives, the *ballots*,
+through a *ballot procedure* that specifies what the information is, and
+*aggregation procedure* which specifies how the collected information is used to
+select one or more elements from the alternatives
+(cite:Goodin_2006,sep-voting-methods).
+
+So a voting procedure is a mechanism for making a collective choice, where
+collective choice is any situation in which there is group of agents and a goal
+of selecting an element or subset of the alternatives based on attributes of
+those agents regarding those alternatives. Notice that "agents" are not
+necessarily human individuals, but is actually a placeholder for some sort of
+information source which will be queried by the ballot procedure. A single
+individual, human, can end up using a voting procedure if he has three
+information sources and want to aggregate those sources into a choice. So a voting
+procedure might be used in a single person decision making situation. Lets
+bypass that and the fact that "agents" can also be "robots", any classifier in
+machine learning for example, animals or any information source.
+
+
+Plurality rule is the collective choice rule which asks agents for an element of the
+alternatives, their "most preferred", and chooses the one with highest count.
+
+Ok, both plurality rule and justification have been defined so the stage has
+been set for a new look at the question.
+
+"Is using plurality rule justified?"
+
+->
+
+"Is always using plurality justified?"
+
+Is sometimes using plurality rule justified?"
+
+"Is using plurality rule never justified?"
+
+To answer any those questions I'll first answer the next question:
+
+"What criteria can be used to judge a voting method?"
+
+Why disambiguate the question into three and think of criteria? Try answering
+"Is killing justified?" A quick answer can be: "If in self-defense, yes". Which
+would make it dependent on the *situation* at hand, but if the person to whom
+this question may be posed follows some kind of categorical imperative the
+quick, and unique, answer would be: "No, never." So trying to answer the
+question points us to criteria. If the criteria is "conditional" this also leads
+to the notion of *situation*.
+
+Time limits foreclose deriving the criteria from the definition of a collective
+choice.
+
+So lets start with a typology of criteria:
+
+** Principles, criteria and perspectives
+
+I'll start differentiating between a dynamic and static view, and an isolated
+and networked view of collective decision making. This will interact with
+principles and criteria.
+
+Static view are those in which the collective choice is analyzed as if a
+one-shot situation. The dual of the static view is obviously to see the
+collective choice as an iterative endeavor - the dynamic view.
+
+Also one can see the collective choice situation as a closed - isolated - system
+or as an open system which interacts with other collective choice situations in
+an "ecology" or network of such situations. 
+
+There is also a distinction about "mode of interaction": is it a collective
+choice about collective choice ("constitutional"), a collective choice about
+individual choice, or an individual choice.
+
+
+- static criteria
+  - procedural criteria
+  - epistemic criteria
+  - utilitarian criteria
+  - majoritarian criteria
+  - pratical criteria
+  - probability of paradoxes
+
+- dynamic criteria
+
+
+
+
+** cruft
+
+
+# cite:Goodin_2006 have the
+# great insight that every collective choice procedure is the composition of a
+# *ballot procedure*, which determines how information is collected from agents
+# regarding the alternatives, and an aggregation procedure which specifies how the
+# information contained in the ballots is folded into a choice. An election is the
+# most obvious example of this situation.
+
+# Whenever we have a set $A$ of
+# alternatives and some index $I$ and we want to first for each $i \in I$ select
+# with a *ballot procedure* $f^b$ some subset of $A$ which might be a singleton
+# set, a set, a vector, a list of tuples; and after applying among those ballot
+# elements use some other *aggregation procedure* that folds the result
+
+
+# From that abstract presentation it is clear that there are many "contexts"
+# situations in which a collective choice rule can be used. From a purely
+# formalist and static (we are only thinking about an isolated choice situation)
+# point of view, we have to inquiry what is the goal (prediction, legitimacy,
+# welfare), which will lead to what kind of information is being asked from
+# agents, how this information will be collected, the number of agents, the number
+# of alternatives,. Should we care about all those variables though?
+
+
+
+
+
+
+* References
+
+** On justification
+- https://plato.stanford.edu/entries/justification-public/
+- https://plato.stanford.edu/entries/reasons-just-vs-expl/
+- https://plato.stanford.edu/entries/epistemology/
+- https://plato.stanford.edu/entries/practical-reason-action/
+
+** Social choice view [7/13]
+
+General view:
+- [X] cite:Machover_2011
+  - [X] read
+  - [X] take notes
+    
+- [X] cite:Felsenthal_2011_informal
+  - [X] read
+  - [X] take notes
+
+- [X] Chapter 3 cite:Felsenthal_2011   (cite:felsenthal2012electoral)
+  - this ref is superseded by the next one
+
+- [-] cite:felsenthal2018voting (last chap has a neat summary)
+
+  - [X] read
+  - [ ] take notes
+
+- [X] cite:nitzan2009collective
+  - [X] read
+  - [X] take notes
+
+- [X] taylor
+
+- [-] Realizing Epistemic Democracy : cite:pivato2019realizing
+  - [X] read
+  - [ ] take notes
+
+- [X] nurmi on cite:laslier2019future
+
+For further criticism of the method see :
+
+- [X] cite:Laslier_2011
+
+Little bit of history:
+
+- [ ] cite:mclean14_stran_histor_social_choic_contr
+- [ ] cite:black1998theory
+- [ ] cite:brady2012formal
+- [ ] cite:mclean2012mathematical
+
+An insight from Duncan Black is that aggregation problems may occur in the individual level. For more on that see cite:oppenheimer15_infor_proces_as_parad_decis_makin.
+
+    
+** Normative References [10/10]
+
+
+- [X] cite:list2011logical
+  
+- [X] cite:sep-social-choice
+
+- [X] cite:mcginnis2000polycentric
+  - [X] read
+  - [X] take notes
+
+- [X] munger2
+  - [X] read
+  - [X] takes notes
+- [X] cite:dahl1989democracy
+  - [X] read
+  - [X] take notes
+
+- [X] shapiro chap 1
+  - [X] read
+  - [X] take notes
+
+- [X] gaus
+- [X] oppenheimer
+- [X] riker
+  - I have skimmed, it will be useful in three ways:
+    - taking a look on a discussion of mays theorem (AFTER i'm done with a first version of the presentation)
+    - his take on unfairness of voting methods which is bad and ought to pitted against berlin view
+    - his take on reducing alternatives to two (which is bad, dahl is better)
+
+
+
+
+
+
+** Zooming in plurality [4/6]
+
+- [-] list and goodin: Generalizing the Condorcet Jury Theorem
+  - [X] first pass done
+  - [ ] take notes
+- [-] cite:Goodin_2006
+  - [X] read
+  - [ ] take notes
+
+- [X] jairo nicolau
+- [X] cite:lijphart2019modelos
+- [X] cite:gallagher2005politics
+- [X] mueller (264)
+- [ ] cite:dunleavy11_analy_multip_compet_plural_rule_elect
+
+
+***  Probability of aParadoxes [0/4]
+
+- [ ] Plassmann, F., & Tideman, T. N. (2013). How frequently do different voting
+  rules encounter voting paradoxes in three-candidate elections? Social Choice
+  and Welfare, 42(1), 31–75. http://dx.doi.org/10.1007/s00355-013-0720-8  (cite:Plassmann_2013)
+
+- [ ] Chapter 9 cite:Tideman_2011
+
+- [ ] Gehrlein, W. V., & Lepelley, D. (2017). Probabilities of voting paradoxes.
+  Elections, Voting Rules and Paradoxical Outcomes, (), 27–57. http://dx.doi.org/10.1007/978-3-319-64659-6_2(cite:Gehrlein_2017)
+
+** after taking notes of everything:
+
+*normative but within social choice:*
+
+
+*epistemic view but within social choice*:
+- Realizing Epistemic Democracy - pivato
+
+*is proximate but critical:*
+- [ ] przeworski (democracy and the limits of self government)
+- [ ] elster (securities agains misrule) (introduction and conclusion)
+
+*people normative intuitions*
+- When Should the Majority Rule? Experimental Evidence for Madisonian Judgments in Five Cultures
+
+* Fleeting notes
+- Approval voting is usually presented as an alternative to plurality rule, but
+  what are the psychological properties of the rule?
+
+* Footnotes
+
+
+justifiable as acceptable
+
+do you think we could be able to justify the use of plurality rule.
+
+
+when it is used, what people think about it , is it a good idea

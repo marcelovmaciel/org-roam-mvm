@@ -1,0 +1,20 @@
+#+TITLE: The Many Types of Types – Mike Innes
+#+ROAM_KEY: https://mikeinnes.github.io/2020/05/19/types.html#fnref:3
+- tags :: [[file:20200516152708-programming.org][Programming]]; [[file:20200518163106-julia_tips.org][Julia Tips]]
+
+This is a text about the many meanings of type, particularly for julia. So what are these meanings?
+
+- as tags for identifying meaning
+  - useful for NAMING things
+- selectors for dynamic dispatch
+  - those tags are used to define how we will act upon them
+  - objects might have the same underlying memory layout but we want to act differently on them according to the tag
+- descriptions of data layout
+  - this is useful to think about the MEMORY layout of the type
+  - this is done by reducing them to their constituents until we get to the ground types of julia (similar to C)
+- annotations provided by type inference
+  - this interacts with specialisation to get us performance
+  - other languages use it for correctness as discussed below
+- hints for compiler specialisation
+- and constraints for compile-time correctness checking.
+  - not used by julia  right now

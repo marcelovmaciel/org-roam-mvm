@@ -1,0 +1,18 @@
+#+TITLE: On python
+- tags :: [[file:20200516152708-programming.org][Programming]]
+
+* Inpy,  What is poetry? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T12:14:00Z
+:FC_TYPE:  normal
+:ID:       feaf1119-eecf-4918-b65d-c5c5b6a4d2b8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T12:14:00Z |
+:END:
+
+** Back
+[[https://python-poetry.org/docs/][Introduction | Documentation | Poetry - Python dependency management and pack...]]
+It is a dependency manager and packaging tool which uses .toml . It seems useful as it emulates something similar to julia. However, the interaction with Conda.jl doesn't seem straightforward. It may be better to learn how to use conda.

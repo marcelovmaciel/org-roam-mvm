@@ -1,0 +1,20 @@
+#+TITLE: Social Simulation Beyond Coleman's boat
+
+- tags :: [[file:20200519192236-how_do_humans_compare_to_other_animals_regarding_agt.org][How do humans compare to other animals regarding AGT?]],  [[file:20200520182016-social_simulation_general.org][Social Simulation General]], [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
+
+The social simulation literature has been for years belaboring on the micro-macro link. Implicit in much their work, however, is a thin view of social life.
+There is micro-behavior of agents which lead to macro patterns, and that's it. It is no wonder that sociophycists model people using the ising model. It is an indeed an atomic view of the social world. The problem is that this is a highly brittle foundation since we don't actually know:
+- how people think or decide;
+- how much of the information processing AND choice process matters for each phenomena;
+- and in the end if it matters at all.
+
+There is much to be said, but I'll elaborate on the third point first. If there are social facts irreducible to social psychology then all interaction is mediated my those social facts and MAYBE it doesn't really matter what is the psychological basis, at least for many phenomena, and what matters are interactions among social variables. We don't have a rigorous tool set to represent and measure this though.
+
+
+
+- Sources for further studying
+  - [[http://www.sc3.center/how-do-we-build-our-agent-based-models/][How do we build our Agent Based Models? - SC3 - Center for Social Complexity]] is an example of the status quo in agent based modeling
+  - cite:Boudon_1977 is a good resource for different ways of modeling agents
+  - Maybe cite:boudon1986theories
+  - cite:Sawyer_2005 is a must
+  - Maybe something from marxists? Or bhaskar?

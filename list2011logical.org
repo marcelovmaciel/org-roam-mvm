@@ -1,0 +1,142 @@
+#+TITLE: list2011logical: The logical space of democracy
+#+ROAM_KEY: cite:list2011logical
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: list2011logical
+:NOTER_DOCUMENT: %(orb-process-file-field "list2011logical")
+:AUTHOR: List, C.
+:JOURNAL: Philosophy \& public affairs
+:DATE:
+:YEAR: 2011
+:DOI:
+:URL:
+:END:
+
+
+* How does list differentiate preferences from judgments?
+For him judgements are about agents views of  how the world *is* while preferences are the agents' views of how they *want the world to be*
+
+#+begin_quote
+Depending on the context, these attitudes can be “representational”
+attitudes, such as beliefs, or “motivational” attitudes, such as prefer-
+ences. Representational attitudes encode the way an agent represents the world as being, while motivational attitudes encode the way the
+agent wants the world to be. (p.266)
+#+end_quote
+
+
+* What are the two approachs to studing decision procedures?
+- The condorcet approach of studying specific decision procedures
+- And the axiomatic approach for studying all possible decision procedures
+- This is relevant for my discussion in [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+
+* What are the democratic platitudes of the logic of democracy?
+
+- Collective rationality
+- Basic majoritarinism
+- robustness to pluralism
+
+  As discussed by him those are "necessary" for democratic procedure narrowly
+  construed, but no decision procedure satisfies them.
+
+
+* When can we expect to use metaconsensus as a way out of the democratic trilemma?
+
+#+begin_quote
+How plausible is this escape route from the trilemma? When we
+design a democratic decision procedure for a given group or society, how
+much can we rely on the occurrence of the necessary forms of cohesion
+or partial consensus among the decision makers?
+#+end_quote
+
+There is an exogenous and an endogenous approach.
+
+
+The exogenous one is that society has to have those properties. (communitarians)
+#+begin_quote
+On the exogenous approach, a certain
+level of cohesion or attitudinal homogeneity is taken to be a precondition
+for democratic decision making. The key idea is that democracy cannot
+get off the ground unless pluralism in the relevant group or society is
+sufficiently limited.
+#+end_quote
+
+While the endogenous one is that the system itself must create this metaconsensus (dahls enlightned understanding and deliberationists in general).
+
+
+#+begin_quote
+is expected as the outcome of certain structuration processes within
+the democratic system. In particular, the aim is to set up democratic
+institutions which shape individual attitudes through education or
+deliberation in a way that enables consistent majoritarian decision mak-
+ing. 29 Those democrats who emphasize the importance of opinion for-
+mation through education, political participation, and deliberation,
+beyond the democratic decision procedure narrowly construed, are
+likely to support this response to the democratic trilemma. Even in
+Robert Dahl’s primarily procedurally oriented account of democracy,
+the presence, or promotion, of an “enlightened understanding” among
+the decision makers, which can be seen as a deliberative democratic
+ideal, is one of the broader requirements of democracy, over and above
+the thinnest necessary conditions.
+#+end_quote
+
+* What are examples of distance based decision procedures and why they matter?
+
+#+begin_quote
+distance-based decision procedures have been proposed,
+according to which the collective attitudes are chosen to minimize the
+total “distance” from individual attitudes, subject to the constraint of
+collective consistency (cite:list2011logical p.285)
+#+end_quote
+
+The kemeny method is one of them.
+
+THey are one way of breaking the majoritarian principle. (borda also breaks this)
+
+The lit about them is
+** FUrther references
+See, e.g., Sébastien Konieczny and Ramón Pino Pérez, “Merging Information under
+Constraints: A Logical Framework,” Journal of Logic and Computation 12 (2002): 773–808;
+Gabriella Pigozzi, “Belief Merging and the Discursive Dilemma: An Argument-Based
+Account to Paradoxes of Judgment Aggregation,” Synthese 152 (2006): 285–98; and Michael
+K. Miller and Dan Osherson, “Methods for Distance-Based Judgment Aggregation,” Social
+Choice and Welfare 32 (2009): 575–601.
+
+
+* What is the general template for analyzing aggregating procedures?
+
+
+
+This paper template resonates deeply with cite:patty2015aggregation
+
+
+#+begin_quote
+More abstractly, these can be described
+as “input,” “responsiveness,” and “output” conditions on a democratic
+procedure. Input conditions specify what inputs the procedure should
+accept; responsiveness conditions specify how the procedure’s outputs
+should respond to these inputs; and output conditions specify what
+formal or other constraints the resulting outputs should obey. Robust-
+ness to pluralism, basic majoritarianism, and collective rationality are
+perhaps the most paradigmatic instances of such conditions.
+#+end_quote
+
+How does this relate to Arrows theorem?
+
+#+begin_quote
+The main point for present purposes is that these five conditions can be
+neatly subdivided into input, output, and responsiveness conditions,
+following the template of the democratic trilemma. Universal domain
+and ordering are simply what the conditions of robustness to pluralism
+and collective rationality reduce to when applied to the case of prefer-
+ence aggregation, and they therefore constitute Arrow’s input and
+output conditions. Arrow’s other three conditions—the weak Pareto
+principle, independence of irrelevant alternatives, and nondictatorship
+—are instances of responsiveness conditions; they constrain the way the
+individual inputs and the collective outputs hang together. In fact, the
+latter three conditions, together with universal domain, are satisfied by
+majority rule, which falls short only with regard to ordering, as we have
+already seen. In essence, Arrow’s theorem can be described as a variant
+of the democratic trilemma in the case of preference aggregation, where
+basic majoritarianism is replaced by the conjunction of the weak Pareto
+principle, independence of irrelevant alternatives, and nondictatorship.
+#+end_quote

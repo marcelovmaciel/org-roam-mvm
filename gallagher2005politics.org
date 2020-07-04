@@ -1,0 +1,57 @@
+#+TITLE: gallagher2005politics: The politics of electoral systems
+#+ROAM_KEY: cite:gallagher2005politics
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: gallagher2005politics
+:NOTER_DOCUMENT: %(orb-process-file-field "gallagher2005politics")
+:AUTHOR: Gallagher, M. & Mitchell, P.
+:JOURNAL:
+:DATE:
+:YEAR: 2005
+:DOI:
+:URL:
+:END:
+
+* Insights for presentation
+- Electoral systems are highly diversified even inside categories (consensual or majoritarian)
+
+ #+begin_quote
+I have become more and more impressed with how
+different each country’s electoral system tends to be.
+#+end_quote
+- There is a *strong scholarly consensus* that majoritarian systems are ill-advised for heterogeneous, polarized, divided countries.
+
+  #+begin_quote
+I believe that there is a strong scholarly consensus on this
+point. Larry Diamond (1999: 104) expresses it in the following words: ‘If any generalization about institutional design is sustainable . . . it is that majoritarian systems are ill-advised for countries with deep ethnic, regional, religious, or other emotional and polarizing divisions. Where cleavage groups are sharply deﬁned and
+group identities (and intergroup insecurities and suspicions) deeply felt, the over-
+riding imperative is to avoid broad and indeﬁnite exclusion from power of any
+signiﬁcant group.’
+  #+end_quote
+
+- Though we can say that electoral systems have effects on party systems maybe the opposite is true and party systems that choose electoral systems.  Once again there is a relationship between "culture" and the choice of electoral systems
+
+  #+begin_quote
+a long-standing body of argument has it that party systems determine
+electoral systems more than vice versa (Cox 1997: 15). In Belgium, for example, it
+has frequently been suggested that to present the introduction of proportional
+representation (PR) in 1899 as having led to a multiparty system is to confuse
+cause and consequence; rather, by that stage Belgium already had a multiparty
+system and PR was introduced to preserve it (or, at least, to preserve speciﬁc parties in that system—see Chapter 20, p. 420).
+
+ Similarly, in the Netherlands PR was
+introduced to preserve an existing multiparty system (Chapter 24, p. 497). We
+might expect societies that are divided by cleavages (ethnic, linguistic, or religious)
+to be more likely than homogeneous ones to have had multiparty systems even under
+a majority electoral system and thus to be more likely to have PR. Alternatively, in
+divided societies majority systems might threaten the existence of the entire political
+system, again giving impetus to the introduction of PR (Rokkan 1970: 157).
+  #+end_quote
+- Simplicity is an important criterion, particularly for new democracies.
+ #+begin_quote
+But which of the many PR systems that are currently in use is best? For new democracies, my recommendation would be to give the highest priority to the selection of a PR system that is simple to understand and operate and that has a
+high, but not necessarily perfect, degree of proportionality. From the simplicity criterion several further recommendations can be derived: multimember election districts that are not too large (roughly in the range of 7 to 10 seats), list PR instead of the single transferable vote, and closed or almost closed lists. These choices can also be defended on additional grounds. Election districts should not be too large in
+order to minimize the distance between voters and their representatives. And closed
+(or almost closed) lists can encourage the formation of strong and cohesive political
+parties.
+#+end_quote

@@ -1,0 +1,45 @@
+#+TITLE: Social Choice Theory - General
+- tags :: [[file:20200519125138-formal_political_theory.org][Formal Political Theory]]
+
+
+* WHAT IS MISSING?
+- Statement of arrows theorem
+- statement of sens theorem
+
+* Index
+
+
+* Ideas to develop
+
+** Judgement aggregation intersection with AI
+People use bayesian networks (INSERT ROAM) to study condorcet's JT  cite:dietrich2008judgment,dietrich2013epistemic. this may be useful for AI, particularly the interface with causality!!!!
+
+** How to relate experimental results on collective choice with a violation of one those assumptions e.g deliberation leading to single peakedness ?
+
+
+
+*  What is the difference between top cycle and condorcet winner? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T17:46:08Z
+:FC_TYPE:  normal
+:ID:       cc00e301-68db-49cf-8000-b4fbe31a7df4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T17:46:09Z |
+:END:
+
+
+** Back
+This is a subtle difference, but makes the concepts completely different.
+
+A *top cycle* is defined (in cite:johnson1998social) as the following:
+
+  $$X^{\text{top}} = \{ x \in X | \text{ there is no } y \in X - X^{\text{top}} \text{ such that } yPx \}$$
+
+
+The condorcet winner on the other hand is the following: an alternative $x$ is a *condorcet winner*  in the set $S \subseteq X$ if $\forall y \in S, x P^{\text{maj}} y$ .
+
+
+As the majority relation is cyclical its possible there is no condorcet winner. And that is exactly what happens if there is  a top cycle. Elements of a top cycle would be condorcet winners IF there weren't other elements in the set. They are cyclical among themselves, but beat all other elements.

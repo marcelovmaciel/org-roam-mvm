@@ -1,0 +1,840 @@
+#+TITLE: Laslier_2011: And the loser is… plurality voting
+#+ROAM_KEY: cite:Laslier_2011
+
+
+* Summary
+
+** Insights FOR PRESENTATION
+
+-------------------------------------------------------------
+
+There is a difference between what political actors deem interesting and what specialists believe is interesting.
+
+This quote neatly illustrates that:
+
+#+begin_quote
+Many voters in our experiments spontaneously preferred range voting, begging for
+the ability of giving negative grades, or a wide range of different grades. Even
+though this would also be my favorite in an ideal world, I regret how range
+voting depends on differences in the meaning of grades among people, how it is
+manipulable – which causes strong inequalities among the voting power of
+different citizens according to their ability to manipulate. This argument, I
+admit, may be questionable in a reduced city council, but ruling out range
+voting seemed cautious in the absence of information on its size and
+composition.
+#+end_quote
+
+-------------------------------------------------------------
+
+Majority principle is related to but not the same as
+condorcet principle
+
+-------------------------------------------------------------
+
+People who go against the majority principle tend to use the utilitarian criteria
+
+  #+begin_quote
+on one atypical example of something that could
+conceivably happen to ignore an “almost-majority” minority voting bloc with strong
+preferences.
+  #+end_quote
+
+-------------------------------------------------------------
+
+Voting "paradoxes" are a criteria conditional on their likelihood.
+
+
+  #+begin_quote
+What is the likelihood that such a scenario would ever actually exist? We all
+know that such hypothetical voting situations can always be developed to make
+any voting rule appear to behave very poorly on some criterion. The only
+practical way out of this dilemma must therefore be based on the likelihoods
+that voting rules display such bad behavior.
+  #+end_quote
+
+That is, we should have a statistical/probabilistic view of voting methods behavior.
+
+-------------------------------------------------------------
+
+Manipulability results are one sided and unlikely. Also, people don't necessarily act strategically in all contexts (see [[file:20200520213408-my_project_ideas.org::*On the conditions of manipulability of voting methods][On the conditions of manipulability of voting methods]])
+
+  #+begin_quote
+Arguments about the relatively large probability with which some of these voting
+rules can be manipulated are typically based on the assumption that one group of
+voters with similar preferences can manipulate the outcome, while all other
+voters are completely naive to the situation.
+
+When it is further assumed that these other voters are aware of such
+possibilities and that they can react accordingly, the probability that the
+winner could actually be changed is significantly reduced.
+  #+end_quote
+
+For more on the likelihood of voting paradoxes see cite:gehrlein2010voting,gehrlein2017elections,Gehrlein_2017
+
+-------------------------------------------------------------
+
+Elimination systems, filtering systems, such as plurality with runoff ( with two rounds) and alternate voting, filter out the condorcet losers.
+
+-------------------------------------------------------------
+
+Approval voting can elect condorcet loser if everybody only report their first choices (unlikely)
+
+There can be ties in approval voting. That is why it has a version with a
+runoff.
+
+-------------------------------------------------------------
+
+Social procedures shouldn't be only evaluated according to its static
+properties but also according to its dynamic effects. This is an awesome
+insight.
+
+#+begin_quote
+voting procedures need to be evaluated not only in terms of their “static”
+social choice properties (e.g., Condorcet consistency, monotonicity, etc.) but
+also in terms of their “dynamic” effects, e.g., incentives for candidate entry,
+candidate ideological positioning, etc., which affect the types of preferences
+profiles that are most likely to arise.
+#+end_quote
+
+
+-------------------------------------------------------------
+borda somehow captures intensity?
+-------------------------------------------------------------
+
+Simplicity is related to trust, particularly in politics. This is related to psychology.
+
+
+** Criteria
+*** Majority principle
+
+#+begin_quote
+if there are only two candidates, they select the one preferred by a majority of
+the voters.
+#+end_quote
+
+None of the rules that allow interpersonal comparison follow this principle
+(range voting, majority judgement, leximin) as they allow minorities with strong
+preferences to overcome weakly preferring majorities.
+
+
+*** Informational requirement/basis
+This is related to simplicity but it is not the same.
+Similar to  [[file:sep-voting-methods.org][pacuit, ]] laslier also differentiates between voting methods which ask for a single alternative, those which ask for a ranking and those that require interpersonal comparisons (leximin, majority judgement, range voting).
+
+This is different from simplicity because we are talking about what the input is. It is about the "complexity" of the input.
+
+Some will argue that those voting methods which allow interpersonal comparisons
+are a priori misguided.
+
+
+*** Simplicity
+- (to explain, to cast, to count)
+
+simplicity to explain/learn/use leads to *transparency* ! of the process = voters understand the proccess of deriving results from ballots and are able to  actively take part in the process of counting votes
+
+Capacity of the rule to gain the *trust* of voters. This is related with simplicity, and how ease it is for voters to understand its logic and to follow the counting process. This is a psychological criteria.
+
+*** Intensity - Preference information into account
+
+Grading methods allow us to show: hesitation = uncertain, indifference and intensity difference in general.
+
+But also there are many problems such as whether it makes sense at all (possibility of interpersonal comparison of utility), that there is a difference in the meaning of grades for different people.
+
+*** Manipulability
+- Depends on size and composition of the electorate
+- tideman argues that this should be studied *empirically*
+*** Condorcet Principle
+
+#+begin_quote
+Condorcet Principle as a normative principle when one must elect one out of
+three or more candidates. This principle prescribes that should a candidate
+defeat every other candidate in pairwise comparisons (a Condorcet winner), it
+must be elected, and should a candidate be defeated by every other candidate in
+pairwise comparisons (a Condorcet loser), it must not be elected. This principle
+conveys the fundamental idea that the opinion of the majority should prevail, at
+least when majority comparisons pinpoint an unambiguous winner and/or an
+unambiguous loser.
+#+end_quote
+
+- See felsenthal criteria
+- Merlin has an interesting argument. Electing the condorcet winnner is not the
+  same as not electing the condorcet loser.
+- many have argued that condorcet is important but not absolute
+
+
+
+
+*** Monotonicity
+
+*** Pareto dominance
+
+
+*** Utilitarianism
+A voting method that allows minorities with strong
+preferences to overcome weakly preferring majorities.
+
+
+Laslier is an interesting case because he defends the condorcet principle in general but not if there is a possibility of being close to a tie, in which he defends an utilitarian criteria, as if one could one beforehand.
+
+Salles also defends a middle ground between majoritarianism and utilitarianism.
+
+Tideman considers that this is an statistical property.
+
+*** Has been already successfully applied
+
+
+*** Frequency of ties (decisiveness)
+
+This is a criteria one can use to defend the usage of a voting method: whether it always yields a single winner. This is particularly important in large scale elections, which mobilize millions of people. On the other hand in large elections it is not probable that there will be a tie (though may happen in kemeny).
+
+Sometimes the voting method may yield a list of winners instead of a single
+winnner. Examples are those which are condorcet consistent, and as such yield
+the list of condorcet winners. One example is the copeland winner (which is
+always in the uncovered set).
+
+
+*** Cloning and composition consistency
+
+Laffond, G., Lainé, J., & Laslier, J.-F. (1996). Composition-consistent tournament solutions and
+social choice functions. Social Choice and Welfare, 13, 75–93 (cite:Laffond_1996
+)
+
+
+
+Tideman, T. N. (1987). Independence of clones as a criterion for voting rules. Social Choice and
+Welfare, 4, 185–206. (cite:Tideman_1987
+)
+
+
+** Takes on voting methods
+
+*** Approval voting
+
+- Laslier takes the middle ground here between majoritarianism and utilitarianism, and defends approval voting as utilitarian enough since range is not simple enough and approval is. *So approved for being simple*
+
+- Laslier also defends it as good in cloning and composition consistency
+
+#+begin_quote
+Approval voting is also advisable when the set of alternatives has been loosely
+designed and contains very similar candidates.
+#+end_quote
+
+
+- ruled out by v. merlin for not being used in real political life, though he likes it a lot.
+
+- approved by nicholas miller as simple and an improvement over plurality rule if |A|>2.
+
+- defended for being simple  by plassman while avoiding plurality rule shortcomings
+
+
+One thing that stood out for me for approval voting is how many indicators can
+be computed from its output. This gives us much more information than [[file:20200522143832-plurality_rule.org][Plurality Rule]].
+
+
+
+*** Alternative vote
+
+- Ruled out by A. Baujard for lack of simplicity
+
+- V. merlin approves it as being simple and practical and does not elect the condorcet loser (he does not care about condorcet winner)
+
+- Ruled out by Salles as being complicated
+
+*** Black's rule
+- Black is Plassman preferred rule  because is not as susceptible as others to paradoxes, has a *small frequency of ties*, its discontinuity makes it *hard to manipulate*, HOWEVER it has two evaluation criteria and therefore is *not simple* to explain to voters.
+- it is also zwicker preferred rule as it is resolute
+
+*** Borda Rule
+
+- Ruled out by A. Baujard for lack of simplicity
+
+- Ruled out by V. merlin for being manipulable
+
+- Defended by nurmi for protecting minorities (dont know how)
+
+- Salles defends it somehow captures intensity. This resonates with nurmi point.
+
+
+*** Copeland's Rule
+
+- Approved by Felsenthal for being condorcet consistent (winner and loser consistency), monotonic, does not elect pareto-dominated candidates
+
+- Approved by Machover for being consistent and having additional good properties
+
+- Vincent Merlin defends it as simpler than kemeny's rule while being condorcet consistent (though he only cares about condorcet losers so it is not his favorite)
+- N. miller considers that not providing vote totals goes against the vote method
+
+
+*** Coomb's Rule
+
+- Considered by laslier a good example of condorcet consistent method
+
+
+*** Kemeny's Rule
+
+- Approved by Felsenthal for being condorcet consistent (winner and loser consistency), monotonic, does not elect pareto-dominated candidates
+
+- Approved by Machover for being consistent and having additional good properties
+
+- Considered by laslier a good example of condorcet consistent method
+
+- Ruled out by vincent merlin for not being simple
+
+- Approved by nurmi as taking preference information into account and hard to manipulate
+
+- Ruled out by Salles as being complicated
+
+- Zwicker rules it out for not being resolute. kemeny winners are rankings NOT
+  individual candidates and this may lead to ties (investigate below) that is
+  why he didnt approve it, because he values decisiveness.
+
+
+
+*** Majority judgement
+- Ruled out by A. Baujard for lack of simplicity
+
+
+*** Plurality voting
+
+- Laslier takes a middle ground between utilitarianism and majoritarianism, and says not to use it.
+
+- Vincent Merlin considers it the worst system on the list because it may elect the condorcet loser
+
+Example of it electing a condorcet loser (by cite:sep-social-choice):
+
+#+begin_quote
+an alternative that is majority-dispreferred to every other alternative may win
+under plurality rule: if 34% of the voters rank x above y above z, 33% rank y
+above z above x, and 33% rank z above y above x, plurality rule ranks x above
+each of y and z, while pairwise majority voting would rank y above z above x (y
+is the Condorcet winner).
+#+end_quote
+
+- zwicker emphasizes it sucks
+
+- It violates the weak pareto principle cite:sep-social-choice because it disregards voters lower-ranked alternatives
+
+
+*** Plurality with Runoff
+- V. merlin approves it as being simple and practical and does not elect the condorcet loser (he does not care about condorcet winner)
+
+
+*** Range voting
+
+- Ruled out by A. Baujard for being manipulable and the difference of interpretation of grades among voters
+
+- Ruled out by Felsenthal because he does not believe in interpersonal comparison of utility
+
+- Laslier takes the middle ground: good for utilitarian reasons, bad for simplicity reasons
+
+- Ruled out by V. Merlin for being manipulable
+
+
+*** Simpson's rule
+
+- Considered by laslier a good example of condorcet consistent method
+
+- defended by tideman as good in an intuitive averaging of (psychological) simplicity, (statistical) manipulability and (statistical) aggregate utility
+
+
+
+
+
+
+
+
+* ------------------------------------------------------------
+* Break - below here is what was used for creating the summary
+
+:PROPERTIES:
+:Custom_ID: Laslier_2011
+:NOTER_DOCUMENT: %(orb-process-file-field "Laslier_2011")
+:AUTHOR: Laslier, J.
+:JOURNAL: Electoral Systems
+:DATE:
+:YEAR: 2011
+:DOI:  http://dx.doi.org/10.1007/978-3-642-20441-8_13
+:URL: http://dx.doi.org/10.1007/978-3-642-20441-8_13
+:END:
+
+In this article the appendix is as important as the actual article. So I'll
+introduce the article and some stuff from it than move to the appendix.
+
+* ------------------------------------------------------------
+
+* Introducing the article idea
+It is a voting using approval voting to define which voting method is the best in the following sense:  “What is the best
+voting rule for your town to use to elect the mayor?”
+
+It is important to notice that there was still a misunderstanding due to cultural differences. Some thought this was about citizens voting for mayor while others thought it was the city council that was voting. This should be indicated when I discuss their choice and criteria.
+
+They used approval voting. The result can be seen below:
+
+[[file:./images/screenshot-05.png]]
+
+- This means that special attention should be given to approval voting,
+  alternative voting, copeland and kemeny. Plurality also was pretty bad, that
+  is a general consensus.
+
+- Another interesting data which is not in this table but is later referred in
+  the paper is that 70% of those who voted on alternative vote also voted on
+  approval voting (though the converse is 47%).
+
+
+* Preliminary discussion
+
+** Criteria
+*** Decisiveness
+This is a criteria one can use to defend the usage of a voting method: whether it always yields a single winner. This is particularly important in large scale elections, which mobilize millions of people.
+
+Sometimes the voting method may yield a list of winners instead of a single
+winnner. Examples are those which are condorcet consistent, and as such yield
+the list of condorcet winners. One example is the copeland winner (which is
+always in the uncovered set).
+
+
+*** Informational requirement/basis
+This is related to simplicity but it is not the same.
+Similar to  [[file:sep-voting-methods.org][pacuit, ]] laslier also differentiates between voting methods which ask for a single alternative, those which ask for a ranking and those that require interpersonal comparisons (leximin, majority judgement, range voting).
+
+This is different from simplicity because we are talking about what the input is. It is about the "complexity" of the input.
+
+Some will argue that those voting methods which allow interpersonal comparisons
+are a priori misguided.
+
+*** Majority principle
+
+#+begin_quote
+if there are only two candidates, they select the one preferred by a majority of
+the voters.
+#+end_quote
+
+None of the rules that allow interpersonal comparison follow this principle
+(range voting, majority judgement, leximin) as they allow minorities with strong
+preferences to overcome weakly preferring majorities.
+
+
+*** Utilitarianism
+If it a voting method  allows minorities with strong
+preferences to overcome weakly preferring majorities.
+
+(have to think a lot about that)
+
+*** Cloning and composition consistency
+
+Laffond, G., Lainé, J., & Laslier, J.-F. (1996). Composition-consistent tournament solutions and
+social choice functions. Social Choice and Welfare, 13, 75–93 (cite:Laffond_1996
+)
+
+
+
+Tideman, T. N. (1987). Independence of clones as a criterion for voting rules. Social Choice and
+Welfare, 4, 185–206. (cite:Tideman_1987
+)
+
+
+** Voting methods
+
+*** Plurality voting
+
+Was the last in the poll. This is highly relevant, I have to be really careful
+with the comparisons.
+
+From an intuitive point of view, mine, plurality does well on decisiveness -
+though statistically here - and at informational requirement. But not on
+majority principle. Actually it may even elect a condorcet loser.
+
+
+*** Approval voting
+This was the winner. Highly relevant too.
+
+- Fast and easy to use even if the number of alternatives is large
+- Good at cloning and composition consistency
+#+begin_quote
+Approval voting is also advisable when the set of alternatives has been loosely
+designed and contains very similar candidates.
+#+end_quote
+
+
+One thing that stood out for me for approval voting is how many indicators can
+be computed from its output. This gives us much more information than [[file:20200522143832-plurality_rule.org][Plurality Rule]].
+
+There can be ties in approval voting. That is why it has a version with a
+runoff.
+
+
+* Specialists views
+
+** A. Baujard
+*** Criteria
+
+- hesitation = uncertain
+- indifference
+- intensity difference
+- one criteria = simplicity to explain/learn/use
+- which leads to *transparency* ! of the process = voters understand the proccess of deriving results from ballots and are able to actively take part in the process of counting votes
+
+She also later shows to be using two other criteria:
+
+- difference in meaning of grades
+- manipulability - which depends on size and composition of the electorate
+  
+*** Takes on methods
+
+For her the simplicity criteria rules out alternative vote, borda rule, majority
+judgement.
+
+Manipulability and difference of meaning of grades rule out range voting.
+
+*** Insight
+
+There is a difference between what political actors deem interesting and what
+specialists believe is interesting.
+
+This quote neatly illustrates that:
+
+#+begin_quote
+Many voters in our experiments spontaneously preferred range voting, begging for
+the ability of giving negative grades, or a wide range of different grades. Even
+though this would also be my favorite in an ideal world, I regret how range
+voting depends on differences in the meaning of grades among people, how it is
+manipulable – which causes strong inequalities among the voting power of
+different citizens according to their ability to manipulate. This argument, I
+admit, may be questionable in a reduced city council, but ruling out range
+voting seemed cautious in the absence of information on its size and
+composition.
+#+end_quote
+
+
+** D. Felsenthal
+*** Criteria
+- Condorcet Principle is his main criteria.
+  #+begin_quote
+Condorcet Principle as a normative principle when one must elect one out of
+three or more candidates. This principle prescribes that should a candidate
+defeat every other candidate in pairwise comparisons (a Condorcet winner), it
+must be elected, and should a candidate be defeated by every other candidate in
+pairwise comparisons (a Condorcet loser), it must not be elected. This principle
+conveys the fundamental idea that the opinion of the majority should prevail, at
+least when majority comparisons pinpoint an unambiguous winner and/or an
+unambiguous loser.
+  #+end_quote
+
+- He also does not believe in interpersonal comparison of utility !!
+
+His general take for ranking is :
+
+#+begin_quote
+First,I prefer all Condorcet-consistent procedures over all
+procedures that are not Condorcet-consistent. Second, among Condorcet-consistent
+procedures I prefer those which are not vulnerable to non-monotonicity or to
+electing a Pareto-dominated candidate when a Condorcet winner does not exist; and
+among the procedures which are not Condorcet-consistent I prefer those which are
+not susceptible to one or more of the following four pathologies which I consider
+as especially serious: non-monotonicity, not electing a candidate who constitutes
+the top preference of an absolute majority of the voters (aka absolute Condorcet
+winner), electing a candidate who is a Condorcet loser or is Pareto-dominated.
+#+end_quote
+
+*** Takes on methods
+
+- He does not believe in interpersonal comparison of utility, so is against range voting
+- Approves kemeny and copeland for the following reason:
+  
+#+begin_quote
+Kemeny’s and Copeland’s procedures because they are both Condorcet-consistent
+and are not susceptible to any of the above mentioned four pathologies.
+#+end_quote
+*** Insight
+- He is pretty clear about the principles he uses. Condorcet principle
+  relationship with majority principle is something that i have to further
+  investigate.
+
+
+** W.V. Gehrlein
+*** Criteria
+- Condorcet principle over utilitarianism
+
+*** Takes on methods
+not clear. he defends approval voting and bashes plurality.
+*** Insight
+
+- He subscribes to the majority principle and that *people who go against it
+  tend to use a classic utilitarian criteria*
+  
+  #+begin_quote
+on one atypical example of something that could
+conceivably happen to ignore an “almost-majority” minority voting bloc with strong
+preferences.
+  #+end_quote
+
+- Then comes his second insight:
+  
+  #+begin_quote
+What is the likelihood that such a scenario would ever actually exist? We all
+know that such hypothetical voting situations can always be developed to make
+any voting rule appear to behave very poorly on some criterion. The only
+practical way out of this dilemma must therefore be based on the likelihoods
+that voting rules display such bad behavior.
+  #+end_quote
+
+  That is, we should have a statistical/probabilistic view of voting methods behavior.
+
+- This leads to his third insight:
+  #+begin_quote
+Arguments about the relatively large probability with which some of these voting
+rules can be manipulated are typically based on the assumption that one group of
+voters with similar preferences can manipulate the outcome, while all other
+voters are completely naive to the situation.
+
+When it is further assumed that these other voters are aware of such
+possibilities and that they can react accordingly, the probability that the
+winner could actually be changed is significantly reduced.
+  #+end_quote
+
+Actually there are two points here:
+
+- Manipulability may be something more of theoretical interest, *what are the odds?*  maybe this depends on the context. *Maybe I can connect with the idea of condition of applicability of the rational choice model (from binmore)*. Binmore considers that high stake situations are the ones that are closer to the rational actor. I can look at my dissertation to think about that, but committees are much closer to the rational choice applicability and as such amenable to manipulation. Gotta think how manipulability might happen in large scale elections and whether this happens. Large elections don't seem to be such a case.
+- Second, is that *mckelvey style results are one sided* (his second paragraph) because it assumes a subset of strategic agents vs a subset of naive agents.
+
+  For more on the likelihood of voting paradoxes see cite:gehrlein2010voting
+  
+** J.-F. Laslier
+
+*** Criteria
+condorcet consistency in general BUT NOT if society is split. If it is close to
+tie utilitarianism is preferred.
+  
+*** Takes on methods
+range > approval > condorcet consistent > ... > plurality
+
+If society is close to tie use approval voting as one way approximating the
+utilitarian outcome while being practical. Range voting is better but not as practical.
+
+If not in this close to tie situation use condorcet consistent methods (simpson, kemeny, coombs).
+
+DONT use plurality rule. 
+
+*** Insight
+none
+
+
+** M. Machover
+*** Criteria
+majority rule as a meta principle, therefore condorcet consistency. 
+
+*** Takes on methods
+copeland and kemeny are consistent and have additional properties
+
+
+*** Insight
+none
+
+
+** V. Merlin
+
+*** Criteria
+
+- simplicity/easy to understand
+
+- DOES NOT adhere to the condorcet principle (positive, condorcet winner)
+
+- BUT DOES consider that the condorcet loser should never be elected
+
+- have been successful implemented in different countries (with no major complains)
+
+- manipulability
+
+
+*** Takes on methods
+
+- Given that he considers that the condorcet loser should not be selected then he considers *plurality rule* the WORST system in the list
+
+- defends [[file:20200522143832-plurality_rule.org][Plurality Rule]] with runoff, hares rule and approval voting, but the first two more because they have already been used in real life.
+
+- Simplicity goes against many condorcet consistent methods (kemeny). If one wants to remain condorcet consistent Copeland is better - easier to explain.
+
+- borda and range are can lead to undesirable outcomes due to manipulation   
+
+*** Insight
+
+- Elimination systems, filtering systems, such as plurality with runoff ( with two rounds) and alternate voting, filter out the condorcet losers.
+
+- Approval voting can elect condorcet loser if everybody only report their first choices (unlikely)
+
+
+** N. Miller
+
+*** Criteria
+
+- simplicity (to explain, to cast, to count)
+- whether there are vote totals to appear in the newspaper hahahaha (copeland does not provide)
+
+*** Takes on methods
+- copeland does not provide vote totals
+- approval is simple and would be an improvement over plurality rule
+
+*** Insight
+That social procedures shouldn't be only evaluated according to its static
+properties but also according to its dynamic effects. This is an awesome
+insight.
+
+#+begin_quote
+voting procedures need to be evaluated not only in terms of their “static”
+social choice properties (e.g., Condorcet consistency, monotonicity, etc.) but
+also in terms of their “dynamic” effects, e.g., incentives for candidate entry,
+candidate ideological positioning, etc., which affect the types of preferences
+profiles that are most likely to arise.
+#+end_quote
+
+
+** H. Nurmi
+
+*** Criteria
+
+1. resistance to manipulability
+2. take preference information into account
+  
+*** Takes on methods
+Nanson > Kemeny > Borda > approval voting
+
+- both nanson and kemeny are c 1. and 2.
+
+- borda count does well in minority protection (nitzan??)
+
+
+*** Insight
+Approval is about support or tolerance? Does this matter?
+
+#+begin_quote
+Does the fact that I approve of a candidate mean that I can tolerate him as the
+mayor without resorting to active resistance or does it mean that I positively
+support him/her? I think this is what makes the approval voting results hard to
+interpret, but I guess a mayor that is even tolerated by more voters than any
+other candidate has at least tolerable prospects.
+#+end_quote
+
+** F. Plassmann
+*** Criteria
+
+- Condorcet
+- manipulation
+- simplicity
+- frequency of ties
+
+
+
+*** Takes on methods
+
+- Black is his preferred because is not as susceptible as others to paradoxes, has a small frequency of ties, its discontinuity makes it hard to manipulate, HOWEVER it has two evaluation criteria and therefore is not simple to explain to voters.
+- WHEN simplicity is important he defends approval. 
+
+*** Insight
+
+This mind changing hypothesis should be investigated:
+
+#+begin_quote
+I view voting as a useful mechanism for making collective decisions when
+unanimous agreement is not possible. Elections should generally be preceded by
+discussions about the candidates and the importance that the voters attach to
+the election. If a minority of voters feels strongly about some candidates while
+the other voters are almost indifferent between these candidates, then it should
+be possible for the minority to convince sufficiently many of the others to
+change their minds prior to the vote-casting process. (I believe that in cases
+of near-indifference, most people’s desire to preserve social harmony trumps
+rent-seeking.) If it is not possible to change sufficiently many voters’ minds,
+then I would interpret this as evidence that the intensity in preferences
+between the groups is not as disparate as it might appear. I therefore feel
+comfortable ignoring voting rules that take account of the intensities of
+voters’ preferences.
+
+
+
+
+#+end_quote
+
+
+
+** M. Salles
+
+*** Criteria
+
+- Not too into condorcet principle
+- but not as utilitarian as others
+- simplicity matters
+
+*** Takes on methods
+
+- borda somehow captures intensity of preferences (this should be better developed!)
+- hares rule and kemeny's rule are too complex to be used in a mayor's election
+  
+*** Insight
+the borda rule and intensity stuff. 
+
+
+** N. Tideman
+
+*** Criteria
+
+- simplicity???? It is implicit in this argument of his :
+  #+begin_quote
+What I find particularly distressing about approval voting is that it
+requires a voter to decide whether to draw a line between generally acceptable and
+unacceptable candidates, or to leave that task to other voters and instead to draw
+a line between the very best and the close contenders who are not quite as good
+  #+end_quote
+
+I dont buy this argument.
+
+- Capacity of the rule to gain the *trust* of voters. This is related with simplicity, and how ease it is for voters to understand its logic and to follow the counting process. This is a psychological criteria. ccc
+
+- the LIKELIHOOD of identifying the outcome which leads to greatest aggregate utility. UTILITARIAN but empirical.
+
+- the resistance to strategic voting BUT ONCE AGAIN EMPIRICALLY
+
+
+*** Takes on methods
+some intuitive averaging of this ideas lead him to simpsons rule.
+*** Insight
+
+Empirical view of things. trust. 
+
+
+** W. Zwicker
+
+*** Criteria
+- condorcet is interesting but not absolute
+- decisiveness is an undervalued criteria
+#+begin_quote
+I can imagine what would happen the first time some real world election yielded
+a tie among several rankings).
+#+end_quote
+
+*** Takes on methods
+
+- Plurality sucks
+
+- kemeny winners are rankings NOT individual candidates and this may lead to
+  ties (investigate below) that is why he didnt approve it, because he values
+  decisiveness.
+  
+- black is a decisive rule, that is why he chose it.
+  
+*** Insight
+
+
+* Quotes on trade-offs
+
+#+begin_quote
+But it is fair to say that most of the participants would
+say that different voting rules have advantages and disadvantages.
+#+end_quote
+
+#+begin_quote
+, it seems like false comfort
+to rely on any single absolute principle as a guide, when every choice of a voting
+rule entails trade-offs along many dimensions, about which our understanding is
+limited.
+#+end_quote
+
+

@@ -1,0 +1,10 @@
+#+TITLE: What is the multiple district paradox?
+- sources :: cite:sep-voting-methods
+- tags :: [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+
+  It is when the result changes for a voting procedure if we split the
+  population into subgroups (districts). As with the [[file:20200529170933-what_is_the_nonshow_paradox.org][What is the nonshow
+  paradox?]] this happens with all condorcet consistent paradoxes. For more on
+  that see cite:Zwicker
+
+  It can be seen as an example of Simpson's paradox.

@@ -1,0 +1,27 @@
+#+TITLE: Electoral systems: paradoxes, assumptions, and procedures
+#+ROAM_KEY: cite:felsenthal2012electoral
+
+* Notes
+:PROPERTIES:
+:Custom_ID: felsenthal2012electoral
+:NOTER_DOCUMENT: %(orb-process-file-field "felsenthal2012electoral")
+:AUTHOR: Felsenthal, D. S. & Machover, Mosh\'e
+:JOURNAL:
+:DATE:
+:YEAR: 2012
+:DOI:
+:URL:
+:END:
+
+
+* Chap 3
+Review of Paradoxes Afflicting Procedures
+for Electing a Single Candidate . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . .
+Dan S. Felsenthal
+
+
+* CHap 11
+13 And the Loser Is... Plurality Voting.. . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . 327
+Jean-François Laslier
+
+[[file:Laslier_2011.org][And the loser is… plurality voting]]

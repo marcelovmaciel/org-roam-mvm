@@ -1,0 +1,19 @@
+#+TITLE: On Voting Paradoxes
+
+- source :: cite:sep-voting-methods
+
+This is an index note to be referenced by other notes and to link references.
+* Other paradoxes i was too lazy to take notes
+- ostrogorski
+- anscombe
+* Further references
+- Fishburn, P. C. (1974). Paradoxes of voting. American Political Science
+  Review, 68(2), 537–546. http://dx.doi.org/10.1017/s000305540011737x
+  (cite:Fishburn_1974)
+
+- Nurmi, H. (1999). Voting paradoxes and how to deal with them. , (), .
+  http://dx.doi.org/10.1007/978-3-662-03782-9 (cite:Nurmi_1999)
+
+- Saari, D. G. (1989). A dictionary for voting paradoxes. Journal of Economic
+  Theory, 48(2), 443–475. http://dx.doi.org/10.1016/0022-0531(89)90037-9
+  (cite:Saari_1989)

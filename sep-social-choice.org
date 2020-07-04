@@ -1,0 +1,401 @@
+#+TITLE: Social Choice Theory - SEP
+#+ROAM_KEY: cite:sep-social-choice
+*  Notes
+:PROPERTIES:
+:Custom_ID: sep-social-choice
+:NOTER_DOCUMENT: %(orb-process-file-field "sep-social-choice")
+:AUTHOR: List, C.
+:JOURNAL:
+:DATE:
+:YEAR: 2013
+:DOI:
+:URL:
+:END:
+
+- tags :: [[file:20200519125138-formal_political_theory.org][Formal Political Theory]]
+
+* Structure
+1. History of social choice theory
+2. Three formal arguments for majority rule
+3. Preference aggregation
+4. Welfare aggregation
+5. Judgment aggregation
+6. Other topics
+
+
+
+* Things not mentioned by the entry
+  - fair division
+  - *behavioural social choice theory* (analyzing empirical evidence of voting behaviour under various aggregation rules)
+  - *empirical social choice theory* (analysing surveys and experiments on people's intuitions about distributive justice)
+  - *computational social choice theory* (analysing computational properties of aggregation rules, including their computational complexity)
+  - *theories of probability aggregation* (studying the aggregation of probability
+    or credence functions)
+  - *theories of general attitude aggregation* (generalizing two-valued judgment aggregation, probability/credence aggregation, and preference aggregation)
+  - applications to social epistemology (the analysis of group doxastic states and their relationship to individual doxastic states)
+
+- *Many of those topics are interesting and worthy of further investigation*
+
+
+
+* Flashcards
+** How Riker vs Sen interpreted the AIR?
+ :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:16:44Z
+:FC_TYPE:  normal
+:ID:       35075a1f-8f2c-49b9-8ef3-8b6e8e6d29c9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:16:44Z |
+:END:
+
+*** Back
+
+For Riker it shows the impossibility of populist democracy, while for Sen that
+ordinal preferences are not enough to make satisfactory social choices. As list
+argues, it depends on how we interpret the social welfare function. Ordinal
+preferences are easier to justify in voting methods than in welfare evaluation
+methods. Why?
+
+
+** What are extensional vs intensional definitions and how this relates to social choice? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:17:12Z
+:FC_TYPE:  normal
+:ID:       6858b702-02d1-4378-8e5a-58f0a38ba46f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:17:12Z |
+:END:
+
+*** Back
+An aggregation rule is usually defined extensionally, not intensionally: it is a
+  mapping (functional relationship) between individual inputs and collective
+  outputs, not a set of explicit instructions (a rule in the ordinary-language
+  sense) that could be extended to inputs outside the function's formal domain.
+
+**  What is the procedural argument for majority rule ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:17:31Z
+:FC_TYPE:  normal
+:ID:       f369e624-365d-4ff8-bbc1-7a0622aaa6b8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:17:31Z |
+:END:
+
+
+*** Back
+It's May's theorem:
+#+begin_quote
+ An aggregation rule satisfies universal domain, anonymity, neutrality, and positive responsiveness if and only if it is majority rule.
+#+end_quote
+
+
+
+** What is social choice theory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T22:30:02Z
+:FC_TYPE:  normal
+:ID:       984db9e6-f78b-44d2-9dda-8096ed94e52f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-20T22:30:02Z |
+:END:
+
+*** Back
+It is a cluster of models and results about the aggregation of individual inputs into collective outputs.
+
+** What is the utilitarian argument for majority rule ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:29:09Z
+:FC_TYPE:  normal
+:ID:       d40c3e1f-391f-4a74-b5e5-f9cb3dbc9a39
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:29:09Z |
+:END:
+
+*** Back
+
+The Rae-Taylor theorem.
+
+**  What are the assumptions of Arrow's theorems? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T22:28:55Z
+:FC_TYPE:  normal
+:ID:       0e3031be-dba1-4554-8d8e-bdf889c2906b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-20T22:28:55Z |
+:END:
+
+*** Back
+- Universal domain
+- Ordering
+- Weark Pareto principle
+- IIA
+- Non-dictatorship
+[[file:../imgs/Social_Choice_Theory_-_SEP/2020-04-23_18-05-14_screenshot.png]]
+
+** What other contexts beyond preference stuff such as voting or sw can we have arrow like results ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T02:13:34Z
+:FC_TYPE:  normal
+:ID:       ca5f0a3e-f73b-4875-a31b-6c9185255046
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T02:13:34Z |
+:END:
+
+
+
+*** Back
+#+begin_quote
+"It is evident that this result carries over to the aggregation of other kinds of orderings, as distinct from preference orderings, such as (i) belief orderings over several hypotheses (ordinal credences), (ii) multiple criteria that a single decision maker may use to generate an all-things-considered ordering of several decision options, and (iii) conflicting value rankings to be reconciled.
+
+Examples of other such aggregation problems to which Arrow's theorem has been applied include: intrapersonal aggregation problems (e.g., May 1954; Hurley 1985), constraint aggregation in optimality theory in linguistics (e.g., Harbour and List 2000), theory choice (e.g., Okasha 2011; cf. Morreau forthcoming), evidence amalgamation (e.g., Stegenga 2013), and the aggregation of multiple similarity orderings into an all-things-considered similarity ordering (e.g., Morreau 2010; Kroedel and Huber 2013).
+#+end_quote
+
+** When can one relax the weak pareto principle? :fc:
+
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:30:33Z
+:FC_TYPE:  normal
+:ID:       51f096e2-1f79-4e1b-83ce-4a76f92bd2b1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:30:33Z |
+:END:
+*** Back
+- When there is a spurious unanimity, one caused by mutually inconsistent reasons.
+- That is, when alternatives are uncertain prospects.
+- An imposed procedure is interesting because it respects all of arrows conditions but wpp. That is so counter-intuitive.
+
+
+
+** What are ways out of the paradox of a paretian liberal? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:30:49Z
+:FC_TYPE:  normal
+:ID:       8378fdfd-9256-457b-ad7b-14dceabe24aa
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:30:49Z |
+:END:
+
+*** Back
+- non-medllesome preferences : the weak Pareto principle can be rendered compatible with minimal liberalism only when the domain of admissible preference profiles is suitably restricted, for instance to preferences that are ‘tolerant’ or not ‘meddlesome’ (Blau 1975; Craven 1982; Gigliotti 1986; Sen 1983).
+- represent rights differently :  however, by criticizing his formalization of rights (e.g., Gaertner, Pattanaik, and Suzumura 1992; Dowding and van Hees 2003).
+
+
+** What are ways out of G-S theorem? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:33:23Z
+:FC_TYPE:  normal
+:ID:       2437e287-cb2b-49ac-80d5-260ba7aaf99e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:33:23Z |
+:END:
+
+*** Back
+- As usual, by relaxing assumptions
+
+- THe coolest, however, is to contest it computationally:
+
+#+begin_quote
+Bartholdi, Tovey, and Trick (1989) showed that, due to computational complexity,
+some social choice rules are resistant to strategic manipulation: it may be an
+NP-hard problem for a voter to determine how to vote strategically. In this
+vein, Harrison and McDaniel (2008) provide experimental evidence suggesting that
+the ‘Kemeny rule’, an extension of pairwise majority voting designed to avoid
+Condorcet cycles, is ‘behaviourally incentive-compatible’: i.e., strategic
+manipulation is computationally hard. cite:sep-social-choice
+#+end_quote
+
+
+** What is the Gibbard Satterwhaite theorem? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:33:02Z
+:FC_TYPE:  normal
+:ID:       09e8f75e-1730-4842-bfdf-774cfea4cb07
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-03T10:36:04Z |
+:END:
+
+*** Back
+Theorem (Gibbard 1973; Satterthwaite 1975): There exists no social choice rule
+satisfying universal domain, non-dictatorship, the range constraint,
+resoluteness, and strategy-proofness.
+
+#+DOWNLOADED: screenshot @ 2020-04-23 19:06:15
+[[file:../imgs/Social_Choice_Theory_-_SEP/2020-04-23_19-06-15_screenshot.png]]
+
+
+** What is a resolute scf? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:32:51Z
+:FC_TYPE:  normal
+:ID:       b1b1d788-a359-4798-9654-9ec9798cd3e1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:32:51Z |
+:END:
+
+*** Back
+A social choice rule that always produces a unique winning alternative.
+
+
+** What is the Borda Count? :fc:
+
+- source :: cite:sep-social-choice,sep-voting-methods
+
+
+
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:32:31Z
+:FC_TYPE:  normal
+:ID:       ae4ac781-0ca3-4aac-9a54-2ece7da1561c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:32:31Z |
+:END:
+
+*** Back
+
+- Its is a type of [[file:20200522164409-what_is_a_scoring_rule.org][Scoring Rule]]. In this case the scores are $(n-1,n-2, \ldots , 1,0)$ .
+- This differs from the definition below because of indexing!!!!
+
+[[file:../imgs/Social_Choice_Theory_-_SEP/2020-04-23_18-39-31_screenshot.png]]
+
+** What is triple wise value restriction ? :fc:
+- source :: cite:sep-social-choice
+
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:31:13Z
+:FC_TYPE:  normal
+:ID:       10c7601b-df7a-4f49-9f64-bb9eb7818b5e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:31:13Z |
+:END:
+
+*** Back
+- A domain restriction result that unifies other results
+- Other domain-restriction conditions with similar implications include single-cavedness, a geometrical mirror image of single-peakedness (Inada 1964), separability into two groups (ibid.), and latin-squarelessness (Ward 1965), the latter two more complicated combinatorial conditions (for a review, see Gaertner 2001). Sen (1966) showed that all these conditions imply a weaker condition, triple-wise value-restriction.
+- Sen, A. K., 1966, “A Possibility Theorem on Majority Decisions.” Econometrica, 34: 491–499.
+
+
+
+**  What are the assumptions of Condorcet's JT? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:10:12Z
+:FC_TYPE:  normal
+:ID:       e7e31d40-6a51-4d11-baf8-ad898442178e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:10:12Z |
+:END:
+*** Back
+Competence and independence.
+
+Those are empirical assumptions! There are further
+results about those assumptions. How competent or correlated voters should/can be. SEE MORE !!
+
+Kai Spiekerman also has a whole book with simulations on CJT (INSERT REFERENCE)
+
+* Ideas to develop
+
+** Judgement aggregation intersection with AI
+People use bayesian networks (INSERT ROAM) to study condorcet's JT  cite:dietrich2008judgment,dietrich2013epistemic. this may be useful for AI, particularly the interface with causality!!!!
+
+** How to relate experimental results on collective choice with a violation of one those assumptions e.g deliberation leading to single peakedness ?
+
+* What are his takes on majority rule ?
+
+This will help me with the discussion on [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+
+He gives procedural, epistemic and utilitarian arguments for majority rule. Dahl
+discusses them all too SO I have to interleave those two references.
+
+** Procedural
+
+The procedural is good old May's theorem.
+
+The interesting part is when he discusses when collective choice rules violate
+some of May's theorems.
+
+#+begin_quote
+Apart from providing an argument for majority rule based on four plausible procedural desiderata, the theorem helps us characterize other aggregation rules in terms of which desiderata they violate.
+- Dictatorships and weighted majority rules with unequal individual weights violate anonymity.
+- Asymmetrical supermajority rules (under which a supermajority of the votes, such as two thirds or three quarters, is required for a decision in favour of one of the alternatives, while the other alternative is the default choice) violate neutrality. *This may sometimes be justifiable, for instance when there is a presumption in favour of one alternative, such as a presumption of innocence in a jury decision.*
+- Symmetrical supermajority rules (under which neither alternative is chosen unless it is supported by a sufficiently large supermajority) violate positive responsiveness.
+- A more far-fetched example of an aggregation rule violating positive responsiveness is the inverse majority rule (here the alternative rejected by a majority wins).
+  #+end_quote
+
+** Epistemic
+
+Is CJT, but he discusses limitations too which might be useful. I will read cite:pivato2019realizing then come back here.
+
+It is important to keep in mind the [[file:20200520191842-what_are_the_assumptions_of_condorcet_s_jt.org][assumptions of CJT]].
+
+*** Nuance on CJT
+
+There are at least four points to be made about it. One about the competence assumption, another about the independence assumption, and yet another about the role of strategy.
+
+There is even an argument that both the assumptions cannot be realized at once.
+
+
+#+begin_quote
+ Although the jury theorem is often invoked to establish the epistemic merits of democracy, its assumptions are highly idealistic. The competence assumption is not a conceptual claim but an empirical one and depends on any given decision problem. Although an average (not necessarily equal) individual competence above 1/2 may be sufficient for Condorcet's conclusion (e.g., Grofman, Owen, and Feld 1983; Boland 1989; Kanazawa 1998),[2] the theorem ceases to hold if individuals are randomizers (no better and no worse than a coin toss) or if they are worse than random (p < 1/2). In the latter case, the probability of a correct majority decision is less than each individual's probability of a correct vote and converges to 0, as the jury size increases. The theorem's conclusion can also be undermined in less extreme cases (Berend and Paroush 1998), for instance when each individual's reliability, though above 1/2, is an exponentially decreasing function approaching 1/2 with increasing jury size (List 2003a).
+
+Similarly, whether the independence assumption is true depends on the decision problem in question. Although Condorcet's conclusion is robust to the presence of some interdependencies between individual votes, the structure of these interdependencies matters (e.g., Boland 1989; Ladha 1992; Estlund 1994; Dietrich and List 2004; Berend and Sapir 2007; Dietrich and Spiekermann 2013). If all individuals' votes are perfectly correlated with one another or mimic a small number of opinion leaders, the collective judgment is no more reliable than the judgment among a small number of independent individuals.
+
+Bayesian networks, as employed in Pearl's work on causation (2000), have been used to model the effects of voter dependencies on the jury theorem and to distinguish between stronger and weaker variants of conditional independence (Dietrich and List 2004; Dietrich and Spiekermann 2013). Dietrich (2008) has argued that Condorcet's two assumptions are never simultaneously justified, in the sense that, even when they are both true, one cannot obtain evidence to support both at once.
+
+Finally, game-theoretic work challenges an implicit assumption of the jury theorem, namely that voters will always reveal their judgments truthfully. Even if all voters prefer a correct to an incorrect collective judgment, they may still have incentives to misrepresent their individual judgments. This can happen when, conditional on the event of being pivotal for the outcome, a voter expects a higher chance of bringing about a correct collective judgment by voting against his or her own private judgment than in line with it (Austin-Smith and Banks 1996; Feddersen and Pesendorfer 1998).
+#+end_quote
+
+
+** Utilitarian
+Here is the rae theorem that is used. Here the cite:pivato2015condorcet article is probably useful.
+
+#+begin_quote
+
+Another consequentialist argument for majority rule is utilitarian rather than epistemic. It does not require the existence of an independent fact or state of the world that the collective decision is supposed to track. Suppose each voter gets some utility from the collective decision, which depends on whether the decision matches his or her vote (preference): specifically, each voter gets a utility of 1 from a match between his or her vote and the collective outcome and a utility of 0 from a mismatch.[3] The Rae-Taylor theorem then states that if each individual has an equal prior probability of preferring each of the two alternatives, majority rule maximizes each individual's expected utility (see, e.g., Mueller 2003).
+
+Relatedly, majority rule minimizes the number of frustrated voters (defined as voters on the losing side) and maximizes total utility across voters. Brighouse and Fleurbaey (2010) generalize this result. Define voter i's stake in the decision, di, as the utility difference between his or her preferred outcome and his or her dispreferred outcome. The Rae-Taylor theorem rests on an implicit equal-stakes assumption, i.e., di = 1 for every i ∈ N. Brighouse and Fleurbaey show that when stakes are allowed to vary across voters, total utility is maximized not by majority rule, but by a weighted majority rule, where each individual i's voting weight wi is proportional to his or her stake di.
+#+end_quote

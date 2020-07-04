@@ -1,0 +1,485 @@
+#+TITLE: dahl1989democracy: Democracy and its critics
+#+ROAM_KEY: cite:dahl1989democracy
+
+
+* Insights para a apresentação
+
+- Os pressupostos e critérios de um processo democrático tem que ser memorizados
+- A associação politica esta relacionada a fins e regras para alcançar esses
+  fins. Implícito aqui é o argumento de buchanan e munger que para cada membro
+  fazer parte da associação em si é uma decisão a ser considerada (exit). (p167)
+- Tomada de decisão coletiva tem ao menos dois estágios: seleção da agenda e a
+  decisão em si. Pensar a decisão sem pensar agenda é falho. (p168)
+- Tomada de decisão é dada numa ordem, numa rede decisional, e é algo diacrônico.
+- O critério da igualdade do voto não estabelece qual método de votação ou eleição (p173)
+- O critério de igualdade de voto não é igual ao domínio absoluto e geral da maioria (p173)
+- Não existe uma única regra de votação que deriva do principio da maioria (p183)
+- O critério da compreensão esclarecida pode ser usado para contestar a regra da
+  pluralidade (dado que ela esconde informação) (p. 177)
+- Ter duas alternativas na verdade pode ser ruim, pois pode haver framing ou não
+  ser a meaningful choice.
+- Inclusividade é o principio mais estranho. Ele ta bypassing o tradeoff entre
+  inclusividade e meaningful participation, mas no fim a exclusão atenta contra
+  a igual consideração de interesses (p.205).
+- Se a igualdade política em suas variações, nos pressupostos, é válida em um
+  contexto decisional então o processo democrático, avaliado pelos critérios, é
+  justificado. Isso é importante para julgar uma regra de decisão. Nem toda
+  tomada de decisão tem por pressuposto a igualdade politica, mas se for dahl
+  nos dá os critérios para agir baseados nesse pressuposto. (p 207)
+- Ser decisiva, prática e aceitável para agentes são critérios para avaliar
+  regras de decisão (p213).
+- Há uma diferença entre defender o principio da maioria necessário num sistema
+  democrático e defender que ele é suficiente (p. 211/214). Ser suficiente seria
+  ser contrário a blocking minorities, mas essa é uma visão muito restrita.
+- O majoritário defende o APELO INTUITIVO da regra. E reconhece que embora haja
+  apelo não necessariamente há justificativa racional. Entao o apelo intuitivo é
+  uma DESCULPA para utilizá-la (p. 214).
+
+- Pressupor que os limites da associação política são fixos exclui a
+  possibilidade de fazer política sobre eles e que a "secessão" seja melhor
+  (p.217).
+
+- O axioma da neutralidade em May leva a discussao em que medida o status quo
+  deve ser defendido ou nao. Pode ser que o status quo defenda o sofrimento, mas
+  pode ser que ele defenda minorias. O axioma da neutralidade assim não é
+  inocente. Liberais tem um ponto, mas da mesma forma os democratas tem um ponto
+  que ele pode causar perpetuação de desigualdades (p. 219). Esse critério,
+  portanto, não é absoluto numa ORDEM politica democrática, e seu valor deve ser
+  pensado em termos holistas, diacrônicos e contextuais.
+
+- A visão simétrica e estática de utilidade é fraca - pelos pressuposto absurdo
+  de simetria e por ignorar a possibilidade de secessão, mas a visão dinâmica é
+  usada por shapiro e przeworski e vale ter em mente, dado que dinâmica e
+  sistêmica (p. 225-6).
+
+- Não é claro o que o principio da maioria requer quando há mais de duas
+  alternativas. Ele NAO é necessariamente traduzido pela pluralidade (p.
+  227-230)
+
+- Quais os agentes e quais as alternativas não devem ser tomados como dados.
+  Isso é tipico de uma visão sincrônica e isolada da tomada de decisão. A saída
+  é um mecanismo que não deve ser ignorado, tanto para indivíduos quanto para
+  minorias insatisfeitas. (p. 231)
+
+- O principio da maioria é diluidíssimo em sistemas representativos, as pessoas
+  se abstém, a pluralidade pode levar a minorias elegendo maiorias parlamentares
+  e logo não representando o principio da maioria (p. 234).
+
+- Um governo de minorias não só é um fato, como também pode ser normativamente
+  interessante - desde que não haja captura de questões (eu que estou dizendo
+  aqui) (p. 237).
+
+- Ele argumenta que usar supermaioria universalmente atentaria contra a
+  *sensibilidade moral* das pessoas e isso previne sua adoção, generalizada (p.
+  242).
+
+- Na (pagina 242) ele argumenta que um compromisso entre maioria simples e
+  supermaiorias seria exatamente definir por maioria simples quais questões são
+  tema de maioria simples ou de supermaiorias. Isso difere bastante da visão de
+  cite:buchanan1962calculus e de cite:munger2015choosing.
+
+- A critica de cite:coleman1986democracy a cite:riker1982liberalism levanta
+  questões interessantes sobre sinalização. 
+
+- Das bases sociais do majoritarianismo (p 253)
+
+
+
+*  Notes - Democracy and its critics
+:PROPERTIES:
+:Custom_ID: dahl1989democracy
+:NOTER_DOCUMENT: %(orb-process-file-field "dahl1989democracy")
+:AUTHOR: Dahl, R. A.
+:JOURNAL:
+:DATE:
+:YEAR: 1989
+:DOI:
+:URL:
+:END:
+
+** P166 Logica de Dahl para pensar o processo democrático
+1. Ele dá os pressupostos que *justificam* *qualquer* associação política;
+2. Depois dá os pressupostos que *justificam* a associação política *democrática*;
+3. Depois dá os *5 critérios essenciais a associação ser democrática* e conecta com os pressupostos
+
+** P167 Quais os pressupostos de qualquer ordem política?
+
+Primeiro ele estipula que as pessoas se associam tendo por objetivo alcançar
+certos fins, que são melhor servidos por meio dessa associação (conexão aqui com
+cite:buchanan1962calculus e cite:munger2015choisinha). Para ter os objetivos
+alcançados a associação estabelece regras de conduta que ao fazer parte da
+associação são obrigatórias aos membros, são /vinculativas/. Essa
+obrigatoriedade leva à noção de punição. Essa punição não necessariamente está
+relacionada ao Estado, isso é verdade para qualquer tipo de associação.
+
+A tomada de decisões vinculativas, feita de forma coletiva, para
+cite:dahl1989democracy tem dois estágios: o *estabelecimento da agenda e a
+decisão quanto ao resultado*.
+
+O estabelecimento da agenda é quando é decidido quais os temas a serem objeto de
+tomada de decisão. Já a decisão quanto ao resultado pode ser chamada também de
+*estágio decisivo* e é quando se determina qual afinal o curso de ação.
+
+Essa separação entre dois estágios na tomada de decisão coletiva é altamente
+relevante para a problemática de [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]], pois a regra
+decisional pode parecer versar somente sobre o estágio decisivo, mas a
+determinação da agenda é igualmente relevante. Um caso típico é o uso de
+referendos e plebiscitos que enviesam a tomada de decisão ao /frame/ a
+apresentação do problema objeto de disputa. As vezes no /agenda setting/ já está
+posto um viés em favor a uma posição.
+
+Mas, afinal, o que é um estágio decisivo?
+#+begin_quote
+Adotar un1a constituição ou uma emenda constitucional é, sem dúvida, um estágio
+decisivo (e se não for, a constituição é fictícia, só existe no papel). Para a
+maioria das políticas sancionadas numa ordem democrática, porém, o estágio
+decisivo ocorre dentro dos limites constitucionais existentes. *Em princípio, um
+estágio é decisivo quando todas as decisões prévias poden1 ser revogadas ou
+revertidas.*
+#+end_quote
+
+** P169 Quais os pressupostos que justificam uma ordem democrática? 
+- Nenhum legislador está acima da lei;
+- O bem de cada membro merece igual consideração;
+- Cada membro da associação é de forma geral o melhor juiz de seus próprios interesses.
+- No estágio decisivo as visões de cada cidadão devem ser tomadas como
+  igualmente válidas (neutralidade aqui hein)
+- (justiça) As coisas raras e valiosas devem ser distribuídas de forma justa 
+** P171 Os critérios são ideais
+Ele enfatiza que os 5 critérios para um processo de tomada de decisão ser
+democrático são ideais. Ele está aqui assumindo que é uma posição /maximalista/.
+
+
+** Quais são os 5 critérios para uma ordem/processo ser democrático?
+
+*** Participação efetiva
+
+#+begin_quote
+Ao longo de todo o processo de tomada de decisões vinculativas, os cidadãos devem ter uma oportunidade adequada e igual de expressar suas preferências quanto ao resultado final. Devem ter oportunidades adequadas e iguais de colocar questões na agenda e de expressar seus motivos para endossar um resultado e não outro.
+#+end_quote
+
+Destrinchemos esse paragrafo. Primeiro ele deixa um pouco vago e fala em "processo de tomada de decisões vinculativas". Isso quer dizer que na verdade ele está falando em termos "holísticos" sobre todo o curso de uma associação. *É uma visão diacrônica e holista de política*, e dentro dessa visão processual as pessoas tem que ter oportunidade *IGUAL* de:
+
+- expressar a opinião sobre o resultado final
+- colocar questões na agenda
+
+Isto é, participação efetiva é um critério relacionado à igual oportunidade de participação nos dois estágios analíticos da tomada de decisão coletiva.
+
+
+*** Igualdade de voto no estágio decisivo
+
+
+#+DOWNLOADED: screenshot @ 2020-06-11 16:43:00
+[[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_16-43-00_screenshot.png]]
+
+O foco aqui é em assegurar algo como o anonimato de May NO ESTAGIO DECISIVO. Obvio que isso depende da vaga noção de estágio decisivo, e anonimato de May é minha interpretação do que Dahl ta defendendo ao falar em "expressar uma *escolha* que será contada como *igual em peso* à escolha expressa por qualquer outro cidadão." Isso equivale ao anonimato de May.
+
+O que esse critério /não/ especifica é tão, no meu caso mais, importante quanto o que ele especifica. Particularmente, ele não especifica nem o método de sufrágio nem o domínio da maioria. 
+
+*** Compreensão esclarecida
+
+#+DOWNLOADED: screenshot @ 2020-06-11 17:37:57
+[[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_17-37-57_screenshot.png]]
+
+
+Esse critério traz consigo a importância da mídia, mas também pode ser usado numa provocação contra a "pluralidade".
+
+O próximo quote deixa isso mais claro:
+
+#+DOWNLOADED: screenshot @ 2020-06-11 17:40:27
+[[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_17-40-27_screenshot.png]]
+
+
+Isso aqui da muito pano na manga para criticar o uso da regra da pluralidade.
+
+*** Controle da agenda
+
+Isso aqui é bem sutil. Primeiro exemplos do que não é democrático.
+
+- Pode ter *controle externo da agenda* (um invasor decide que as coisas importantes, politica externa por exemplo, não estão na alçada do /demos/ ).
+
+- Pode ter *manipulação interna* também via golpismo interno e sutil onde a
+  constituição é mudada e as pessoas novamente só decidem sobre um conjunto de
+  temas. O controle não precisa nem ser via mudança constitucional, pode ser só
+  ameaça mesmo (militares).
+
+Vamos então a declaração do critério:
+
+#+DOWNLOADED: screenshot @ 2020-06-11 18:05:55
+[[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_18-05-55_screenshot.png]]
+
+Esse controle final da agenda está intimamente relacionado à noção de *soberania
+popular*.
+
+Esse critério *não* impede a delegação, desde que o demos possa recuperar a questão para si.
+O critério sendo assim se conecta com os pressupostos de igualdade, e equivale a dizer que o demos é o melhor juiz de sua própria competência e de seus limites logo pode delegar esferas DESDE que em ultima instancia o demos possa retomar. Isso separa a delegacao da alienacao. Vou chamar isso de *reclaiming proviso*. 
+
+*** Inclusividade
+
+#+DOWNLOADED: screenshot @ 2020-06-11 18:17:25
+[[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_18-17-25_screenshot.png]]
+
+Dahl também discute que grupos que grupos excluídos da cidadania não tem seus
+interesses apropriadamente considerados. Isso é obvio se pensarmos no /principle
+of affected interest/.
+
+
+** P174 O que é um processo democrático num sentido limitado?
+
+Quando o processo atende os critérios de participação efetiva e igualdade de voto no estágio decisivo.
+
+Com esses critérios já podemos afirmar duas comparações:
+
+- a tomada de decisão de uma amostra aleatória da população é melhor que a ditatorial
+- que é melhor cada um ter um voto do que uma pessoa ter 10 e outros nenhum.
+
+
+** P207 Criterios dahlsianos e igualdade
+
+Subjacente aos pressupostos e critérios está a ideia de *igualdade politica*.
+
+Então se a igualdade política em suas variações, nos pressupostos, é válida em
+um contexto decisional então o processo democrático, avaliado pelos critérios, é
+justificado. Isso é importante para julgar uma regra de decisão. Nem toda tomada
+de decisão tem por pressuposto a igualdade politica, mas se for dahl nos dá os
+critérios para agir baseados nesse pressuposto.
+
+Esse quote resume:
+
+#+DOWNLOADED: screenshot @ 2020-06-11 18:53:02
+[[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_18-53-02_screenshot.png]]
+
+
+
+** P219/239 Neutralidade e democracia
+
+O axioma da neutralidade em May leva a discussao em que medida o status quo
+deve ser defendido ou nao. Pode ser que o status quo defenda o sofrimento, mas
+pode ser que ele defenda minorias. O axioma da neutralidade assim não é
+inocente. Liberais tem um ponto, mas da mesma forma os democratas tem um ponto
+que ele pode causar *perpetuação de desigualdades* (p. 219). Esse critério,
+portanto, não é absoluto numa ORDEM politica democrática, e seu valor deve ser
+pensado em termos holistas, diacrônicos e contextuais.
+
+Enquadrar como status quo vs mudança é uma forma abstrata. A questão é que
+status quo? O principio da neutralidade é quebrado em juris (presunção da
+Inocência), em emendas constitucionais, em direitos da entes federativos, de
+minorias regionais ou linguísticas (p. 239).
+
+# ---------------------------------------------------------------------------
+
+Na (pagina 242) ele argumenta que um compromisso entre maioria simples e
+supermaiorias seria exatamente definir por maioria simples quais questões são
+tema de maioria simples ou de supermaiorias. Isso difere bastante da visão de
+cite:buchanan1962calculus e de cite:munger2015choosing.
+
+
+** P224-226/238 Utilidade e regra da maioria
+
+Aqui o majoritário faz uma defesa da regra da maioria pela via utilitária.
+Supondo utilidade igual em termos de ganho perda -soma zero- regra da maioria
+maximiza utilidade do grupo. Se em todas as questoes as mesmas pessoas fossem a
+maioria sempre e supondo soma zero regra da maioria ainda maximizaria a
+utilidade do grupo, mas como posto por dahl isso ta pressupondo limites fixos de
+associação - secessão seria melhor para a minoria nesse caso.
+
+Se adicionar um pressuposto dinâmico de /shifting majorities/ em que a minoria
+num tempo pode virar maioria em outro então na média regra da maioria maximiza a
+utilidade. Esse argumento é usado por Shapiro também. A expectativa e
+possibilidade de vitória traz estabilidade ao sistema. O contrafactual aqui é a
+guerra. Na competição eleitoral democrática a possibilidade de vitoria faz com
+que o conflito social seja controlado.
+
+# -------------------------------------------------------------------------------
+
+A resposta obvia dada na (pagina 238) é que pressupor o ganho médio se uma
+alternativa A é adotada é igual a perda média pra minoria contraria a ela é
+errôneo. Pode haver *diferença de intensidade* - benefícios modestos pros
+vencedores, mas grande perdas pros perdedores.
+
+O argumento de dahl pressupõe que seria necessário alguma forma de guardiania
+para fazer a defesa desse argumento (ver p.238-9), mas na verdade é só defender
+votos com grades.
+
+
+** P227 Pluralidade e Maioria
+O principio da maioria só é obvio quando só há duas alternativas. Quando há mais que duas não é obvio como seguir esse principio.
+
+Por exemplo, quando há 3 alternativas pode acontecer de NENHUMA alternativa ter mais de 50% dos votos (exemplo na 228).
+
+Aí um majoritário pode defender o pairwise majority voting.
+
+Mas podem rolar maiorias cíclicas (exemplo na pagina 229).
+
+Aí se houver ciclos, o majoritario defende pluralidade, mas no próprio exemplo
+fica posto que uma maioria NAO quer a alternativa. Ou seja o principio da
+maioria estaria levando a eleição do preferido da minoria. Essa é a solução do
+majoritario também para o problema da manipulabilidade da agenda na ocorrência
+de ciclos. Se os ciclos ocorrem e usarmos pairwise majority voting temos o
+problema de que o resultado da eleição vai depender da ordem do pareamento. O que é profundamente anti-democrático dado que atenta contra o critério do controle final da agenda. 
+
+Eu vou alem de dahl.
+
+Se supormos que não ha ciclo, o plurality nao necessariamente vai eleger o condorce winner. Nao é condorcet consistent.
+
+Pior. Ele pode eleger o pior candidato no pairwise, isto é eleger o condorcet loser.
+
+Ademais, quando estamos elegendo candidatos sistemas proporcionais representam melhor a proporção e logo a maioria (machover e felsenthal aqui preciso sacar.)
+
+
+** P231 Sobre os limites da decisao coletiva
+
+Na verdade são dois limites: o sobre as alternativas e o sobre os agentes (dahl n frame assim).
+
+Primeiro existe a possibilidade de certas questões não serem decididas pela coletividade, mas sim autonomamente pelos indivíduos. Obvio que isso leva ao problema de quais questões são tema de ação coletiva e quais não e como definir isso.
+
+Isso ta conectado com o problema dos limites da unidade, de quais agentes fazem parte da associação. Se uma minoria se sente no direito de se separar o principio da maioria nada diz sobre isso. Aqui ele discute um exemplo de uma minoria permanente.
+
+E ta aqui uma conexão com /exit x voice/. cite:munger2015choosing discute isso de alguma forma. A saída pode muito bem para o indivíduo ou grupo de individuos ser uma alternativa melhor do que se submeter à tomada de decisão coletiva. Depende dos ganhos de se manter na associação serem menores que os custos. Na sociedade civil fica claro isso, mas nos Estados não é tão claro por eles serem tão custosos de se sair.
+
+
+** P234-5/247 diluição do principio da maioria em democracias concretas
+
+Qualquer principio de tomada de decisão coletiva tem que ser chocado com a
+realidade da politica de larga escala moderna.
+
+E dois fatos são básicos: as pessoas se *abstêm* e os sistemas são
+*representativos*, baseados na delegação.
+
+A abstenção acontece muito inclusive em esquemas de democracia direta MODERNOS
+feito assembleias municipais ou orçamentos participativos da vida.
+
+Essa frase de Dahl resume perfeitamente a problemática:
+
+#+begin_quote
+Quando você fala do domínio da maioria nó mundo real, que maioria você tem em
+mente: a maioria dos cidadãos, dos elei tores ou dos legisladores?
+#+end_quote
+
+Ainda na temática delegação ele nota que em sistemas eleitorais onde o voto no
+legislativo é baseado na pluralidade é possível que uma maioria parlamentar seja
+resultado de minoria de eleitores - mesmo quando há elevada participação (ver
+nicolau).
+
+O majoritário nesse caso defende sistemas de representação proporcionais
+(listas), mas então pluralidade aqui NÃO representa o diluído domínio da
+maioria.
+
+# ------------------------------------------------------------------------
+Bicameralismo é /widespread/, mas atenta também contra o principio da maioria
+(p. 247).
+
+** P 236-8 Do atenuamento do principio da maioria ao governo das minorias
+
+Mesmo que na teoria tomemos o domínio da maioria como a melhor regra de decisão
+na prática ele é tão atenuado a ponto de ser substituível em certas
+circunstâncias.
+
+Saindo da teoria normativa ideal e entrando num campo de teoria normativa
+"realista" dahl considera que nas poliarquias o que ocorre é um *domínio de
+minorias*.
+
+Em contraposição aos elitistas, contudo, não é sempre a mesma minoria. Maiorias
+podem ser pensadas como coalizões de minorias, coalizões que mudam a cada
+instante e tem interesses díspares em diferentes questões.
+
+E isso NÃO é simplesmente um argumento "positivo". Do ponto de vista diacrônico
+esse sistema pode ser melhor que o domínio da maioria. Como assim? A cada
+instante coalizões de minorias governam e subgrupos são afetados positivamente e
+negativamente em diferentes questões, mas ao longo do tempo são melhor servidos
+que pelo domínio contínuo de uma "maioria". Aqui ele ta fazendo um argumento a
+la tocqueville, pensando no time e ensemble average de um processo estocástico.
+
+
+
+
+** P 241 Dois sentidos de unanimidade
+Dahl relembra que é bem diferente você assumir que SE houver unanimidade uma
+alternativa deve ser adotada (principio de pareto) e assumir que uma alternativa
+deve ser adotada SOMENTE SE houver unamidade (regra de decisão).
+** P240/255 Da circunstacialidade das regras de decisão
+
+O princípio da maioria não é absoluto, ele tem suas falhas e o processo
+democrático não o exige em TODAS as circunstancias. Contudo, não há uma
+alternativa *globalmente superior* a ele. A melhor regra de decisão é
+circunstancial.
+
+#+begin_quote
+As falhas no domínio da maioria apontadas pelo Crítico
+causam *grande estrago* no argumento dos majoritários se­
+gundo o qual o processo democrático necessariamente exige
+o domínio da maioria em *todas* as decisões coletivas. Porém,
+da proposição inatacável de que o domínio da maioria é im­
+perfeito - talvez, com efeito, altamente imperfeito - não podemos passar diretamente à conclusão de que ele deve ser
+substituído por uma regra alternativa para a tomada de decisões coletivas. Antes de chegar a essa conclusão, precisarfa­
+mos saber se uma *alternativa globalmente superior* pode ser
+encontrada. Como veremos, as *alternativas ao domínio da
+maioria também são profundamente defeituosas*. (p. 244)
+#+end_quote
+
+
+#+begin_quote
+Portanto, a conclusão de nossa exploração do domínio
+da maioria é a seguinte: *a busca por uma única regra capaz de especificar como as decisões coletivas deven1 ser tomadas num sistema governado pelo processo democrático está
+fadada ao fracasso. Parece não existir uma regra assim.*
+
+
+Por outro lado, os *defeitos no domínio da maioria são
+graves demais para ser ignorados. Eles nos forçam a considerar com o máximo de ceticismo a afirmação de que a democracia necessariamente exige o domínio da maioria.*
+
+*Entretanto, temos o direito de reservar o mesmo grau de ceticismo para as afirmações de que uma alternativa qualquer seria claramente superior ao domínio da maioria ou mais compatível com o processo democrático e seus valores, pois todas as alternativas ao domínio da maioria são também gravemente defeituosas.*
+
+*Podemos concluir sensatamente, portanto, que os juízos quanto à melhor regra para as decisões coletivas devem
+ser feitos somente após uma avaliação cuidadosa das circunstâncias nas quais essas decisões provavelmente serão tomadas.*
+#+end_quote
+
+Poderíamos rearranjar esse texto para o seguinte formato:
+
+#+begin_quote
+[...] os defeitos no domínio da maioria são
+graves demais para ser ignorados. Eles nos forçam a considerar com o máximo de ceticismo a afirmação de que a democracia necessariamente exige o domínio da maioria.*
+
+Entretanto, temos o direito de reservar o mesmo grau de ceticismo para as afirmações de que uma alternativa qualquer seria claramente superior ao domínio da maioria ou mais compatível com o processo democrático e seus valores, pois todas as alternativas ao domínio da maioria são também gravemente defeituosas.
+[...]
+
+a conclusão de nossa exploração do domínio da maioria é a seguinte: a busca por
+uma única regra capaz de especificar como as decisões coletivas deven1 ser
+tomadas num sistema governado pelo processo democrático está fadada ao fracasso.
+Parece não existir uma regra assim. [...] os juízos quanto à melhor regra para
+as decisões coletivas devem ser feitos somente após uma avaliação cuidadosa das
+circunstâncias nas quais essas decisões provavelmente serão tomadas.
+
+#+end_quote
+** P 243-4 Critica ao liberismo de riker
+
+Riker argumenta que os resultados de métodos de votação são arbitrários, e o que
+importa em politica no final é somente punir incumbentes com mal comportamento.
+Como cite:coleman1986democracy discutem isso é um argumento /self-defeating/ na
+medida em que se seguirmos a logica de riker nem "punir incumbentes" teria algum significado. 
+
+#+begin_quote
+Se é impossível interpretar os resultados das eleições de um modo racional, as
+autoridades destituídas de seus cargos sob o sistema eleitoral P talvez não
+tivessem sido destituídas sob o processo Q e assim por diante. Corno, portanto,
+podemos interpretar a destituição das autoridades como urna expressão de
+descontentamento com seu desempenho? *Corno podemos esperar das autoridades que
+levem em conta sinais tão ambíguos na hora de decidir como se comportar?*"
+(Coleman e Ferejohn 1986, 21).
+#+end_quote
+
+
+Esse argumento sobre sinalização é importante. A regra da pluralidade esconde
+informação relevante inclusive para as autoridades. Esse é um ponto que posso fazer.
+
+** P 252-3 Consensualismo, majoritarianismo e democracia
+Dahl argumenta que países consensuais (duas casas, controle de
+constitucionalidade, sistema proporcional) não são menos democráticos, ou ao
+menos que não podemos afirmar isso. Ele argumenta que
+
+$\Bigg{\text{\textbf{faltam estudo comparativos sobre o comprometimento de cidadãos de diferentes sistemas com o ideal democrático.}}}$
+
+Ele considera que o uso do principio da maioria pode variar numa sociedade a
+depender de condições sociais como homogeneidade, expectativa de alternância de
+poder e confiança da minoria.
+* Further references
+- cite:krouse1982polyarchy

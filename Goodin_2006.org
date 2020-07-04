@@ -1,0 +1,13 @@
+#+TITLE: Goodin_2006: A conditional defense of plurality rule: generalizing may’s theorem in a restricted informational environment
+#+ROAM_KEY: cite:Goodin_2006
+
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+
+* A conditional defense of plurality rule: generalizing may’s theorem in a restricted informational environment
+  :PROPERTIES:
+  :Custom_ID: Goodin_2006
+  :URL: http://dx.doi.org/10.1111/j.1540-5907.2006.00225.x
+  :AUTHOR: Goodin, R. E., & List, C.
+  :NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/Goodin_2006.pdf
+  :NOTER_PAGE:
+  :END:

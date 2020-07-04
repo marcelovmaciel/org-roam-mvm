@@ -1,0 +1,14 @@
+#+TITLE: Fairness in Ml through social choice
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
+
+ Machine learning has many problems related to social choice theory, particularly dealing with trade-offs, and its own impossibility results.
+
+The idea is to connect the literature of social choice with this literature. The
+crazy thing is that in the end this is a recurrent theme in my readings.
+
+
+* Further references
+- cite:langville2011google,langville2012s
+- [[https://www.youtube.com/watch?v=MwgYf-6R4FM][Just Machine Learning - YouTube]]
+- [[https://fairmlclass.github.io/][CS 294: Fairness in Machine Learning]]
+- [[https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb][A Tutorial on Fairness in Machine Learning - Towards Data Science]]

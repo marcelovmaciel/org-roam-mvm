@@ -1,0 +1,268 @@
+#+TITLE: (sep-voting-methods) Voting Methods
+#+ROAM_KEY: cite:sep-voting-methods
+
+:PROPERTIES:
+:Custom_ID: sep-voting-methods
+:NOTER_DOCUMENT: %(orb-process-file-field "sep-voting-methods")
+:AUTHOR: Pacuit, E.
+:JOURNAL:
+:DATE:
+:YEAR: 2019
+:DOI:
+:URL:
+:END:
+
+
+
+* What are the main contributions of computational SC? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-06-30T20:37:20Z
+:FC_TYPE:  normal
+:ID:       701cd2a7-b4e5-448e-ba6c-e73acb814183
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-06-30T20:37:20Z |
+:END:
+
+** Back
+
+
+- source :: cite:sep-voting-methods
+  One is to use algorithms analysis to study complexity of manipulation (both
+  meanings). The second is to view voting as an optimization problem. Two
+  references that take this view are:
+  - cite:Boutilier_2015
+
+  - cite:Pivato_2015
+
+
+
+* What are characterization results in social choice? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-06-30T21:08:51Z
+:FC_TYPE:  normal
+:ID:       86b0492c-eb6e-438c-a44f-3d8231eb9426
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-06-30T21:08:51Z |
+:END:
+
+- source :: cite:sep-voting-methods
+** Back
+It is to model mathematically a voting procedure and derive it from atomic
+definitions and to show it is subject to some axioms.
+
+  For characterizations of majority rule see:
+  - cite:A_an_2002
+
+  - cite:May_1952
+
+For characterizations of scoring rules see:
+- cite:chebotarev1998characterizations
+- cite:Merlin_2003
+
+For a general framework for characterizing abstract scoring rules see:
+- cite:Myerson_1995
+- cite:Gaertner_2012
+- cite:Mac__2018
+
+
+*  What is Negative Voting? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-06-30T21:10:34Z
+:FC_TYPE:  normal
+:ID:       d01994a5-2945-4499-a918-1338ce48664c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-06-30T21:10:34Z |
+:END:
+
+- source :: cite:sep-voting-methods
+** Back
+  Each voter can voter for or against a single candidate. The winner is the candidate with highest score.
+*  What is approval-voting ?  :fc:
+- sources :: cite:sep-voting-methods
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T21:11:16Z
+:FC_TYPE:  normal
+:ID:       a57e6697-81c6-48aa-9ac5-0a8d2ea2c8f7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T21:11:16Z |
+:END:
+
+** Back
+
+  #+begin_quote
+ Approval Voting: Each voter selects a subset of the candidates (where the empty
+set means the voter abstains) and the candidate(s) with selected by the most
+voters wins.
+  #+end_quote
+** Further resources
+
+Laslier, J.-F. and R. Sanver (eds.), 2010, Handbook on Approval Voting, Series:
+Studies in Choice and Welfare, Berlin: Springer.
+
+
+Brams, S., P. Fishburn and S. Merrill III, 1988a, “The responsiveness of approval voting: Comments on Saari and Van Newenhizen,” Public Choice, 59(2): 121–131.
+–––, 1988b, “Rejoinder to Saari and Van Newenhizen,” Public Choice, 59(2): 149.
+Saari, D. and J. Van Newenhizen, 1988a, “The problem of indeterminacy in approval, multiple, and truncated voting systems,” Public Choice, 59(2): 101–120.
+–––, 1988b, “Is approval voting an ‘unmitigated evil’: A response to Brams, Fishburn, and Merrill,” Public Choice, 59(2): 133–147.
+* How approval vote generalizes negative voting ?  :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T21:13:20Z
+:FC_TYPE:  normal
+:ID:       6ab314c5-bfdd-4f05-8026-a4d0acd2cbc2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T21:13:20Z |
+:END:
+
+- source :: cite:sep-voting-methods
+** Back
+  #+begin_quote
+  Negative voting is tantamount to allowing the voters to support either a
+  single candidate or all but one candidate (taking a point away from a
+  candidate C is equivalent to giving one point to all candidates except C).
+  That is, the voters are asked to choose a set of candidates that they support,
+  where the choice is between sets consisting of a single candidate or sets
+  consisting of all except one candidate. [Approval voting] generalizes this
+  idea by allowing voters to choose any subset of candidates:
+  #+end_quote
+
+
+
+** Further resources
+
+Brams, S. and Sanver, M. R., “Voting systems that combine approval and
+preference,” in The Mathematics of Preference, Choice, and Order: Essays in
+Honor of Peter C. Fishburn, S. Brams, W. Gehrlein, and F. Roberts (eds.), pp.
+215–237, Berlin: Springer.
+* What is cumulative and score voting, and majority judgement?:fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T21:36:00Z
+:FC_TYPE:  normal
+:ID:       4a58f162-85ff-455c-8284-7e52ae08ec03
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T21:36:00Z |
+:END:
+
+- source :: cite:sep-voting-methods
+  
+** Back
+Those are all voting systems that induce cardinal ballots through a **grading language**.
+[[file:~/Drive/Org/imgs/cumulative.png]]
+*  What is Tyranny of the majority and how to deal with it ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-06-30T21:17:00Z
+:FC_TYPE:  normal
+:ID:       c862535d-1eb5-4c1f-86a9-6ca54c605e83
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-06-30T21:17:00Z |
+:END:
+
+
+- source :: cite:sep-voting-methods
+
+** Back
+- Definition :
+  - When a majority of voters weakly support an alternative while a minority strongly prefers another alternative.
+
+- Solutions:
+  - Super-majorities
+  - Ballots that express intensity of preferences (such as quadratic voting).
+* What is quadratic voting ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-06-30T21:18:24Z
+:FC_TYPE:  normal
+:ID:       cf663b54-2853-4686-b20a-dd13ae6826ca
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-06-30T21:18:24Z |
+:END:
+** Back
+  #+begin_quote
+The idea is to think of an election as a market (Posner and Weyl, 2018, Chapter
+2). Each voter can purchase votes at a costs that is quadratic in the number of
+votes. For instance, a voter must pay $25 for 5 votes (either in favor or
+against a proposition). After the election, the money collected is distributed
+on a pro rata basis to the voters. There are a variety of economic arguments
+that justify why voters should pay $v^2$ to purchase v votes (Lalley and Weyl
+2018b; Goeree and Zhang 2017). See Posner and Weyl 2015 and 2017 for further
+discussion and a vigorous defense of the use of Quadratic Voting in national
+elections. cite:sep-voting-methods
+  #+end_quote
+*  What is proxy voting and Liquid Democracy? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T21:59:54Z
+:FC_TYPE:  normal
+:ID:       82d6681c-2190-4a5b-b05a-085baea34c77
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T21:59:54Z |
+:END:
+
+- source :: cite:sep-voting-methods
+
+
+
+** Back
+
+Proxy voting is when agents can delegate their vote on some issues. Liquid
+Democracy is when votes can be further delegated.
+
+
+** Further references
+
+- *On proxy voting*:
+  Green-Armytage, J., 2015, “Direct voting and proxy voting,” Constitutional Political Economy, 26(2): 190–220.
+  Alger, D., 2006, “Voting by proxy,” Public Choice, 126(1–2): 1–26.
+- *Normative view:*
+  Blum, C. and C. I. Zuber, 2016, “Liquid democracy: Potentials, problems, and perspectives,”Journal of Political Philosophy, 24(2): 162–182.
+- *Origins:*
+  Behrens, J., 2017, “The origins of liquid democracy, ” The Liquid Democracy Journal, 5(2): 7–17,
+  https://liquid-democracy-journal.org/issue/5/The_Liquid_Democracy_Journal-Issue005-02-The_Origins_of_Liquid_Democracy.html
+- *formal studies:*
+  - about the possibility of delegation cycles and the relationship with the theory of judgement aggregation
+    Christoff, Z. and D. Grossi, 2017, “Binary voting with delegable proxy: An analysis of liquid democracy,” in Proceedings of TARK 2017, Liverpool: Electronic Proceedings in Theoretical Computer Science.
+  - the rationality of delegating votes
+    On rational delegations in liquid democracy
+  -  the potential problems that arise when many voters delegate votes to only a few voters
+    Kang, A., S. Mackenzie and A. Procaccia, 2018, “Liquid democracy: An algorithmic perspective,” in Proceedings of 32nd AAAI Conference on Artificial Intelligence: 1095–1102: New Orleans, AAAI Press.
+  - generalizations of Liquid Democracy beyond binary choices
+    Brill, M. and N. Talmon, 2018, “Pairwise liquid democracy,” in Proceedings of the the 27th International Joint Conference on Artificial Intelligence (IJCAI), Stockholm: International Joint Conferences on Artificial
+    Brief announcement: Statement voting and liquid democracy
+* What is the multiple elections paradox?
+- tags :: [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+
+ It is when no voter had an alternative as choice but the alternative wins.
+  Happens in referendums when one votes for each issue separately.
+** Refs
+- cite:Brams_1998
+- cite:Lang_2009
+- Lacy, D., & Niou, E. M. (2000). A problem with referendums. Journal of
+  Theoretical Politics, 12(1), 5–31.
+  http://dx.doi.org/10.1177/0951692800012001001
+  - cite:Lacy_2000
+- cite:Scarsini_1998
+- cite:Xia_2007

@@ -1,0 +1,19 @@
+ #+TITLE: pateman1986social: Social choice or democracy? a comment on coleman and ferejohn
+#+ROAM_KEY: cite:pateman1986social
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+
+
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: pateman1986social
+:NOTER_DOCUMENT: %(orb-process-file-field "pateman1986social")
+:AUTHOR: Pateman, C.
+:JOURNAL: Ethics
+:DATE:
+:YEAR: 1986
+:DOI:
+:URL:
+:END:
+
+
+Basicamente esse texto é assim: eu vou passar um trem de preconceitos teoricos meus por cima do argumento, colocar os autores que tou criticando numa caxinha hermetica de um espantalho meu e depois vou dizer que eles sao incoerentes ao sair dessa caixinha que EU mesma coloquei. No fim vou dizer que a area de estudo deles é totalmente irrelevante, a minha perspectiva que é, embora a area deles seja sim relevante pra perspectiva dela

@@ -1,0 +1,56 @@
+#+TITLE: Doom Emacs
+index:../bib/refs.bib
+
+
+- tags :: [[file:20200516152708-programming.org][Programming]] [[file:20200516152744-learning_emacs.org][Learning Emacs]]
+- source ::  https://github.com/hlissner/doom-emacs, [[https://noelwelsh.com/posts/2019-01-10-doom-emacs.html][Noel Welsh: Doom Emacs Workflows]]
+
+* Introduction
+
+As a way of using [[github:org-roam/org-roam][org-roam]] , I have moved to [[github:hlissner/doom-emacs][doom-emacs]]. This is a
+pre-configuration of [[https:www.gnu.org/software/emacs/][emacs]] centered around the evil-mode, which is a vim
+keybindings emulation package.
+
+
+
+Doom emacs has the notion of *workspaces* which one can access through ~SPC TAB~. It is very useful to name workspaces, more on that below.
+
+Similar to spacemacs there are *projects* which are simply projectile projects.
+
+* Commands
+
+- ~SPC :~ for ~M-x~.
+
+** Workspace management
+
+- There is a *project* family of commands ~SPC p _~
+  - ~SPC p p~ switches projects
+- The *workspace* family of commands ~SPC TAB~ is really useful:
+  - ~SPC TAB .~ for switching
+  - ~SPC TAB n~ creates a new workspace
+  - ~SPC TAB r~ renames the workspace
+  - ~SPC TAB s~ saves it to disk 
+  - ~SPC TAB l~ loads pre-saved workspaces
+- *Magit* can be called with ~SPC gg~
+
+** Buffer switching
+- ~SPC b B~  to switch to a buffer outside the current project.
+- ~SPC SPC~ to switch to a file within the current project, with fuzzy completion
+- ~SPC ,~ to switch to a buffer within the current project, again with fuzzy completion.
+- ~SPC fr~ to load a recently viewed file.
+
+** Window moving
+- The ~SPC w _~ family. This is useful to go beyond the annoying ~C-x o~
+- Use ~SPC w c~ to close the current window
+** Text searching
+- ~SPC sp~ + query string,  to search all files in the current project.
+- ~/~ + query to search within the current buffer. Use ~n~ and ~N~ to go to next and previous matches.
+- ~gs SPC~ + query to search with jump to options
+
+** Source code navigation
+- THIS IS REALLY COOL
+- ~gd~ goes to symbol definition at point
+- ~gD~ list the references to the symbol at point
+- ~K~ for documentation to symbol at point.
+
+

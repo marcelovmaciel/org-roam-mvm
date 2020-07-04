@@ -1,0 +1,15 @@
+#+TITLE: pivato2019realizing: Realizing epistemic democracy
+#+ROAM_KEY: cite:pivato2019realizing
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: pivato2019realizing
+:NOTER_DOCUMENT: %(orb-process-file-field "pivato2019realizing")
+:AUTHOR: Pivato, M.
+:JOURNAL:
+:DATE:
+:YEAR: 2019
+:DOI:
+:URL:
+:END:
+
+- A first obvious insight is on the different kinds of inputs: propositions, probability distrbutions, sets of probabilities, preferences over lotteries

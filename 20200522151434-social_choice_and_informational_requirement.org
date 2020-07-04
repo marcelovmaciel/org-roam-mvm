@@ -1,0 +1,29 @@
+#+TITLE: Social Choice and Informational Requirement
+
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]] ; [[file:sep-social-choice.org][Social Choice Theory - SEP]]
+
+  One thing that is not properly developed in the literature is the
+  *informational requirement* of aggregation mechanisms. This is the basis of
+  [[file:20200522145255-what_is_sep_voting_methods_non_exhaustive_typology_of_voting_methods.org][What is sep-voting-methods non-exhaustive typology of voting methods?]] and
+  appears a great deal in the literature. cite:sep-voting-methods also considers
+  informational requirement as one of the criteria to analyze voting methods,
+  but does not give a rigorous definition of that.
+
+ To further develop what this means is a necessary step to a *Situational Turn*
+  in social choice, which in its turn contributes to my agenda of situational
+  and layered social modeling.
+
+
+cite:sep-voting-methods considers that :
+#+begin_quote
+. Providing a ranking of the candidates is much more expressive than simply
+selecting a single candidate. However, ranking all of the candidates can be very
+demanding, especially when there is a large number of them, since it can be
+difficult for voters to make distinctions between all the candidates.
+#+end_quote
+
+*How can we turn this proposition into something rigorous?*
+
+The first step to do so is to use cite:Goodin_2006 distinction between aggregation and ballot procedure. The second thing is to try to formalize those things as algorithms. From there there are two parallel routes:
+- Understand them through the lens of static functional programming \(\rightarrow\) turn it into category theory
+- Understand them through the lens of algorithmic complexity and related works

@@ -1,0 +1,66 @@
+#+TITLE: On idealism and hegemony : on rationalizing lies
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]], [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
+
+This is a vindication of a Marxist tool set for the analysis of political life.
+A Marxist critique of the mainstream intellectual predisposition is that it is
+idealistic. That it treats reality as a movement of concepts and more
+importantly ideas. Nowhere this is clearer than in the state legitimacy and the
+contractarian literature. The state is founded on a lie that we want people to
+believe. The interesting thing is that it does not matter if it is true, but
+that people believe in this lie, so it becomes a rationalizing instrument of the
+status quo.
+
+This isn't only a critique of intellectual life but also a tool for the analysis
+of the discourse of agents. What lies agents like to tell is connected to their
+"class position" in some sense. This is a simplistic view, but I believe i can
+refine it to become something useful.
+
+Methodological lies can come here too, I believe elster has something about the
+lies academics tell themselves, and I can use the pragmatic literature on the
+structure of science.
+
+Relatedly, this is connected to my view that focusing too much on micro
+variables lead to indeterminacy. I'll have to analyze both how analytical
+sociologists create *analytical operations* and how one can move *from attitudes
+to discourses*. This will lead me to try to connect actors, networks and
+discourses. Discourses, particularly, will require NLP and some understanding of
+hermeneutics.
+
+This relationship between *analytical operations* and a grounding in analytical
+sociology will allow me to keep the project focused on empirically oriented
+social science. By dipping into the critical theory and political theory
+literature the purpose is to extract analytical operations. Obviously I can try
+to write pieces on political theory and critical theory, but those are different
+endeavors and while studying this must be clear. I might later split this
+project into three connected projects. One on discourse and ideology, another on
+the relationship between levels - attitudes, discourse, class/race/gender, and a
+final about what to use from each different "schools" (codato, wgs, and wright
+have something to say about that).
+
+This is full circle a combination with my interest in aggregation. In one side
+we have discourse, both in networks, publics and systemic, and in more specific
+collective choice situations (rhetoric); in the middle there are coalitions; on
+the other side is voting and aggregation. This gives a full picture of
+collective decision making in both a micro and macro perspective, while giving a
+role to power and calling society through the backdoor.
+
+
+* Further references
+- Some hermeneutics: cite:sep-hermeneutics
+- On ideology:
+  - Bianchin, M. (2020). Explaining ideology: mechanisms and metaphysics.  Philosophy of the Social Sciences, 50(4), 313–337.   http://dx.doi.org/10.1177/0048393120917758 cite:bianchin20_explain_ideol
+  - Bianchin, M. (2019). Ideology, critique, and social structures. Critical  Horizons, nil(nil), 1–13. http://dx.doi.org/10.1080/14409917.2019.1676942
+  - Jaeggi, R. (2009). Rethinking ideology. In (Eds.), New waves in political philosophy (pp. 63–86). : Springer.
+
+- shapiro vs buchanan and tullock
+- realist political theory
+  - see the socialist that I follow that is geussian
+  - The work of raymond geuss is definitely relevant here. His the idea of a
+  critical theory ([[https://www.amazon.com/Idea-Critical-Theory-Frankfurt-Philosophy/dp/0521284228/ref=sr_1_4?dchild=1&keywords=Raymond+Geuss&qid=1592087379&sr=8-4][Amazon.com: The Idea of a Critical Theory: Habermas and the
+  Frankfurt School ...]]), politics and the imagination ([[https://www.amazon.com/Politics-Imagination-Raymond-Geuss/dp/0691142289/ref=sr_1_11?dchild=1&keywords=Raymond+Geuss&qid=1592087379&sr=8-11][Politics and the
+  Imagination: Geuss, Raymond: 9780691142289: Amazon.com: Books]]), a world
+  without why ([[https://www.amazon.com/World-without-Why-Raymond-Geuss/dp/0691169209/ref=pd_sbs_14_3/133-8381756-6856938?_encoding=UTF8&pd_rd_i=0691169209&pd_rd_r=c607293f-3370-4981-915f-4aa063737a12&pd_rd_w=DbHpb&pd_rd_wg=feIpO&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=SWSN4DJF28AFYF12VTFM&psc=1&refRID=SWSN4DJF28AFYF12VTFM][A World without Why: Geuss, Raymond: 9780691169200: Amazon.com:
+  Books]]), philosophy and real politics ([[https://www.amazon.com/Philosophy-Real-Politics-Raymond-Geuss/dp/0691137889/ref=sr_1_5?dchild=1&keywords=Raymond+Geuss&qid=1592087379&sr=8-5#reader_0691137889][Philosophy and Real Politics: Geuss,
+  Raymond: 9780691137889: Amazon.com: Books]]), history and illusion in politics
+  ([[https://www.amazon.com/History-Illusion-Politics-Raymond-Geuss/dp/0521000432/ref=pd_sbs_14_6/133-8381756-6856938?_encoding=UTF8&pd_rd_i=0521000432&pd_rd_r=78e172e0-7b63-4b58-b23d-1473fccd0b81&pd_rd_w=CElco&pd_rd_wg=tUNIn&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=191BEQVD1JHZ12VKAMQZ&psc=1&refRID=191BEQVD1JHZ12VKAMQZ][History and Illusion in Politics: Geuss, Raymond: 9780521000437:
+  Amazon.com: ...]])

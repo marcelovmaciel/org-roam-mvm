@@ -1,0 +1,65 @@
+#+TITLE: Aggregation, evaluation, and social choice theory
+#+ROAM_KEY: cite:patty2015aggregation
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: patty2015aggregation
+:NOTER_DOCUMENT: %(orb-process-file-field "patty2015aggregation")
+:AUTHOR: Patty, J. W. & Penn, E. M.
+:JOURNAL: The Good Society
+:DATE:
+:YEAR: 2015
+:DOI:
+:URL:
+:END:
+
+This is a cool article.
+
+In this cool article they make two big claims. First that social choice theory is underneath all evaluation. Second, that this makes the theory the foundation of all theories of politics, be them positive or normative.
+
+* Social Choice as a general theory of evaluation
+Social choice theory can be seen as the study of any kind of aggregation,
+ranking or evaluation. Those concepts are different but interrelated. Let's say
+we have to discriminate among alternatives - in the general sense. Then we have
+to describe criteria by which we intend to *rank* the alternative, to say which
+is the best. If there are multiple criteria we are aggregating. This is social
+choice.
+
+
+One strong argument they make is that measurement happens at both positive and normative research!!
+
+#+begin_quote
+measurement is at the heart of any ­discrimination between different
+alternatives—regardless of whether the discrimination is for positive or
+normative purposes.
+#+end_quote
+This is a cool observation as it goes against the current of Wolian critic of the methodological view of politics.
+
+* Social choice theory as the foundation of political theorizing
+From this general theory of aggregation, which can actually be used in many
+areas besides what we typically deem political, they argue that all political
+questions lead to the combination of multiple factors or criteria. This quote neatly summarizes their point :
+
+#+begin_quote
+Regardless of whether one is constructing a positive model or a normative theory
+of politics, the act of creation has a common form: the theorist must delineate
+the scope of the argument, define and describe the inputs, and then utilize or
+construct a logical argument to discriminate between the inputs to arrive at a
+prediction or prescription.
+[...]
+In the end, the classic divide between positive and normative theories—positive
+theories focus on what “is,” while normative theories speak to what “ought to
+be”—is a question of content, not of form: both classes of theorizing start with
+a class of inputs that are then aggregated to return an ordering of things. P
+#+end_quote
+
+* Conclusion
+This agenda that they are trying to push aims to put social choice theory at the
+foundation of all political theorizing. This is powerful. However, to do so they
+give an even bigger role to the theory: to be the theory of ALL
+evaluation/aggregation/ranking.
+
+For  a [[file:20200520213408-my_project_ideas.org][project idea]] on that see section Axiomatic Analysis of Indices.
+
+Further references are:
+- cite:Patty_2014
+- cite:Sen_2012

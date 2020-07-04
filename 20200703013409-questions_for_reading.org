@@ -1,0 +1,100 @@
+#+TITLE: Reading and reflection methods
+- tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]]
+
+
+* Three passes method
+[[http://ccr.sigcomm.org/online/files/p83-keshavA.pdf]]
+
+** First pass
+
+This pass should take about five to ten minutes and *consists of the following steps*:
+
+1. Carefully read the title, abstract, and introduction
+2. Read the section and sub-section headings, but ignoreeverything else
+3. Read the conclusions
+4. Glance over the references, mentally ticking off theones you’ve already read
+
+At *the end*, answer the 5 Cs:
+1.Category: What type of paper is this?  A measure-ment paper?  An analysis of an existing system?  A description of a research prototype?
+
+2.Context: Which other papers is it related to? Which theoretical bases were used to analyze the problem?
+
+3.Correctness: Do the assumptions appear to be valid?
+
+4.Contributions: What are the paper’s main contribu-tions?
+
+5.Clarity: Is the paper well written ?
+
+** Second pass
+
+*Read the paper with greater care*, but ignore details such as proofs. *It helps to jot down the keypoints, or to make comments in the margins*, as you read.  Remember to *mark relevant unread references* for fur-ther reading (this is a good way to learn more about the background of the paper)
+
+*After this pass*, you should be able to grasp the content of the paper.You should be able to summarize the main thrust of the pa-per, with supporting evidence, to someone else
+
+** This pass
+Reimplement the paper. Careful dissection of the paper.
+
+#+begin_quote
+You should identify and challenge every assumption in every statement.Moreover, you should think about how you yourself wouldpresent a particular idea.
+#+end_quote
+* Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+
+- What is it about ?
+- What does it mean for ...?
+- How does the new information contradict, correct, support, or add to what I already know?
+- How can I combine ideas to generate something new?
+- What questions are triggered by these new ideas?
+
+
+
+* Questões Guia
+
+** Perguntas Gerais
+- Qual o argumento geral do texto?
+- Quais os argumentos especı́ficos do texto?
+- Quais os principais conceitos/categorias do texto?
+
+** Trabalho teórico
+
+- Qual a técnica?
+- Qual o sistema alvo?
+- Quais os constituintes do modelo ? Quais seus pres- supostos?
+- Qual constituinte do modelo é foco de análise?
+- Dava para usar outra técnica?
+- Dava para focar em outro constituinte? Dava para modelar num diferente nı́vel?
+- Quais as simplificações feitas pelo modelo? Quais delas podemos modificar?
+- O modelo é fundacional, exploratorio ou organizacional?
+- Se o modelo é fundacional:
+  – Quão flexı́vel é o modelo?
+  – Ele pode ser adaptado para muitas situações? Quais?
+  – Ele permite a revisão de uma linha de pesquisa? Permite a mudança para novas direções? Quais?
+- Se o modelo é organizacional:
+  – Ele subsume outros modelos?
+  – Ele subsume fatos empı́ricos?
+  – Ele nos permite ver como casos são conectados?
+- Se o modelo é exploratório:
+  – O modelo gera afirmações ou contrafactuais de novas formas? Como?
+  – Ele leva o pesquisador a analisar dados de uma nova forma? Dê exemplos dos
+  “empirical puzzles” que ele levanta/sugere.
+** Trabalho Empı́rico
+
+- Qual é a questão central que a autora quer responder?
+- Qual é a definição da variável dependente que a autora quer explicar?
+- Qual a unidade de análise?
+- Quais são as variáveis independentes abordadas pela autora?
+- O modelo testa (modelos competidores), mensura algo, ou caracteriza relações?
+- Qual é a história causal que conecta as variáveis dependentes e independentes?
+- Qual é o desenho de pesquisa utilizado pela(s) autora(s)? Que tipos de
+  evidências elas utilizam para
+testar seu(s) argumento(s)? Há algum problema no desenho de pesquisa?
+- Qual a técnica de pesquisa?
+- Qual é a conclusão empı́rica e teórica do texto?
+
+
+
+* Further references
+- cite:ahrens2017take
+- [[http://ccr.sigcomm.org/online/files/p83-keshavA.pdf]]
+- cite:Clarke_2012

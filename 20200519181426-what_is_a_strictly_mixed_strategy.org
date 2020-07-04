@@ -1,0 +1,18 @@
+#+TITLE: What is a strictly mixed strategy?
+- source :: cite:sep-game-theory
+
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:39:39Z
+:FC_TYPE:  normal
+:ID:       928d8962-3880-4c5c-ad7a-e0fa5277a524
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:39:39Z |
+:END:
+
+** Back
+  This a strategy in which every action at every information set is taken with positive probability.

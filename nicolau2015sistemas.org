@@ -1,0 +1,530 @@
+#+TITLE: nicolau2015sistemas: Sistemas eleitorais
+#+ROAM_KEY: cite:nicolau2015sistemas
+
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: nicolau2015sistemas
+:NOTER_DOCUMENT: %(orb-process-file-field "nicolau2015sistemas")
+:AUTHOR: Nicolau, J.
+:JOURNAL:
+:DATE:
+:YEAR: 2015
+:DOI:
+:URL:
+:END:
+
+
+
+
+* É plurality usada no brasil? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:26:58Z
+:FC_TYPE:  normal
+:ID:       0c995d07-4b5d-47f7-8875-4e12531d3e2b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:26:58Z |
+:END:
+** Back
+Sim, em eleições para prefeitos em municípios com menos de 200 mil habitantes. É assim desde 88. Em municípios com > 200k é plurality with runoff. (p.9)
+
+* Muda em algo ser plurality vs ser plurality com runoff? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:27:18Z
+:FC_TYPE:  normal
+:ID:       4d73bfea-f7e3-423f-a267-12e31e0eb66c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:27:18Z |
+:END:
+
+** Back
+Supostamente sim. No de único menos candidatos concorrem dado que  só tem uma rodada para formar alianças e há  mais voto útil, já no de dois turnos ha  mais candidato dado que ha mais uma rodada para formar alianças e menos voto útil. (p.10)
+
+* O que é o quociente eleitoral? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:27:59Z
+:FC_TYPE:  normal
+:ID:       87519180-b736-48a3-a55a-f68dc8cfd363
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:27:59Z |
+:END:
+
+** Back
+algoritmo para calcular com quantas cadeiras cada partido ficara nas eleições para o legislativo.
+
+Mais precisamente no Brasil é a *cota hare*: numero total de votos contabilizados / numero de cadeiras.
+
+* O que as leis eleitorais versam (pra além do ballot -> cadeiras)? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:28:19Z
+:FC_TYPE:  normal
+:ID:       7910c875-120f-4ea3-8d45-7893b96f5aa1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:28:19Z |
+:END:
+
+** Back
+(p. 11)
+
+#+begin_quote
+- Quem pode votar
+- se o voto é obrigatório
+- critérios de apresentação de candidatos
+- normas de acessos aos meios de comunicação
+- mecanismos de controle dos gatos de campanha e acesso ao fundo partidário
+- normas para divulgação de pesquisa
+- regras de propaganda eleitoral
+#+end_quote
+
+* Quais os três componentes básicos dos sistemas eleitorais? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:28:31Z
+:FC_TYPE:  normal
+:ID:       c61bcbc6-3df1-4067-88df-fd5d1a2a4e36
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:28:31Z |
+:END:
+
+** Back
+Essa é uma distinção feita por Douglas Rae. (1967)
+
+A distinção entre ballot structure e ellectoral formula é análoga a distinção feita por cite:Goodin_2006. !!
+
+*** Magnitude do distrito eleitoral
+
+#+begin_quote
+Distritos são divisões territoriais que formam a unidade básica em uma eleição. [...]  onde os votos são contabilizados para efeito de distribuição em disputa.
+#+end_quote
+
+#+begin_quote
+A magnitude do distrito refere-se ao número de cadeiras eleitas em cada distrito
+#+end_quote
+*** Estrutura do voto (ballot structure)
+categorico ou ordinal (rae); podemos adicionar cardinal tambem 
+
+*** Formula eleitoral
+Aqui Rae diferenca plurality, majority e proportional systems.
+
+* Qual a proporção de plurality vs proportional? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:28:51Z
+:FC_TYPE:  normal
+:ID:       b73e8964-ca96-46b9-868c-10d638447d2d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:28:51Z |
+:END:
+** Back
+No compilado de 2011 plurality = 18% e proporcional = 58% - em democracias
+eleitorais 115 democracias eleitorais.
+
+
+
+
+
+
+* Quais os principais "mecanismos" de sistemas majoritarios? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:01Z
+:FC_TYPE:  normal
+:ID:       43fbf82f-ff6c-48a2-85dd-d7545bcae0c6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:01Z |
+:END:
+
+** Back
+Depende do tamanho do distrito.
+
+- Uninominal:
+  - maioria simples (pluralidade)
+  - dois turnos (plurality with runoff)
+  - voto alternativo
+- Plurinominal:
+  - SNTV
+  - Voto em bloco
+
+* Descreva o funcionamento do sistema de pluralidade (uninominal) :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:10Z
+:FC_TYPE:  normal
+:ID:       cfee8979-9a8e-431b-a0d2-69d55ccf0f39
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:10Z |
+:END:
+
+** Back
+- O território é recortado em distritos a depender do numero de cadeiras na camara de deputados.
+- Em cada distrito o partido apresenta um único candidato.
+- Ganha quem recebe mais votos no distrito. 
+
+* Quais os desafios de um sistema de pluralidade :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:19Z
+:FC_TYPE:  normal
+:ID:       17445de3-2050-42cc-8495-0010bdbe0246
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:19Z |
+:END:
+** Back
+- Delinear distritos de forma que o tamanho populacional nao seja muito discrepante
+- Delinea-los sem prejudicar explicitamente um partido (gerrymandering)
+
+* Qual o papel da distribuicao de votos de um partido no sistema majoritario? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:27Z
+:FC_TYPE:  normal
+:ID:       b62af4af-5d71-40d6-bfb5-b14d56b83b0b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:27Z |
+:END:
+
+** Back
+Se o partido for muito disperso no seu apoio ele vai acabar sair perdendo, porque o que importa é a concentracao em cada distrito. Um partido mais concentrado sai ganhando nesse sistema.
+
+Um exemplo disso é o Partido Liberal Democrático que em 2010 teve 23% dos votos mas so consegui 8% das cadeiras. 
+
+Essa desproporcionalidade leva a "maiorias manufaturadas" (Rae).
+
+* Quais os pros e contras de sistemas de maioria simples? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:35Z
+:FC_TYPE:  normal
+:ID:       e2a61058-0ffd-44cc-8d2a-96be55f897a8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:35Z |
+:END:
+
+** Back
+- Contra.
+  - Desproporcionalidade rampante resume
+  - Sobrerepresentacao de grandes partidos
+  - Subrepresentacao de pequenos partidos
+  - Maiorias manufaturadas
+  - As vezes ate o partido mais votado nao ser o que tem mais cadeiras
+
+- A favor:
+  - Supostamente seria governabilidade
+  - Suposto maior controle do eleitor
+    - dado que o eleitor sabe que o partido que ganhou maioria nas eleicoes é o que provavelmente tem maioria no parlamento e é o que governa (reino unido) logo pode ser culpado, supostamente diferentemente de governos de coalizao
+  - o distrito ser uninominal tambem é usado como argumento em defesa, dado que so tem um unico nome associado ao distrito logo "mais facil de acompanhar o representante"
+
+* Quais seriam as vantagens do plurality com runoff? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:45Z
+:FC_TYPE:  normal
+:ID:       af8739b2-ccd7-44c2-8228-0528bf945359
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:46Z |
+:END:
+
+** Back
+- Se forem dois para o segundo turno o vencedor vai ter recebido o apoio de uma maioria absoluta
+- Isso acaba favorecendo candidatos mais moderados, pois é mais difícil para candidatos extremistas garantirem mais da metade dos votos. 
+
+* Como funciona o SNTV e o voto em bloco? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:29:52Z
+:FC_TYPE:  normal
+:ID:       004357d0-fdec-4efd-b59d-52277777781a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:52Z |
+:END:
+
+** Back
+- Tem varias cadeiras (N) por distrito
+- Partidos lançam ate N candidatos
+- SNTV:
+  - Eleitores so podem votar em 1
+  - Os N candidatos com mais votos entram.
+- Bloco:
+  - Eleitores podem votar em N candidatos
+  - Os N candidatos com mais votos entram
+
+* Qual os pros e contras do SNTV e do voto em bloco? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:30:05Z
+:FC_TYPE:  normal
+:ID:       6d1d8d0f-7654-4e8f-86cd-2dcd844d2792
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:05Z |
+:END:
+** Back
+- Pros:
+  - Em ambos os partidos menores se saem melhor
+  - No em bloco contudo nao necessariamente, pois pode haver mais coordenacao dado que eleitores votam em nomes do mesmo partido
+- Contra
+  - O SNTV estimula a competição entre candidaturas de políticos DO MESMO partido. Isso incentiva redes clientelistas, politicas particularistas e em ultima instancia corrupção generalizada. 
+
+* Sobre eleicoes presidenciais ver p 38-42 :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:30:18Z
+:FC_TYPE:  normal
+:ID:       b8c1a703-8a73-4229-89c8-38ce45716d34
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:18Z |
+:END:
+** Back
+Basicamente fala que qualquer método majoritário uninominal  (plurality, plurality with runoff, alternative voting ) pode ser usado.
+
+* Quais os efeitos possíveis de sistemas eleitorais? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:30:30Z
+:FC_TYPE:  normal
+:ID:       4acad5e0-7e45-4c3d-a1de-d88673e82da7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:30Z |
+:END:
+
+** Back
+p89-90
+
+- *numero de partidos*
+- *proporcionalidade*
+- *representação feminina* e de minorias
+- atividade partidária
+- padrões de conexão entre representados e representantes
+- influenciam a formação de governos em países parlamentaristas
+- construção de bases de apoio em regimes parlamentares
+
+Quais outras variáveis podem influenciar essas coisas?
+- a magnitude e diferentes formulas eleitorais;
+- a estrutura social (fragmentacao etnica e religiosa)
+
+* Quais outros fatores podem influenciar o numero de partidos? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:30:42Z
+:FC_TYPE:  normal
+:ID:       75484f0d-f12c-4a79-8c39-f64f56b47fc2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:42Z |
+:END:
+** Back
+p 90
+- existência de divisões sociais que são mobilizadas pelo sistema partidário
+- geografia do voto
+- legislacao partidaria mais ou menos restritiva
+- outras instituicoes como federalismo, presidencialismo etc
+
+* O que é número efetivo de partidos? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:30:53Z
+:FC_TYPE:  normal
+:ID:       7a565e00-ddf5-42a0-9ae0-a85336e73b6f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:53Z |
+:END:
+** Back
+Medida criada por laakso e taagepera para mensurar de forma mais concreta
+quantos partidos tem nas casas, ao dar um peso a eles pelo numero de cadeiras
+mensurando assim sua forca. Se um partido tem 99 cadeiras e outro 1 é meio
+bizarro falar que tem dois partidos efetivos por exemplo.
+
+Para mais ver [[https://en.wikipedia.org/wiki/Effective_number_of_parties][Effective number of parties - Wikipedia]]
+
+* Qual o efeito de sistemas majoritarios no NEP? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:31:18Z
+:FC_TYPE:  normal
+:ID:       27e62f47-7eda-4bf6-8681-b9ff47fc6c46
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:31:18Z |
+:END:
+** Back
+p 94
+
+Sistemas majoritarios tem maior *probabilidade* de terem menor fragmentacao.
+*** cite:mueller2003public Mueller on that
+#+begin_quote
+Under the plurality rule, minority
+parties whose support is evenly distributed across the country do not win seats.
+Over time, the continual lack of success of these parties can be expected to dry up
+their ﬁnancial support and discourage both their members and leaders. Thus, under
+the plurality rule one expects minority parties to disappear, unless their supporters
+are concentrated in particular geographic areas. One expects the plurality rule to
+produce two-party systems. cite:mueller2003public (p. 271)
+#+end_quote
+
+[[file:~/Drive/Org/imgs/cabinet-stability.png]]
+(p.295)
+
+Plurality voting may diminish social stability. (p.296).
+
+#+begin_quote
+This characteristic of the plurality rule can lead to alienation and may explain
+the signiﬁcantly lower voter turnouts in plurality rule, two-party democracies
+than in PR systems. 32 Powell (1982) has also found signiﬁcantly higher
+frequencies of violent political protest in two-party democracies. Thus, the
+advantage of greater stability that is often claimed for two-party political
+systems would appear to need qualiﬁcation. The stability within the political
+process that is brought about by denying diverse minorities proportionate
+representation in the legislatures to some extent is offset by the decisions of
+alienated minorities to opt out of the normal political process.
+#+end_quote
+
+* Quais outros fatores podem influenciar a proporcionalidade? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:31:43Z
+:FC_TYPE:  normal
+:ID:       fd598d78-e8a7-4914-a839-63e5d9ed5d21
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:31:43Z |
+:END:
+
+** Back
+(p.95)
+
+- numero de cadeiras em disputa (quanto mais cadeiras menor a proporcionalidade)
+- formula eleitoral
+- adoção ou não de clausula de barreira
+
+* Como se mede proporcionalidade? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:31:52Z
+:FC_TYPE:  normal
+:ID:       9c4274d5-01d7-4fa4-9567-a8b80309c038
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:31:52Z |
+:END:
+
+** Back
+Usando o indice de gallagher. É so uma medida de distancia entre proporcao de
+cadeiras e proporcao de votos. Para mais ver: [[https://en.wikipedia.org/wiki/Gallagher_index][Gallagher index - Wikipedia]]
+
+* Sistemas proporcionais são realmente mais proporcionais? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:32:02Z
+:FC_TYPE:  normal
+:ID:       f1fc841c-84b4-444b-b8b1-96ec5ba21efe
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:32:02Z |
+:END:
+
+(p.96)
+
+** Back
+Na média sim, mas há grande variação devido a outros fatores (como clausula de
+barreira).
+
+
+* Qual a relação entre representação e sistemas eleitorais? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-03T10:36:07Z
+:FC_TYPE:  normal
+:ID:       ba51eab2-457a-46b0-a6e7-3bcb5ef4a9ed
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-03T10:36:07Z |
+:END:
+** Back
+Isso é algo que está em [[file:Machover_2011.org][Machover_2011: The underlying assumptions of electoral
+systems]] e cite:Felsenthal_2011_informal, além de cite:mueller2003public . Tem
+conexão com o argumentado com [[file:munger2015choosing.org][munger2015choosing: Choosing in groups: analytical
+politics revisited]] sobre escolha de sistema eleitoral também, [[file:dahl1989democracy.org][dahl1989democracy:
+Democracy and its critics]] também discute isso de alguma forma (particularmente
+quando isso se conecta com a base social das eleições).
+
+São duas concepções, uma usual em sistemas proporcionais e outra usual em
+sistemas majoritários.
+
+#+begin_quote
+ A representação proporcional toma os partidos como unidade fundamental da
+ distribuição de cadeiras e procura garantir uma distribuição equânime entre a
+votação e a bancada dos partidos no Legislativo.
+
+ Para os defensores da representação majoritária, sobretudo em distritos
+ uninominais, um dos aspectos mais salientados é a dimensão territorial da
+ representação, ou seja, o bom representante é aquele que tem vínculos formais
+ com determinada região. (p.98)
+#+end_quote
+
+Um debate que ocorre contudo é pressupor de certa forma a primeira visão que e
+analisar como sistemas eleitorais favorecem a representação de segmentos
+demográficos do eleitorado como gênero etnia e religião - quanto melhor o
+legislativo espelhar a composição da população melhor.
+
+Relacionado a isso também está o debate sobre qual o sistema eleitoral é melhor
+para sociedades com fortes clivagens ([[file:dahl1989democracy.org][dahl1989democracy: Democracy and its
+critics]] fala disso assim como [[file:shapiro2009state.org][shapiro2009state: The state of democratic theory]] e
+[[file:munger2015choosing.org][munger2015choosing: Choosing in groups: analytical politics revisited]]).
+
+
+Uma referencia importante nesse caso é cite:sep-political-representation. .
+
+** Representacao feminina e sistemas eleitorais
+
+Primeiro, porque sistemas proporcionais representariam mulheres melhor? Na real
+isso ta relacionado com o tamanho do distrito eleitoral e se a lista é fechada
+ou aberta. Em distritos plurinonimais pode-se estabelecer cotas e a lista sendo
+fechada acaba que os vieses sociais sao barrados pela "engenharia social".
+
+Afinal, há uma relacao entre o sistema ser proporcional e ter mais representacao feminina que o majoritario? NA MEDIA sim.
+
+Contudo a variação é bem grande dentro dos grupos (p. 99).

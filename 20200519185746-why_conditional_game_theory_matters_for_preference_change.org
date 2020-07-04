@@ -1,0 +1,11 @@
+#+TITLE: Why conditional game theory matters for preference change?
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
+- sources :: cite:sep-game-theory
+
+Well, because it models preference conditionalization. A conditional preference is one that is influenced by the information about the preferences of others. This may be used to model social influence. (ROAM INSERT)
+
+
+One other reference is the work of cite:hill12_confid_prefer.
+
+Furthermore there is a whole collection about that:
+cite:grune2009preference

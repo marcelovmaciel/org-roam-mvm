@@ -1,0 +1,87 @@
+#+TITLE: Learning Emacs
+
+
+* How can I get the time in emacs? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-01T06:51:11Z
+:FC_TYPE:  normal
+:ID:       24a2decc-30d0-4425-b0c3-99ad2ea3aafc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-01T06:51:11Z |
+:END:
+
+** Back
+In eshell it is ~current-time-string~.
+* How can I decrease or increase ALL levels below a header? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T09:34:15Z
+:FC_TYPE:  normal
+:ID:       fc1a9277-044f-4a15-b8fc-ed436c07166d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T09:34:15Z |
+:END:
+
+** Back
+~M-S <right>~
+[[https://emacs.stackexchange.com/questions/30596/org-mode-how-to-increase-header-level-recusively-in-org-file][org-mode how to increase header level recusively in org file? - Emacs Stack E...]]
+
+* How can one link to a section of an org file? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T17:05:55Z
+:FC_TYPE:  normal
+:ID:       91e63181-c523-479c-b0d0-c67c46a76ea4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-03T10:38:50Z |
+:END:
+
+** Back
+By using the two commands listed here: [[https://emacs.stackexchange.com/questions/19598/org-mode-link-to-heading-in-other-org-file][emacs24.4 - org-mode link to heading in other org-file - Emacs Stack Exchange]]
+
+
+* What are Org priorities? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-04T01:38:56Z
+:FC_TYPE:  normal
+:ID:       db6ca157-73d1-47cb-aa75-6a6737fe4368
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-04T01:38:56Z |
+:END:
+** Back
+
+#+begin_quote
+
+5.4 Priorities
+
+If you use Org mode extensively,
+ you may end up with enough TODO
+ items that it starts to make
+ sense to prioritize them.
+ Prioritizing can be done by
+ placing a priority cookie into
+the headline of a TODO item,
+ like this:
+
+;;*** TODO [#A] Write letter to Sam Fortune
+
+ By default, Org mode supports
+three priorities: ‘A’, ‘B’, and ‘C’.
+ ‘A’ is the highest priority. An
+ entry without a cookie is treated
+ as equivalent if it had priority
+ ‘B’. Priorities make a difference
+ only for sorting in the agenda
+ (see Weekly/daily agenda); outside
+ the agenda, they have no inherent meaning
+#+end_quote

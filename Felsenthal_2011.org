@@ -1,0 +1,15 @@
+#+TITLE: Felsenthal_2011: Review of paradoxes afflicting procedures for electing a single candidate
+#+ROAM_KEY: cite:Felsenthal_2011
+
+- tags ::  [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+- keywords :: [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+
+
+* Review of paradoxes afflicting procedures for electing a single candidate
+  :PROPERTIES:
+  :Custom_ID: Felsenthal_2011
+  :URL: http://dx.doi.org/10.1007/978-3-642-20441-8_3
+  :AUTHOR: Felsenthal, D. S.
+  :NOTER_DOCUMENT:
+  :NOTER_PAGE:
+  :END:

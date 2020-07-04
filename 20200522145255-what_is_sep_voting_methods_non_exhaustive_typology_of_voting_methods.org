@@ -1,0 +1,25 @@
+#+TITLE: What is sep-voting-methods non-exhaustive typology of voting methods?
+
+- source :: cite:sep-voting-methods
+
+ - [[file:20200522123528-what_is_a_voting_method.org][What is a voting method?]]
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T17:56:28Z
+:FC_TYPE:  normal
+:ID:       4a93f768-3d73-465a-98ee-4c1fa3cf8a7e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T17:56:28Z |
+:END:
+
+** Back
+
+- Those based on top rank ([[file:20200522143832-plurality_rule.org][Plurality Rule]], [[file:20200522144542-what_is_a_quota_rule.org][Quota Rule]])
+- Those based on a whole ranking
+- Those based on some sort of grading or scoring
+- Those based on multiple stages
+- Those in which voters may differ in their influence

@@ -1,0 +1,39 @@
+#+TITLE: mcginnis2000polycentric: Polycentric games and institutions: readings from the workshop in political theory and policy analysis
+#+ROAM_KEY: cite:mcginnis2000polycentric
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: mcginnis2000polycentric
+:NOTER_DOCUMENT: %(orb-process-file-field "mcginnis2000polycentric")
+:AUTHOR: McGinnis, M. D.
+:JOURNAL:
+:DATE:
+:YEAR: 2000
+:DOI:
+:URL:
+:END:
+
+
+I'll treat everything as in the book and later I'll separate the precise
+sources.
+
+* Insights for presentation
+
+I believe that there are at least three insights here.
+
+1. The definition of an *action situation*
+2. That there are *multiple centers of decision* and that there are
+   *cross-effects* among them.
+3. And that arenas of choice differ in their *mode of interaction.* They
+   transform buchanan's logical abstract argument into an empirical one. The
+   constitutional mode does not require writing a constitution, and yet it is
+   different from rules about actions instead of rules about rules.
+  
+
+* What is a polycentric political system?
+- P2
+
+A political order in which multiple authorities serve overlapping jurisdictions.
+
+This is more restricted then noticing that political orders are constituted
+through a network of action situations, and one has to bear in mind
+*cross-effects of concurrent games*.

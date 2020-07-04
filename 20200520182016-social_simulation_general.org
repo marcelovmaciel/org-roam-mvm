@@ -1,0 +1,2 @@
+#+TITLE: Social Simulation General
+- tags :: [[file:20200519125138-formal_political_theory.org][Formal Political Theory]], [[file:20200520181958-social_theory_general.org][Social Theory - General]]

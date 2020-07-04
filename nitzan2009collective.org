@@ -1,0 +1,32 @@
+#+TITLE: nitzan2009collective: Collective preference and choice
+#+ROAM_KEY: cite:nitzan2009collective
+*  Notes
+:PROPERTIES:
+:Custom_ID: nitzan2009collective
+:NOTER_DOCUMENT: %(orb-process-file-field "nitzan2009collective")
+:AUTHOR: Nitzan, S.
+:JOURNAL:
+:DATE:
+:YEAR: 2009
+:DOI:
+:URL:
+:END:
+
+
+What does the book say about [[file:20200522143832-plurality_rule.org][Plurality Rule]] ? This will help me answer whether  [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]].
+
+- That is does not satisfy the contraction principle (p.24)
+- That it does not satisfy the condorcet principle (p.56; p.82)
+- That it is a scoring rule (p.46)
+- That it violates the condorcet principle more than borda does (p. 65)
+- That it can elect a condorcet loser while borda cannot (p.66; 98/99)
+- Nitzan also gives a characterization of plurality rule (p. 84)
+- That it is susceptible to the majority tyranny (p. 119, 124, 129-30)
+
+- Nitzan also demonstrates that ciclity implies  that there is no condorcet winner but not having a condorcet winner does not imply simplicity (p.96)
+
+
+* Insights for presentation
+- The no condorcet winner does not imply ciclity thing (p.96)
+- The majority tyranny thing
+- His discussion of pairwise majority rule

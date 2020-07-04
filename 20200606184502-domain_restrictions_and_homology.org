@@ -1,0 +1,10 @@
+#+TITLE: Domain restrictions and homology
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]]; [[file:20200520210843-social_choice_theory_general.org][Social Choice Theory - General]]
+
+  This project was inspired by cite:nurmi2019most argument that we must
+  understand better the behavior of restricted domains so that we can advise
+  people on which voting method to use at which environment. This is a general
+  argument obviously, in this specific idea I'm interested in domain
+  restrictions. I believe that there is some relationship between "shape" and
+  domain restriction and the tools of cohomology in the line developed by the
+  topological data analysis community and cite:torres2020representations.

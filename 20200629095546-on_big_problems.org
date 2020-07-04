@@ -1,0 +1,32 @@
+#+TITLE: On big problems
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
+
+
+* The problem of aggregation
+- Problems related to aggregation appear everywhere.
+- One has a reference, multiple sources of information about this reference, and
+  want to aggregate from those multiple sources.
+- Social choice is the setting for that
+
+* The problem of structure
+- How can we analyze structured information? How can we move beyond the invariances of classical statistics and discover new invarancies? (the network science guy which I unfollowed has a take on that).
+- Relatedly, how can we analyze social structure? How can we develop a formal framework to represent and measure social structures?
+- Network science is the setting for that
+
+* The problem of scale/level
+
+- What is a scale? How can we measure it, how can we determine empirically that
+  one scale does not depend on the other?
+
+- This is different from the problem of size, which is also interesting.
+
+- Maybe information theory, renormalization theory and such is the setting for that
+
+* The problem of change
+- How can we model changes in those prior 3 concepts? How can we model change in
+  inputs, how aggregative mechanisms deal with them, changes in structure,
+  feedbacks between levels (scales?)
+
+- Dynamical systems and stochastic processes is the setting for that
+
+* The problems of domination, self-government and self-development

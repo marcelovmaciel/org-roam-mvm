@@ -1,0 +1,24 @@
+#+TITLE: What is a voting method?
+  - source :: cite:sep-voting-methods
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T15:36:09Z
+:FC_TYPE:  normal
+:ID:       44f0b3a3-c8b3-44b3-a514-0d62f6aac6b5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T15:36:09Z |
+:END:
+** Back
+It is a function that assigns to each [[file:20200522123215-what_is_a_profile_in_the_context_of_sct.org][profile]] a group decision. This group decision can be a single alternative, a set of alternatives or even an ordering of alternatives.
+
+This is related to [[file:20200520205452-what_is_the_difference_between_a_social_choice_and_a_preference_aggregation_rule.org][What is the difference between a social choice and a preference aggregation rule?]]
+
+
+* Further resources
+
+- cite:felsenthal2012electoral
+- cite:nurmi2012comparing

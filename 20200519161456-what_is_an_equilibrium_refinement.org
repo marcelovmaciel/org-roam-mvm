@@ -1,0 +1,19 @@
+#+TITLE: What is an equilibrium refinement?
+
+- source :: cite:sep-game-theory
+
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:38:10Z
+:FC_TYPE:  normal
+:ID:       57fdc5cc-f1db-4805-a7c0-7aeacac19099
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:38:10Z |
+:END:
+
+** Back
+Proposed principles for solving games that may have the effect of eliminating some NE from consideration. There is some controversy about the "refinement program", as it is not behaviorist, and is based upon intuitions about how people reason.

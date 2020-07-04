@@ -1,0 +1,91 @@
+#+TITLE: Felsenthal_2011_informal: Some informal remarks on devising a “fair” decision-making rule for representative assemblies
+#+ROAM_KEY: cite:Felsenthal_2011_informal
+
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+  
+
+*  Notes
+:PROPERTIES:
+:Custom_ID: Felsenthal_2011_informal
+:NOTER_DOCUMENT: %(orb-process-file-field "Felsenthal_2011_informal")
+:AUTHOR: Felsenthal, D. S.
+:JOURNAL: Electoral Systems
+:DATE:
+:YEAR: 2011
+:DOI:  http://dx.doi.org/10.1007/978-3-642-20441-8_2
+:URL: http://dx.doi.org/10.1007/978-3-642-20441-8_2
+:END:
+
+While [[file:Machover_2011.org][Machover_2011: The underlying assumptions of electoral systems]] talks about which decision procedures to use in legislative electoral systems, here cite:Felsenthal_2011_informal is going to talk about *representative assemblies*.
+
+* Insights for presentation
+
+- He talks about the powerless minority problem
+- He talks about *representative assemblies*
+- The goals or principles are interesting and one is not common: *Equal opportunity to avoid the worst*:
+- He considers that granting a priori voting power is problematic because it might lead to decisional paralysis. So he defends granting a posteriori voting power:
+
+  #+begin_quote
+ It should be possible to institute
+arrangements, at least with respect to certain kinds of decisions, e.g., budgetary decisions, or decisions regarding certain regions or policy areas, which will enhance the a posteriori (actual) voting power of representatives belonging to the minorities in legislatures. For example, if the Red and Blue parties control 40% and 60% of the seats, respectively, in a representative assembly, then one can institute an arrangement where the Blue party would be given the prerogative of determining the total size of the annual budget, as well as dividing it into parts – one containing 60% of the total planned expenditure and the other containing 40% of the total expenditure – and let the Red party have the sole prerogative to decide how the 40% part of the budget would be allocated.
+  #+end_quote
+
+  In some sense it becomes a problem of fair division, instead of a voting problem.
+
+* On the general usage of majoritarian rules
+He argues that as far as the most used committee rule are those of "majoritarian" kind.
+
+#+begin_quote
+As far as I know, it is a universal practice in democracies that the decision
+rule used by both types of assembly, as well as the decision rule used in popular referenda, is majoritarian.
+
+[...]
+
+A majoritarian decision rule requires that in order to change the status quo slightly more than half the voters and fewer than all the voters must support this change. Note that since a requirement of unanimity enables every voter to veto a change of the status quo, unanimity is not considered a majoritarian voting rule. (p.11)
+#+end_quote
+
+This resonates with the following quote by cite:Goodin_2006:
+
+#+begin_quote
+In the real world, “our standard voting sys-
+tem . . . is . . . the plurality vote, where a voter votes for
+his favorite candidate and the candidate with the most
+votes wins” (Saari 2006).
+
+Yet, of all the broadly majoritarian voting procedures that have been proposed
+in theory or are used in practice, plurality rule is perhaps the one that is
+held in lowest esteem by theorists of democracy. As we have noted, plurality
+rule is criticized in particular for focusing solely on voters’ revealed “first choices” and not taking into account their full preferences. However, just as
+the most commonly used aggrega- tion procedure in the real world is plurality
+rule, so the most commonly used balloting procedure is single-vote balloting.
+Surprisingly, it has never been noticed before that, under single-vote
+balloting, plurality rule is what May’s theorem, in a simple generalization to
+decisions over many options, supports. (p.947)
+#+end_quote
+
+This saari quote is from cite:Saari_2009.
+* The problem of majority rule in representative assemblies
+
+He argues that there is nothing inherent in democracy that requires majority
+rule. He also considers that the use of the majority principle makes representatives of minorities unable to affect reality - he is presupposing a proportional representation here. The bigger the size of the minority the worst is the problem (utilitarian view) and if they are always in the "minority" (all that was covered by cite:dahl1989democracy).
+
+#+begin_quote
+ In fact, “there is nothing inherent in
+democracy that requires majority rule.” (Guinier 1994, p. 17). Moreover, the
+majority rule principle implies that the minority of representatives in an assembly are unable to affect reality – even if their number is exactly proportional to the proportion of the electorate who supported them in the election.
+So the universal use of the majoritarian decision rule within representative
+assemblies, as well as in popular referenda, causes the minority to become totally impotent in shaping public policies. Such impotence is especially serious if the minority group is relatively large and it is a permanent one, i.e., it always consists of the same (type of) voters who may belong to the same ethnic group, or the same ideological party, or the same geographic region. In contemplating which decision rule(s) ought
+#+end_quote
+
+
+* On three goals of representative assemblies
+#+begin_quote
+1. *Majority rule*: To guarantee that the alternative preferred by the majority of voters
+(or representatives) will be selected.
+
+2. *Equiprobability of success*: To let every voter (or representative) have the same
+probability that his/her most preferred alternative is the one selected.
+
+3. *Equal opportunity to avoid the worst*: To provide every voter (or representative,
+or alliance) with an ability
+#+end_quote

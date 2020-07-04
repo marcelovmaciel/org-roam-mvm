@@ -1,0 +1,23 @@
+#+TITLE: What is a quota rule?
+- source :: cite:sep-voting-methods
+
+- tags :: [[file:20200522123528-what_is_a_voting_method.org][What is a voting method?]]
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T17:51:01Z
+:FC_TYPE:  normal
+:ID:       43db2eab-9aae-4f3f-b6e1-7c976549eb64
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T17:51:01Z |
+:END:
+
+** Back
+It is a generalization of both *Majority Rule*, its variants AND *Unanimity Rule*.
+
+Each voter selects one alternative, and the winning alternatives are those that receive at least $q \times \#V$  votes where $\#V$ is the number of voters.
+
+In majority rule $q = 0.5$  while in unanimity rule its equal to 1.

@@ -1,0 +1,250 @@
+#+TITLE: ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia
+#+ROAM_KEY: https://github.com/ninjaaron/administrative-scripting-with-julia
+
+- tags :: [[file:20200518163106-julia_tips.org][Julia Tips]]
+
+
+* What modes of julia open method correspond to which shell commands? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-01T22:18:10Z
+:FC_TYPE:  normal
+:ID:       12bfc303-9d42-4a07-9b84-325e5402a386
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-01T22:18:10Z |
+:END:
+
+** Back
+- "r" (read) \(\rightarrow\)  ~<~
+- "w" (write) \(\rightarrow\)  ~>~
+- "a" (append) \( \rightarrow \) ~>>~
+
+* What is the default behavior of ~read~? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T01:00:46Z
+:FC_TYPE:  normal
+:ID:       130e6060-e667-4a27-b5cc-176bcf717f3e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-03T10:35:26Z |
+:END:
+
+** Back
+To return an array of byes (UInt8). If we want to return a different type we have to specify. Example
+
+#+BEGIN_SRC julia :results output
+io = open("../notes/foo.txt");
+
+read(io, String) # this will read the whole thing. Equivalent to open(io->read(io, args...), filename).
+
+seek(io, 0) # this is a side-effectful operation, that is why seek is needed to go back to the beginning of the file (position 0)
+
+read(io,String)[1:5]
+
+seek(io,5) # go back to position 5
+
+read(io, String)[1:5]
+
+
+seek(io,5) # go back to position 5
+
+read(io)[1:5]
+
+close(io)
+
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+IOStream(<file ../notes/foo.txt>)
+"The basics of working with files in Julia are not much different from other programming languages. There is an open method which takes then name of the file as a string and a mode argument, and returns an IO instance. The modes you'll most often be using are \"r\", \"w\" and \"a\", for read, write and append. These correspond to <, > and >> in the shell. \"r\" is the default.\n"
+IOStream(<file ../notes/foo.txt>)
+"The b"
+IOStream(<file ../notes/foo.txt>)
+"asics"
+IOStream(<file ../notes/foo.txt>)
+5-element Array{UInt8,1}:
+ 0x61
+ 0x73
+ 0x69
+ 0x63
+ 0x73
+#+end_example
+
+* Do we need to always call ~close~ when doing io ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T02:23:58Z
+:FC_TYPE:  normal
+:ID:       ba8f94fb-85ba-428c-ac68-40a7ac55d661
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T02:23:58Z |
+:END:
+
+** Back
+No, because the *file descriptor* will be cleaned up when the *IO object* (that we have created) is garbage-collected. However, one way of opening stuff without writing close AND waiting for the garbage collector is to use a *context manager*. In python the most common context manager is src_python[:exports code]{with}.
+
+#+BEGIN_SRC python :results output
+
+with open("../notes/foo.txt") as io:
+     print(io.read())
+
+#+END_SRC
+
+#+RESULTS:
+: The basics of working with files in Julia are not much different from other programming languages. There is an open method which takes then name of the file as a string and a mode argument, and returns an IO instance. The modes you'll most often be using are "r", "w" and "a", for read, write and append. These correspond to <, > and >> in the shell. "r" is the default.
+:
+
+In julia the equivalent of src_python[:exports code]{with} are src_julia[]{do} blocks
+
+#+BEGIN_SRC julia :results output
+open("../notes/foo.txt") do io
+    print(read(io, String))
+end
+#+END_SRC
+
+#+RESULTS:
+: The basics of working with files in Julia are not much different from other programming languages. There is an open method which takes then name of the file as a string and a mode argument, and returns an IO instance. The modes you'll most often be using are "r", "w" and "a", for read, write and append. These correspond to <, > and >> in the shell. "r" is the default.
+
+
+The python version here is actually clearer.
+
+
+* What is a file descriptor? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T02:27:43Z
+:FC_TYPE:  normal
+:ID:       00a64ad4-7ff0-4899-b2fc-e777c7587afd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-03T10:37:55Z |
+:END:
+
+** Back
+
+Is an integer representing the file in the OS "tracker". It is used to represent an opened file in the system.
+[[https://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms][unix - What are file descriptors, explained in simple terms? - Stack Overflow]]
+
+* What is a context manager? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T02:27:27Z
+:FC_TYPE:  normal
+:ID:       3b4e188c-6f73-4a3d-ab8c-8490b026b096
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T02:27:27Z |
+:END:
+
+** Back
+Are ways of managing the allocation and manipulation of resources, such as files and *sockets*.
+#+begin_quote
+Context managers allow you to allocate and release resources precisely when you want to. [[https://book.pythontips.com/en/latest/context_managers.html][26. Context Managers — Python Tips 0.1 documentation]]
+#+end_quote
+
+* In julia, can we pass the filename directly without wrapping in IO? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T02:53:30Z
+:FC_TYPE:  normal
+:ID:       42c96578-3220-43dd-8f9c-fc378f074d83
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T02:53:30Z |
+:END:
+** Back
+
+Yes, due to multiple dispatch. In the end we are wrapping it silently though.
+
+#+BEGIN_SRC julia :results output
+read("../notes/foo.txt", String)
+#+END_SRC
+
+#+RESULTS:
+: "The basics of working with files in Julia are not much different from other programming languages. There is an open method which takes then name of the file as a string and a mode argument, and returns an IO instance. The modes you'll most often be using are \"r\", \"w\" and \"a\", for read, write and append. These correspond to <, > and >> in the shell. \"r\" is the default.\n"
+
+* InJl, How can we read the contents of a file line by line? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T03:05:57Z
+:FC_TYPE:  normal
+:ID:       d3aa9815-0cf8-45db-a772-aa46947efafd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T03:05:57Z |
+:END:
+
+** Back
+Using the intuitively named function src_julia[:export code ]{readline}
+
+#+name: block-1
+#+BEGIN_SRC elisp
+(buffer-file-name)
+#+END_SRC
+
+#+RESULTS: block-1
+: /home/mvmaciel/Drive/Org/org-roam/ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org
+
+
+#+BEGIN_SRC julia :results output  :var here=block-1
+readlines(here)[1:10]
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+"/home/mvmaciel/Drive/Org/org-roam/ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org"
+10-element Array{String,1}:
+ "#+TITLE: ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia"
+ "#+ROAM_KEY: https://github.com/ninjaaron/administrative-scripting-with-julia"
+ ""
+ "* What modes of julia open method correspond to which shell commands? :fc:"
+ ":PROPERTIES:"
+ ":FC_CREATED: 2020-07-01T22:18:10Z"
+ ":FC_TYPE:  normal"
+ ":ID:       12bfc303-9d42-4a07-9b84-325e5402a386"
+ ":END:"
+ ":REVIEW_DATA:"
+#+end_example
+
+
+* InJl, What is the lazy alternative to ~readlines~? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-02T03:25:36Z
+:FC_TYPE:  normal
+:ID:       979f9a2d-e701-4eb6-85ec-c4f215d7146e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-02T03:25:36Z |
+:END:
+
+** Back
+The src_julia[:export code]{eachline} function. It is important for large files. Unlike readlines we have to loop it if we want anything from it.
+
+#+BEGIN_SRC julia :results output :var here=block-1
+import Iterators
+
+open(here) do io
+  for line in Iterators.take(eachline(io), 3)
+        println(repr(line))
+  end
+end
+#+END_SRC
+
+#+RESULTS:
+: "/home/mvmaciel/Drive/Org/org-roam/ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org"
+: "#+TITLE: ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia"
+: "#+ROAM_KEY: https://github.com/ninjaaron/administrative-scripting-with-julia"
+: ""

@@ -1,0 +1,10 @@
+#+TITLE: Moretti, Slides DR2 Conference 2019 - Moretti-Slides-DR2-Conference-2019.pdf
+#+ROAM_KEY: https://hcommons.org/app/uploads/sites/1000909/2019/04/Moretti-Slides-DR2-Conference-2019.pdf
+
+
+- tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
+
+
+  
+
+- They list lots of papers on digital humanities: [[file:~/Drive/Org/pdfs/Moretti-Slides-DR2-Conference-2019.pdf][Moretti-Slides]]

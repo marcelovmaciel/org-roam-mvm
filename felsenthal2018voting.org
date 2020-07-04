@@ -1,0 +1,15 @@
+#+TITLE: felsenthal2018voting: Voting procedures for electing a single candidate: proving their (in) vulnerability to various voting paradoxes
+#+ROAM_KEY: cite:felsenthal2018voting
+
+- tags ::
+- keywords ::
+
+
+* Voting procedures for electing a single candidate: proving their (in) vulnerability to various voting paradoxes
+  :PROPERTIES:
+  :Custom_ID: felsenthal2018voting
+  :URL:
+  :AUTHOR: Felsenthal, D. S., & Nurmi, H.
+  :NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/felsenthal2018voting.pdf
+  :NOTER_PAGE:
+  :END:

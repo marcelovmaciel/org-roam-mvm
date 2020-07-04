@@ -1,0 +1,151 @@
+#+TITLE: Techniques refs
+- tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
+
+* Mathematics
+
+- cite:stewart2015foundations
+- cite:daepp2003reading
+- cite:velleman2019prove
+- cite:hammack2013book
+
+  
+* Algorithms (as technique)
+My algorithms entry on [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]] has general resources on the role of algorithms/computation in art, philosophy, economics and so on. They should be read after I have studied a bit the resources here.
+
+- cite:felleisen2018design
+- cite:bhargava2016grokking
+- cite:Hall_2000
+- [[https://www.complexityexplorer.org/courses/99-computation-in-complex-systems][Complexity Explorer]]
+- cite:moore2011nature
+
+
+
+* Social simulation
+
+** General resources
+- cite:page2018model
+- cite:smaldino2020translate
+- cite:smaldino2020evolutionary
+- cite:robinaugh2020invisible
+
+
+** Analysis techniques
+- cite:siegel18_analy_comput_model
+- cite:fuellsack20_predic_regim_shift_social_system
+
+** Replication
+[[file:20200629204631-abm_replication.org][Abm replication]]
+-
+
+* Data Science
+** General Resources
+- cite:derekevidence
+
+** Data visualization
+- [[https://newleftreview.org/issues/II118/articles/franco-moretti-oleg-sobchuk-hidden-in-plain-sight][Franco Moretti & Oleg Sobchuk, Hidden In Plain Sight, NLR 118, July–August 2019]]
+
+- [[file:moretti_slides_dr2_conference_2019_moretti_slides_dr2_conference_2019_pdf.org][Moretti, Slides DR2 Conference 2019 - Moretti-Slides-DR2-Conference-2019.pdf]]
+- cite:schwabish14_econom_guide_to_visual_data
+- cite:healy14_data_visual_sociol
+- cite:healy2018data
+- [[http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html][Top 50 ggplot2 Visualizations - The Master List (With Full R Code)]]
+- [[https://github.com/thomasp85/ggplot2_workshop][GitHub - thomasp85/ggplot2_workshop: Material for "Drawing Anything with ggpl...]]
+  - [[https://www.youtube.com/watch?v=h29g21z0a68&feature=youtu.be][ggplot2 workshop part 1 - YouTube]]
+  - [[https://www.youtube.com/watch?v=0m4yywqNPVY&feature=youtu.be][ggplot workshop p 2]]
+
+
+** ML
+- [[https://sites.google.com/view/berkeley-cs294-158-sp20/home][CS294-158-SP20 Deep Unsupervised Learning Spring 2020]]
+
+
+** Statistics
+- [[https://www.youtube.com/watch?v=4WVelCswXo4&list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI][Mcelreath statistics course]]
+- [[https://statmodeling.stat.columbia.edu/2009/05/24/handy_statistic/][Handy statistical lexicon « Statistical Modeling, Causal Inference, and Socia...]]
+
+* Text analysis
+
+A great roadmap is : [[https://github.com/graykode/nlp-roadmap][GitHub - graykode/nlp-roadmap: ROADMAP(Mind Map) and KEYWORD for students tho...]]
+
+** Tutorials
+
+- [[https://kunststube.net/encoding/][What Every Programmer Absolutely, Positively Needs to Know About Encodings an...]]
+
+- [[https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/][The Absolute Minimum Every Software Developer Absolutely, Positively Must Kno...]]
+
+- [[https://programminghistorian.org/en/lessons/][Lesson Directory | Programming Historian]]
+
+
+- NLP aggregator: [[https://notebooks.quantumstat.com/][The Super Duper NLP Repo]]
+
+
+
+- [[https://github.com/graykode/nlp-tutorial][GitHub - graykode/nlp-tutorial: Natural Language Processing Tutorial for Deep...]]
+
+- [[https://github.com/rguthrie3/DeepLearningForNLPInPytorch/blob/master/Deep%20Learning%20for%20Natural%20Language%20Processing%20with%20Pytorch.ipynb][DeepLearningForNLPInPytorch/Deep Learning for Natural Language Processing wit...]]
+
+- [[https://course.spacy.io/en/][Advanced NLP with spaCy · A free online course]]
+
+- [[https://ruder.io/state-of-transfer-learning-in-nlp/][The State of Transfer Learning in NLP]]
+
+
+** Resources
+- [[https://ruder.io/a-review-of-the-recent-history-of-nlp/][A Review of the Recent History of Natural Language Processing]]
+- [[https://ruder.io/10-exciting-ideas-of-2018-in-nlp/][10 Exciting Ideas of 2018 in NLP]]
+- [[https://ruder.io/research-highlights-2019/][10 ML & NLP Research Highlights of 2019]]
+- [[https://ruder.io/4-biggest-open-problems-in-nlp/][The 4 Biggest Open Problems in NLP]]
+- [[https://ruder.io/deep-learning-nlp-best-practices/][Deep Learning for NLP Best Practices]]
+- [[https://gking.harvard.edu/category/research-interests/applications/automated-text-analysis][Automated Text Analysis | GARY KING]]
+** Articles
+review articles:
+- cite:nguyen16_comput_sociol
+- cite:gentzkow19_text_as_data
+- cite:evans16_machin_trans
+
+After studying those reviews look back at the dir for methods and maybe applications.
+
+** Books
+- [[https://web.stanford.edu/~jurafsky/slp3/][Speech and Language Processing]] cite:jurafsky2000speech
+- [[https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf]]
+- cite:eisenstein2018natural
+- cite:hapke2019natural
+
+** Courses
+
+- aggregator (nlp): https://deep-learning-drizzle.github.io/#nlpnn
+- [[http://web.stanford.edu/class/cs224n/][Stanford CS 224N | Natural Language Processing with Deep Learning]]
+- https://courses.media.mit.edu/2004spring/mas966/
+- [[http://people.ischool.berkeley.edu/~dbamman/info256.html#syllabus][Info 256. Applied Natural Language Processing]]
+
+**** Sociolinguistic
+- [[https://cbail.github.io/textasdata/Text_as_Data.html][Text as data - Chris Bail]]
+- [[https://dongpng.github.io/compsociolx/resources.html][Computational Sociolinguistics tutorial at IC2S2]]
+- [[https://github.com/hjmschoonvelde/CEU_ATA_2019][GitHub - hjmschoonvelde/CEU_ATA_2019: Materials for 2019 CEU course "Automate...]]
+- [[https://github.com/ArthurSpirling/Text-as-Data-Class-Spring-2018-][GitHub - ArthurSpirling/Text-as-Data-Class-Spring-2018-: Lectures from my DS ...]]
+
+
+** Substantive applications
+- Geometry of culture: https://journals.sagepub.com/doi/abs/10.1177/0003122419877135
+- [[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233879][An automated pipeline for the discovery of conspiracy and conspiracy theory n...]]
+- [[https://www.cambridge.org/core/journals/political-analysis/article/automated-text-classification-of-news-articles-a-practical-guide/10462DB284B1CD80C0FAE796AD786BC6][Automated Text Classification of News Articles: A Practical Guide | Political...]]
+
+
+
+
+
+*** Data resources
+- see my data-sources bookmark folder
+- [[https://github.com/ropensci/historydata][GitHub - ropensci/historydata: Datasets for Historians]]
+
+* Networks
+
+NLP and "networks" are the way to study dynamics empirically.
+
+Two great reviews of the SOTA:
+- cite:torres2020representations
+- cite:battiston2020networks
+- cite:amezquita20_shape_thing_to_come
+
+
+
+** Cool applications
+- cite:kosack18_funct_struc_us_state_gover

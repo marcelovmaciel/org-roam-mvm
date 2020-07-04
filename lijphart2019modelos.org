@@ -1,0 +1,25 @@
+#+TITLE: lijphart2019modelos: Modelos de democracia: desempenho e padr\~oes de governo em 36 pa\'\ises
+#+ROAM_KEY: cite:lijphart2019modelos
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: lijphart2019modelos
+:NOTER_DOCUMENT: %(orb-process-file-field "lijphart2019modelos")
+:AUTHOR: Lijphart, A.
+:JOURNAL:
+:DATE:
+:YEAR: 2019
+:DOI:
+:URL:
+:END:
+
+* Insights for [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+- (p.293) The conventional wisdom is that majoritarian governments are more
+  decisive therefore more efficient. Supposedly there is a trade-off between
+  decisiveness and representativeness. cite:lijphart2019modelos shows that this
+  is false (p.293-*308*).
+
+- (p340) Proportional representation matters a lot for the consensualism of a system
+
+- (p.344) There is some sort of causal chain:
+   proportional representation $\rightarrow$ multipartisanship  $\rightarrow$ coalitional governments
+- (p.343) Culture matters for the choice of political institutions

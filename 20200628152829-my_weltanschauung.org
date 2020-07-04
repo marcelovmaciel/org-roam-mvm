@@ -1,0 +1,251 @@
+#+TITLE: My Weltanschauung
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
+
+* Introduction
+
+  This notes tries to delineate my general worldview. A worldview might not be
+  needed either for doing science (see cite:codato2011marxismo) or for being a
+  political being. Nevertheless, I believe it is a good way of coming up with
+  neat ideas and for organizing my thoughts.
+
+  What worldviews do I consider interesting?
+
+* Socialism / Marxism / Critical Theory
+
+The socialist and Marxist worldview is the foundation of my
+intellectual journey.
+
+Socialism I'll separate from Marxism, and relate it to egalitarianism,
+exploitation, domination and expropriation. The main way of articulating
+socialist views is through Marxism and Critical Theory. This connects with plain
+social science, but also with other structural views such as gender and race -
+which I'm not as conversational as with class.
+
+** Socialism
+- [[https://newleftreview.org/issues/II94/articles/rob-lucas-socialism-as-a-regulative-idea][Rob Lucas, Socialism as a Regulative Idea?, NLR 94, July–August 2015]]
+- [[https://newleftreview.org/issues/I185/articles/robin-blackburn-fin-de-siecle-socialism-after-the-crash][Robin Blackburn, Fin de Siecle: Socialism after the Crash, NLR I/185, January...]]
+- [[https://newleftreview.org/issues/II121/articles/dylan-riley-real-utopia-or-abstract-empiricism][Dylan Riley, Real Utopia or Abstract Empiricism?, NLR 121, January–February 2020]]
+- cite:ypi20_democ_dictat
+** Marxism
+
+Lukacs may be the greatest articulation of marxism as a Weltanschauung. He goes
+as far as saying it is some kind of social ontology. Maybe any social theory
+assumes some kind of ontology, but Lukacs brings it to the forefront.
+  - on lukacs:
+    - Browne, P. (1990). Luk\'acs' later ontology. Science \& Society, 54(2),
+      193–218. cite:browne1990lukacs
+    - M\'esz\'aros, Istv\'an (2015). O conceito de dial\'etica em luk\'acs. :  Boitempo Editorial. cite:meszaros2015conceito
+
+
+
+Marxism connects with individualist theories through the analytical marxists literature.
+- Analytical marxism:
+  - Codato, A. N., & Perissinotto, R. M. (2011). Marxismo como ci\^encia social. : Editora UFPR Curitiba. cite:codato2011marxismo
+  - [[https://newleftreview.org/issues/II121/articles/michael-burawoy-a-tale-of-two-marxisms][Michael Burawoy, A Tale of Two Marxisms, NLR 121, January–February 2020]]
+** Critical Theory
+
+I see critical theory as an offspring of marxism.
+
+
+  - introductions:
+    - [[http://induecourse.ca/the-problem-with-critical-studies/][The problem with “critical” studies | In Due Course]]
+    - Geuss, R., & others, (1981). The idea of a critical theory: habermas and the
+        frankfurt school. : Cambridge University Press. cite:geuss1981idea
+    - Held, D. (1980). Introduction to critical theory: horkheimer to habermas. :
+      Univ of California Press. cite:held1980introduction
+    - Losurdo, D. (2019). O marxismo ocidental: como nasceu, como morreu, como
+      pode render. : Boitempo Editorial. cite:losurdo2019marxismo
+    - [[http://sk.sagepub.com/reference/the-sage-handbook-of-frankfurt-school-critical-theory][SAGE Reference - The SAGE Handbook of Frankfurt School Critical Theory]]
+      
+  - on habermas:
+    - Selk, V., & Dirk J\"orke (2019). Back to the future! habermas and dewey on   democracy in capitalist times. Constellations, 27(1), 36–49.  http://dx.doi.org/10.1111/1467-8675.12423 cite:selk19_back_to_futur
+    - Finlayson, J. G. (2019). The Habermas-Rawls Debate. : Columbia University  Press. cite:finlayson2019habermas
+    - J\orgen Pedersen (2011). Justification and application: the revival of the rawls–habermas debate. Philosophy of the Social Sciences, 42(3), 399–432.  http://dx.doi.org/10.1177/0048393111414723 cite:pedersen11_justif_applic
+    - J\orgen Pedersen (2008). Habermas' method: rational reconstruction. Philosophy  of the Social Sciences, 38(4), 457–485. http://dx.doi.org/10.1177/0048393108319024 cite:pedersen08_haber_method
+
+  - on jaeggi:
+    - cite:allen2018alienation
+    - cite:jaeggi2018critique
+
+Both jaeggi and habermas works connect to liberal political theory.
+
+
+* Liberal / Decision Theoretic / Individualist
+
+This is the second cluster of ideas that I consider a different world-view.
+
+I consider it to have three dimensions: the normative (liberal), the formal
+(decision theoretic) and the epistemological (individualist). Obviously it has got an
+ontological dimension, but I have never given it much thought. Maybe I've got to
+take a look at the social ontology literature that has appeared in the past
+years.
+
+
+** Liberal
+John stuart mill, dewey, berlin, spitz, rawls, habermas and ostrom are the big
+names of my liberal inheritance.
+
+- [[https://newleftreview.org/issues/II123/articles/lorna-finlayson-rules-of-the-game][Lorna Finlayson, Rules of The Game?, NLR 123, May–June 2020]]
+** Decision Theoretic
+
+The decision theoretic setting is highly general. It is my favorite way of
+theorizing and it neatly connects with both institutional and evolutionary
+theories of social behavior.
+
+The problem is that it is too indeterminate (more on that below). It cannot
+stand on its own as a theory of society as it is almost meaningless without some
+enrichment of some sort. Institutions, networks, discourses, evolution and
+class/race/gender are ways of doing so.
+
+The decision theoretic foundation, however, allows us to do all that in careful
+way. Consequently, it shouldn't be thrown away.
+
+  - cite:fumagalli20_indiv_choic_option
+  -  cite:fumagalli20_how_thin_ration_choic_theor_explain_choic
+
+** Individualist
+The methodological individualist way of theorizing is the preferred of the
+mainstream of political science, economics and analytical sociology. Though it
+is important it is too inderterminate (see binmore on elster and elster
+articles). Understanding its limitations is paramount, particularly because a
+great deal of good work uses it.
+
+-  cite:bulle17_can_analy_sociol_do_without_method_indiv
+- Elster critiques of the academic status quo:
+  - Elster, J. (2011). Hard and soft obscurantism in the humanities and social  sciences. Diogenes, 58(1-2), 159–170.   http://dx.doi.org/10.1177/0392192112444984 cite:elster11_hard_soft_obscur_human_social_scien
+  - Elster, J. (2009). Excessive ambitions. Capitalism and Society, 4(2), .
+  - Elster, J. (2013). Excessive ambitions (ii). Capitalism and Society, 8(1), .
+
+
+* Modeling / Sociotechnical / Algorithms / Evolution
+
+This final cluster is my twist on the analytical and formal individualist
+approach. Also it helps focusing on nuts and bolts. 
+
+Modeling is about methodology, algorithms about tecnhiques,
+sociotechnical systems as target systems and evolution as a privileged
+algorithm.
+
+** [#C] Modeling
+*** [#C] Epistemology of modeling
+- On pluralism and limits of the analytical status quo:
+  cite:veit19_model_plural
+- cite:appiah2017if
+
+
+** [#A] Algorithms
+
+I'm particularly interested in algorithmic thinking as a way of doing science
+AND as a social phenomena AND society as mediated by algorithms. For algs as
+social phenomena it is better to see the sociotechnical systems section.
+
+*** General resources
+- This one is about algorithms and science as art cite:Knuth1974art
+
+- This one is about complexity and computability [[https://plato.stanford.edu/entries/computability/#SigCom][Computability and Complexity (Stanford Encyclopedia of Philosophy)]]
+
+- This talks about the algorithmification of causality: [[https://an1lam.github.io/post/2020-05-15-ci-course-review/][Stephen Malina - Course Review - Causal Inference]]
+
+- This talks about the role of algorithm analysis for science [[https://cstheory.stackexchange.com/questions/20731/justifying-asymptotic-worst-case-analysis-to-scientists][cc.complexity theory - Justifying asymptotic worst-case analysis to scientist...]]
+
+- This talks about algorithms for economics [[https://cstheory.stackexchange.com/questions/17552/why-economists-should-care-about-computational-complexity][cc.complexity theory - Why economists should care about computational complex...]]
+
+- Still about *economics* and algorithms there is the course [[http://www.columbia.edu/~ck2945/courses/s20_8100/][Economics, AI, and Optimization | Christian Kroer]]. This is as cool as the [[file:20200616033314-fairness_in_ml_through_social_choice.org][Fairness in Ml through social choice]] course as it also blends a lot of my interests!!!!
+
+- This talks about algorithms for philosophy [[https://arxiv.org/pdf/1108.1791.pdf]]
+
+- This one talks about the math behind the friendship paradox [[https://academic.oup.com/comnet/article/7/4/515/5208409][Centrality-friendship paradoxes: when our friends are more important than us ...]]
+
+*** Algorithmic institutionalism
+
+I have with Kaique this project of proposing a thoroughly algorithmic approach
+to social behavior. Plots equation can be turned into the composition of
+procedures. See the github repo for that.
+
+***** References
+- Measuring conventionality: "I introduce an information-theoretic measure intended to capture the degree to which a solution to a certain social problem could have been otherwise: "" [[https://www.tandfonline.com/doi/abs/10.1080/00048402.2020.1781220?journalCode=rajp20][Measuring Conventionality]]
+
+
+
+
+
+** [#A] Sociotechnical systems
+
+The sociothenical systems approach involves analyzing the interactions between
+humans and tech and humans through tech.
+
+Maybe my big research agenda is exactly *collective decision making in sociotechnical systems*.
+
+*** On general computational social science
+***** Course
+- aggregator: [[https://github.com/collections/teaching-computational-social-science][Collection: Teaching materials for computational social science · GitHub]]
+- [[https://compsocialscience.github.io/summer-institute/curriculum][SICSS - Course]]
+***** Resources
+- cite:Edelmann_2020
+- cite:Yarkoni_2019
+
+
+
+*** Themes
+
+**** Cybersocialism - Socialist takes on tech, algs and social media
+- [[https://newleftreview.org/issues/II123/articles/wolfgang-streeck-engels-s-second-theory][Wolfgang Streeck, Engels’s Second Theory, NLR 123, May–June 2020]] cite:streeck2020engels
+
+- [[https://newleftreview.org/issues/II91/articles/evgeny-morozov-socialize-the-data-centres][Evgeny Morozov, Socialize the Data Centres!, NLR 91, January–February 2015]] cite:morozov2015socialize
+- [[https://newleftreview.org/issues/II116/articles/evgeny-morozov-digital-socialism][Evgeny Morozov, Digital Socialism?, NLR 116/117, March–June 2019]]
+- [[https://newleftreview.org/issues/II121/articles/rob-lucas-the-surveillance-business][Rob Lucas, The Surveillance Business, NLR 121, January–February 2020]]
+- [[https://newleftreview.org/issues/II62/articles/rob-lucas-dreaming-in-code][Rob Lucas, Dreaming in Code, NLR 62, March–April 2010]]
+- [[https://newleftreview.org/issues/II100/articles/rob-lucas-the-free-machine][Rob Lucas, The Free Machine, NLR 100, July–August 2016]]
+- [[https://newleftreview.org/issues/II119/articles/aaron-benanav-automation-and-the-future-of-work-1][Aaron Benanav, Automation and the Future of Work—1, NLR 119, September–Octobe...]]
+- [[https://newleftreview.org/issues/II51/articles/daniel-miller-sterilizing-cyberspace][Daniel Miller, Sterilizing Cyberspace, NLR 51, May–June 2008]]
+- [[https://newleftreview.org/issues/I219/articles/john-frow-information-as-gift-and-commodity][John Frow, Information as Gift and Commodity, NLR I/219, September–October 1996]]
+- [[https://newleftreview.org/issues/II74/articles/julian-stallabrass-digital-partisans][Julian Stallabrass, Digital Partisans, NLR 74, March–April 2012]]
+
+
+**** Fairness in ml
+
+I already have a project idea on that: [[file:20200616033314-fairness_in_ml_through_social_choice.org][Fairness in Ml through social choice]] . The thing is, there are great papers that discuss exactly the limitations of an abstract approach such as social choice. One of them is cite:selbst2019fairness . How can I fuse an approach careful about structure and power while also being attentive to values conflicts?
+
+- [[https://github.com/google/ml-fairness-gym][GitHub - google/ml-fairness-gym]] - this is an interesting connection with my work on social simulation !!!!
+
+
+**** Critical digital humanities/ai studies
+
+- Those are great papers about the web: http://angelaxiaowu.com/publications.html
+- [[https://allmodels.ai/][allmodels.ai]]
+- [[https://dhdebates.gc.cuny.edu/][Debates in the Digital Humanities]]
+  
+**** Sources of inspiration
+
+The works from the laboratory from dedeo and dodds are one my main
+inspirations here:
+
+- [[http://simondedeo.com/][Axiom of Chance – thoughts from the Laboratory for Social Minds at Carnegie M...]]
+  - Dedeo has courses on [[https://www.complexityexplorer.org/courses/67-introduction-to-renormalization/segments/5411?summary][Complexity Explorer]] and many tutorials
+- [[http://www.uvm.edu/storylab/][The PoCS: Principles of Complex Systems]]
+  -  Dodds also has lots of materials in his site [[https://www.uvm.edu/pdodds/][Peter Sheridan Dodds]].
+
+Moretti is also a huge source of inspiration (as he interleaves nlp with
+evolutionary thinking):
+
+- cite:moretti2005graphs
+- cite:moretti2013distant
+- [[https://newleftreview.org/issues/II41/articles/franco-moretti-the-end-of-the-beginning][Franco Moretti, The End of the Beginning, NLR 41, September–October 2006]]
+- [[https://newleftreview.org/issues/II34/articles/christopher-prendergast-evolution-and-literary-history][Christopher Prendergast, Evolution and Literary History, NLR 34, July–August ...]]
+- cite:jockers2013macroanalysis
+
+
+
+ Roth also has some good papers.
+** [#C] Evolution
+This involves using the evolutionary algorithm as a tool. Seems simple, but lots
+can be achieved by doing so.
+
+*** Courses
+- [[http://www.dysoc.org/cesmodules/][Online Learning: Cultural Evolution Society]]
+
+*** Books
+
+- [[https://www.amazon.com/Games-Philosophy-Biology-Elements/dp/1108727514/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1580317208&sr=8-1][Games in the Philosophy of Biology (Elements in the Philosophy of Biology): O...]]
+- [[https://www.amazon.com/gp/product/B07V5Q6R62/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1][The Origins of Unfairness: Social Categories and Cultural Evolution - Kindle ...]]
+- cite:sobchuk2018charting

@@ -1,0 +1,143 @@
+#+TITLE: munger2015choosing: Choosing in groups: analytical politics revisited
+#+ROAM_KEY: cite:munger2015choosing
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: munger2015choosing
+:NOTER_DOCUMENT: %(orb-process-file-field "munger2015choosing")
+:AUTHOR: Munger, M. C.
+:JOURNAL:
+:DATE:
+:YEAR: 2015
+:DOI:
+:URL:
+:END:
+
+* Insights
+
+One thing that I have concluded is that there are actually four logical levels
+of choice:
+
+1. Deciding to become a group or to keep as group;
+2. deciding how to decide - constitutional choices;
+3. collective decisions
+4. operational decisions.
+
+# ----------------------------------------------------------
+That the rule to be used in the electoral process depends on social stability.
+This argument was made by [[file:dahl1989democracy.org][dahl1989democracy: Democracy and its critics]] too. lol
+
+
+* What are the reasons for becoming a group?
+
+- Gains are bigger than the costs (p.12)
+
+Implicit here is the opposite question:
+*What are the reasons for exiting a group?*
+- Costs are bigger than gains
+- Exit costs, however, tend to be huge (p. 28).
+
+
+
+* What are the reasons for choosing in group?
+(p.7)
+- Information
+- Legitimacy
+
+
+* How do we differ judgment from preferences?
+
+(p.19)
+
+*Preferences are disputes over ends, over values*. They are not simply tastes,
+ people can make arguments about them, convince others, discuss the sources of
+ disagreement.
+
+ *Judgements are disputes over means*. Given a goal, what are the best means? Even
+
+* What are the three stages of choosing in groups?
+ - Deciding how to decide how to decide
+   - AS IF this was a "choice". This is the hobberian moment. 
+ - Deciding how to decide
+ - (collective) Deciding
+
+* What are the objects of constitutional rules?
+
+(P. 29)
+
+- Rules on how to choose
+- Who can enter the group
+- How can members leave the group
+- How rules can be changed 
+
+* On the artifice of contractarian theorists (p.31)
+They collide becoming a group and setting the rules of the group as the some
+"constitutional moment". Obviously this is not true, it is only a theoretical
+artifice.
+
+Colliding the two of them is a rationalist simplification.
+
+* On selecting a decision rule (p.137)
+They specify some steps for selecting a decision rule.
+
+- Define who are the members of the group
+- Define the alternatives
+- Define evaluative criteria
+- Specify the decision rules
+- Decide which decision rule is the best given the group - alternatives -
+  evaluative criteria.
+
+
+I would add the following step:
+- Decide what are we asking from the group.
+
+So we would have the following steps for selecting a decision rule:
+
+1. Define who are the members of the group
+2. Decide what are we asking from the group
+3. Define the alternatives
+4. Define evaluative criteria
+5. Specify the decision rules
+6. Decide which decision rule is the best given the group - alternatives -
+   evaluative criteria.
+* P. 139 has an example of plurality not choosing a condorcet winner
+
+[[file:~/Drive/Org/imgs/not-condorcet.png]]
+asdfasdf
+* Why IIA matters?
+This follows from Satterthwaite. Without IIA the system is too manipulable. Borda count is an example of manipulable system
+
+
+* P. 155 on choice of electoral system
+
+Using cite:mueller2003public they argue that plurality rule should be used in
+legislative elections if we care more about quick decisiveness than societal
+representation (in the sense of mirroring ).
+
+It is like a choice between dynamic decisiveness vs dynamic legitimacy.
+
+cite:mueller2003public p. 296 has a counterpoint against plurality.
+
+# --------------------------------------------------------------------
+
+
+Maybe cite:dougherty2011calculus matters here too.
+
+# --------------------------------------------------------------------
+
+Gary Cox may matter here, who knows.
+
+*** cox refs
+Cox, Gary. “An Expected Utility Model of Electoral
+Competition.” Quality and Quantity 18 (1984a): 337–49.
+Cox, Gary. “Strategic Electoral Choice in Multi-Member
+Districts: Approval Voting in Practice?” American Journal of
+Political Science 28 (1984b): 722–38.
+Cox, Gary. “Electoral Equilibrium under Alternative Voting
+Institutions.” American Journal of Political Science 34 (1987):
+903–35.
+Cox, Gary. “Centripetal and Centrifugal Incentives in Electoral
+Systems.” American Journal of Political Science 34 (1990): 903
+35.
+Cox, Gary. Making Votes count: Strategic Coordination in the
+World’s Electoral Systems. New York: Cambridge University
+Press, 1997.

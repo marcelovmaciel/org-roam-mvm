@@ -1,0 +1,7 @@
+#+TITLE: What is manipulation in SC?
+- source :: cite:sep-voting-methods
+
+  There are two kinds of manipulation. The first is *control* through an
+  authoritative figure, I believe an example to this is mckelvey classic paper.
+  The other kind of manipulation is *misrepresentation of preferences* by
+  voters. This is what [[file:sep-social-choice.org][the gibbard satterwhaite theorem]] is about.

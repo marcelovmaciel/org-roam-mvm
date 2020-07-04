@@ -1,0 +1,46 @@
+#+TITLE: Julia Tips
+
+- tags :: [[file:20200516152708-programming.org][Programming]],
+
+
+* Tutorials
+- [[https://github.com/johnmyleswhite/julia_tutorials][GitHub - johnmyleswhite/julia_tutorials: Tutorials on Julia topics]]
+* Introspection
+** injl, How does one get all the symbols within a module? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-04T01:28:21Z
+:FC_TYPE:  normal
+:ID:       b2d57465-49fe-40f3-8a3d-91c759da0fcd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-04T01:28:21Z |
+:END:
+*** Back
+
+
+- With the ~names~ proc.
+
+** How does one build a Pkg documentation locally
+- By running the ~docs/make.jl~ in the Pkg source.
+
+Actually one has to copy the folder of the package. Change permissions. And then run
+
+#+BEGIN_SRC shell :eval no
+julia --project=docs/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+julia --project=docs/ docs/make.jl
+#+END_SRC
+
+
+IF there was no permission problem one could do the following:
+#+BEGIN_SRC julia :eval no
+using Pkg, Cuba
+pkgdir = dirname(dirname(pathof(Cuba)))
+docsdir = joinpath(pkgdir, "docs")
+Pkg.activate(docsdir)
+Pkg.develop(PackageSpec(path=pkgdir))
+Pkg.instantiate()
+include(joinpath(docsdir, "make.jl"))
+
+#+END_SRC

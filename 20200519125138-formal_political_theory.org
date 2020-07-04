@@ -1,0 +1,2 @@
+#+TITLE: Formal Political Theory
+- tags :: [[file:20200520181958-social_theory_general.org][Social Theory - General]]

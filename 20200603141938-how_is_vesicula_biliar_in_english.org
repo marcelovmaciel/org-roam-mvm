@@ -1,0 +1,15 @@
+#+TITLE: How is vesicula biliar in english?
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-06-03T17:19:47Z
+:FC_TYPE:  normal
+:ID:       8c0185c2-d522-41fc-af18-c07675a31610
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-06-03T17:19:47Z |
+:END:
+** Back
+gallbladder

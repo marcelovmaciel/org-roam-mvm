@@ -1,0 +1,22 @@
+#+TITLE: Org Bibliographic Management
+
+- tags :: [[file:20200516152744-learning_emacs.org][Learning Emacs]], [[file:20200516144415-doom_emacs.org][Doom Emacs]]  [[file:20200525200536-on_my_workflow.org][On my workflow]]
+
+
+Functionalities I've discovered so far: 
+- Add new bib entry from title query string
+- Add new bib entry from doi or url string
+- Download pdf from query string
+- Move file to pdfs dir
+- Open file of bib entry
+- insert cite bib entry inside org file
+
+- ~orb-note-actions~ is useful if the note was created using org-roam-bibtex, or simply has a roam-key
+
+- A simple insertion of cite is done through  ~org-ref-insert-link~!
+
+- If one calls ~helm-bibtex~ a bib reference management menu is opened!
+
+- ~biblio-lookup~ is the most general lookup I've discovered so far.
+- There are other lookups!!
+- ~crossref-add-bibtex-entry~ is for inserting bibtex entries to your bib file

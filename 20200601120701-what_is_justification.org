@@ -1,0 +1,199 @@
+#+TITLE: On justification
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+* Dictionary
+At a first glance something is justifiable if there are *reasons* for doing it.
+
+Dictionary definition[fn:dict] for justifiable is :
+#+begin_quote
+adjective; capable of being justified; that can be shown to be or can be defended
+as being just, right, or warranted; defensible:
+#+end_quote
+
+On justified[fn:dict2]
+#+begin_quote
+to show (an act, claim, statement, etc.) to be just or right: The end does not
+always justify the means. to defend or uphold as warranted or well-grounded:
+Don't try to justify his rudeness. Law.
+
+to show a satisfactory reason or excuse for something done.
+#+end_quote
+
+So it is related to reason. What is reason?
+[[file:./images/screenshot-04.png]]
+
+* SEP entries
+** [[https://plato.stanford.edu/entries/practical-reason-action/][Pratical Reason]] and the Structure of Actions
+
+From this entry (cite:sep-practical-reason-action) the only relevant information
+is that practical reason is about figuring out what to do, and that one can
+contrast action with "mere activity/behavior"
+
+** [[https://plato.stanford.edu/entries/reasons-just-vs-expl/][Reasons for Action:]] Justification, Motivation, Explanation
+
+Reasons are related to practical reasoning: about action which is guided by principles, justified by them. People deliberate about what and how to act. This is relevant for my problem.  The question [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]] is about practical reasoning in a collective context, which will lead us to [[https://plato.stanford.edu/entries/justification-public/][public justification]]. Let's save this insight for now.
+
+So, people don't only merely act, but also act guided  by some principles or criteria. We can also say they act guided by *reasons*. But what exactly are reasons? cite:sep-reasons-just-vs-expl argues that there are three kinds of reasons for actions:
+
+#+begin_quote
+[...] *“normative”* reasons—that is, reasons which, very roughly, favour or
+justify an action, as judged by a well-informed, impartial observer; and
+*“motivating”* reasons—which, again roughly, are reasons the “agent” (that is,
+the person acting) takes to favour and justify her action and that guides her in
+acting. But there are, in addition, *“explanatory”* reasons, reasons that
+explain an action without necessarily justifying it and without being the
+reasons that motivated the agent.
+
+[...]
+
+A *normative reason* is a reason (for someone) to act—in T. M. Scanlon’s phrase,
+“a consideration that counts in favour of” someone’s acting in a certain way
+(1998 and 2004).
+
+[...]
+
+A reason is said to be a “normative reason” for acting because it favours
+someone’s acting. But what does it mean to say that a reason “favours” an
+action? One way of understanding this claim is in terms of justification: a
+reason justifies or makes it right for someone to act in a certain way. This is
+why normative reasons are also called “justifying” reasons.
+
+[...]
+
+Whether it would be right for me to tell the joke, whether I have an
+“all-things-considered” reason to tell it, will depend on whether either of the
+reasons is stronger than the other.
+
+[...]
+
+As Austin noted (1957), we must distinguish between a justification and an
+excuse. When accused of wrongdoing, one may offer a justification, which aims to
+show that in fact the thing done was right because there was reason for doing
+it. Alternatively, one may offer an excuse: admit that one did the wrong thing
+but plead to be partly or wholly exculpated—for instance, because it was done
+out of ignorance or mistake.
+
+[...]
+
+A *motivating reason* is a reason for which someone does something, a reason
+that, in the agent’s eyes, counts in favour of her acting in a certain way. When
+an agent acts motivated by a reason, she acts “in light of that reason” and the
+reason will be a premise in the practical reasoning, if any, that leads to the
+action.
+
+[...]
+
+someone’s goal or intention in acting, which is something the agent desires (to grow vegetables; to kill Desdemona) seem to be motivating factors in acting. But because these are not considerations in light of which one acts, they do not fall under the category “motivating reasons” as currently understood (but see Audi 1993).
+
+[...]
+
+"When I call a reason “motivating”, all that I am doing is issuing a reminder
+that the focus of our attention is on matters of motivation, for the moment.
+When I call it “normative”, again all that I am doing is stressing that we are
+currently thinking about whether it is a good reason, one that favours acting in
+the way proposed" (Dancy 2000: 2–3).
+
+[...]
+
+According to this suggestion, there is a single notion of a reason that is used
+to answer different questions: the question whether there is a reason for
+someone to do something (normative) and the question what someone’s reason for
+acting is (motivating). For instance, we can ask whether there is a reason for
+the government of a country to tax sugary drinks (normative), and ask also for
+the government’s reason for actually taxing the drinks (motivating).
+
+[...]
+
+The distinction between normative and motivating reasons, therefore, enables us
+ to separate the question what reasons motivate agents to act (a psychological
+ question) and the question whether those are good reasons: reasons that favour
+ and justify their acting thus.
+
+#+end_quote
+
+
+
+
+------------------------------------------------------------
+# BAD TAKE BELOW
+# This difference between normative reason and motivating reason is perfect.
+
+# I can argue that there is some ambiguity in asking whether plurality rule is justifiable. Because justifiability is a property of acts and or beliefs.
+
+# Which leads to reasons, basis for acting or believing.
+
+# And finally to KINDS of reasons. Motivating or normative.
+
+# From a motivating point of view it is obvious that plurality rule is justifiable, as its one of the most used voting methods (hand wavy). Which specific reasons are evoked by political actors, however, is not something that i'm aware of. It is an interesting empirical question (akin to elster's local justice research program, and with their third line of research https://www.wiso.uni-hamburg.de/en/forschung/verbundprojekte/rtg-collective-decision-making/research/p3.html)
+# But i believe this is not the intended meaning of the question. From a pragmatic point of view I believe I have been asked to give an exposition whether there are normative reasons for using/choosing plurality rule.
+
+# OK, my argument is that political agents as matter of fact have reasons that motivate them. So plurality is justifiable as it is amenable to be defended, is empirically justified, as widespread, but this is almost vacuously true.
+
+# The meat of the question is whether plurality rule is justified in a normative sense. Supposing agents were impartial observers of their action situation should they use plurality rule?
+
+# There are many complications. There are reasons for and against and those are conditional on the context.
+
+------------------------------------------------------------
+*STUDY THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*
+https://www.wiso.uni-hamburg.de/en/forschung/verbundprojekte/rtg-collective-decision-making/research/p3.html
+------------------------------------------------------------
+
+*** Further references on types of (practical) reason
+
+---------------------------------------------------------------
+ #+begin_quote
+Jonathan Dancy (2000: 20ff. and Appendix) discusses the history of this distinction.
+#+end_quote
+–––, 2000, Practical Reality, Oxford: Clarendon Press.
+---------------------------------------------------------------
+
+** [[https://plato.stanford.edu/entries/epistemology/][Epistemology]] (Justification)
+
+
+Two kinds of justification:
+#+begin_quote
+*Deontological Justification (DJ)*
+S is justified in believing that p if and only if S is not obliged to refrain from believing that p.
+
+[...]
+Whereas when we evaluate an action, we are interested in assessing the action
+from either a moral or a prudential point of view, when it comes to beliefs,
+what matters may be something else,[24] e.g., the pursuit of truth, or of
+understanding, or of knowledge.
+
+Exactly what, though, must we do in the pursuit of some such distinctively
+epistemic aim? According to one answer, the one favored by evidentialists, we
+ought to believe in accord with our evidence.
+
+[...]
+
+Other philosophers might deny this evidentialist answer, but still say that the
+pursuit of the distinctively epistemic aims entails that we ought to *follow the
+correct epistemic norms.*
+
+[...]
+
+
+*Sufficient Likelihood Justification (SLJ)*
+S is justified in believing that p if and only if S believes that p in a way that makes it sufficiently likely that her belief is true.
+#+end_quote
+
+
+#+begin_quote
+What makes a belief that p justified, when it is? Whether a belief is justified
+or unjustified, there is something that makes it so. According to
+“evidentialists”, it is the believer’s *possession of evidence for p*.
+Evidentialism is often contrasted with reliabilism, which is the view that a
+belief is justified by resulting from a reliable source, where a source is
+reliable just in case it tends to result in mostly true beliefs.
+
+[...]
+
+some philosophers claim that what justifies a belief is that it is produced by a process that is reliable
+#+end_quote
+
+
+* Footnotes
+
+[fn:dict2] Seen at:  https://www.dictionary.com/browse/justify
+
+[fn:dict] Seen at https://www.dictionary.com/browse/justifiable?s=t

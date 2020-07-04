@@ -1,0 +1,34 @@
+#+TITLE: What is a sequential equilibrium?
+
+- source :: cite:sep-game-theory
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:38:48Z
+:FC_TYPE:  normal
+:ID:       0a17b1c8-d030-4665-bcfe-ea1ea24f88c0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:38:48Z |
+:END:
+
+
+** Back
+  Another [[file:20200519161456-what_is_an_equilibrium_refinement.org][equilibrium refinement]]. It also assumes bayesian reasoning and I don't grokk the concept right now. This is a quote from cite:sep-game-theory that may help:
+   #+begin_quote
+- If we assume that players’ beliefs are always consistent with bayes rule, then
+  we may define a sequential equilibrium. A SE has two parts: (1) a strategy
+  profile § for each player, as before, and (2) a system of beliefs μ for each
+  player. μ assigns to each information set h a probability distribution over
+  the nodes in h, with the interpretation that these are the beliefs of player
+  i(h) about where in his information set he is, given that information set h
+  has been reached. Then a sequential equilibrium is a profile of strategies §
+  and a system of beliefs μ consistent with Bayes’s rule such that starting from
+  every information set h in the tree player i(h) plays optimally from then on,
+  given that what he believes to have transpired previously is given by μ(h) and
+  what will transpire at subsequent moves is given by §.
+#+end_quote
+
+Notice that it is based on the concept of [[file:20200519173427-what_is_an_information_set.org][information set]].
+Sequential equilibrium is special as it is an equilibrium both in actions and beliefs (THIS SHOULD BE FURTHER INVESTIGATED).

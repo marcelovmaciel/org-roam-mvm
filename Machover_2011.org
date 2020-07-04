@@ -1,0 +1,113 @@
+#+TITLE: Machover_2011: The underlying assumptions of electoral systems
+#+ROAM_KEY: cite:Machover_2011
+*  Notes
+:PROPERTIES:
+:Custom_ID: Machover_2011
+:NOTER_DOCUMENT: %(orb-process-file-field "Machover_2011")
+:AUTHOR: Machover, M.
+:JOURNAL: Electoral Systems
+:DATE:
+:YEAR: 2011
+:DOI:  http://dx.doi.org/10.1007/978-3-642-20441-8_1
+:URL: http://dx.doi.org/10.1007/978-3-642-20441-8_1
+:END:
+
+
+
+- He also emphasizes that we have to understand the *likelihoods of pathologies* under each procedure (p.1)
+- And that majority principle is paramount to some political systems
+
+* Politicians and social choice geeks
+#+begin_quote
+Politicians and their advisors – and, ideally,
+the general public – ought to be aware of the logico-mathematical properties of the
+voting procedures in question; otherwise they can easily walk into a trap. So it is
+wrong to *dismiss these matters as of interest only to geeks.*
+#+end_quote
+
+* What are the two senses of representation
+
+DISCLAIMER
+
+#+begin_quote
+The first main dichotomy is relevant for electing a representative assembly such as a legislature, not a holder of an individual post, such as a president.
+#+end_quote
+Proportional vs District representation. This is also in cite:nicolau2015sistemas !!
+
+Proportional representation  is related to a *representative sample*. This is a property of the *assembly*.
+
+#+begin_quote
+Here a member of the assembly does not represent a geographically defined constituency, but reflects a like-minded section of the electorate at large, which may well be geographically dispersed.
+#+end_quote
+
+On the other hand district representation is related to a geographically defined *constituency*. It is an attribute of the individual, who is a representative of the constituents of some "area". This is akin to an agent-principal relationship (actually the other is too  isnt it?).
+
+#+begin_quote
+The presumed aim of a DR procedure is to elect a candidate (or a small set of candidates) that is in some sense “best” or “most suitable” for representing this heterogeneous constituency.
+#+end_quote
+
+A *diplomatic representative* is related to this notion of representation.
+
+# --------------------------------------------------------------------------
+Maybe I can relate that with the differences between judgment and preference? Sounds fishy, but gotta think about it.
+
+
+#+begin_quote
+One such compromise is the so-called Additional Member
+system used, for example, in elections to the German Bundestag and the Scottish Assembly, whereby some members of the legislature are elected by a DR method, and the rest are elected by a PR method, designed to achieve or approach overall proportionality. A second, quite different compromise consists in dividing the electorate at large into fairly large geographically-based constituencies, within each of which elections are held using PR. This compromise is used, for example, in the UK in elections to the European Parliament; it has occasionally been used in elections to the French National Assembly.
+#+end_quote
+
+* What is lottery processing and why this matters?
+
+Is whenever a voting method aggregation procedure involves some sort of lottery.
+
+It matters because cite:Machover_2011 gives a cool example of the role of moral sensitivities in choosing a decision procedure.
+
+He compares lottery choice of representatives in Athens vis-a-vis modern poliarchies versus using it to elect a chairman of ameeting
+
+#+begin_quote
+According to current social norms, it is considered in many countries desirable to
+select a trial jury by lot out of a large pool of admissible candidates. But electing
+a legislature by LP would probably be regarded by most people as unacceptable.
+Electing an individual by lottery for a position such as chairman of a meeting
+is quite common, but electing a holder of high political office by LP would be
+unacceptable – although it was normal practice under Athenian democracy. (p.5)
+#+end_quote
+
+* Is single transferable voting a proportional method?
+Machover argues it is not.
+
+First, theoretically it is not monotonic. Second, in practice it is not as proportional as the list systems.
+
+Machover argues that it is a DR system designed to also compromise with proportional proclivities.
+
+#+begin_quote
+In fact, STV is a DR system that is ingeniously designed
+to produce less disproportionate outcomes than the extremely pathological plurality
+procedure
+
+[...]
+
+STV is therefore advocated by people who can see the virtues of PR, but are wedded to DR either on political grounds or because they simply take it for granted. Among the latter was J S Mill.
+#+end_quote
+
+
+* Is there a system that combines proportional representation and lottery processing?
+Yes the *lottery voting procedure (LVP)*.
+
+
+#+begin_quote
+The entire electorate is divided into constituencies of roughly equal size.
+Elections are conducted in each constituency as under the plurality system, but with the following crucial difference. Whereas under the plurality system the winner is the candidate with the greatest number of votes, under LVP a weighted lottery is conducted, with candidates’ weights proportional to the respective numbers of votes cast for them.
+
+[...]
+
+if the number of constituencies is fairly large (say
+100 or more) then the total number of seats won by candidates representing a given
+party or informal trend of opinion is very highly likely to be closely proportional to
+the total number of votes cast at large for such candidates
+#+end_quote
+
+
+
+Amar, A. R. (1984). Choosing representatives by lottery voting. Yale Law Journal, 93, 1283–1308.

@@ -1,0 +1,175 @@
+#+TITLE: shapiro2009state: The state of democratic theory
+#+ROAM_KEY: cite:shapiro2009state
+
+*  Notes
+:PROPERTIES:
+:Custom_ID: shapiro2009state
+:NOTER_DOCUMENT: %(orb-process-file-field "shapiro2009state")
+:AUTHOR: Shapiro, I.
+:JOURNAL:
+:DATE:
+:YEAR: 2009
+:DOI:
+:URL:
+:END:
+
+* p.3 on the rationalism of alternative theories and shapiro alternative (non-domination)
+
+He argues that both the aggregative and the deliberative theories of democracy
+are based upon a rationalist view of democracy as expressing some sort of a
+general will that reflects the common good.
+
+He argues that we should see democracy as a *system to manage power relations*
+in his view to *minimize domination*.
+
+*He defines (p.4) domination as the illegitimate exercise of power.*
+
+*He does not consider all hierarchy illegitimate, but all hierarchies are suspect
+insofar they might atrophy into systems of domination.*
+
+# -----------------------------------------------------------------------------
+(p.246)
+
+#+begin_quote
+Rather than think of democracy as a mechanism for institutionalizing the general will, we should recognize its claim to our allegiance as the best available system for managing power relations among people who disagree about the nature of the common good, among many other things, but who nonetheless are bound to live together
+#+end_quote
+
+#+begin_quote
+Democratic systems are most likely to reduce domination to the ex-
+tent that they bring decision making into better conformity with the
+principle of affected interest and strengthen the hands of those whose
+basic interests are vulnerable in particular settings.
+#+end_quote
+* p.5 What is the task of democratic theory?
+
+To devise better ways of government to render the exercise of power legitimate,
+and as such it must be informed by considerable attention to the nature of
+power.
+
+* p. 6-7/149 Schumpeterian vs Madisonian on power
+
+He defends that to control power it is better to submit it to competition
+instead of limiting the sphere of collective action. One controls power by
+making it the object of electoral competition, instead of creating
+constitutional barriers (such as supermajorities).
+
+
+What we have to aims is to ensure there is genuine competition by those who are
+affected. This is a dynamic view.
+
+#+begin_quote
+ We saw that the major ﬂaws with Schumpeterianism in American politi-
+cal institutions concern how incompletely realized it is. The excessive
+number of veto points that result from federalism, bicameralism, and the
+separation of powers; the role of money in displacing competition for votes
+with competition for campaign contributions and expenditures—often
+from the same well-heeled contributors for both sides; the huge incum-
+bency advantages that produce exceedingly low rates of turnover among
+political ofﬁceholders; and the domination of the system of electoral regu-
+lation by bipartisan rather than nonpartisan institutions all render the
+American democracy remarkably uncompetitive by any comparative stan-
+dard—let alone an ideal type. (p.149)
+#+end_quote
+
+
+Obviously competition by majority rule can create self-defeating results if the winners - "majorities" - try to undermine the opposition freedom.
+
+Given this problem there is indeed a role for courts as escape-valves, reactive limiters of such bad behavior.
+
+#+begin_quote
+The informing intuition here is that the goal should be to respond to the political equivalent of market failure rather than replace the political market with something else (p.150)
+#+end_quote
+
+* p. 14 Majority rule and status quo upsetting
+He defends that majority rule might be useful because it institutionalizes the possibility of upsetting the status quo.
+
+#+begin_quote
+one reason to favor it is that it promotes competition of
+ideas. Another is that majority rule can contribute to political stability just
+because it institutionalizes the perpetual possibility of upsetting the status
+quo. Theorists such as Di Palma (1990: 55) and Przeworski (1991: 10–
+12) note that it is institutionalized uncertainty about the future that gives
+people who lose in any given round the incentive to remain committed to
+the process rather than reach for their guns or otherwise become alienated
+from the political system.
+#+end_quote
+
+
+* p.15 his take on majoritarianism and social stability
+#+begin_quote
+Nicholas Miller (1983: 735–40) has noted that there
+is a tension between the notion of stability implicit in the social choice
+literature since Arrow, where various restrictions on preferences are in-
+tended to prevent cycling, and the pluralist idea of stability that turns on
+the presence of crosscutting cleavages of interest in the population. The
+periodic turnover of governments is facilitated by just the kind of hetero-
+geneous preferences that create the possibility of cycling. Indeed, students
+of comparative politics often contend that competitive democracy does
+not work when heterogeneous preferences are lacking. If the preference-
+cleavages in the population are not sufﬁciently crosscutting to produce
+this result, they propose alternative institutional arrangements, such as
+Arend Lijphart’s “consociational democracy” (1969, 1977), which in-
+cludes entrenched minority vetoes and forces elites representing different
+groups to govern by consensus as a cartel, avoiding political competition.
+#+end_quote
+
+It is not obvious what he is arguing here.
+
+* p.17-19 His take on buchanan and tullock
+First he argues that they build upon the madisonian "impulse to make
+some rights and liberties more difﬁcult than others to change by majority
+rule."
+
+
+Following the typical public choice cost x benefit view, they argue that one
+ought to:
+#+begin_quote
+*minimize the sum of “external costs” (the costs to an individual of the legal but harmful actions of third parties) and “decision-making costs” (those of negotiating agreement on collective action).*
+
+The external costs of collective action diminish as increasingly large majorities are required; in the limiting case of unanimity rule, every
+individual is absolutely protected since anyone can veto a proposed action.
+Conversely, decision-making costs typically increase with the proportion
+required, since the costs of negotiation increase.
+#+end_quote
+
+So they have a *sliding scale* theory of decision making:
+
+#+begin_quote
+In effect they come up with a sliding scale. Democracy is
+best suited to issues of moderate importance on their account. Issues of
+high importance should be insulated from it, while issues of low impor-
+tance might even be delegated to administrators
+#+end_quote
+
+Beyond the basic criticism of the social contract fiction, the criticism one might use is to criticize the *status quo bias:* why departures from it that ought to be justified?  There is a real possibility of *utility drift*. Douglas rae is the name  to follow.
+
+#+begin_quote
+ Douglas Rae
+has pointed out that from the standpoint of their constitutional conven-
+tion it makes more sense to assume that we are as likely to be ill disposed
+toward any future status quo as well disposed toward it, and that in cases
+where we are ill disposed, a decision rule requiring unanimity will frus-
+trate our preferences. Buchanan and Tullock assume throughout that it is
+departures from the status quo that need to be justiﬁed, but Rae shows
+that this is not warranted. Externalities over time, or “utility drift” (Rae’s
+term), may change our evaluations of the status quo. We may feel in certain
+circumstances that failures to act collectively, rather than collective action
+itself, should shoulder the burden of proof (Rae 1975: 1270–94). 10 People
+may change their minds for other reasons, foreseen or unforeseen, or
+someone might be opposed to, and not wish to be bound by, a status quo
+that was the product of the unanimous agreement of a previous genera-
+tion. Indeed, Rae has shown formally that if we assume we are as likely to
+be against any proposal as for it, which the condition of uncertainty at the
+constitutional convention would seem to require, then majority rule or
+something very close to it is the unique solution to Buchanan and Tul-
+lock’s choice problem (Rae 1969: 40–56, 51)
+
+
+When the number of voters is odd, the optimal decision rule is majority rule, n over two, plus one-half; when n is even, the optimal decision rule is either majority rule (n over two plus one), or majority rule minus one (simply n over two).
+
+#+end_quote
+
+———. 1969. “Decision-Rules and Individual Values in Constitutional Choice.”
+American Political Science Review 63: 40–56. (cite:Rae_1969)
+———. 1975. “The Limits of Consensual Decision.” American Political Science
+Review 69: 1270–94 (cite:Rae_1975)

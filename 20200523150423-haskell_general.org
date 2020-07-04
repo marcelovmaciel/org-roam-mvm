@@ -1,0 +1,365 @@
+#+TITLE: Haskell - General
+- tags :: [[file:20200516152708-programming.org][Programming]]
+Index file for haskell related notes
+
+
+* Tutorials
+- [[https://github.com/alpacaaa/zero-bullshit-haskell][GitHub - alpacaaa/zero-bullshit-haskell: Learn Haskell, without the bullshit.]]
+- [[https://github.com/thma/WhyHaskellMatters][GitHub - thma/WhyHaskellMatters: In this article I try to explain why Haskell...]]
+- [[https://github.com/thma/LtuPatternFactory][GitHub - thma/LtuPatternFactory: Lambda the ultimate Pattern Factory: FP, Has...]]
+- Great aggregator: [[https://github.com/graninas/software-design-in-haskell][GitHub - graninas/software-design-in-haskell: Software Design in Haskell. A s...]]
+
+
+* Fcs
+** What is haskell deriving keyword? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-04T01:31:06Z
+:FC_TYPE:  normal
+:ID:       6b72b042-feab-45cb-b81c-4f234bff7a9b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-04T01:31:06Z |
+:END:
+
+- source :: [[https://learnxinyminutes.com/docs/haskell/][Learn Haskell in Y Minutes]]
+
+*** Back
+
+  It is a keyword to automatically make a type part of a typeclass. With this one does not need to say the type is an ~instance~ of a typeclass.
+
+#+begin_src haskell :results silent
+data Point = Point Float Float deriving (Eq, Read, Show)
+
+-- Ord for types that can be ordered, allowing you to use >, <=, etc.
+-- Read for types that can be created from a string representation
+-- Show for types that can be converted to a string for display
+-- Num, Real, Integral, Fractional for types that can do math
+-- Enum for types that can be stepped through
+-- Bounded for types with a maximum and minimum
+#+end_src
+
+**  What is the difference between class,type,data,instance in Haskell? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-25T19:53:17Z
+:FC_TYPE:  normal
+:ID:       32294a55-be63-48c6-a82a-8bb3800d7db5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-25T19:53:17Z |
+:END:
+
+- source :: [[https://learnxinyminutes.com/docs/haskell/][Learn Haskell in Y Minutes]]
+
+**** Back
+- ~data~ is used to declare data types
+- ~type~ is for creating type synonyms
+- ~class~ this keyword is for defining typeclasses
+  - Typeclasses are interfaces. They define which properties a data type ought
+    to have to be an instance of a typeclass.
+- ~instance~ is the keyword for making a (data) type a instance of a typeclass
+
+***** data
+
+#+begin_src haskell :results value
+:set +m
+
+-- A data type is declared with a 'type constructor' on the left
+-- and one or more 'data construqctors' on the right, separated by
+-- the pipe | symbol. This is a sum/union type. Each data constructor
+-- is a (possibly nullary) function that creates an object of the type
+-- named by the type constructor.
+-- This is essentially an enum
+data Color = Red | Blue | Green
+
+-- Now you can use it in a function:
+
+say :: Color -> String
+say Red   = "You are Red!"
+say Blue  = "You are Blue!"
+say Green = "You are Green!"
+
+-- Note that the type constructor is used in the type signature
+-- and the data constructors are used in the body of the function
+-- Data constructors are primarily pattern-matched against
+#+end_src
+
+***** type
+
+#+begin_src haskell :results silent
+-- For convenience we can also create type synonyms with the 'type' keyword
+type String = [Char]
+
+-- Unlike `data` types, type synonyms need no constructor, and can be used
+-- anywhere a synonymous data type could be used.
+#+end_src
+
+***** class
+#+begin_src haskell :results silent
+-- Typeclasses are one way Haskell does polymorphism
+-- They are similar to interfaces in other languages
+-- A typeclass defines a set of functions that must
+-- work on any type that is in that typeclass.
+
+-- The Eq typeclass is for types whose instances can
+-- be tested for equality with one another.
+
+class Eq a where
+    (==) :: a -> a -> Bool
+    (/=) :: a -> a -> Bool
+    x == y = not (x /= y)
+    x /= y = not (x == y)
+
+-- This defines a typeclass that requires two functions, (==) and (/=)
+-- It also declares that one function can be declared in terms of another
+-- So it is enough that *either* the (==) function or the (/=) is defined
+-- And the other will be 'filled in' based on the typeclass definition
+#+end_Src
+
+
+
+***** instance
+
+#+BEGIN_SRC haskell
+-- To make a type a member of a type class, the instance keyword is used
+instance Eq TrafficLight where
+    Red == Red = True
+    Green == Green = True
+    Yellow == Yellow = True
+    _ == _ = False
+
+-- Now we can use (==) and (/=) with TrafficLight objects
+
+canProceedThrough :: TrafficLight -> Bool
+canProceedThrough t = t /= Red
+#+END_SRC
+
+** How to build a haskell project? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-23T18:25:17Z
+:FC_TYPE:  normal
+:ID:       361e1bec-c067-4950-b7d5-303a6637bae0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-03T10:38:22Z |
+:END:
+
+*** Back
+
+With stack, the quick answer would be:
+- To create a project:  ~stack new <project-name>~
+  - example : ~stack new project1 simple -p "author-name:Marcelo Maciel~
+- To build a project: ~stack build~,
+- To exec a project: ~stack exec <project-name>~
+- A more sophisticated option for building is:  ~stack test --fast --haddock-deps --file-watch~
+
+See [[*Haskell building (stack)][Haskell building (stack)]] more info about this command.
+
+
+** What's the point of map in Haskell, when there is fmap? - Stack Overflow :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-04T01:35:53Z
+:FC_TYPE:  normal
+:ID:       a4ea8508-352a-4995-8e84-8b044b442098
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-04T01:35:53Z |
+:END:
+- source: https://stackoverflow.com/questions/6824255/whats-the-point-of-map-in-haskell-when-there-is-fmap
+
+*** Back
+  Basically, map is fmap for lists.
+
+* Haskell building (stack)
+- source :: [[https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/][An opinionated guide to Haskell in 2018]],[[https://andre.tips/wmh/][Wise Man’s Haskell]]
+
+
+** Creating the project
+#+begin_quote
+To create a project, one uses ~stack new <project name>~, which will create a
+project with some common conveniences like a folder for writing tests. You build
+your project with ~stack build~, and run it with ~stack exec <project-name>~.
+#+end_quote
+
+** Simple build + fast build (quick compilation slow runtime)
+
+Stack is not a package manager, it is a build tool.The command to build a target
+is ~stack build <target>~. Just using stack build on its own will build the
+current project’s targets. You almost certainly do not want to use ~stack
+install~ (this is for installing PROGRAMS). For faster development build times,
+pass the ~--fast~ flag to disable optimizations:
+
+#+begin_src shell
+stack build --fast
+#+end_src
+
+** Building with testing
+But you shouldn’t use fast to make a production build since it trades fast
+builds for slow code.
+
+Usually, you also want to build and run the tests along with your code, which
+you can enable with the ~--test~ flag.
+
+#+begin_src shell
+stack build --fast --test
+#+end_src
+
+** Building with docs
+For building documentation use ~--hadock~. For building documentation ONLY on
+the dependencies of a project use ~--haddock-deps~
+
+  #+begin_src shell
+stack test --fast --haddock-deps
+#+end_src
+
+
+** Background building
+For building and testing *on the background* while you work use the ~-file-watch~ flag. Which leads to:
+#+begin_src
+stack test --fast --haddock-deps --file-watch
+#+end_src
+
+
+** Building with coverage
+For test coverage add the ~--following~ flag ~stack build --fast --test
+--coverage~.
+* Haskell Documentation (stack)
+- source :: [[https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/][An opinionated guide to Haskell in 2018]] [[https://andre.tips/wmh/][Wise Man’s Haskell]]
+
+** quick
+- ~stack haddock --open <package>~
+- ~stack hoogle -- generate --local~
+- ~stack hoogle -- server --local --port=8080~
+
+** long
+First of all there are two software used to see Haskell documentation.[[https://hoogle.haskell.org/][ Hoogle]]
+is the search engine that will index the docs of the project. While [[https://www.haskell.org/haddock/][Haddock]] is a
+tool for generating automatic documentation from annotated Haskell source code.
+
+Haddock documents are of the following form:
+#+begin_src haskell  :eval no
+-- | Documentation line 1
+-- Documentation line 2
+-- ...
+
+f  :: String -- ^ Description of what this argument represents.
+   -> String -- ^ Description of what this argument represents.
+   -> Bool   -- ^ Description of the output of the function
+f s₁ s₂ = ...
+#+end_src
+
+The easiest way to *open local documentation* for a particular package is to use
+the stack haddock --open command. For example, to open the documentation for
+lens, you could use the following command: ~stack haddock --open lens~
+
+
+Haddock documentation can be built using stack build --fast --haddock or stack
+build --fast --haddock-deps if you only care about haddock for your
+dependencies.
+
+
+After the docs are built one can see it with hoogle.
+To use hoogle locally use ~stack hoogle -- generate --local~. This will install Hoogle into the current project if it isn’t already installed, and it will index your dependencies’ documentation and generate a new Hoogle database. Once you’ve done that, you can start a web server that serves a local Hoogle search page with the following command: ~stack hoogle -- server --local --port=8080~. And then navigate to http://localhost:8080 in your web browser, and you’ll have a fully-searchable index of all your Haskell packages’ documentation.
+
+So there are three commands:
+
+- ~stack haddock --open <package>~
+- ~stack hoogle -- generate --local~
+- ~stack hoogle -- server --local --port=8080~
+* Haskell Editor Setup (stack)
+- source :: [[https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/][An opinionated guide to Haskell in 2018]]
+
+
+
+#+begin_quote
+stack install is *not* what you want. Tools like ghc-mod, hlint, hoogle, weeder,
+ and intero work best when installed as part of the sandbox, not globally, since
+ that ensures they will match the current GHC version your project is using.
+ This can be done per-project using the ordinary stack build command, so the
+ easiest way to properly install ghc-mod into a stack project is with the
+ following command: ~stack build ghc-mod~
+
+Unfortunately, this means you will need to run that command inside every single
+stack project individually in order to properly set it up so that stack exec --
+ghc-mod will find the correct executable. One way to circumvent this is by using
+a recently-added stack flag designed for this explicit purpose,
+~--copy-compiler-tool~.
+
+Use the following command in a fresh sandbox when a Stackage LTS comes out for a
+new version of GHC: ~stack build --copy-compiler-tool ghc-mod hoogle weeder~
+
+#+end_quote
+* Haskell warning flags
+- source :: [[https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/][An opinionated guide to Haskell in 2018]]
+
+#+begin_quote
+- The ~-Wall~ option turns on most warnings, but (ironically) not all of them.
+
+- ~-Wcompat~ enables warnings that make your code more robust in the face of future backwards-incompatible changes. These warnings are trivial to fix and serve as free future-proofing, so I see no reason not to turn these warnings on.
+
+- ~-Wincomplete-record-updates~ and ~-Wincomplete-uni-patterns~ are things I think ought to be enabled by -Wall because they both catch what are essentially partial pattern-matches (and therefore runtime errors waiting to happen).
+
+- ~-Wredundant-constraints~ is a useful warning that helps to eliminate unnecessary typeclass constraints on functions, which can sometimes occur if a constraint was previously necessary but ends up becoming redundant due to a change in the function’s behavior.
+
+I put all five of these flags in the .cabal file (or package.yaml), which
+enables them everywhere, but this alone is unlikely to enforce a warning-free
+codebase, since the build will still succeed even in the presence of warnings.
+Therefore, when building projects in CI, I pass the ~-Werror~ flag (using
+~--ghc-options=-Werror~ for stack), which treats warnings as errors and halts the
+build if any warnings are found. This is useful, since it means warnings don’t
+halt the whole build while developing, making it possible to write some code
+that has warnings and still run the test suite, but it still enforces that
+pushed code be warning-free.
+#+end_quote
+* Haskell Project Configuration (stack)
+- source :: [[https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/][An opinionated guide to Haskell in 2018]]
+
+
+- Every project built with stack is configured with *two* separate files:
+  - The ~stack.yaml~ file, which controls which packages are built and what versions to pin your dependencies to.
+  - The ~<project>.cabal~ file or ~package.yaml~ file, which specifies build
+    targets, their dependencies, and which GHC options to apply, among other
+    things.
+
+
+Example of adding dependencies to package.yaml:
+#+begin_yaml :eval no
+dependencies:
+- base >= 4.7 && < 5
+- hspec
+- QuickCheck
+- lens
+- network
+#+end_yaml
+
+
+To add warning flags:
+
+#+begin_yaml
+ghc-options:
+- -Wall
+- -Wcompat
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wredundant-constraints
+- -fno-warn-unused-do-bind
+#+end_yaml
+
+
+
+
+To test it out, run stack ghci while in the irc folder. This will build your
+project and open a new GHCi instance from which you can import libraries you’ve
+added to your project.
+* Haskell GHCi commands
+  #+DOWNLOADED: screenshot @ 2020-05-26 22:36:39
+
+- source :: [[http://dev.stephendiehl.com/hask/#ghci][What I Wish I Knew When Learning Haskell 2.5 ( Stephen Diehl )]]
+  [[file:../imgs/2020-05-26_22-36-39_screenshot.png]]

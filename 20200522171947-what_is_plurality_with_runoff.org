@@ -1,0 +1,6 @@
+#+TITLE: What is Plurality with Runoff?
+- source :: cite:sep-voting-methods, [[file:nicolau2015sistemas.org][nicolau2015sistemas: Sistemas eleitorais]]
+
+  Segundo turno do executivo brasileiro. That is:
+  - Candidate got > 50% ? Winner else
+    - two highest candidates runoff

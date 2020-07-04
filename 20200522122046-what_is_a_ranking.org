@@ -1,0 +1,20 @@
+#+TITLE: What is a ranking?
+- source :: cite:sep-voting-methods
+
+- tags :: [[file:20200520210843-social_choice_theory_general.org][Social Choice Theory - General]]
+
+
+* q :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T15:29:29Z
+:FC_TYPE:  normal
+:ID:       f504bfc8-87dd-4094-8ed6-5ce41a1aeab5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T15:29:29Z |
+:END:
+
+** Back
+  A complete, transitive and irreflexive relation.

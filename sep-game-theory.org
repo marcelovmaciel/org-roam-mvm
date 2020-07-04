@@ -1,0 +1,337 @@
+#+TITLE:  (sep-game-theory) Game Theory
+#+ROAM_KEY: cite:sep-game-theory
+:PROPERTIES:
+:Custom_ID: sep-game-theory
+:NOTER_DOCUMENT: %(orb-process-file-field "sep-game-theory")
+:AUTHOR: Ross, D.
+:JOURNAL:
+:DATE:
+:YEAR: 2019
+:DOI:
+:URL: https://plato.stanford.edu/archives/win2019/entries/game-theory/ 
+:END:
+
+
+- tags :: [[file:20200519125138-formal_political_theory.org][Formal Political Theory]], [[file:20200519184907-game_theory_general_entry.org][Game Theory General Entry]]
+
+* Structure
+- Structure:
+  1. Historical Background $\rightarrow$
+  2. Assumptions + elements $\rightarrow$
+  3. role of uncertainty and risk $\rightarrow$
+  4. coordination $\rightarrow$
+  5. team reasoning $\rightarrow$
+  6. commitment $\rightarrow$
+  7. evolution $\rightarrow$
+  8. behavioral evidence $\rightarrow$
+  9. future
+
+* Summary
+Ross work follows the behaviorist tradition of binmore and gintis (INSERT
+BIBTEX). I believe the hottest takes of the entry are related to [[file:20200519190234-how_to_test_hypothesis_in_applied_game_theory.org][how to do
+applied game theory]] and what may have impact on the [[file:20200519192644-what_impacts_the_applicability_of_game_theory.org][applicability of game theory]]
+.
+
+* What is a game? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:36:13Z
+:FC_TYPE:  normal
+:ID:       ba0513d5-7382-4cd8-997c-2a1b067f4a69
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-22T02:28:54Z |
+:END:
+- source :: cite:sep-game-theory
+** Back
+Situations in which at least one agent can only maximize his utility if it anticipates (consciously or not) the responses to its actions by the other agents.
+* What choice situations are best modeled by gt? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:36:30Z
+:FC_TYPE:  normal
+:ID:       3f913932-0ad7-45bb-b4e7-56479f353cf8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:36:30Z |
+:END:
+
+- source :: cite:sep-game-theory
+** Back
+When what matters most for utility maximization of agents is the reactions of other agents to their strategies.
+* What is samuelsonian utility ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T00:06:32Z
+:FC_TYPE:  normal
+:ID:       f63be5cf-55ac-4a74-abdf-247499aa5f13
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-20T00:36:05Z |
+:END:
+- source : cite:sep-game-theory
+** Back
+It is the modern, neoclassical, definition of utility. Utility is a mathematical representation of preference due to cite:von2007theory. The samuelsonian twist is to turn it into a behaviorist theory. Utility maximization is simply acting as to choose the most preferred option, but to use it empirically is a tautological device, that is the samuelsonian twist. Instead of going all the way back to preferences we remain in the choice realm, the observed domain of the "revealed preference" and model the "agent", person, animal, robot, whatever. We observe that the agent ~consistently~ chooses one option, so we treat it as its most preferred, as one that can be modeled using utility functions and optimization tools. It is tautological because this is part of the definition of an agent in neoclassical theory. We are purposefully not going into the realm of inner states or motivations of the agent. Once we treat the agent as utility maximizing we now have many tools at our disposal, and we see where this takes us, as Aumann used to say cite:aumann1985game.
+* How does NM define cardinal utilities? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:37:02Z
+:FC_TYPE:  normal
+:ID:       9d8e1a45-9eec-49ac-96ab-5997a6eaa543
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-22T02:22:50Z |
+:END:
+- source :: cite:sep-game-theory, cite:von2007theory
+
+** Back
+  Through lotteries. Agents are given choices over lotteries, instead of directly over outcomes. Than we observe how much extra risk he's willing to run to change the odds of one alternative $A_1$  relative to another alternative $A_2$ . This wounds up cardinalizing the agent's preference structure, though only in agent-specific reference points.
+* What is Pareto efficiency? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:37:20Z
+:FC_TYPE:  normal
+:ID:       3cea8ca8-d7f5-446d-b54f-1565c3e6d474
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:37:20Z |
+:END:
+
+- source :: cite:sep-game-theory
+** Back
+  This is a relative concept. A situation $\alpha$  is pareto inefficient if there is a redistribution of utility that would make a player better off and no player worse off, but no change is made.This new situation $\beta$ is said to be Pareto superior to $\alpha$ .
+* What is equilibria in general? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:37:33Z
+:FC_TYPE:  normal
+:ID:       7f782696-9f2d-4d87-b367-e0a0bb03b41f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:37:33Z |
+:END:
+
+** Back
+Equilibrium is related to stability. A system is in equilibrium if all the internal forces of the system balance each other out and leave it at rest unless perturbed by some exogenous intervention.
+
+One important remark from cite:sep-game-theory is that this stability may not be observed because the system interacts with other systems which destabilize it. *This is related to the difference between open and closed systems.*
+
+This means that the tools of equilibria analysis are useful for analysis, not prediction!
+* What is a sub game perfect equilibrium? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:38:27Z
+:FC_TYPE:  normal
+:ID:       10386a2b-0c96-4752-b5f9-a5f5c8901ad2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:38:27Z |
+:END:
+
+** Back
+  An agent playing a subgame perfect strategy chooses at every node it reaches the path that brings it the highest payoff in the subgame emanating from that node.
+
+  It gives an outcome that yields a NE not just in the whole game but also in every subgame as well.
+- source :: cite:sep-game-theory
+* How to test hypothesis in applied game theory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:41:12Z
+:FC_TYPE:  normal
+:ID:       b0ec3edd-aafc-4214-820c-e0fbd5c18e21
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:41:12Z |
+:END:
+- sources :: cite:sep-game-theory
+** Back
+
+  #+begin_quote
+ An analyst handling empirical data in this way should not be interpreted as
+‘testing the hypothesis’ that the agents under analysis are ‘rational’. Rather,
+she conjectures that they are agents, that is, that there is a systematic
+relationship between changes in statistical patterns in their behavior and some
+risk-weighted cardinal rankings of possible goal-states. If the agents are
+people or institutionally structured groups of people that monitor one another
+and are incentivized to attempt to act collectively, these conjectures will
+often be regarded as reasonable by critics, or even as pragmatically beyond
+question, even if always defeasible given the non-zero possibility of bizarre
+unknown circumstances of the kind philosophers sometimes consider (e.g., the
+apparent people are pre-programmed unintelligent mechanical simulacra that would
+be revealed as such if only the environment incentivized responses not written
+into their programs). The analyst might assume that all of the agents respond to
+incentive changes in accordance with Savage expected-utility theory,
+particularly if the agents are firms that have learned response contingencies
+under normatively demanding conditions of market competition with many players.
+If the analyst’s subjects are individual people, and especially if they are in a
+non-standard environment relative to their cultural and institutional
+experience, she would more wisely estimate a maximum likelihood mixture model
+that allows that a range of different utility structures govern different
+subsets of her choice data. All this is to say that use of game theory does not
+force a scientist to empirically apply a model that is likely to be too precise
+and narrow in its specifications to plausibly fit the messy complexities of real
+strategic interaction. A good applied game theorist should also be a
+well-schooled econometrician.
+  #+end_quote
+* What are focal points? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-19T23:56:19Z
+:FC_TYPE:  normal
+:ID:       19c6e905-b31f-4f0e-a3f7-8b9764ff00c0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   2 |     1.00 | 2020-05-21T00:22:14Z |
+:END:
+
+** Back
+Salient features of some strategies. It is important that agents believe that
+others will consider them salient AND that they will also believe that other
+players will believe to be salient to them. This is important for coordination
+games (INSERT ROAM).
+
+
+** Example of  focal points
+
+#+begin_quote
+ if two people want to meet on a given day in a big city but can’t contact each
+ other to arrange a specific time and place, both might sensibly go to the
+  city’s most prominent downtown plaza at noon.
+    #+end_quote
+
+* Why focal points? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T00:01:39Z
+:FC_TYPE:  normal
+:ID:       e2ac0ed5-4bba-4845-a677-0bc59b5a5c91
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-20T00:44:26Z |
+:END:
+
+** Back
+
+#+begin_quote
+Pure coordination games are characterized by non-unique vectors of
+rationalizable strategies.
+#+end_quote
+* Why communication before the interrogation is not enough to "solve" the prisoner's dilemma? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T00:05:51Z
+:FC_TYPE:  normal
+:ID:       9aef2a98-41fd-4c4a-a9db-d5221db283ba
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-20T00:36:23Z |
+:END:
+** Back
+Because they cannot enforce the agreement, so previous communications is *cheap talk* (INSERT ROAM).
+* How can we define game theory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T00:31:58Z
+:FC_TYPE:  normal
+:ID:       d7537dd4-f4e6-4860-b1e0-e3e2f33e26bd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-05-20T00:48:21Z |
+:END:
+- source :: cite:sep-game-theory
+** Back
+  Game theory is the study of how interacting or strategic choices of agents produce outcomes. This is grounded on their preferences and these outcomes might be unintended, or spontaneous.
+* What is a mixed strategy? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:39:24Z
+:FC_TYPE:  normal
+:ID:       0afe0243-9894-4579-8ac9-3ca596797f9e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:39:24Z |
+:END:
+- source :: cite:sep-game-theory
+** Back
+  It is when an agent to choose a course of action randomizes it, let's say as a weighted coin draw. Mixing is used by a rational player when no pure strategy (the non probabilistic alternative) maximizes its utility against *all* the opponents strategies. It is a way of *surprising* the opponent.
+* How to turn a pd into an assurance game and why does this matter? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:40:46Z
+:FC_TYPE:  normal
+:ID:       4a2be3d5-14eb-4f12-83d6-be183d2f90f7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:40:46Z |
+:END:
+
+** Back
+There is a demonstration on section 4 of cite:sep-game-theory.
+It matters because PD only has one NE while the assurance game has two (one pareto superior to the other)
+* How to relate noise, feedback and QRE? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:41:44Z
+:FC_TYPE:  normal
+:ID:       66a8d3ba-e064-48da-bd24-0b52317f8768
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:41:44Z |
+:END:
+- sources :: cite:sep-game-theory
+** Back
+ Noisy behavior is specially important in game theory because there is strategic adjustment, feedbacks.
+#+begin_quote
+  In a given game, whether it would be rational for even a trained, self-aware, computationally well resourced agent to play NE would depend on the frequency with which he or she expected others to do likewise. If she expects some other players to stray from NE play, this may give her a reason to stray herself. [...] Instead of predicting that human players will reveal strict NE strategies, the experienced experimenter or modeler anticipates that there will be a relationship between their play and the expected costs of departures from NE. Consequently, maximum likelihood estimation of observed actions typically identifies a QRE as providing a better fit than any NE.
+
+#+end_quote
+* What is the difference between active and passive learning in AGT? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:42:09Z
+:FC_TYPE:  normal
+:ID:       33424dfa-865d-4d71-94de-1b16e4bc0174
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:42:10Z |
+:END:
+- sources :: cite:sep-game-theory
+** Back
+  #+begin_quote
+ we can distinguish between passive learning, in which a player merely updates
+  her subjective priors based on her observation of moves and outcomes, and
+  strategic choices she infers from these, and active learning, in which she
+  probes—in technical language screens—for information about other players’
+  strategies by choosing strategies that test her conjectures about what will
+  occur off what she believes to be the game’s equilibrium path.
+  #+end_quote
+* What differentiates cooperative game theory from non-cooperative ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:36:45Z
+:FC_TYPE:  normal
+:ID:       a2d955a7-54da-40eb-a6b4-a1309d263bca
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:36:45Z |
+:END:
+
+** Back
+Actually a better nomenclature would be coalitional vs non-coalitional game theory. Coalitional game theory is when there is a previous formed or agreed coalition. Non-coalitional is when there is no such presupposition. To model coalitional games using non-coalitional tools, particularly bargaining models, is known as ~the Nash Program~ cite:sep-game-theory.

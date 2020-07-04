@@ -1,0 +1,67 @@
+#+TITLE: On my workflow
+- tags :: [[file:20200525200228-on_types_of_notes.org][On types of notes]]
+
+I'm going to use org-agenda, org-journal, org-roam, org-ref and org-fc.
+
+The day starts by looking my agenda. There I'll see what I've got to do, the priorities and so on.
+
+Everyday **fleeting notes** will be taken using org-journal. Whenever
+I read a paper or book I'll throw it in the pdfs org-ref
+directory. Then add its entry to the main org-ref bibliography. I will
+highlight and add notes on the file if possible, if not create a
+section pointing out where concepts are in the source on the *source
+note* which I'll create with org-roam. I'll name it using the .bib key
+entry and take notes on that. This is the file that I will use WHILE
+reading. Every concept and idea that I deem interesting from the
+source will be written there.
+
+For papers and books I'll use the *three passes method*. The first
+pass outline will stay in the file. While everything else will be
+popped into their own notes. Those sources notes will be turned into
+permanent notes by stripping. While reading I'll highlight stuff and
+point out where the concepts are and so on, but whenever I put them in
+the note I will write with my own words.
+
+A comment from org-roam slack gives a general understanding of what I'm thinking :
+
+#+BEGIN_QUOTE
+
+The notes you take on documents is different from the notes that will go in your
+  slip-box. Think of it as a process of refinement where rough notes are taken
+  as you’re poring over a document. From those rough notes, you extract
+  everything you’d like to stumble upon again in the future, and you make
+  refined, atomic notes from them which you keep in your slip-box.
+
+#+END_QUOTE
+
+
+
+
+
+#+end_src
+The workflow for websites and videos is similar. The only difference
+is that there is nothing to download or configure. I'll simply create
+a source note and from it create the permanent notes.
+
+At the last period of my work routine I'll turn them into org reference cards and permanent notes (answering the zette  questions).
+
+In the end the source file will only show the structure of the source and links to concepts and ideas.
+
+In the end of the work day I'll write in my journal what I've done and what I failed to do. This will help me update my agenda.
+
+I'll also have a general todo file which will interact with my agenda file.
+
+While reading is also useful to define some colors for highlighting stuff.
+
+- $\color{blue}{\text{Tips}}$ in blue. This will be mostly used for code tips, but may also be useful in math or stats stuff for example.
+
+- $\color{green}{\text{Concepts}}$  will be in green. Nash equilibrium, linear space, and so on are concepts.
+
+- ${\color{yellow}{\text{\textbf{Propositions}}}$   will be in yellow. Those are stuff like : democracy causes growth and so on.
+
+- $\color{red}{\text{Insights}}$ will be in red. Those are sentences which lead me to have novel ideas. Those will be accompanied by fleeting notes.
+
+- $\text{\textcolor{purple}{References}}$  will be in purple.
+
+
+Those are the categories that I can think of right now.

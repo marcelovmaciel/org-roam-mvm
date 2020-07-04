@@ -1,0 +1,13 @@
+#+TITLE: Reasons for action: justification, motivation, explanation
+#+ROAM_KEY: cite:sep-reasons-just-vs-expl
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: sep-reasons-just-vs-expl
+:NOTER_DOCUMENT: %(orb-process-file-field "sep-reasons-just-vs-expl")
+:AUTHOR: Alvarez, M.
+:JOURNAL:
+:DATE:
+:YEAR: 2017
+:DOI:
+:URL:
+:END:
