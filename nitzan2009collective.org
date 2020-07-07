@@ -1,6 +1,6 @@
 #+TITLE: nitzan2009collective: Collective preference and choice
 #+ROAM_KEY: cite:nitzan2009collective
-*  Notes
+* Notes
 :PROPERTIES:
 :Custom_ID: nitzan2009collective
 :NOTER_DOCUMENT: %(orb-process-file-field "nitzan2009collective")
@@ -25,8 +25,11 @@ What does the book say about [[file:20200522143832-plurality_rule.org][Plurality
 
 - Nitzan also demonstrates that ciclity implies  that there is no condorcet winner but not having a condorcet winner does not imply simplicity (p.96)
 
+  Very unique creature.
 
 * Insights for presentation
 - The no condorcet winner does not imply ciclity thing (p.96)
 - The majority tyranny thing
 - His discussion of pairwise majority rule
+
+*

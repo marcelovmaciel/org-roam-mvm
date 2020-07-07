@@ -170,7 +170,7 @@ See [[*Haskell building (stack)][Haskell building (stack)]] more info about this
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-04T01:35:53Z |
+| front    | 2.50 |   2 |     1.00 | 2020-07-05T15:44:47Z |
 :END:
 - source: https://stackoverflow.com/questions/6824255/whats-the-point-of-map-in-haskell-when-there-is-fmap
 

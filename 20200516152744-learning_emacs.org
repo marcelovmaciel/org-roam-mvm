@@ -85,3 +85,19 @@ three priorities: ‘A’, ‘B’, and ‘C’.
  (see Weekly/daily agenda); outside
  the agenda, they have no inherent meaning
 #+end_quote
+
+
+
+* How to edit src blocks in their own major mode? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-04T10:13:44Z
+:FC_TYPE:  normal
+:ID:       dc7f0bff-ec50-455b-9526-d0295a957de0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-04T10:13:44Z |
+:END:
+
+C-c ' which is org-edit-src-code

@@ -1,0 +1,52 @@
+#+title: Learn Linux, 101: Streams, pipes, and redirects – Build Smart. Build Secure. IBM Developer
+#+roam_key: https://developer.ibm.com/tutorials/l-lpic1-103-4/
+
+- tags :: [[file:ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org][ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia]]
+
+* What are streams? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T17:32:43Z
+:FC_TYPE:  normal
+:ID:       812e281f-5f65-47ba-8389-15a88d97cf11
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T17:32:43Z |
+:END:
+- source :: https://developer.ibm.com/tutorials/l-lpic1-103-4/
+
+** Back
+Sequences of characters.
+
+#+begin_quote
+Each character is independent of the one before it and the one after it. The characters are not organized into structured records or fixed-size blocks. Streams are accessed using file IO techniques, whether or not the actual stream of characters comes from or goes to a file, a keyboard, a window on a display, or some other IO device.
+#+end_quote
+* What is stdout, stderr and stdin? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T17:34:19Z
+:FC_TYPE:  normal
+:ID:       ee541438-e239-4b33-986f-aa28cc12ad68
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T17:34:19Z |
+:END:
+
+** Back
+#+begin_quote
+
+1. stdout is the standard output stream, which displays output from commands. It has file descriptor 1.
+2. stderr is the standard error stream, which displays error output from commands. It has file descriptor 2.
+3. stdin is the standard input stream, which provides input to commands. It has file descriptor 0.
+
+#+end_quote
+
+#+begin_quote
+Normally, you want to send data to stdout that is suitable to be used by the stdin of another program (maybe grep or sed?), and stderr is for messages for the user about what's happening in the script (error messages, logging, debugging info).
+
+[[file:ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org][ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia]]
+#+end_quote
+
+

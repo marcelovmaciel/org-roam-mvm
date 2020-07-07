@@ -207,6 +207,7 @@ Maybe my big research agenda is exactly *collective decision making in sociotech
 I already have a project idea on that: [[file:20200616033314-fairness_in_ml_through_social_choice.org][Fairness in Ml through social choice]] . The thing is, there are great papers that discuss exactly the limitations of an abstract approach such as social choice. One of them is cite:selbst2019fairness . How can I fuse an approach careful about structure and power while also being attentive to values conflicts?
 
 - [[https://github.com/google/ml-fairness-gym][GitHub - google/ml-fairness-gym]] - this is an interesting connection with my work on social simulation !!!!
+- cite:mehrabi2019survey
 
 
 **** Critical digital humanities/ai studies

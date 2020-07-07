@@ -292,7 +292,8 @@ A social choice rule that always produces a unique winning alternative.
 
 *** Back
 
-- Its is a type of [[file:20200522164409-what_is_a_scoring_rule.org][Scoring Rule]]. In this case the scores are $(n-1,n-2, \ldots , 1,0)$ .
+- Its is a type of scoring rule. In this case the scores are $(n-1,n-2, \ldots ,
+  1,0)$ .
 - This differs from the definition below because of indexing!!!!
 
 [[file:../imgs/Social_Choice_Theory_-_SEP/2020-04-23_18-39-31_screenshot.png]]
@@ -370,7 +371,7 @@ Apart from providing an argument for majority rule based on four plausible proce
 
 Is CJT, but he discusses limitations too which might be useful. I will read cite:pivato2019realizing then come back here.
 
-It is important to keep in mind the [[file:20200520191842-what_are_the_assumptions_of_condorcet_s_jt.org][assumptions of CJT]].
+It is important to keep in mind the assumptions of the CJT (query).
 
 *** Nuance on CJT
 
@@ -388,6 +389,7 @@ Bayesian networks, as employed in Pearl's work on causation (2000), have been us
 
 Finally, game-theoretic work challenges an implicit assumption of the jury theorem, namely that voters will always reveal their judgments truthfully. Even if all voters prefer a correct to an incorrect collective judgment, they may still have incentives to misrepresent their individual judgments. This can happen when, conditional on the event of being pivotal for the outcome, a voter expects a higher chance of bringing about a correct collective judgment by voting against his or her own private judgment than in line with it (Austin-Smith and Banks 1996; Feddersen and Pesendorfer 1998).
 #+end_quote
+
 
 
 ** Utilitarian

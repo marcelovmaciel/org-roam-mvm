@@ -44,3 +44,22 @@ Pkg.instantiate()
 include(joinpath(docsdir, "make.jl"))
 
 #+END_SRC
+
+
+
+* Quick tips
+** How can I simplify an Agent constructor? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T11:55:06Z
+:FC_TYPE:  normal
+:ID:       7d0fcf93-cf5a-4270-9f91-cf1e8ba1771e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T11:55:06Z |
+:END:
+
+** Back
+Using Parameters.jl:
+[[file:~/Drive/Org/imgs/parameters.jpeg]]

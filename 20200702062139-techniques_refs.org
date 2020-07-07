@@ -2,13 +2,19 @@
 - tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
 
 * Mathematics
-
+- cite:Hall_2000
+  - https://dweathers.github.io/174/index.html
 - cite:stewart2015foundations
 - cite:daepp2003reading
 - cite:velleman2019prove
 - cite:hammack2013book
 
-  
+# -----------------------------------------------------------------------------
+- cite:deisenroth2020mathematics
+- cite:blitzstein2019introduction
+- cite:axler2015linear
+- cite:abadir2005matrix
+
 * Algorithms (as technique)
 My algorithms entry on [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]] has general resources on the role of algorithms/computation in art, philosophy, economics and so on. They should be read after I have studied a bit the resources here.
 
@@ -32,14 +38,27 @@ My algorithms entry on [[file:20200628152829-my_weltanschauung.org][My Weltansch
 ** Analysis techniques
 - cite:siegel18_analy_comput_model
 - cite:fuellsack20_predic_regim_shift_social_system
+- cite:vu19_towar
+- cite:champion19_data_driven_discov_coord_gover_equat
+- cite:ranganathan2014bayesian
+- cite:murray17_using_obser_data_to_calib_simul_model
 
+- cite:murray17_compar_agent_based_model_param
+- cite:wilson19_ten_simpl_rules_comput_model_behav_data
+- cite:murray20_chall_param_direc_effec_indiv
+- cite:arnold18_dag_infor_regres_model_agent
+
+  
 ** Replication
 [[file:20200629204631-abm_replication.org][Abm replication]]
--
+
+
 
 * Data Science
+
 ** General Resources
 - cite:derekevidence
+- cite:nolis2020build
 
 ** Data visualization
 - [[https://newleftreview.org/issues/II118/articles/franco-moretti-oleg-sobchuk-hidden-in-plain-sight][Franco Moretti & Oleg Sobchuk, Hidden In Plain Sight, NLR 118, July–August 2019]]
@@ -55,12 +74,36 @@ My algorithms entry on [[file:20200628152829-my_weltanschauung.org][My Weltansch
 
 
 ** ML
+- cite:geron2019hands
+- cite:kuhn2013applied
+- cite:kuhn2019feature
+- cite:champion19_data_driven_discov_coord_gover_equat
+- cite:guimera20_bayes_machin_scien_to_aid
+# --------------------------------------------------------------------------
 - [[https://sites.google.com/view/berkeley-cs294-158-sp20/home][CS294-158-SP20 Deep Unsupervised Learning Spring 2020]]
-
-
 ** Statistics
 - [[https://www.youtube.com/watch?v=4WVelCswXo4&list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI][Mcelreath statistics course]]
 - [[https://statmodeling.stat.columbia.edu/2009/05/24/handy_statistic/][Handy statistical lexicon « Statistical Modeling, Causal Inference, and Socia...]]
+- cite:aronow2019foundations
+- cite:royall1997statistical
+- cite:freedman2009statistical
+
+** Causal inference
+- cite:pearl2016causal
+- cite:dickerman20_count_predic_is_not_only_causal_infer
+- cite:pearl14_exter_valid
+- cite:murray17_using_obser_data_to_calib_simul_model
+- cite:pearl09_causal_infer_statis
+- cite:elwert2013graphical
+
+* Evo tooling
+
+- cite:izquierdo2019introduction
+- cite:izquierdo18_evody
+- cite:newton18_evolut_game_theor
+
+
+* -------------------------------------------------------------------------------
 
 * Text analysis
 
@@ -128,10 +171,6 @@ After studying those reviews look back at the dir for methods and maybe applicat
 - [[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233879][An automated pipeline for the discovery of conspiracy and conspiracy theory n...]]
 - [[https://www.cambridge.org/core/journals/political-analysis/article/automated-text-classification-of-news-articles-a-practical-guide/10462DB284B1CD80C0FAE796AD786BC6][Automated Text Classification of News Articles: A Practical Guide | Political...]]
 
-
-
-
-
 *** Data resources
 - see my data-sources bookmark folder
 - [[https://github.com/ropensci/historydata][GitHub - ropensci/historydata: Datasets for Historians]]
@@ -149,3 +188,4 @@ Two great reviews of the SOTA:
 
 ** Cool applications
 - cite:kosack18_funct_struc_us_state_gover
+

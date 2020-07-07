@@ -1,6 +1,6 @@
 #+TITLE: Social Simulation Beyond Coleman's boat
 
-- tags :: [[file:20200519192236-how_do_humans_compare_to_other_animals_regarding_agt.org][How do humans compare to other animals regarding AGT?]],  [[file:20200520182016-social_simulation_general.org][Social Simulation General]], [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
+- tags ::  [[file:20200520182016-social_simulation_general.org][Social Simulation General]], [[file:20200520213408-my_project_ideas.org][My Project Ideas]]
 
 The social simulation literature has been for years belaboring on the micro-macro link. Implicit in much their work, however, is a thin view of social life.
 There is micro-behavior of agents which lead to macro patterns, and that's it. It is no wonder that sociophycists model people using the ising model. It is an indeed an atomic view of the social world. The problem is that this is a highly brittle foundation since we don't actually know:

@@ -13,4 +13,4 @@
 :END:
 
 ** Back
-The input requested from voters. One such ballots are [[file:20200522122046-what_is_a_ranking.org][rankings]].
+The input requested from voters. One such ballots are rankings.

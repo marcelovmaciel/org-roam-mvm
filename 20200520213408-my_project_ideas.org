@@ -321,3 +321,62 @@ support him/her? I think this is what makes the approval voting results hard to
 interpret, but I guess a mayor that is even tolerated by more voters than any
 other candidate has at least tolerable prospects.
 #+end_quote
+
+* PROJ [#A] Create a project with abm and make
+- Write a simple project combining the following tools:
+  - Make
+  - Julia
+    - use agents.jl + drwatson.jl + parameters.jl
+    - use tools for analysis such as design matrices and saltelli method
+  - Latex
+    - (use some beautiful template)
+  - Maybe Org
+  - Emacs (projectile)
+
+* PROJ [#C] Create an org headline extractor
+- Mix elisp and python for that
+- There is julia too: [[https://github.com/non-Jedi/Org.jl][GitHub - non-Jedi/Org.jl: Hacky org-mode parser in Julia]]
+
+
+** Old code
+#+name: block1
+#+BEGIN_SRC elisp
+(buffer-file-name)
+#+END_SRC
+
+#+RESULTS: block1
+: /home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org
+
+#+RESULTS: block-1
+: /home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org
+
+#+name: block2
+#+BEGIN_SRC python :results output :var here=block1
+from orgparse import load
+root = load(here)
+#print(dir(root))
+
+[print(child.get_heading()) for child in root.children]
+
+
+
+#+END_SRC
+
+#+RESULTS: block2
+: Mathematics
+: Algorithms (as technique)
+: Social simulation
+: Data Science
+: Evo tooling
+: -------------------------------------------------------------------------------
+: Text analysis
+: Networks
+
+
+#+BEGIN_SRC julia  :results output :var fpy=block2
+print(fpy)
+#+END_SRC
+
+#+RESULTS:
+: "/home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org\n"
+: /home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org

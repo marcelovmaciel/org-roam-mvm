@@ -1,17 +1,1 @@
-#+TITLE: How cognitive complexity impacts the applicability of gt?
-- sources :: cite:sep-game-theory
-
-* q :fc:
-:PROPERTIES:
-:FC_CREATED: 2020-05-21T00:42:34Z
-:FC_TYPE:  normal
-:ID:       a6527bc2-bc10-492b-91c2-ec0c5672dce3
-:END:
-:REVIEW_DATA:
-| position | ease | box | interval | due                  |
-|----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-07-03T10:25:23Z |
-:END:
-
-** Back
-  Less complex agents are easier to assign stable preferences. More complex changes more and learns making them harder to model using the tool set of neoclassical economics.
+y

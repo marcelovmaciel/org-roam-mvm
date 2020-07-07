@@ -1,0 +1,14 @@
+#+title: Emacs configs
+- tags :: [[file:20200516152744-learning_emacs.org][Learning Emacs]]
+
+
+
+  There are many configs that I can inspect to get inspiration, such as:
+
+  - [[https://github.com/Brettm12345/doom-emacs-literate-config][GitHub - Brettm12345/doom-emacs-literate-config: My literate configuration fo...]]
+
+  - [[https://github.com/rougier/elegant-emacs][GitHub - rougier/elegant-emacs: A very minimal but elegant emacs (I think)]]
+
+  - [[https://github.com/jerrypnz/.emacs.d][GitHub - jerrypnz/.emacs.d: My personal emacs configuration]]
+
+  - [[https://github.com/non-Jedi/.emacs.d][GitHub - non-Jedi/.emacs.d: Personal mirror of my emacs config]]

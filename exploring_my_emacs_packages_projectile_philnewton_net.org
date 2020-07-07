@@ -1,0 +1,63 @@
+#+TITLE: Exploring my Emacs packages - Projectile - philnewton.net
+#+ROAM_KEY: https://www.philnewton.net/blog/exploring-emacs-projectile/
+
+- tags :: [[file:20200516152744-learning_emacs.org][Learning Emacs]]
+
+
+* Summary
+Projectile lets u:
+- find files quicker (Doom : M-SPC SPC)
+- switch to buffers quicker (Doom:   M-SPC p b)
+- test , run and compile (build) the project (Doom: M-SPC p T, Doom: M-SPC p R  ,  Doom: M-SPC p c)
+
+Makefiles like stuff  and .dir-locals.el are something to keep in mind.
+
+
+* C&P'
+This is a great introduction to projectile. For more see [[https://docs.projectile.mx/projectile/index.html][Projectile :: Projectile]]
+
+- ~projectile-find-file~
+  - Doom : M-SPC SPC
+  - (There is an ivy version used by [[file:20200516144415-doom_emacs.org][Doom Emacs]]!!!)
+  - Bare: C-c p f
+
+- to switch to buffer in current project ~counsel-projectile-swith-to-buffer~:
+  - Doom:   M-SPC p b
+  - Bare: C-c p b
+
+Projectile also interacts with the project itself. So one can use
+
+- Runs a test command for the current project. (~projectile-test-project~)
+  - Bare: C-c p P
+  - Doom: SPC p T
+
+- Runs a compilation command for the current project. (~projectile-run-project~)
+  - Bare:  C-c p c
+  - Doom: M-SPC p c
+
+#+begin_quote
+*finding a Makefile file in the root will set the default compile command to make and the default test command to make test.*
+#+end_quote
+
+
+#+begin_quote
+Projects can set their compile and test commands using Emacs .dir-locals.el.
+
+- projectile-project-compilation-cmd sets the compilation command
+- projectile-project-test-cmd sets the test command
+- projectile-project-run-cmd sets the run command
+- projectile-project-compilation-dir sets the directory to run compilation commands in.
+
+These will override whatever type Projectile has assigned.
+
+Example: .dir-locals.el for a Common Lisp project
+
+
+
+#+end_quote
+#+BEGIN_SRC lisp
+((nil . ((projectile-project-test-cmd . "sbcl --script test.lisp"))))
+#+END_SRC
+
+
+There are options for opening shell or running commands on the *root* of the project!!!

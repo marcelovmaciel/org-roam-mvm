@@ -1,0 +1,42 @@
+#+TITLE: Why Use Make
+#+ROAM_KEY: https://bost.ocks.org/mike/make/
+
+- tags :: [[file:exploring_my_emacs_packages_projectile_philnewton_net.org][Exploring my Emacs packages - Projectile - philnewton.net]], [[file:20200525200536-on_my_workflow.org][On my workflow]]
+
+
+
+#+begin_quote
+The core concept is that generated files depend on other files. When generated files are missing, or when files they depend on have changed, needed files are re-made using a sequence of commands you specify.
+
+[...]
+
+
+In a mildly mind-bending maneuver, Make encourages you to express your workflow backwards as dependencies between files, rather than forwards as a sequential recipe.
+#+end_quote
+
+
+The structure of a make command is:
+
+#+BEGIN_SRC make
+targetfile: sourcefile
+	command
+#+END_SRC
+
+
+Finally, why use make ?
+
+#+begin_quote
+
+
+- Update any source file, and any dependent files are regenerated with minimal effort. Keep your generated files consistent and up-to-date without memorizing and running your entire workflow by hand. Let the computer work for you!
+
+- Modify any step in the workflow by editing the makefile, and regenerate files with minimal effort. The modular nature of makefiles means that each rule is (typically) self-contained. When starting new projects, recycle rules from earlier projects with a similar workflow.
+
+- Makefiles are testable. Even if you’re taking rigorous notes on how you built something, chances are a makefile is more reliable. A makefile won’t run if it’s missing a step; delete your generated files and rebuild from scratch to test. You can then be confident that you’ve fully captured your workflow. 
+#+end_quote
+
+* Other resources about make
+- (example) [[https://plain-text.co/pull-it-together.html][5 Pull it Together | The Plain Person’s Guide to Plain Text Social Science]]
+- (examples + explanation ) [[http://kbroman.org/minimal_make/][minimal make]]
+- (examples + explanation ) [[http://zmjones.com/make/][GNU Make for Reproducible Data Analysis]]
+- (full tutorial) cite:mecklenburg2004managing

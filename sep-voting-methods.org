@@ -178,7 +178,6 @@ Those are all voting systems that induce cardinal ballots through a **grading la
 :END:
 
 
-- source :: cite:sep-voting-methods
 
 ** Back
 - Definition :
@@ -208,7 +207,7 @@ on a pro rata basis to the voters. There are a variety of economic arguments
 that justify why voters should pay $v^2$ to purchase v votes (Lalley and Weyl
 2018b; Goeree and Zhang 2017). See Posner and Weyl 2015 and 2017 for further
 discussion and a vigorous defense of the use of Quadratic Voting in national
-elections. cite:sep-voting-methods
+elections. 
   #+end_quote
 *  What is proxy voting and Liquid Democracy? :fc:
 :PROPERTIES:
@@ -266,3 +265,72 @@ Democracy is when votes can be further delegated.
   - cite:Lacy_2000
 - cite:Scarsini_1998
 - cite:Xia_2007
+
+
+* What is a scoring rule ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T19:50:52Z
+:FC_TYPE:  normal
+:ID:       5c5195f2-2174-4705-94c1-c18c7dd6fcc9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T19:50:52Z |
+:END:
+
+** Back
+
+[[file:~/Drive/Org/imgs/scoring-rule.png]]
+
+
+*  What is manipulation in SC? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T22:01:00Z
+:FC_TYPE:  normal
+:ID:       c1695ceb-fffd-4678-8812-7b5da7bfaac3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T22:01:00Z |
+:END:
+
+** Back
+  There are two kinds of manipulation. The first is *control* through an
+  authoritative figure, I believe an example to this is mckelvey classic paper.
+  The other kind of manipulation is *misrepresentation of preferences* by
+  voters. This is what [[file:sep-social-choice.org][the gibbard satterwhaite theorem]] is about.
+
+
+*  What is a ranking? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T15:29:29Z
+:FC_TYPE:  normal
+:ID:       f504bfc8-87dd-4094-8ed6-5ce41a1aeab5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T15:29:29Z |
+:END:
+
+** Back
+  A complete, transitive and irreflexive relation.
+
+
+
+* What are ballots? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T15:29:11Z
+:FC_TYPE:  normal
+:ID:       248460da-5bfb-477f-8289-d3a36cfc133a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T15:29:11Z |
+:END:
+
+** Back
+The input requested from voters. One such ballots are rankings.

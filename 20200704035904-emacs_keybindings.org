@@ -1,0 +1,38 @@
+#+TITLE: Emacs keybindings
+- tags :: [[file:20200516152744-learning_emacs.org][Learning Emacs]]
+  
+#+BEGIN_SRC elisp
+
+(map! "C-c b h" #'helm-bibtex
+      "C-c b o" #'orb-note-actions
+      "C-c b l" #'crossref-lookup
+      "C-c b g" #'query-google-scholar
+      "C-c e c" #'comment-region
+      "C-c e u" #'uncomment-region
+      "C-c e a" #'org-fc-hydra-type/body
+      "C-c o o" #'olivetti-mode
+      "C-c d d" #'+doom-dashboard/open
+      "C-c D"  #'er-delete-file-and-buffer
+      "C-c s p" #'+ivy/project-search
+      "C-c s o" #'+lookup/online
+      "C-c r e t" #'+eshell/toggle
+      "C-c r e h" #'+eshell/here
+      "C-c r h"  #'helm-run-external-command
+      "C-c t r" #'roots-theme
+      "C-c t s" #'slick-theme
+ )
+
+#+END_SRC
+
+
+
+- ~toggle-line-numbers~ SPC t l
+
+- ~projectile-find-file~ M-SPC SPC
+
+- ~dired~ SPC f d
+
+- to switch to buffer in current project ~counsel-projectile-swith-to-buffer~
+   M-SPC p b
+
+-  

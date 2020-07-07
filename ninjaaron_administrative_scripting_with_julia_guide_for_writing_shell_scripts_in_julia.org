@@ -104,7 +104,7 @@ with open("../notes/foo.txt") as io:
 In julia the equivalent of src_python[:exports code]{with} are src_julia[]{do} blocks
 
 #+BEGIN_SRC julia :results output
-open("../notes/foo.txt") do io
+open("../Notes/foo.txt") do io
     print(read(io, String))
 end
 #+END_SRC
@@ -248,3 +248,338 @@ end
 : "#+TITLE: ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia"
 : "#+ROAM_KEY: https://github.com/ninjaaron/administrative-scripting-with-julia"
 : ""
+
+
+* What are streams ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T17:11:31Z
+:FC_TYPE:  normal
+:ID:       f0360575-b377-420b-9f13-d216f4a5d6ef
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T17:11:31Z |
+:END:
+
+** Back
+IO objects, not necessarily files. Stderr, stdin and stdout are streams. 
+
+
+
+* injl, What is ARGS? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T17:45:35Z
+:FC_TYPE:  normal
+:ID:       74d50d3f-2e81-4ab7-84b3-1d2eb20f0cdb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T17:45:35Z |
+:END:
+** Back
+It is a global variable that receives command line and types them as strings.
+
+For more sophisticated command line parsing see:
+- [[https://github.com/docopt/DocOpt.jl][GitHub - docopt/DocOpt.jl: command line arguments parser]]
+- [[https://github.com/carlobaldassi/ArgParse.jl][GitHub - carlobaldassi/ArgParse.jl: Package for parsing command-line argument...]]
+
+
+* injl, Where the env vars are stored? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T17:49:58Z
+:FC_TYPE:  normal
+:ID:       a662b421-8d61-42b9-827e-c00986033e8c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T17:49:58Z |
+:END:
+
+** Back
+In the global variable src_julia[:export code]{ENV::Dict}.
+
+#+BEGIN_SRC julia :results output
+print(ENV)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+SHELL=/bin/bash
+SESSION_MANAGER=local/mvmaciel-Inspiron-5557:@/tmp/.ICE-unix/1979,unix/mvmaciel-Inspiron-5557:/tmp/.ICE-unix/1979
+CAML_LD_LIBRARY_PATH=/home/mvmaciel/.opam/default/lib/stublibs:/usr/local/lib/ocaml/4.05.0/stublibs:/usr/lib/ocaml/stublibs
+OCAML_TOPLEVEL_PATH=/home/mvmaciel/.opam/default/lib/toplevel
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GTK_IM_MODULE=ibus
+CONDA_EXE=/home/mvmaciel/anaconda3/bin/conda
+_CE_M=
+MATHEMATICA_HOME=/usr/local/Wolfram/WolframEngine/12.0
+QT4_IM_MODULE=ibus
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+LC_ADDRESS=pt_BR.UTF-8
+GNOME_SHELL_SESSION_MODE=ubuntu
+LC_NAME=pt_BR.UTF-8
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+HOMEBREW_PREFIX=/home/linuxbrew/.linuxbrew
+DESKTOP_SESSION=ubuntu
+LC_MONETARY=pt_BR.UTF-8
+SSH_AGENT_PID=1883
+GTK_MODULES=gail:atk-bridge
+PWD=/home/mvmaciel/Drive/Org/org-roam-mvm
+XDG_SESSION_DESKTOP=ubuntu
+LOGNAME=mvmaciel
+XDG_SESSION_TYPE=x11
+CONDA_PREFIX=/home/mvmaciel/anaconda3
+MANPATH=/home/linuxbrew/.linuxbrew/share/man:/home/linuxbrew/.linuxbrew/share/man:::/home/mvmaciel/.opam/default/man
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+_=/usr/local/bin/julia
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+OPAM_SWITCH_PREFIX=/home/mvmaciel/.opam/default
+WINDOWPATH=2
+HOME=/home/mvmaciel
+USERNAME=mvmaciel
+IM_CONFIG_PHASE=1
+LC_PAPER=pt_BR.UTF-8
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=5802
+CONDA_PROMPT_MODIFIER=(base)
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/a52f30f8_aa42_4497_8b23_5e590733d817
+INVOCATION_ID=40ec56f7c59b436996818c4bc6fe96eb
+MANAGERPID=1446
+CLUTTER_IM_MODULE=ibus
+INFOPATH=/home/linuxbrew/.linuxbrew/share/info:/home/linuxbrew/.linuxbrew/share/info:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=dumb
+LC_IDENTIFICATION=pt_BR.UTF-8
+_CE_CONDA=
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=mvmaciel
+GNOME_TERMINAL_SERVICE=:1.391
+HOMEBREW_CELLAR=/home/linuxbrew/.linuxbrew/Cellar
+CONDA_SHLVL=1
+DISPLAY=:0
+SHLVL=1
+LC_TELEPHONE=pt_BR.UTF-8
+QT_IM_MODULE=ibus
+HOMEBREW_REPOSITORY=/home/linuxbrew/.linuxbrew/Homebrew
+LC_MEASUREMENT=pt_BR.UTF-8
+CONDA_PYTHON_EXE=/home/mvmaciel/anaconda3/bin/python
+LC_CTYPE=pt_BR.UTF-8
+XDG_RUNTIME_DIR=/run/user/1000
+CONDA_DEFAULT_ENV=base
+LC_TIME=pt_BR.UTF-8
+JOURNAL_STREAM=9:41975
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+PATH=/home/mvmaciel/anaconda3/bin:/home/mvmaciel/anaconda3/condabin:/home/mvmaciel/.opam/default/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/mvmaciel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:~/.cabal/bin/idris:~/joker-0.14.0-linux-amd64/joker
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+LC_NUMERIC=pt_BR.UTF-8
+OPENBLAS_MAIN_FREE=1
+#+end_example
+
+
+
+* injl, How do we get the  path to current working directory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T18:01:57Z
+:FC_TYPE:  normal
+:ID:       0bc8686a-600c-4d26-865b-d50d65913f99
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T18:01:57Z |
+:END:
+
+** Back
+With src_julia[:export code]{pwd()}.
+
+#+BEGIN_SRC julia :results output
+@doc pwd
+
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+  pwd() -> AbstractString
+
+  Get the current working directory.
+
+  Examples
+  ≡≡≡≡≡≡≡≡≡≡
+
+  julia> pwd()
+  "/home/JuliaUser"
+
+  julia> cd("/home/JuliaUser/Projects/julia")
+
+  julia> pwd()
+  "/home/JuliaUser/Projects/julia"
+#+end_example
+
+
+
+* injl, How do we get the only the name of the working directory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T18:04:56Z
+:FC_TYPE:  normal
+:ID:       e83a056c-3cab-400b-bccb-8e9ce3ec14d3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T18:04:56Z |
+:END:
+
+** Back
+src_julia[:export code]{basename}.
+For the basename name of the *current* working dir use src_julia[:export code]{pwd() |> basename}.
+
+
+* injl, How do we get only the path above the tree of the pwd ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T18:09:15Z
+:FC_TYPE:  normal
+:ID:       9286c498-424d-4675-bf6d-b67629f08b7d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T18:09:15Z |
+:END:
+
+** Back
+With the src_julia[:export code]{dirname} function.
+
+#+BEGIN_SRC julia :results output
+pwd() |> dirname
+#+END_SRC
+
+#+RESULTS:
+: "/home/mvmaciel/Drive/Org"
+
+src_julia[:export code]{splitdir} and
+src_julia[:export code]{joinpath}
+src_julia[:export code]{splithpath}
+src_julia[:export code]{splitext}
+src_julia[:export code]{readdir}
+src_julia[:export code]{walkdir} are related functions.
+
+* injl, How one may capture the output of an external process? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T18:36:00Z
+:FC_TYPE:  normal
+:ID:       835cb16a-c687-440c-90e9-88e24084189d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T18:36:00Z |
+:END:
+
+- source ::  [[https://docs.julialang.org/en/v1/manual/running-external-programs/][Running External Programs · The Julia Language]]
+
+** Back
+
+using the src_julia[:export]{read} proc.
+#+BEGIN_SRC julia :results output
+
+
+split(read(`ls`, String), "\n")[1:5]
+#+END_SRC
+
+#+RESULTS:
+: 5-element Array{SubString{String},1}:
+:  "182_zettelkasten_learning_method_simply_explained_youtube.org"
+:  "20200516144415-doom_emacs.org"
+:  "20200516152708-programming.org"
+:  "20200516152744-learning_emacs.org"
+:  "20200517144603-org_bibliographic_management.org"
+
+An equivalent would be:
+
+#+BEGIN_SRC julia :results output
+readlines(`ls`)[1:5]
+#+END_SRC
+
+#+RESULTS:
+: 5-element Array{String,1}:
+:  "182_zettelkasten_learning_method_simply_explained_youtube.org"
+:  "20200516144415-doom_emacs.org"
+:  "20200516152708-programming.org"
+:  "20200516152744-learning_emacs.org"
+:  "20200517144603-org_bibliographic_management.org"
+
+* Does jl run bash when we use `run`? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T18:44:09Z
+:FC_TYPE:  normal
+:ID:       0388cffd-f095-435c-88bc-7115fb4481ba
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T18:44:09Z |
+:END:
+** Back
+Nope.
+#+begin_quote
+In Julia, commands never get a shell. As far as I know, the only way to give a command a shell would be to do so explicitly, something like bash -c echo "my injection vulnerability", but you really don't need a shell, so that's fine. What Julia's command literals do is pass the string to a parser for a shell-like mini-language, which converts the command into a vector of strings--which will ultimately be handed to one of the OS's exec family of functions--on *nix. I don't know how these things happen on Windows.
+
+The result is that running commands in Julia is safe and secure by default because the shell never has the chance to do horrible things with user input.
+#+end_quote
+
+* injl, How to run cmd with sequences of interpolations ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T19:17:09Z
+:FC_TYPE:  normal
+:ID:       b5442312-eaab-4372-9e5a-938b5f16f040
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T19:17:09Z |
+:END:
+** Back
+Using normal string interpolation. The cool thing is how we can create cartesian products of names.
+
+
+#+BEGIN_SRC julia :results output
+
+
+`./file$(1:10).png`
+
+words = ["foo", "bar", "baz"];
+numbers = 1:3;
+
+`$words$numbers`
+
+#+END_SRC
+
+#+RESULTS:
+: `./file1.png ./file2.png ./file3.png ./file4.png ./file5.png ./file6.png ./file7.png ./file8.png ./file9.png ./file10.png`
+: 3-element Array{String,1}:
+:  "foo"
+:  "bar"
+:  "baz"
+: 1:3
+: `foo1 foo2 foo3 bar1 bar2 bar3 baz1 baz2 baz3`
+
+#+BEGIN_SRC  julia :results output
+
+(readlines(`echo ./file$(1:5)`))
+#+END_SRC
+
+#+RESULTS:
+: 1-element Array{String,1}:
+:  "./file1 ./file2 ./file3 ./file4 ./file5"
