@@ -1,0 +1,606 @@
+#+TITLE: cite:ahrens2017take: How to take smart notes: one simple technique to boost writing, learning and thinking--for students, academics and nonfiction book writers
+#+ROAM_KEY: cite:ahrens2017take
+
+*  Notes
+:PROPERTIES:
+:Custom_ID: ahrens2017take
+:NOTER_DOCUMENT: %(orb-process-file-field "ahrens2017take")
+:AUTHOR: Ahrens, S\"onke
+:JOURNAL:
+:DATE:
+:YEAR: 2017
+:DOI:
+:URL:
+:END:
+
+
+*  Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+**  What is it about ?
+**  What does it mean for ... ?
+** How does the new information contradict, correct, support, or add to what I already know?
+
+** How does this fact fit into my idea of …?
+** How can this phenomenon be explained by that theory? 
+** Are these two ideas contradictory or do they complement each other?
+** Isn’t this argument similar to that one?
+** Haven’t I heard this before?
+
+** How can I combine ideas to generate something new?
+ Since I'm taking fleeting notes, flashcards, literature notes, reference notes and main notes all in the same folder this might fuck up my slipbox. That is why let us define some rules:
+  - *fleeting notes* live in the Fleeting notes file
+  - *literature notes* are one for each source. They are never tagged, only cited (if it is a book or article. sites are different). They can tag, particularly main notes, but not reference notes - which will cite them.
+  - *Reference notes* mention literature notes but do not mention main notes
+  - *Main notes* cite literature notes and tag reference notes.
+  - *Flashcards* live inside their literature notes
+  - *Project notes* live inside their projects directories!!!
+
+Since the focus is on making connections I believe I can collapse the distinction between reference and main notes and treat them as the same. See agenda.
+
+
+
+** What questions are triggered by these new ideas?
+- How can I use GTD methodology to define precise/interesting/meaningful tasks (as discussed in the [[*Introduction][Introduction]])
+- Create dialogues like Plato when reading something;
+- Take a look at: [[https://en.wikipedia.org/wiki/SQ3R][SQ3R - Wikipedia]] .
+
+- One thing that I've noticed is that one text might trigger a plethora of questions. Many of them cannot be turned directly into main notes, but nevertheless might direct further investigations. How do I process those questions? By listing them under the index? By creating them as permanent notes and starting studying?
+
+
+* Struct questions
+** What is the goal of the text?
+
+*** Introduction
+To defend the fundamental importance of organization and methods in a study/research routine for a successful career in academia.
+
+*** 1 Everything You Need to Know
+To present Luhmann's method and argue that it is simple, adaptive and ultimately
+useful, maybe as useful as say Ford's method in industry, or GTD in business.
+*** 2 Everything you need to do
+To demonstrate how the zettelkasten workflow leads to papers which emerge from your routine. One only has to follow the 8 steps.
+*** 3&4
+To remind the reader that zettel requires a routine of connection and note processing.
+*** 5 Writing Is the Only Thing That Matters
+To argue that writing is the goal and our routine must pay heed to that.
+*** 6 Simplicity is paramount
+To remind that there are different kinds of things we write. Not all of them should go in the slipbox. 
+
+*** 7 Nobody Ever Starts From Scratch
+
+To defend a iterative approach to research. We start from the slipbox and NOT at a blank page.
+*** 8 Let the Work Carry You Forward
+To argue that a good system empowers us, but to do so we must test ourselves. 
+*** 9 Separate and Interlocking Tasks
+To defend the importance of "unitasking" and tasks blocks.
+
+** What is the general argument of the text?
+
+*** Introduction
+That we have to think about the whole *organization* of writing, not only the "final" moment in which we write an essay, article or book. Writing does not follow research, it is the *medium* of research, and "successful writing lies in the preparation".
+
+*** 1 Everything You Need to Know
+That studying/research methods should be simple, open-ended and adaptive and Luhmann's method is such a system.
+*** 2 Everything you need to do
+That the zettel workflow leads organically to papers.
+*** 3&4
+One has to continuously process and connect notes. If not, one creates a graveyard for thoughts instead of a living tool for thought.
+*** 5 Writing Is the Only Thing That Matters
+That sharing, publicizing, is the final goal of any study. Therefore, we must always write, and streamline our routine with publicizing our ideas and findings as the telos.
+*** 6 Simplicity is paramount
+That it is important to distinguish between types of notes so that our system does evolve
+
+- Fleeting notes go into the inbox
+- Literature notes go into the reference system
+- Project notes (todos, drafts, project related literature, reminders) go into project specific repositories
+- Main notes go into the slip-box
+
+*** 7 Nobody Ever Starts From Scratch
+
+He argues that projects should be started from within the slipbox. We keep studying and then we stumble upon them.
+*** 8 Let the Work Carry You Forward
+That the work should propel us and to do so we must test ourselves and push ourselves.
+*** 9 Separate and Interlocking Tasks
+That we must develop a workflow which has concrete tasks which we give our undivided attention, but also that there are different kinds of tasks in terms of attention, memory and motivation. Being concrete, instead of amorphous, and putting those kind of tasks in blocks let us be productive instead of depleted by the process.
+
+
+** What are the specific arguments of the text?
+
+
+
+*** Introduction
+- That we have to pay special attention to the organization of research;
+- That academia is not about IQ, but about self-discipline, or more precisely about using a system (given willpower depletion);
+- That psychological issues happen, however anxiety is intensified by a lack of structure and thinking that we have to start writing with a blank piece of paper.
+
+  #+begin_quote
+  Getting something that is already written into another written piece is
+  incomparably easier than assembling everything in your mind and then trying
+  to retrieve it from there.
+  #+end_quote
+- Self-control is about the environment;
+- Define meaningful/interesting/precise tasks
+  #+begin_quote
+Having a meaningful and well-defined task beats willpower every time.
+  #+end_quote
+
+*** 1 Everything You Need to Know
+- That having a methodology relieves the burden of routine, research and so on. Things don't need to be held your head.
+- *Break down tasks into small and clearly separated tasks.*
+- Flow does not happen by chance, it can be engineered. That is why we call it *workflow*.
+- One should have a structure to work *in* not plans *about* stuff.
+  #+begin_quote
+Having a clear structure to work in is completely different from making
+plans about something. If you make a plan, you impose a structure on
+yourself; it makes you inflexible. To keep going according to plan, you have
+to push yourself and employ willpower.
+  #+end_quote
+- The best way to deal with complexity is by KISS;
+- Routine is about simple, repeatable and seamlessly integrated tasks;
+- Tools and tasks must fit together;
+- Micromanagement is bad for open-ended tasks (such as research) (once again the difference between plan and tasks);
+- Notes are only valuable in context, and this is not necessarily the context they are taken from;
+- The structure should allow small and constant adjustments
+  #+begin_quote
+If we work in an
+environment that is flexible enough to accommodate our work rhythm, we
+don’t need to struggle with resistance. Studies on highly successful people
+have proven again and again that success is not the result of strong willpower
+and the ability to overcome resistance, but rather the result of smart working
+environments that avoid resistance in the first place
+  #+end_quote
+# -----------------------------------------
+- Luhmann had two slip-boxes: a bibliographical one and the main one.
+- His workflow was organized in 3 steps:
+  1. Write bibliographical notes and *shortly after*, by taking a look at brief and reference notes, think about their relevance for his work/ideas
+  2. and write them in different notes: ideas, thoughts, comments and so on.
+  3. Whenever one adds those permanent notes look for relevant notes and link them.
+- The trick of Luhmann workflow is that it is not organized by topic, but by indexation, by linking.
+- The last element of his workflow are *index notes*, they are entry points to a theme and may contain a collection of links.
+# ------------------------------------------
+
+*** 2 Everything you need to do
+- Writing a paper is an  8 steps process
+  1) Make fleeting notes
+     - reminders of what is in your head
+     - put them into one place: *inbox*
+  2) Make literature notes
+     - notes about contents
+     - things that don't want to forget or that might use in your own writing
+     - try to use own words. Quotes should be only used if you really understand what they mean and their usage is akin to the one in articles
+     - keep them with their bibliographic details, one must have a *reference system*
+  3) Make permanent notes
+     - Go through notes in step 1 and 2 and see how they relate with your ideas, projects, interests.
+     - The idea is *not* to collect, but to develop ideas/arguments
+     - Here are we ask ourselves the sonke questions
+     - while in the literature notes we are writing to ourselves, here write as if for someone else.
+     - *throw away fleeting notes* and "archive" literature notes in the reference system.
+  4) Add your permanent notes to the slip-box
+     - Link it to other notes (maybe an index)
+  5) Develop topics/questions/research projects from within the system
+     - *Always take the path that promises the most insight*
+     - Don't get stuck in an idea if another gains momentum 
+  6) Decide on a topic to write about
+     - This is *based on what you have* !
+     - Put your notes into a *desktop*: an ordered index note for a specific project
+  7) Translate notes into a manuscript
+  8) Edit and proofread the manuscript
+
+
+
+*** 3 Everything You Need to Have
+- Fleeting notes should be processed ideally within a day.
+*** 4 A Few Things to Keep in Mind
+- We have to be careful to not turn the slipbox into an archive for notes or a graveyard for thoughts!
+*** 5 Writing Is the Only Thing That Matters
+- Studying is not preparation for research, it is research;
+- You gain insight, you test things out, and then you share (publish);
+  #+begin_quote
+An idea kept private is as good as one you never had. And a fact no one can reproduce is no fact at all.
+  #+end_quote
+
+#+begin_quote
+the professor is not there for the student and the student not for the
+professor. *Both are only there for the truth. And truth is always a public
+matter*. Everything within the university aims at some kind of publication.
+#+end_quote
+
+- If all that matters is truth, and truth is public, therefore ought to be published; and studying is researching, then studying is all about publishing. *One should work as if nothing else counts than writing.*
+- This focus on writing gives you a *tangible purpose* when engaging in activities (this leads me back to tasks). I might adapt that by creating *beginning questions*: Why am I reading this? Where is this might be useful? Which project or idea that I already have will benefit from this and how?
+- This focus on writing also leads to focus on learning things that allow you develop *specific* ideas and projects.
+- Also, in terms of writing notes, to *only write things that you think help with some idea/project or is giving you new insights*. Studying is not about archiving!
+
+*** 6 Simplicity is paramount
+- All the studying process should be streamlined with the goal of publishing your findings
+- When linking a note the guiding rule is :
+ #+begin_quote
+ In which context will I want to stumble upon it again?
+#+end_quote
+
+- Distinguishing between kinds of notes is paramount for achieving a critical mass of ideas;
+
+- He talks about three kinds of notes:
+  - fleeting notes
+    - thrown away in a few days
+    - underlining or writing comments on a text can be seen as fleeting notes
+    - only useful if you review, turn into proper notes, and throw away;
+  - permanent notes
+    - they either live in the reference system or in the slip-box
+    - contain all the necessary information in themselves
+    - literature notes can be brief, while main notes are written with more care. 
+  - project notes
+    - live inside project-specific folders and can be discarded,archived after it is finished
+- Why the distinction?
+  - One should not collect ideas and treat every idea as a permanent note. This will crowd the system.
+  - One should *not* only take notes related to specific *projects*. One should have a permanent reservoir of ideas.
+  - One also should not collect fleeting notes!! This will lead to *piles* of fleeting notes. That is why they are temporary and should be turned into permanent notes.
+- Before storing literature notes, in the end of the day, try to think about their relevance for your ideas/projects and write about into permanent notes.
+- Every *permanent note* should be elaborated enough to have the potential to *become part of or inspire a written piece*
+- What are *project notes*?
+
+  #+begin_quote
+   - comments in the manuscript
+   - collections of project-related literature
+   - outlines
+   - snippets of drafts
+   - reminders
+   - to-do lists
+   - and of course the draft itself.
+  #+end_quote
+*** 7 Nobody Ever Starts From Scratch
+- Starting with the topic is not grounded in reality. To ask a question one has to have thought about the topic. And reading about topics is also grounded on previous preoccupations.
+- Actually one should start with your preoccupations, read about the topics, take notes and grow a *pool of externalized thoughts*.
+- Starting a research projects, is, therefore, started with a slip-box storming instead of a brainstorm. 
+
+*** 8 Let the Work Carry You Forward
+- One should look for a workflow that propels us, instead of sucking our energy and requiring more and more work
+- Work itself should be motivating. External rewards are not enough. This is useful even for sports.
+- Seeking feedback is important for growth, and as such one has to *incorporate feedback loops in the learning system* (only when trying to publish is bad, too little). This means not only asking for other people feedback, but also to test yourself all the time. Push yourself. Use active learning tricks.
+- Try to train differentiating what should be written and what should not
+- Writing permanent notes is also a way of testing ourselves
+  #+begin_quote
+Expressing our own thoughts in writing makes us realise if we really thought them through.
+  #+end_quote
+*** 9 Separate and Interlocking Tasks
+- Give each task undivided attention
+- Do not multitask
+  - Even writing involves lots of different tasks. This means that *we should separate those tasks in blocks and do them one at a time*. For example organizing, editing, correcting and rewriting are different things and should be done one at a time. Writing code is different from documenting which is different from testing it.
+  - Also, *remove all distractions*.
+- Give each task the right kind of attention
+  - e.g. Proofreading is very different from writing (smooth out patches, check for
+    typos). This distance is necessary to see the text, *not our thoughts*. What we "mean" is different from what is given by the text.
+  - But we should not proofread WHILE writing. Those are two different kind of tasks. If we proofread while writing our writing will be painfully slowed down.
+  - Finding the right words is different from thinking about the structure of the text (outlining). The outline should be easily accessible.
+- Kinds of writing tasks:
+  - proofreading,
+  - formulating,
+  - outlining,
+  - developing thoughts,
+  - combining thoughts
+- There are also different reading tasks:
+  - Skim vs scan
+- Successful creative endeavors require both a playful open mind and a narrow analytical frame
+- Once again he goes against making plans. Following rules strictly make you a performer, not a master or even an expert of an activity.
+- Remembering is much easier if we understand things. And understanding is about making connections. 
+- Open tasks occupy our short term memory and therefore unfinished tasks distract us. Writing them down help us "forget" about them.
+- This all leads to *breaking down amorphous tasks into smaller tasks* that can be finished in one go.
+- Reduce the number of decisions you make. This will leave more ego space for important decisions. Taking breaks is also important (walking, nap, and so on).
+*** 10 Read for Understanding
+
+- Do not copy, but translate. When taking notes try to *have a dialogue* with the text.
+
+- Always read thinking about possible connections in the slipbox.
+
+- The extension of literature notes depend on the complexity and importance of the text. We must have a *lattice of mental models* to identify and describe the main ideas quickly. What I take from this is that we must create those models through the *reading questions* (fichamento).
+
+- It is expected that notes about new subjects are more extensive. What matters is that they *support the creating of main notes*.
+
+- What is most helpful in reading is to think about *the background* of the text. Theory, method, goal, and so on. SQ3R might be useful IF we have a- Always read thinking about possible connections in the slipbox.
+- The extension of literature notes depend on the complexity and importance of the text. We must have a *lattice of mental models* to identify and describe the main ideas quickly. What I take from this is that we must create those models through the *reading questions* (fichamento).
+- It is expected that notes about new subjects are more extensive. What matters is that they *support the creating of main notes*.
+- What is most helpful in reading is to think about *the background* of the text. Theory, method, goal, and so on.
+- Do not be too selective with your notes.
+- Be careful with *confirmation bias*. It is part of a good argument to be able to withstand counterarguments and criticism!!! Therefore, we have to pay *special* attention to disconfirming evidence and counterarguments.
+- Understanding the text, translating it and connecting it are different tasks!!!!
+  - Read
+  - Turn into literature note while reading, translating to your own words
+  - Later turn those notes into new main notes connecting with our previous insights and preoccupations. 
+- The only criterion of addition into the slipbox is whether it contributes to something OR it may lead to new insights related to your previous interests
+- Do not focus too much on individual projects, but towards connections
+- The main distinction for the slip-box is the one of relevant or irrelevant information
+- The main skill to make this distinction is to be able to *get the gist* vs what is supporting details.
+- Look for *patterns, frames and  typical distinctions*
+- Reframe, contest distinctions, point out limitations
+
+*** 11 Take smart notes
+
+- What distinguishes successful students from less succesful is *thinking beyond the frames of the source*
+
+- Pick a text. Read it with *your questions in mind* and *relate it to other approaches* instead of adopting the question of the text and how if frames things.
+- Try to think about what *is not* in the text!!
+- DO NOT collect de-contextualized quotes from a text
+- Once again, look at the gist vs supporting information. See how the propositions in the text relate to the gist. Be critical, including of outlining of the text, but in terms of your area theories, methods, goals, and so on. 
+- Writing is the only way to think systematically, else there will be loopholes, contractions, mistakes, in our thoughts. *That is why we have to *think outside our brain*. Thinking is not an internal process, but an external one.
+- Real thinking requires *external scaffolding*. The most typical external scaffolding is through writing. 
+  #+begin_quote
+“Notes on paper, or on a computer screen [...] do not
+make contemporary physics or other kinds of intellectual endeavour easier,
+they make it possible” is one of the key takeaways in a contemporary
+handbook of neuroscientists (Levy 2011, 290) Concluding the discussions in
+this book, Levy writes: “In any case, no matter how internal processes are
+implemented, insofar as thinkers are genuinely concerned with what enables
+human beings to perform the spectacular intellectual feats exhibited in
+science and other areas of systematic enquiry, as well as in the arts, they need
+to understand the extent to which the mind is reliant upon external
+scaffolding.” (Ibid.)
+  #+end_quote
+  - Typical literature notes questions:
+    - "Is this convincing? What methods do they use? Which of the references are familiar?"
+ - Typical main notes questions:
+   #+begin_quote
+*What does this all mean for my own
+research and the questions I think about in my slip-box?* This is just another
+way of asking: *Why did the aspects I wrote down catch my interest?*
+#+end_quote
+
+- Learning is about constructing *triggering cues* and not about storing information. The information ought to be connected to *meaningful contexts*.
+
+- *Elaboration* is a two step process : first you have to think about the piece of information as much as needed for writing about it, second, you think about the meaning of it for other things, ideas, contexts.
+
+- If you focus your time on *understanding* on finding justification, reasons, distinctions, connections it will be much easier to remember than cramming.
+
+- Connecting is also about *comparing* and *contrasting*. 
+*** 12 Develop Ideas
+- Overviews are not necessary. It is preposterous to have an overview of our thinking if we are still developing it
+- Indexes should not be exhaustive. Actually, they should have only *entry points to topics*. The previously established connections between the notes will do the rest.
+- We can have a temporary *overview of a topic* inside a note. And then link those "topic overviews" as entries in our index. AND THAT'S IT.
+  #+begin_quote
+The consideration of how to
+structure a topic, therefore, belongs on notes as well – and not on a meta-
+hierarchical level. We can provide ourselves with a (temporarily valid)
+overview over a topic or subtopic just by making another note. If we then link
+from the index to such a note, we have a good entry point. If the overview on
+this note ceases to correctly represent the state of a cluster or topic, or we
+decide it should be structured differently, we can write a new note with a
+better structure and update the respective link from the index.
+  #+end_quote
+- The question we should ask ourselves when tagging something is:
+  #+begin_quote
+In which circumstances will I want to stumble upon this note, even if I forget about it?
+  #+end_quote
+
+- *Overview notes* are entry points to a subject. They will be listed in the index and in them are links to other notes on the topic *with a short description* (a short sentence). Don't go overboard. Those notes shouldn't have more than 25 (the luhmann maximum).
+- If you believe your overview notes are not adequate do not delete them. Add a new note, comment on the one before, and then specify the new structure of the topic.
+- Most of the time, however, we will be making note-to-note links, instead of index-to-overview-to-notes links. 
+- Whenever we are going to add an idea to the slipbox we should ask ourselves, or imagine that the slipbox is asking us:
+
+  #+begin_quote
+  What is the reference? How does that connect to the facts and the ideas you already have?
+  #+end_quote
+
+- Constructing oppositions is a great way of generating new ideas. Aufhenbung as well.
+
+- Have a *theoretical-methodological toolbox*. Not a thorough theoretical understanding, but a flexible collection of many applicable models that might help you connect, contrast and understand things.
+  #+begin_quote
+A truly wise person is not someone who knows everything, but someone who is able to make sense of things by drawing from an extended resource of interpretation schemes
+  #+end_quote
+
+- Learning should not be seen as accumulation of knowledge, but as building up a *latticework of models and methods*. 
+  #+begin_quote
+
+We learn something not only when we connect it to prior knowledge and try
+to understand its broader implications *(elaboration)*, but also when we try to retrieve it at different times *(spacing)* in different contexts *(variation)*, ideally
+with the help of chance *(contextual interference)* and with a deliberate effort
+*(retrieval)*.
+  #+end_quote
+
+- Long preparation, tweaking, and getting real  good with the tools/device we work with is necessary for innovation
+
+- Paradigm shift might be more about iterated steps towards the right direction than about big innovative stuff;
+
+- Comparing, contrasting, connecting is *not enough*, we have to *play, tweak, tinker* with ideas.
+  #+begin_quote
+without intense elaboration on what we already know, we
+would have trouble seeing its limitations, what is missing or possibly wrong.
+  #+end_quote
+
+- I *LOVE* this quote:
+  #+begin_quote
+Even very personal, intimate experiences, like encounters with art, require
+abstraction. If the story of Romeo and Juliet touches us, it is certainly not
+because we are all members of one of two feuding families in Verona. We
+abstract from time and place, from the particular circumstances until we can
+meet the protagonists of this story on a general level where our own
+emotional life can resonate with what we see on stage. The tendency to
+juxtapose abstraction with being worldly or to associate it with
+intellectualism and juxtapose it with being solution-orientated is very misleading indeed.
+  #+end_quote
+
+- Seeing *what is missing* is as important as seeing beyond details *gist*.
+
+- The typical strategy to solve problems is to redefine them as something that we have some tool to solve;
+
+- Following Feynmann, on the other hand it is important to keep unsolved problems in check as we learn new tricks.
+
+- Take simplicity seriously (KISS)
+
+- Keeping your notes short is important as a way of focusing on the *gist*.
+
+- *ONE IDEA PER MAIN NOTE*. If the note is short, precise and about one thing it can be freely recombined later.
+
+- That is, *one page per main note!!!!*
+
+- Literature notes should be stored as:
+ "on page x it says y"
+
+- Those restrictions liberate you.
+
+*** 13 Share Your Insight
+
+- Brainstorming leads to positive feature effect: you remember stuff which you've seen recently
+
+- Main notes are those aspects of a text we consider relevant to development of our ideas and our longer-term thinking;
+
+- Most questions are not suitable to become an article, thesis, book. They might be too broad, too narrow, impossible to acquire the required knowledge, and so on.
+
+- Good questions are: not easy, not impossible, and relevant (according to some criteria).
+
+- The following quote speaks a lot to my experience:
+  #+begin_quote
+When even highly intelligent students fail in their
+studies, it’s most often because they cease to see the meaning in what they
+were supposed to learn (cf. Balduf 2009), are unable to make a connection to
+their personal goals (Glynn et al. 2009) or lack the ability to control their own
+studies autonomously and on their own terms
+  #+end_quote
+
+- In my phd, therefore there are three pillars:
+- Do something which has meaning
+- Do something which connects with my personal goals
+- Do something in my own terms
+
+This is a maximalist criteria, obviously. Maybe do something which has meaning and is aligned with my personal goals. Meaning here  is the main challenge.
+
+*This is gold*: we should
+#+begin_quote
+[...] accompany *every step* of our work with the question “What is interesting about this?” and *everything we read* with the question, “What is so
+relevant about this that it is worth noting down?”.
+
+#+end_quote
+
+- Changing course if needed be is possible if we focus on small concrete tasks to work on, instead of big plans. We do what is needed at a time and work from there.
+- He does recommend having different manuscripts on different stages simultaneously (as long as we do not multitask). This is prevents us from getting *stuck or bored.*
+
+This is another gold passage:
+#+begin_quote
+“When I am stuck for one moment, I leave it and do
+something else.” When he was asked what else he did when he was stuck, his
+answer was: “Well, writing other books. I always work on different
+manuscripts at the same time. With this method, to work on different things
+simultaneously, I never encounter any mental blockages.” (Luhmann,
+Baecker, and Stanitzek 1987, 125–55)
+#+end_quote
+
+
+- Write a draft *as a draft*. Dont be paranoid about the output. Also, proofread. Rigorously delete everything that has no function (kill your darlings).
+*** 14 Make It a Habit
+
+** What are the main concepts of the text?
+*** Introduction
+- Notes
+- environment
+- methodology
+- tasks
+
+
+*** 1 Everything You Need to Know
+- structure
+- flow
+  #+begin_quote
+the state in which you get so completely immersed in your work that you lose track of time and can just keep on going as the work becomes effortless
+  #+end_quote
+- workflow
+- work in vs plan about (expert vs planner)
+- slipbox
+
+
+*** 2 Everything you need to do
+- fleeting notes
+- literature notes
+- index notes 
+- permanent notes
+- inbox
+- reference system
+- desktop
+
+
+*** 3 Everything You Need to Have
+
+
+*** 4 A Few Things to Keep in Mind
+- thoughts graveyard
+
+
+*** 5 Writing Is the Only Thing That Matters
+- tangible purpose (writing)
+
+
+*** 6 Simplicity is paramount
+- literature x project x permanent notes
+- fleeting notes pile
+- project notes
+
+
+*** 7 Nobody Ever Starts From Scratch
+- pool of externalized thoughts
+- slip-box-storming
+
+
+*** 8 Let the Work Carry You Forward
+- learning feedback loops
+
+
+*** 9 Separate and Interlocking Tasks
+- mere exposure effect
+- proofreading
+- outlining
+- reading and writing tasks
+- focused vs floating attention
+- amorphous vs focused tasks
+- attention, short-term memory and motivation
+- ego depletion
+
+
+*** 10 Read for Understanding
+- paper \(\leftarrow\)  draft (continuous text) \(\leftarrow\) series of notes \(\leftarrow\) slipbox
+- *lattice of mental models*
+- confirmation bias
+- relevant x irrelevant information
+- *the gist x supporting details*
+- Patterns, frames, distinctions 
+*** 11 Take smart notes
+- *external scaffolding*
+- *trigerring cues*
+- cramming
+- contrasting
+*** 12 Develop Ideas
+- index
+- entry points
+- overview notes
+- note-to-note links x  index-to-overview-to-notes links.
+- oppositions as idea creator
+- feature positive effect
+- *latticework of models and methods*
+- elaboration + spacing + variation +   contextual interference + retrieval
+- play, tinkering, tweaking
+- re-specification
+- details x gist x missing
+- One idea per note = 1 page notes
+- restrictions as freedom
+*** 13 Share your thought
+- overconfidence bias
+- rituals
+- kill your darlings
+*** 14 Make It a Habit
+ - Breaking through is difficult. We have to slowly build up new habits.
+
+#+begin_quote
+Learning, thinking and writing should not be about
+accumulating knowledge, but about becoming a different person with a
+different way of thinking.
+#+end_quote
+
+
+* Text structure
+*** 3 Everything You Need to Have
+*** 4 A Few Things to Keep in Mind
+*** 5 Writing Is the Only Thing That Matters
+*** 6 Simplicity is paramount
+*** 7 Nobody Ever Starts From Scratch
+*** 8 Let the Work Carry You Forward
+*** 9 Separate and Interlocking Tasks
+*** 10 Read for Understanding
+*** 11 Take smart notes
+*** 12 Develop Ideas
+*** 13 Share Your Insight
+*** 14 Make It a Habit

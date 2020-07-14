@@ -1,0 +1,20 @@
+#+title: On the conditions of manipulability of voting methods
+
+
+One insight that i got reading cite:Laslier_2011 is the following argument :
+
+  #+begin_quote
+Arguments about the relatively large probability with which some of these voting
+rules can be manipulated are typically based on the assumption that one group of
+voters with similar preferences can manipulate the outcome, while all other
+voters are completely naive to the situation.
+  #+end_quote
+
+  Maybe this can be connected with binmore argument about the applicability of rational choice. High stake situations. DEVELOP IT MORE.
+
+Manipulability may be something more of theoretical interest, *what are the odds?*  maybe this depends on the context. *Maybe I can connect with the idea of condition of applicability of the rational choice model (from binmore)*. Binmore considers that high stake situations are the ones that are closer to the rational actor. I can look at my dissertation to think about that, but committees are much closer to the rational choice applicability and as such amenable to manipulation. Gotta think how manipulability might happen in large scale elections and whether this happens. Large elections don't seem to be such a case.
+
+This scale difference can be connected with computation and physics through the transition lit. This is a cool idea that can be developed throughout the cite:moore2011nature course!!
+
+
+This is also related to the traditional commutative diagram problem. Look camille roth abm refs and my dissertation refs and [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]] for epistemology references.

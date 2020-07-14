@@ -1,21 +1,10 @@
-#+TITLE: My Project Ideas
+#+TITLE: My Fleeting Ideas
 - tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
+
 
 Here are fleeting notes that ought to be better developed.
 
-* On empiricism and conservatism
 
-
-  One provocation that ought to be done is on empiricism. I believe that strict
-  empiricism leads to an ontological conservatism a la Hegel "the real is
-  rational".
-
-** Further references
-
-- wanderley guilherme dos santos
-- ian shapiro
-- john dunn
-- charles mills
 * Democratic advantage and ergodicity
 
 
@@ -64,7 +53,7 @@ no fim eu tenho a visao que da pra unificar a pratica cientifica por meio de uma
   coalitions of minorities. Any "universal" aggregation is leaving something
   out, and from a reflective point of view is open to criticism.
 
-*  Social choice results as artifacts
+* Social choice results as artifacts
 - source :: cite:sep-voting-methods
 
   Pacuit makes the same question as I did years ago:
@@ -79,7 +68,7 @@ no fim eu tenho a visao que da pra unificar a pratica cientifica por meio de uma
   (behavioral social choice) and to showing that they indeed occurred in an
   empirical setting (riker vs makie).
 
-*  What are the 2 normative views of SCFs?
+* What are the 2 normative views of SCFs?
 - source :: cite:sep-voting-methods
 
   One can justify and analyze social choice using a *procedural* (the right way)
@@ -107,276 +96,27 @@ For an almost anarchist approach to political economy see aligica and similars :
 - cite:johnson19_remar_paul_dragos_aligic_public
 - cite:allen18_crypt_its_instit_possib
 
-* Sociotechnical view of formalization
-  There is a widespread old-fashioned view of the virtues of formalization in
-  the social sciences. The common argument is that formal models are useful
-  because they are rigorous, and rigor leads to better argument. I disagree
-  because this is an individualist, value-laden (rigorous good, mathematical
-  good) and in the end misleading perspective on the role of formal models.
 
-  This is obviously related to a more general empiricist perspective on
-  modeling, but lets not dwell on that front.
+* levels, abm and markov coarse graining
+- use baez , isquierdo, dedeo and catlab to think about this project
+- see more and organize that 
 
-  I have a sociotechnical view in the following way. Formal systems are a kind
-  of language, with well delimited syntax and semantics. It is too restrictive
-  to believe that there is a causal power behind this rigor. I can even draw a
-  causal diagram that demonstrates that:
+* evo aumann program
+use information geometry with evo gt in combination with epistemic game theory
 
- #+BEGIN_LaTeX
-  Rigor $\rightarrow$  Quality
- #+END_LaTeX
 
-I believe however that a better perspective would emphasize?
-- How we delegate cognition to the formal system, which has rules that take us
-  beyond what, in the mean, is possible for a GOOD argument. Przeworski said
-  something about that in an interview in Portuguese. This is a type of
-  ARTIFICIAL intelligence.
-- Another thing is that with the models we create symbolic artifacts which let
-  us play with ideas and, more importantly, share them with other people (those
-  who are trained in the syntax semantics of the formal system).
-* Borda and intensity
-  on cite:Laslier_2011 maurice salles argues that borda count somehow captures
-  the intensity of voters preferences. This seems informal and should be further
-  investigated.
-* Can we connect the multiple district paradox with causal diagrams?
+[[https://johncarlosbaez.wordpress.com/2012/06/07/information-geometry-part-11/][Information Geometry (Part 11) | Azimuth]]
+[[https://johncarlosbaez.wordpress.com/2012/06/24/information-geometry-part-12/][Information Geometry (Part 12) | Azimuth]]
+The 14 starts an interesting discussion about nonequilibrium steady states which connect with both page and papadimitrious works
 
-cite:sep-voting-methods says that the [[file:20200529174723-what_is_the_multiple_district_paradox.org][multiple district paradox]] is an instance
-of simpson paradox. Pearl has famously discussed how to solve the simpson's
-paradox through causal thinking. Can we then connect the literature of causal
-diagrams with the literature on multiple district paradox?
 
-** References
-- For the connection with simpson paradox see : cite:Saari_2001
-- For pearl discussion of simpson paradox see : cite:pearl2014comment
-* Causal thinking and Social choice
 
+* petri nets and bayesian networks
+[[https://www.sciencedirect.com/science/article/pii/S0304397519304694][Bayesian network semantics for Petri nets - ScienceDirect]]
+Petri nets are used in the julia ecosystem as a general template for both abm's and differential equations. I'm interested how they can be used to connect the literature on simulation with the empirical literature on causal inference. This would be a huge methodological contribution.
 
-  This is a general idea about connecting the two areas. There is some work
-  connecting Shapley values with causal thinking (LOOK FOR REFERENCES). This
-  connection of collective decision making is hinted at hamburgs page. [[https://www.wiso.uni-hamburg.de/en/forschung/verbundprojekte/rtg-collective-decision-making/research/p6.html][P6:
-  Causality and responsibility in collective decision-making : DFG Graduate...]]
+* Social computational trinitarianism
 
- Beyond the references in this page Kai spiekerman, according to
-  cite:sep-social-choice, also has papers using bayesian networks to model
-  judgement aggregation. Only one more step is needed to make the connection !!!
-  ALSO there is some work by Brendan Fong modeling bayesian networks using
-  category theory. Maybe there is even another venue of research here.
+Epstein in generative social science argues that code is math to defend the usage of abms. My interest is to go further and see how to actually connect logic with math with computation. Particularly, how to turn "informal theories" into logic into math into computation and how this may be connected with empirical research.
 
-
-
-
-** Copy of hamburgs page
-P6: Causality and responsibility in collective decision-making
-
-Attributions of responsibility are a very elementary means by which we regulate our social, political, and economic affairs. As a matter of fairness and efficiency it is quite obvious that we need to get the “responsibility system” right. There are two approaches to understanding and designing a responsibility system. The first is abstract: it starts from general concepts and principles including prerequisites for responsibility in terms of causation (we call this theoretical responsibility). The second is behavioral: it starts from purposive agents in whom morality is one of many determinants of behavior.
-
-This research project will examine responsibility from these two perspectives, thus naturally combining and integrating philosophical and economic methodologies, along with reflections on responsibility.
-Objectives
-
-    To develop a unified framework for causal contributions in collective decision-making.
-    To explore metrics of moral responsibility for collective decision-making.
-    To investigate the effect of technology on the distribution of responsibility.
-
-Supervisors
-Suggested Readings
-
-Barberà, S. and A. Gerber (2017): “Sequential Voting and Agenda Manipulation,” Theoretical Economics, 12, 211-247.
-
-Braham, M. and M. van Hees (2012): “An Anatomy of Responsibility,” Mind, 121, 601-634.
-
-Dehez, P. and S. Ferey (2013): “How to share joint liability: A cooperative game approach,” Mathematical Social Sciences, 66, 44-50
-
-Duch, R., Przepiorka, W. and R. Stevenson (2015): “Responsibility Attribution for Collective Decision Makers”, American Journal of Political Science, 59, 372-389.
-
-Floridi, L. (2013): “Distributed morality in an information society,” Science and Engineering Ethics, 19, 727-743.
-
-Halpern, J. (2016): Actual Causality, Cambridge, Mass.: MIT Press.
-
-Kroedel, T. (2015): “A Simple Argument for Downward Causation,” Synthese, 192, 841-858.
-
-List, C. and P. Pettit (2011): Group Agency: The Possibility, Design, and Status of Corporate Agents, Oxford: Oxford University Press.
-
-Moore, M. (2009): Causation and Responsibility: An Essay in Law, Morals, and Metaphysics, Oxford:Oxford University Press.
-
-Rothenhäusler, D., Schweizer, N. and N. Szech (2018): “Guilt in voting and public good games,” European Economic Review, 101, 664-681.
-
-* Generalizing Ranking and Approving
-
-
-  cite:sep-voting-methods says the following :
-
-  #+begin_quote
-They are asked to determine which candidates they approve of rather than selecting a single candidate to voter for or determining the relative ranking of the candidates. That is, the voters are asked which candidates are above a certain “threshold of acceptance”. Ranking a set of candidates and selecting the candidates that are approved are two different aspects of a voters overall opinion about the candidates. *They are related but cannot be derived from each other.*
-  #+end_quote
-
-  How can we formalize this insight that ranking and approving are related but cannot be derived from each other. In what sense are they related? What is the concept that connects them ?
-
-** useful refs
-
-Brams, S. and Sanver, M. R., “Voting systems that combine approval and
-preference,” in The Mathematics of Preference, Choice, and Order: Essays in
-Honor of Peter C. Fishburn, S. Brams, W. Gehrlein, and F. Roberts (eds.), pp.
-215–237, Berlin: Springer.
-* Bolsonaro and condorcet consistent voting
-- tags ::  [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
-
-not condorcet winnner, not even borda winner, worst from a dynamical point of view.
-
-** Further references
-
-*** Political Theoretical references
-- shklar stuff
-- berlin has something to say here too
-- as well as shapiro
-- przeworski
-
-*** Political economy references
-- cite:mcclintock18_reeval_runof_latin_americ
-- for-links-mcclintock_lasa_2019.pdf in pdfs folder (add the reference later)
-- cite:tabarrok1999would
-- cite:tabarrok2001president
-
-* On the conditions of manipulability of voting methods
-
-
-
-One insight that i got reading cite:Laslier_2011 is the following argument :
-
-  #+begin_quote
-Arguments about the relatively large probability with which some of these voting
-rules can be manipulated are typically based on the assumption that one group of
-voters with similar preferences can manipulate the outcome, while all other
-voters are completely naive to the situation.
-  #+end_quote
-
-  Maybe this can be connected with binmore argument about the applicability of rational choice. High stake situations. DEVELOP IT MORE.
-
-Manipulability may be something more of theoretical interest, *what are the odds?*  maybe this depends on the context. *Maybe I can connect with the idea of condition of applicability of the rational choice model (from binmore)*. Binmore considers that high stake situations are the ones that are closer to the rational actor. I can look at my dissertation to think about that, but committees are much closer to the rational choice applicability and as such amenable to manipulation. Gotta think how manipulability might happen in large scale elections and whether this happens. Large elections don't seem to be such a case.
-
-This scale difference can be connected with computation and physics through the transition lit. This is a cool idea that can be developed throughout the cite:moore2011nature course!!
-* Axiomatic Analysis of Indices
-
-
-  Following cite:patty2015aggregation try to give a formal analysis of lets say
-  democracy indices. One example could be cite:L_HRMANN_2020 or
-  cite:mariani20_networ_based_rankin_social_system . Actually,
-  cite:mariani20_networ_based_rankin_social_system can be connected with Patty
-  and Penn other work on characterization of networks (cite:Patty_2014).
-  Furthermore, I could be recursive and use social choice to understand
-  ideological scaling methods. What are we doing from an aggregative point of
-  view when we collapse answers in surveys into a single scale?
-
-
-cite:patty2015aggregation make the following points regarding indices which fit
-neatly on this idea. First they define indices:
-#+begin_quote
-An index in our terminology is an aggregation method that assigns each
-alternative a numeric score on each of the ­criteria and—more
-importantly—presumes that these scores are comparable across criteria.
-#+end_quote
-Consequently they propose that indices are related to some latent dimension.
-This is something that is hand-wavy and should be further refined. The quote is
-the following:
-
-#+begin_quote
-in nearly every situation, an index is at best an i ­ mperfect measure of some
-latent (i.e., imperfectly observed) trait or quality of the alternatives under
-­consideration.
-#+end_quote
-
-
-* Majority tiranny, deliberation and voting
-
-
-This mind changing hypothesis should be investigated (cite:Laslier_2011):
-
-#+begin_quote
-I view voting as a useful mechanism for making collective decisions when
-unanimous agreement is not possible. Elections should generally be preceded by
-discussions about the candidates and the importance that the voters attach to
-the election. If a minority of voters feels strongly about some candidates while
-the other voters are almost indifferent between these candidates, then it should
-be possible for the minority to convince sufficiently many of the others to
-change their minds prior to the vote-casting process. (I believe that in cases
-of near-indifference, most people’s desire to preserve social harmony trumps
-rent-seeking.) If it is not possible to change sufficiently many voters’ minds,
-then I would interpret this as evidence that the intensity in preferences
-between the groups is not as disparate as it might appear. I therefore feel
-comfortable ignoring voting rules that take account of the intensities of
-voters’ preferences.
-
-
-
-
-#+end_quote
-
-* Approval is about support or tolerance? Does this matter?
-
-Nurmi argues the following in cite:Laslier_2011:
-
-#+begin_quote
-Does the fact that I approve of a candidate mean that I can tolerate him as the
-mayor without resorting to active resistance or does it mean that I positively
-support him/her? I think this is what makes the approval voting results hard to
-interpret, but I guess a mayor that is even tolerated by more voters than any
-other candidate has at least tolerable prospects.
-#+end_quote
-
-* PROJ [#A] Create a project with abm and make
-- Write a simple project combining the following tools:
-  - Make
-  - Julia
-    - use agents.jl + drwatson.jl + parameters.jl
-    - use tools for analysis such as design matrices and saltelli method
-  - Latex
-    - (use some beautiful template)
-  - Maybe Org
-  - Emacs (projectile)
-
-* PROJ [#C] Create an org headline extractor
-- Mix elisp and python for that
-- There is julia too: [[https://github.com/non-Jedi/Org.jl][GitHub - non-Jedi/Org.jl: Hacky org-mode parser in Julia]]
-
-
-** Old code
-#+name: block1
-#+BEGIN_SRC elisp
-(buffer-file-name)
-#+END_SRC
-
-#+RESULTS: block1
-: /home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org
-
-#+RESULTS: block-1
-: /home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org
-
-#+name: block2
-#+BEGIN_SRC python :results output :var here=block1
-from orgparse import load
-root = load(here)
-#print(dir(root))
-
-[print(child.get_heading()) for child in root.children]
-
-
-
-#+END_SRC
-
-#+RESULTS: block2
-: Mathematics
-: Algorithms (as technique)
-: Social simulation
-: Data Science
-: Evo tooling
-: -------------------------------------------------------------------------------
-: Text analysis
-: Networks
-
-
-#+BEGIN_SRC julia  :results output :var fpy=block2
-print(fpy)
-#+END_SRC
-
-#+RESULTS:
-: "/home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org\n"
-: /home/mvmaciel/Drive/Org/org-roam-mvm/20200702062139-techniques_refs.org
+[[https://www.frontiersin.org/articles/10.3389/fevo.2019.00402/full][Frontiers | Artificial Intelligence for Ecological and Evolutionary Synthesis...]] is something that might help here 

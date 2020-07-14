@@ -1,4 +1,4 @@
-#+TITLE: The Many Types of Types – Mike Innes
+#+TITLE: url:The Many Types of Types – Mike Innes
 #+ROAM_KEY: https://mikeinnes.github.io/2020/05/19/types.html#fnref:3
 - tags :: [[file:20200516152708-programming.org][Programming]]; [[file:20200518163106-julia_tips.org][Julia Tips]]
 

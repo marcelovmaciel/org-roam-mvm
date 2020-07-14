@@ -35,4 +35,49 @@
 - to switch to buffer in current project ~counsel-projectile-swith-to-buffer~
    M-SPC p b
 
--  
+* How do you add time and hour in emacs? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-13T15:42:16Z
+:FC_TYPE:  normal
+:ID:       6e4a7a62-03c9-41e5-a233-41e41add9628
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-13T15:42:16Z |
+:END:
+** Back
+With C-u C-c .
+
+
+
+
+* How do I refresh buffer to read file again? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-13T15:42:39Z
+:FC_TYPE:  normal
+:ID:       28673a52-4115-4e3a-9183-2dad9ee8177a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-13T15:42:39Z |
+:END:
+** Back
+using revert-buffer [[https://emacs.stackexchange.com/questions/169/how-do-i-reload-a-file-in-a-buffer][How do I reload a file in a buffer? - Emacs Stack Exchange]]
+
+* How to jump to a highly used file? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-13T16:32:21Z
+:FC_TYPE:  normal
+:ID:       99435c90-a584-4db9-9e62-1524d187ce50
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-13T16:32:21Z |
+:END:
+** Back
+Using emacs registers. [[https://stackoverflow.com/questions/12558019/shortcut-to-open-a-specific-file-in-emacs][Shortcut to open a specific file in Emacs - Stack Overflow]]
+
+You have to define then in your init or config file Then use C-x r j _

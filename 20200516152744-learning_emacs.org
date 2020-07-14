@@ -99,5 +99,18 @@ three priorities: ‘A’, ‘B’, and ‘C’.
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-07-04T10:13:44Z |
 :END:
-
+** Back
 C-c ' which is org-edit-src-code
+* How to scale org inline images? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T14:02:25Z
+:FC_TYPE:  normal
+:ID:       b4be558d-bfb2-4255-84e2-b25bad84d89c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T14:02:25Z |
+:END:
+** Back
+With #+ATTR_ORG: :width 500

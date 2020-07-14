@@ -1,4 +1,4 @@
-#+title: Learn Linux, 101: Streams, pipes, and redirects – Build Smart. Build Secure. IBM Developer
+#+title: url:Learn Linux, 101: Streams, pipes, and redirects – Build Smart. Build Secure. IBM Developer
 #+roam_key: https://developer.ibm.com/tutorials/l-lpic1-103-4/
 
 - tags :: [[file:ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org][ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia]]
@@ -35,6 +35,7 @@ Each character is independent of the one before it and the one after it. The cha
 :END:
 
 ** Back
+*I'm still not satisfied with this answer and gotta read more about them*
 #+begin_quote
 
 1. stdout is the standard output stream, which displays output from commands. It has file descriptor 1.
@@ -48,5 +49,3 @@ Normally, you want to send data to stdout that is suitable to be used by the std
 
 [[file:ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org][ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia]]
 #+end_quote
-
-

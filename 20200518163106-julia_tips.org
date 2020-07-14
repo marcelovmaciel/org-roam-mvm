@@ -5,6 +5,9 @@
 
 * Tutorials
 - [[https://github.com/johnmyleswhite/julia_tutorials][GitHub - johnmyleswhite/julia_tutorials: Tutorials on Julia topics]]
+- [[https://avt.im/blog/2018/03/23/R-packages-ggplot-in-julia][How to use R packages such as ggplot in Julia | Alexander Terenin]]
+
+
 * Introspection
 ** injl, How does one get all the symbols within a module? :fc:
 :PROPERTIES:
@@ -60,6 +63,30 @@ include(joinpath(docsdir, "make.jl"))
 | front    |  2.5 |   0 |        0 | 2020-07-07T11:55:06Z |
 :END:
 
-** Back
+*** Back
 Using Parameters.jl:
+#+ATTR_ORG: :width 400
 [[file:~/Drive/Org/imgs/parameters.jpeg]]
+
+
+** How do we download stuff from the internet using julia? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T16:47:12Z
+:FC_TYPE:  normal
+:ID:       28523cb7-5af6-4047-a922-7d12a695b8b2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T16:47:12Z |
+:END:
+
+** Back
+There are two approaches.
+One is to use a combination of Http.download, Logging and TerminalLoggers.
+https://discourse.julialang.org/t/ann-urldownload-jl/37841/2?u=marcelovmaciel
+
+- Link to terminal loggers [[https://github.com/c42f/TerminalLoggers.jl][GitHub - c42f/TerminalLoggers.jl: Logging sinks and utilites for interactive ...]]
+
+
+Another is simply to use: https://github.com/Arkoniak/UrlDownload.jl

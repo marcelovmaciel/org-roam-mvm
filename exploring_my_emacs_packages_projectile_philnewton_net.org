@@ -1,4 +1,4 @@
-#+TITLE: Exploring my Emacs packages - Projectile - philnewton.net
+#+TITLE: url:Exploring my Emacs packages - Projectile - philnewton.net
 #+ROAM_KEY: https://www.philnewton.net/blog/exploring-emacs-projectile/
 
 - tags :: [[file:20200516152744-learning_emacs.org][Learning Emacs]]

@@ -1,4 +1,4 @@
-#+TITLE: ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia
+#+TITLE: url:ninjaaron/administrative-scripting-with-julia: Guide for writing shell scripts in Julia
 #+ROAM_KEY: https://github.com/ninjaaron/administrative-scripting-with-julia
 
 - tags :: [[file:20200518163106-julia_tips.org][Julia Tips]]
@@ -13,7 +13,7 @@
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-01T22:18:10Z |
+| front    | 2.50 |   2 |     1.00 | 2020-07-12T13:41:32Z |
 :END:
 
 ** Back
@@ -30,7 +30,7 @@
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-07-03T10:35:26Z |
+| front    | 2.50 |   2 |     1.00 | 2020-07-12T15:09:29Z |
 :END:
 
 ** Back
@@ -276,7 +276,7 @@ IO objects, not necessarily files. Stderr, stdin and stdout are streams.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-07T17:45:35Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:27:39Z |
 :END:
 ** Back
 It is a global variable that receives command line and types them as strings.
@@ -484,7 +484,7 @@ src_julia[:export code]{walkdir} are related functions.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-07T18:36:00Z |
+| front    | 2.50 |   0 |     0.00 | 2020-07-11T13:20:44Z |
 :END:
 
 - source ::  [[https://docs.julialang.org/en/v1/manual/running-external-programs/][Running External Programs · The Julia Language]]

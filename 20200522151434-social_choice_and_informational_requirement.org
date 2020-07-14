@@ -1,20 +1,19 @@
 #+TITLE: Social Choice and Informational Requirement
 
-- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]] ; [[file:sep-social-choice.org][Social Choice Theory - SEP]]
+One thing that is not properly developed in the literature is the *informational
+ requirement* of aggregation mechanisms. This is the basis of [[file:20200522145255-what_is_sep_voting_methods_non_exhaustive_typology_of_voting_methods.org][What is
+ sep-voting-methods non-exhaustive typology of voting methods?]] and appears a
+ great deal in the literature. cite:sep-voting-methods also considers
+ informational requirement as one of the criteria to analyze voting methods, but
+ does not give a rigorous definition of that.
 
-  One thing that is not properly developed in the literature is the
-  *informational requirement* of aggregation mechanisms. This is the basis of
-  [[file:20200522145255-what_is_sep_voting_methods_non_exhaustive_typology_of_voting_methods.org][What is sep-voting-methods non-exhaustive typology of voting methods?]] and
-  appears a great deal in the literature. cite:sep-voting-methods also considers
-  informational requirement as one of the criteria to analyze voting methods,
-  but does not give a rigorous definition of that.
-
- To further develop what this means is a necessary step to a *Situational Turn*
-  in social choice, which in its turn contributes to my agenda of situational
-  and layered social modeling.
+To further develop what this means is a necessary step to a *Situational Turn*
+in social choice, which in its turn contributes to my agenda of situational and
+layered social modeling.
 
 
 cite:sep-voting-methods considers that :
+
 #+begin_quote
 . Providing a ranking of the candidates is much more expressive than simply
 selecting a single candidate. However, ranking all of the candidates can be very
@@ -27,3 +26,20 @@ difficult for voters to make distinctions between all the candidates.
 The first step to do so is to use cite:Goodin_2006 distinction between aggregation and ballot procedure. The second thing is to try to formalize those things as algorithms. From there there are two parallel routes:
 - Understand them through the lens of static functional programming \(\rightarrow\) turn it into category theory
 - Understand them through the lens of algorithmic complexity and related works
+
+
+There are two direct applications of the this theoretical project.
+
+
+First, on cite:Laslier_2011 maurice salles argues that *borda count
+somehow captures the intensity of voters preferences*. This seems informal and
+should be further investigated, and is directly related to the problem of information requirements. 
+
+Second,
+cite:sep-voting-methods says the following :
+
+  #+begin_quote
+They are asked to determine which candidates they approve of rather than selecting a single candidate to voter for or determining the relative ranking of the candidates. That is, the voters are asked which candidates are above a certain “threshold of acceptance”. Ranking a set of candidates and selecting the candidates that are approved are two different aspects of a voters overall opinion about the candidates. *They are related but cannot be derived from each other.*
+  #+end_quote
+
+*How can we formalize this insight that ranking and approving are related but cannot be derived from each other*. In what sense are they related? What is the concept that connects them ? Is there a functorial relationship here?

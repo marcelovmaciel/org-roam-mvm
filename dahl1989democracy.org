@@ -97,13 +97,35 @@
 :URL:
 :END:
 
-** P166 Logica de Dahl para pensar o processo democrático
+** P166 Qual Logica de Dahl para pensar o processo democrático? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:45:59Z
+:FC_TYPE:  normal
+:ID:       2f536543-e44f-4f57-8d2e-87739f3000eb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:45:59Z |
+:END:
+*** Back
 1. Ele dá os pressupostos que *justificam* *qualquer* associação política;
 2. Depois dá os pressupostos que *justificam* a associação política *democrática*;
 3. Depois dá os *5 critérios essenciais a associação ser democrática* e conecta com os pressupostos
 
-** P167 Quais os pressupostos de qualquer ordem política?
+** P167 Quais os pressupostos de qualquer ordem política? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:46:26Z
+:FC_TYPE:  normal
+:ID:       dc9a98b9-0274-49d7-ab37-77936b859bba
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:46:26Z |
+:END:
 
+*** Back
 Primeiro ele estipula que as pessoas se associam tendo por objetivo alcançar
 certos fins, que são melhor servidos por meio dessa associação (conexão aqui com
 cite:buchanan1962calculus e cite:munger2015choisinha). Para ter os objetivos
@@ -138,7 +160,18 @@ estágio é decisivo quando todas as decisões prévias poden1 ser revogadas ou
 revertidas.*
 #+end_quote
 
-** P169 Quais os pressupostos que justificam uma ordem democrática? 
+** P169 Quais os pressupostos que justificam uma ordem democrática? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:46:36Z
+:FC_TYPE:  normal
+:ID:       18866a92-8050-49ab-86e4-17067cb402ee
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:46:36Z |
+:END:
+*** Back
 - Nenhum legislador está acima da lei;
 - O bem de cada membro merece igual consideração;
 - Cada membro da associação é de forma geral o melhor juiz de seus próprios interesses.
@@ -150,9 +183,19 @@ Ele enfatiza que os 5 critérios para um processo de tomada de decisão ser
 democrático são ideais. Ele está aqui assumindo que é uma posição /maximalista/.
 
 
-** Quais são os 5 critérios para uma ordem/processo ser democrático?
-
-*** Participação efetiva
+** Quais são os 5 critérios para uma ordem/processo ser democrático? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:46:51Z
+:FC_TYPE:  normal
+:ID:       9ee56de6-9d70-475e-84c0-fa03e04b15e8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:46:51Z |
+:END:
+*** Back
+**** Participação efetiva
 
 #+begin_quote
 Ao longo de todo o processo de tomada de decisões vinculativas, os cidadãos devem ter uma oportunidade adequada e igual de expressar suas preferências quanto ao resultado final. Devem ter oportunidades adequadas e iguais de colocar questões na agenda e de expressar seus motivos para endossar um resultado e não outro.
@@ -166,7 +209,7 @@ Destrinchemos esse paragrafo. Primeiro ele deixa um pouco vago e fala em "proces
 Isto é, participação efetiva é um critério relacionado à igual oportunidade de participação nos dois estágios analíticos da tomada de decisão coletiva.
 
 
-*** Igualdade de voto no estágio decisivo
+**** Igualdade de voto no estágio decisivo
 
 
 #+DOWNLOADED: screenshot @ 2020-06-11 16:43:00
@@ -176,7 +219,7 @@ O foco aqui é em assegurar algo como o anonimato de May NO ESTAGIO DECISIVO. Ob
 
 O que esse critério /não/ especifica é tão, no meu caso mais, importante quanto o que ele especifica. Particularmente, ele não especifica nem o método de sufrágio nem o domínio da maioria. 
 
-*** Compreensão esclarecida
+**** Compreensão esclarecida
 
 #+DOWNLOADED: screenshot @ 2020-06-11 17:37:57
 [[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_17-37-57_screenshot.png]]
@@ -192,7 +235,7 @@ O próximo quote deixa isso mais claro:
 
 Isso aqui da muito pano na manga para criticar o uso da regra da pluralidade.
 
-*** Controle da agenda
+**** Controle da agenda
 
 Isso aqui é bem sutil. Primeiro exemplos do que não é democrático.
 
@@ -214,7 +257,7 @@ popular*.
 Esse critério *não* impede a delegação, desde que o demos possa recuperar a questão para si.
 O critério sendo assim se conecta com os pressupostos de igualdade, e equivale a dizer que o demos é o melhor juiz de sua própria competência e de seus limites logo pode delegar esferas DESDE que em ultima instancia o demos possa retomar. Isso separa a delegacao da alienacao. Vou chamar isso de *reclaiming proviso*. 
 
-*** Inclusividade
+**** Inclusividade
 
 #+DOWNLOADED: screenshot @ 2020-06-11 18:17:25
 [[file:../imgs/Notes_-_Democracy_and_its_critics/2020-06-11_18-17-25_screenshot.png]]
@@ -224,8 +267,18 @@ interesses apropriadamente considerados. Isso é obvio se pensarmos no /principl
 of affected interest/.
 
 
-** P174 O que é um processo democrático num sentido limitado?
-
+** P174 O que é um processo democrático num sentido limitado? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:47:12Z
+:FC_TYPE:  normal
+:ID:       1b156e3c-0dfa-40a7-90a6-a60701d39324
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:47:12Z |
+:END:
+*** Back
 Quando o processo atende os critérios de participação efetiva e igualdade de voto no estágio decisivo.
 
 Com esses critérios já podemos afirmar duas comparações:
@@ -234,8 +287,19 @@ Com esses critérios já podemos afirmar duas comparações:
 - que é melhor cada um ter um voto do que uma pessoa ter 10 e outros nenhum.
 
 
-** P207 Criterios dahlsianos e igualdade
+** P207 Qual principio subjaz os criterios democraticos para dahl? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:51:47Z
+:FC_TYPE:  normal
+:ID:       4d1262bd-bef6-44e6-ae35-ca706f3b611a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:51:47Z |
+:END:
 
+*** Back
 Subjacente aos pressupostos e critérios está a ideia de *igualdade politica*.
 
 Então se a igualdade política em suas variações, nos pressupostos, é válida em
@@ -327,8 +391,19 @@ Pior. Ele pode eleger o pior candidato no pairwise, isto é eleger o condorcet l
 Ademais, quando estamos elegendo candidatos sistemas proporcionais representam melhor a proporção e logo a maioria (machover e felsenthal aqui preciso sacar.)
 
 
-** P231 Sobre os limites da decisao coletiva
+** P231 Quais  os limites da decisao coletiva? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:49:14Z
+:FC_TYPE:  normal
+:ID:       c4e65427-c38a-473d-b62b-651438d69277
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:25:18Z |
+:END:
 
+*** Back
 Na verdade são dois limites: o sobre as alternativas e o sobre os agentes (dahl n frame assim).
 
 Primeiro existe a possibilidade de certas questões não serem decididas pela coletividade, mas sim autonomamente pelos indivíduos. Obvio que isso leva ao problema de quais questões são tema de ação coletiva e quais não e como definir isso.
@@ -338,8 +413,19 @@ Isso ta conectado com o problema dos limites da unidade, de quais agentes fazem 
 E ta aqui uma conexão com /exit x voice/. cite:munger2015choosing discute isso de alguma forma. A saída pode muito bem para o indivíduo ou grupo de individuos ser uma alternativa melhor do que se submeter à tomada de decisão coletiva. Depende dos ganhos de se manter na associação serem menores que os custos. Na sociedade civil fica claro isso, mas nos Estados não é tão claro por eles serem tão custosos de se sair.
 
 
-** P234-5/247 diluição do principio da maioria em democracias concretas
+** P234-5/247 Como o principio da maioria é diluido  em democracias concretas? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:49:34Z
+:FC_TYPE:  normal
+:ID:       fef187dd-ab1e-4973-81c3-ba25ad05a34b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:49:34Z |
+:END:
 
+*** Back
 Qualquer principio de tomada de decisão coletiva tem que ser chocado com a
 realidade da politica de larga escala moderna.
 
@@ -369,7 +455,8 @@ maioria.
 Bicameralismo é /widespread/, mas atenta também contra o principio da maioria
 (p. 247).
 
-** P 236-8 Do atenuamento do principio da maioria ao governo das minorias
+
+**** P 236-8 Do atenuamento do principio da maioria ao governo das minorias
 
 Mesmo que na teoria tomemos o domínio da maioria como a melhor regra de decisão
 na prática ele é tão atenuado a ponto de ser substituível em certas
@@ -393,7 +480,18 @@ la tocqueville, pensando no time e ensemble average de um processo estocástico.
 
 
 
-** P 241 Dois sentidos de unanimidade
+** P 241 Quais os dois sentidos de unanimidade? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:50:05Z
+:FC_TYPE:  normal
+:ID:       ad865bcd-8d43-418a-bd32-79892f7df864
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T13:57:00Z |
+:END:
+*** Back
 Dahl relembra que é bem diferente você assumir que SE houver unanimidade uma
 alternativa deve ser adotada (principio de pareto) e assumir que uma alternativa
 deve ser adotada SOMENTE SE houver unamidade (regra de decisão).
@@ -450,8 +548,19 @@ as decisões coletivas devem ser feitos somente após uma avaliação cuidadosa 
 circunstâncias nas quais essas decisões provavelmente serão tomadas.
 
 #+end_quote
-** P 243-4 Critica ao liberismo de riker
+** P 243-4 Qual a replica de ferejohn  ao liberismo de riker? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-08T10:50:51Z
+:FC_TYPE:  normal
+:ID:       a1efa032-5a58-4ae7-be01-a152f9c71378
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-08T10:50:51Z |
+:END:
 
+*** Back
 Riker argumenta que os resultados de métodos de votação são arbitrários, e o que
 importa em politica no final é somente punir incumbentes com mal comportamento.
 Como cite:coleman1986democracy discutem isso é um argumento /self-defeating/ na

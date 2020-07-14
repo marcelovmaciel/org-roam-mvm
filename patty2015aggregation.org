@@ -1,4 +1,4 @@
-#+TITLE: Aggregation, evaluation, and social choice theory
+#+TITLE: patty2015aggregation:Aggregation, evaluation, and social choice theory
 #+ROAM_KEY: cite:patty2015aggregation
 * TODO Notes
 :PROPERTIES:

@@ -1,0 +1,884 @@
+#+TITLE: cite:ward2014linux: How linux works: what every superuser should know
+#+ROAM_KEY: cite:ward2014linux
+
+- tags :: [[file:learn_linux_101_streams_pipes_and_redirects_build_smart_build_secure_ibm_developer.org][Learn Linux, 101: Streams, pipes, and redirects – Build Smart. Build Secure. IBM Developer]]
+  
+*  Notes
+:PROPERTIES:
+:Custom_ID: ward2014linux
+:NOTER_DOCUMENT: %(orb-process-file-field "ward2014linux")
+:AUTHOR: Ward, B.
+:JOURNAL:
+:DATE:
+:YEAR: 2014
+:DOI:
+:URL:
+:END:
+
+
+* txt structure
+*** Chap 1 - Quadro geral
+*** Chap 2 - Comandos básicos e hierarquia de diretórios
+
+
+* Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+
+** What is it about ?
+** What does it mean for ...?
+** How does the new information contradict, correct, support, or add to what I already know?
+** How can I combine ideas to generate something new?
+** What questions are triggered by these new ideas?
+
+* Struct questions
+
+** What is the goal of the text?
+** What is the general argument of the text?
+** What are the specific arguments of the text?
+*** Chap 1 - Quadro geral
+
+- That an OS is based upon abstraction
+
+- That linux is organized in three layers:
+  - hardware
+  - kernel
+  - user space
+
+- That the kernel and the user space execute in different modes
+
+- That an user process is more limited in the damage it can cause to the system (it shouldn't cause any damage)
+
+- That the kernel is responsible for managing 4 areas of the system:
+  - processes (CPU usage)
+  - memory (RAM and MMU)
+  - device drivers (disk for example)
+  - syscalls
+
+- That processes usually do not execute at the same time
+
+- That syscalls are all open, read, write operations
+
+- That all user processes start with fork() and usually do exec() to open a new process instead of executing a copy of an existing process
+
+- That most programs use syslog for logging
+
+- That the concept of users exist for system adm  of permissions and limitations 
+*** Chap 2 - Comandos básicos e hierarquia de diretórios
+This chapter is mostly about concepts.
+
+- That linux is a unix variant
+- That bash is a variant of the bin/sh/
+- That a terminal is an window to the shell interface
+- Most commands assume . if the path does not start with / (it is not absolute)
+- More than one option can be concatenated
+- globbing does not work with julia Cmd!
+- Env variables are a typical way of configuring the system
+- Most commmand line editing kbds follow emacs
+- Directories also have permissions. If you can ~read~ a dir it can be read but
+  its files won't be acessable. For that the dir must be executable (~x~)
+** What are the main concepts of the text?
+*** Chap 1 - Quadro geral
+- abstraction
+- level/layer
+- hardware
+- kernel
+- process
+- main memory
+- CPU
+- state
+- image (physical organization of bits)
+- process management
+- context switch
+- MMU
+- syscalls
+- fork()
+- exec()
+- log
+- syslog
+- user
+  
+*** Chap 2 - Comandos básicos e hierarquia de diretórios
+
+- unix vs linux
+- shell
+  - Ctrl-D vs Ctrl-C in a terminal (finish stdin vs finish anything)
+- *globbing*
+- absolute path x relative path
+- stream
+- sdin, stdout, stderr
+- shell variables (local to shell) vs environment variables (global to the
+  system)
+- command path
+- PATH
+- job control
+- setuid
+- symlinks
+- bootloader
+
+- echo
+- cat
+- ls
+- cp
+- mv
+- *touch*
+- rm (*-rf; -r is recursive while -f is force)*
+- echo
+- cd
+- mkdir
+- rmdir
+- *grep*
+- less
+- pwd
+- diff
+- file
+- find and locate
+- head and  tail
+- sort
+- passwd
+- chsh
+- man (man -k keyword (sort for example))
+- info (man for gnu stuff)
+- | (redireaction, pipe)
+- > (redirection, write)
+- >> (redirection, append)
+- ps (x, ax, u, w)
+- kill
+- (command ) &
+- chmod
+- gzip ; gunzip
+- tar
+  
+
+
+* Flashcards
+** What is a linux layer? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T16:48:48Z
+:FC_TYPE:  normal
+:ID:       02d00e81-2551-4bf9-b302-67643de50bff
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T16:48:48Z |
+:END:
+*** Back
+A classication of a component according to the position it occupies from user to hardware
+
+** What is part of the hardware? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T16:49:59Z
+:FC_TYPE:  normal
+:ID:       f0ec2ab9-c669-4aa1-bdc6-98e1286edf22
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T16:49:59Z |
+:END:
+*** Back
+CPU, RAM, Disks and Network ports
+ - CPU = something the executes operations on memory, it reads and writes the memory
+ - RAM = main memory, bunch of 1s and 0s
+
+** What is an image? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:12:29Z
+:FC_TYPE:  normal
+:ID:       6aca609e-2fc1-4b1e-a08b-61ce71164178
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:12:29Z |
+:END:
+*** Back
+A physical organization of bits
+
+** What is responsibility of the kernel? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:14:25Z
+:FC_TYPE:  normal
+:ID:       3d180978-0b62-4f35-b97c-cf7000be53bb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:14:25Z |
+:END:
+*** Back
+It is in the middle of the OS layers. It manages 4 areas of the system:
+  - processes (CPU usage) (initialization, pause, "retomada", ending)
+    - context switch lives here
+  - memory (RAM and MMU (access to virtual machines))
+  - device drivers (disk for example)
+  - syscalls
+** What is context switch? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:16:00Z
+:FC_TYPE:  normal
+:ID:       74016d50-07d1-486b-981c-d96b54f6cf0b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:16:00Z |
+:END:
+*** Back
+The act of a process giving control of the cpu to another process.
+** What are syscalls? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:17:28Z
+:FC_TYPE:  normal
+:ID:       c079240d-9610-4b13-ab83-cac1415a4c91
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:17:28Z |
+:END:
+*** Back
+Processes that users can't do.  syscalls are all open, read, write operations. Two syscalls are particularly important: fork() and exec(). fork copies a process while exec initiates a process replacing the current process.
+
+#+begin_quote
+All user processes start with fork() and usually do exec() to open a new process instead of executing a copy of an existing process
+#+end_quote
+
+** What are logs? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:20:19Z
+:FC_TYPE:  normal
+:ID:       d3af9da1-72df-41d7-b8f3-8b9bc7aa25db
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:20:19Z |
+:END:
+*** Back
+Diagnostics. The standard logging component for logging is ~syslog~.
+** What is an user? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:21:50Z
+:FC_TYPE:  normal
+:ID:       483e0858-ee97-4658-83a0-0e72a84d6980
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:21:50Z |
+:END:
+*** Back
+An entity that can execute processes and own files. This notion exists for sysadmins, users are the ones that one gives permission or limits access in the system. 
+
+** What is the difference between Unix and Linux? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:26:14Z
+:FC_TYPE:  normal
+:ID:       6bb8590c-0cd3-47b5-89f1-be08aeb9b629
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:26:14Z |
+:END:
+*** Back
+Linux is a variant of unix. Others variants are solaris and bsd.
+
+** What is a shell? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:27:04Z
+:FC_TYPE:  normal
+:ID:       7c40e771-692d-406d-8e65-9f5bdb995d09
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:27:04Z |
+:END:
+
+*** Back
+An interface for access to an operating system's services. The typical unix
+shell is the Bourne shell (~bin/sh/~) while the most used shell for linux is
+bash (bourne again shell).
+
+A terminal is simply an window to the shell interface. 
+
+** What is echo ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:31:46Z
+:FC_TYPE:  normal
+:ID:       83428a5d-a036-479c-b40d-747856d9f308
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:31:46Z |
+:END:
+
+
+*** Back
+echo - display a line of text
+#+BEGIN_SRC  elisp :results var
+(man "echo")
+#+END_SRC
+
+#+RESULTS:
+: #<buffer *Man echo*>
+
+** What is cat? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:35:31Z
+:FC_TYPE:  normal
+:ID:       8d8250f3-ede6-45b8-8dfd-3e1c66a4340a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:35:31Z |
+:END:
+*** Back
+Bash command to open a file. See ~man cat~
+
+** What are important ls options? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:43:51Z
+:FC_TYPE:  normal
+:ID:       583d4517-3da8-4752-9f55-ddcad4e90828
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:43:51Z |
+:END:
+*** Back
+
+#+BEGIN_SRC shell
+ls -l
+#+END_SRC
+
+which exhibits a full list
+and
+
+#+BEGIN_SRC shell
+ls -F
+#+END_SRC
+
+which exhibits information about the file. 
+
+** What are important ways of using cp? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:46:00Z
+:FC_TYPE:  normal
+:ID:       8da230ba-dfb1-4833-9445-232b81b10c07
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:46:00Z |
+:END:
+*** Back
+#+BEGIN_SRC
+cp f1 f2
+#+END_SRC
+
+To copy one f1 to f2 and
+
+#+BEGIN_SRC
+cp f1 fn dir
+#+END_SRC
+
+To copy all fs to a dir. The command ~mv~ follows a similar logic ! 
+
+** What is the touch command? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:49:06Z
+:FC_TYPE:  normal
+:ID:       a5ccdca4-3ebe-4581-b154-b7393ed84923
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:49:06Z |
+:END:
+*** Back
+It creates a file if it does not exist, but if it does it changes its timestamp
+("it was touched"). Useful for makefiles. 
+
+** What is an absolute path? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T18:54:55Z
+:FC_TYPE:  normal
+:ID:       8539f52b-34fa-472d-8357-6cad0cbc656d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T18:54:55Z |
+:END:
+*** Back
+One that begins with /. A relative path is one which does not begin with /.
+** What is globbing? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T19:02:38Z
+:FC_TYPE:  normal
+:ID:       b7ce305f-0336-4808-acf7-68ae7b553864
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T19:02:38Z |
+:END:
+*** Back :ATTACH:
+Pattern matching.
+
+~*~ is used for pattern matching on characters.
+- * matches on any combination of characters
+- at* those that begin with at
+- *at for those who end with at
+- *at* for matching with all inputs that have any at
+
+  #+BEGIN_SRC shell
+ls 1*
+  #+END_SRC
+  #+RESULTS:
+  : 182_zettelkasten_learning_method_simply_explained_youtube.org
+
+
+  #+BEGIN_SRC  shell
+ls *bbl
+  #+END_SRC
+
+  #+RESULTS:
+  : 20200519143003-what_choice_situations_are_best_modeled_by_gt.bbl
+
+#+BEGIN_SRC  shell
+ls *emacs*
+#+END_SRC
+
+#+RESULTS:
+| 20200516144415-doom_emacs.org                             |
+| 20200516152744-learning_emacs.org                         |
+| 20200704035904-emacs_keybindings.org                      |
+| 20200706113517-emacs_configs.org                          |
+| exploring_my_emacs_packages_projectile_philnewton_net.org |
+
+For other globs see [[https://en.wikipedia.org/wiki/Glob_(programming)][glob (programming) - Wikipedia]]
+[[attachment:_20200709_162328screenshot.png]]
+** What is grep? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T19:31:29Z
+:FC_TYPE:  normal
+:ID:       22b58111-74f1-47b9-b1de-05cd24618cb9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T19:31:29Z |
+:END:
+*** Back
+A command that shows the lines of a file that correspond to an expression. grep
+also accepts regex inputs.
+
+#+BEGIN_SRC eshell
+grep makefile why_use_make.org
+#+END_SRC
+
+#+RESULTS:
+: - Modify any step in the workflow by editing the makefile, and regenerate files with minimal effort. The modular nature of makefiles means that each rule is (typically) self-contained. When starting new projects, recycle rules from earlier projects with a similar workflow.
+: - Makefiles are testable. Even if you’re taking rigorous notes on how you built something, chances are a makefile is more reliable. A makefile won’t run if it’s missing a step; delete your generated files and rebuild from scratch to test. You can then be confident that you’ve fully captured your workflow.
+
+It *works with globbing* so:
+#+BEGIN_SRC eshell
+grep makefile ./*
+#+END_SRC
+
+#+RESULTS:
+: /usr/bin/grep: images/: Is a directory
+: ward2014linux.org:("it was touched"). Useful for makefiles.
+: why_use_make.org:- Modify any step in the workflow by editing the makefile, and regenerate files with minimal effort. The modular nature of makefiles means that each rule is (typically) self-contained. When starting new projects, recycle rules from earlier projects with a similar workflow.
+: why_use_make.org:- Makefiles are testable. Even if you’re taking rigorous notes on how you built something, chances are a makefile is more reliable. A makefile won’t run if it’s missing a step; delete your generated files and rebuild from scratch to test. You can then be confident that you’ve fully captured your workflow.
+
+
+Some useful options are -i and -v (seem ~man grep~)
+
+** What is the less comand? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T19:41:24Z
+:FC_TYPE:  normal
+:ID:       2951c3ab-e8d0-47db-90df-d6b8d9548376
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T19:41:24Z |
+:END:
+*** Back
+It paginates the terminal output one page at a time
+** What is the bash file command ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T20:24:58Z
+:FC_TYPE:  normal
+:ID:       6bfb9579-fcfa-4896-ba28-9896451d343c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:28:27Z |
+:END:
+*** Back
+A bash command that tries to infer the type of the file. 
+#+BEGIN_SRC shell
+file why_use_make.org 
+#+END_SRC
+
+#+RESULTS:
+| why_use_make.org: UTF-8 Unicode text | with very long lines |
+
+** What are the head and tail bash commands? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T20:30:27Z
+:FC_TYPE:  normal
+:ID:       9e029e1c-2ea7-4e7a-b309-385c2142f9e0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T20:30:27Z |
+:END:
+*** Back
+The name are intuitive. The cool thing is that it works with any stream.
+#+BEGIN_SRC eshell
+ls | head -2
+#+END_SRC
+
+#+RESULTS:
+: #20200519161456-what_is_an_equilibrium_refinement.org#
+: 182_zettelkasten_learning_method_simply_explained_youtube.org
+
+#+BEGIN_SRC shell
+ls | tail
+#+END_SRC
+
+#+RESULTS:
+| README.md                              |
+| sep-game-theory.org                    |
+| sep-reasons-just-vs-expl.org           |
+| sep-social-choice.org                  |
+| sep-voting-methods.org                 |
+| shapiro2009state.org                   |
+| the_many_types_of_types_mike_innes.org |
+| Tideman_2011.org                       |
+| ward2014linux.org                      |
+| why_use_make.org                       |
+
+#+BEGIN_SRC shell
+ls | tail | sort -r
+#+END_SRC
+
+#+RESULTS:
+| why_use_make.org                       |
+| ward2014linux.org                      |
+| Tideman_2011.org                       |
+| the_many_types_of_types_mike_innes.org |
+| shapiro2009state.org                   |
+| sep-voting-methods.org                 |
+| sep-social-choice.org                  |
+| sep-reasons-just-vs-expl.org           |
+| sep-game-theory.org                    |
+| README.md                              |
+
+** How do you change your password ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T20:39:43Z
+:FC_TYPE:  normal
+:ID:       40bbc7de-a6e1-4399-83f3-af32be25693f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T20:39:43Z |
+:END:
+*** Back
+With the command passwd.
+** How do you change your standard shell? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T20:40:12Z
+:FC_TYPE:  normal
+:ID:       8f74553c-df72-4c41-9f0c-179e625c3785
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T20:40:12Z |
+:END:
+*** Back
+With  the command chsh
+** How do you access an env variable in bash ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T21:01:52Z
+:FC_TYPE:  normal
+:ID:       340a6784-5d70-4355-affe-ce8878d73bd5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T21:01:52Z |
+:END:
+
+*** Back
+With the dollar sign.
+Example:
+#+BEGIN_SRC  shell
+echo $MATHEMATICA_HOME
+#+END_SRC
+
+#+RESULTS:
+: /usr/local/Wolfram/WolframEngine/12.0
+** What is PATH? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T21:06:02Z
+:FC_TYPE:  normal
+:ID:       f8782471-7793-49dc-a9e6-1365c3e94df8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T21:06:02Z |
+:END:
+*** Back
+It is the environment variable which saves the command path. The command path is a list of dirs which shell will look for a command. If we use say the command ~guile~ the shell will look for directories in path for an executable with this same name.
+
+#+BEGIN_SRC shell
+echo $PATH 
+#+END_SRC
+
+#+RESULTS:
+: doom-emacs/bin/../bin:/home/mvmaciel/anaconda3/bin:/home/mvmaciel/anaconda3/condabin:/home/mvmaciel/.opam/default/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/mvmaciel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:~/.cabal/bin/idris:~/joker-0.14.0-linux-amd64/joker
+
+Most programs will live in usr/bin, but we also append the PATH with other
+absolute paths we want the system to look for executables.
+
+** How to look for keyword in linux manuals ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T21:43:38Z
+:FC_TYPE:  normal
+:ID:       a4f7c4fd-2427-4098-8cde-a1e85ba19595
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T21:43:38Z |
+:END:
+*** Back
+using the -k option
+
+#+BEGIN_SRC shell
+man -k emacs  | head -3
+#+END_SRC
+
+#+RESULTS:
+| ctags (1)            - generate tag file for Emacs | vi |
+| ctags.emacs (1)      - generate tag file for Emacs | vi |
+| ctags26 (1)          - generate tag file for Emacs | vi |
+
+** What are stdout redirection commands? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T21:59:23Z
+:FC_TYPE:  normal
+:ID:       9bb2e7d2-77ec-4826-b1c1-c27d887e2d72
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T21:59:23Z |
+:END:
+*** Back
+- > , which writes
+- >>, which appends
+- |, which pipes
+
+
+
+  #+RESULTS:
+
+** What are stdout and stderr file descriptors, and why this matters? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-09T22:08:06Z
+:FC_TYPE:  normal
+:ID:       977e106b-a51d-4b46-95d1-bf2dc4bc9b33
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-09T22:08:06Z |
+:END:
+*** Back
+1 and 2 respectively. stderr file descriptor is used to redirect it to some
+files.(2>) &1 is a reference to sdout file descriptor. When we combine the
+two : #+begin_quote when you use 2>&1 you are basically saying “Redirect the stderr to the
+same place we are redirecting the stdout”. And that’s why we can do something
+like this to redirect both stdout and stderr to the same place
+[[https://www.brianstorti.com/understanding-shell-script-idiom-redirect/][Understanding Shell Script's idiom: 2>&1]]
+#+end_quote
+** What are useful kill options? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T18:42:32Z
+:FC_TYPE:  normal
+:ID:       fd484817-3ad3-49f1-bbcb-ccc780d1eb1c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T13:34:08Z |
+:END:
+*** Back
+- kill -STOP pid or killall -STOP pid; will pause the process
+- -CONT will restart the process
+- -KILL to forcefully stop a process
+- C-c in the terminal is the same as kill -INT pid-of-current-process
+- C-z does something similar to -STOP in the current process
+- To resume work write fg (move to foreground)
+** What is job control? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T18:50:48Z
+:FC_TYPE:  normal
+:ID:       a090b6a9-bc4d-4a8f-9933-f00fe6cbd1f7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T13:34:26Z |
+:END:
+*** Back
+When we kill, interrupt, resume and move processes to background or foreground. 
+** Inbash, what (command _____) & does? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T19:26:25Z
+:FC_TYPE:  normal
+:ID:       ca0fcdd3-ddb3-4c61-926a-f0061cc2142c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T19:26:25Z |
+:END:
+*** Back
+it executes the command in background. it returns to you the PID.
+** What is an archive mode? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T19:33:14Z
+:FC_TYPE:  normal
+:ID:       77326937-6511-449c-bf70-283f6cd1fd8d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T19:33:14Z |
+:END:
+*** Back
+It shows the type (normal (-), dir (d), the user permission (read or write or execute), the group permissions and the others permissions.
+#+BEGIN_SRC shell
+ls -lF | head -5
+#+END_SRC
+
+#+RESULTS:
+| total      | 888 |          |          |      |     |    |       |                                                               |
+| -rw-r--r-- |   1 | mvmaciel | mvmaciel |  365 | jul |  3 | 22:37 | 182_zettelkasten_learning_method_simply_explained_youtube.org |
+| -rw-r--r-- |   1 | mvmaciel | mvmaciel | 2121 | mai | 19 | 11:27 | 20200516144415-doom_emacs.org                                 |
+| -rw-r--r-- |   1 | mvmaciel | mvmaciel |   21 | mai | 16 | 18:29 | 20200516152708-programming.org                                |
+| -rw-r--r-- |   1 | mvmaciel | mvmaciel | 3454 | jul | 10 | 11:03 | 20200516152744-learning_emacs.org                             |
+      \(\uparrow\)
+      is the mode . the first file is then a file , the user can read and write and groups and others can only read. 
+#+BEGIN_SRC shell
+ls -lF ~/ | tail -5
+#+END_SRC
+
+#+RESULTS:
+| drwxr-xr-x | 7 | mvmaciel | mvmaciel |       4096 | abr | 18 | 00:52 | WolframLanguageForJupyter/              |
+| -rw-r--r-- | 1 | mvmaciel | mvmaciel |      29570 | abr | 15 | 12:38 | WolframLanguageForJupyter-0.9.2.paclet  |
+| -rwxr-xr-x | 1 | mvmaciel | mvmaciel | 1396632403 | abr | 18 | 03:59 | WolframPlayer_12.1.0_LINUX.sh*          |
+| -rw-r--r-- | 1 | mvmaciel | mvmaciel |    2304864 | abr | 15 | 12:22 | WolframScript_12.1.0_LINUX64_x86_64.rpm |
+| -rw-r--r-- | 1 | root     | root     |    2134228 | abr | 15 | 12:31 | wolframscript_1.3-2020032702_amd64.deb  |
+shows examples with executables.
+
+** How to change the permissions in linux? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T19:59:02Z
+:FC_TYPE:  normal
+:ID:       b489ca94-a466-4936-9132-b871736419fc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T19:59:02Z |
+:END:
+*** Back
+With the chmod commmand +r,+w, +x are equivalent to allow reading, writing and executing. We have to say who, however. o allows others while g allows group.
+
+so ~chmod go+r file~ allows others and group to read a file.
+
+** What is a symbolic link? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T20:17:28Z
+:FC_TYPE:  normal
+:ID:       a7adc151-0685-494b-afee-79066e7dc3bf
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T20:17:28Z |
+:END:
+
+*** Back
+It is an alias that points to another file or dir. They are created with ~ln -s target linkname~. The option -s means they are soft links. Without it we would create a copy of the target (*hardlink*). Hardlinks point to the data, while softlinks to the name of the data.
+
+- Deleting the target file of a symlink make it useless. The same cannot be said about hardlinks, since they preserve the data - are copies with a new name.
+
+I believe this is the same as alias vs copy in julia. 
+** What differentiates gzip from other zip programs ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T20:26:45Z
+:FC_TYPE:  normal
+:ID:       a0999ec7-a513-4172-8bab-d556490194bf
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T20:26:45Z |
+:END:
+*** Back
+It is a compression software not an archiving software. For that use ~tar~ (tar
+cvf file.tar f1 f2 fn (for creating a tar) and tar xvf file.tar (for extracting
+it)). There is also t option which is useful for inspecting a tar file and a z option for ziping unziping it while creating or extracting (tar
+zcvf file.tar f1 f2 fn; creates and zips the files)
+
+** Look at the simplified structure of linux dirs and say what each is about :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T21:05:56Z
+:FC_TYPE:  normal
+:ID:       14a10c67-20fe-4468-b83e-f212546a968b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T21:05:56Z |
+:END:
+*** Back
+[[file:~/Drive/Org/imgs/unixdirsh.png]]
+For explanation see [[https://valters.eu/linux-directory-structure-explained-for-beginners/][Linux Directory Structure Explained for Beginners – Valters.EU]] 
+
+** What is the purpose of a boot loader? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-10T21:09:21Z
+:FC_TYPE:  normal
+:ID:       b56f1646-03d3-4c4e-ac05-07199c039756
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-10T21:09:21Z |
+:END:
+*** Back
+To load the kernel file, which is usually located on /vmlinuz or /boot/vmlinuz

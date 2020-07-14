@@ -1,0 +1,11 @@
+#+title: Causal multiple district paradox
+- tags :: [[file:20200711094506-causal_thinking_and_social_choice.org][Causal thinking and collective choice]]
+
+cite:sep-voting-methods says that the multiple district paradox is an instance
+of simpson paradox. Pearl has famously discussed how to solve the simpson's
+paradox through causal thinking. Can we then connect the literature of causal
+diagrams with the literature on multiple district paradox?
+
+** References
+- For the connection with simpson paradox see : cite:Saari_2001
+- For pearl discussion of simpson paradox see : cite:pearl2014comment

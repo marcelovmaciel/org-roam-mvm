@@ -1,6 +1,5 @@
 #+TITLE: Abm replication
-- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]], [[file:20200702062139-techniques_refs.org][Techniques refs]], [[file:20200520182016-social_simulation_general.org][Social Simulation General]], [[file:20200520172702-social_simulation_beyond_coleman_s_boat.org][Social Simulation Beyond Coleman's boat]]
-
+- tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]], [[file:20200520182016-social_simulation_general.org][Social Simulation General]], [[file:20200520172702-social_simulation_beyond_coleman_s_boat.org][Social Simulation Beyond Coleman's boat]]
 
   Replication is a way of learning as such I intend to replicate some social
   simulation studies. I have a folder with papers to replicate. Besides them

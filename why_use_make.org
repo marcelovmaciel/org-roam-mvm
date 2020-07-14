@@ -1,4 +1,4 @@
-#+TITLE: Why Use Make
+#+TITLE: url:Why Use Make
 #+ROAM_KEY: https://bost.ocks.org/mike/make/
 
 - tags :: [[file:exploring_my_emacs_packages_projectile_philnewton_net.org][Exploring my Emacs packages - Projectile - philnewton.net]], [[file:20200525200536-on_my_workflow.org][On my workflow]]
@@ -22,6 +22,13 @@ targetfile: sourcefile
 	command
 #+END_SRC
 
+
+#+BEGIN_SRC elisp :results var
+(buffer-file-name)
+#+END_SRC
+
+#+RESULTS:
+: /home/mvmaciel/Drive/Org/org-roam-mvm/why_use_make.org
 
 Finally, why use make ?
 

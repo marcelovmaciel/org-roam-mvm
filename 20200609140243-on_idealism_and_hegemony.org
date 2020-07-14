@@ -1,4 +1,9 @@
 #+TITLE: On idealism and hegemony : on rationalizing lies
+
+:PROPERTIES:
+:ID:       5b527294-87a5-47ee-a22c-94591b984e0f
+:END:
+
 - tags :: [[file:20200520213408-my_project_ideas.org][My Project Ideas]], [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
 
 This is a vindication of a Marxist tool set for the analysis of political life.
@@ -9,6 +14,13 @@ contractarian literature. The state is founded on a lie that we want people to
 believe. The interesting thing is that it does not matter if it is true, but
 that people believe in this lie, so it becomes a rationalizing instrument of the
 status quo.
+
+Interestingly this is the theme of this book: [[https://www.cambridge.org/core/books/imagined-democracies/7AC17572F0734CB918CFC430D3A70CDE#fndtn-information][Imagined Democracies by Yaron Ezrahi]]
+
+#+ATTR_ORG: :width 500
+[[file:~/Drive/Org/imgs/political-fictions.jpeg]]
+
+
 
 This isn't only a critique of intellectual life but also a tool for the analysis
 of the discourse of agents. What lies agents like to tell is connected to their

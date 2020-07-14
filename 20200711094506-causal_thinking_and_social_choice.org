@@ -1,0 +1,60 @@
+#+title: Causal thinking and collective choice
+
+There are at least three points of connection between the two areas. First,
+the Shapley value has emerged as an mechanism for interpretable machine learning.
+[[https://arxiv.org/pdf/1910.06358.pdf][Asymmetric]]  shapley values, particularly, intend to capture causal structure.
+Second, according to cite:sep-social-choice, there are works which use Bayesian networks to model judgment aggregation. Their focus is on voters dependencies and how this might be related with CJT.
+Third, this connection is also made as a bridge of collective decision making with responsibility, through an analysis of causal contributions.
+
+If we can use Shapley values to interpret machine learning, understand causal structure and contribution, and bayesian networks are used to study the connections among "voters"; then this literature is not only related to pure sociometrics, but can also be transformed into a tool amongst the others in [[file:20200616033314-fairness_in_ml_through_social_choice.org][Fairness in Ml through social choice]].
+
+
+* References
+On shapley values in ml see:
+- [[https://arxiv.org/pdf/1910.06358.pdf][Asymmetric]]
+- [[https://www.researchgate.net/publication/258169469_A_Concise_Axiomatization_of_a_Shapley-type_Value_for_Stochastic_Coalition_Processes][A Concise Axiomatization of a Shapley-type Value for Stochastic Coalition Pro...]]
+- [[https://christophm.github.io/interpretable-ml-book/][Interpretable Machine Learning]]
+- [[https://github.com/slundberg/shap][GitHub - slundberg/shap: A game theoretic approach to explain the output of a...]]
+- [[https://github.com/nredell/ShapML.jl][GitHub - nredell/ShapML.jl: A Julia package for interpretable machine learnin...]]
+- [[https://github.com/bgreenwell/fastshap][GitHub - bgreenwell/fastshap: Fast approximate Shapley values in R]]
+
+On bayesian networks there are whole courses on coursera. See also [[https://github.com/sisl/BayesNets.jl][GitHub - sisl/BayesNets.jl: Bayesian Networks for Julia]] . On its usage on social choice see:
+- Dietrich, F. and C. List, 2004, “A Model of Jury Decisions Where All Jurors Have the Same Evidence.” Synthese, 142: 175–202.
+- Dietrich, F. and K. Spiekermann, 2013, “Epistemic Democracy with Defensible Premises.” Economics and Philosophy, 29(1): 87–120
+
+  Finally, see the references in Hamburg page which was copied below:
+
+** Copy of hamburgs page
+P6: Causality and responsibility in collective decision-making
+
+Attributions of responsibility are a very elementary means by which we regulate our social, political, and economic affairs. As a matter of fairness and efficiency it is quite obvious that we need to get the “responsibility system” right. There are two approaches to understanding and designing a responsibility system. The first is abstract: it starts from general concepts and principles including prerequisites for responsibility in terms of causation (we call this theoretical responsibility). The second is behavioral: it starts from purposive agents in whom morality is one of many determinants of behavior.
+
+This research project will examine responsibility from these two perspectives, thus naturally combining and integrating philosophical and economic methodologies, along with reflections on responsibility.
+Objectives
+
+    To develop a unified framework for causal contributions in collective decision-making.
+    To explore metrics of moral responsibility for collective decision-making.
+    To investigate the effect of technology on the distribution of responsibility.
+
+Supervisors
+Suggested Readings
+
+Barberà, S. and A. Gerber (2017): “Sequential Voting and Agenda Manipulation,” Theoretical Economics, 12, 211-247.
+
+Braham, M. and M. van Hees (2012): “An Anatomy of Responsibility,” Mind, 121, 601-634.
+
+Dehez, P. and S. Ferey (2013): “How to share joint liability: A cooperative game approach,” Mathematical Social Sciences, 66, 44-50
+
+Duch, R., Przepiorka, W. and R. Stevenson (2015): “Responsibility Attribution for Collective Decision Makers”, American Journal of Political Science, 59, 372-389.
+
+Floridi, L. (2013): “Distributed morality in an information society,” Science and Engineering Ethics, 19, 727-743.
+
+Halpern, J. (2016): Actual Causality, Cambridge, Mass.: MIT Press.
+
+Kroedel, T. (2015): “A Simple Argument for Downward Causation,” Synthese, 192, 841-858.
+
+List, C. and P. Pettit (2011): Group Agency: The Possibility, Design, and Status of Corporate Agents, Oxford: Oxford University Press.
+
+Moore, M. (2009): Causation and Responsibility: An Essay in Law, Morals, and Metaphysics, Oxford:Oxford University Press.
+
+Rothenhäusler, D., Schweizer, N. and N. Szech (2018): “Guilt in voting and public good games,” European Economic Review, 101, 664-681.

@@ -250,7 +250,7 @@ Essa desproporcionalidade leva a "maiorias manufaturadas" (Rae).
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-03T10:29:46Z |
+| front    | 2.50 |   2 |     1.00 | 2020-07-12T15:09:59Z |
 :END:
 
 ** Back
@@ -320,7 +320,7 @@ Basicamente fala que qualquer método majoritário uninominal  (plurality, plura
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:30Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:24:13Z |
 :END:
 
 ** Back
@@ -427,7 +427,7 @@ alienated minorities to opt out of the normal political process.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-03T10:31:43Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:24:35Z |
 :END:
 
 ** Back
@@ -449,9 +449,15 @@ alienated minorities to opt out of the normal political process.
 | front    |  2.5 |   0 |        0 | 2020-07-03T10:31:52Z |
 :END:
 
-** Back
+** Back :ATTACH:
 Usando o indice de gallagher. É so uma medida de distancia entre proporcao de
 cadeiras e proporcao de votos. Para mais ver: [[https://en.wikipedia.org/wiki/Gallagher_index][Gallagher index - Wikipedia]]
+
+
+[[attachment:_20200711_102524screenshot.png]]
+
+
+
 
 * Sistemas proporcionais são realmente mais proporcionais? :fc:
 :PROPERTIES:

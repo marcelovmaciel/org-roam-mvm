@@ -10,7 +10,7 @@
 This pass should take about five to ten minutes and *consists of the following steps*:
 
 1. Carefully read the title, abstract, and introduction
-2. Read the section and sub-section headings, but ignoreeverything else
+2. Read the section and sub-section headings, but ignore everything else
 3. Read the conclusions
 4. Glance over the references, mentally ticking off theones you’ve already read
 

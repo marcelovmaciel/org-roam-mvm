@@ -1,4 +1,4 @@
-#+TITLE: Social Choice Theory - SEP
+#+TITLE: url:Social Choice Theory - SEP
 #+ROAM_KEY: cite:sep-social-choice
 *  Notes
 :PROPERTIES:
@@ -70,7 +70,7 @@ methods. Why?
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:17:12Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T13:56:26Z |
 :END:
 
 *** Back
@@ -88,7 +88,7 @@ An aggregation rule is usually defined extensionally, not intensionally: it is a
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:17:31Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:27:55Z |
 :END:
 
 
@@ -130,6 +130,8 @@ It is a cluster of models and results about the aggregation of individual inputs
 *** Back
 
 The Rae-Taylor theorem.
+
+I'm not satisfied with this answer. I've got to develop it. read more. 
 
 **  What are the assumptions of Arrow's theorems? :fc:
 :PROPERTIES:
@@ -217,7 +219,7 @@ Examples of other such aggregation problems to which Arrow's theorem has been ap
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:33:23Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:29:19Z |
 :END:
 
 *** Back
@@ -328,7 +330,7 @@ A social choice rule that always produces a unique winning alternative.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-03T10:10:12Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T15:28:02Z |
 :END:
 *** Back
 Competence and independence.
@@ -401,3 +403,23 @@ Another consequentialist argument for majority rule is utilitarian rather than e
 
 Relatedly, majority rule minimizes the number of frustrated voters (defined as voters on the losing side) and maximizes total utility across voters. Brighouse and Fleurbaey (2010) generalize this result. Define voter i's stake in the decision, di, as the utility difference between his or her preferred outcome and his or her dispreferred outcome. The Rae-Taylor theorem rests on an implicit equal-stakes assumption, i.e., di = 1 for every i ∈ N. Brighouse and Fleurbaey show that when stakes are allowed to vary across voters, total utility is maximized not by majority rule, but by a weighted majority rule, where each individual i's voting weight wi is proportional to his or her stake di.
 #+end_quote
+
+
+*  What is the difference between a social choice and a preference aggregation rule? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-20T23:57:32Z
+:FC_TYPE:  normal
+:ID:       2db387f1-1353-45d0-a958-2a0d9517206f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-20T23:57:32Z |
+:END:
+
+** Back
+A preference aggregation rule maps profiles of individual preference orderings
+to social preference relations. Its output is a full social preference ordering.
+A social choice rule on the other hand outputs one or several winning
+alternatives. This means that a social choice rule $f$ fan be derived from a
+preference aggregation rule $F$

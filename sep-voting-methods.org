@@ -1,4 +1,4 @@
-#+TITLE: (sep-voting-methods) Voting Methods
+#+TITLE: url:(sep-voting-methods) Voting Methods
 #+ROAM_KEY: cite:sep-voting-methods
 
 :PROPERTIES:
@@ -23,7 +23,7 @@
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-06-30T20:37:20Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-11T13:57:16Z |
 :END:
 
 ** Back
@@ -334,3 +334,116 @@ Democracy is when votes can be further delegated.
 
 ** Back
 The input requested from voters. One such ballots are rankings.
+
+
+
+* What is a profile in the context of SCT? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T15:33:49Z
+:FC_TYPE:  normal
+:ID:       4449ccab-f8c1-48a0-ab0b-fa00b9e56bd9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T15:33:49Z |
+:END:
+
+** Back
+A profile for a set of voters specifies the [[file:20200522121933-what_are_ballots.org][ballot]] selected by each voter.
+
+*  What is a monotonic voting procedure? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T22:36:39Z
+:FC_TYPE:  normal
+:ID:       b4595120-bc77-4610-b11c-e25a56cfe8d1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T22:36:39Z |
+:END:
+
+- tags :: [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+** Back
+
+A voting procedure is monotonic if an alternative receiving more support is
+always better for it.
+
+References on that :
+- cite:Felsenthal_2017
+- cite:Fishburn_1982
+
+
+
+*  What is the nonshow paradox? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T22:38:11Z
+:FC_TYPE:  normal
+:ID:       b8e02f61-0689-4bf4-b222-03d22e51bc4e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T22:38:11Z |
+:END:
+
+** Back
+- tags :: [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+
+  It is a kind of monotonicity failure (or paradox). In this case is when more
+  voting showing up, supporting, an alternative not necessarily is better for
+  the alternative. Actually, cite:Moulin_1988 shows that all methods are
+  amenable to the no show paradox.
+
+
+*** Further references
+- cite:brandt2019exploring
+- cite:Brandl_2019
+- cite:Brandt_2017
+- cite:N_ez_2017
+- cite:Duddy_2013
+- cite:Jimeno_2009
+- cite:P_rez_2001
+
+
+
+* What is the multiple district paradox? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-07T22:39:35Z
+:FC_TYPE:  normal
+:ID:       8d3b4925-961c-42a7-8495-79f4beaed16b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-07T22:39:35Z |
+:END:
+
+- tags :: [[file:20200529154713-on_voting_paradoxes.org][On Voting Paradoxes]]
+** Back
+  It is when the result changes for a voting procedure if we split the
+  population into subgroups (districts). As with the nonshow paradoxs this happens with all condorcet consistent paradoxes. For more on
+  that see cite:Zwicker
+
+  It can be seen as an example of Simpson's paradox.
+
+
+* What is a quota rule? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-22T17:51:01Z
+:FC_TYPE:  normal
+:ID:       43db2eab-9aae-4f3f-b6e1-7c976549eb64
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-22T17:51:01Z |
+:END:
+
+** Back
+It is a generalization of both *Majority Rule*, its variants AND *Unanimity Rule*.
+
+Each voter selects one alternative, and the winning alternatives are those that receive at least $q \times \#V$  votes where $\#V$ is the number of voters.
+
+In majority rule $q = 0.5$  while in unanimity rule its equal to 1.

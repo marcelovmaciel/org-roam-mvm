@@ -1,0 +1,21 @@
+#+title: url:Shelling Out Sucks
+#+roam_key: https://julialang.org/blog/2012/03/shelling-out-sucks/
+- refs :: cite:ward2014linux
+  
+
+* Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+
+** Why am I studying this?
+Because I'm interested in using Julia for [[file:ninjaaron_administrative_scripting_with_julia_guide_for_writing_shell_scripts_in_julia.org][administrative scripting]] . 
+**  What is it about ?
+**  What does it mean for ... ?
+** How does the new information contradict, correct, support, or add to what I already know?
+** How does this fact fit into my idea of …?
+** How can this phenomenon be explained by that theory?
+**  Are these two ideas contradictory or do they complement each other?
+** Isn’t this argument similar to that one?
+** Haven’t I heard this before?
+** How can I combine ideas to generate something new?
+** What questions are triggered by these new ideas?

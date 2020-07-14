@@ -1,0 +1,35 @@
+#+title: Axiomatic Analysis of Indices
+
+
+  Following cite:patty2015aggregation try to give a formal analysis of lets say
+  democracy indices. One example could be cite:L_HRMANN_2020 or
+  cite:mariani20_networ_based_rankin_social_system . Actually,
+  cite:mariani20_networ_based_rankin_social_system can be connected with Patty
+  and Penn other work on characterization of networks (cite:Patty_2014).
+  Furthermore, I could be recursive and use social choice to understand
+  ideological scaling methods. What are we doing from an aggregative point of
+  view when we collapse answers in surveys into a single scale?
+
+
+cite:patty2015aggregation make the following points regarding indices which fit
+neatly on this idea. First they define indices:
+#+begin_quote
+An index in our terminology is an aggregation method that assigns each
+alternative a numeric score on each of the ­criteria and—more importantly—presumes that these scores are comparable across criteria.
+#+end_quote
+
+
+Consequently they propose that indices are related to some latent dimension.
+This is something that is hand-wavy and should be further refined. The quote is
+the following:
+
+#+begin_quote
+in nearly every situation, an index is at best an i ­ mperfect measure of some
+latent (i.e., imperfectly observed) trait or quality of the alternatives under
+­consideration.
+#+end_quote
+
+
+This is in some sense related to  [[file:20200711094506-causal_thinking_and_social_choice.org][Causal thinking and collective choice]] and [[file:20200711101737-causal_multiple_district_paradox.org][Causal multiple district paradox]]
+
+They are all related to mixing formal politology with sociometrics.

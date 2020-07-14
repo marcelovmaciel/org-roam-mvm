@@ -1,4 +1,4 @@
-#+TITLE:  (sep-game-theory) Game Theory
+#+TITLE:  url:(sep-game-theory) Game Theory
 #+ROAM_KEY: cite:sep-game-theory
 :PROPERTIES:
 :Custom_ID: sep-game-theory
@@ -99,7 +99,7 @@ It is the modern, neoclassical, definition of utility. Utility is a mathematical
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:37:20Z |
+| front    | 2.50 |   2 |     1.00 | 2020-07-12T13:41:18Z |
 :END:
 
 - source :: cite:sep-game-theory
@@ -443,3 +443,67 @@ Humans socially controlled to an extreme degree by comparison with most other
 
 ** Back
 It is a type of sequential equilibrium and is, therefore, an equilibrium refinement A SE is trembling hand if all strategies played at equilibrium are best replies to strategies that are strictly mixed.
+*  What is an information set? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:39:11Z
+:FC_TYPE:  normal
+:ID:       ac6676a1-d2fa-4ad2-aa6d-8a0ab5641e3f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:39:11Z |
+:END:
+
+** Back
+  I dont really grokk the concept. Maybe that is why I cannot understand sequential equilibrium.  Below are some paraphrases:
+#+begin_quote
+In a sequential game, it is when at some nodes players cannot infer back up   the path from whence they came; so they are in the same information set
+ The information set demonstrates that the extensive form is more general than the matrix form, as it can incorporate both types of informational situations, perfect and imperfect
+#+end_quote
+* What is an equilibrium refinement? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:38:10Z
+:FC_TYPE:  normal
+:ID:       57fdc5cc-f1db-4805-a7c0-7aeacac19099
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:38:10Z |
+:END:
+
+** Back
+Proposed principles for solving games that may have the effect of eliminating some NE from consideration. There is some controversy about the "refinement program", as it is not behaviorist, and is based upon intuitions about how people reason.
+
+*  What is a sequential equilibrium? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-05-21T00:38:48Z
+:FC_TYPE:  normal
+:ID:       0a17b1c8-d030-4665-bcfe-ea1ea24f88c0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-05-21T00:38:48Z |
+:END:
+
+
+** Back
+  Another equilibrium refinement (query) It also assumes bayesian reasoning and I don't grokk the concept right now. This is a quote from cite:sep-game-theory that may help:
+   #+begin_quote
+- If we assume that players’ beliefs are always consistent with bayes rule, then
+  we may define a sequential equilibrium. A SE has two parts: (1) a strategy
+  profile § for each player, as before, and (2) a system of beliefs μ for each
+  player. μ assigns to each information set h a probability distribution over
+  the nodes in h, with the interpretation that these are the beliefs of player
+  i(h) about where in his information set he is, given that information set h
+  has been reached. Then a sequential equilibrium is a profile of strategies §
+  and a system of beliefs μ consistent with Bayes’s rule such that starting from
+  every information set h in the tree player i(h) plays optimally from then on,
+  given that what he believes to have transpired previously is given by μ(h) and
+  what will transpire at subsequent moves is given by §.
+#+end_quote
+
+Notice that it is based on the concept of information set (query)
+Sequential equilibrium is special as it is an equilibrium both in actions and beliefs (THIS SHOULD BE FURTHER INVESTIGATED).

@@ -69,7 +69,8 @@ I see critical theory as an offspring of marxism.
 
 Both jaeggi and habermas works connect to liberal political theory.
 
-
+Jaeggi was criticized for her eurocentrism (in the collection); [[file:20200520213408-my_project_ideas.org::*Universalism and Social Choice][balibar discussion about universalism]] and  https://www.annualreviews.org/doi/full/10.1146/annurev-polisci-071113-044647
+might help
 * Liberal / Decision Theoretic / Individualist
 
 This is the second cluster of ideas that I consider a different world-view.
@@ -117,7 +118,7 @@ great deal of good work uses it.
   - Elster, J. (2013). Excessive ambitions (ii). Capitalism and Society, 8(1), .
 
 
-* Modeling / Sociotechnical / Algorithms / Evolution
+* Modeling / Sociotechnical / Algorithms / SCX
 
 This final cluster is my twist on the analytical and formal individualist
 approach. Also it helps focusing on nuts and bolts. 
@@ -125,6 +126,19 @@ approach. Also it helps focusing on nuts and bolts.
 Modeling is about methodology, algorithms about tecnhiques,
 sociotechnical systems as target systems and evolution as a privileged
 algorithm.
+
+- Sources of inspiration:
+  - Simon
+  - Ostrom
+  - Dedeo  [[http://simondedeo.com/][Axiom of Chance – thoughts from the Laboratory for Social Minds at Carnegie M...]]
+  - Dodds
+  - Shalizi
+  - Mcelreath
+  - Smaldino
+  - Page
+  - Act community
+  - Laver
+  - DAG community
 
 ** [#C] Modeling
 *** [#C] Epistemology of modeling
@@ -200,7 +214,8 @@ Maybe my big research agenda is exactly *collective decision making in sociotech
 - [[https://newleftreview.org/issues/II51/articles/daniel-miller-sterilizing-cyberspace][Daniel Miller, Sterilizing Cyberspace, NLR 51, May–June 2008]]
 - [[https://newleftreview.org/issues/I219/articles/john-frow-information-as-gift-and-commodity][John Frow, Information as Gift and Commodity, NLR I/219, September–October 1996]]
 - [[https://newleftreview.org/issues/II74/articles/julian-stallabrass-digital-partisans][Julian Stallabrass, Digital Partisans, NLR 74, March–April 2012]]
-
+- [[https://www.nature.com/articles/d41586-020-02003-2][Don’t ask if artificial intelligence is good or fair, ask how it shifts power]]
+  
 
 **** Fairness in ml
 
@@ -216,15 +231,10 @@ I already have a project idea on that: [[file:20200616033314-fairness_in_ml_thro
 - [[https://allmodels.ai/][allmodels.ai]]
 - [[https://dhdebates.gc.cuny.edu/][Debates in the Digital Humanities]]
   
-**** Sources of inspiration
+*** Sources of inspiration
 
 The works from the laboratory from dedeo and dodds are one my main
 inspirations here:
-
-- [[http://simondedeo.com/][Axiom of Chance – thoughts from the Laboratory for Social Minds at Carnegie M...]]
-  - Dedeo has courses on [[https://www.complexityexplorer.org/courses/67-introduction-to-renormalization/segments/5411?summary][Complexity Explorer]] and many tutorials
-- [[http://www.uvm.edu/storylab/][The PoCS: Principles of Complex Systems]]
-  -  Dodds also has lots of materials in his site [[https://www.uvm.edu/pdodds/][Peter Sheridan Dodds]].
 
 Moretti is also a huge source of inspiration (as he interleaves nlp with
 evolutionary thinking):
@@ -238,15 +248,9 @@ evolutionary thinking):
 
 
  Roth also has some good papers.
-** [#C] Evolution
+** [#A] SCX-Evolution
+
+I'm particularly interested in SCX as an *algorithmic view of life*.
 This involves using the evolutionary algorithm as a tool. Seems simple, but lots
 can be achieved by doing so.
 
-*** Courses
-- [[http://www.dysoc.org/cesmodules/][Online Learning: Cultural Evolution Society]]
-
-*** Books
-
-- [[https://www.amazon.com/Games-Philosophy-Biology-Elements/dp/1108727514/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1580317208&sr=8-1][Games in the Philosophy of Biology (Elements in the Philosophy of Biology): O...]]
-- [[https://www.amazon.com/gp/product/B07V5Q6R62/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1][The Origins of Unfairness: Social Categories and Cultural Evolution - Kindle ...]]
-- cite:sobchuk2018charting

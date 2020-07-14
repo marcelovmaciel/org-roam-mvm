@@ -1,0 +1,84 @@
+#+title: url: Método GTD: o que é e como utilizar 
+#+roam_key: https://escolaconquer.com.br/metodo-gtd/
+- tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]]
+
+
+* Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+
+- What is it about ?
+- What does it mean for ... ?
+- How does the new information contradict, correct, support, or add to what I already know?
+- How does this fact fit into my idea of …?
+- How can this phenomenon be explained by that theory?
+- Are these two ideas contradictory or do they complement each other?
+- Isn’t this argument similar to that one?
+- Haven’t I heard this before?
+
+- What questions are triggered by these new ideas?
+
+
+* How can I combine ideas to generate something new?
+By reading this I believe I should have a more clear idea of where each tasks falls. What is the *context?* of any task I do AND what if study/work what is the project?
+
+* notes
+The gtd method works in 5 steps:
+1. Collect
+2. Process
+3. Organize
+4. Review
+5. Do
+
+
+** Collect
+In the *collect* step I collect any task related thing (ideas should come here
+but I'll leave them to the fleeting inbox).
+** Process
+In the *process* step I turn those tasks, references and so on into two groups:
+- Does not demand action
+  - *Discard* those you know you won't actually do; 
+  - Put into a different list those that do not have a definite date -
+    *"projects"*
+  - Put into *references* those things you want to take a look in the future.
+- Demands action
+  - If something is quick put it on the top of the agenda and start with it;
+  - If it is not quick (5,10min) put it in the agenda (with date);
+  - If it is too big turn into a *Project*
+    - Projects are headlines of a *series of concrete tasks* related to it.
+
+** Organize
+Put those tasks into their *context*. In my case, give them tags (work,
+personal, routine, appointments and so on). Give them priorities!
+
+** Review
+Review daily or weekly your tasks
+
+
+* Flashcards
+** What are the 5 steps of GTD? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-13T15:12:41Z
+:FC_TYPE:  normal
+:ID:       5b2aeb66-f317-4128-ad2f-c3793d9dfab3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-13T15:12:41Z |
+:END:
+*** Back
+
+The gtd method works in 5 steps:
+1. Collect
+   - An *inbox* of any task related thing
+2. Process
+   Either:
+   - Discard
+   - (got into [[file:~/Drive/Org/Projects/20200711093120-my_projects_amorphous_todos.org][amorphous projects list]] or into ([[file:~/Drive/Org/Projects/refs-dump.org][refs dump]] or [[file:~/Drive/Org/Projects/20200702062139-techniques_refs.org][tech refs (more specific and organized)]])
+   - agenda
+3. Organize
+   Put tasks into context: tags (and which project). Put priorities.
+4. Review
+   Rethink tasks and priorities.
+5. Do

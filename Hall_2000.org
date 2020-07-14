@@ -1,0 +1,97 @@
+ #+TITLE: Hall_2000:Discrete mathematics using a computer
+#+ROAM_KEY: cite:Hall_2000
+
+
+*  Notes
+:PROPERTIES:
+:Custom_ID: Hall_2000
+:NOTER_DOCUMENT: %(orb-process-file-field "Hall_2000")
+:AUTHOR: Hall, C. & O’Donnell, J.
+:JOURNAL:
+:DATE:
+:YEAR: 2000
+:DOI:  http://dx.doi.org/10.1007/978-1-4471-3657-6
+:URL: http://dx.doi.org/10.1007/978-1-4471-3657-6
+:END:
+
+
+#+TITLE: Study Notes
+
+#+BEGIN_SRC haskell :results output
+:l Main
+:m
+#+End_src
+
+#+RESULTS:
+
+~:~ is right associative.
+
+#+BEGIN_SRC haskell :results output
+[1,2,3,4] == 1 : (2 : (3 : (4 : [])))
+foldr (:) [] [1,2,3,4]
+foldr (:) [] [1,2,3,4]  ==  [1,2,3,4]
+#+END_SRC
+
+#+RESULTS:
+: True
+: [1,2,3,4]
+: True
+
+List comprehensions allow tuples
+#+BEGIN_SRC haskell
+[a*b | (a,b) <- [(1,2), (10,20), (6,6)]]
+#+END_SRC
+
+#+RESULTS:
+| 2 | 200 | 36 |
+
+
+They can also have more than one generator:
+
+#+BEGIN_SRC haskell
+[(x,y) | x <- [1,2,3], y <- ['a','b']]
+#+END_SRC
+
+#+RESULTS:
+| 1 | a |
+| 1 | b |
+| 2 | a |
+| 2 | b |
+| 3 | a |
+| 3 | b |
+
+It can also have a filter:
+[expression | generator, filters]
+
+#+BEGIN_SRC haskell :results output
+[x | x <- [0..100], x `mod` 2 == 0 && x `mod` 7 == 0]
+-- I'm more of a fan of simple function application.
+filter (\x ->  (&&) (mod x 2 == 0) (mod x  7 == 0))  [0..100]
+#+END_SRC
+
+#+RESULTS:
+: [0,14,28,42,56,70,84,98]
+: Prelude> [0,14,28,42,56,70,84,98]
+
+Exercises 3,4,5
+#+BEGIN_SRC haskell :results output
+:l Main
+isA 'a'
+isA 'b'
+ishello "hell"
+ishello "hello"
+removelw " foo"
+removelw "foo"
+-- removelw " foo"
+#+END_SRC
+
+#+RESULTS:
+
+
+#+BEGIN_SRC  haskell
+
+
+#+END_SRC
+
+#+RESULTS:
+: <no location info>: error: not an expression: ‘’
