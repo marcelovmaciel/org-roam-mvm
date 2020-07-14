@@ -1,6 +1,6 @@
  #+TITLE: Hall_2000:Discrete mathematics using a computer
 #+ROAM_KEY: cite:Hall_2000
-
+- tags :: [[file:20200523150423-haskell_general.org][Haskell - General]]
 
 *  Notes
 :PROPERTIES:

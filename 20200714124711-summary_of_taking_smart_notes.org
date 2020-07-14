@@ -1,0 +1,75 @@
+#+title: Summary of taking smart notes
+#+OPTIONS: toc:nil
+#+OPTIONS: date:nil
+
+- refs :: cite:ahrens2017take
+- tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]]
+
+He defends the fundamental importance of organization and methods in a
+study/research routine for a successful career in academia. We have to think
+about the whole *organization* of writing, not only the "final" moment in which we
+write an essay, article or book. Writing does not follow research, it is the
+*medium* of research, and "successful writing lies in the preparation".
+
+He present Luhmann's method and argue that it is simple, adaptive and ultimately
+useful, maybe as useful as say Ford's method in industry, or GTD in business.
+*Studying/research methods should be simple, open-ended and adaptive* and
+Luhmann's method is such a system.
+
+He intends to demonstrate how the zettelkasten workflow leads to papers which
+emerge from your routine. One only has to follow the 8 steps.
+
+He reminds the reader that *zettel requires a routine of connection and note
+processing*. One has to continuously process and connect notes, lest one creates
+a graveyard for thoughts instead of a living tool for thought.
+
+He argues that writing is the goal and our routine must pay heed to that.
+*Sharing, publicizing, is the final goal of any study.* Therefore, we must always
+write, and streamline our routine with publicizing our ideas and findings as the
+telos.
+
+He reminds us that *there are different kinds of things we write. Not all of
+them should go into the slip-box*. It is important to distinguish between those
+types of notes so that our system evolves:
+
+- Fleeting notes go into the inbox
+- Literature notes go into the reference system
+- Project notes (todos, drafts, project related literature, reminders) go into
+  project specific repositories
+- Main notes go into the slip-box.
+
+He defends an iterative approach to research. We start from the slipbox and NOT
+at a blank page. Since projects are started from within the slipbox, we keep
+studying and then we stumble upon them.
+
+He argues that a good system empowers us, but to do so we must test ourselves.
+If we push ourselves the work will propel us. In the beginning it will *feel the opposite*, but having a feedback system will have lasting effects.
+
+He defends the importance of "uni-tasking" and tasks blocks. *We must develop a
+workflow which has concrete tasks which we give our undivided attention*, but
+there are different kinds of tasks in terms of attention, memory and motivation.
+Being concrete, instead of amorphous, and putting "similar" tasks in blocks
+let us be productive instead of depleted by the process.
+
+He defends that when reading a text we should have a conversation with it. For that end we ought to have a *latticework of mental models and methods* which allow us to
+see the *gist* of the work, its background and all kinds of argumentative
+patterns. *Academic work should not be read as a novel.*
+
+He argues that we have to create triggering cues in our minds, and we do that in
+the zettel method by connecting notes. Seeing what is *missing, comparing,
+contrasting*, contextualizing are all methods of creating a web of ideas that
+will allow us to understand and create.
+
+He argues that we should not focus on creating structure on the get go, rather
+to elaborate on ideas. We should not only try to make "connections", but create
+oppositions, *play, tinker, tweak and re-specify* what we read. Only through
+*intense elaboration* is that we create something new.
+
+Writing should become a *ritual*. We should look into our slip-box for ideas and
+choose the ones which are interesting, relevant, doable, but not too easy. Those
+*projects should be meaningful, speak to our personal goals,* otherwise we will
+lose motivation.
+
+Obviously, doing all that is hard. We stick to our old bad habits. But we should
+try to slowly change and remember that in the end we are not trying to
+accumulate knowledge, but to become someone different with different ideas.

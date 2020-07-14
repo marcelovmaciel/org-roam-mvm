@@ -13,95 +13,84 @@
 :URL:
 :END:
 
-
-*  Sonke questions
-Those are questions that aim to connect the notes with other notes and with
-projects.
-**  What is it about ?
-**  What does it mean for ... ?
-** How does the new information contradict, correct, support, or add to what I already know?
-
-** How does this fact fit into my idea of …?
-** How can this phenomenon be explained by that theory? 
-** Are these two ideas contradictory or do they complement each other?
-** Isn’t this argument similar to that one?
-** Haven’t I heard this before?
-
-** How can I combine ideas to generate something new?
- Since I'm taking fleeting notes, flashcards, literature notes, reference notes and main notes all in the same folder this might fuck up my slipbox. That is why let us define some rules:
-  - *fleeting notes* live in the Fleeting notes file
-  - *literature notes* are one for each source. They are never tagged, only cited (if it is a book or article. sites are different). They can tag, particularly main notes, but not reference notes - which will cite them.
-  - *Reference notes* mention literature notes but do not mention main notes
-  - *Main notes* cite literature notes and tag reference notes.
-  - *Flashcards* live inside their literature notes
-  - *Project notes* live inside their projects directories!!!
-
-Since the focus is on making connections I believe I can collapse the distinction between reference and main notes and treat them as the same. See agenda.
-
-
-
-** What questions are triggered by these new ideas?
-- How can I use GTD methodology to define precise/interesting/meaningful tasks (as discussed in the [[*Introduction][Introduction]])
-- Create dialogues like Plato when reading something;
-- Take a look at: [[https://en.wikipedia.org/wiki/SQ3R][SQ3R - Wikipedia]] .
-
-- One thing that I've noticed is that one text might trigger a plethora of questions. Many of them cannot be turned directly into main notes, but nevertheless might direct further investigations. How do I process those questions? By listing them under the index? By creating them as permanent notes and starting studying?
-
-
 * Struct questions
-** What is the goal of the text?
+** What is the goal/general argument of the text?
 
 *** Introduction
-To defend the fundamental importance of organization and methods in a study/research routine for a successful career in academia.
+He defends the fundamental importance of organization and methods in a
+study/research routine for a successful career in academia. We have to think
+about the whole *organization* of writing, not only the "final" moment in which we
+write an essay, article or book. Writing does not follow research, it is the
+*medium* of research, and "successful writing lies in the preparation".
 
 *** 1 Everything You Need to Know
-To present Luhmann's method and argue that it is simple, adaptive and ultimately
+He present Luhmann's method and argue that it is simple, adaptive and ultimately
 useful, maybe as useful as say Ford's method in industry, or GTD in business.
+Studying/research methods should be simple, open-ended and adaptive and
+Luhmann's method is such a system.
 *** 2 Everything you need to do
-To demonstrate how the zettelkasten workflow leads to papers which emerge from your routine. One only has to follow the 8 steps.
+He intends to demonstrate how the zettelkasten workflow leads to papers which
+emerge from your routine. One only has to follow the 8 steps.
+
 *** 3&4
-To remind the reader that zettel requires a routine of connection and note processing.
+He reminds the reader that zettel requires a routine of connection and note
+processing. One has to continuously process and connect notes, lest one creates
+a graveyard for thoughts instead of a living tool for thought.
+
 *** 5 Writing Is the Only Thing That Matters
-To argue that writing is the goal and our routine must pay heed to that.
+
+He argues that writing is the goal and our routine must pay heed to that.
+Sharing, publicizing, is the final goal of any study. Therefore, we must always
+write, and streamline our routine with publicizing our ideas and findings as the
+telos.
+
 *** 6 Simplicity is paramount
-To remind that there are different kinds of things we write. Not all of them should go in the slipbox. 
-
-*** 7 Nobody Ever Starts From Scratch
-
-To defend a iterative approach to research. We start from the slipbox and NOT at a blank page.
-*** 8 Let the Work Carry You Forward
-To argue that a good system empowers us, but to do so we must test ourselves. 
-*** 9 Separate and Interlocking Tasks
-To defend the importance of "unitasking" and tasks blocks.
-
-** What is the general argument of the text?
-
-*** Introduction
-That we have to think about the whole *organization* of writing, not only the "final" moment in which we write an essay, article or book. Writing does not follow research, it is the *medium* of research, and "successful writing lies in the preparation".
-
-*** 1 Everything You Need to Know
-That studying/research methods should be simple, open-ended and adaptive and Luhmann's method is such a system.
-*** 2 Everything you need to do
-That the zettel workflow leads organically to papers.
-*** 3&4
-One has to continuously process and connect notes. If not, one creates a graveyard for thoughts instead of a living tool for thought.
-*** 5 Writing Is the Only Thing That Matters
-That sharing, publicizing, is the final goal of any study. Therefore, we must always write, and streamline our routine with publicizing our ideas and findings as the telos.
-*** 6 Simplicity is paramount
-That it is important to distinguish between types of notes so that our system does evolve
+He reminds us that there are different kinds of things we write. Not all of them
+should go into the slipbox. It is important to distinguish between those types
+of notes so that our system does evolve
 
 - Fleeting notes go into the inbox
 - Literature notes go into the reference system
-- Project notes (todos, drafts, project related literature, reminders) go into project specific repositories
-- Main notes go into the slip-box
+- Project notes (todos, drafts, project related literature, reminders) go into
+  project specific repositories
+- Main notes go into the slip-box.
+
 
 *** 7 Nobody Ever Starts From Scratch
 
-He argues that projects should be started from within the slipbox. We keep studying and then we stumble upon them.
+He defends a iterative approach to research. We start from the slipbox and NOT
+at a blank page. As projects are started from within the slipbox, we keep
+studying and then we stumble upon them.
+
 *** 8 Let the Work Carry You Forward
-That the work should propel us and to do so we must test ourselves and push ourselves.
+He argues that a good system empowers us, but to do so we must test ourselves.
+The work should propel us and to do so we must test ourselves and push
+ourselves.
 *** 9 Separate and Interlocking Tasks
-That we must develop a workflow which has concrete tasks which we give our undivided attention, but also that there are different kinds of tasks in terms of attention, memory and motivation. Being concrete, instead of amorphous, and putting those kind of tasks in blocks let us be productive instead of depleted by the process.
+He defend the importance of "unitasking" and tasks blocks. We must develop a
+workflow which has concrete tasks which we give our undivided attention, but
+ there are different kinds of tasks in terms of attention, memory and
+motivation. Being concrete, instead of amorphous, and putting those kind of
+tasks in blocks let us be productive instead of depleted by the process.
+
+*** 10 Read for Understanding
+He defends that when reading a text we should have a conversation with it. To do so we ought to have a latticework of mental models and methods which allow us to see the gist of the work, its background and all kinds of argumentative patterns. Academic work should not be read as a novel.
+
+*** 11 Take smart notes
+He argues that we have to create triggering cues in our minds, and we do that in
+the zettel method by connecting notes. Seeing what is missing, comparing,
+contrasting, contextualizing are all methods of creating a web of ideas that
+will allow us understand and create.
+
+*** 12 Develop Ideas
+He argues that we should not focus on creating structure on the get go, rather
+to elaborate on ideas. We should not only try to make "connections", but create
+oppositions, play, tinker, tweak and re-specify what we read. Only through intense elaboration is that we create something new. 
+
+*** 13 Share Your Insight
+Writing should become a ritual. We should look into our slip-box for ideas and choose the ones which are interesting, relevant, doable, but not too easy. Those projects should be meaningful, speak to our personal goals, otherwise we will lose motivation. 
+*** Make it a habit
+Obviously, doing all that is hard. We stick to our old bad habits. But we should try to slowly change and remember that in the end we are not trying to accumulate knowledge, but to become someone different with different ideas.
 
 
 ** What are the specific arguments of the text?
@@ -297,7 +286,7 @@ Expressing our own thoughts in writing makes us realise if we really thought the
 
 - What is most helpful in reading is to think about *the background* of the text. Theory, method, goal, and so on. SQ3R might be useful IF we have a- Always read thinking about possible connections in the slipbox.
 - The extension of literature notes depend on the complexity and importance of the text. We must have a *lattice of mental models* to identify and describe the main ideas quickly. What I take from this is that we must create those models through the *reading questions* (fichamento).
-- It is expected that notes about new subjects are more extensive. What matters is that they *support the creating of main notes*.
+- It is expected that notes about new subjects are more extensive. What matters is that they *support the creation of main notes*.
 - What is most helpful in reading is to think about *the background* of the text. Theory, method, goal, and so on.
 - Do not be too selective with your notes.
 - Be careful with *confirmation bias*. It is part of a good argument to be able to withstand counterarguments and criticism!!! Therefore, we have to pay *special* attention to disconfirming evidence and counterarguments.
@@ -335,7 +324,10 @@ to understand the extent to which the mind is reliant upon external
 scaffolding.” (Ibid.)
   #+end_quote
   - Typical literature notes questions:
-    - "Is this convincing? What methods do they use? Which of the references are familiar?"
+  #+begin_quote
+ "Is this convincing? What methods do they use? Which of the references are familiar?"
+  #+end_quote
+
  - Typical main notes questions:
    #+begin_quote
 *What does this all mean for my own
@@ -483,7 +475,16 @@ Baecker, and Stanitzek 1987, 125–55)
 
 
 - Write a draft *as a draft*. Dont be paranoid about the output. Also, proofread. Rigorously delete everything that has no function (kill your darlings).
+
 *** 14 Make It a Habit
+ - Breaking through is difficult. We have to slowly build up new habits.
+
+#+begin_quote
+Learning, thinking and writing should not be about
+accumulating knowledge, but about becoming a different person with a
+different way of thinking.
+#+end_quote
+
 
 ** What are the main concepts of the text?
 *** Introduction
@@ -560,7 +561,7 @@ the state in which you get so completely immersed in your work that you lose tra
 - Patterns, frames, distinctions 
 *** 11 Take smart notes
 - *external scaffolding*
-- *trigerring cues*
+- *triggering cues*
 - cramming
 - contrasting
 *** 12 Develop Ideas
@@ -582,13 +583,39 @@ the state in which you get so completely immersed in your work that you lose tra
 - rituals
 - kill your darlings
 *** 14 Make It a Habit
- - Breaking through is difficult. We have to slowly build up new habits.
 
-#+begin_quote
-Learning, thinking and writing should not be about
-accumulating knowledge, but about becoming a different person with a
-different way of thinking.
-#+end_quote
+* Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+**  What is it about ?
+**  What does it mean for ... ?
+** How does the new information contradict, correct, support, or add to what I already know?
+
+** How does this fact fit into my idea of …?
+** How can this phenomenon be explained by that theory?
+** Are these two ideas contradictory or do they complement each other?
+** Isn’t this argument similar to that one?
+** Haven’t I heard this before?
+
+** How can I combine ideas to generate something new?
+ Since I'm taking fleeting notes, flashcards, literature notes, reference notes and main notes all in the same folder this might fuck up my slipbox. That is why let us define some rules:
+  - *fleeting notes* live in the Fleeting notes file
+  - *literature notes* are one for each source. They are never tagged, only cited (if it is a book or article. sites are different). They can tag, particularly main notes, but not reference notes - which will cite them.
+  - *Reference notes* mention literature notes but do not mention main notes
+  - *Main notes* cite literature notes and tag reference notes.
+  - *Flashcards* live inside their literature notes
+  - *Project notes* live inside their projects directories!!!
+
+ I might adapt that by creating *beginning questions*: *Why am I reading this? Where is this might be useful? Which project or idea that I already have will benefit from this and how?*
+This focus on writing also leads to focus on learning things that allow you develop *specific* ideas and projects.
+
+
+** What questions are triggered by these new ideas?
+- How can I use GTD methodology to define precise/interesting/meaningful tasks (as discussed in the [[*Introduction][Introduction]])
+- Create dialogues like Plato when reading something;
+- Take a look at: [[https://en.wikipedia.org/wiki/SQ3R][SQ3R - Wikipedia]] .
+
+- One thing that I've noticed is that one text might trigger a plethora of questions. Many of them cannot be turned directly into main notes, but nevertheless might direct further investigations. How do I process those questions? By listing them under the index? By creating them as permanent notes and starting studying?
 
 
 * Text structure

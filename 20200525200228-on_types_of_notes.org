@@ -1,33 +1,27 @@
 #+TITLE: On types of notes
+#+OPTIONS: toc:nil
+#+OPTIONS: date:nil
 - tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]]
 
-
-There are at least five kinds of notes:
+There are at least four kinds of notes:
 1. Fleeting notes
 2. Literature notes
-3. Reference notes
-4. Permanent notes
-5. Higher level permanent notes
+3. Permanent notes
+4. Higher level permanent notes.
 
 ** Fleeting notes
 
 Those are informal notes on any thought or idea that pops into my mind.
-I may write them using org-journal or an actual diary.
+
+They go into an idea inbox or simply a note which collects them. They should be processed daily into permanent notes, lest we create a thoughts graveyard. 
 
 ** Literature notes
+
 Those are to write about concepts and ideas that I've studied from a variety of
 sources, such as papers, books, sites, videos. They should be kept small/atomic,
-particularly their outlines. If they grow big they might be better off as
-reference or permanent notes. They should be written in my own words and I must
-write the bibliographic source.
-
-They will be create from source notes.
-
-** Reference notes
-
-Those are split from literature notes when they are mentioned by more than one
-source. They should be written with my own words and as if I'm writing for
-someone else.
+particularly their outlines (defined below). If they grow, big they might be
+better off split into permanent notes. They should be written in my own words
+and I must write the bibliographic source.
 
 
 ** Permanent notes
@@ -43,12 +37,24 @@ One should try to answer the following questions:
 - How can I combine ideas to generate something new?
 - What questions are triggered by these new ideas?
 
-Those will be written using org-roam
+They should not be too big. 
 
 ** Higher level notes
 This is my own classification, the sources I've seen consider them special
-permanent. Nevertheless, I seen them as reflections *not upon sources, but upon
-the own notes.* The are two kinds of them outline notes and connection notes.
+permanent. Nevertheless, I've seen them as reflections *not upon sources, but upon
+the own notes.*
+
+There are, at least, three kinds of higher level notes:
+- index
+- outline
+- desktop
+
+There is a single index note. It lists entry points to typical clusters in my slip-box. I should not focus too much on the index, as with roam you can *see* them.
+
+The entry points in the index note are the outline notes. Those give a provisional structure of a topic. It structures and introduces other related notes.
+
+
+There are two kinds of them outline notes and desktop notes.
 Connection notes are about linking notes together and indexing them. We could
 also call them indexes notes. Outline notes, on the other hand, are those in
 which we create an argument or story with the notes.
