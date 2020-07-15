@@ -1,0 +1,26 @@
+#+title: In which I define my agenda organization
+ -[[file:how_i_use_emacs_and_org_mode_to_implement_gtd.org][url: How I use Emacs and Org-mode to implement GTD]] ;[[file:20200525200536-on_my_workflow.org][On my workflow]]
+
+ So, a todo should have the following elements:
+
+- A *name* (if it is a task it should be actionable)
+- A *status* (TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f))
+- *Tags* (what is the category, the context)
+- The *priority level* (High, medium, low)
+
+So, what are the contexts?
+
+- Personal
+  - appointments
+- Studies
+  - reading
+  - questions (it will be in a dump)
+- Work
+  - projects
+  - ideas
+
+ So, what are the kinds of todos that I have?
+- Concrete actionable tasks
+- Appointments (which is a status)
+- daily, routine, habit
+- Projects (umbrella for writing code, researching an idea, writing a paper, writing other things)

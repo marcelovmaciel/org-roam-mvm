@@ -1,0 +1,37 @@
+#+title: Systemic view of collective decision procedures justification
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]] ; [[file:20200629095546-on_big_problems.org][On big problems]]
+- references :: cite:dahl1989democracy; cite:ostrom2009understanding
+
+ One relevant distinction to be made when investigating the justifiability of a
+  decision procedures is whether we are presupposing a static,
+  closed-system or the collective choice situation is repeated, open, networked.
+
+ This might sound abstract, but this is the foundation of cite:dahl1989democracy
+  argument: whenever we think if a decision procedure should be applied in some
+  context we have to consider how this context is embedded in a network of
+  choice arenas both horizontally and vertically. That is also implicit in his 5
+  criteria. He talks about a *process* of collective decision-making and that
+  agenda control is related to a *decisive stage*.
+
+  One theorist who has developed a sophisticated theory of multiple decision
+  centers is Elinor Ostrom (cite:mcginnis2000polycentric ). She tends to
+  subscribe to a Madisonian perspective, however. One message that comes from
+  Ostrom's work is that we have to understand politics as some sort of
+  policentric system, which involves *feedbacks* among decision arenas.
+
+  This dynamic and systemic effect of decision procedures was also defended by
+  Nicholas Miller in cite:Laslier_2011. He says:
+  #+begin_quote
+voting procedures need to be evaluated not only in terms of their “static”
+social choice properties (e.g., Condorcet consistency, monotonicity, etc.) but
+also in terms of their “dynamic” effects, e.g., incentives for candidate entry,
+candidate ideological positioning, etc., which affect the types of preferences
+profiles that are most likely to arise.
+#+end_quote
+
+* Further references
+- Smaldino ecology of games
+- The categorical literature on open systems
+- The book about democracy and complexity
+- Vincent ostrom book about democracy
+- cite:aligica2014institutional

@@ -587,36 +587,52 @@ the state in which you get so completely immersed in your work that you lose tra
 * Sonke questions
 Those are questions that aim to connect the notes with other notes and with
 projects.
-**  What is it about ?
-**  What does it mean for ... ?
-** How does the new information contradict, correct, support, or add to what I already know?
 
-** How does this fact fit into my idea of …?
-** How can this phenomenon be explained by that theory?
-** Are these two ideas contradictory or do they complement each other?
-** Isn’t this argument similar to that one?
-** Haven’t I heard this before?
+
+** How does the new information contradict, correct, support, or add to what I already know?
+It made me change my typology on [[file:20200525200228-on_types_of_notes.org][On types of notes]].
+It supports my adoption of the zettelkasten method.
 
 ** How can I combine ideas to generate something new?
- Since I'm taking fleeting notes, flashcards, literature notes, reference notes and main notes all in the same folder this might fuck up my slipbox. That is why let us define some rules:
+- I have used what is below  to rethink my [[file:20200714173952-on_guiding_questions.org][On guiding questions]] and [[file:20200703013409-questions_for_reading.org][Reading and reflection methods]]  .
+
+
+ Since I'm taking fleeting notes, flashcards, literature notes  and main notes all in the same folder this might fuck up my slipbox. That is why let us define some rules:
   - *fleeting notes* live in the Fleeting notes file
-  - *literature notes* are one for each source. They are never tagged, only cited (if it is a book or article. sites are different). They can tag, particularly main notes, but not reference notes - which will cite them.
-  - *Reference notes* mention literature notes but do not mention main notes
-  - *Main notes* cite literature notes and tag reference notes.
+  - *literature notes* are one for each source. They are never tagged, only cited (if it is a book or article. sites are different). They can tag, particularly main notes. 
+  - *Main notes* cite literature notes and tag other main notes.
   - *Flashcards* live inside their literature notes
   - *Project notes* live inside their projects directories!!!
-
+***** On questions
  I might adapt that by creating *beginning questions*: *Why am I reading this? Where is this might be useful? Which project or idea that I already have will benefit from this and how?*
 This focus on writing also leads to focus on learning things that allow you develop *specific* ideas and projects.
 
+- To have not only justification questions, connection questions, structure questions, but also *analysis questions*. what is missing in the text? what is the theoretical or methodogolical background? and so on 
+
+- Still on questions
+“What is interesting about this?” and *everything we read* with the question, “What is so
+relevant about this that it is worth noting down?”.
+
+Typical literature notes questions:
+  #+begin_quote
+ "Is this convincing? What methods do they use? Which of the references are familiar?"
+  #+end_quote
+
+Typical main notes questions:
+   #+begin_quote
+*What does this all mean for my own
+research and the questions I think about in my slip-box?* This is just another
+way of asking: *Why did the aspects I wrote down catch my interest?*
+#+end_quote
+
 
 ** What questions are triggered by these new ideas?
+
 - How can I use GTD methodology to define precise/interesting/meaningful tasks (as discussed in the [[*Introduction][Introduction]])
-- Create dialogues like Plato when reading something;
+
 - Take a look at: [[https://en.wikipedia.org/wiki/SQ3R][SQ3R - Wikipedia]] .
 
 - One thing that I've noticed is that one text might trigger a plethora of questions. Many of them cannot be turned directly into main notes, but nevertheless might direct further investigations. How do I process those questions? By listing them under the index? By creating them as permanent notes and starting studying?
-
 
 * Text structure
 *** 3 Everything You Need to Have
@@ -631,3 +647,491 @@ This focus on writing also leads to focus on learning things that allow you deve
 *** 12 Develop Ideas
 *** 13 Share Your Insight
 *** 14 Make It a Habit
+
+* Flashcards
+** Why is sonke againts planning? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:15:18Z
+:FC_TYPE:  normal
+:ID:       6b77ac9d-d1f1-40c0-b456-0fc93dc11c04
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:15:18Z |
+:END:
+*** Back
+He is not against planning per se, but against being rigid about what you're going to do, since research is an open ended activity.
+
+** How do we achieve flow? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:16:44Z
+:FC_TYPE:  normal
+:ID:       a3179983-a37b-4705-8718-6109b98f51f3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:16:44Z |
+:END:
+*** Back
+By minimizing distractions, having clear, meaningful and unique tasks and by combining similar tasks in blocks. Also, having a simple workflow helps. We should strive for a *rythm*.
+
+** How was luhmann's workflow? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:18:39Z
+:FC_TYPE:  normal
+:ID:       77baf999-e33e-4135-ae2c-280f3d7a0a4b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:18:39Z |
+:END:
+*** Back
+
+Luhmann had two slip-boxes: a bibliographical one and the main one.  His workflow was organized in 3 steps:
+  1. Write bibliographical notes and *shortly after*, by taking a look at brief and reference notes, think about their relevance for his work/ideas
+  2. and write them in different notes: ideas, thoughts, comments and so on.
+  3. Whenever one adds those permanent notes look for relevant notes and link them.
+The trick of Luhmann workflow is that it is not organized by topic, but by indexation, by linking. The last element of his workflow are *index notes*, they are entry points to a theme and may contain a collection of links.
+
+** What are the 8 steps to write a paper? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:19:47Z
+:FC_TYPE:  normal
+:ID:       8509531c-0405-43b8-873a-c972cf69ca74
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:19:47Z |
+:END:
+*** Back
+  1) Make fleeting notes
+     - reminders of what is in your head
+     - put them into one place: *inbox*
+  2) Make literature notes
+     - notes about contents
+     - things that don't want to forget or that might use in your own writing
+     - try to use own words. Quotes should be only used if you really understand what they mean and their usage is akin to the one in articles
+     - keep them with their bibliographic details, one must have a *reference system*
+  3) Make permanent notes
+     - Go through notes in step 1 and 2 and see how they relate with your ideas, projects, interests.
+     - The idea is *not* to collect, but to develop ideas/arguments
+     - Here are we ask ourselves the sonke questions
+     - while in the literature notes we are writing to ourselves, here write as if for someone else.
+     - *throw away fleeting notes* and "archive" literature notes in the reference system.
+  4) Add your permanent notes to the slip-box
+     - Link it to other notes (maybe an index)
+  5) Develop topics/questions/research projects from within the system
+     - *Always take the path that promises the most insight*
+     - Don't get stuck in an idea if another gains momentum
+  6) Decide on a topic to write about
+     - This is *based on what you have* !
+     - Put your notes into a *desktop*: an ordered index note for a specific project
+  7) Translate notes into a manuscript
+  8) Edit and proofread the manuscript
+
+
+** What is a thoughts graveyard? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:20:49Z
+:FC_TYPE:  normal
+:ID:       cef02880-1f15-4c4f-b563-ac64432de3be
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:20:49Z |
+:END:
+*** Back
+It is when we do not process our fleeting notes and literature notes enough.
+
+
+
+
+** What is the telos of studying? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:22:34Z
+:FC_TYPE:  normal
+:ID:       1802e6ce-57a2-4786-a0fe-9f34b4013f38
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:22:34Z |
+:END:
+*** Back
+There are two telos. One is publishing, which is actually all about publicizing our ideas so that we may get closer to truth. The second is personal: to become a different person.
+
+
+#+begin_quote
+the professor is not there for the student and the student not for the
+professor. *Both are only there for the truth. And truth is always a public
+matter*. Everything within the university aims at some kind of publication.
+#+end_quote
+
+
+
+  #+begin_quote
+An idea kept private is as good as one you never had. And a fact no one can reproduce is no fact at all.
+  #+end_quote
+
+
+
+** What are justification questions ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:25:21Z
+:FC_TYPE:  normal
+:ID:       647c1655-57c6-4439-9d84-f0d7efd0dcc8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:25:21Z |
+:END:
+*** Back
+Questions that I have to answer whenever I start studying any kind of source.
+#+begin_quote
+ *Why am I reading this? Where is this might be useful? Which project or idea that I already have will benefit from this and how?*
+#+end_quote
+
+
+** Which question should we ask ourselves when linking a note? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:27:34Z
+:FC_TYPE:  normal
+:ID:       2d7b55c2-a1ab-48b3-8542-de24a12c83c5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:27:34Z |
+:END:
+*** Back
+
+#+begin_quote
+ In which context will I want to stumble upon it again?
+#+end_quote
+
+** What kinds of notes he talks about ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:28:27Z
+:FC_TYPE:  normal
+:ID:       db34c94a-df60-4e9e-9a0a-ab60e5bf6b1d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:28:27Z |
+:END:
+*** Back
+
+He talks about three kinds of notes. First, *fleeting notes*. They are thrown away in a few days. Underlining or writing comments on a text can be seen as fleeting notes and are only useful if you review, turn into proper notes, and throw away. Second, *permanent notes*.
+They either live in the reference system or in the slip-box
+and contain all the necessary information in themselves. *Literature notes* can be brief, while *main notes* are written with more care. Third,  *project notes*. These live inside project-specific folders and can be discarded,archived after it is finished. But what the heck are project notes?
+
+  #+begin_quote
+   - comments in the manuscript
+   - collections of project-related literature
+   - outlines
+   - snippets of drafts
+   - reminders
+   - to-do lists
+   - and of course the draft itself.
+  #+end_quote
+
+
+
+** Where is the place of each kind of note? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:26:45Z
+:FC_TYPE:  normal
+:ID:       e44b3f7f-7886-4d7b-be0e-fdcf9c02ae85
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:26:45Z |
+:END:
+*** Back
+
+- Fleeting notes go into the inbox
+- Literature notes go into the reference system
+- Project notes (todos, drafts, project related literature, reminders) go into
+  project specific repositories
+- Main notes go into the slip-box.
+** Why distinguish between types of notes? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:29:51Z
+:FC_TYPE:  normal
+:ID:       b395c915-c638-43af-a8ec-59cfaf068383
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:29:51Z |
+:END:
+*** Back
+Why the distinction? *One should not collect ideas and treat every idea as a permanent note.* This will crowd the system.
+On the one hand, you should *not* only take notes related to specific *projects*, since you are developing a  permanent reservoir of ideas. On the other hand, One also should not collect fleeting notes!! This will lead to *piles* of fleeting notes. That is why they are temporary and should be turned into permanent notes. Before storing literature notes, in the end of the day, try to think about their relevance for your ideas/projects and write about  it in permanent notes. Every *permanent note* should be elaborated enough to have the potential to *become part of or inspire a written piece*.
+
+** How do we incorporate feedback loops into our studying system? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:32:47Z
+:FC_TYPE:  normal
+:ID:       bf40d8f3-c9cd-4959-a4f8-956d40b9062b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:32:47Z |
+:END:
+*** Back
+- By writing;
+- By making connections (comparing,contrasting, tweaking, playing, tinkering)
+- By asking for other people opinion
+- By creating code
+- By creating models
+- By teaching
+
+** Why should we focus on having concrete tasks? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:35:08Z
+:FC_TYPE:  normal
+:ID:       353be5e5-d3e4-44fa-bd34-d0810e4a5b70
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:35:08Z |
+:END:
+*** Back
+So we can remain motivated. So we can achieve flow.
+
+** What are the components of writing? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:35:56Z
+:FC_TYPE:  normal
+:ID:       78a91b0d-5578-470b-a3f8-a598070b0ad1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:35:56Z |
+:END:
+*** Back
+ - proofreading,
+ - formulating,
+ - outlining,
+ - developing thoughts,
+ - combining thoughts
+
+** What is the simple logic of turning notes into papers? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:37:15Z
+:FC_TYPE:  normal
+:ID:       15bd5f61-914a-4542-9e41-d73788d68606
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:37:15Z |
+:END:
+*** Back
+
+paper \(\leftarrow\)  draft (continuous text) \(\leftarrow\) series of notes \(\leftarrow\) slipbox ;
+
+** Why should we have a latticework of models? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:38:27Z
+:FC_TYPE:  normal
+:ID:       f021d4c0-1d46-48d9-878f-e759e4d284fb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:38:27Z |
+:END:
+*** Back
+So that we can *get the gist* . We have to be able to distinguish relevant from irrelevant information and to identify *patterns, frames and  typical distinctions*.
+
+Having a lattice of mental models also allows us to reframe, contest distinctions and point out limitations.
+
+This lattice can be formalized into some *analysis questions*.
+
+** What is external scaffolding? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T19:54:00Z
+:FC_TYPE:  normal
+:ID:       0147cb71-4538-421c-aa4c-a06cfde1e330
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T19:54:00Z |
+:END:
+*** Back
+It is our mind dependence on external systems. The main one is writing that is why with the zettelkasten our aim is to developed a *pool of externalized thoughts*. This flashcard is another tool of externalization. Math, algorithms, code, pictures, plots, mindmaps are other tools like that. 
+
+
+  #+begin_quote
+“Notes on paper, or on a computer screen [...] do not
+make contemporary physics or other kinds of intellectual endeavour easier,
+they make it possible” is one of the key takeaways in a contemporary
+handbook of neuroscientists (Levy 2011, 290) Concluding the discussions in
+this book, Levy writes: “In any case, no matter how internal processes are
+implemented, insofar as thinkers are genuinely concerned with what enables
+human beings to perform the spectacular intellectual feats exhibited in
+science and other areas of systematic enquiry, as well as in the arts, they need
+to understand the extent to which the mind is reliant upon external
+scaffolding.” (Ibid.)
+  #+end_quote
+
+
+** How do you analyze a text? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:01:18Z
+:FC_TYPE:  normal
+:ID:       8e4f0bf1-3ee0-4add-99bb-f8ae262deb54
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:01:18Z |
+:END:
+*** Back
+By *thinking beyond the frames of the source*. Pick a text. Read it with *your questions in mind* and *relate it to other approaches* instead of adopting the question of the text and how if frames things. Try to think about what *is not* in the text!! *DO NOT* collect de-contextualized quotes from a text
+Once again, look at the gist vs supporting information. See how the propositions in the text relate to the gist. Be critical, including of outlining of the text, but in terms of your area theories, methods, goals, and so on.
+
+
+** What are typical literature and main note questions? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:06:09Z
+:FC_TYPE:  normal
+:ID:       73c9bdcd-da21-4dc9-bca6-933b08efde19
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:06:09Z |
+:END:
+*** Back
+Typical literature notes questions:
+  #+begin_quote
+ "Is this convincing? What methods do they use? Which of the references are familiar?"
+  #+end_quote
+
+Typical main notes questions:
+   #+begin_quote
+*What does this all mean for my own
+research and the questions I think about in my slip-box?* This is just another
+way of asking: *Why did the aspects I wrote down catch my interest?*
+#+end_quote
+
+** How should index and overview notes be created? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:08:19Z
+:FC_TYPE:  normal
+:ID:       38b4d933-e1a7-43ab-a566-cbeb6bbc033a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:08:19Z |
+:END:
+
+*** Back
+Overviews are not necessary. It is preposterous to have an overview of our thinking if we are still developing it
+Indexes should not be exhaustive. Actually, they should have only *entry points to topics*. The previously established connections between the notes will do the rest.
+We can have a temporary *overview of a topic* inside a note. And then link those "topic overviews" as entries in our index. AND THAT'S IT.
+
+  #+begin_quote
+The consideration of how to
+structure a topic, therefore, belongs on notes as well – and not on a meta-
+hierarchical level. We can provide ourselves with a (temporarily valid)
+overview over a topic or subtopic just by making another note. If we then link
+from the index to such a note, we have a good entry point. If the overview on
+this note ceases to correctly represent the state of a cluster or topic, or we
+decide it should be structured differently, we can write a new note with a
+better structure and update the respective link from the index.
+  #+end_quote
+
+The question we should ask ourselves when tagging something is:
+  #+begin_quote
+In which circumstances will I want to stumble upon this note, even if I forget about it?
+  #+end_quote
+
+*Overview notes* are entry points to a subject. They will be listed in the index and in them are links to other notes on the topic *with a short description* (a short sentence). Don't go overboard. Those notes shouldn't have more than 25 (the luhmann maximum).
+
+If you believe your overview notes are not adequate do not delete them. Add a new note, comment on the one before, and then specify the new structure of the topic. Most of the time, however, we will be making note-to-note links, instead of index-to-overview-to-notes links.
+
+
+** Why should main notes be small? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:09:38Z
+:FC_TYPE:  normal
+:ID:       df0c90ae-3d1f-49f2-b412-64b0cb0ed47b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:09:38Z |
+:END:
+*** Back
+
+Because we want to have a smooth workflow and our focus is on developing ideas and not always doing a thorough review as this one. Also, short notes allow us to recombine them !
+
+This leads us to the motto: *ONE PAGE PER IDEA ONE NOTE PER PAGE*
+
+** Why you shouldn't do a brainstorm? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:12:26Z
+:FC_TYPE:  normal
+:ID:       60e842e7-010b-453f-a270-24140dd74c70
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:12:26Z |
+:END:
+*** Back
+Because it will lead to positive feature effect: you will remember stuff which you've seen recently. Instead do a slip-box storming
+
+** How do we keep ourselves motivated in our study routine? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:13:39Z
+:FC_TYPE:  normal
+:ID:       89a576dc-7896-449f-b108-01f1d499a7f1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:13:39Z |
+:END:
+
+*** Back
+- Ask yourself why you are doing what you are doing
+- Ask yourself how this connects with your personal goals
+- Define concrete, actionable tasks
+
+
+** Which logic for my types of notes have I implemented? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-14T20:26:51Z
+:FC_TYPE:  normal
+:ID:       e13f1c7c-bcd5-45e5-9471-42e830e814f8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-14T20:26:51Z |
+:END:
+*** Back
+ Since I'm taking fleeting notes, flashcards, literature notes  and main notes all in the same folder this might fuck up my slipbox. That is why let us define some rules:
+  - *fleeting notes* live in the Fleeting notes file
+  - *literature notes* are one for each source. They are never tagged, only cited (if it is a book or article. sites are different). They can tag, particularly main notes.
+  - *Main notes* cite literature notes and tag other main notes.
+  - *Flashcards* live inside their literature notes
+  - *Project notes* live inside their projects directories!!!

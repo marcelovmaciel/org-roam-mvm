@@ -1,100 +1,108 @@
 #+TITLE: Reading and reflection methods
 - tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]]
 
+#+BEGIN_SRC elisp
+(buffer-file-name)
+#+END_SRC
 
-* Three passes method
-[[http://ccr.sigcomm.org/online/files/p83-keshavA.pdf]]
+#+RESULTS:
+: /home/mvmaciel/Drive/Org/org-roam-mvm/20200703013409-questions_for_reading.org
 
-** First pass
+I will use a combination of skimming and scanning. This is a combination of the
+[[file:20200714174328-on_the_three_passes_method.org][On the three passes method]], SQ3R and zettelkasten.
 
-This pass should take about five to ten minutes and *consists of the following steps*:
+Right at the beginning I will start with *justification questions*:
 
-1. Carefully read the title, abstract, and introduction
-2. Read the section and sub-section headings, but ignore everything else
-3. Read the conclusions
-4. Glance over the references, mentally ticking off theones you’ve already read
+- Why am I reading this?
+- Where this might be useful?
+- Which project or idea that I already have will benefit from this and how?
 
-At *the end*, answer the 5 Cs:
-1.Category: What type of paper is this?  A measure-ment paper?  An analysis of an existing system?  A description of a research prototype?
+This is a task in itself and I should take a look at my slipbox AND in my projects list. 
 
-2.Context: Which other papers is it related to? Which theoretical bases were used to analyze the problem?
+When reading I'll start with a skim and use the three passes method. That is,
+look at the outline, the abstract, introduction and conclusion.
 
-3.Correctness: Do the assumptions appear to be valid?
+From that I answer the *beginning questions*: 
+- Sobre o que é o trabalho?
+- Qual o tipo de trabalho?
+  - Teorico, metodologico, area, abordagem
+- Qual o objetivo do trabalho? Does it seem to  deliver? Why?
+  - Here think about my latticework of models
+- Qual o argumento geral do texto?
+- Which references are familiar?
+- What categories could I get from skimming?
 
-4.Contributions: What are the paper’s main contribu-tions?
+After that I can *decide If I'm going to scan it (second pass)* and answer some
+*connecting questions:*
 
-5.Clarity: Is the paper well written ?
-
-** Second pass
-
-*Read the paper with greater care*, but ignore details such as proofs. *It helps to jot down the keypoints, or to make comments in the margins*, as you read.  Remember to *mark relevant unread references* for fur-ther reading (this is a good way to learn more about the background of the paper)
-
-*After this pass*, you should be able to grasp the content of the paper.You should be able to summarize the main thrust of the pa-per, with supporting evidence, to someone else
-
-** This pass
-Reimplement the paper. Careful dissection of the paper.
-
-#+begin_quote
-You should identify and challenge every assumption in every statement.Moreover, you should think about how you yourself wouldpresent a particular idea.
-#+end_quote
-* Sonke questions
-Those are questions that aim to connect the notes with other notes and with
-projects.
-
-- What is it about ?
-- What does it mean for ...?
+- What does this all mean for my own
+research and the questions I think about in my slip-box?
 - How does the new information contradict, correct, support, or add to what I already know?
 - How can I combine ideas to generate something new?
 - What questions are triggered by these new ideas?
+- How can this phenomenon be explained by that theory?
+- Are these two ideas contradictory or do they complement each other?
+- Isn’t this argument similar to that one?
+- Haven’t I heard this before?
 
+Create main notes from those questions.
 
+If I decide to scan it then I should read it again while answering:
 
-* Questões Guia
-
-** Perguntas Gerais
-- Qual o argumento geral do texto?
 - Quais os argumentos especı́ficos do texto?
-- Quais os principais conceitos/categorias do texto?
+- (again) Quais os principais conceitos/categorias do texto?
 
-** Trabalho teórico
+Also, to use some of (how many depends on how deep you want to go,
+given time constraints and relevance of the text to your projects/ideas) the following questions:
 
-- Qual a técnica?
-- Qual o sistema alvo?
-- Quais os constituintes do modelo ? Quais seus pres- supostos?
-- Qual constituinte do modelo é foco de análise?
-- Dava para usar outra técnica?
-- Dava para focar em outro constituinte? Dava para modelar num diferente nı́vel?
-- Quais as simplificações feitas pelo modelo? Quais delas podemos modificar?
-- O modelo é fundacional, exploratorio ou organizacional?
-- Se o modelo é fundacional:
-  – Quão flexı́vel é o modelo?
-  – Ele pode ser adaptado para muitas situações? Quais?
-  – Ele permite a revisão de uma linha de pesquisa? Permite a mudança para novas direções? Quais?
-- Se o modelo é organizacional:
-  – Ele subsume outros modelos?
-  – Ele subsume fatos empı́ricos?
-  – Ele nos permite ver como casos são conectados?
-- Se o modelo é exploratório:
-  – O modelo gera afirmações ou contrafactuais de novas formas? Como?
-  – Ele leva o pesquisador a analisar dados de uma nova forma? Dê exemplos dos
-  “empirical puzzles” que ele levanta/sugere.
-** Trabalho Empı́rico
+- Trabalho teórico:
+  - Qual a técnica?
+  - Qual o sistema alvo?
+  - Quais os constituintes do modelo ? Quais seus pres- supostos?
+  - Qual constituinte do modelo é foco de análise?
+  - Dava para usar outra técnica?
+  - Dava para focar em outro constituinte? Dava para modelar num diferente nı́vel?
+  - Quais as simplificações feitas pelo modelo? Quais delas podemos modificar?
+  - O modelo é fundacional, exploratorio ou organizacional?
+  - Se o modelo é fundacional:
+    – Quão flexı́vel é o modelo?
+    – Ele pode ser adaptado para muitas situações? Quais?
+    – Ele permite a revisão de uma linha de pesquisa? Permite a mudança para novas direções? Quais?
+  - Se o modelo é organizacional:
+    – Ele subsume outros modelos?
+    – Ele subsume fatos empı́ricos?
+    – Ele nos permite ver como casos são conectados?
+  - Se o modelo é exploratório:
+    – O modelo gera afirmações ou contrafactuais de novas formas? Como?
+    – Ele leva o pesquisador a analisar dados de uma nova forma? Dê exemplos dos
+    “empirical puzzles” que ele levanta/sugere.
 
-- Qual é a questão central que a autora quer responder?
-- Qual é a definição da variável dependente que a autora quer explicar?
-- Qual a unidade de análise?
-- Quais são as variáveis independentes abordadas pela autora?
-- O modelo testa (modelos competidores), mensura algo, ou caracteriza relações?
-- Qual é a história causal que conecta as variáveis dependentes e independentes?
-- Qual é o desenho de pesquisa utilizado pela(s) autora(s)? Que tipos de
-  evidências elas utilizam para
-testar seu(s) argumento(s)? Há algum problema no desenho de pesquisa?
-- Qual a técnica de pesquisa?
-- Qual é a conclusão empı́rica e teórica do texto?
+- Trabalho Empı́rico
+  - Qual a técnica de pesquisa?
+  - Qual é a conclusão empı́rica e teórica do texto?
+  - Qual é a questão central que a autora quer responder?
+  - Qual é a definição da variável dependente que a autora quer explicar?
+  - Qual a unidade de análise?
+  - Quais são as variáveis independentes abordadas pela autora?
+  - O modelo testa (modelos competidores), mensura algo, ou caracteriza relações?
+  - Qual é a história causal que conecta as variáveis dependentes e independentes?
+  - Qual é o desenho de pesquisa utilizado pela(s) autora(s)
+  - Que tipos de evidências elas utilizam para
+  testar seu(s) argumento(s)?
+  -  Há algum problema no desenho de pesquisa?
 
+Finally answer those questions again:
 
+- Where this might be useful?
+- Which project or idea that I already have will benefit from this and how?
+- What does this all mean for my own
+research and the questions I think about in my slip-box?
+- How does the new information contradict, correct, support, or add to what I already know?
+- How can I combine ideas to generate something new?
+- What questions are triggered by these new ideas?
+- How can this phenomenon be explained by that theory?
+- Are these two ideas contradictory or do they complement each other?
+- Isn’t this argument similar to that one?
+- Haven’t I heard this before?
 
-* Further references
-- cite:ahrens2017take
-- [[http://ccr.sigcomm.org/online/files/p83-keshavA.pdf]]
-- cite:Clarke_2012
+Create more main notes. Be happy.

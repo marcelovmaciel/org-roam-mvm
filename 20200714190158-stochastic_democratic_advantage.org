@@ -1,0 +1,19 @@
+#+title: Stochastic democratic advantage
+- tags :: [[file:20200714183949-systemic_view_of_collective_decision_procedures_justification.org][Systemic view of collective decision procedures justification]]
+
+De Tocqueville argues that democracy is not always the best government, but it
+is in the long run. This kind of argument has also been made by
+cite:dahl1989democracy when discussing the utilitarian value of democracy.
+cite:mcgann2006logic also makes this kind of argument when talking about cycles.
+cite:shapiro2009state remembers that too when talking about cycles (in the
+context of the possibility of winning). The *open problem* is: How can we make
+this a rigorous argument? How to distinguish those arguments and unify them
+through a stochastic process model, or family of models? What kind of hypothesis
+can we derive ? Is that an ensemble or time average argument? Does this,
+somehow, connect with the democratic transition literature ?
+
+
+* Further references
+- cite:leroi20_revol
+- cite:eliassi-rad20_what_scien_can_do_democ
+- cite:wiesner18_stabil_democ

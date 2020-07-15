@@ -272,8 +272,6 @@ Expressing our own thoughts in writing makes us realise if we really thought the
   #+end_quote
 
 
-
-
 * Separate and Interlocking Tasks
 
 *(gist)*
@@ -286,7 +284,7 @@ let us be productive instead of depleted by the process.
 
 *(main concepts)*
 
-mere exposure effect; proofreading; outlining; reading and writing tasks; focused vs floating attention; amorphous vs focused tasks attention, short-term memory and motivation; ego depletion
+mere exposure effect; proofreading; outlining; reading and writing tasks; amorphous vs focused tasks attention, short-term memory and motivation; ego depletion
 
 
 *(specific arguments)*
@@ -302,7 +300,7 @@ Ok, but what are some subtasks in the category "writing"?
   - developing thoughts,
   - combining thoughts
 
-Even reading can be split into reading tasks:  Skim vs scan. Most texts should be only skimmed. However, even texts we want a deeper understanding can be profitably skimmed so that we get what is its structure, its ouline.
+Even reading can be split into reading tasks:  Skim vs scan. Most texts should be only skimmed. However, even texts we want a deeper understanding can be profitably skimmed so that we get what is its structure, its outline.
 
 Successful creative endeavors require both a playful open mind and a narrow analytical frame Once again he goes against making plans. *Following rules strictly make you a performer, not a master or even an expert of an activity.*
 
@@ -311,8 +309,6 @@ This all leads to *breaking down amorphous tasks into smaller tasks* that can be
 
 Reduce the number of decisions you make. This will leave more ego space for
 important decisions. *Taking breaks is also important (walking, nap, and so on).*
-
-
 
 
 * Read for Understanding
@@ -350,8 +346,6 @@ The only criterion of addition into the slipbox is whether it contributes to som
 
 *Do not focus too much on individual projects, but towards all possible connections.*
 
-
-
 * Take smart notes
 
 *(gist)*
@@ -363,7 +357,7 @@ will allow us to understand and create.
 
 
 *(main concepts)*
-*external scaffolding; **triggering cues*; cramming; contrasting
+*external scaffolding; *triggering cues*; cramming; contrasting
 
 *(specific arguments)*
 

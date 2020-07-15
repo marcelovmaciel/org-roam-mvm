@@ -1,0 +1,19 @@
+#+title: On kinds of activities
+
+To organize my [[file:20200714212154-in_which_i_define_my_agenda_organization.org][agenda]] I have to determine, first, the kinds of activities that I
+perform, and where each thing will be.
+
+I believe that I work with the following more abstract "tasks" : ideas,
+questions and projects.
+
+- *Ideas* are propositions, insights, and things like that. They stay solely in
+  the zettelkasten process. Quick ideas go into the fleeting notes inbox and are
+  later transformed into permanent notes.
+- *Questions* , however, appear most of the theme /while/ in the zettelkasten
+  system, but not only. Questions are questions that appear while studying or
+  simply thinking in general. They will be left in questions-list file to be
+  daily or weekly processed so that they become projects.
+- Projects are anything which require multiple tasks to be concluded.
+  - Writing software
+  - Answering a question which appeared while studying
+  - Writing a paper

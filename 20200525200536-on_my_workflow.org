@@ -5,11 +5,13 @@ I'm going to use org-agenda, org-journal, org-roam, org-ref and org-fc.
 
 The day starts by looking my agenda. There I'll see what I've got to do, the priorities and so on.
 
+Probably I will start the day processing my gtd inbox, if I haven't done that at night together with my journal.
+
 Whenever I start a study block I ought to do so by going into my slipbox and trying to refine. Be it through creating permanent notes from literature notes, navigating the notes, refining the notes (editing, creating new connections, removing connections).
 
 Flashcards should be reviewed in intervals or be given at least one pomodoro interval. 
 
-Everyday **fleeting notes** will be taken using org-journal. Whenever
+Everyday **fleeting notes** will be taken. Whenever
 I read a paper or book I'll throw it in the pdfs org-ref
 directory. Then add its entry to the main org-ref bibliography. I will
 highlight and add notes on the file if possible, if not create a
@@ -41,6 +43,7 @@ The notes you take on documents is different from the notes that will go in your
 
 
 #+end_src
+
 The workflow for websites and videos is similar. The only difference
 is that there is nothing to download or configure. I'll simply create
 a source note and from it create the permanent notes.
@@ -51,7 +54,8 @@ In the end the source file will only show the structure of the source and links 
 
 In the end of the work day I'll write in my journal what I've done and what I failed to do. This will help me update my agenda.
 
-I'll also have a general todo file which will interact with my agenda file.
+
+Weekly I must process files in the *Projects* directory. I ought to try to turn them into projects.
 
 While reading is also useful to define some colors for highlighting stuff.
 

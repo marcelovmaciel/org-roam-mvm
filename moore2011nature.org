@@ -1,0 +1,17 @@
+#+TITLE: cite:moore2011nature: The nature of computation
+#+ROAM_KEY: cite:moore2011nature
+
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: moore2011nature
+:NOTER_DOCUMENT: %(orb-process-file-field "moore2011nature")
+:AUTHOR: Moore, C. & Mertens, S.
+:JOURNAL:
+:DATE:
+:YEAR: 2011
+:DOI:
+:URL:
+:END:
+
+
+Stub, for now.

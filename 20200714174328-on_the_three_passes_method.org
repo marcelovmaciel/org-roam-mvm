@@ -1,0 +1,37 @@
+#+title: On the three passes method
+
+* Three passes method
+[[http://ccr.sigcomm.org/online/files/p83-keshavA.pdf]]
+
+** First pass
+
+This pass should take about five to ten minutes and *consists of the following steps*:
+
+1. Carefully read the title, abstract, and introduction
+2. Read the section and sub-section headings, but ignore everything else
+3. Read the conclusions
+4. Glance over the references, mentally ticking off theones you’ve already read
+
+At *the end*, answer the 5 Cs:
+1.Category: What type of paper is this?  A measure-ment paper?  An analysis of an existing system?  A description of a research prototype?
+
+2.Context: Which other papers is it related to? Which theoretical bases were used to analyze the problem?
+
+3.Correctness: Do the assumptions appear to be valid?
+
+4.Contributions: What are the paper’s main contribu-tions?
+
+5.Clarity: Is the paper well written ?
+
+** Second pass
+
+*Read the paper with greater care*, but ignore details such as proofs. *It helps to jot down the keypoints, or to make comments in the margins*, as you read.  Remember to *mark relevant unread references* for fur-ther reading (this is a good way to learn more about the background of the paper)
+
+*After this pass*, you should be able to grasp the content of the paper.You should be able to summarize the main thrust of the pa-per, with supporting evidence, to someone else
+
+** This pass
+Reimplement the paper. Careful dissection of the paper.
+
+#+begin_quote
+You should identify and challenge every assumption in every statement.Moreover, you should think about how you yourself wouldpresent a particular idea.
+#+end_quote

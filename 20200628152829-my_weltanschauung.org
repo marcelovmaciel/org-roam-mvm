@@ -127,18 +127,28 @@ Modeling is about methodology, algorithms about tecnhiques,
 sociotechnical systems as target systems and evolution as a privileged
 algorithm.
 
-- Sources of inspiration:
+*** Inspiration
   - Simon
   - Ostrom
   - Dedeo  [[http://simondedeo.com/][Axiom of Chance – thoughts from the Laboratory for Social Minds at Carnegie M...]]
   - Dodds
   - Shalizi
+  - Martin gerlach
   - Mcelreath
   - Smaldino
   - Page
   - Act community
   - Laver
   - DAG community
+
+Moretti is also a huge source of inspiration (as he interleaves nlp with
+evolutionary thinking):
+
+- cite:moretti2005graphs
+- cite:moretti2013distant
+- [[https://newleftreview.org/issues/II41/articles/franco-moretti-the-end-of-the-beginning][Franco Moretti, The End of the Beginning, NLR 41, September–October 2006]]
+- [[https://newleftreview.org/issues/II34/articles/christopher-prendergast-evolution-and-literary-history][Christopher Prendergast, Evolution and Literary History, NLR 34, July–August ...]]
+- cite:jockers2013macroanalysis
 
 ** [#C] Modeling
 *** [#C] Epistemology of modeling
@@ -231,23 +241,13 @@ I already have a project idea on that: [[file:20200616033314-fairness_in_ml_thro
 - [[https://allmodels.ai/][allmodels.ai]]
 - [[https://dhdebates.gc.cuny.edu/][Debates in the Digital Humanities]]
   
-*** Sources of inspiration
-
-The works from the laboratory from dedeo and dodds are one my main
-inspirations here:
-
-Moretti is also a huge source of inspiration (as he interleaves nlp with
-evolutionary thinking):
-
-- cite:moretti2005graphs
-- cite:moretti2013distant
-- [[https://newleftreview.org/issues/II41/articles/franco-moretti-the-end-of-the-beginning][Franco Moretti, The End of the Beginning, NLR 41, September–October 2006]]
-- [[https://newleftreview.org/issues/II34/articles/christopher-prendergast-evolution-and-literary-history][Christopher Prendergast, Evolution and Literary History, NLR 34, July–August ...]]
-- cite:jockers2013macroanalysis
 
 
 
- Roth also has some good papers.
+
+
+
+
 ** [#A] SCX-Evolution
 
 I'm particularly interested in SCX as an *algorithmic view of life*.

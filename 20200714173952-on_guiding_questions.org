@@ -1,0 +1,73 @@
+#+title: On guiding questions
+
+- ref ::  cite:ahrens2017take
+
+* Sonke questions
+Those are questions that aim to connect the notes with other notes and with
+projects.
+
+
+- What does it mean for ...?
+- How does the new information contradict, correct, support, or add to what I already know?
+- How can I combine ideas to generate something new?
+- What questions are triggered by these new ideas?
+
+
+
+
+
+* Perguntas Gerais
+- Sobre o que é o trabalho?
+- Qual o tipo de trabalho?
+  - Teorico, metodologico, area, abordagem
+- Qual o objetivo do trabalho?
+- Qual o argumento geral do texto?
+- Quais os argumentos especı́ficos do texto?
+- Quais os principais conceitos/categorias do texto?
+
+
+** Trabalho teórico
+
+- Qual a técnica?
+- Qual o sistema alvo?
+- Quais os constituintes do modelo ? Quais seus pres- supostos?
+- Qual constituinte do modelo é foco de análise?
+- Dava para usar outra técnica?
+- Dava para focar em outro constituinte? Dava para modelar num diferente nı́vel?
+- Quais as simplificações feitas pelo modelo? Quais delas podemos modificar?
+- O modelo é fundacional, exploratorio ou organizacional?
+- Se o modelo é fundacional:
+  – Quão flexı́vel é o modelo?
+  – Ele pode ser adaptado para muitas situações? Quais?
+  – Ele permite a revisão de uma linha de pesquisa? Permite a mudança para novas direções? Quais?
+- Se o modelo é organizacional:
+  – Ele subsume outros modelos?
+  – Ele subsume fatos empı́ricos?
+  – Ele nos permite ver como casos são conectados?
+- Se o modelo é exploratório:
+  – O modelo gera afirmações ou contrafactuais de novas formas? Como?
+  – Ele leva o pesquisador a analisar dados de uma nova forma? Dê exemplos dos
+  “empirical puzzles” que ele levanta/sugere.
+** Trabalho Empı́rico
+
+- Qual é a questão central que a autora quer responder?
+- Qual é a definição da variável dependente que a autora quer explicar?
+- Qual a unidade de análise?
+- Quais são as variáveis independentes abordadas pela autora?
+- O modelo testa (modelos competidores), mensura algo, ou caracteriza relações?
+- Qual é a história causal que conecta as variáveis dependentes e independentes?
+- Qual é o desenho de pesquisa utilizado pela(s) autora(s)? Que tipos de
+  evidências elas utilizam para
+testar seu(s) argumento(s)? Há algum problema no desenho de pesquisa?
+- Qual a técnica de pesquisa?
+- Qual é a conclusão empı́rica e teórica do texto?
+
+
+
+
+* Justification questions
+- Why am I reading this?
+- Where this might be useful?
+- Which project or idea that I already have will benefit from this and how?
+* Further references
+- cite:Clarke_2012

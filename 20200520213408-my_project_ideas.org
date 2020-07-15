@@ -5,6 +5,7 @@
 Here are fleeting notes that ought to be better developed.
 
 
+
 * Democratic advantage and ergodicity
 
 
