@@ -14,8 +14,6 @@ projects.
 
 
 
-
-
 * Perguntas Gerais
 - Sobre o que é o trabalho?
 - Qual o tipo de trabalho?

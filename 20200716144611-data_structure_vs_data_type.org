@@ -1,0 +1,9 @@
+#+title: Data Structure vs data type
+- tags :: [[file:moore2011nature.org][cite:moore2011nature: The nature of computation]]
+
+[[https://stackoverflow.com/questions/4630377/explain-the-difference-between-a-data-structure-and-a-data-type][language agnostic - Explain the difference between a data *structure* and a d...]] :
+  #+begin_quote
+ a data structure is a mathematical object with some set of properties that can
+ be realized in many different ways as data types. A data type is just a class
+ of values that can be concretely constructed and represented.
+  #+end_quote

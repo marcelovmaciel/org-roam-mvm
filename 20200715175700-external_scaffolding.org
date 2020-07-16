@@ -1,0 +1,15 @@
+#+title: External scaffolding
+- tags :: [[file:20200715175913-sociothenical_view_of_formalization.org][Sociothenical view of formalization]]
+
+I already have the theory that the value  of formalization lies not in rigour but in tweaking, tinkering and delegating to an external system.
+
+The thing is cite:ahrens2017take argues the same. He defends the role of writing in helping developing ideas and making our ideas clearer, but the same could be said about formal models.
+
+He also connects with my argument about sharing, which he frames as related to publicization of our thoughts.
+
+
+The next step is to relate this with plotting and diagrams.
+
+* further references
+
+- cite:stjernfelt2007diagrammatology

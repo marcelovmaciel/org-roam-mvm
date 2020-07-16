@@ -1,0 +1,40 @@
+#+title: Sociothenical view of formalization
+- tags :: [[file:20200711113146-science_dimension_provocations.org][Science dimension provocations]]
+
+
+
+
+There is also another provocation essay lurking here. There is a widespread
+old-fashioned view of the virtues of formalization in the social sciences. The
+common argument is that formal models are useful because they are rigorous, and
+rigor leads to better argument. I disagree because this is an individualist,
+value-laden (rigorous good, mathematical good) and in the end misleading
+perspective on the role of formal models.
+
+  This is obviously related to a more general empiricist perspective on
+  modeling, but lets not dwell on that front.
+
+  I have a sociotechnical view in the following way. Formal systems are a kind
+  of language, with well delimited syntax and semantics. It is too restrictive
+  to believe that there is a causal power behind this rigor. I can even draw a
+  causal diagram that demonstrates that:
+
+ #+BEGIN_LaTeX
+  Rigor $\rightarrow$  Quality
+ #+END_LaTeX
+
+I believe however that a better perspective would emphasize?
+- How we delegate cognition to the formal system, which has rules that take us
+  beyond what, in the mean, is possible for a GOOD argument. Przeworski said
+  something about that in an interview in Portuguese. This is a type of
+  ARTIFICIAL intelligence.
+- Another thing is that with the models we create symbolic artifacts which let
+  us play with ideas and, more importantly, share them with other people (those
+  who are trained in the syntax semantics of the formal system).
+
+
+
+
+* Further references
+- Smaldino and mcelreath papers on the evolution of science
+- Smaldino papers on [[file:20200702062139-techniques_refs.org][Techniques refs]]

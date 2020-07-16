@@ -1,7 +1,7 @@
 #+TITLE: cite:moore2011nature: The nature of computation
 #+ROAM_KEY: cite:moore2011nature
 
-* TODO Notes
+* Notes
 :PROPERTIES:
 :Custom_ID: moore2011nature
 :NOTER_DOCUMENT: %(orb-process-file-field "moore2011nature")
@@ -13,5 +13,211 @@
 :URL:
 :END:
 
+* Struct questions
+** What is it about?
 
-Stub, for now.
+** What is the goal of the text?
+** What is the general argument of the text?
+** What are the specific arguments of the text?
+** What are the main concepts of the text?
+
+
+* Headings
+*** Preface
+*** Prologue
+* Justification questions
+** Why am I studying this?
+This is directly related to my self-image as a professional and to almost every
+idea that I have nowadays. Even though I spend most of my day programming, have
+a published paper using a simulation and have ideas/projects related not only to
+programs, but to algorithms and even to the theory computation [fn:algorithm] my
+training on that is sorely lacking to nonexistent.
+
+That is why I intend to use this course-book as a center of gravity for other
+related study projects (such as studying discrete mathematics (cite:Hall_2000
+)).
+** Where this might be useful?
+ I believe in the social computational trinitarianism. Therefore this is useful for all my work.
+** Which project or idea that I already have will benefit from this and how?
+This is part of my [[file:~/Drive/Org/Projects/focus.org::*Learn the foundations in \[\[file:20200702062139-techniques_refs.org\]\[refs\]\] .][Learn the foundations in refs .]] project.
+
+My project with Kaique on Algorithmic institutionalism comes to mind.
+
+Others would be: 
+- [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][On the conditions of manipulability of voting methods]]
+- [[file:20200522151434-social_choice_and_informational_requirement.org][Social Choice and Informational Requirement]]
+
+
+
+
+* Outline
+
+In the course there are  5 units
+- 1. Easy and Hard
+- 2. Algorithms and Landscapes
+- 3. P versus NP
+- 4. Worst-case, Natural, and Random
+- 5. Computation Everywhere
+
+They will be released weekly and require at least 5 hours of effort.
+
+The book has 15 chapters + 1 mathematical appendix; in a total of 945 pages.
+
+
+#+BEGIN_SRC julia :results output
+#=
+(I should have used regex here)
+(couldnt think of  a pure way of doing)
+What do I want:
+-(x1,x2)
+-(x2,x3)
+-(x3,x4)
+
+Also, the mean and mode of this.
+=#
+using Distributions
+let
+    pages = [16, 20, 34, 60, 114, 146, 192, 242, 320, 370, 470, 526, 582, 670, 742, 838, 930 ];
+
+    acc = [ ];
+
+    function getdiff(x,y)
+        push!(acc,y-x )
+        return(y)
+    end
+
+    reduce(getdiff, pages);
+
+    println("Size of each chapter \n $(acc)")
+    println("median and mean chapter size $(median(acc))   $(mean(acc))  ")
+end
+#+END_SRC
+
+#+RESULTS:
+: Size of each chapter
+:  Any[4, 14, 26, 54, 32, 46, 50, 78, 50, 100, 56, 56, 88, 72, 96, 92]
+: median and mean chapter size 55.0   57.125
+
+** toc
+Preface (16)
+1 Prologue (20)
+
+2 The Basics (34)
+
+3 Insights and Algorithms (60)
+
+4 Needles in a Haystack: the Class NP (114)
+
+5 Who is the Hardest One of All? NP-Completeness (146)
+
+6 The Deep Question: P vs. NP (192)
+
+7 The Grand Unified Theory of Computation (242)
+
+8 Memory, Paths, and Games (320)
+
+9 Optimization and Approximation (370)
+
+10 Randomized Algorithms (470)
+
+11 Interaction and Pseudorandomness (526)
+
+12 Random Walks and Rapid Mixing (582)
+
+13 Counting, Sampling, and Statistical Physics (670)
+
+14 When Formulas Freeze: Phase Transitions in Computation (742)
+
+15 Quantum Computation (838)
+
+Mathematical Tools (930)
+
+References (964)
+
+
+
+
+
+* Lectures
+** Unit  1. Easy and Hard
+
+*** Main argument/goal/theme
+
+*** Concepts
+
+- information flow
+- eulerian path:
+  A trail that visits every *edge* only once.
+- hamiltonian path
+  A trail that visits every *node* only once
+- hamiltonian cycle
+Hamiltonian cycle in which the beginning and ending vertices are adjacent,that
+is next to each toher the path is.
+- traceable graph
+  one that contatins a hamiltonian path
+- exhaustive search
+- exponential search tree
+- polynomial vs exponential time
+- divide and conquer
+- recurrence equation
+- (time vs memory vs communication ) scaling with n
+- algorithm scaling
+- Big O notation (Big O(something) = it grows at most as fast as something)
+  - The ratio \({f \over g} \) does not tend to infinity as n grows
+- Big Omega \(\Omega\) notation : \(f = \Omega(g) := g = O(f) \)  "f grows at least as fast as g"
+  - The ratio \({f \over g} \) does not tend to zero as n grows
+- Big Theta \(f = \Theta(g)\) means they grow the same, they are in big O of each other
+  - The ratio (usually) goes to a constant
+- little o \(f = o(g)\) if f grows more slowly than g
+  - The ratio \({f \over g} \) does tends to zero as n grows
+- Polynomial = \(O(n^c)\) for some constant c
+  - The constant is important. If c were a function this would not be a polynomial!!!
+- Exponential = \(2^{\Omega(n^c)}\) for some c>0
+  - It doesnt need to be 2. It can be 10 for example.
+- Decision problem
+    
+*** Propositions
+- Computation may be seen as information flow
+- How did euler solve the bridge problem?
+  - Bridges became edges and locations nodes
+  - The constraint is : visiting all places while not crossing a bridge more than once
+  - There is something with odd and even degree (*see to understand below*)
+  - Something like, if there is no node with odd degree then we cant perform an eulerian cycle
+  - #+begin_quote
+An undirected graph has an Eulerian trail if and only if exactly zero or two
+vertices have odd degree, and all of its vertices with nonzero degree belong to
+a single connected component. #+end_quote
+  - #+begin_quote
+A graph has an Euler circuit if and only if the degree of every vertex is even.
+A graph has an Euler path if and only if there are at most two vertices with odd
+degree. #+end_quote
+
+- While for eulerian paths there is a trick for hamiltonian paths we have to do
+  exhaustive search. One such algorithm is the exponential search tree.
+- One of the *goals of theoretical computer science* is to be able to tell -
+  distinguish - when a problem is more like eulerian paths or more like
+  hamiltonian paths
+- A divide and conquer solution is when we break a problem into smaller problems
+  then break those problems into smaller problems until we can solve the from
+  the smallest step to the medium step to the big problem. That is we break a
+  task into substasks of *same structure* and solve it recursively;
+- We are often interested in how things change as function of the size of the system
+- Apply log to two functions tends to erase their distinctions, while applying
+  exp to them tends to amplify their distinctions.
+- The polynomial vs exponential distinction allows us hint whether we know a
+  trick or we have to do some kind of search without caring about hardware
+  details
+  #+begin_quote
+  A polynomial-time solution indicates that the problem is understood in a general, course-grained sense.
+
+  #+end_quote
+- RAM = random access memory, so it can access random locations of memory unlike
+  the magnetic tape which to access the mth location has to roll the tape O(m)
+  times. So in the RAM \(T\) steps require \(O(T)\) memory, while in the tape it would require \(O(T^2)\). In the end all polynomial.
+- Notice that order gives insight into structure, but for example \(1.001^n\) is smaller than \(n^{100}\) for \(n \leq 1.000.000\) . Pay attention to that in real world settings. 
+
+  
+
+* Footnotes
+
+[fn:algorithm] Here I'm thinking about the distinction made by  cite:Yanofsky_2010 . 

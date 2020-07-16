@@ -87,7 +87,7 @@ For a general framework for characterizing abstract scoring rules see:
 ** Back
   Each voter can voter for or against a single candidate. The winner is the candidate with highest score.
 *  What is approval-voting ?  :fc:
-- sources :: cite:sep-voting-methods
+
 :PROPERTIES:
 :FC_CREATED: 2020-05-22T21:11:16Z
 :FC_TYPE:  normal
@@ -99,6 +99,7 @@ For a general framework for characterizing abstract scoring rules see:
 | front    |  2.5 |   0 |        0 | 2020-05-22T21:11:16Z |
 :END:
 
+- sources :: cite:sep-voting-methods
 ** Back
 
   #+begin_quote

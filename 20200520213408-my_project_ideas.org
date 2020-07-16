@@ -4,12 +4,22 @@
 
 Here are fleeting notes that ought to be better developed.
 
+* Social choice results as artifacts
+- source :: cite:sep-voting-methods
+- tags :: [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][conditions of manipulability]]
+  Pacuit makes the same question as I did years ago:
+  #+begin_quote
+  The main question is whether the voting paradoxes are simply features of the
+  formal framework used to represent an election scenario or formalizations of
+  real-life phenomena. This raises a number of subtle issues about the scope of
+  mathematical modeling in the social sciences,
+  #+end_quote
 
+  This is directly related to the probability of any of the paradoxes
+  (behavioral social choice) and to showing that they indeed occurred in an
+  empirical setting (riker vs makie).
 
-* Democratic advantage and ergodicity
-
-
-  Many political theorists make dynamic arguments - about properties in time series. The insight is that the argument for democracy makes arguments about ensemble AND time averages. This is in robert dahl, mcgann even tocqueville. This should be formalized and connected with wanderley guilherme dos santos discussion about democratic transitions.
+  *My notes, particularly from Nurmi, are relevant here*
 
 * Empirical dialectics and negativity
 
@@ -53,21 +63,6 @@ no fim eu tenho a visao que da pra unificar a pratica cientifica por meio de uma
   both social choice (universal domain) and the theory of majorities as
   coalitions of minorities. Any "universal" aggregation is leaving something
   out, and from a reflective point of view is open to criticism.
-
-* Social choice results as artifacts
-- source :: cite:sep-voting-methods
-
-  Pacuit makes the same question as I did years ago:
-  #+begin_quote
-  The main question is whether the voting paradoxes are simply features of the
-  formal framework used to represent an election scenario or formalizations of
-  real-life phenomena. This raises a number of subtle issues about the scope of
-  mathematical modeling in the social sciences,
-  #+end_quote
-
-  This is directly related to the probability of any of the paradoxes
-  (behavioral social choice) and to showing that they indeed occurred in an
-  empirical setting (riker vs makie).
 
 * What are the 2 normative views of SCFs?
 - source :: cite:sep-voting-methods

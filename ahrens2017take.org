@@ -999,7 +999,7 @@ scaffolding.” (Ibid.)
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T20:01:18Z |
+| front    | 2.50 |   0 |     0.00 | 2020-07-15T18:23:38Z |
 :END:
 *** Back
 By *thinking beyond the frames of the source*. Pick a text. Read it with *your questions in mind* and *relate it to other approaches* instead of adopting the question of the text and how if frames things. Try to think about what *is not* in the text!! *DO NOT* collect de-contextualized quotes from a text

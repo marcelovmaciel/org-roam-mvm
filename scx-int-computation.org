@@ -1,0 +1,4 @@
+#+title: url: Introduction to computation theory
+#+roam_key: https://www.complexityexplorer.org/courses/58-introduction-to-computation-theory
+
+- tags :: cite:moore2011nature

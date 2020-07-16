@@ -191,7 +191,7 @@ CPU, RAM, Disks and Network ports
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-09T18:12:29Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-15T18:36:10Z |
 :END:
 *** Back
 A physical organization of bits

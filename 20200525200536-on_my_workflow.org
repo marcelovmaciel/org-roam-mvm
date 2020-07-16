@@ -55,7 +55,7 @@ In the end the source file will only show the structure of the source and links 
 In the end of the work day I'll write in my journal what I've done and what I failed to do. This will help me update my agenda.
 
 
-Weekly I must process files in the *Projects* directory. I ought to try to turn them into projects.
+Weekly I must process files in the *Projects* directory. I ought to try to turn them into projects. 
 
 While reading is also useful to define some colors for highlighting stuff.
 

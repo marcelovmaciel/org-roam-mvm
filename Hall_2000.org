@@ -15,83 +15,202 @@
 :END:
 
 
-#+TITLE: Study Notes
+* Justification questions
 
-#+BEGIN_SRC haskell :results output
-:l Main
-:m
-#+End_src
+** Why am I reading this?
 
-#+RESULTS:
+Discrete mathematics is used all over cs and particularly as a prerequisite for algorithms. Also, haskell is a good addition to my toolset, because it will train me in three fronts:
+- Pure functional programming, I'm particularly interested in *folding*
+- Type level programming
+- Categorical thinking
 
-~:~ is right associative.
+** Where this might be useful?
+In both social simulation and sociometrics
+** Which project or idea that I already have will benefit from this and how?
 
-#+BEGIN_SRC haskell :results output
+This is part of my [[file:~/Drive/Org/Projects/focus.org::*Learn the foundations in \[\[file:20200702062139-techniques_refs.org\]\[refs\]\] .][Learn the foundations in refs .]] project.
+
+Also, it contributes to the same projects as cite:moore2011nature
+
+* Struct questions
+** What is the subject/goal of the text?
+*** General
+Teach discrete mathematics using haskell
+
+*** Chapter 1 - Introduction to haskell
+Teach haskell
+
+** What are the specific arguments of the text?
+*** Chapter 1 - Introduction to haskell
+- ~:~ is right associative.
+
+ #+BEGIN_SRC haskell :results output
 [1,2,3,4] == 1 : (2 : (3 : (4 : [])))
 foldr (:) [] [1,2,3,4]
 foldr (:) [] [1,2,3,4]  ==  [1,2,3,4]
-#+END_SRC
+ #+END_SRC
 
-#+RESULTS:
-: True
-: [1,2,3,4]
-: True
+  #+RESULTS:
+  : True
+  : [1,2,3,4]
+  : True
 
-List comprehensions allow tuples
-#+BEGIN_SRC haskell
+- Tuples can have more than one type
+- Lists have elements of the same type
+- Basic form of a list comprehension is: [expression | generator]
+- List comprehensions allow tuples
+  #+BEGIN_SRC haskell
 [a*b | (a,b) <- [(1,2), (10,20), (6,6)]]
 #+END_SRC
+  #+RESULTS:
+  | 2 | 200 | 36 |
+- List comprehension can also have more than one generator:
 
-#+RESULTS:
-| 2 | 200 | 36 |
-
-
-They can also have more than one generator:
-
-#+BEGIN_SRC haskell
+  #+BEGIN_SRC haskell
 [(x,y) | x <- [1,2,3], y <- ['a','b']]
 #+END_SRC
 
-#+RESULTS:
-| 1 | a |
-| 1 | b |
-| 2 | a |
-| 2 | b |
-| 3 | a |
-| 3 | b |
+  #+RESULTS:
+  | 1 | a |
+  | 1 | b |
+  | 2 | a |
+  | 2 | b |
+  | 3 | a |
+  | 3 | b |
+- List comprehensions can also have a filter: [expression | generator, filters]
 
-It can also have a filter:
-[expression | generator, filters]
+  #+BEGIN_SRC haskell :results output
+  [x | x <- [0..100], x `mod` 2 == 0 && x `mod` 7 == 0]
+  -- I'm more of a fan of simple function application.
+  filter (\x ->  (&&) (mod x 2 == 0) (mod x  7 == 0))  [0..100]
+  #+END_SRC
 
-#+BEGIN_SRC haskell :results output
-[x | x <- [0..100], x `mod` 2 == 0 && x `mod` 7 == 0]
--- I'm more of a fan of simple function application.
-filter (\x ->  (&&) (mod x 2 == 0) (mod x  7 == 0))  [0..100]
+  #+RESULTS:
+  : [0,14,28,42,56,70,84,98]
+  : Prelude> [0,14,28,42,56,70,84,98]
+
+- Constants in the lhs of function definitions are used for pattern matching.
+- Pattern matching is also used a great deal with tuples and lists
+- Pattern matching on lists require two patterns: the ~[]~ and the ~x:xs~ (base case and rest of recursion)
+- A conditional expression form requires three things:
+  - A boolean expression to be used for choossing
+  - a then expression and an else expression
+  - that these expressions have the same value
+- When functions work for any type we define their type signature using type variables. Those functions are known as *polymorphic functions*
+- foldl and foldr require an initial argument
+
+
+** What are the main concepts of the text?
+*** Chapter 1 - Introduction to haskell
+- command to interpreter (e.g. :load)
+- expressions
+- Strings vs Characters
+- Tuples
+- Lists
+- consing operator (:)
+- list comprehensions
+- function types
+- operators
+- pattern matching
+- first order function vs higher order function
+- full aplication vs partial application
+- conditional expression
+- let expressions (local variables)
+- type variables and polymorphic functions
+- (algebraic) data types
+- constructors
+  - data constructors take 0 or more values and return values
+  - type constructors (~data~) take 0 or more values and return types
+  #+BEGIN_SRC haskell
+data Color = Blue | Green | Red
+#+END_SRC
+ - is an example of a type constructor which takes 0 values and is made up of data constructors which also take 0 values
+
+- everything uppercase in haskell is a constructor
+
+- We have to ~deriving Show~ when declaring a new data type if we want haskell to print values of or type in the repl
+  
+- length
+- !! (index)
+- take
+- drop
+- ++ (append)
+- map
+- zip
+- zipWith
+- foldl and foldr
+- deriving Show
+
+
+* Outline
+I will read the first eleven chapters which are a total of 311 pages.
+
+#+BEGIN_SRC julia :results output
+#=
+(I should have used regex here)
+(couldnt think of  a pure way of doing)
+What do I want:
+-(x1,x2)
+-(x2,x3)
+-(x3,x4)
+
+Also, the mean and mode of this.
+=#
+using Distributions
+let
+    pages = [3, 37, 47, 61, 83,
+             109, 163, 187, 207,
+             223, 267, 311];
+
+    acc = [ ];
+
+    function getdiff(x,y)
+        push!(acc,y-x )
+        return(y)
+    end
+
+    reduce(getdiff, pages);
+
+    println("Size of each chapter \n $(acc)")
+    println("median and mean chapter size $(median(acc))   $(mean(acc))  ")
+end
 #+END_SRC
 
 #+RESULTS:
-: [0,14,28,42,56,70,84,98]
-: Prelude> [0,14,28,42,56,70,84,98]
+: Size of each chapter
+:  Any[34, 10, 14, 22, 26, 54, 24, 20, 16, 44, 44]
+: median and mean chapter size 24.0   28.0
 
-Exercises 3,4,5
-#+BEGIN_SRC haskell :results output
-:l Main
-isA 'a'
-isA 'b'
-ishello "hell"
-ishello "hello"
-removelw " foo"
-removelw "foo"
--- removelw " foo"
+Since I intend to finish it in 10 days i should *AT LEAST* read 30 pages a day. 45 would be better.
+
+
+
+
+* Flashcards
+
+** inhs, What are the requirements of a conditional expression? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-15T18:58:59Z
+:FC_TYPE:  normal
+:ID:       f0888ea1-a776-434c-b4c6-dd957ffd1310
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-15T18:58:59Z |
+:END:
+*** Back
+- A conditional expression form requires three things:
+  - A boolean expression to be used for choossing
+  - a then expression and an else expression
+  - that these expressions have the same value
+
+**** Why does this matter?
+I have been a victim of those requirements.
+- I have written a conditional expression without a else
+- I have written a conditional expression which had then and else expressions of different type
+** inhs, Explain the type signature of foldr
+*** Back
+#+BEGIN_SRC haskell
+foldr :: (a -> b -> b) -> b -> [a] -> b
 #+END_SRC
-
-#+RESULTS:
-
-
-#+BEGIN_SRC  haskell
-
-
-#+END_SRC
-
-#+RESULTS:
-: <no location info>: error: not an expression: ‘’

@@ -262,7 +262,7 @@ Because they cannot enforce the agreement, so previous communications is *cheap 
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:39:24Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-15T18:43:29Z |
 :END:
 - source :: cite:sep-game-theory
 ** Back
