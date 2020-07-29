@@ -175,3 +175,4 @@ Approximation algorithms only guarantee that the value being optimized will be
 within some factor of the optimum value. They do not guarantee that the solution
 they find looks anything like the optimal solution.
 #+end_quote
+* Flashcards

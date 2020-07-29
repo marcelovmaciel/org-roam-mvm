@@ -222,14 +222,19 @@ References (964)
   - The constraint is : visiting all places while not crossing a bridge more than once
   - There is something with odd and even degree (*see to understand below*)
   - Something like, if there is no node with odd degree then we cant perform an eulerian cycle
-  - #+begin_quote
+
+  #+begin_quote
 An undirected graph has an Eulerian trail if and only if exactly zero or two
 vertices have odd degree, and all of its vertices with nonzero degree belong to
-a single connected component. #+end_quote
-  - #+begin_quote
+a single connected component.
+ #+end_quote
+
+
+  #+begin_quote
 A graph has an Euler circuit if and only if the degree of every vertex is even.
 A graph has an Euler path if and only if there are at most two vertices with odd
-degree. #+end_quote
+degree.
+#+end_quote
 
 - While for eulerian paths there is a trick for hamiltonian paths we have to do
   exhaustive search. One such algorithm is the exponential search tree.
@@ -323,8 +328,420 @@ degree. #+end_quote
 - Upper bounds on complexity are much easier to give than lower bounds. You only have to give an algorithm and check it works.
 - P = NP is exactly related to this lower bound problem !!!
 - Reduction may not give us an absolute measure of intrinsic complexity, but it gives us a relative measure: one is as easy/hard as the other if we can reduce it to the other.
--
 
+
+
+
+* Flashcards
+** What is information flow? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T20:54:14Z
+:FC_TYPE:  normal
+:ID:       8c6e5b14-cb6c-4b38-b512-27e19b894c06
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T20:54:14Z |
+:END:
+*** Back
+
+#+begin_quote
+In the context of information theory information flow is the transfer of information from a variable x to a variable y in a given process
+#+end_quote
+
+** What is an Eulerian trail and an eulerian cycle? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T20:56:21Z
+:FC_TYPE:  normal
+:ID:       620dc365-3b02-49a1-9631-f3cfadc98d70
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T20:56:21Z |
+:END:
+*** Back
+
+  #+begin_quote
+An undirected graph has an Eulerian trail if and only if exactly zero or two
+vertices have odd degree, and all of its vertices with nonzero degree belong to
+a single connected component.
+ #+end_quote
+
+
+  #+begin_quote
+A graph has an Euler circuit if and only if the degree of every vertex is even.
+A graph has an Euler path if and only if there are at most two vertices with odd
+degree.
+#+end_quote
+
+** How eulerian and hamiltonian paths illustrate a moral general view of the goal of computer science? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T20:58:05Z
+:FC_TYPE:  normal
+:ID:       6e943cda-69cb-4974-9588-c3d8c1318ea5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T20:58:05Z |
+:END:
+*** Back
+While for eulerian paths there is a trick for hamiltonian paths we have to do exhaustive search. One such algorithm is the exponential search tree. One of the
+*goals of theoretical computer science* is to be able to tell - distinguish -
+when a problem is more like eulerian paths or more like hamiltonian paths
+
+** What is a divide and conquer solution? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T20:59:04Z
+:FC_TYPE:  normal
+:ID:       a167f1de-798b-4c2b-a976-35bbbe5fa7bd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T20:59:04Z |
+:END:
+
+*** Back
+ A divide and conquer solution is when we break a problem into smaller problems
+  then break those problems into smaller problems until we can solve the from
+  the smallest step to the medium step to the big problem. That is we break a
+  task into substasks of *same structure* and solve it recursively;
+** How to reduce or amplify distinctions between the behavior of two functions ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:00:24Z
+:FC_TYPE:  normal
+:ID:       ed8b5893-c8a2-4252-9442-fb903821794e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:00:24Z |
+:END:
+*** Back
+Apply log to two functions tends to erase their distinctions, while applying exp
+to them tends to amplify their distinctions.
+
+** Why do we care about the exponential-polynomial distinction? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:01:03Z
+:FC_TYPE:  normal
+:ID:       8f35f476-d901-4705-9705-dd3a8f92f284
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:01:03Z |
+:END:
+*** Back
+The polynomial vs exponential distinction allows us hint whether we know a
+  trick or we have to do some kind of search without caring about hardware
+  details
+  #+begin_quote
+  A polynomial-time solution indicates that the problem is understood in a general, coarse-grained sense.
+
+  #+end_quote
+
+** How the practical setting differs from the asymptotic one? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:01:56Z
+:FC_TYPE:  normal
+:ID:       68b61a0d-4577-4557-9ae0-e45913b68d77
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:01:56Z |
+:END:
+*** Back
+Maybe an algorithm which performs worse asymptotically will perform better in
+your case.
+
+Order gives insight into structure, but for example \(1.001^n\) is smaller than
+\(n^{100}\) for \(n \leq 1.000.000\) . Pay attention to that in real world
+settings.
+
+
+** What is a hamiltonian path and cycle? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:04:26Z
+:FC_TYPE:  normal
+:ID:       1ec305aa-6a7b-476c-b97a-7e1ca1a9f1c6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:04:26Z |
+:END:
+*** Back
+-  hamiltonian path
+  - A trail that visits every *node* only once
+- hamiltonian cycle
+  - Hamiltonian path in which the beginning and ending vertices are adjacent, next to each other.
+** What are the resources in algorithmic scaling analysis? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:05:27Z
+:FC_TYPE:  normal
+:ID:       05023760-b5a7-4218-bb9d-3772b67fb49a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:05:27Z |
+:END:
+
+*** Back
+We are often interested in how things change as function of the size of the system. That is algorithmic scaling analysis.
+(time vs memory vs communication ) scaling with n is what we tend to care about.
+
+** What is Big O notation? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:08:16Z
+:FC_TYPE:  normal
+:ID:       26dfc891-93d0-4038-8924-13b15dd53886
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:08:16Z |
+:END:
+
+*** Back
+(Big O(something) = it grows at most as fpast as something The ratio \({f \over g} \) does not tend to infinity as n grows
+
+** What is Big Omega notation? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:08:44Z
+:FC_TYPE:  normal
+:ID:       9e6787df-5b3c-40e0-ace4-f6aa05e02584
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:08:44Z |
+:END:
+*** Back
+Big Omega \(\Omega\) notation : \(f = \Omega(g) := g = O(f) \) "f grows at least
+as fast as g". The ratio \({f \over g} \) does not tend to zero as n grows.
+** What is Big Theta notation? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:09:26Z
+:FC_TYPE:  normal
+:ID:       1c23b77c-7cb8-4853-8d76-023b26d0539d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:09:26Z |
+:END:
+*** Back
+ Big Theta \(f = \Theta(g)\) means they grow the same, they are in big O of each
+ other. The ratio (usually) goes to a constant
+** What is little o notation? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:10:14Z
+:FC_TYPE:  normal
+:ID:       f0706d33-cce2-4977-95f4-e5dbef0cb2fb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:10:14Z |
+:END:
+*** Back
+little o = \(f = o(g)\) if f grows more slowly than g. The ratio \({f \over g}
+\) does tend to zero as n grows
+** Spell def of \(O, \Omega, \Theta, o\) notation :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:13:05Z
+:FC_TYPE:  normal
+:ID:       dd17aab4-0239-47a9-8131-d07d702e6e4f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:13:05Z |
+:END:
+*** Back
+- Big O notation (Big O(something) = it grows at most as fpast as something)
+  - The ratio \({f \over g} \) does not tend to infinity as n grows
+  -
+- Big Omega \(\Omega\) notation : \(f = \Omega(g) := g = O(f) \)  "f grows at least as fast as g"
+  - The ratio \({f \over g} \) does not tend to zero as n grows
+- Big Theta \(f = \Theta(g)\) means they grow the same, they are in big O of each other
+  - The ratio (usually) goes to a constant
+- little o \(f = o(g)\) if f grows more slowly than g
+  - The ratio \({f \over g} \) does tend to zero as n grows
+
+** How do we say that something is polynomial or exponential in terms of algorithmic scaling ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:14:20Z
+:FC_TYPE:  normal
+:ID:       065b9c57-5c6a-4993-849e-c97d3d8e8821
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:14:20Z |
+:END:
+*** Back
+Polynomial = \(O(n^c)\) for some constant c
+  - The constant is important. If c were a function this would not be a polynomial!!!
+Exponential = \(2^{\Omega(n^c)}\) for some c>0
+  - It doesnt need to be 2. It can be 10 for example.
+
+** What is the difference between divide and conquer and dynamic programming problems? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:28:54Z
+:FC_TYPE:  normal
+:ID:       3cb218b3-1f1e-4260-adae-cc66e5c37f25
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:28:54Z |
+:END:
+*** Back
+In both we break a bigger problem into a smaller problem. The difference is that in dynamic programming there are *overlapping subproblems* ([[https://stackoverflow.com/questions/13538459/difference-between-divide-and-conquer-algo-and-dynamic-programming][algorithm - Difference between Divide and Conquer Algo and Dynamic Programmin...]]). So, it can be decomposed, but not completely. In divide and conquer approaches you *can* decompose it completely and glue the solutions afterwards.
+** What is the maximum independent set problem? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:32:13Z
+:FC_TYPE:  normal
+:ID:       791ff0b2-b409-4f21-86c5-0f4de6df01fb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:32:13Z |
+:END:
+*** Back
+You have to pick non adjacent nodes whose sum of weights will give you the highest possible value.
+
+** What are opt landscapes? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:35:27Z
+:FC_TYPE:  normal
+:ID:       a045de9b-8297-4100-a530-735cd1df2890
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:35:27Z |
+:END:
+*** Back
+We use this metaphor in many contexts. fitness landscape,
+  energy landscape, payoff landscapes (trickier, because landscapes are related)
+- Some problems only have a simple one mountain, mountain fuji. While other
+  problems have many peaks separated by valleys.
+- When thinking in terms of landscapes we have to define what is the distance.
+  What do we mean when we say that one solution is close or far to another.
+  Topography \(\to\) Topology.
+
+** What is the max flow problem? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:37:43Z
+:FC_TYPE:  normal
+:ID:       8dc3f186-76cd-4346-a89f-915f7c147dd0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:37:43Z |
+:END:
+*** Back
+#+begin_quote
+finding a feasible flow through a flow network that obtains the maximum possible flow rate.
+#+end_quote
+
+** What is the min cut problem? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:38:44Z
+:FC_TYPE:  normal
+:ID:       a0c0dcd9-ad7e-4f4e-b964-75a4cb0ce208
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:38:44Z |
+:END:
+*** Back
+
+#+begin_quote
+In graph theory, a minimum cut or min-cut of a graph is a cut (a partition of the vertices of a graph into two disjoint subsets) that is minimal in some sense. [[https://en.wikipedia.org/wiki/Minimum_cut][Minimum cut - Wikipedia]]
+#+end_quote
+
+** What is the edit distance problem? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:40:19Z
+:FC_TYPE:  normal
+:ID:       3db612fe-931d-4cf4-8de2-bcf056e9b497
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:40:19Z |
+:END:
+*** Back
+#+begin_quote
+edit distance is a way of quantifying how dissimilar two strings (e.g., words) are to one another by counting the minimum number of operations required to transform one string into the other. [[https://en.wikipedia.org/wiki/Edit_distance][Edit distance - Wikipedia]]
+#+end_quote
+
+** What is reducing regarding problems? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:41:20Z
+:FC_TYPE:  normal
+:ID:       0d04d614-b3da-445e-ae02-d70db2edc6ae
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:41:20Z |
+:END:
+
+*** Back
+- Reducing a problem to the other is when you translate examples from one  problem to examples of another problem
+- There is a version of the dating problem in which edges have weights
+- We can translate the dating problem into a case of the max flow problem. This
+  is an example of reduction.
+- Translations between problems is the way we have to say that one problem is at
+  least as had or easy as another.
+- The problem of alignment can also be reduced to the problem of finding the
+  shortest path.
+** What then is complexity (in cs)? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:43:37Z
+:FC_TYPE:  normal
+:ID:       1d249a7a-052e-48ca-a5b8-15e34657b9d0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:43:37Z |
+:END:
+*** Back
+The computer science attitude about complexity is different from the physical one. For computer science systems are not complex, but the *questions* we ask about them are.
+
+The intrinsic, computational, complexity of a problem is *not* subjective. It is the running time (or memory, or any other resource) of the best *possible* algorithm for answering the question.
+Reduction may not give us an absolute measure of intrinsic complexity, but it gives us a relative measure: one is as easy/hard as the other if we can reduce it to the other.
+
+** What is intrinsic complexity? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T21:44:32Z
+:FC_TYPE:  normal
+:ID:       6849e0f8-5eb5-4615-99a1-bc463d62ae3d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T21:44:32Z |
+:END:
+*** Back
+The  complexity of the most efficient algorithm that solves it.
+
+Upper bounds on complexity are much easier to give than lower bounds. You only have to give an algorithm and check it works.
+P = NP is exactly related to this lower bound problem !!!
 
 * Footnotes
 
