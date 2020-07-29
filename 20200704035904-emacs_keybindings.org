@@ -50,8 +50,6 @@
 With C-u C-c .
 
 
-
-
 * How do I refresh buffer to read file again? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-07-13T15:42:39Z

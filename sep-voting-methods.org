@@ -51,8 +51,9 @@
 | front    |  2.5 |   0 |        0 | 2020-06-30T21:08:51Z |
 :END:
 
-- source :: cite:sep-voting-methods
+
 ** Back
+- source :: cite:sep-voting-methods
 It is to model mathematically a voting procedure and derive it from atomic
 definitions and to show it is subject to some axioms.
 
@@ -83,8 +84,9 @@ For a general framework for characterizing abstract scoring rules see:
 | front    |  2.5 |   0 |        0 | 2020-06-30T21:10:34Z |
 :END:
 
-- source :: cite:sep-voting-methods
+
 ** Back
+- source :: cite:sep-voting-methods
   Each voter can voter for or against a single candidate. The winner is the candidate with highest score.
 *  What is approval-voting ?  :fc:
 
@@ -99,9 +101,9 @@ For a general framework for characterizing abstract scoring rules see:
 | front    |  2.5 |   0 |        0 | 2020-05-22T21:11:16Z |
 :END:
 
-- sources :: cite:sep-voting-methods
-** Back
 
+** Back
+- sources :: cite:sep-voting-methods
   #+begin_quote
  Approval Voting: Each voter selects a subset of the candidates (where the empty
 set means the voter abstains) and the candidate(s) with selected by the most
@@ -129,8 +131,9 @@ Saari, D. and J. Van Newenhizen, 1988a, “The problem of indeterminacy in appro
 | front    |  2.5 |   0 |        0 | 2020-05-22T21:13:20Z |
 :END:
 
-- source :: cite:sep-voting-methods
+
 ** Back
+- source :: cite:sep-voting-methods
   #+begin_quote
   Negative voting is tantamount to allowing the voters to support either a
   single candidate or all but one candidate (taking a point away from a
@@ -161,9 +164,10 @@ Honor of Peter C. Fishburn, S. Brams, W. Gehrlein, and F. Roberts (eds.), pp.
 | front    |  2.5 |   0 |        0 | 2020-05-22T21:36:00Z |
 :END:
 
-- source :: cite:sep-voting-methods
+
   
 ** Back
+- source :: cite:sep-voting-methods
 Those are all voting systems that induce cardinal ballots through a **grading language**.
 [[file:~/Drive/Org/imgs/cumulative.png]]
 *  What is Tyranny of the majority and how to deal with it ? :fc:
@@ -222,12 +226,9 @@ elections.
 | front    |  2.5 |   0 |        0 | 2020-05-22T21:59:54Z |
 :END:
 
-- source :: cite:sep-voting-methods
-
-
 
 ** Back
-
+- source :: cite:sep-voting-methods
 Proxy voting is when agents can delegate their vote on some issues. Liquid
 Democracy is when votes can be further delegated.
 

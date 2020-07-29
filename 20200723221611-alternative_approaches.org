@@ -1,0 +1,55 @@
+#+title: url:Information Transfer Economics: It's complicated: alternative approaches to economics
+#+roam_key: http://informationtransfereconomics.blogspot.com/2016/04/its-complicated-alternative-approaches.html
+- tags ::[[file:information_transfer_economics_all_models_are_wrong_but_some_are_tedious.org][url:Information Transfer Economics: All models are wrong, but some are tedious]]
+
+  - People seem to have the desire to add things to models, even if it is not
+    empirically justified
+  - Though we know things about human behavior this does not mean that this will
+    have an impact on aggregate social data
+
+   #+begin_quote
+  Therefore you shouldn't assume that just because you observe it, it is important.
+   #+end_quote
+- The idea of equilibrium is too general. To state your position as against it
+  won't help much in pindown your position.
+- Alternate approaches to economics tend to follow this logic: *I* *feel* you
+  have left out important things, but I do not provide enough *evidence* that
+  those things matter.
+
+Another point he makes is that his approach is based on the *law of large
+numbers* and on *properties of the state space instead of properties of the
+agents.* ([[http://informationtransfereconomics.blogspot.com/2015/10/economics-as-and-versus-social-science.html][Information Transfer Economics: Economics as and versus social
+science]])
+
+#+begin_quote
+
+The key point is that (probably) the only way the actions of millions of complex
+humans can be aggregated in a tractable way is for the law of large numbers to
+kick in. In that case, the bulk properties of the state space tell us more about
+macroeconomic properties than the properties of the agents.
+#+end_quote
+
+
+In [[http://informationtransfereconomics.blogspot.com/2017/01/complex-systems-versus-complicated.html?m=1][Information Transfer Economics: Complex systems versus complicated systems]]
+
+- He argues that complexity is used as synonym for not including what you
+  believe should be included
+- If the macroeconomy cannot be reduced to the micro, how the hell will you turn
+  model it with agent based models? In the end what people are trying to say is
+  that you need to pay more attention to the *interaction procedure*, and ought
+  to aggregate it together with agents change of attributes
+- One important argument made by him is that an emergent system does not need to
+  be complex itself. Actually, non-complex systems might lead to emergent
+  systems which themselves are not complex.
+- It is possible that the representative agent is an emergent concept
+- You might create an overly complicated abm and end up with a dsge
+- To say that the macro does not replicate the micro is basically another
+  assumption. What about *self-replicating systems*?
+- Several different agent models might lead to the same macro theory. On the
+  other hand it is possible that our macro pattern is highly dependent on
+  details of our micro assumptions.
+
+  #+begin_quote
+Since we do not know which simplifications lead to the correct macro model, you might as well avoid the mapping problem that results by just assuming the macro theory is a weakly emergent dimensionally reduced dynamic system and looking for empirical regularities to base an effective macro theory on.
+
+  #+end_quote

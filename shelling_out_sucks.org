@@ -1,7 +1,7 @@
 #+title: url:Shelling Out Sucks
 #+roam_key: https://julialang.org/blog/2012/03/shelling-out-sucks/
 - refs :: cite:ward2014linux
-  
+- [[https://julialang.org/blog/2013/04/put-this-in-your-pipe/][Put This In Your Pipe]]
 
 * Sonke questions
 Those are questions that aim to connect the notes with other notes and with
@@ -19,3 +19,124 @@ Because I'm interested in using Julia for [[file:ninjaaron_administrative_script
 ** Haven’t I heard this before?
 ** How can I combine ideas to generate something new?
 ** What questions are triggered by these new ideas?
+* Struct questions
+** Why am I reading this?
+- relate to ideas or projects
+
+** What is the general argument of the text?
+** What are the specific arguments of the text?
+- Shelling out is brittle because the shell is brittle. Special characters like whitespace lead to code that breaks and even to security flaws
+- Indirection makes the pipe process to be owned by the shell NOT your script. This means that we don't have much control here, for example determining which commands in the pipeline failed or were successful (besides being inefficient, as we are opening a process from a process to run other processes. Why the intermediate step?)
+- Every shelling out must be explicitly checked for failure. Summing all up, something quick becomes bothersome.
+
+- The solution is to remove the middleman. Your script must own the whole process, as it is done by the python ~subprocess~ module
+- Cmds are like an array of string
+  #+BEGIN_SRC julia :results output
+cmd = `perl -e 'print "Hello\n"'`
+collect(cmd)
+  #+END_SRC
+
+  #+RESULTS:
+  : `perl -e 'print "Hello\n"'`
+  : 3-element Array{String,1}:
+  :  "perl"
+  :  "-e"
+  :  "print \"Hello\\n\""
+- Cmd objects allow cartesian products that mimic globbing
+#+BEGIN_SRC julia :results output
+
+dir = "data"; names = ["foo","bar"]; exts=["csv","tsv"];
+`cat $dir/$names.$exts`
+#+END_SRC
+
+#+RESULTS:
+: 2-element Array{String,1}:
+:  "csv"
+:  "tsv"
+: `cat data/foo.csv data/foo.tsv data/bar.csv data/bar.tsv`
+
+** What are the main concepts of the text?
+- shelling out
+  #+begin_quote
+Spawning a pipeline of connected programs via an intermediate shell
+  #+end_quote
+- sanitize
+- subprocess (py)
+- Cmd object
+- Cmd cartesian product 
+* Flaschards
+
+** Insh, How do you search trough directories for a name pattern? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-19T18:24:15Z
+:FC_TYPE:  normal
+:ID:       fbb85f7e-1f50-4ffe-8ee7-362cf9a2550b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   0 |     0.00 | 2020-07-24T14:53:51Z |
+:END:
+
+With find -type -name "glob"
+#+BEGIN_SRC  shell
+find .. -type f -name "foo*"
+#+END_SRC
+
+#+RESULTS:
+| ../org-roam-mvm/foo.jl |
+| ../notes/foo.txt       |
+| ../agenda/foo.org      |
+For more see [[https://stackoverflow.com/questions/52213401/find-all-files-ending-in-extension-in-bash][Find all files ending in extension in bash - Stack Overflow]]
+
+
+#+BEGIN_SRC julia :results output
+readlines(`find .. -type f -name "foo*"`)
+#+END_SRC
+
+#+RESULTS:
+: 3-element Array{String,1}:
+:  "../org-roam-mvm/foo.jl"
+:  "../notes/foo.txt"
+:  "../agenda/foo.org"
+
+
+
+** What is sanitizing? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-19T18:48:58Z
+:FC_TYPE:  normal
+:ID:       c5166591-a50d-4afa-9045-09725dea054b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-19T18:48:58Z |
+:END:
+
+*** Back
+Is when you create safeguards for security holes. SQL and shelling out are
+typical sources of security holes which you have to sanitize.
+** injl, What is the difference between the run and read functions?
+*** Back
+Both receive a Cmd object. Run prints its output while read captures it.
+#+BEGIN_SRC julia :results output
+readlines(`find .. -type f -name "foo*"`)
+#+END_SRC
+
+#+RESULTS:
+: 3-element Array{String,1}:
+:  "../org-roam-mvm/foo.jl"
+:  "../notes/foo.txt"
+:  "../agenda/foo.org"
+
+#+BEGIN_SRC julia :results output
+run(`find .. -type f -name "foo*"`)
+#+END_SRC
+
+#+RESULTS:
+: ../org-roam-mvm/foo.jl
+: ../notes/foo.txt
+: ../agenda/foo.org
+: Process(`find .. -type f -name 'foo*'`, ProcessExited(0))
+

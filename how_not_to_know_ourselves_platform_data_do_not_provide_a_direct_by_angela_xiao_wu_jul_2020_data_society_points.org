@@ -1,0 +1,29 @@
+#+title: How Not to Know Ourselves. Platform data do not provide a direct… | by Angela Xiao Wu | Jul, 2020 | Data & Society: Points
+#+roam_key: https://points.datasociety.net/how-not-to-know-ourselves-5227c185569
+- [[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]]
+
+
+The main concept of the article is *measurement conditions* : "What purpose does
+the measurement initially serve?" Measuring "is not an end in itself, but a
+means for managing events and coordinating actions."
+
+*Platform log data* are administrative data, *"records of their own behavioral
+ experimentation"*, and generated with the following organizational goals in
+ mind: "enlarging advertising income, harvesting intermediary fees, and
+ attracting venture capitals. "
+
+The plaftorms are tweaked based upon those data:
+ #+begin_quote
+ data analytics are integral to the iterative process whereby platforms tinker
+ with their digital architectures in attempts to shape usage in ways that
+ maximize profits.
+ #+end_quote
+
+This all means that
+#+begin_quote
+ platform log data are not “unobtrusive” recordings of human behavior out in the
+ wild. [...] it is difficult to tell to what extent the patterns emerging from
+ platform data are about “us,” [...] When we wind up finding human nature in
+ platform data, we take administrative records from insulated digital
+ experiments as expressions of humanity in our society. T
+#+end_quote

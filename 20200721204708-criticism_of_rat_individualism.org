@@ -1,0 +1,5 @@
+#+title: Criticism of rat individualism
+- tags :: [[file:20200520172702-social_simulation_beyond_coleman_s_boat.org][Social Simulation Beyond Coleman's boat]]
+Authors all the time circumvent the problem of organizations as actors by going into the individual level. The problem is: even individuals may be inconsistent. What we need is a theory of consistency, and not tricks.
+
+An insight from Duncan Black is that aggregation problems may occur in the individual level. For more on that see cite:oppenheimer15_infor_proces_as_parad_decis_makin.

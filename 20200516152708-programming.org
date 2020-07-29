@@ -1,1 +1,17 @@
 #+TITLE: Programming
+
+* Flashcards
+** What is the difference between a thread and a process? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-27T14:23:31Z
+:FC_TYPE:  normal
+:ID:       20d02eff-e8d8-4650-901a-9cbd9c5511a0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-27T14:23:31Z |
+:END:
+*** Back
+A process = program + state of all threads executing the program. Threads share
+resources while programs do not. For more see [[https://www.youtube.com/watch?v=O3EyzlZxx3g][Difference Between Process and Thread - Georgia Tech - Advanced Operating Sys...]]

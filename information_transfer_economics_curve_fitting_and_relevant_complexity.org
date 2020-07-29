@@ -1,0 +1,28 @@
+#+title: url:Information Transfer Economics: Curve fitting and relevant complexity
+#+roam_key: http://informationtransfereconomics.blogspot.com/2017/01/curve-fitting-and-relevant-complexity.html
+- tags :: [[file:information_transfer_economics_all_models_are_wrong_but_some_are_tedious.org][url:Information Transfer Economics: All models are wrong, but some are tedious]]
+
+  The arguments here are the following:
+  - Curve fitting *is* useful because it allow us to *bound the relevant
+    complexity* of our *macroscopic* theoretic models
+  - If we can safely replicate the macrostate using some macro variables the
+    microvariables don't matter *for the reproduction/explanation* of the macro
+    state.
+  - The level of relevant complexity must not be simply asserted; information theory provides a way of simplifying this levels talk.
+
+
+#+begin_quote
+what good are fits to the (economic) data that don't come from underlying
+explanatory (behavior) models?[...] The primary usefulness is that *fits to
+various functional forms (ansatze) bound the relevant complexity of the
+underlying explanatory model*. [...] if the macro-scale result is just log-linear
+(Y = a log X + b) in a single variable then the relevant complexity of your
+underlying model is about two degrees of freedom (a, b).
+
+ [...]
+
+ *Since we are able to reliably reproduce this macroscopic behavior through the  control of a small number of macroscopic degrees of freedom even though we have  absolutely no control over the microstates, the microstates must be largely  irrelevant.*
+
+[...]
+  Information theory provides shortcuts which allow one to deal with complex systems.
+#+end_quote

@@ -20,7 +20,7 @@ Index file for haskell related notes
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-04T01:31:06Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-24T15:07:38Z |
 :END:
 
 - source :: [[https://learnxinyminutes.com/docs/haskell/][Learn Haskell in Y Minutes]]
@@ -363,3 +363,25 @@ added to your project.
 
 - source :: [[http://dev.stephendiehl.com/hask/#ghci][What I Wish I Knew When Learning Haskell 2.5 ( Stephen Diehl )]]
   [[file:../imgs/2020-05-26_22-36-39_screenshot.png]]
+
+
+* Resources
+
+- https://github.com/shajenM/projects/tree/master/towerHanoi (uses brick)
+- http://blog.ezyang.com/about/ (the series about denotational semantics and the
+  type katas)
+- [[https://en.wikibooks.org/wiki/Haskell/Denotational_semantics][Haskell/Denotational semantics - Wikibooks, open books for an open world]]
+- another example using brick https://github.com/Yvee1/hascard
+
+Those are all directly useful tools for haskell programming. Using them would be great and improve work done in haskell.
+
+- [[https://github.com/sdiehl/cabal-edit][GitHub - sdiehl/cabal-edit: A utility for managing Hackage dependencies from ...]]
+- [[https://github.com/kowainik/summoner][GitHub - kowainik/summoner: 🔮 🔧 Tool for scaffolding batteries-included produ...]]
+- [[https://github.com/kowainik/stan][GitHub - kowainik/stan: 🕵️ Haskell STatic ANalyser]]
+- [[https://github.com/jaspervdj/profiteur][GitHub - jaspervdj/profiteur: Visualiser for Haskell (GHC) prof files]]
+- [[https://github.com/facebookincubator/retrie][GitHub - facebookincubator/retrie: Retrie is a powerful, easy-to-use codemodd...]]
+
+Those are webdev tools in haskell. I have no webdev idea for them.
+- [[https://github.com/obsidiansystems/obelisk][GitHub - obsidiansystems/obelisk: Functional reactive web and mobile applicat...]]
+- [[https://github.com/dmjio/miso][GitHub - dmjio/miso: A tasty Haskell front-end framework]]
+- [[https://github.com/digitallyinduced/ihp][GitHub - digitallyinduced/ihp: λ IHP is a modern batteries-included Web Frame...]]

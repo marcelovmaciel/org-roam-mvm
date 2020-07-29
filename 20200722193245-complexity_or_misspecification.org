@@ -1,0 +1,14 @@
+#+title: Complexity or Misspecification
+- tags :: [[file:20200721204708-criticism_of_rat_individualism.org][Criticism of rat individualism]]
+- refs :: cite:page08_uncer_diffic_compl
+
+Is the problem of party competition truly as hard as we say or are the agents
+structuring the problem differently than we theorists?
+
+In general, if there is a choice situation we want to infer the game. If the
+game is too complex there are two possibilities: they are using heuristics or
+they are playing another game.
+
+** analyze laver using analysis of algorithms
+- differentiate heuristics from approximation algorithms for example
+- try to understand the guarantess of each *heuristic* he gives

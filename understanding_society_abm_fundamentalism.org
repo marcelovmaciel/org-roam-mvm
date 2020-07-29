@@ -1,0 +1,29 @@
+#+title: url:Understanding Society: ABM fundamentalism
+#+roam_key: https://understandingsociety.blogspot.com/2016/03/abm-fundamentalism.html
+
+As discusse by little there is an overreaching fundamentalism in the social
+simulation community exemplified by cite:Epstein_2012 motto: "If you didn't grow
+it, you didn't explain it". As Little argues not only abms have to simplify a
+lot the behavior of agents, they also tend to have a difficulty to incorporate
+structural or organizational factors. I do believe, however, that it is not hard
+to incorporate such effects, through for example a differential equation, or
+even some explicit rule beyond the actors methods. The fundamentalism is what
+precludes such social simulation approach.
+
+Beyond this argument of mine it is ridiculous to argue that the *only* approach
+to explain is by growing or even that Abms are generally applicable (exclusivity
+and general adequacy).
+
+One great argument made by little is that those people *assume without
+justification* that only *reductive explanations* are scientifically acceptable.
+Reducibility is related to a claim that our beliefs about lower level components
+are enough to *derive* features of higher levels. The thing is, this is an
+*unwarranted assumption*, if made in general (like Epstein). [[file:information_transfer_economics_all_models_are_wrong_but_some_are_tedious.org][url:Information
+Transfer Economics: All models are wrong, but some are tedious]] argues forcefully
+for a non-reductive approach. Is not like we are going to be holists once again,
+but only to recognize that sometimes effective theories don't *grow* things, but
+zoom at the right level.
+
+Furthermore, Little also demonstrates that there are many other approaches such
+as causal reasoning through process tracing in small n research designs which
+explain phenomena through lets say organizational variables.

@@ -1,0 +1,26 @@
+#+TITLE: Mathematics: a discrete introduction
+#+ROAM_KEY: cite:scheinerman2012mathematics
+*  Notes
+:PROPERTIES:
+:Custom_ID: scheinerman2012mathematics
+:NOTER_DOCUMENT: %(orb-process-file-field "scheinerman2012mathematics")
+:AUTHOR: Scheinerman, E. A.
+:JOURNAL:
+:DATE:
+:YEAR: 2012
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+It will help me with algorithms and anything related to social computational trinitarianism.
+Related readings are cite:moore2011nature and cite:Hall_2000 .
+
+
+
+* Struct questions
+
+** What is the general argument of the text?
+** What are the specific arguments of the text?
+** What are the main concepts of the text?

@@ -1,0 +1,41 @@
+#+title: Information Transfer Economics: The irony of microfoundations fundamentalism
+#+roam_key: http://informationtransfereconomics.blogspot.com/2016/03/the-irony-of-microfoundations.html
+- tags :: [[file:understanding_society_abm_fundamentalism.org][url:Understanding Society: ABM fundamentalism]]
+
+  If there are thousands of agents and lots of parameters for each agent then we
+  have a highly dimensional microstate, but how does this relate to the macro
+  state?
+
+ #+begin_quote
+- The macrostate is a billion dimensional problem (M ~ m)
+- The macrostate is a bit simpler (M < m)
+- The macrostate is a much smaller problem (M << m)
+ #+end_quote
+
+He argues that the idea of *regularity* itself implies some kind of dimensionality reduction. How so?
+#+begin_quote
+t the idea of a macro regularity, say X ~ f(Y), is that you've reduced the
+dimension of your state space. Instead of X, Y and Z, you only have Y and Z
+because X = f(Y). The existence of regularities imply dimensional reduction.
+#+end_quote
+
+One interesting argument he makes is that we do simplify a lot the agents so
+that there is some *tractability*. Why not do the same with society? Why not find
+macro variables that simplify at the macro level?
+
+#+begin_quote
+ Macro: So there is some dimensional reduction at the micro scale?
+
+Micro: There has to be in order to make the simulations tractable -- we're not
+going to simulate a million fully intelligent agents.
+
+Macro: So you've found some dimensional reduction in the problem. Why can't you
+find it at the macro scale?
+
+Micro: I didn't say that.
+
+Macro: Yes, you did. *You said it when you said you have to have agents to explain macro regularities. That implies that you can't find the dimensional reduction at the macro scale.*
+
+#+end_quote
+
+Finally, one *great* argument he makes is that one way we can be confident our models replicate macro properties of real world systems is if we can find many competing models that lead to those properties. In the end, however, why use micro models *at all* ?

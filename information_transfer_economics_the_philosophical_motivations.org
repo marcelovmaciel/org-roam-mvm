@@ -1,0 +1,50 @@
+#+title: Information Transfer Economics: The philosophical motivations
+#+roam_key: http://informationtransfereconomics.blogspot.com/2013/04/the-philosophical-motivations.html
+- tags :: [[file:information_transfer_economics_all_models_are_wrong_but_some_are_tedious.org][url:Information Transfer Economics: All models are wrong, but some are tedious]]
+
+
+One thing that he discusses neatly is the typical complex systems argument that
+details dont matter. *Actually, they do.* We have to be clear when we are
+*crossing levels boundaries.*
+
+#+begin_quote
+ This doesn't mean the details are unimportant -- many (most?) policy ideas in
+ macroeconomics try to cross the boundary from micro to macro (tax incentives,
+ health care economics) where economists try to figure out how changes to the
+ microtheory affect the macrotheory. No one really knows how to do this very
+ well -- in nature, the applicability of the degrees of freedom in the
+ macrotheory usually breaks down before the applicability of the degrees of
+ freedom in the microtheory really kick in.
+#+end_quote
+
+How to build a theory from macro to micro ?
+
+#+begin_quote
+It is in that sense that I am going to try and describe the "emergent" theory of
+macroeconomics rather than build up a model from the ground up ... or another
+way: what would we say about macroeconomics if we didn't know about the
+existence of people in the same way Boltzmann didn't know about the existence of
+atoms? Imagine we are aliens measuring fluctuations in CO2 production from a
+distant observatory. There would be a story of various natural factors but a
+piece would be missing. It would grow exponentially (as Earth industrialized)
+and changes would happen (the "Great Recession" has reduced CO2 production by a
+significant amount, the "technology shock" of changing from coal to natural gas
+in the US has also reduced emissions). An alien comes along and proposes the
+idea of a "civilization" on that planet that does something faster than
+organisms generally grow through network effects so that maybe the individual
+components of this civilization interact and exchange information. The CO2
+measurement would be a proxy for the information exchange -- and is essentially
+the price level in the economy in our model.
+#+end_quote
+
+
+One interesting thing that he discusses in other post is that all those who
+don't use big theory are actually using it implicitly. Society is too complex
+for us to begin with the individual who is also complex. What is happening is
+that we start with an implicit macro understanding, then we go to the individual
+then we derive macro properties from individuals.
+
+*EXAMPLE*
+
+A different approach, however,is to state explicitly our macro theory, than move
+to lower levels.

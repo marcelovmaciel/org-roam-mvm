@@ -1,0 +1,8 @@
+#+title: Social computational trinitarianism
+- tags :: [[file:20200520182016-social_simulation_general.org][Social Simulation General]]
+
+cite:Epstein_2012  argues that code is math to defend the usage of abms. My interest is to go further and see how to actually connect logic with math with computation. Particularly, how to turn "informal theories" into logic into math into computation and how this may be connected with empirical research.
+
+The literature on causal inference may also help by providing a bridge between theories and empirical research. For that see cite:bareinboim20201on, but also cite:murray17_compar_agent_based_model_param and all the references about causal inference in techniques refs.
+
+[[https://www.frontiersin.org/articles/10.3389/fevo.2019.00402/full][Frontiers | Artificial Intelligence for Ecological and Evolutionary Synthesis...]] is something that might help here

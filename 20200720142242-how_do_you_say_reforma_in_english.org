@@ -1,0 +1,15 @@
+#+title: How do you say reforma in english?
+
+* How do you say reforma in english? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-20T17:23:14Z
+:FC_TYPE:  normal
+:ID:       03d66292-14f4-467c-b8d2-9e48c3edcd9e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-20T17:23:14Z |
+:END:
+** Back
+To be under construction. Or to be refurnished.

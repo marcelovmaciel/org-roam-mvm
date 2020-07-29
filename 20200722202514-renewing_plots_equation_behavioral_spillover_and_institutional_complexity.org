@@ -1,0 +1,40 @@
+#+title: project:Renewing plots equation : behavioral spillover and institutional complexity
+- tags :: [[file:20200714183949-systemic_view_of_collective_decision_procedures_justification.org][Systemic view of collective decision procedures justification]]
+This idea actually inspires a whole project. The idea is to follow Ostrom's
+footsteps and try to understand policentric systems *empirically*. Ostrom aimed
+to update Plotts equations by paying attention to the connections between action
+arenas and levels. There is now a huge theoretical literature on that. My
+impression is that this literature is overly theoretical, unlike ostrom, who
+lacked the tools we now have: large datasets, computer clusters and the like.
+
+Though qualitative research, case studies, and experimental methods are useful,
+I believe we can use Ostrom theoretical research, particularly the grammar of
+institutions, to "draw" a map of the ecology of games of government. That is,
+use nlp and network analysis, using her theory as background, to identify arenas
+of conflict in society. The idea differs from others on its macro \(\to\) meso
+appproach, while others take a more \(micro \to meso\) . Obviously this ought to
+be justified. Maybe even empirically. Herein also lies one step that might
+foreclose the whole project. If we do need micro variables to create such a *map
+of the ecology of games* than the project might be impossible, if not
+ill-defined. - [[https://arxiv.org/abs/1409.7403][{1409.7403} Optimal high-level descriptions of dynamical systems]]
+might help here as well the classic Olin Wright controversy with elster.
+
+Dedeo has a similar take in his [[https://www.csmonitor.com/Science/Complexity/2016/0324/The-source-code-of-political-power][The source code of political power - CSMonitor.com]]:
+
+
+#+begin_quote
+*Our goal is to make maps: not of the Earth, but of the landscape of ideas that
+ people use to govern themselves*. And we benefit from a new wave of
+ digitization that allows us to look back as well as forward.
+#+end_quote
+
+This is a rough idea, but fertile. This work has theoretical and empirical
+dimensions. Though the objective is empirical.
+
+From a theoretical point of view I can think of 4 predecessors: policentrism, ecology of games, game+
+and synecological systems theory. The point I want to make is that we must go from closed plot equation to an open, dynamic and highly connected view of plots equation. This is related to letting go of even optimization and care only about connections between situations, as defined by rules.
+
+
+An additional predecessor might be *metagames* ([[https://eprints.soton.ac.uk/405217/1/__userfiles.soton.ac.uk_Users_ojl1y15_mydesktop_Final%2520thesis.pdf][Metagames]]).
+
+From an empirical point of view I have to develop a methodology that agglutinates information theory, natural language processing, network science and inductive game theory.

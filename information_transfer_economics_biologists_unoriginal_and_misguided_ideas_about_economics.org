@@ -1,0 +1,13 @@
+#+title: url:Information Transfer Economics: Biologists' unoriginal and misguided ideas about economics
+#+roam_key: http://informationtransfereconomics.blogspot.com/2015/07/biologists-unoriginal-and-misguided.html
+- [[file:20200723221611-alternative_approaches.org][url:Information Transfer Economics: It's complicated: alternative approaches to economics]]
+  
+"Homo sapiens at the microscale might look like homo economicus in the macro
+scale". That means that the larger the scale the less we should care about
+psychological details.
+
+The number of parameters of an agent based model leads to estimation hell
+through the curse of dimensionality.
+
+ABM lots of times is simply finding the initial condition that gives you the
+intended output - much like any other theoretic research, actually.

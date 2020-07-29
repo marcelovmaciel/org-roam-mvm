@@ -2,7 +2,8 @@
 #+ROAM_KEY: cite:ward2014linux
 
 - tags :: [[file:learn_linux_101_streams_pipes_and_redirects_build_smart_build_secure_ibm_developer.org][Learn Linux, 101: Streams, pipes, and redirects – Build Smart. Build Secure. IBM Developer]]
-  
+
+
 *  Notes
 :PROPERTIES:
 :Custom_ID: ward2014linux
@@ -15,11 +16,10 @@
 :URL:
 :END:
 
-
 * txt structure
 *** Chap 1 - Quadro geral
 *** Chap 2 - Comandos básicos e hierarquia de diretórios
-
+*** Chap 3 - Dispositivos
 
 * Sonke questions
 Those are questions that aim to connect the notes with other notes and with
@@ -77,7 +77,119 @@ This chapter is mostly about concepts.
 - Most commmand line editing kbds follow emacs
 - Directories also have permissions. If you can ~read~ a dir it can be read but
   its files won't be acessable. For that the dir must be executable (~x~)
+*** Chap 3 - Dispositivos
+- device nodes are io interfaces which are presented as files to the user
+- use ls /dev to take a looke at some devices of the system
+  #+BEGIN_SRC shell
+ls /dev  | head -10
+  #+END_SRC
+
+  #+RESULTS:
+  | autofs          |
+  | block           |
+  | bsg             |
+  | btrfs-control   |
+  | bus             |
+  | char            |
+  | console         |
+  | core            |
+  | cpu             |
+  | cpu_dma_latency |
+
+- b c p s are block character pipe and socket devices
+- *block devices* are fixed syze of information (sda1 for example)
+- *character devices* work as  data streams
+- *pipe devices* something similar to character devices
+- *socket devices* are devices used for communication between processes 
+- ls /sys/devices will give you a different look of the system devices
+  #+BEGIN_SRC shell
+ls /sys/devices
+  #+END_SRC
+
+  #+RESULTS:
+  | breakpoint    |
+  | cpu           |
+  | cstate_core   |
+  | cstate_pkg    |
+  | i915          |
+  | intel_pt      |
+  | isa           |
+  | kprobe        |
+  | LNXSYSTM:00   |
+  | msr           |
+  | pci0000:00    |
+  | platform      |
+  | pnp0          |
+  | power         |
+  | software      |
+  | system        |
+  | tracepoint    |
+  | uncore_arb    |
+  | uncore_cbox_0 |
+  | uncore_cbox_1 |
+  | uncore_imc    |
+  | uprobe        |
+  | virtual       |
+
+- devices with sd in their names are hard disk devices (memory)
+- to list hard disks use lsscsi
+  #+BEGIN_SRC shell
+lsscsi
+  #+END_SRC
+
+  #+RESULTS:
+  : [0:0:0:0]    disk    ATA      Lexar SSD        V4.7  /dev/sda
+*** Chap 4 - Dicos e sistemas de arquivos
+- partitions are subdivisions of the whole disk
+- parted and gparted are apps to manage partitions
+- to get a list of partitions use parted -l
+- solid state disks vs hds is something akin to rams vs memory tapes
+- *mkfs* is for creating a filesystem structure for a disk. ONLY do that for empty disks
+- to visualize disks UUId use *blkid*
+- to see the capacity and usage of disks use *df*
+  #+BEGIN_SRC shell
+df -mh | head -10
+  #+END_SRC
+
+  #+RESULTS:
+  | Filesystem | Size | Used | Avail | Use% | Mounted                    | on |
+  | udev       |    7 |    0 |     7 |   0% | /dev                       |    |
+  | tmpfs      |    1 |    2 |     1 |   1% | /run                       |    |
+  | /dev/sda1  | 469G | 146G |  299G |  33% | /                          |    |
+  | tmpfs      |    7 | 227M |     7 |   3% | /dev/shm                   |    |
+  | tmpfs      |    5 |    4 |     5 |   1% | /run/lock                  |    |
+  | tmpfs      |    7 |    0 |     7 |   0% | /sys/fs/cgroup             |    |
+  | /dev/loop2 |  61M |  61M |     0 | 100% | /snap/core20/634           |    |
+  | /dev/loop3 | 256M | 256M |     0 | 100% | /snap/gnome-3-34-1804/36   |    |
+  | /dev/loop0 |    2 |    2 |     0 | 100% | /snap/gnome-calculator/748 |    |
+
+
+- *fsck* is the tool to check a disk, BUT ONLY use it in an unmounted disk
+- if fsck is asking too much you are probably in trouble
+- *fsck -n* verifies the disk without changing anything
+- *swapping* is when part of the ram goes into disk to free ram 
+*** Chap 7 - Configuracao do sistema: logging, hora do sistema ,tarefas em lote e usuarios
+- The software to write scheduled processes is *cron*
+- The form for ~crontab~ command is
+  #+BEGIN_SRC text
+min hour month-day month weekday command
+  #+END_SRC
+- To replace any of the fields with any min or hour and so on use ~*~
+- More of one option can be set with ,
+  #+BEGIN_SRC text
+15 09 5,14  * *  command
+  #+END_SRC
+- crontab files live in "/var/spool/cron/crontabs"
+- The easiest way to put into crontab is to put the commands in a file and then load the file with
+  #+BEGIN_SRC text
+crontab file
+  #+END_SRC
+- *fcron* is a more modern alternative to cron
+- *at* is a one time cron alternative (atq and atrm check and remove jobs
+  respectively).
+- For more on crontab see [[https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804][How To Use Cron to Automate Tasks on Ubuntu 18.04 | DigitalOcean]]
 ** What are the main concepts of the text?
+
 *** Chap 1 - Quadro geral
 - abstraction
 - level/layer
@@ -150,7 +262,25 @@ This chapter is mostly about concepts.
 - tar
   
 
+*** Chap 3 - Dispositivos
+- sysfs
+- udev
+- device nodes
+- block, character, pipe and socket devices 
+- uuid - universally unique identifier (something like a serial number)
+- blkid
 
+*** Chap 4 - Dicos e sistemas de arquivos
+- swap
+- partitions
+- ssd
+
+- parted gparted
+- mkfs
+- mount
+*** Chap 7 - Configuracao do sistema: logging, hora do sistema ,tarefas em lote e usuarios
+- cron
+- crontab 
 * Flashcards
 ** What is a linux layer? :fc:
 :PROPERTIES:
@@ -400,7 +530,7 @@ To copy all fs to a dir. The command ~mv~ follows a similar logic !
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-09T18:49:06Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-19T13:38:33Z |
 :END:
 *** Back
 It creates a file if it does not exist, but if it does it changes its timestamp
@@ -598,7 +728,7 @@ ls | tail | sort -r
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-09T20:39:43Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-24T15:10:29Z |
 :END:
 *** Back
 With the command passwd.

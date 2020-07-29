@@ -276,11 +276,6 @@ A social choice rule that always produces a unique winning alternative.
 
 
 ** What is the Borda Count? :fc:
-
-- source :: cite:sep-social-choice,sep-voting-methods
-
-
-
 :PROPERTIES:
 :FC_CREATED: 2020-05-21T00:32:31Z
 :FC_TYPE:  normal
@@ -292,6 +287,7 @@ A social choice rule that always produces a unique winning alternative.
 | front    |  2.5 |   0 |        0 | 2020-05-21T00:32:31Z |
 :END:
 
+
 *** Back
 
 - Its is a type of scoring rule. In this case the scores are $(n-1,n-2, \ldots ,
@@ -299,9 +295,9 @@ A social choice rule that always produces a unique winning alternative.
 - This differs from the definition below because of indexing!!!!
 
 [[file:../imgs/Social_Choice_Theory_-_SEP/2020-04-23_18-39-31_screenshot.png]]
-
+- source :: cite:sep-social-choice,sep-voting-methods
 ** What is triple wise value restriction ? :fc:
-- source :: cite:sep-social-choice
+
 
 :PROPERTIES:
 :FC_CREATED: 2020-05-21T00:31:13Z
@@ -319,7 +315,7 @@ A social choice rule that always produces a unique winning alternative.
 - Other domain-restriction conditions with similar implications include single-cavedness, a geometrical mirror image of single-peakedness (Inada 1964), separability into two groups (ibid.), and latin-squarelessness (Ward 1965), the latter two more complicated combinatorial conditions (for a review, see Gaertner 2001). Sen (1966) showed that all these conditions imply a weaker condition, triple-wise value-restriction.
 - Sen, A. K., 1966, “A Possibility Theorem on Majority Decisions.” Econometrica, 34: 491–499.
 
-
+- source :: cite:sep-social-choice
 
 **  What are the assumptions of Condorcet's JT? :fc:
 :PROPERTIES:

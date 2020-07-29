@@ -38,3 +38,4 @@ I believe however that a better perspective would emphasize?
 * Further references
 - Smaldino and mcelreath papers on the evolution of science
 - Smaldino papers on [[file:20200702062139-techniques_refs.org][Techniques refs]]
+- [[https://arxiv.org/abs/2004.00055][{2004.00055} Explosive Proofs of Mathematical Truths]]

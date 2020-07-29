@@ -1,0 +1,47 @@
+#+title: Buffer definition by The Linux Information Project (LINFO)
+#+roam_key: http://www.linfo.org/buffer.html
+- biblio :: cite:ward2014linux
+- tags :: [[file:20200516152708-programming.org][Programming]]
+
+A buffer is a memory space reserved for transition between differently spaced components of the system - such as cpu and hdd.
+The definition is the following:
+
+#+begin_quote
+
+
+A buffer, also called buffer memory, is a portion of a computer's memory that is
+set aside as a temporary holding place for data that is being sent to or
+received from an external device, such as a hard disk drive (HDD), keyboard or
+printer.
+
+[...]
+
+. A buffer in a computer system is usually located between two devices that have
+different speeds for handling data or used when there is a difference in the
+timing of events.
+#+end_quote
+
+Emacs buffers are examples of buffers lol
+
+#+begin_quote
+
+ For example, CPUs (central processing units) have far higher speeds than HDDs,
+ and thus data that is to be used by a CPU is first copied from a HDD to a
+ buffer while the CPU is performing other tasks so that it will be available for
+ the CPU to use at high speed, i.e., without wasting the CPU's time waiting for
+ the data.
+
+ Most text editors store the file being written or edited in a buffer. The text
+ is transferred to the HDD when it is saved, i.e., data from the buffer is
+ copied over the original file on the HDD, thereby replacing it. Because changes
+ are initially stored in a buffer, all of them will be lost if the computer
+ crashes during an editing session.
+#+end_quote
+
+Buffers are one source of vulnerability in the system.
+
+#+begin_quote
+ In a buffer overflow attack, the extra data contains code designed to trigger
+ specific actions that could change data, damage files or disclose confidential
+ information.
+#+end_quote

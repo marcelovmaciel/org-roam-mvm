@@ -56,6 +56,7 @@ the other side is voting and aggregation. This gives a full picture of
 collective decision making in both a micro and macro perspective, while giving a
 role to power and calling society through the backdoor.
 
+This might be somehow related to the self-referentiality of social systems cite:luhmann1987tautology .
 
 * Further references
 - Some hermeneutics: cite:sep-hermeneutics
@@ -63,7 +64,9 @@ role to power and calling society through the backdoor.
   - Bianchin, M. (2020). Explaining ideology: mechanisms and metaphysics.  Philosophy of the Social Sciences, 50(4), 313–337.   http://dx.doi.org/10.1177/0048393120917758 cite:bianchin20_explain_ideol
   - Bianchin, M. (2019). Ideology, critique, and social structures. Critical  Horizons, nil(nil), 1–13. http://dx.doi.org/10.1080/14409917.2019.1676942
   - Jaeggi, R. (2009). Rethinking ideology. In (Eds.), New waves in political philosophy (pp. 63–86). : Springer.
-
+- [[https://www.amazon.com/Resisting-Reality-Social-Construction-Critique/dp/0199892628/ref=sr_1_1?dchild=1&keywords=resisting+reality&qid=1595883797&sr=8-1][Resisting Reality: Social Construction and Social Critique: Haslanger, Sally:...]]
+- [[https://www.degruyter.com/view/journals/jso/5/2/article-p229.xml][Précis: Categories We Live By in: Journal of Social Ontology Volume 5 Issue 2...]]
+- [[https://www.amazon.com/Categories-We-Live-Construction-Philosophy/dp/019025680X/ref=sr_1_1?dchild=1&keywords=categories+we+live+by&qid=1595883776&sr=8-1][Categories We Live By: The Construction of Sex, Gender, Race, and Other Socia...]]
 - shapiro vs buchanan and tullock
 - realist political theory
   - see the socialist that I follow that is geussian

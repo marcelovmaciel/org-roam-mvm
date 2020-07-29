@@ -111,7 +111,6 @@ is important it is too inderterminate (see binmore on elster and elster
 articles). Understanding its limitations is paramount, particularly because a
 great deal of good work uses it.
 
--  cite:bulle17_can_analy_sociol_do_without_method_indiv
 - Elster critiques of the academic status quo:
   - Elster, J. (2011). Hard and soft obscurantism in the humanities and social  sciences. Diogenes, 58(1-2), 159–170.   http://dx.doi.org/10.1177/0392192112444984 cite:elster11_hard_soft_obscur_human_social_scien
   - Elster, J. (2009). Excessive ambitions. Capitalism and Society, 4(2), .
@@ -240,9 +239,13 @@ I already have a project idea on that: [[file:20200616033314-fairness_in_ml_thro
 - Those are great papers about the web: http://angelaxiaowu.com/publications.html
 - [[https://allmodels.ai/][allmodels.ai]]
 - [[https://dhdebates.gc.cuny.edu/][Debates in the Digital Humanities]]
-  
-
-
+- [[https://www.amazon.com/Machine-Learners-Archaeology-Practice-Press/dp/0262036827/ref=sr_1_1?dchild=1&keywords=Machine+learners%3A+Archaeology+of+a+data+practice.&qid=1596040304&sr=8-1][Machine Learners: Archaeology of a Data Practice (The MIT Press): Mackenzie, ...]]
+- [[https://www.amazon.com/Beautiful-Data-History-Experimental-Futures/dp/0822357445/ref=pd_sbs_14_1/138-3667455-2371536?_encoding=UTF8&pd_rd_i=0822357445&pd_rd_r=38316b19-ea85-4e6a-a919-70402d740425&pd_rd_w=LjiPv&pd_rd_wg=qkKPV&pf_rd_p=bc074051-81d1-4874-a3fd-fd0c867ce3b4&pf_rd_r=M5M8DM71D75J7GKGQH3K&psc=1&refRID=M5M8DM71D75J7GKGQH3K][Beautiful Data: A History of Vision and Reason since 1945 (Experimental Futur...]]
+- [[https://journals.sagepub.com/doi/10.1177/1359183518820366][Captivating algorithms]]
+- [[https://limn.it/articles/can-an-algorithm-be-wrong/][Limn Can an Algorithm be Wrong?]]
+- [[https://www.amazon.com/Custodians-Internet-Platforms-Moderation-Decisions/dp/030017313X/ref=sr_1_1?dchild=1&keywords=tarleton+gillespie&qid=1596042112&sr=8-1][Custodians of the Internet: Platforms, Content Moderation, and the Hidden Dec...]]
+- [[https://www.tandfonline.com/doi/abs/10.1080/23268743.2018.1483208?journalCode=rprn20][Desire by design: pornography as technology industry]]
+-
 
 
 
@@ -252,5 +255,4 @@ I already have a project idea on that: [[file:20200616033314-fairness_in_ml_thro
 
 I'm particularly interested in SCX as an *algorithmic view of life*.
 This involves using the evolutionary algorithm as a tool. Seems simple, but lots
-can be achieved by doing so.
-
+can be achieved by doing so[[https://www.amazon.com/Custodians-Internet-Platforms-Moderation-Decisions/dp/030017313X/ref=sr_1_1?dchild=1&keywords=tarleton+gillespie&qid=1596042112&sr=8-1][Custodians of the Internet: Platforms, Content Moderation, and the Hidden Dec...]].

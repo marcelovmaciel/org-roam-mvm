@@ -2,3 +2,176 @@
 #+roam_key: https://www.complexityexplorer.org/courses/58-introduction-to-computation-theory
 
 - tags :: cite:moore2011nature
+
+
+
+* Struct questions
+** Why am I reading this?
+I have to have at least a passing knowledge of algorithms to help me continue doing the nature of computation course.
+
+** What is the general argument of the text?
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       fca7ccea-ea61-451e-a766-b9dfef5b115a
+:END:
+- it is important to have a model of what it means for something to be *computable*
+- This was heavily debated in the 30s by godel church and *turing* and turing model inspired neumann
+- One dimensional *tape*, divided in cells, each holds a symbol, the are finitely many symbols, there is a finite number of kinds of instructions (there is controller - which has a finite number of states - that tells you what to do next).
+- And that is it. Turing argues that this captures everything that you would call computable by finite
+   means.
+- the church turing thesis is that any model of computation can be simulated by a turing machine
+- The halting problem is a decision problem:
+  - Given an algorithm - as input- say yes if A(x) stops else no
+  - *No* way to answer in finite steps
+  - The way to answer that is to suppose there is and show a recursive contradiction
+- *Bubblesort* folds swapping pairs which are not in order but this sweep is done repeatedly until we get an ordered list.
+  - Worst case you do *n* sweeps so bubblesort is \(O(n^2)\)
+- *Mergesort* (a divide and conquer algorithm) (this one I implemented in haskell);
+  - the cost is O(nlogn)
+  - this order is optimal in this kind of problem 
+- Greedy algorithms filter input - choosing the "best"
+- Problem: *Minimal spanning tree*
+  - Input: graph
+  - Output: spanning tree
+  - At each step you pick the shortest edge to connect to nodes/vertices
+- Spanning trees :
+   #+begin_quote
+a spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges. [[https://en.wikipedia.org/wiki/Spanning_tree][Spanning tree - Wikipedia]]
+
+minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible. [[https://en.wikipedia.org/wiki/Minimum_spanning_tree][Minimum spanning tree - Wikipedia]]
+#+end_quote
+- There is at least two ways to represent graphs : ajdacency matrices and
+   lists
+- Greedy algorithms are *hill climbers*, so they dont work well in rugged landscapes.
+- *Max(imum) flow problem*
+  - You have a source and target node. Edges have capacity. You want to maximize the flow of "water" that goes through the system.
+  - Greedy can get stuck. Moving back allows it to achieve the global optimum.
+- *P vs NP* :
+  - P: we can find a solution efficiently
+  - NP: we can find a solution by brute force
+- What is brute force? We cannot find a solution efficiently but only *check* a solution efficiently
+- Brute force is searching for needles in haystacks. Checking one by one.
+- The P=NP questions is the following : *Can brute-force search algorithms always be improved?* The most important open question in computer science and mathematics.
+  #+begin_quote
+ the "P vs. NP" question asks whether every optimization problem whose answers can be efficiently verified for correctness/optimality can be solved optimally with an efficient algorithm.
+  #+end_quote
+- *P* are classes of problems in which solutions can be bound quickly, and by quickly we mean polynomially
+- A typical reminde:r polynomial is an asymptotic notion. In practice an algoritm which is in \(O(n^{100})\) would not be feasible for most cases
+
+- Kidyney Dono matching is an NP problem .
+- NP complete problems are those that are not only hard but are also
+  *computationally equivalent*, which means if you make progress in one you are
+  making progress in the whole class.
+- How do we turn a problem into another? Using boolean logic gates to build
+  "computers". Other problems can be turned into a boolean logic gate AND
+  boolean logic gates have a NP problem: Circuit-SAT. So, any problem in NP can
+  be reduced to Circuit-SAT, or simulated by, which itself is NP-complete.
+
+- A *decision problem* is one with a y or n answer.
+
+# --------------------------------------------------------------------------
+- [[https://stackoverflow.com/questions/1857244/what-are-the-differences-between-np-np-complete-and-np-hard][computer science - What are the differences between NP, NP-Complete and NP-Ha...]]
+- *P* is the set of all decision problems that can be solved in polynomial time
+- *NP* is the set of all decision problems that can be *checked* in polynomial time.
+- NP complete is also a set. In it all problems can turned into one another, and if you gain ground in one you also gain in the others, since we know how to translate from one to the other. The compiling or reducing transformation is obviously an algorithm, which has to be in *P*, that is, we have some trick to transform from one to the other. That is where the Circuit-SAt problems appears. Not only it is in NP, but other problems in NP can be simulated by it. That every NP problem can be reduced to 3-SAT is *Cooks Theorem*.
+  #+begin_quote
+NP-Complete is a complexity class which represents the set of all problems X in NP for which it is possible to reduce any other NP problem Y to X in polynomial time.
+
+Intuitively this means that we can solve Y quickly if we know how to solve X quickly. Precisely, Y is reducible to X, if there is a polynomial time algorithm f to transform instances y of Y to instances x = f(y) of X in polynomial time, with the property that the answer to y is yes, if and only if the answer to f(y) is yes.
+  #+end_quote
+- NP-hard *is not* the same as NP-complete.
+   #+begin_quote
+these are the problems that are at least as hard as the NP-complete problems. Note that NP-hard problems do not have to be in NP, and they do not have to be decision problems.
+
+The precise definition here is that *a problem X is NP-hard, if there is an NP-complete problem Y, such that Y is reducible to X in polynomial time.*
+
+But since any NP-complete problem can be reduced to any other NP-complete problem in polynomial time, *all NP-complete problems can be reduced to any NP-hard problem in polynomial time*. Then, if there is a solution to one NP-hard problem in polynomial time, there is a solution to all NP problems in polynomial time
+   #+end_quote
+- The halting problem is NP-hard. It is *not* NP-complete, because it is not computable.
+- From a computational perspective the *complexity of a system depends on which question* about it we are asking.
+- The typical question to classify systems, though, is about *state*.
+- The complexity of a system, from a computational perspective, is all about : "What do you want to know about the system"? The complexity to *find and check answers is what determines* its computational complexity.
+
+- "Are complex systems hard to understand because they can simulate computation?" \(\Leftrightarrow\) "Is computation hard to understand because it can simulate complex systems?"
+- So, natural and computational complexity are, actually, two sides of the same coin.
+- Studying the computational complexity of a problem allows us to sidestep many difficulties related to understanding predictions/observations and data analysis and derive relevant results about a real world system by focusing on the mathematical properties of our model of the real world system. So, it is a way of doing *applied math* and having substantive results about real world systems by purely theoretical means.
+- What do you do if you are dealing with a hard, computationally, problem but still want a solution? Use *heuristics* (rule of thumbs). They wont always work, for every case,  but will be better than brute force and work well in may instances.
+- Examples of where heuristics are used:
+  - sat
+  - clique
+  - integer linear programmin
+  - solving polynomial equations
+- One cool thing about heuristics is that we can try to reduce other hard problems into a problem of sat, clique, integer programming or polynomial equations, and use those areas heuristics.
+- Problems that arise in practice are often *not* the worst case. P,NP, and so on are about worst case behavior.
+- The *simplex method* (linear programming) is actually an heuristic that works well in practice but that is exponential timed in the worst case .
+- *Smoothed analysis* show that the worst case can be a really thin region of the real world, and if we perturb the problem a little bit it may fall out of this worst case region and become an instance that can be solved in polynomial time.
+- Typical *guarantees* we want from an algorithm are: speed, correctness and
+  completeness.
+- Most classic linear algebra routines take \(O(n^3)\) .
+- Matrices that come from graphs, though, are usually sparse so we can do better.
+- It is good to know when more specific algorithms can be used in your particular case (julia multiple dispatch here.)
+- Heuristics, are, in the end *clever brute force*
+- If heuristics aren't good enough though you can use *approximate solutions*
+- Heuristics are different from approximate solutions !!!
+- Approximation algorithms are particularly useful in *optimization problems*. 
+- Minimum vertex cover:
+  [[attachment:_20200720_191746screenshot.png]]
+- Approximation algorithms are powerful because you don't even need to know the true optimum to know how far your solution can be from it.
+- Theory is not enough. Try testing on at least simulated data.
+- If you have a problem:
+  - do worst case analysis (though in general your case is not equal to worst case)
+  - If NP
+    - develop heuristic
+    - reduce the problem to another problem and use this domain heuristics (such as boolean circuit sats, or integer equations etc)
+    - try approximation algorithms
+- quicksort is a randomized algorithm.
+  - You randomly pick a number from the list.
+  - You scan the list and put the elements into less and greater than buckets.
+  - quicksort on buckets
+  - On the worst case it is \(O(n^2)\)
+  - On average \(O(n\log{n})\)
+- Min cut:
+  - input: any \(G\)
+  - output: minimal cut int G to make it disconnected
+  - Korger: Randomized solution to minput
+- Pseudo-random generator
+  - input: seed
+  - output: seemingly random sequence (if you dont know the seed)
+  - The seed usually comes from the last digits of the computer internal clock 
+- BPP = class of problems that can be solved by a randomized algorithm
+  - The conjecture is taht BPP = P, everything that can be decided with randomness can be decided without it
+- Hardness vs randomness (suffciently hard deterministic functions can be used to simulate randomness )
+** What are the main concepts of the text?
+- computable
+- turing machine
+- church turing thesis
+- halting problem
+- bubblesort
+- Mergesort
+- divide and conquer (algorithmic paradigm)
+- greedy (algorithmic paradigm)
+- minimal spanning tree
+- hill climbers
+- brute force search
+- finding vs checking solutions
+- P = NP
+- NP completeness
+- Decision problem
+- NP hard
+- heuristics
+- simplex
+- smoothed analysis
+- guarantees: speed, correctness and completeness
+- approximate solutions
+- minimum vertex cover
+- randomized algorithms
+- min cut
+- pseudo-random generator
+
+* Questions
+** Take a better look at approximation algorithms
+#+begin_quote
+Approximation algorithms only guarantee that the value being optimized will be
+within some factor of the optimum value. They do not guarantee that the solution
+they find looks anything like the optimal solution.
+#+end_quote

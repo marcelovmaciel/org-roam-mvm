@@ -1,0 +1,43 @@
+#+title: Information Transfer Economics: What if money was made of vinegar?
+#+roam_key: http://informationtransfereconomics.blogspot.com/2014/06/what-if-money-was-made-of-vinegar.html
+- tags :: [[file:20200723221611-alternative_approaches.org][url:Information Transfer Economics: It's complicated: alternative approaches to economics]]
+This vinnegar example is particularly relevant to what I think about the relationship between higher levels and lower levels and emergence:
+
+#+begin_quote
+Um, wait. Let me back up and start again with Dewar. Climate scientists were
+able to get remarkably accurate results about cloud cover, polar ice cover and
+thermal gradients while ignoring the microfoundations (the physics and chemistry
+of water) and assuming maximum entropy production (MEP) by the Earth's water
+cycle. See the picture at the top of this post. An enterprising climate
+scientist asked: but what if the ocean was made of vinegar? Since MEP
+enthusiasts got the result without using the properties of water, isn't MEP
+wrong because it would give the same result when using vinegar and we know
+oceans of vinegar would give drastically different results? That's where Dewar
+says no. MEP is a tool; it's not wrong or right on its own. The fact that you
+can use MEP to create an accurate picture of the water cycle means that the
+chemical details of water don't matter that much. MEP must be capturing the
+essential physics of the water for relevant to climate. The fact that the same
+calculation in vinegarworld (probably) gets macrostate wrong means some of the
+microfoundations of vinegar matter.
+#+end_quote
+
+The analogy I always think about here is the role of collective action theory and social choice have is showing when things fail. Will they always fail? We know they wont. However, we want to be able that in some situations we can gloss over those microfoundational problems. How can we do that rigorously?
+
+Further references for that are Bruno's paper about analytical marxism + Codato and Perissinotto, and Dedeo paper about group minds.
+
+
+[[http://informationtransfereconomics.blogspot.com/2016/04/different-types-of-emergence.html][Information Transfer Economics: Different types of emergence]] lists some kinds emergence:
+#+begin_quote
+- Universality classes of phase transitions. Near points of drastic changes from
+  one equilibrium to another, very different complex models can look the same.
+- Universality classes of probability distributions. Complex agents can obey
+  simple equations that are largely independent of the agents when the system is
+  "statistically large".
+- Small peturbations around an equilibrium (effective field theory). For
+  example, rational agents are the first order effective theory near an economic
+  equilibrium.
+- Entropic forces. Emergent dynamics that derive from a large number of degrees
+  of freedom and entropy maximization that could include things like nominal
+  rigidity.
+
+#+end_quote

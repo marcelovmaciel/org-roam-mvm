@@ -1,0 +1,31 @@
+#+title: url:Information Transfer Economics: Complexity without purpose: evolution as a framework for economics
+#+roam_key: http://informationtransfereconomics.blogspot.com/2016/01/complexity-without-purpose-evolution-as.html
+- tags :: [[file:20200723221611-alternative_approaches.org][url:Information Transfer Economics: It's complicated: alternative approaches to economics]]
+
+- One cool quote
+   #+begin_quote
+A lack of an explicit big theory means you're using implicit theories.
+#+end_quote
+
+- What are the big theories that I can use to tackle all kinds of problems? Social Choice, information theory, evolutionary theory, rational choice institutionalism?
+
+
+#+begin_quote
+ How does Prof. Wilson know the genetic and cultural evolution of H. sapiens is
+ a necessary ingredient (such that its inclusion excites him)? What specific
+ stylized economic facts that are presently not understood by economists, but
+ well enough understood by biologists to warrant a more complex evolutionary
+ agent based model above and beyond the normal agent based models?
+#+end_quote
+
+This was argued by him in other texts. We have to stop arguing for more complex
+theories, or using emergence, if we don't actually know why this element
+matters, what it might explain that the actual model does not explain. That is:
+#+begin_quote
+Which theoretical economic problems does evolution address?
+#+end_quote
+
+Unlike him, who believes that #+begin_quote adding evolution to the theory would only make
+it more uninformative #+end_quote We can demonstrate for example that only system ->
+population is enough to explain most of things than actor -> population for
+example.

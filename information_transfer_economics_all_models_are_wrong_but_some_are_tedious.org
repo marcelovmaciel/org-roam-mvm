@@ -1,0 +1,21 @@
+#+title: url:Information Transfer Economics: All models are wrong, but some are tedious
+#+roam_key: http://informationtransfereconomics.blogspot.com/2015/04/all-models-are-wrong-but-some-are.html
+- tags :: [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation : behavioral spillover and institutional complexity]]
+
+There are two great quotes here. The first argues that we as scientists should be particularly interested in where the model fails. To be clear about that. Knowing where it doesn't work leads us to more questions.
+
+#+begin_quote
+, you should have some indication of the kinds of empirical data on which it
+will fail. As a scientist, you hope a model fails an empirical test. One of the
+most disappointing things about the Standard Model in physics is that it doesn't
+fail empirical tests [1]. When you have a model, the failures point out where
+there are things you don't understand.
+#+end_quote
+
+
+The second thing is that it doesn't make sense to create *more complicated* models, such as abms, if we *dont have enough* data!!! The more complicated the model the more data we need, and we don't have all this data!!!
+
+#+begin_quote
+Macroeconomists should not be adding variables and complications to their models
+because there simply isn't enough data to warrant doing so.
+#+end_quote

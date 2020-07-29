@@ -27,7 +27,7 @@ People use bayesian networks (INSERT ROAM) to study condorcet's JT  cite:dietric
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-02T17:46:09Z |
+| front    | 2.50 |   0 |     0.00 | 2020-07-24T14:57:35Z |
 :END:
 
 

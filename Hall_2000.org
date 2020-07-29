@@ -1,4 +1,4 @@
- #+TITLE: Hall_2000:Discrete mathematics using a computer
+ #+TITLE: cite:Hall_2000:Discrete mathematics using a computer
 #+ROAM_KEY: cite:Hall_2000
 - tags :: [[file:20200523150423-haskell_general.org][Haskell - General]]
 
@@ -38,7 +38,8 @@ Also, it contributes to the same projects as cite:moore2011nature
 Teach discrete mathematics using haskell
 
 *** Chapter 1 - Introduction to haskell
-Teach haskell
+Give an overview of haskell builtin data types, typical data structures (lists and tuples) and functions.
+*** Chapter-  Equational reasoning
 
 ** What are the specific arguments of the text?
 *** Chapter 1 - Introduction to haskell
@@ -91,14 +92,253 @@ foldr (:) [] [1,2,3,4]  ==  [1,2,3,4]
 
 - Constants in the lhs of function definitions are used for pattern matching.
 - Pattern matching is also used a great deal with tuples and lists
-- Pattern matching on lists require two patterns: the ~[]~ and the ~x:xs~ (base case and rest of recursion)
+- Pattern matching onl ists require two patterns: the ~[]~ and the ~x:xs~ (base case and rest of recursion)
 - A conditional expression form requires three things:
   - A boolean expression to be used for choossing
   - a then expression and an else expression
   - that these expressions have the same value
 - When functions work for any type we define their type signature using type variables. Those functions are known as *polymorphic functions*
 - foldl and foldr require an initial argument
+- data constructors take 0 or more values and return values
+- type constructors (~data~) take 0 or more values and return types
+  #+BEGIN_SRC haskell
+data Color = Blue | Green | Red
+#+END_SRC
+ - is an example of a type constructor which takes 0 values and is made up of data constructors which also take 0 values
+ - everything uppercase in haskell is a constructor
+- We have to ~deriving Show~ when declaring a new data type if we want haskell to print values of or type in the repl
 
+- Typeclasses are used when
+  #+begin_quote
+There are some operations that can be used on several diﬀerent types, but
+not on all types.
+  #+end_quote
+- So a type class is a *set of types sharing a property*
+- class constraint / context
+  #+BEGIN_SRC haskell
+f :: Num a => a -> a
+-- Num a => is the class constraint/context
+f x = x + 1
+
+
+fun :: Eq b => a -> b -> b -> Bool
+fun a b c = if a then b == c else False
+
+-- given the equality here the function
+-- requires Eq constraint
+
+  #+END_SRC
+
+- Functions are not in src_haskell[:export]{Show}.
+- Functions that use overloaded operators have to pay heed to that in their type signature
+  #+begin_quote
+The common sense rule is: if your function deﬁnition uses an overloaded operator
+(one with a type that has a context), then its type must contain that context as
+well. If your function has more than one such operator and the operator types
+have diﬀerent contexts, then each new context must appear in the type of the
+function.
+  #+end_quote
+
+*** Chapter 2 -  Equational reasoning
+- Be careful with mathematical precedence when substituting terms
+- Pattern matched functions can be numbered when using equational reasoning e.g. {f.2}
+- Equations are timeless while assignment is usually timeful
+- Rigorous proofs keep the essential, while formal proofs use everything down to axioms (can be machine checked)
+- Bird books on algebra of programming and functional programming are the main refs he gives for equational reasoning
+*** Chapter 3 - Recursion :ATTACH:
+:PROPERTIES:
+:ID:       5aad765b-e10f-4fd4-a342-580a440f85c4
+:END:
+- In declarative languages you state a set of declarations of properties while
+  in imperative languages you define a series of steps that the computer should
+  execute.
+  - Base cases should be chosen with two goals in mind:
+    - Making recursion work
+    - Having good algebraic properties
+
+- Base case + recursive case
+
+- The base case for list recursion is usually []
+- The recursive case not necessarily works on the tail of lists. They only need to work on smaller problems!
+- Quicksort is an example of such algorithm, it *cuts the problem in half instead of* instead of reducing it by one.
+  #+BEGIN_SRC haskell
+-- the goal is to sort the list
+quicksort :: Ord a => [a] -> [a]
+quicksort [] = []
+quicksort (splitter:xs) = quicksort [y | y <- xs, y<splitter] ++ [splitter] ++ quicksort [y | y <- xs, y>=splitter]
+
+  #+END_SRC
+- map abstracts a great deal of recursive functions. Particularly the ones we do
+  something with the input then append it to the result of the next until we
+  have appended the empty list.
+- fold is another type of recursive function, obviously. In this case we return
+  a singleton which combines elements from the list
+- Differentiating betweeen is important.
+- So, map abstracts one kind of recursion: the one in which we transform x then
+  append it with the recursive call until we have transformed the whole list, while fold sprinkles the function between the elements and then apply it either from the right or left
+  #+BEGIN_SRC text
+reduce + [1,2,3,4]
+   z + ->  + + +  <- + z
+  #+END_SRC
+  #+BEGIN_SRC haskell
+foldr :: (a->b->b) -> b -> [a] -> b
+foldr f z [] = z
+foldr f z (x:xs) = f x (foldr f z xs)
+  #+END_SRC
+
+- If our operation is right associative we have to pay heed to that with our base case. That is why : does not work with foldl, it is right-associative.
+- Using recursion and you could use map or fold is bad style. Using those functions make clear you are using an specific pattern of recursion.
+- You can have a recursive data type. This will allow us to do algebraic operations on the data (i believe)
+  - example:
+    #+BEGIN_SRC haskell
+data Peano = Zero | Succ Peano deriving Show
+    #+END_SRC
+
+- One can also have recursive *data strucutures*. (twos)
+             [[attachment:_20200717_145738screenshot.png]]
+
+  #+BEGIN_SRC  haskell
+f :: a -> [a]
+f x = x : f x
+ones = f 1
+twos = 2 : twos
+take 10 twos
+  #+END_SRC
+
+  #+RESULTS:
+  : *Main> *Main> *Main> [2,2,2,2,2,2,2,2,2,2]
+
+
+- ~let~ in haskell is equivalent to ~let*~ in lisps.  Given that the bindings are shared they can be used to refer to each other (recursively). That is why they are useful for building *graphs*. 
+- *data recursion* is possible because of *laziness*
+- It is possible to use the cons notation to talk about the second element too....
+  #+BEGIN_SRC haskell
+-- Exercise 17
+isSorted :: Ord a => [a] -> Bool
+isSorted [] = True
+isSorted [_] = True
+isSorted (x:y:xs) =  x < y &&  isSorted (y:xs)
+  #+END_SRC
+
+
+*** Chapter 4 - Induction :ATTACH:
+:PROPERTIES:
+:ID:       13bdb1e1-9cbf-45f7-bbbb-38ca36ae0e0a
+:END:
+- Induction does not work for uncountable sets
+- *Mathematical induction* is used in proofs about numbers
+- *Structural induction* is used in proofs about lists
+
+- Mathematical induction works as the following:
+  - You define a *base case* P(0)
+  - You define the *inductive case*, which is a conditional for an arbitrary element and its sucessor:
+     \[P(i) \rightarrow P(i+1) \]
+- What is the principle of mathematical induction?
+  [[attachment:_20200717_200028screenshot.png]]
+  - It is basically a *strategy to prove a universal*
+  - It can itself be proved by appealing to axiomatic set theory (*how?*)
+  - The summation odd case uses the trick that if a number is without a pair we can add 0 to it s. t. \(\sum_{i=0}^n i = {{n \times (n+1)} \over 2\)
+- Tips for understanding theorems:
+  - *Try to understand* the theorem before proving it;
+  - *Think of applications*. If it is an equality where it would be an advantage to replace the expressions?
+  - *Try out small examples*
+  - *Check boundary cases* (like empty list, or infinite list)
+  - What other theorems relate to this one?
+- List induction is an instance of structural induction
+- The principle of list induction cannot be used to prove things about infinite lists
+  -
+  [[attachment:_20200721_195920screenshot.png]]
+
+- In computer science most things are define extensionally, like in cite:sep-social-choice (which also defines that).
+
+- Extensional equality is what permits eta reduction (or maybe the opposite)
+
+- Why extensional equality matters? Because it simplifies proofs.
+  [[attachment:_20200721_200541screenshot.png]]
+
+- Limitation of induction:
+  - the set must be countable
+  - it can prove properties of infinite collections of finite objects, but not infinite objects
+  - We can prove things about arbitrary finite lists, but not infinite lists
+  - reverse . reverse = id; for example cannot be proved by induction, given that it does not work as dominoes
+*** Chapter 5 - Trees :ATTACH:
+:PROPERTIES:
+:ID:       e8a9be85-6f45-4516-85ca-2b6d12d1080c
+:END:
+- Trees are used in any context in which there is some *hierarchy*
+- Defining a tree:
+  - Trees are nodes connected by lines in a pattern that has no loops in it
+  - A tree either is empty or it is a node glued with a sequence of trees
+  - The node portion of a non-empty tree is the root and the sequence of trees are the children
+  - If a tree is associated with a sequence of trees which is empty we call it a *leaf*
+  - A subtree is either the whole tree or the "bigger" tree is not empty and the it is a subtree of one of the children of the bigger tree
+[[attachment:_20200724_145810screenshot.png]]
+
+- A binary tree is a tree in which every node must have exactly two children
+- If for-loop is natural for array programming the same can be said about recursion and trees
+- Tree traversal is when we sweep a tree building up a list of the results. There are three orders of sweep we can use in a binary tree:
+  - preorder (root \(\to\) left \(\to\) right)
+  - inorder (left \(\to\) root \(\to\) right)
+  - postorder (left \(\to\) right \(\to\) root)
+- Fun bashing on other languages hahahaha
+    #+begin_quote
+Some books approach recursion by considering stacks,
+return addresses, and other low level details, but those topics just confuse the
+issue and are appropriate only for compiler writers.)
+    #+end_quote
+
+- Two of the most important properties of trees are their *height* and the number of nodes in the branches (its *size*)
+- The height of a tree is the distance between its root and its deepest leaf. An empty tree has height 0, while the size of a non-empty tree is equal to the height of its highest tree + 1
+#+BEGIN_SRC haskell
+
+height :: BinTree a -> Integer
+height BinLeaf = 0
+height (BinNode x t1 t2) = 1 + max (height t1) (height t2)
+#+END_SRC
+- The size of a tree is the number of nodes that it contains and this is measured by adding the size of its subtrees + 1 (to account for the root)
+  #+BEGIN_SRC haskell
+size :: BinTreeInt -> Int
+size Leaf = 0
+size (Node x t1 t2) = 1 + size t1 + size t2
+  #+END_SRC
+
+- The size of a binarytree shows how many values are being represented by the tree and is related to the amount of memory required to represent the three (obviously, since memory is in bits)
+
+- The height of a tree is related to its *shape* . A *balanced binary tree* is when both sides have the same height.
+- Trees are often used to represent language (natural and programming )
+- Binary search is much more performant than linear search (at each step you are cuting the search in half)
+- A binary search tree is simply a binary tree BinTree (a,b) (key type, value type) in which:
+   #+begin_quote
+if the key in a node has the value k, then all keys in the
+left subtree must be less than k, and all the keys in the right subtree must be
+greater than k. This property must hold throughout the entire tree, not just
+for the top node.
+#+end_quote
+- Whenever we are creating a binary search tree from scratch we have to be careful to keep it valid (follow the above constraint). The following insert function does that:
+#+BEGIN_SRC haskell
+
+data BinTree a
+= BinLeaf
+| BinNode a (BinTree a) (BinTree a)
+deriving Show
+
+insert :: Ord a => (a,b) -> BinTree (a,b) -> BinTree (a,b)
+insert (key,d) BinLeaf = BinNode (key,d) BinLeaf BinLeaf
+insert (key,d) (BinNode (x,y) t1 t2) =
+if key == x
+then BinNode (key,d) t1 t2
+else if key < x
+then BinNode (x,y) (insert (key,d) t1) t2
+else BinNode (x,y) t1 (insert (key,d) t2)
+#+END_SRC
+- One important thing illustrated by the binary search tree is that *sometimes* all the properties you need from a data structure are specified by its type. But sometimes you have to specify *additional constraints* . Those additional constraints might be caught by the compiler or not, it depends on which compiler we are talking about. GHC, for example, cannot check, at compile time, that the binary search tree built using insert satisfies the constraints on its validity.
+- The time of each algorithm must be calculated on the worst, average ("add up the times required by every possible case, weighted by the probability of that case occurring.") and best executions.
+- The speed of the binary search depends on the shape of the tree (how balanced it is).
+
+                                                            - The principle of induction can also be extended to trees.
+                                                            [[attachment:_20200727_214942screenshot.png]]
+
+-
 
 ** What are the main concepts of the text?
 *** Chapter 1 - Introduction to haskell
@@ -113,33 +353,90 @@ foldr (:) [] [1,2,3,4]  ==  [1,2,3,4]
 - operators
 - pattern matching
 - first order function vs higher order function
-- full aplication vs partial application
+- full application vs partial application
 - conditional expression
 - let expressions (local variables)
 - type variables and polymorphic functions
 - (algebraic) data types
 - constructors
-  - data constructors take 0 or more values and return values
-  - type constructors (~data~) take 0 or more values and return types
-  #+BEGIN_SRC haskell
-data Color = Blue | Green | Red
-#+END_SRC
- - is an example of a type constructor which takes 0 values and is made up of data constructors which also take 0 values
+- typeclasses
+- class constraint, context 
 
-- everything uppercase in haskell is a constructor
-
-- We have to ~deriving Show~ when declaring a new data type if we want haskell to print values of or type in the repl
-  
 - length
-- !! (index)
+ - !! (index)
 - take
 - drop
 - ++ (append)
 - map
 - zip
+  - in hs zip takes the length of the shorter argument
+  - in julia it gives dimension mismatch
 - zipWith
 - foldl and foldr
 - deriving Show
+
+*** Chapter 2 -  Equational reasoning
+- substitution
+- {x} notation
+- conditional expression equation
+- length (++) theorem
+- length map theorem
+- map (++) theorem
+- equations vs assignment (vs mutation vs binding)
+- rigorous vs formal proofs
+
+*** Chapter 3 - Recursion
+- recursion duh
+- induction 
+- divide and conquer
+- declarative vs imperative languages
+- base case
+- laziness
+- data recursion
+- graphs
+  
+- elem
+- concat  (flattens a list)
+- foldrwith
+- mappend
+
+*** Chapter 4 - Induction
+- induction, duh
+- mathematical vs structural induction
+- base case vs inductive case
+- principle of mathematical induction
+- induction hypothesis
+- principle of list induction
+- intensional vs extensional equality
+*** Chapter 5 - Trees
+- node
+- root
+- children
+- leafs
+- subtree
+- interior node
+- binary tree
+- tree traversal
+  - preorder traversal
+  - inorder traversal
+  - postorder traversal 
+- height of a tree
+- size of a tree
+- linear search
+- binary search (trees)
+- Induction on trees 
+* Exercises
+** Chapter 4
+*** Exercise 1.
+Let a be an arbitrary real number. Prove, for all natural numbers
+m and n, that \(a^{m×n} = (a^{m} )^n .\)
+**** Answer
+The base case is simple and commutativity cuts it in half.
+The induction case is cut in half by commutativity too.
+*** exercise 2
+Exercise 2. Prove that the sum of the ﬁrst n odd positive numbers is \(n^2\)
+
+use the result about  \(\sum_{i=0}^n i = {{n \times (n+1)} \over 2\)
 
 
 * Outline
@@ -162,7 +459,7 @@ let
              109, 163, 187, 207,
              223, 267, 311];
 
-    acc = [ ];
+    acc= [ ];
 
     function getdiff(x,y)
         push!(acc,y-x )
@@ -197,7 +494,7 @@ Since I intend to finish it in 10 days i should *AT LEAST* read 30 pages a day. 
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-15T18:58:59Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-19T13:39:03Z |
 :END:
 *** Back
 - A conditional expression form requires three things:
@@ -209,8 +506,282 @@ Since I intend to finish it in 10 days i should *AT LEAST* read 30 pages a day. 
 I have been a victim of those requirements.
 - I have written a conditional expression without a else
 - I have written a conditional expression which had then and else expressions of different type
-** inhs, Explain the type signature of foldr
+** inhs, Explain the type signature of foldr :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:18:49Z
+:FC_TYPE:  normal
+:ID:       edf23340-b781-415f-80c8-32fe3c6d6154
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:18:49Z |
+:END:
 *** Back
 #+BEGIN_SRC haskell
 foldr :: (a -> b -> b) -> b -> [a] -> b
+#+END_SRC
+** What is the form of a list comprehension? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:18:53Z
+:FC_TYPE:  normal
+:ID:       312dc9d7-c8b1-4edb-aad6-fd96eddecfd8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:18:53Z |
+:END:
+*** Back
+[expression | generators, filter]
+
+** inhs, What is the trick to define pattern matching functions ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:20:32Z
+:FC_TYPE:  normal
+:ID:       dec96c9e-7088-4c4d-ab6b-7a6f652f7cba
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:20:32Z |
+:END:
+*** Back
+You have to be exhaustive.
+** inhs, What is the form of folding? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:21:56Z
+:FC_TYPE:  normal
+:ID:       caac6a48-8d5c-43b0-b3e8-c17c2d96ec06
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:21:56Z |
+:END:
+*** Back
+fold fn base container
+** inhs,What are the kinds of constructors ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:23:16Z
+:FC_TYPE:  normal
+:ID:       707f48c0-4e93-422e-82ac-018e2bfee5c3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:23:16Z |
+:END:
+*** Back
+- data constructors take 0 or more values and return values
+- type constructors (~data~) take 0 or more values and return types
+    #+BEGIN_SRC haskell
+data Color = Blue | Green | Red
+#+END_SRC
+ - is an example of a type constructor which takes 0 values and is made up of data constructors which also take 0 values
+** inhs, Why use deriving? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:23:58Z
+:FC_TYPE:  normal
+:ID:       5b45f055-55d9-4512-85e9-2ab49e569dcf
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:23:58Z |
+:END:
+*** Back
+When we want our data type to have a property defined in a type class .
+
+Notice for example that functions are not in Show.
+
+** What are typeclasses? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:30:38Z
+:FC_TYPE:  normal
+:ID:       47898389-7595-4416-a6af-d04ca6e37ecf
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:30:38Z |
+:END:
+
+*** Back
+- Typeclasses are used when
+  #+begin_quote
+There are some operations that can be used on several diﬀerent types, but
+not on all types.
+  #+end_quote
+- So a type class is a *set of types sharing a property*
+
+** What are class constraints? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:31:08Z
+:FC_TYPE:  normal
+:ID:       136610ae-ea14-4798-9e7b-4bb78636ada4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:31:08Z |
+:END:
+*** Back
+
+They constrain a function to work on some typeclass. 
+  #+BEGIN_SRC haskell
+f :: Num a => a -> a
+-- Num a => is the class constraint/context
+f x = x + 1
+
+
+fun :: Eq b => a -> b -> b -> Bool
+fun a b c = if a then b == c else False
+
+-- given the equality here the function
+-- requires Eq constraint
+
+  #+END_SRC
+
+- Functions that use overloaded operators have to pay heed to that in their type signature
+  #+begin_quote
+The common sense rule is: if your function deﬁnition uses an overloaded operator
+(one with a type that has a context), then its type must contain that context as
+well. If your function has more than one such operator and the operator types
+have diﬀerent contexts, then each new context must appear in the type of the
+function.
+  #+end_quote
+
+** Do you have a clear mental model of those functions ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:33:00Z
+:FC_TYPE:  normal
+:ID:       8a4ea013-7940-430a-82d6-f68f71ce7699
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:33:00Z |
+:END:
+*** Back
+- length
+ - !! (index)
+- take
+- drop
+- ++ (append)
+- map
+- zip
+  - in hs zip takes the length of the shorter argument
+  - in julia it gives dimension mismatch
+- zipWith
+- foldl and foldr
+- deriving Show
+** What is the {x} notation? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:33:34Z
+:FC_TYPE:  normal
+:ID:       4fa86a36-a635-4d21-947a-6884c6f9a2ec
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   2 |     1.00 | 2020-07-25T14:57:15Z |
+:END:
+*** Back
+Is when you explain a step in a mathematical rule with a justification next to it (or before it) those justifications are written as {justification}
+
+** How do you use pattern matched functions in equational reasoning ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:35:24Z
+:FC_TYPE:  normal
+:ID:       fc8bcff3-9f4b-4f87-a287-0db96e79c6f0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:35:24Z |
+:END:
+*** Back
+Pattern matched functions can be numbered when using equational reasoning e.g. {f.2}
+
+** What is the difference between rigorous and formal proofs? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:36:18Z
+:FC_TYPE:  normal
+:ID:       ba7e6cc4-f08e-4f73-af88-6794ef479348
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:36:19Z |
+:END:
+*** Back
+Rigorous proofs keep the essential, while formal proofs use everything down to axioms (can be machine checked)
+
+** What is the difference between declarative and imperative programming ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:37:03Z
+:FC_TYPE:  normal
+:ID:       999f288c-0866-42e3-9eaa-8d6c4b84aa83
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:37:03Z |
+:END:
+*** Back
+In declarative languages you state a set of declarations of properties while in
+imperative languages you define a series of steps that the computer should
+execute.
+
+** What should be your goals when choosing a base case? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:37:37Z
+:FC_TYPE:  normal
+:ID:       bbb7d55d-0246-4160-8a3c-ccf353568f1c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:37:37Z |
+:END:
+*** Back
+Base cases should be chosen with two goals in mind:
+    - Making recursion work
+    - Having good algebraic properties
+
+Example [] for lists (usually, but it may also be the first element).
+
+** What are the - length (append),length map , map (append) theorems? Can you prove them?:fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-17T00:39:45Z
+:FC_TYPE:  normal
+:ID:       64ea24c3-7675-48d7-be3a-c491675fe068
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-17T00:39:45Z |
+:END:
+*** Back
+- length append: length of the append of two functions is equal to the sum of their lengths
+- length map : the length of the result of map is the same as the length of the original list
+- map append: if you append two lists then map a function is the same as if you mapped the function to each one first then appended them
+** How do you prove that inorder (reflect t) = reverse (inorder t)? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T03:51:17Z
+:FC_TYPE:  normal
+:ID:       aefb7635-9391-48f9-8c91-b5c6e45ff762
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T03:51:17Z |
+:END:
+*** Back
+Using induction and those two lemmas:
+
+#+BEGIN_SRC text
+reverse xs ++ [x] = reverse ([x] ++ xs)
+reverse (xs++ys) = reverse ys ++ reverse xs
 #+END_SRC

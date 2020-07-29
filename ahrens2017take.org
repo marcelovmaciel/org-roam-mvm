@@ -789,7 +789,7 @@ An idea kept private is as good as one you never had. And a fact no one can repr
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T19:25:21Z |
+| front    | 2.50 |   1 |     0.01 | 2020-07-24T15:08:25Z |
 :END:
 *** Back
 Questions that I have to answer whenever I start studying any kind of source.

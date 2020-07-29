@@ -4,6 +4,12 @@
 
 Here are fleeting notes that ought to be better developed.
 
+
+* The role of actors. Zero intelligence, rational, heterogenous.
+
+* EITM and information gain
+Create a model that shows why the logical fallacy showed by clarke and primo
+matters. The model shows dynamically why their proposal is better. Dynamical model!!
 * Social choice results as artifacts
 - source :: cite:sep-voting-methods
 - tags :: [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][conditions of manipulability]]
@@ -77,9 +83,6 @@ no fim eu tenho a visao que da pra unificar a pratica cientifica por meio de uma
 
 * Social Choice and Central Authority
 
-
-
-
 One implicit assumption in the Social Choice literature is that the work will be consumed by some sort of central authority, benevolent dictator. That is why cite:sep-voting-methods considers that the central question of social choice is the following:
 
 #+begin_quote
@@ -106,16 +109,6 @@ use information geometry with evo gt in combination with epistemic game theory
 The 14 starts an interesting discussion about nonequilibrium steady states which connect with both page and papadimitrious works
 
 
-
-* ecology of games as open networked games
-
-
 * petri nets and bayesian networks
 [[https://www.sciencedirect.com/science/article/pii/S0304397519304694][Bayesian network semantics for Petri nets - ScienceDirect]]
 Petri nets are used in the julia ecosystem as a general template for both abm's and differential equations. I'm interested how they can be used to connect the literature on simulation with the empirical literature on causal inference. This would be a huge methodological contribution.
-
-* Social computational trinitarianism
-
-Epstein in generative social science argues that code is math to defend the usage of abms. My interest is to go further and see how to actually connect logic with math with computation. Particularly, how to turn "informal theories" into logic into math into computation and how this may be connected with empirical research.
-
-[[https://www.frontiersin.org/articles/10.3389/fevo.2019.00402/full][Frontiers | Artificial Intelligence for Ecological and Evolutionary Synthesis...]] is something that might help here 
