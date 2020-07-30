@@ -176,3 +176,225 @@ within some factor of the optimum value. They do not guarantee that the solution
 they find looks anything like the optimal solution.
 #+end_quote
 * Flashcards
+
+** What is computable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:35:19Z
+:FC_TYPE:  normal
+:ID:       d5dc4d1c-0764-44a5-a0a6-c6ea6b4d0df3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:35:19Z |
+:END:
+*** Back
+Not clear yet (to me), but it seems it is related that something is computable if we can give an algorithm to it that can be run in an idealized machine, such as a Turing machine.
+** What is a turing machine ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:38:43Z
+:FC_TYPE:  normal
+:ID:       c2ac39df-5476-4af1-8c31-2aef93bb79a1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:38:43Z |
+:END:
+
+*** Back
+- One dimensional *tape*, divided in cells, each holds a symbol, the are finitely many symbols, there is a finite number of kinds of instructions (there is controller - which has a finite number of states - that tells you what to do next).
+
+** What is the church turing thesis? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:39:19Z
+:FC_TYPE:  normal
+:ID:       334cf3f8-1232-4a4d-b183-709de27e7234
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:39:19Z |
+:END:
+
+*** Back
+the church turing thesis is that any model of computation can be simulated by a
+turing machine
+
+** What is the halting problem ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:39:57Z
+:FC_TYPE:  normal
+:ID:       afb7a3c4-f2a6-4098-bb17-44f27b6a5c22
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:39:57Z |
+:END:
+*** Back
+- The halting problem is a decision problem:
+  - Given an algorithm - as input- say yes if A(x) stops else no
+  - *No* way to answer in finite steps
+  - The way to answer that is to suppose there is and show a recursive contradiction
+**  What is bubblesort? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:40:41Z
+:FC_TYPE:  normal
+:ID:       249c7831-05aa-4e84-b9ed-2594c6975c28
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:40:41Z |
+:END:
+*** Back
+*Bubblesort* folds swapping pairs which are not in order but this sweep is done repeatedly until we get an ordered list.
+  - Worst case you do *n* sweeps so bubblesort is \(O(n^2)\)
+
+** What are greedy algorithms? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:41:17Z
+:FC_TYPE:  normal
+:ID:       b6c3e798-4dba-4148-b7fc-b4de9e2f97dc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:41:17Z |
+:END:
+*** Back
+Algorithms which choose the best option at each step. They are hill climbers, so probably wont work well in rugged landscapes.
+** What is the minimal spanning tree? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:42:38Z
+:FC_TYPE:  normal
+:ID:       f6bf7a5f-bbda-4ad6-b49c-b91d5edbe7d2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:42:38Z |
+:END:
+*** Back
+- Spanning trees :
+   #+begin_quote
+a spanning tree T of an undirected graph G is a subgraph that is a tree which includes all of the vertices of G, with a minimum possible number of edges. [[https://en.wikipedia.org/wiki/Spanning_tree][Spanning tree - Wikipedia]]
+
+minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight. That is, it is a spanning tree whose sum of edge weights is as small as possible. [[https://en.wikipedia.org/wiki/Minimum_spanning_tree][Minimum spanning tree - Wikipedia]]
+#+end_quote
+Problem: *Minimal spanning tree*
+  - Input: graph
+  - Output: spanning tree
+  - At each step you pick the shortest edge to connect to nodes/vertices
+** What is P = NP? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:43:44Z
+:FC_TYPE:  normal
+:ID:       08c19232-9be6-464e-9681-30fd0f44632c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:43:44Z |
+:END:
+*** Back
+- P: we can find a solution efficiently
+- NP: we can find a solution by brute force
+- What is brute force? We cannot find a solution efficiently but only *check* a solution efficiently
+- Brute force is searching for needles in haystacks. Checking one by one.
+- *P* is the set of all decision problems that can be solved in polynomial time
+- *NP* is the set of all decision problems that can be *checked* in polynomial time.
+
+The P=NP questions is the following : *Can brute-force search algorithms always be improved?* The most important open question in computer science and mathematics.
+  #+begin_quote
+ the "P vs. NP" question asks whether every optimization problem whose answers can be efficiently verified for correctness/optimality can be solved optimally with an efficient algorithm.
+  #+end_quote
+
+Keep in mind that P,NP and so on are about worst case behavior. Also,  In practice an algoritm which is in \(O(n^{100})\) would not be feasible for most cases for example.
+** What is the value of studying computational complexity for a scientist? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:46:23Z
+:FC_TYPE:  normal
+:ID:       4d2d1ba7-4483-4b1a-9d64-151463210438
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:46:23Z |
+:END:
+*** Back
+Studying the computational complexity of a problem allows us to sidestep many difficulties related to understanding predictions/observations and data analysis and derive relevant results about a real world system by focusing on the mathematical properties of our model of the real world system. So, it is a way of doing *applied math* and having substantive results about real world systems by purely theoretical means.
+
+** What are heuristics? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:46:49Z
+:FC_TYPE:  normal
+:ID:       486221a9-1523-4d0d-b381-bd82ed3f0122
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:46:49Z |
+:END:
+*** Back
+What do you do if you are dealing with a hard, computationally, problem but still want a solution? Use *heuristics* (rule of thumbs). They wont always work, for every case,  but will be better than brute force and work well in may instances.
+- Examples of where heuristics are used:
+  - sat
+  - clique
+  - integer linear programmin
+  - solving polynomial equations
+- One cool thing about heuristics is that we can try to reduce other hard problems into a problem of sat, clique, integer programming or polynomial equations, and use those areas heuristics.
+
+Heuristics are in the end *clever brute force*
+** What are typical guarantees we want from an algorithm? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:50:54Z
+:FC_TYPE:  normal
+:ID:       dc05e98f-60ca-497e-aaee-4dc8b7bae0b2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:50:54Z |
+:END:
+*** Back
+- speed,
+- correctness
+- completeness.
+
+** What is smoothed analysis ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-29T23:53:26Z
+:FC_TYPE:  normal
+:ID:       a814bf0f-f8b9-46d4-af00-d301a1788f61
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-29T23:53:26Z |
+:END:
+*** Back
+#+begin_quote
+Smoothed analysis is a hybrid of worst-case and average-case analyses that inherits advantages of both. It measures the expected performance of algorithms under slight random perturbations of worst-case inputs. If the smoothed complexity of an algorithm is low, then it is unlikely that the algorithm will take a long time to solve practical instances whose data are subject to slight noises and imprecisions. Smoothed complexity results are strong probabilistic results, roughly stating that, in every large enough neighbourhood of the space of inputs, most inputs are easily solvable. Thus, a low smoothed complexity means that the hardness of inputs is a "brittle" property.  ([[https://en.wikipedia.org/wiki/Smoothed_analysis][Smoothed analysis - Wikipedia]])
+#+end_quote
+
+*Smoothed analysis* show that the worst case can be a really thin region of the real world, and if we perturb the problem a little bit it may fall out of this worst case region and become an instance that can be solved in polynomial time.
+** What are approximation algorithms? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-07-30T00:13:09Z
+:FC_TYPE:  normal
+:ID:       99e8e2fd-87b4-4844-aba5-0e6a7b177b05
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-07-30T00:13:09Z |
+:END:
+*** Back
+
+#+begin_quote
+approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one.[1] Approximation algorithms naturally arise in the field of theoretical computer science as a consequence of the widely believed P ≠ NP conjecture. Under this conjecture, a wide class of optimization problems cannot be solved exactly in polynomial time.The field of approximation algorithms, therefore, tries to understand how closely it is possible to approximate optimal solutions to such problems in polynomial time.
+#+end_quote
+
+ Approximation algorithms are powerful because *you don't even need to know the true optimum to know how far your solution can be from it.*
