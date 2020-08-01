@@ -277,6 +277,11 @@ isSorted (x:y:xs) =  x < y &&  isSorted (y:xs)
 - A binary tree is a tree in which every node must have exactly two children
 - If for-loop is natural for array programming the same can be said about recursion and trees
 - Tree traversal is when we sweep a tree building up a list of the results. There are three orders of sweep we can use in a binary tree:
+- Why am I reading this?
+- Where this might be useful?
+- Which project or idea that I already have will benefit from this and how?
+
+
   - preorder (root \(\to\) left \(\to\) right)
   - inorder (left \(\to\) root \(\to\) right)
   - postorder (left \(\to\) right \(\to\) root)
@@ -335,9 +340,7 @@ else BinNode (x,y) t1 (insert (key,d) t2)
 - The time of each algorithm must be calculated on the worst, average ("add up the times required by every possible case, weighted by the probability of that case occurring.") and best executions.
 - The speed of the binary search depends on the shape of the tree (how balanced it is).
 
-                                                            - The principle of induction can also be extended to trees.
-                                                            [[attachment:_20200727_214942screenshot.png]]
-
+- The principle of induction can also be extended to trees.
 -
 
 ** What are the main concepts of the text?
@@ -769,15 +772,16 @@ Example [] for lists (usually, but it may also be the first element).
 - map append: if you append two lists then map a function is the same as if you mapped the function to each one first then appended them
 ** How do you prove that inorder (reflect t) = reverse (inorder t)? :fc:
 :PROPERTIES:
-:FC_CREATED: 2020-07-29T03:51:17Z
+:FC_CREATED: 2020-07-30T16:20:53Z
 :FC_TYPE:  normal
-:ID:       aefb7635-9391-48f9-8c91-b5c6e45ff762
+:ID:       bb96d5df-9b81-4579-9f40-4b1720a001a3
 :END:
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-29T03:51:17Z |
+| front    |  2.5 |   0 |        0 | 2020-07-30T16:20:53Z |
 :END:
+
 *** Back
 Using induction and those two lemmas:
 

@@ -1,0 +1,52 @@
+#+title: (249) Bayesian Statistics without Frequentist Language - YouTube
+#+roam_key: https://www.youtube.com/watch?v=yakg94HyWdE
+
+* Justifications questions
+- Why am I reading this?
+  - Because I am illiterate in statistics
+- Where this might be useful?
+  - Both in empirical research and in the market
+- Which project or idea that I already have will benefit from this and how?
+  - [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation : behavioral spillover and institutional complexity]] has an empirical bent. thus it profits from my deepening of this knowledge
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+The general goal is to argue how and why teach statistics without the frequentist language
+** What are the specific arguments of the text?
+- Bayesian community should have a concrete internal view
+- The likelihoodist view has the following components:
+  - Data Have distributions but parameters do not (data distributions vs parameters)
+  - parameters are different from statistics (parameters vs statistics)
+  - likelihood is not a probability distribution
+  - there is an imaginary population
+  - Bayes is sampling theory + priors
+  - Priors are uniquely subjective
+- Common barriers for a purely Bayesian
+  - in the likelihood paradigm we tend to think that the data must look like the
+    likelihood function, this is not true in bayesian stats
+  - degrees of freedom is a notion more proper in a likelihood approach
+  - in the likelihood approach sampling is the source of all uncertainty
+  - they define random effects via the sampling design
+  - they tend to neglect data uncertainty
+- What is Mcelreath view then?
+  - The baysian approach is *A joint generative model of all variables*
+  - there is no deep distinction between data and parameters (variables)
+  - nor between likelihoods and priors (distributions)
+- In the bayesian approach if a distribution is observed it is a likelihood. If it is unobserved it is a prior.
+- The maximum entropy principle is a way of defining conservative distributions consistent with pre data info
+- The thing is, likelihoods are also pre-data distributions, and to  *them* too one can apply maxent to derive a conservative distribution !
+- The residuals don't have to look like the likelihood, nor the posterior has to look like the prior.
+- The inferential "force" in the bayesian paradigm is *shrinkage* (regression to the mean is the equivalent in the likelihoodist approach)
+- For him this view helps one think scientifically instead of statistically
+  - one defines a generative model of all variables
+- He proposes the following overthrowing of convention
+  - Data \(\to\) observed variable
+  - Parameter \(\to\) unobserved variable
+  - likelihood \(\to\) distribution ("state of information")
+  - Prior \(\to\) distribution
+  - Posterior \(\to\) conditional distribution
+  - Estimate \(\to\) banished
+  - Random \(\to\) banished
+    
+** What are the main concepts of the text?

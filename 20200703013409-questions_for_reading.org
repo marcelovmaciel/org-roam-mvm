@@ -1,5 +1,5 @@
-#+TITLE: Article - Reading and reflection methods
-- tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]],
+#+TITLE: Reading and reflection methods for articles
+- tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]]
 
 #+BEGIN_SRC elisp
 (buffer-file-name)
