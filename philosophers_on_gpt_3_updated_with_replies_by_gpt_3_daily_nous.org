@@ -1,0 +1,144 @@
+#+title: url:Philosophers On GPT-3 (updated with replies by GPT-3) - Daily Nous
+#+roam_key: http://dailynous.com/2020/07/30/philosophers-gpt-3/
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To understand better the philosophical implications of GPT3. Also, I have been getting more interested in (critical) digital humanities (as foreclosed by [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]). My project on [[file:20200609140243-on_idealism_and_hegemony.org][On idealism and hegemony : on rationalizing lies]] in general benefits from this. 
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+- Reminder: GPT is trained to predict what the next word in a sequence is likely to be. 
+*** GPT-3 and General Intelligence by David Chalmers
+*** GPT-3: Towards Renaissance Models - by Amanda Askell
+** What are the specific arguments of the text?
+*** GPT-3 and General Intelligence by David Chalmers
+- Gpt3 is showing hints of general intelligence and it suggests a potential mindless path to AGI.
+- One of his main points is that there is now some *path* we can follow. We *will* make use GPT achievements, but coupled with other mechanisms to overcome its limitation, particularly involving perception and action. 
+#+begin_quote
+. There are surely many principled limitations on what language models can do, for example involving perception and action. Still, it may be possible to couple these models to mechanisms that overcome those limitations. *There is a clear path to explore where ten years ago, there was not.*
+#+end_quote
+
+
+- GPT requires us to think deeper about what do we mean when we say something is intelligent.
+#+begin_quote
+ require serious analysis of GPT-3 and serious analysis of what intelligence and the other notions amount to.GPT-3’s capacities suggest at least a weak form of intelligence, at least if intelligence is measured by behavioral response.
+#+end_quote
+
+- Consciousness for him is related to agency. *GPT may be an engine for agents*
+  #+begin_quote
+GPT-3 does not look much like an agent. It does not seem to have goals or preferences beyond completing text, for example. It is more like a chameleon that can take the shape of many different agents. Or perhaps it is an engine that can be used under the hood to drive many agents. But it is then perhaps these systems that we should assess for agency, consciousness, and so on.
+  #+end_quote
+- While understanding is related to embodiment
+  #+begin_quote
+ it never really connects its words to perception and action. Can a disembodied purely verbal system truly be said to understand?
+  #+end_quote
+
+*** GPT-3: Towards Renaissance Models - by Amanda Askell
+
+- *What is the difference between generalizing and combining what you have already seen?* 
+#+begin_quote
+Can we tell if GPT-3 is generalizing to a new task in the example above or if it’s merely combining things that it has already seen? Is there even a meaningful difference between these two behaviors?
+#+end_quote
+- One thing that is interesting is that for her it is a problem that GPT-3 lack *lacks a coherent identity or belief state across contexts*
+
+*** If You Can Do Things with Words, You Can Do Things with Algorithms by Annette Zimmermann
+
+- The usage of AI in society leads to moral, social, political problems which may lead  not only to distributive but also a relational, communicative, representational and ontological injustices
+  #+begin_quote
+complex moral, social, and political problem space, rather than a purely
+technological one. This is not purely a tangibly material distributive justice
+concern: especially in the context of language models like GPT-3, paying
+attention to other facets of injustice—relational, communicative,
+representational, ontological—is essential.
+  #+end_quote
+
+- One great comment she makes is that to build those algorithms we need to understand *what do we mean* and *how do we measure*
+  #+begin_quote
+ in order to build an algorithmic criminal recidivism risk scoring system, for example, I need to have a conception in mind of what the label ‘high risk’ means, and how to measure it.
+[...]
+social meaning and linguistic context matter a great deal for AI design
+
+  [...]
+  a powerful language model might supercharge inequality expressed via
+  linguistic categories, given the scale at which it operates.
+  #+end_quote
+- if we are to build sociotechnical systems based upon algorithms we have to understand what are the inputs to our system, what and how we measure things, think about thei systemic and socio-political effects
+
+I believe we ought to have *cognitive scaffolds* that help us. The creation and introspection of those sociotechnical systems is what I deem *critical cybernetics*. To think about those sociometric biases is the starting point for a critical cybernetics.
+She goes further and argues
+
+#+begin_quote
+If we can politically critique and contest social practices, we can critique and
+contest language use. Here, our aim should be to engineer conceptual categories
+that mitigate conditions of injustice rather than entrenching them further. *We need to deliberate and argue about which social practices and structures—including linguistic ones—are morally and politically valuable before
+we automateand thereby accelerate them.*
+[...]
+ what is the purpose of using a given AI tool to solve a given set of tasks? How does using AI in a given domain shift, or reify, power in society? Would redefining the problem space itself, rather than optimizing for decision quality, get us closer to justice?
+#+end_quote
+
+It is highly interesting how she shifts the GPT problem from a thing about *intelligence* to a thing about *social cybernetics*
+
+#+begin_quote
+. When it comes to assessing the extent to which language models like GPT-3 moves us closer to, or further away, from justice (and other important ethical and political goals), we should not necessarily take ourselves, and our social status quo, as an implicitly desirable baseline.
+
+A better approach is to ask: what is the purpose of using a given AI tool to solve a given set of tasks? How does using AI in a given domain shift, or reify, power in society? Would redefining the problem space itself, rather than optimizing for decision quality, get us closer to justice?
+#+end_quote
+*Sally hallansger* appears here again:
+ “Social Meaning and Philosophical Method.” American Philosophical Association 110th Eastern Division Annual Meeting (2013).
+[[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]] and [[file:20200609140243-on_idealism_and_hegemony.org][On idealism and hegemony : on rationalizing lies]] is where she appeared too
+
+*** The Digital Zeitgeist Ponders Our Obsolescence by Regina Rini
+- The gpt is an abstraction of our time. It is the closest to the zeitgeist that we have.
+  #+begin_quote
+ a statistically abstracted representation of the contents of millions of minds, as expressed in their writing. When GPT-3 speaks, it is only us speaking, a refracted parsing of the likeliest semantic paths trodden by human expression. When you send query text to GPT-3, you aren’t communing with a unique digital soul. But you are coming as close as anyone ever has to literally speaking to the zeitgeist.
+  #+end_quote
+
+She gives an *awesome* existential account of that.
+
+#+begin_quote
+Some time from now—decades? years?—we’ll simply have come to accept that the tweets and chirps of our internet flock are an indistinguishable mélange of human originals and statistically confected echoes, just as we’ve come to accept that anyone can place a thin wedge of glass and cobalt to their ear and instantly speak across the planet. It’s marvelous. Then it’s mundane. And then it’s melancholy. Because eventually we will turn the interaction around and ask: what does it mean that other people online can’t distinguish you from a linguo-statistical firehose? What will it feel like—alienating? liberating? annihilating?—to realize that other minds are reading your words without knowing or caring whether there is any ‘you’ at all? Will expressing your views on public issues seem anything more than empty and cynical, once you’ve accepted it’s all just input to endlessly recursive semantic cannibalism? I have no idea. But if enough of us write thinkpieces about it, then GPT-4 will surely have some convincing answers.
+#+end_quote
+
+*** Who Trains the Machine Artist? by C. Thi Nguyen
+The main problem for Nguyen is that algorithms optimize according to some measures. The problem is that those measures tend to be thin, boring, misleading.
+
+#+begin_quote
+ They seem to be driven by some very simple measures: like how many hours of Netflix programming a customer watches and how quickly their customers binge something. But art can do so much more for us than induce mass consumption or binge-watching. For one thing, as Martha Nussbaum says, narratives like film can expose us to alternate emotional perspectives and refine our emotional and moral sensitivities.
+
+[...]
+They can only optimize for what they can measure:
+#+end_quote
+
+Then he connects this with James Scott work:
+#+begin_quote
+In Seeing Like a State, James Scott asks us to think about the vision of large-scale institutions and bureaucracies. States—which include, for Scott, governments, corporations, and globalized capitalism—can only manage what they can “see”. And *states can only see the kind of information that they are capable of processing through their vast, multi-layered administrative systems*.
+#+end_quote
+
+This once again connects with my ideas about critical cybernetics. We need to be careful with our measures. We need to be careful how we process those measures, which is the way our systems will "see" things. My twist following Vermont approach to complex system is that we should also *see* our measures. Data visualization, explorables, visual interfaces may be relevant in a *second order tweaking of our cybernetic systems*. This connects with both james scott and habermas.
+
+We create measures and algorithms which will optimize on those measures. We need
+to understand and see what those measures and systems. Then we need to see what
+those systems are doing, which leads us to techniques of interpretability. 
+
+*** GPT-3 and the Missing Labor of Understanding by Shannon Vallor
+For vallor the main obstacle for Ai is not performance but understanding. Understanding, for her, require *world-building* and *world-maintaining* skills.
+#+begin_quote
+. Understanding tells the agent how to weld new connections that will hold, bearing the weight of the intentions and goals behind our behavior
+#+end_quote
+
+For her, therefore, one ought to look for inspiration in  Husserl, Quine, James, and Merleau-Ponty instead of  Dennett, Fodor or Churchland.
+** What are the main concepts of the text?
+
+- intelligence
+- consciousness \(\leftrightarrow\) agency
+- understanding \(\leftrightarrow\) embodiment
+- in-context learning
+- identity
+- justice
+- power
+- zeitgeist
+- linguo-statistical firehose
+- recursive semantic cannibalism
+- thin measures
+- measures + administrative processing = seeing
+- understanding as world building and maintaining

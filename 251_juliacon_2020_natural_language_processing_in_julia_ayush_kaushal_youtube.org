@@ -1,0 +1,37 @@
+#+title: url:(251) JuliaCon 2020 | Natural Language Processing in Julia | Ayush Kaushal - YouTube
+#+roam_key: https://www.youtube.com/watch?v=hHCi8ojazqk
+
+
+
+
+* Flashcards
+** What is a typical NLP pipeline in julia ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-01T06:41:15Z
+:FC_TYPE:  normal
+:ID:       fd27f5bc-3da8-441f-ab79-c46265304556
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-01T06:41:15Z |
+:END:
+*** Back :ATTACH:
+
+[[attachment:_20200801_034154screenshot.png]]
+
+
+** What functionalities are given by the CorpusLoaders pkg? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-01T06:43:33Z
+:FC_TYPE:  normal
+:ID:       be6c5664-7297-4eaa-a5ad-f8f4c1147e2b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-01T06:43:33Z |
+:END:
+*** Back :ATTACH:
+
+[[attachment:_20200801_034345screenshot.png]]

@@ -1,0 +1,14 @@
+#+TITLE: What Is Political Methodology?
+
+#+ROAM_KEY: cite:roberts18_what_is_polit_method
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: roberts18_what_is_polit_method
+:NOTER_DOCUMENT: %(orb-process-file-field "roberts18_what_is_polit_method")
+:AUTHOR: Roberts, M. E.
+:JOURNAL: PS: Political Science \& Politics
+:DATE:
+:YEAR: 2018
+:DOI:  http://dx.doi.org/10.1017/s1049096518000537
+:URL: https://doi.org/10.1017/s1049096518000537
+:END:

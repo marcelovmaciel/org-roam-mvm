@@ -37,4 +37,4 @@ and synecological systems theory. The point I want to make is that we must go fr
 
 An additional predecessor might be *metagames* ([[https://eprints.soton.ac.uk/405217/1/__userfiles.soton.ac.uk_Users_ojl1y15_mydesktop_Final%2520thesis.pdf][Metagames]]).
 
-From an empirical point of view I have to develop a methodology that agglutinates information theory, natural language processing, network science and inductive game theory.
+From an empirical point of view I have to develop a methodology that agglutinates information theory, natural language processing, network science and inductive game theory all in service of politology.

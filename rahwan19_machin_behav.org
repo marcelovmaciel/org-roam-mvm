@@ -1,0 +1,170 @@
+#+TITLE: Machine Behaviour
+#+ROAM_KEY: cite:rahwan19_machin_behav
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: rahwan19_machin_behav
+:NOTER_DOCUMENT: %(orb-process-file-field "rahwan19_machin_behav")
+:AUTHOR: Rahwan, I. et al.
+:JOURNAL: Nature
+:DATE:
+:YEAR: 2019
+:DOI:  http://dx.doi.org/10.1038/s41586-019-1138-y
+:URL: https://doi.org/10.1038/s41586-019-1138-y
+:END:
+
+
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+
+This paper relates directy to my ideas in critical cybernetics. At the moment I have no specific project in mind, though maybe I should.
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+The main goal is to argue for the existence of a machine behaviour area. Their perspective is *behaviorist* which I'm not fond.
+
+** What are the specific arguments of the text?
+- There is a need for a new area that studies the empirical behavioral patterns, the environament, and ecology of machines, instead of seeing them as engineering artefacts
+- They give three motivations for the existence of the area:
+  - ubiquity
+  - complexity
+  - effects
+- They emphasize a *behaviourist* position. This can be challenged. See[[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]]
+- They emphasize the need for a behavioral approach and take this "empirical" view as opposed to the engineering view, but exclude normative and critical perspectives
+
+   #+begin_quote
+
+But methodologies aimed at maximized algorithmic performance
+are not optimal for conducting scientific observation of the properties
+and behaviours of AI agents. R
+, scholars of machine behaviour spend
+considerable effort in defining measures of micro and macro outcomes
+to answer broad questions such as how these algorithms behave in dif-
+ferent environments and whether human interactions with algorithms
+alter societal outcomes. *Randomized experiments, observational inference and population-based descriptive statistics—methods that are often used in quantitative behavioural sciences—must be central to the study of machine behaviour.*
+#+end_quote
+
+- Tinbergen's dimensions of behaviour are an useful integrating and organizing framework for the study of animal/human/robot behaviour:
+  - function
+  - mechanism
+  - development
+  - evolutionary history
+
+#+begin_quote
+Machines have mechanisms that produce behaviour, undergo
+development that integrates environmental information into behav-
+iour, produce functional consequences that cause specific machines to
+become more or less common in specific environments and embody
+evolutionary histories through which past environments and human
+decisions continue to influence machine behaviour
+#+end_quote
+
+- Mechanisms are related to *proximate causes* that are "observationally triggered and generated in specific environments"
+- The study of *mechanisms* is particularly important the more we construct complicated models. What *triggers* some responses but not others in gpt-3?
+- *Development* (ontogeny) is related to behavior *acquirement*, lets say through imitation or environmental conditioning.
+- In machine behavior development is related to engineering and *training stimuli* (choice of dataset).
+- Function is related to *adaptive value* and *fit*. How a behavior contributes to *lifetime reproductive fitness* given an environment?
+- Function for machines is related to how they fit human stakeholders goals. The environment - platforms architectures - may create *selective forces* for some kind of machines. Those forces might lead to *unanticipated effects* and *unintended effects*.
+- Function also covers interaction with other machines. Such as adversarial attacks. This a whole area that might improve engineering too!
+  #+begin_quote
+Adversarial attacks—synthetic inputs that fool a system into
+producing an undesired output 44,92–94 —on AI systems and the subse-
+quent responses of those who develop AI to these attacks 95 may pro-
+duce complex predator–prey dynamics that are not easily understood
+by studying each machine in isolation.
+  #+end_quote
+- Function is directly related to *incentives*
+- Evolution, also known as *phylogeny*, tries to understand how current function is related to past *selective pressures* and mechanisms. E.g.
+  #+begin_quote
+, the human hand evolved from the fin of a bony fish. Its
+current function is no longer for swimming, but its internal structure
+is explained by its evolutionary history. Non-selective forces, such as
+*migration and drift*, also have strong roles in explaining relationships
+among different forms of behaviour.
+  #+end_quote
+
+
+
+This image neatly summarizes it:
+[[file:~/Drive/Org/imgs/tinbergen.png]]
+
+- They argue there are three scales of inquiry:
+  - individual machines
+  - collectives of machines
+  - machines embedded in human social environments
+
+    #+begin_quote
+. Individual machine behaviour empha-
+sizes the study of the algorithm itself, collective machine behaviour
+emphasizes the study of interactions between machines and hybrid
+human–machine behaviour emphasizes the study of interactions
+between machines and humans.
+    #+end_quote
+
+- Individual machine behavior can be *within-machine* and *between-machine*
+  #+begin_quote
+to the study of individual machine
+behaviours investigates questions such as whether there are constants
+that characterize the within-machine behaviour of any particular AI
+across a variety of contexts, how the behaviour of a particular AI pro-
+gresses over time in the same, or different, environments and which
+environmental factors lead to the expression of particular behaviours
+by machines.
+  #+end_quote
+
+- The between-machine behavior is simply the comparison of individual behaviors in different environments, which may themselves be algorithms - though not machine learning, but architectural algorithms for example.
+
+- In the human-machine scale we are interested in the *feedback loops between humans and machines*. How matching algorithms influence the distributional outcomes of dating process, how news-filtering or the such influence the distribution of public opinion  is machines \(\to\) humans, while humans \(\to\) machines is related to how engineering and data choices impact the behavior of algorithms.  They dont say, but triggering here is also interesting. 
+** What are the main concepts of the text?
+- behaviour
+- Tinbergen's dimensions of behaviour
+- function
+- mechanism
+- development
+- evolutionary history
+- mechanisms as proximate causes
+- mechanisms as triggers
+- ontogeny
+- development as acquirement
+- training stimuli
+- function as adaptive value
+- function and fit
+- selective forces
+- incentives
+- unintended effects
+- migration
+- drift
+- scales of machine behavior
+- within-machine
+- between-machine
+  
+** Insights
+Their distinction between individual and collective machine behavior is an interesting take. I'm particularly interested in the role of say simulation in the study of collective machines.
+
+The resource for this is [[https://github.com/google/ml-fairness-gym][GitHub - google/ml-fairness-gym]]
+
+
+- eles defendem uma visao comportamental, uma analise "externalista" do "comportamento" de algoritmos e nisso conectam com dimensoes do comportamento (ontogenia, funcao, etc). Tirando a msg do artigo em si, acho que ele traz insights pra engenharia de algoritmos particularmente usar teoria dos jogos evolucionaria para desenhar modelos. o uso de teoria dos jogos classica foi popularizado por gans ne, mas acho que tem um design space n explorado ai em estender esse insight dos caras e passar a pensar o design de algoritmo como uma especie de desenho de mecanismo evo algo inspirado no que foi feito com e. coli e discutido aqui https://www.quantamagazine.org/biodiversity-may-thrive-through-games-of-rock-paper-scissors-20200305/ o insight é ao inves de tentar desenha *um* algoritmo nos criamos um sistema que pressoes internas do sistema levem a melhora de performance, assim como gans, mas maior robustez tambem, via algo semelhante ao feito com e. coli
+
+- The study of *mechanisms* is particularly important the more we construct complicated models. What *triggers* some responses but not others in gpt-3?
+* Flashcards
+** What typical behavioural questions can we ask about algorithms? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-03T00:06:18Z
+:FC_TYPE:  normal
+:ID:       0539a28e-1185-4edc-a0a0-5d28d7ed4667
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-03T00:06:18Z |
+:END:
+*** Back
+
+[[file:~/Drive/Org/imgs/machine-behavior.png]]
+* Further refs
+
+-  [[https://rahwan.me/projects][Projects — Iyad Rahwan]]
+- Simon sciences of the artificial 

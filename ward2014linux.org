@@ -19,7 +19,7 @@
 * txt structure
 *** Chap 1 - Quadro geral
 *** Chap 2 - Comandos básicos e hierarquia de diretórios
-*** Chap 3 - Dispositivos
+p*** Chap 3 - Dispositivos
 
 * Sonke questions
 Those are questions that aim to connect the notes with other notes and with
@@ -188,6 +188,248 @@ crontab file
 - *at* is a one time cron alternative (atq and atrm check and remove jobs
   respectively).
 - For more on crontab see [[https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804][How To Use Cron to Automate Tasks on Ubuntu 18.04 | DigitalOcean]]
+
+*** Chap 8 - Observando mais de perto os processos e a utilizacao de recursos
+- ~top~ is a useful command to display linux processes
+- ~lsof~ lists open files and processes that are using them
+- Processes are composed of threads. All processes start single-threaded, using the *main thread*.
+- Threads are useful because they can be used "simultaneously", but with lower overhead than processes, while sharing resources. They are particularly useful in I/O.
+- ~ps m~ shows thread information
+- ~top -p pid~ will monitor an specific processes given its *pid*
+- ~/usr/bin/time proc~ will show the time consumed by a proc
+- There are three kinds of time \(\to\) user , system and elapsed (user+system are the most useful)
+- *nice value (NI)* is the priority of a process in the kernel. One can tweak that with ~renice~ . This is particularly useful if you run heavy processes. Higher NIs mean less priority, so give the process a lower prioriti with *renice 20 pid*
+- *load average* is the average number of processes ready to be executed at the moment. The command to see load average is ~uptime~ . It gives 1-5-15 minutes cpu usage information.
+  #+BEGIN_SRC shell
+uptime
+  #+END_SRC
+
+  #+RESULTS:
+  | 15:59:18 up  1:12 | 1 user | load average: 0 | 38 | 0 | 48 | 0 | 61 |
+- If the load average is always too high the system will start to do *thrashing* which is to *swap* memory. Not good, pay attetion to that.
+- To verify memory status one uses the ~free~ (-ht options make it more readable ) command or sees /proc/meminfo
+- the *page table* is a hash of addresses of processes to real memory addresses . If a memory address is not ready when it is called by a process it will cause a *page fault*
+- ~vmstat~  is a program to visualize the frequency the kernel is swaping pages, the level of cpu and IO usage (aint easy to read ). ~pidstat~ is like vmstat but for specific processes 
+*** Chap 9-10 - Entendendo a rede e sua configuracao / Aplicacoes e Servicos de Rede
+- A *host* is any computer connected to a network
+- Hosts that can transfer data between networks are *routers*
+- Hosts + Router = *LAN* (Local Area Network)
+- Computers share data in small portions called *packages* Packages are composed of *headers* and *payloads*.
+- Headers contain id information such as hosts source destiny and about the protocol while payloads contain the actual data
+- A network is composed of *layers* or *stack*. The layers are the following:
+  1. *Application layer*
+  2. *Transport layer*
+  3. *Network Layer*
+  4. *Physical Layer*
+- The *application layer* contains the protocols apps and servers use to communicate. Among those protocols are:
+  - *HTTP (Hypertext Transfer Protocol)*
+  - *SSL (Secure socket layer)*
+  - FTP (File Transfer Protocol)
+- The *transport layer* verifies data integrity, how to split data into packages and so on. It uses two protocols to do so: *TCP* (Transmission Control Protocol) and *UDP* (User Datagram Protocol)
+- The *network layer* defines how to transfer packages from a source host to a destiny host. The protocol it uses to do so is the *IP* (Internet Layer).
+- The *physical layer* specifies how brute data goes through the modem or a ethernet and so on.
+- Another name for router is *gateway*
+- Every host has an *IP address*. That is, an identification in the internet protocol - which is the protocol for the network layers, which defines how packages are transferred between hosts. Obviously, to communicate with other host your computer ought to know the target IP address.
+- ~ifconfig~ and ~ip~ are commands related to the network layer
+- The *ICMP* (internet controlo message protocol) helps identify connectivity and routing problems  while the *DNS (Domain name service)* maps names to IP addresses
+- ~ping~ is a network debugging tool
+- ~host~ is a command to learn a domain IP address
+- The internet is a *software* network. It lives on top of *physical networks*. One such physical network is the *Ethernet*.
+- *NetworkManager* is the most famous app to deal with network configuration
+- The TCP defines additional addresses to hosts on top of the IP.
+- To see which TCP ports are open use ~netstat -nt~
+- When we talk about client and server we are using TCP nomenclature. *client* is the process which makes the connection while *server* is the process which listens
+- ~curl~ is an app which can be used to communicate using HTTP
+- The *SSH (secure shell)* is the standard protocol for Unix *remote access*. *OpenSSH* is an open source implementation of the protocol, in it the client is ~ssh~ while the server is  ~sshd~ .
+- To execute ssh one must have configuration files and host keys. Most linux distributions keep the configurations in the folder /etc/ssh
+- OpenSSH includes the programs ~scp~ and ~sftp~ for file transfer between hosts.
+- There are three kinds of network attacks:
+  - Full compromising, through buffer overflow or accessing an user account and search for some *setuid*
+    #+begin_quote
+The Unix access rights flags setuid and setgid (short for "set user ID" and "set group ID")[1] allow users to run an executable with the file system permissions of the executable's owner or group respectively and to change behaviour in directories. They are often used to allow users on a computer system to run programs with temporarily elevated privileges in order to perform a specific task. While the assumed user id or group id privileges provided are not always elevated, at a minimum they are specific.
+
+The flags,setuid and setgid, are needed for tasks that require different privileges than what the user is normally granted, such as the ability to alter system files or databases to change their login password
+[[https://en.wikipedia.org/wiki/Setuid][setuid - Wikipedia]]
+    #+end_quote
+  - Denial of Service attacks (DoS)
+  - Malwares (such as worms )
+- *Sockets* are the interface used by processes to access the network through the kernel. Sockets are used for interprocess communication in the TCP layer 
+*** Chap 11 - Introducao aos shell scripts
+- Shebangs (~#!~) are put at the top of files we want to be run by some program.
+  #+begin_quote
+When a text file with a shebang is used as if it is an executable in a Unix-like operating system, the program loader mechanism parses the rest of the file's initial line as an interpreter directive.
+[...]
+
+When compared to the use of global association lists between file extensions and the interpreting applications, the interpreter directive method allows users to use interpreters not known at a global system level, and without administrator rights. [[https://en.wikipedia.org/wiki/Shebang_(Unix)][Shebang (Unix) - Wikipedia]]
+  #+end_quote
+  - ~#!/bin/bash~ or  ~#!/usr/bin/env~ python are examples
+- ~chmod~ is the program to change *mode bits* of files ~chmod +rx scripts~ will allow the script to be read AND
+   executed
+- A *literal* is created with ~''~ and it tells the shell to not interpolate things inside the literal AND to treat it as a single object
+- ~""~ will treat it as a single object BUT WILL substitute variables for values
+- There are *special variables* in shell. They are:
+  - ~$1, $2, ...~ which are command line parameters or script parameters. Lets say you define a foo.sh file:
+    #+BEGIN_SRC bash
+echo first argument $1
+echo third argument $3
+    #+END_SRC
+    - If one runs
+      #+BEGIN_SRC shell
+./foo one two three
+      #+END_SRC
+    - It will output
+      #+BEGIN_SRC text
+first argument: one
+third argument: three
+      #+END_SRC
+  - ~$#~ saves the number of parameters that were passed. Useful in loops
+  - ~$@~ represents all the arguments of the script
+  - ~$0~ represents the name of the script
+  - ~$$~ represents the ID of the process
+  - ~$?~ represents the output code
+- If there is no error the *output code* is *0*
+- Bash scripts use ~[]~ to encapsulate conditional expressions . Useful flags for it are -f (asks if it is a file), -a, -o.
+- There are three kinds of tests: *file tests, string tests and arithmetic tests*:
+- Examples of *unary* file tests are:
+  - -e  it exists
+  - -s  it is not empty
+  - -s it is dir
+  - -h it is  simbolic link
+  - -b it is block
+  - -c it is character
+  - -p it is named pipe
+  - -S it is socket
+  - -r it is type read
+  - -w it is type write
+  - -x it is type executable
+  - -u it is type setuid
+  - -g it is type setgid
+  - -k it is type sticky
+- -nt and -ot are binary tests (newer than and older than)
+- The equal sign is for string tests. use ~-eq~ for numeric equality
+- There are many numeric test operators
+- There is pattern matching with ~case~, ;; and esac
+- And loops with ~for~ in do done
+- Awk is an old fashioned scripting language
+- One can encapsulate the value of the output of a program with ~$()~ (this is also used in make )
+- ~basename~ removes extension and path from name
+- ~()~ in a shell command creates a new encapsulated shell environment (*subshell*)
+- To include another shell file in the script use ~.~ (. foo.sh includes it )
+
+- ~shift~ pops the list of command line parameters
+*** Chap 13 - Ambientes de usuario
+- Linux installs most executables on /usr/bin. Symbolic links tend to live on /usr/local/bin
+- He is againts *aliases*
+  - *which* does not work well with aliases
+  - they are not recognized by subshells and non-interactive shells
+  - he recommends to write shell functions (create a sh file, make it executable, and put it on path)
+- There are two kinds of shells: login shells and non login shells
+- Login shells look for ~.bash_profile,.bash_login,.profile~
+- Non login shells look for ~.bashrc~
+  #+begin_quote
+
+    If you open a shell or terminal (or switch to one), and it asks you to log in (Username? Password?) before it gives you a prompt, it's a login shell.
+    If it doesn't (like gnome-terminal), and lets you use it straight away, it's a non-login shell.
+
+If you are a normal user of Ubuntu Desktop, the only login shell is...your desktop (you type a password to get in, right ;)? Well, technically it's a login shell that starts a GUI, but that's getting in to jargon. And yes, it will read the settings in .profile
+
+The only time you (a normal user) will probably see a login shell that looks like a login shell is if you are having some problem with your desktop and you switch to a virtual terminal with the Ctrl+Alt+F1 shortcut.
+
+The other general cases for having a login shell include:
+
+    *accessing your computer remotely via ssh (or connecting locally with ssh localhost)*
+    simulating an initial login shell with bash -l (or sh -l)
+    simulating an initial root login shell with sudo -i
+        or sudo -u username -i for another non-root user
+    authenticating as another non-root user with su - username (and their password)
+    using the sudo login command to switch user
+
+[[https://askubuntu.com/questions/155865/what-are-login-and-non-login-shells][bash - What are login and non-login shells? - Ask Ubuntu]]
+  #+end_quote
+- This means that most of the time one only changes their .bashrc. However, in my case, if I use *remote* shells then I will have to pay attention to .bash_profile
+- As said before, to change the main shell of the system use ~chsh~
+*** Chap 15 - Ferramentas de desenvolvimento
+- An *object file* is sort of a precompiled object. They end with .o. The ~-c~ option of the compiler creates object files from source files
+  #+BEGIN_SRC shell
+cc -c main.c => main.o
+  #+END_SRC
+To create an *executable* from oject files one uses the -o flag
+#+BEGIN_SRC shell
+cc -o myprog main.o
+#+END_SRC
+- *Header files* are additional source files that tend to have type declarations and some library functions. They end with .h.
+- Most installation problems are due to the compiler not finding header files.
+- If there is a ~notfound.h~ that one has identified in /usr/jun/include one can point to its folder with the flag ~-I~ s.t.
+  #+BEGIN_SRC shell
+cc -c -I/usr/junk/include badinclude.c
+  #+END_SRC
+- It is not C compiler that looks for header files. It is its preprocessor. Commands to the preprocessor are written with ~#~ e.g. #include <notfound.h>.
+- Another preprocessor commands are #define (which defines a macro ) and #ifdef, #if, #endif (which makes the preprocessor ignore if the conditional expression is false).
+- The preprocessor app is ~cpp~ though it is probably more usual to use it in conjunction with the compiler with ~gcc -E~.
+- Besides not finding headers it is possible that the compiler does not find libraries. The usual system place for libraries is /usr/lib . To solve it one must link it as with headers, but using the flag ~-L~ .
+- There are two kinds of libraries:
+  - *static libraries which end with .a*. When a program uses them it copies their binary into their binaries. Too much of this and the system is full.
+  - *shared libraries end with .so*. They are not copied by the programs that use them, but are called upon when the programs are run. The obvious problem is that they must have a canonical path otherwise the programs won't work.
+- The linker looks at /etc/ld.so.cache which is generated by running ldconfig -v after changing the list /etc/ld.so.conf , which contains paths to libraries. /lib and /usr/lib are not listed in it because they are already implicit.
+- The linking of static libraries (above) is different from dynamic libraries.
+- make is based on three ideas:
+  - target
+  - dependencies
+  - rules
+- The main principle of make is that targets ought to be synced with dependencies.
+- Typical make targets are:
+  - clean
+  - distclean
+  - install
+  - test or check
+  - all
+- Lex and yacc are building blocks for programming languages
+*** Chap 16 - INroducao a compilacaode software a partir de codigo fonte c
+- Before extracting things it is better to taeke a look at it with ~tar tvf~ or ~tar ztvf~ . If there are files with names which are absolute paths *there is something wrong*
+- Always look at the README and INSTALL files.
+- If there are object files in the folder it is probable some sloppy job. Clean then with ~make clean~
+- ~autotools~ is a make generator for cross compatility between OSs. It is based on three files:
+  - configure
+  - Makefile.in
+  - config.h.in
+- For the user what matters is that one runs ./configure, which will create a config.h and a (config.cache).
+- The flow is, then, the following:
+  1. ./configure
+  2. make
+  3. make check
+  4. make -n install
+  5. make install
+
+- configure with --prefix=path will install the app on the this different path. The standard path for configure is */usr/local, /usr/local/bin for programs and /usr/local/lib* for libraries. That is, *this is the place things you installed yourself, not say apt-get (which will go to /usr/bin or /usr/lib)*
+- For going to the end of the less script use ~G~ and for a reverse search use ~?~
+- autotools has some typical make targets too:
+  - clean
+  - distclean
+  - check
+  - install-strip
+- ~pkg-config~ is an interesting app to learn about pkgs (like flags, lib dependencies and ). Also, it is used *inside* make files so that we pass the necessary flags and so on.
+
+  #+begin_quote
+NAME
+       pkg-config - Return metainformation about installed libraries
+
+SYNOPSIS
+       pkg-config  [--modversion]  [--version]  [--help]  [--atleast-pkgconfig-version=VERSION]  [--print-errors]  [--short-errors]
+       [--silence-errors] [--errors-to-stdout] [--debug]  [--cflags]  [--libs]  [--libs-only-L]  [--libs-only-l]  [--cflags-only-I]
+       [--libs-only-other] [--cflags-only-other] [--variable=VARIABLENAME] [--define-variable=VARIABLENAME=VARIABLEVALUE] [--print-
+       variables] [--uninstalled] [--exists] [--atleast-version=VERSION] [--exact-version=VERSION] [--max-version=VERSION] [--vali‐
+       date] [--list-all] [--print-provides] [--print-requires] [--print-requires-private] [LIBRARIES...]
+
+DESCRIPTION
+       The  pkg-config  program  is  used to retrieve information about installed libraries in the system.  It is typically used to
+       compile and link against one or more libraries.  Here is a typical usage scenario in a Makefile:
+
+       program: program.c
+            cc program.c $(pkg-config --cflags --libs gnomeui)
+
+  #+end_quote
+- Pkgs which you installed yourself and are at /usr/local wont, obviously, be upgraded by your system.
+- One way of looking for header files is by using the program ~apt-file~ (useful if there is a header linkage error )
 ** What are the main concepts of the text?
 
 *** Chap 1 - Quadro geral
@@ -280,7 +522,60 @@ crontab file
 - mount
 *** Chap 7 - Configuracao do sistema: logging, hora do sistema ,tarefas em lote e usuarios
 - cron
-- crontab 
+- crontab
+*** Chap 8 - Observando mais de perto os processos e a utilizacao de recursos
+- pid
+- nice value
+- main thread
+- load average
+- thrashing and swapping
+- page table and page fault 
+
+
+- top
+- lsof
+- /usr/bin/time
+- renice
+- uptime
+- free
+- vmstat
+- pidstat
+*** Chap 9-10 - Entendendo a rede e sua configuracao / Aplicacoes e Servicos de Rede
+
+
+- host
+- LAN
+- router (gateway)
+- network layers/stack
+- packages (header,payload)
+- Application layer
+- Transport layer
+- Network Layer
+- Physical Layer
+- HTTP
+- SSL
+- TCP
+- UDP
+- IP
+- IP address
+- ICMP
+- DNS
+- Ethernet
+- SSH
+- OpenSSH
+- kinds of network attack
+- Sockets
+
+
+- NetworkManager
+- ifconfig
+- ip
+- netstat -nt
+- scp
+- sftp
+
+*** Chap 11 - Introducao aos shell scripts
+*** Chap 13 _ Espacos do usuário 
 * Flashcards
 ** What is a linux layer? :fc:
 :PROPERTIES:

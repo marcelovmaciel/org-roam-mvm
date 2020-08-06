@@ -1,0 +1,23 @@
+#+TITLE: The architecture of complexity
+
+#+ROAM_KEY: cite:simon1991architecture
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: simon1991architecture
+:NOTER_DOCUMENT: %(orb-process-file-field "simon1991architecture")
+:AUTHOR: Simon, H. A.
+:JOURNAL:
+:DATE:
+:YEAR: 1991
+:DOI:
+:URL:
+
+:END:
+
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text?
+** What are the main concepts of the text?

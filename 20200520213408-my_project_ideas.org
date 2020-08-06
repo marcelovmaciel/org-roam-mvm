@@ -113,7 +113,8 @@ The 14 starts an interesting discussion about nonequilibrium steady states which
 [[https://www.sciencedirect.com/science/article/pii/S0304397519304694][Bayesian network semantics for Petri nets - ScienceDirect]]
 Petri nets are used in the julia ecosystem as a general template for both abm's and differential equations. I'm interested how they can be used to connect the literature on simulation with the empirical literature on causal inference. This would be a huge methodological contribution.
 
-
+* inductive party competition
+use dedeo ?
 * what is the ideational structure of parliamentary discourse in brazil
 - What remains?  What has changed?
 - Saquarema vs luzias

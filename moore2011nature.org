@@ -332,6 +332,27 @@ degree.
 
 
 
+*** Unit 3. P vs NP
+- P vs NP is about checking vs finding solutions
+- P = we can find in polynomial time
+- NP = we can check in polynomial time
+- Obviously NP  includes P. The great question is if it is larger than P or not. 
+- The *N* is not non, but non-deterministic
+- A non-deterministic computer is one that can make guesses
+- Strictly speaking NP is a class of *decision problems* (y-n questions)
+- A can be *reduced* to B if there is a polynomial-time algorithm that translates instances of A to instances of B, so that the decision answer stays the same
+- A and B here is not *one* problem, but a *class* of problems, a type of problem. Example: is not about whether one graph has a hamiltonian path, but whether *any* graph as a hamiltonian path
+- The reduction is not trying to solve the problem, but to translate from one representation to another.
+- There are problems B in NP s.t. any other problem in NP can reduced to them:
+  - \(\forall A \in \text{NP}, A \leq B \)
+- Those Bs are  *NP-complete*. This means that B is a general problem. (circuit SAT is NP complete)
+- Suppose there are such Bs. If A is hard this means that B is too. This means that to be NP-complete B must be fricking hard.
+- This means that if we can find that *one* B is in P then so is *every* problem which are also in NP (since they can be reduced to B) which means that \(\text{P} = \text{NP}\)
+- However, if we can prove that \(\text{N} \neq \text{NP}\), that is, if we can prove that there are some problems which cannot be solved in polynomial time,  then we also discover that B cannot be solved, since all NP problems could be reduced to it
+- If we run anything in our computer if goes all way down to bits which can be seen as decision problems (yes or no)
+- That is why we translate stuff to boolean circuits. Our computers in the end are simply boolean circuits!
+- So translating to a boolean circuit amounts to translating your question into "Are there values for the inputs that makes the output true?" than construct a boolean circuit for our problem that does that. Obviously this does not *solve* the problem, it is np-hard, but we can then use heuristics for circuits!!
+- The three sat translation is to try to translate your problem into statements about AND OR combinations of binary variables
 * Flashcards
 ** What is information flow? :fc:
 :PROPERTIES:

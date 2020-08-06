@@ -1,0 +1,45 @@
+#+title: url:(265) Richard McElreath: The Evolution of Statistical Methods for Studying Human Evolution - YouTube
+#+roam_key: https://www.youtube.com/watch?v=Wu0hAjlMqUQ
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Besides a general statistical literacy usefulness, McElreath's view on
+statistical modeling  is to  argue for unification between theoretical and
+statistical modeling and data collection, which complement in lots of always clarke and primo's view.
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Data analysis may be improved by a bayesian and unificationist perspective on statistical modeling, but we have to look beyond it for "saving" science.
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       8d9ffbd5-d337-464a-ad9f-d71880a719c4
+:END:
+- Fisher 25 on factorial design + null hypothesis testing + against bayesianism = main influence on modern quantitative research
+- Even though statistics pre-fisher was mostly bayesian (gaus, galton and so on)
+- Single studies with one sample trick us. Science is a population process
+- There are many-to-many relationships between *hypotheses, process models and statistical models*
+- The problem with null-models is that there are many and if you gain "support"
+  for a hypothesis it does not tell us anything about the process model, since
+  the hypothesis may have come from many different process models
+- Different hypothesis with different process may imply the same statistical model, which is *crazy*
+  [[attachment:_20200806_165757screenshot.png]]
+- One solution for that is to compare multiple non-null models
+- More for that on (james clark coherence unified and so on (if the link breaks)) https://www.srs.fs.usda.gov/pubs/ja/2012/ja_2012_clark_003.pdf
+- His proposal for improvement, in data analysis, is to use bayesian analysis with a focus on generative models, and to use information criteria to compare model uncertainty of *multiple models*
+- Data analysis is only one element of the scientific process:
+  [[attachment:_20200806_170321screenshot.png]]
+- There is a popular view that the cool thing about *the scientific method* is that whatever your bad theory it will be proved wrong by it. This is not true, you can have lots of false positives. From a population point of view we are flooding our system with bad theories, wasting our limited energy proving them wrong, and having to deal with a lot of noise.
+- Theories are a sort of *base rate*.
+- To have an understanding of the base rate it would be cool to publish *null results*
+- Poor theory comes from : relying on intuition, metaphor, rhetoric and bad math. HADOUKEN.
+- Hypothesis ought to be crafted. Vague hypotheses are a huge problem.
+- His works with Smaldino shows that the most important things for a systemic improvement on science is to have better base rates, or theories, and to diminish the publising of *false positives* (which connects with Mayo severity philosophy).
+** What are the main concepts of the text?
+- null hypothesis testing
+- population process
+- many-to-many morphisms between hypotheses, process models and statistical models
+- information criteria
+- model uncertainty
+- generativel models
+- base rate
+- false positives rate

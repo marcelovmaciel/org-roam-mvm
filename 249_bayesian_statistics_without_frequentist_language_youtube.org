@@ -1,4 +1,4 @@
-#+title: (249) Bayesian Statistics without Frequentist Language - YouTube
+#+title: url: (249) Bayesian Statistics without Frequentist Language - YouTube
 #+roam_key: https://www.youtube.com/watch?v=yakg94HyWdE
 
 * Justifications questions
@@ -46,7 +46,15 @@ The general goal is to argue how and why teach statistics without the frequentis
   - likelihood \(\to\) distribution ("state of information")
   - Prior \(\to\) distribution
   - Posterior \(\to\) conditional distribution
-  - Estimate \(\to\) banished
+  - Estimate \(\to\) banished (because there are no estimates in bayesian stats,
+    only posterior distributions)
   - Random \(\to\) banished
     
 ** What are the main concepts of the text?
+- parameter
+- imaginary population
+- generative model
+- maximum entropy principle
+- residuals
+- shrinkage
+- random effects (didnt write down because couldnt understand)

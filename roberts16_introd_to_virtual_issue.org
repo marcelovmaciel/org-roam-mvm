@@ -1,0 +1,13 @@
+#+TITLE: Introduction to the virtual issue: recent innovations in text analysis for social science
+#+ROAM_KEY: cite:roberts16_introd_to_virtual_issue
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: roberts16_introd_to_virtual_issue
+:NOTER_DOCUMENT: %(orb-process-file-field "roberts16_introd_to_virtual_issue")
+:AUTHOR: Roberts, M. E.
+:JOURNAL: Political Analysis
+:DATE:
+:YEAR: 2016
+:DOI:  http://dx.doi.org/10.1017/s1047198700014418
+:URL: https://doi.org/10.1017/s1047198700014418
+:END:
