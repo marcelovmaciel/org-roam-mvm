@@ -34,6 +34,14 @@ Data analysis may be improved by a bayesian and unificationist perspective on st
 - Poor theory comes from : relying on intuition, metaphor, rhetoric and bad math. HADOUKEN.
 - Hypothesis ought to be crafted. Vague hypotheses are a huge problem.
 - His works with Smaldino shows that the most important things for a systemic improvement on science is to have better base rates, or theories, and to diminish the publising of *false positives* (which connects with Mayo severity philosophy).
+- Null hypothesis testing distracts us from building meaningful generative models
+- Randomness is a *state of information* (love it, statistical mechanics and information theory here), it is something about our *state of knowledge*
+- The following quote connects with Kevin munger texts about quantitative description:
+  [[attachment:_20200806_173039screenshot.png]]
+- Use process models to envisage possible and different consequences and  create datasets and observational studies which will allow us to test them throughout time and in combination with experimental methods (by giving us something to control for).
+- He argues for trying to reject your hypothesis, not the null (falsificationism).
+- He argues that we should design *scientific institutions* that pay attention to this *populational dimension* of science (I think taleb has argued for something like that).
+- *Evolutionary methodology and epistemology* summarizes this populational view of science. Donald T Campbell is a predecessor.
 ** What are the main concepts of the text?
 - null hypothesis testing
 - population process
@@ -43,3 +51,6 @@ Data analysis may be improved by a bayesian and unificationist perspective on st
 - generativel models
 - base rate
 - false positives rate
+* Further references
+- (james clark coherence unified and so on (if the link breaks)) https://www.srs.fs.usda.gov/pubs/ja/2012/ja_2012_clark_003.pdf
+-
