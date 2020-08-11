@@ -351,8 +351,68 @@ degree.
 - However, if we can prove that \(\text{N} \neq \text{NP}\), that is, if we can prove that there are some problems which cannot be solved in polynomial time,  then we also discover that B cannot be solved, since all NP problems could be reduced to it
 - If we run anything in our computer if goes all way down to bits which can be seen as decision problems (yes or no)
 - That is why we translate stuff to boolean circuits. Our computers in the end are simply boolean circuits!
-- So translating to a boolean circuit amounts to translating your question into "Are there values for the inputs that makes the output true?" than construct a boolean circuit for our problem that does that. Obviously this does not *solve* the problem, it is np-hard, but we can then use heuristics for circuits!!
-- The three sat translation is to try to translate your problem into statements about AND OR combinations of binary variables
+- So translating to a boolean circuit amounts to translating your question into
+  "Are there values for the inputs that makes the output true?" than construct a
+  boolean circuit for our problem that does that. Obviously this does not
+  *solve* the problem, it is np-hard, but we can then use heuristics for
+  circuits!!
+- The three sat translation is to try to translate your problem into statements
+  about AND OR combinations of binary variables
+- 2-SAT is in P
+- Polynomial-time reductions are transitive
+- We can prove a problem is NP-complete by reducing it to a known NP-complete problem
+- *NAESAT* (not all equal) = given 3 variables show at least one is true and that at least one is false.
+   #+begin_quote
+, a NAE-3-SAT clause (% 1 , % 2 , % 3 ) forbids assignments where
+all three are false or where all three are true .
+#+end_quote
+   
+- 3-SAT \(\leq\) NAESAT
+- IF we want to prove that something is NP-complete we must build a NP-complete problem in terms of it, not the other way around
+- N-sat = given a formula, what values of its variables make it true
+  #+begin_quote
+A formula is said to be satisfiable if it can be made TRUE by assigning appropriate logical values (i.e. TRUE, FALSE) to its variables. The Boolean satisfiability problem (SAT) is, given a formula, to check whether it is satisfiable
+  #+end_quote
+- N-sat is reducible to 3-sat (easy, group the variables into three terms)
+- A *CNF* is a formula of (or literals) connected by and. Literals are variables and their negations
+- 2-sat is proved using directed graphs (p.104 of the book)
+- circuit-sat is different from n-sat !!!
+- 3-graph coloring is NP-complete
+  - Is 3 colors enough to color a graph without neighbor nodes having the same color?
+- To reduce on problem to another is like *compiling* it to the other problem. We do so through *gadgets*:
+  #+begin_quote
+a typical reduction consists of building two kinds of gadgets: “choice”
+gadgets which represent setting a variable to one of its possible values, and “constraint” gadgets which
+force two or more variables to obey a certain constraint.
+  #+end_quote
+- Graph 3-coloring \(\leq  \) Max Independent Set
+- Given the whole tree of np-complete problems the consensus is that P \(\neq\) NP
+- If P = NP anything that is easy to check is also easy to find, we only don't yet know how
+- P vs NP is about the nature of mathematical truth and creativity
+- More precise defintion of NP: a decision problem is in NP if whenever the answer is y there is an easy to check proof that it is so
+- NP is asymmetric, it is about checking if we can say *there is* something, but not that there isn't. Existence is not the same as non-existence.
+- NP is only one ladder in the hierarchy of complexity.
+- There are some problems in which the solution itself is exponential *to check* (counterfactually there may be some way to compress that, but we don't know)
+- He know makes a distinction between time and memory. Using tic-tac-toe he shows that one can make a tree of moves. Exploring it with depth-first will take exponential time, but saving it will only take polynomial *memory*.
+- *PSPACE* are exactly that: problems we can solve in polynomial memory even if they take exponential time
+- Above the infinity ladder of complexity there is the *computability* set: Turing halting problem is one such problem. 
+- Exam questions:
+   - Given an initial state s, what will be the state at time t? P, because you only need to simulate it.
+  - Does a state s have a predecessor? NP, easy to check, hard to find.
+  - On a lattice of size n, is s on a periodic orbit? PSPACE. Easy to see if you code a cellular automata.
+  - On an infinite lattice, will s ever die out? Undecidable, it indeed looks like the halting problem. 
+*** Unit 4 Real world problems
+- computational complexity is about worst case behavior, we assume instances are given by a clever adversary
+- He compares the optimistic physicists with the pessimist computer scientist. It is an attitude, a mindset.
+- Augustinian vs Manichaean devil
+- Linear programming is about trying to get to the top of a polytope (simplex appears here)
+- If you add some *noise* the polytope gets smoother therefore easier to get to the top: *Smoothed analysis*
+- Another way that real world problems may be easy is that their landscape might be bumpy but local optimums might be actually close to the global optimum. K-means for example works reasonably well in such scenario (if you are clustering).
+- Selective forces might make problems easy because hardness goes against fitness
+- The *threshold conjecture*
+- The is a transition from solvability to unsolvability as we make the sat problem bigger. The search is the highest IN the transition, which is *crazy*
+- Heavy tails are cases in which the average behavior has nothing to do with the typical behavior.
+- In the SAT complexity transition we can see that a transition from a single peak to clusters of peaks. Monte Carlo algorithms wont do well in such "glassy" configuration.
 * Flashcards
 ** What is information flow? :fc:
 :PROPERTIES:
@@ -767,3 +827,13 @@ P = NP is exactly related to this lower bound problem !!!
 * Footnotes
 
 [fn:algorithm] Here I'm thinking about the distinction made by  cite:Yanofsky_2010 .
+* My insights
+- What is the conneciton between social choice and 3-sat. 2-sat is in P, but 3-sat is not. The same "complexity" happens with 3 alternatives. WHat the fuck is happening here? Maybe trying to prove why 2-SAT is in P might give me some insight on why 3 alternatives social choice leads to paradoxes.
+
+
+- It is interesting that the framework for reduction that he uses, gadgets, is eerily  similar to what is used by [[file:list2011logical.org][list2011logical: The logical space of democracy]].
+
+
+- Another thing is that Laver argument may fail if we use smoothed analysis!
+
+- Can we reduce every social choice problem into a 3 alternatives model? Are higher dimensional models actually easier to solve?

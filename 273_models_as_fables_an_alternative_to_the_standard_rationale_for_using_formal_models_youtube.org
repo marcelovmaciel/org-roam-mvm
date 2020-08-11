@@ -1,0 +1,103 @@
+#+title: url: (273) Models as Fables: An Alternative to the Standard Rationale for Using Formal Models - YouTube
+#+roam_key: https://www.youtube.com/watch?v=sCBMtyIUlQo
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Standard view is wrong, use some of the more modern alternatives
+** What are the specific arguments of the text?
+- Progress in science is multidimensional. Empirical success progress is only
+  one dimension. Measurement progress and conceptual progress are other such
+  dimensions.
+- The debate instrumentalism vs realism is besides the point because it assumes
+  models are used for empirical purposes
+- For him, based on philosophers listed on 8:29, theories are different from
+  models (disagreement with clarke and primo).
+- 11:58 - One has to choose: formal theory or positivism
+  - "Here is the thing: you can use formal theory or you can be a positivist.
+    You can't be both."
+- Paul klee - Political science is stuck on a pitt
+- 22, the four turning points in rochester:
+  - Mckveley and schofield chaos results
+  - shepsle structure induced equilibria (1979)
+  - the riker objection (1980)
+  - calvert 1995 theory of equilibrium institutions
+- Rochester = commitment to positivism + political disequilibrium and the
+  emergence and operation of political institutions (Amadae and bueno de
+  mesquita:)
+- (27:50) Many theorists argue that rochester turning points were  about conceptual progress
+  - Austen-Smith and banks 1998 (p.270), Cox and Shepsle (2007) and Mccarty and
+    Meirowitz 2007; all defend the chaos result as conceptual
+  - Krehbiel 1998 and 2005 see shepsle as conceptual
+  - Calvert himself defines his endeavor as conceptual
+  - krebhiel reviews show a lack of empirical progress
+- What is needed is an account that accomodates actual practice
+- Models are tools, tools for communicating about unobservable entities, such
+  rationality and institutions. They give tips to statistical information
+  compressors.
+- Nancy Cartwright (1999) rejects both views, syntatic and semantic, as models *vending machine*
+- Johnson's reason for differentiating himself from CP is that he believes that
+  treating theoretical models as maps does not do justice to them. It prejudices
+  against them. Theories that say substantive things about the world, not
+  models.
+- Game Theory and Social choice theory are families of models, not theories.
+- Families of models \(\neq\) Theories
+- Empirical testing is about testing *conditions* and *not* assumptions or
+  predictions. He does not say that explictly, but kinda says it when talking
+  about banks.
+- In Aldrich's why parties models are used for conceptual scaffolding. Not to
+  derive predictions, but to provide concepts which are mobilized to create
+  substantive theories.
+- Cartwright 99 sees *models as mediators* they are *useful for constructing*
+  substantive claims , but not themlseves, about the world
+- Theories represent real states of affairs or events in the world, while models
+  are used to turn concepts concrete, to show *what they amount to* or what they
+  *consist in* (this is all cartwright 99, but johnson too).
+
+** What are the main concepts of the text?
+- standard view
+- semantic view
+- predicate view
+- models vending machines
+- models as mediators
+
+* Further references
+- Amadae and bueno de mesquita
+- Schelling 78
+- Nancy cartwright 2010
+- Nancy cartwright 1999
+- Myerson 2013
+- Rubinstein 2012
+- Humpreys - Political Games
+- Force and Restraint - Myerson
+- The moral of mckelvey
+- Mckveley and schofield chaos results
+- shepsle structure induced equilibria (1979)
+- the riker objection (1980)
+- calvert 1995 theory of equilibrium institutions
+
+* Insights
+- He makes a distinction between models and theories. Can we ALSO formalize
+  theories? Using Poisot project?
+- He says models are fables. This does not do justice to the mediating property
+  of models. As Schelling I think theoretical models AND empirical models are
+  objects/tools. The theoretical models are toys for conceptual story telling.
+  Empirical models are maps for empirical story telling.
+- What is dead and what is alive in rational choice institutionalism? Retelling
+  the story of the founding schools
+- To say that something is a family of models also does not help How do we
+  compare social choice with game theory with epistemic game theory? Saying that
+  social choice and game theory are families of models instead of theories
+  doesnt help much in differentiating among those families, to navigating those
+  families, and how they relate with theories, frameworks and the such.
+- Since empirical models are about characterizing conditions let us ask: what
+  are the conditions of applicability of rational choice models in general and
+  in specific situations?:
+  - Consistency
+  - Complexity
+  - Stakes
+- The same can be said about game theory vs social choice theory. I've seen
+  people using social choice theory when they should be using some kind of game
+  theory. I think here is easier: if the strategic component matters more it
+  should be gt. If the aggregative input output matters more it should be social
+  choice.
