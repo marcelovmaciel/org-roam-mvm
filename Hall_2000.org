@@ -746,7 +746,7 @@ execute.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-17T00:37:37Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:58:36Z |
 :END:
 *** Back
 Base cases should be chosen with two goals in mind:

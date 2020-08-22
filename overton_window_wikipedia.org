@@ -1,4 +1,4 @@
 #+title: Overton window - Wikipedia
 #+roam_key: https://en.wikipedia.org/wiki/Overton_window
-
+- tags :: [[file:philosophers_on_gpt_3_updated_with_replies_by_gpt_3_daily_nous.org][url:Philosophers On GPT-3 (updated with replies by GPT-3) - Daily Nous]]
 The overton window is the range of policies accepted by the mainstream. I have thought a great deal about that, but did not know this had a *name*

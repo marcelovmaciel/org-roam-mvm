@@ -1,0 +1,27 @@
+#+title: url:Meta-Science is Political Methodology - Never Met a Science
+#+roam_key: https://kevinmunger.substack.com/p/meta-science-is-political-methodology
+- tags ::[[file:249_bayesian_statistics_without_frequentist_language_youtube.org][url: (249) Bayesian Statistics without Frequentist Language - YouTube]]
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Munger is a rising star in political science. He writes the best inside critique of causal empiricism I know of. For someone as Me who intends to pursue a phd in the USA this is a great way of seeing how a positivist trained in one of the best positivist schools sees the discipline limitations
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That political methodology has to think beyond the frame of single studies and actually think about integration among academics and institutions as to actually explain the world - even more in a fast changing environment (temporal validity).
+** What are the specific arguments of the text?
+- It was good to move away from cross-country regressions given their widespread confounding problems
+- RCTs however DO have a serious external validity problem
+- the *biggest* proble in quanti methods is then external validity/generalizability/transportability:
+  "How does the knowledge generated in one context (aggregated across some number of contexts) inform action in a novel context?"
+- It is interesting how he does not give any space to theory when trying to solve this problem hahahhaha He should go beyond political science and read Mcelreath [[file:265_richard_mcelreath_the_evolution_of_statistical_methods_for_studying_human_evolution_youtube.org][url:(265) Richard McElreath: The Evolution of Statistical Methods for Studying Human Evolution - YouTube]]
+-
+** What are the main concepts of the text?
+- Causal empiricism
+- cross-country regression
+- confounding
+- identification strategy
+- external validity
+- transportability
+- credibility revolution
+* Further references
+- [[https://www.nber.org/papers/w21459][From Local to Global: External Validity in a Fertility Natural Experiment]]

@@ -1,0 +1,163 @@
+ #+TITLE: Rule by multiple majorities: a new theory of popular control, sean ingham. cambridge university press, 2019, pp. ix + 190.
+#+ROAM_KEY: cite:christiano19_rule_by_multip_major
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: christiano19_rule_by_multip_major
+:NOTER_DOCUMENT: %(orb-process-file-field "christiano19_rule_by_multip_major")
+:AUTHOR: Christiano, T.
+:JOURNAL: Economics and Philosophy
+:DATE:
+:YEAR: 2019
+:DOI:  http://dx.doi.org/10.1017/s026626711900021x
+:URL: https://doi.org/10.1017/s026626711900021x
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Sean ingham is a relevant formal political theorist. His theory of popular controls is both a revigoration of the formal theory of democracy and a clever reorientation of its founding constitutents. Thomas Cristiano is an established democratic theorist.
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That there are some conceptual gaps, such as preference formation and welfarism,
+and the account is too based on situations instead of systems.
+** What are the specific arguments of the text?
+- Democracies - government under the control of many majorities x  popular will x majority rule
+- For thomas cristiano control characterizes one dimension of democracy as political equality (like dahl cite:dahl1989democracy)
+- Ingham argues that cycles must happen way more than implied by Mackies account
+- So his theory tries
+  #+begin_quote
+to give an intuitively
+plausible conception of popular control that can still affirm the reality of popular
+control in the context of pervasive majority cycling.
+  #+end_quote
+
+- Popular control:
+ - Preference condition
+   #+begin_quote
+a majority has some control over the social choice between x and y when and only when it is the case that were the majority to have a shared preference for x over y and were that preference sufficiently intense, then the majority would be able to stop y from being chosen.
+[...]
+The key here is that this
+allows for each of many majorities to have control over an issue even when only
+one of them gets what it wants.
+   #+end_quote
+  - intensity and range condition
+    - The less intense a groups intensity has to be on a issue so that it can block other options the more control it has
+    - It has more control the bigger the range of values it has control
+    #+begin_quote
+a group has more control the less intensely it has to care about
+the issue to block the option not preferred.
+[...]
+the less the majority has to give up in order to achieve what it wants, the more
+control it has.
+
+a person or group has more control to the extent that it has
+control over a greater range of values.
+
+[...]
+it is not sufficient for democracy that every majority in a society
+have some control over some outcomes of political decision making. This condition
+could well obtain in some authoritarian societies.
+    #+end_quote
+  - widespread blocking condition
+    #+begin_quote
+a society is under minimally democratic popular control when and only
+when every majority has some sufficient level of control over outcomes, or, in other
+words, no majority has to sacrifice basic needs to get what it wants (106).
+Presumably the gap between the control of the more powerful and the less
+powerful must not be too great.
+    #+end_quote
+  - egalitarian control condition
+    - equally sized groups have equal control
+    #+begin_quote
+egalitarian democracy realizes political
+equality at least in those areas in which it has legitimate authority, when equally
+sized groups have equal control (156). Equal control of groups over a particular
+issue implies that each group has the ability to get what it wants given the same
+intensity of preference over the alternatives. If one group needs to care more
+about the issue for it to get what it wants, it has less control (158). This notion
+will require a conception of interpersonal comparisons of preference intensity
+and hence involves a major departure from the classic framework of social choice.
+    #+end_quote
+- So his account is  completely based on preference intensity and interpersonal comparison of utility
+- Democracy has nothing to do with popular will AT ALL (which is good)
+- Cristiano considers that missing in inghams theory is an element of power, of outcome affecting.
+  #+begin_quote
+a person, completely incapable
+on her own of getting what she wants, may get what she wants because she has
+a benevolent master who happens to know what she wants and how much she
+wants it. In the purest case, a benevolent despot simply knows what people want
+and realizes their desires in proportion to how much they matter to them. A
+condition of equal control can then be satisfied to the extent that all persons have
+their desires satisfied in proportion to the degree of importance they attribute to
+those desires.
+Normally, we say persons have control over an outcome when something they do
+or can do affects the outcome. The outcome is up to them.
+  #+end_quote
+- Another criticism is that when there is a cycle and people have equal control what happens is that there is no control! This is a contradiction!
+- Yet another criticism is that the theory treats preferences as primitives. However, if there are epistemic injustices, how can we talk about control, in inghams terms? Cristiano way out is that there is once again something missing, beyond preferences, in ingham definition of control (power? implicit here is the debate on power from dahl, bachrach and lukes)
+  #+begin_quote
+ One can
+have a conception of the distribution of control, in a narrow sense that is suited to
+persons with already formed preferences, while another, broader conception of
+control concerns the institutions relating to how preferences are shaped.
+  #+end_quote
+- Which brings us back to Dahl and Cristiano's theories of political equality:
+  #+begin_quote
+Still, the broader notion of control or power is interestingly distinct. It would
+include the ability to learn about one’s interests and develop more refined
+conceptions of those interests as well as the opportunity to influence the
+development of other people’s conceptions of their interests. This broader
+account would need to be a part of a complete conception of political equality.
+  #+end_quote
+- A fourth criticism is that Ingham mixes preferences and beliefs. For Cristiano one can have preferences over social states but be lacking in terms of intrusmental beliefs. By taking preferences as primitives Ingham does not pay attention to  underdeveloped preferences or to misinformed preferences. A person with a underdeveloped and/or misinformed preference might have "control" in ingham sense. Here ingham is advocating for a 3-d, in lukes sense, theory of control, which adds structural reflexive control of ones'  preferences
+
+    #+begin_quote
+, if we understand preferences in a deeper way, then we would need an
+account of what they are. And we would then have to come up with an account of
+how citizens can develop the kind of understanding that is necessary to advancing
+these preferences. Political control would be partly a function of how citizens can
+come to have such an understanding.
+So, we have a bit of a dilemma. Either we describe the theory in terms of a
+capacity to advance fairly superficial preferences and we then need an account of
+how they arise in order to have a complete conception of control. Or we
+understand the account in terms of deeper preferences and then ask how
+citizens are to figure out how to know what these are and how to advance them
+in the political system.
+  #+end_quote
+
+- I would say that the difference here might lie in different views of "freedom". Ingham  gives a negative treatment, while cristiano is giving a more positive. Or at least he is siding with a more rationalist view of preferences. He's got a point, but intuitively you may be misinformed and have underdeveloped preferences and still be in control. Anyone who's ever got a boss or took part of a small scale collective decision making knows that. I believe one can keep the negative account of Ingham as a long as a relational element is added to the mix here, as cristiano argued before. On the other hand, conflating preferences and beliefs may be a real problem. Gotta think more about those two sides of this argument (see further refs). I think Cristiano is asking for too much. It makes sense, it is more realist, if you accept the ontology of the argument (I do), but it  does not seem practical. Do we need a whole account of structural formation of preferences to create a theory of democracy? What is gained by that?
+
+  - The final criticism is that the theory is about "control at the margin" "in
+    a particular situation given the particular preferences of others." He wants
+    to see how to scale this theory to whole political systems. He is being
+    fully dahlsian here. Example:
+    #+begin_quote
+it is often the case that people, having used up their political
+capital, are not in situations of equal control with others. If the use of the equal
+power were exercised on an issue on which they put a great deal of store and
+with the knowledge that they will have less power later or on other issues, then
+the subsequent inequality would be legitimate. But it is legitimate only if the
+overall relations between the political actors are on a footing of equality.
+    #+end_quote
+  - Once again, paying more attention to the relational aspect of control seems the route to solve this. Sincerely, I would need to actually read the book to think this through.
+** What are the main concepts of the text?
+- political equality
+- control
+- preference intensity 
+- sufficiently intense preference over a issue
+- interpersonal comparison of utility 
+- epistemic injustice
+- preference formation
+- underdeveloped and/or misinformed preferences
+
+* Insights
+Plenty. Ill Write them later!
+
+* Further references
+- Johanna Thoma
+- Sean Ingham
+- Itai sher
+- David Wiens
+
+- For the argument about misinformed and underdeveloped preferences see From Hope and Fear set free
+- For the mix of preferences and beliefs see Binmore on rational decisions and some (dont know which ones) List papers on reasoned preferences (maybe itai sher too).

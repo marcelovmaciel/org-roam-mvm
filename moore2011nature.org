@@ -412,7 +412,69 @@ force two or more variables to obey a certain constraint.
 - The *threshold conjecture*
 - The is a transition from solvability to unsolvability as we make the sat problem bigger. The search is the highest IN the transition, which is *crazy*
 - Heavy tails are cases in which the average behavior has nothing to do with the typical behavior.
-- In the SAT complexity transition we can see that a transition from a single peak to clusters of peaks. Monte Carlo algorithms wont do well in such "glassy" configuration.
+- In the SAT complexity transition we can see that a transition from a single peak to clusters of peaks. Monte Carlo algorithms wont do well in such "glassy" configuration. After clustering if one heigthens the hardness the cluster start to "freeze": variables take a fixed value and it becomes easy to get it wrong. This is when an algorithm really becomes hard, this freezing transition.
+- This means that there are other phase transitions besides the transition from satisfiable to unsatisfiable. One goes from simple, to clustered, to frozen, to unsolvable
+- OR is a nonlinear operation, while XOR is an affine operation
+*** Unit 5 - Computation Everywhere
+- What does a complex system need to possess in order to compute? What are the simplest ingredients that suffice?
+- What does it mean for a function to be computable?
+- Hilbert called and *effective procedure* what we know call an algorithm.
+- Unfolding what is computable was one of the main projects in logic in mathematics of the early 20century
+- *Partial Recursive functions* (dedekind, skolem, peter)
+- Given a 0 an identity and a successor function, which we assume are computable, what are the building blocks?
+  - Composition
+    - from a programmer perspective this is like calling a function as a subroutine in another routine
+  - *Primitive recursion*
+    [[file:~/Drive/Org/imgs/primitive-recursion.png]]
+  - primitive recursion can be implemented with for loops
+  - notice that we know that lenght of the recursion or of the loop, this means we know it will halt
+- The gist of primitive recursion is that we are defining a y+1 function in terms of its previous iteration. That is why we need a base case.
+#+begin_quote
+Note that when we start evaluating a function defined using primitive recursion,
+we know to what depth it will recurse, since evaluating h(x, y ) takes y levels
+of recursion.
+#+end_quote
+- *Primitive recursive functions* = (0 function, Id, Succ) with composition and primitive recursion
+- \(\mu\) -recursion or minimization
+  - smallest y s.t. f(x,y) = 0
+  - if one adds that to primitive recursive building blocks we get partial recursive functions? why? because there may be no such y, which would make the function undefined. As a program this means the while loop which we use to implement it would run forever, never halt. That is why this is a partial function, it is not defined for some input.
+  - minimization is kinda equivalent to while loops. This means that as soon as your system has a while loop in it , or minimization, it might not halt.
+  - Why would we need while loops or minimization if it might not halt? because there are *total functions* which are only expressible in terms of while loops.
+    - An example is the ackermann function (level of exponentiation)
+        #+begin_quote
+    All primitive recursive functions are total and computable, but the Ackermann function illustrates that not all total computable functions are primitive recursive.
+        #+end_quote
+- That is while will give us some partial functions, but we need it for some total functions
+- \(\lambda\) calculus is built entirely on strings of symbols and substitution
+- \(\lambda x\) means replace each x with a copy of the following string
+- \(\lambda s\) of more variables are solved by iterative substitution
+- In \(\lambda\) calculus, and therefore in lisp, there is no distinction between function and data. This is different from standard mathematics, in which there is some hierarchy: derivatives act on functions which act on numbers. From this we get higher order functions, and therefore functional programming.
+- A program is something you can *run* which does stuff to data but a program is also data itself
+- He does not mention that, but that is why lisp was so important for old ai. This self-reference is something that todays AI is still not able to grasp.
+- It is possible to define \(\lambda s\) which never halt. That is, the substitution process never ends. Example? \((\lambda x.xx)(\lambda x.xx)\) . Try substituting that and you will get into a infinite recursion
+- Turing machine:
+  - Tape with symbols in a finite alphabet A
+  - Head with a finite set of states S
+  - At each step, the head reads the symbol a at its current location, writes a symbol a' and moves left or right
+  - There is a special state called halt, it stops running
+  - Its output is what is written on the tape
+- Universal turing machines : turing machines that simulate any other turing machines.
+  - This is like an OS or interpreter
+- The Halting problem is about computer programs that try to answer questions about other computer programs
+- It is the following problem : "Is there a computer program that predicts whether any other program eventually halts?"
+- The halting problem is undecidable, a proof is to give a Halts program to another program, and it is the negation of Halts (if halts it runs forever else halt). Feeding mobius to mobius leads to a contradiction. A way out is to consider that Halts doesn't even exist in the first place.
+- Rice's theorem is a generalization of the halting problem: it says that any question about a turing machine's long-term behavior is undecidable since we can reduce the halting problem to it
+- grand unification = partial recursive functions, lambda calculus and turing machines are equivalent models of computation
+- Church-Turing *thesis* is that any reasonable model of computation is captured by those three equivalent models
+- Babbage analytical engine is actually an universal computer
+- List of universal computers:
+  - game of life (you use the gliders)
+  - rule 110
+  - wang tiles
+  - some dynamical systems
+  - In general: given a piecewise linear map in two dimensions and an initial point x is undecidable to say whether it will ever fall into a particular region, or if is periodic, or lies on a chaotic trajectory
+- Are there undecidable but not universal systems? Really weirdly behaved dynamical system? Are they too complicated to compute, but also too weird to build a computer ?
+
 * Flashcards
 ** What is information flow? :fc:
 :PROPERTIES:
@@ -709,7 +771,7 @@ You have to pick non adjacent nodes whose sum of weights will give you the highe
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-29T21:35:27Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:56:26Z |
 :END:
 *** Back
 We use this metaphor in many contexts. fitness landscape,
@@ -837,3 +899,8 @@ P = NP is exactly related to this lower bound problem !!!
 - Another thing is that Laver argument may fail if we use smoothed analysis!
 
 - Can we reduce every social choice problem into a 3 alternatives model? Are higher dimensional models actually easier to solve?
+- Can we do like fontana and apply lambda calculus model of computation as a basis for institutional theory and therefore allow behavior to act on institutions and institutions act on behavior? Or something like that?
+- Walter fontana reasons in a similar way to Poisot, and says
+  #+begin_quote
+The challenge of systems biology is not only experimental in kind. It also is the challenge of reasoning about facts that are rapidly evolving while remaining highly fragmented across research communities. I see a fundamental role for models as reasoning instruments in biology. Models, not databases as we know them today, will become the main vehicles for the computer-assisted storage, communication, and retrieval of biological knowledge. Computer scientists and I have joined forces with several other researchers to design a computational environment that represents biological knowledge, as it pertains to signaling, in an editable and executable fashion. This instrument will lend itself to the collaborative construction and critique of models.
+  #+end_quote

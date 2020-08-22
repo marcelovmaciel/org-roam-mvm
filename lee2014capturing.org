@@ -1,0 +1,13 @@
+#+TITLE: Capturing collective conflict dynamics with sparse social circuits
+#+ROAM_KEY: cite:lee2014capturing
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: lee2014capturing
+:NOTER_DOCUMENT: %(orb-process-file-field "lee2014capturing")
+:AUTHOR: Lee, E. et al.
+:JOURNAL: arXiv preprint arXiv:1406.7720
+:DATE:
+:YEAR: 2014
+:DOI:
+:URL:
+:END:

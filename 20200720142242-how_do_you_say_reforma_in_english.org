@@ -9,7 +9,7 @@
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-20T17:23:14Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:55:26Z |
 :END:
 ** Back
 To be under construction. Or to be refurnished.

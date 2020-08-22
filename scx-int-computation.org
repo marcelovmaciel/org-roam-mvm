@@ -261,7 +261,7 @@ turing machine
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-29T23:41:17Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:57:21Z |
 :END:
 *** Back
 Algorithms which choose the best option at each step. They are hill climbers, so probably wont work well in rugged landscapes.
@@ -335,7 +335,7 @@ Studying the computational complexity of a problem allows us to sidestep many di
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-29T23:46:49Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:55:03Z |
 :END:
 *** Back
 What do you do if you are dealing with a hard, computationally, problem but still want a solution? Use *heuristics* (rule of thumbs). They wont always work, for every case,  but will be better than brute force and work well in may instances.

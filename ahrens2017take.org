@@ -853,7 +853,7 @@ and contain all the necessary information in themselves. *Literature notes* can 
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T19:26:45Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:58:20Z |
 :END:
 *** Back
 

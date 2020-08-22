@@ -3,8 +3,8 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: date:nil
 
-# - refs :: cite:ahrens2017take
-# - tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]], [[file:20200714124711-summary_of_taking_smart_notes.org][Summary of taking smart notes]],
+ - refs :: cite:ahrens2017take
+ - tags :: [[file:20200525200536-on_my_workflow.org][On my workflow]], [[file:20200714124711-summary_of_taking_smart_notes.org][Summary of taking smart notes]],
 
 * Introduction
 

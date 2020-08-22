@@ -1,0 +1,13 @@
+#+title: Normative views of SC
+What are the 2 normative views of SCFs?
+- tags :: [[file:20200819001357-social_choice_and_central_authority.org][Social Choice and Central Authority]]
+- source :: cite:sep-voting-methods
+
+  One can justify and analyze social choice using a *procedural* (the right way)
+  view or an *"epistemic"* (consequentialist).
+
+  The most general article in the epistemic program is cite:Pivato_2012 .
+  Conitzer also has some works on this approach (seeing SCFs as mles;
+  cite:Conitzer_2013). This epistemic view is directly relevant to a project idea of using social choice to study ensembles.
+
+  The thing is, I believe both approaches can be subsumed by cite:list2011logical view of general aggregation and cite:patty2015aggregation view that social choice is a general blueprint for any kind of political theory.

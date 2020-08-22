@@ -1,0 +1,43 @@
+#+title: Social Science Agenda Setting - Never Met a Science
+#+roam_key: https://kevinmunger.substack.com/p/social-science-agenda-setting
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as [[file:in_favor_of_quantitative_description_never_met_a_science.org][url:In Favor of Quantitative Description - Never Met a Science]]
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text?
+- The scope of empirical political science is simply:
+  - WHen does violent conflict happen?
+  - How do institutions map preferences onto outcomes?
+- His ideal research project is :
+  #+begin_quote
+my ideal empirical research project in another post: a complete map of all the media consumed by a representative sample of Earthlings, over time, forever.
+  #+end_quote
+- *Creating maps* as a research project
+- The importance of topics is based on intuition of reviewers. There is no empirical study of this. He argues there are two pathways:
+  #+begin_quote
+ There’s really only two possible pathways: personal experience and the media.
+  #+end_quote
+- He acknowledges that this is a problem of *reflexivity*
+- This lack of understanding how we motivate our researchs make us dependent on intuition and media and our own echo chambers of relevance.
+  #+begin_quote
+This in turn makes the non-representativeness of Political Scientists’ media diets a problem for our understanding of important trends in the media sphere.[ ...] academics and media professionals inhabit a mutually constituted and reinforcing echo chamber.[...] Considerable energy has been spent investigating the phenomenon of echo chambers. And it turns out that they don’t exist...except among users in specialized (partisan or professional) networks.
+[...]“if online “echo chambers” exist, they are a reality for relatively few people who may nonetheless wield disproportionate influence and visibility in society.”
+[...]
+ But recall why so much energy was devoted to the topic in the first place: academics and journalists found it plausible because it accurately described our experience
+  #+end_quote
+- Here is an example of good media consumption study. [[https://advances.sciencemag.org/content/6/14/eaay3539][Evaluating the fake news problem at the scale of the information ecosystem | ...]]
+  - It shows macrotrends
+  - This quantitative description, those big time series, is what we should explain instead of relying on our intuitition
+    #+begin_quote
+This is how social scientists should set the academic agenda: not by consulting our own experiences, and not by relying on what the media thinks is important. We need quantitative description to tell us what is going on in the world so we can try and explain or predict the dominant trends.
+    #+end_quote
+  - So he believes the solutions are more description and researches opinions surveys
+    #+begin_quote
+    More quantitative description: What are people actually doing? What media are they consuming, and how much?
+
+    Survey of researchers: What topics do we think are most important? Where is there the greatest theoretical disagreement?
+    #+end_quote
+** What are the main concepts of the text?

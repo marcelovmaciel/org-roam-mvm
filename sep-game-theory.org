@@ -132,7 +132,7 @@ This means that the tools of equilibria analysis are useful for analysis, not pr
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:38:27Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:55:19Z |
 :END:
 
 ** Back
@@ -309,7 +309,7 @@ It matters because PD only has one NE while the assurance game has two (one pare
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:42:10Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:56:45Z |
 :END:
 - sources :: cite:sep-game-theory
 ** Back
@@ -422,7 +422,7 @@ Humans socially controlled to an extreme degree by comparison with most other
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:39:39Z |
+| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:55:39Z |
 :END:
 
 ** Back

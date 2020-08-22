@@ -1,0 +1,23 @@
+#+title: Social Choice and Central Authority
+- tags :: [[file:20200810155453-neocybernetic_political_theory.org][Neocybernetic political theory]], [[file:munger2015choosing.org][munger2015choosing: Choosing in groups: analytical politics revisited]]
+
+One implicit assumption in the Social Choice literature is that the work will be
+consumed by some sort of central authority, benevolent dictator. That is why
+cite:sep-voting-methods considers that the central question of social choice is
+the following:
+
+#+begin_quote
+Given a group of people faced with some decision, how should a central authority
+combine the individual opinions so as to best reflect the “overall group
+opinion”?
+#+end_quote
+
+This is a top down and statist perspective on group-decision making. One thing
+it ignores is the problem of choosing how to choose. That is something discussed
+by cite:Buchanan_1960 and its descendants. Group decision-making goes well
+beyond such liberal technocrat view and how to incorporate social choice theory
+into such a bottom-up perspective.
+
+For an almost anarchist approach to political economy see aligica and similars :
+- cite:johnson19_remar_paul_dragos_aligic_public
+- cite:allen18_crypt_its_instit_possib

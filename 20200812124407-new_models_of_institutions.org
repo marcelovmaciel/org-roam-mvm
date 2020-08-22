@@ -1,0 +1,11 @@
+#+title: New models of Institutions
+- tags :: [[file:20200812123429-democratic_theories_are_positive_theories.org][Democratic Theories are positive theories]]
+Institutional theory somehow seems dead. It went into the background of political science empiricism. One possibility is trying to rekindle its flame by presenting some unusual visions of institutions. The pragmatic view sees them as problem solving mechanisms. It might contain both the decision theoretic and the algorithmic and even the evolutionary and the statistical mechanical view of institutions. Those are new ways of seeing institutions.
+
+* Further references
+- Dedeo once again
+- cite:calvert17_strat_ration_endog_instit_chang
+- cite:rijt17_microf_instit_chang
+- cite:farkas19_concep_cover_instit
+- The priority of democracy work
+-

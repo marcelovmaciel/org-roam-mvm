@@ -1,0 +1,21 @@
+#+title: Organizations and  consistency
+- [[file:20200810155453-neocybernetic_political_theory.org][Neocybernetic political theory]], [[file:20200520172702-social_simulation_beyond_coleman_s_boat.org][Social Simulation Beyond Coleman's boat]], [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation : behavioral spillover and institutional complexity]]
+
+
+When can we use the rct models? Ross argues for a view of agents akin to
+machines. Amadae even has a paper on that. The thing is: how can we say
+something is consistent? What is the boundary of inconsistency? What is the role
+of institutions and organizations in creating such consistency? Can they be seen as some kind of consistency funnell? If so, how?  Why we treat
+individuals as consistent?
+
+This is first and foremost a mix of formal and empirical question, but now i think mostly of philosophical references.
+
+
+
+* Further references
+- Dedeos work on how social technologies shape ideas
+- https://stanford.library.sydney.edu.au/archives/sum2019/entries/social-ontology/
+- cite:littlenew
+- cite:list13_method_indiv_holis_polit_scien
+- cite:list14_three_kinds_collec_attit
+- cite:list16_what_is_it_like_to

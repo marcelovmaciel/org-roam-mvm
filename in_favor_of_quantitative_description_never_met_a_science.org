@@ -1,0 +1,120 @@
+#+title: url:In Favor of Quantitative Description - Never Met a Science
+#+roam_key: https://kevinmunger.substack.com/p/in-favor-of-quantitative-description
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+The same as  [[file:meta_science_is_political_methodology_never_met_a_science.org][url:Meta-Science is Political Methodology - Never Met a Science]]
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That the social sciences should be investing in description.
+** What are the specific arguments of the text?
+I'll simply quote the general argument
+#+begin_quote
+ the most efficient marginal allocation of our resources is to generate quantitative descriptive knowledge. The are three reasons for this:
+
+- Transportability requires rich covariate adjustment.
+
+- Causal knowledge is currently too expensive.
+
+- we don’t know what to causal questions to ask.
+#+end_quote
+- For him political scientists rely too much on other institutions collecting their data
+  #+begin_quote
+The current experimentalist paradigm is explicitly free riding on the quantitative descriptive knowledge produced by other institutions.
+  #+end_quote
+- About the transportability, why more description?
+  - Because we have to adjust for covariates
+  - This means that the best investment is to create datasets that allow that, instead of spending years and lots of man hours on generating new causal knowledge whose variance we dont really understand
+- About datasets such as anes and dime he says:
+ #+begin_quote
+. The existence of this knowledge empowers a host of causal research designs and makes the knowledge thereby gained to be transported into the future target context.
+#+end_quote
+- Also, to know what to collect data on we must do more *qualitative description* so that we have a deep understanding of a small number of cases.
+- An example is digital literacy gap
+  #+begin_quote
+If more effort had been devoted to quantitative description of people’s web
+habits at scale (or if more effort had been devoted to qualitative description,
+involving deep understanding of a small number of people’s web habits), this key
+heterogeneity might have been discovered earlier, which would have allowed us to
+have the necessary covariate knowledge from the causal studies produced in the
+meantime.
+  #+end_quote
+
+- Causal revolution shows how hard it is to produce causal knowledge. Focus has been on searching for natural experiments " historical accidents or to develop sufficient institutional capacity to execute large-scale, high-quality experiments.".
+
+- But the thing is , the causal revolution is happening alongside the compleixification of the social world hahahaha
+   #+begin_quote
+ The rate of production of social scientific knowledge has increased, but not enough to account for the increased complexity of our subject. If in fact we are in such a state (one in which a global force is redefining every social and economic relationship based on information over a period of only a few decades) as social scientists in 2020, expensive knowledge of local causal relationships gets us no closer to an application of that knowledge in the future.
+
+
+In a complex and rapidly changing world, social science needs as many time series as possible. As someone who has spent a lot of time studying Twitter, there is a glaring hole at the center of this literature.
+
+I would trade *almost all of the research ever published about Twitter* for a high-quality representative panel survey of Twitter users with trace data from their accounts matched with their survey responses.
+
+[...]
+
+*Instead we have a tidal wave of local, ephemeral causal findings that we don’t know how to aggregate or apply.*
+   #+end_quote
+- Another problem is that quantitativists don't value at all description, as they are used to consuming data created byh other institutions
+  #+begin_quote
+As a result, as the social science disciplines matured in the era of "peak knowledge" of what political media *is*, they came to undervalue descriptive analysis. There exists a tradition of *qualitative* description, which involves an in-depth understanding of a small number of cases or individuals. But within the tradition of quantitative political science, there is insufficient effort devoted to pure description.
+
+Instead, we assume that knowledge actors external to the process of academic knowledge production will fulfill our quantitative descriptive needs.
+
+[...]
+
+we don’t have the institutions that broadly support quantitative descriptive work;
+
+[...]
+
+there is little work in political methodology on quantitative description per se (again, there are major exceptions: network analysis, text-as-data, record linkages, ideological scaling—but this is not discussed under the proper label of description);
+  #+end_quote
+
+ Related is another text of his [[https://kevinmunger.substack.com/p/temporal-validity-is-distinct-from][Temporal Validity is Distinct From External Validity - Never Met a Science]]
+
+He bases his discussion on Naoki Egami and Erin Hartman’s Elements of External Validity: Framework, Design, and Analysis.
+
+They list four components of external validity:
+
+X-validity: pre-treatment characteristics of the units in the sample
+
+    Y-validity: outcome measures
+
+    T-validity: treatments
+
+    C-validity: contexts/setting of experiments
+
+Munger considers that temporal validity fucks with context validity.
+
+#+begin_quote
+, for many research questions currently of interest to political scientists, I think these assumptions are always untenable the amount of causal knowledge we need to make the “contextual exclusion restriction” plausible is orders of magnitude higher than the data we have about “contexts” nowThe world is too high-dimensional; the curse of dimensionality ensures that real-world C-validity is impossible, at least at present.
+#+end_quote
+For him the goal of political science is to *statistically inform human decision-making*.
+
+#+begin_quote
+ statistically inform human decision-making, we have accept the fact that there is a disjunction between all of the temporal contexts in which we have knowledge and all of the temporal contexts in which we want to apply that knowledge.
+
+The target is always in the future! The contemporary “effect-generalizability” [reduced-form, self-contained, agnostic, expert-free, transportability/knowledge synthesis, whatever you want to call it] social scientific paradigm has made significant strides over the past decade, but all of the sophisticated statistical architecture that has made this possible is about to run headfirst into the problem of induction
+#+end_quote
+
+THe paper he mentions give proposals for a specific y-validity: sign generalizability (predicting the sign of the effect of a given intervention in the target context.)
+
+#+begin_quote
+ They propose collecting multiple forms of outcomes (“purposive variations”) to check for robustness in Y-validity, at least in terms of the direction of the effect. T
+#+end_quote
+
+In the end the gist is:
+- we need way more causal knowledge ([[https://upworthy.natematias.com/][The Upworthy Research Archive | Advance human understanding with this massive...]] is munger's contribution so that we can develop new synthesis),
+- We need way more quantitative and qualitative description
+- We need to produce faster (so as to diminish temporal invalidity)
+
+** What are the main concepts of the text?
+- covariate adjustment
+- qualitative description
+- temporal validity
+- context validity
+- x-validity (sample composition)
+- y-vality (outcome validity)
+- sign generalizability
+* Insights
+[[https://upworthy.natematias.com/][The Upworthy Research Archive | Advance human understanding with this massive...]] presents an interesting dataset to use causal fusion techniques

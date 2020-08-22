@@ -114,3 +114,30 @@ C-c ' which is org-edit-src-code
 :END:
 ** Back
 With #+ATTR_ORG: :width 500
+* What is the difference between swiper and avy? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-14T18:25:00Z
+:FC_TYPE:  normal
+:ID:       def4e702-bc00-4a1a-acd0-0729c4d4fddd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-14T18:25:00Z |
+:END:
+** Back
+Swiper is for searching things. It is like a much improve C s. Avy is for moving. They complement each other.
+
+(global-set-key (kbd "M-g f") 'avy-goto-line)
+(global-set-key (kbd "M-g e") 'avy-goto-word-0)
+(global-set-key (kbd "M-g w") 'avy-goto-word-1)
+
+Are the avy commands I ought to memorize. goto-line list lines i can jump, goto-word-0 list ALL words i can jump, goto-word-1 asks for 1 char as tip.
+
+
+"C-c s s s" #'swiper
+"C-c s s m" #'swiper-multi
+"C-c s s i" #'swiper-isearch
+"C-c s s a" #'swiper-all
+
+Are the swiper commands. Whenever using C-s think if any of those commands should be used instead.

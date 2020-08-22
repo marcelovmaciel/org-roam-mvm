@@ -1,0 +1,27 @@
+#+title: favorite texts
+Herein I link texts which give me joy *in reading*
+
+** The Digital Zeitgeist Ponders Our Obsolescence
+by Regina Rini
+
+([[file:philosophers_on_gpt_3_updated_with_replies_by_gpt_3_daily_nous.org][url:Philosophers On GPT-3 (updated with replies by GPT-3) - Daily Nous]])
+
+GPT-3’s output is still a mix of the unnervingly coherent and laughably mindless, but we are clearly another step closer to categorical trouble. Once some loquacious descendant of GPT-3 churns out reliably convincing prose, we will reprise a rusty dichotomy from the early days of computing: Is it an emergent digital selfhood or an overhyped answering machine?
+
+But that frame omits something important about how GPT-3 and other modern machine learners work. GPT-3 is not a mind, but it is also not entirely a machine. It’s something else: a statistically abstracted representation of the contents of millions of minds, as expressed in their writing. Its prose spurts from an inductive funnel that takes in vast quantities of human internet chatter: Reddit posts, Wikipedia articles, news stories. When GPT-3 speaks, it is only us speaking, a refracted parsing of the likeliest semantic paths trodden by human expression. When you send query text to GPT-3, you aren’t communing with a unique digital soul. But you are coming as close as anyone ever has to literally speaking to the zeitgeist.
+
+And that’s fun for now, even fleetingly sublime. But it will soon become mundane, and then perhaps threatening. Because we can’t be too far from the day when GPT-3’s commercialized offspring begin to swarm our digital discourse. Today’s Twitter bots and customer service autochats are primitive harbingers of conversational simulacra that will be useful, and then ubiquitous, precisely because they deploy their statistical magic to blend in among real online humans. It won’t really matter whether these prolix digital fluidities could pass an unrestricted Turing Test, because our daily interactions with them will be just like our daily interactions with most online humans: brief, task-specific, transactional. So long as we get what we came for—directions to the dispensary, an arousing flame war, some freshly dank memes—then we won’t bother testing whether our interlocutor is a fellow human or an all-electronic statistical parrot.
+
+That’s the shape of things to come. GPT-3 feasts on the corpus of online discourse and converts its carrion calories into birds of our feather. Some time from now—decades? years?—we’ll simply have come to accept that the tweets and chirps of our internet flock are an indistinguishable mélange of human originals and statistically confected echoes, just as we’ve come to accept that anyone can place a thin wedge of glass and cobalt to their ear and instantly speak across the planet. It’s marvelous. Then it’s mundane. And then it’s melancholy. Because eventually we will turn the interaction around and ask: what does it mean that other people online can’t distinguish you from a linguo-statistical firehose? What will it feel like—alienating? liberating? annihilating?—to realize that other minds are reading your words without knowing or caring whether there is any ‘you’ at all?
+
+Meanwhile the machine will go on learning, even as our inchoate techno-existential qualms fall within its training data, and even as the bots themselves begin echoing our worries back to us, and forward into the next deluge of training data. Of course, their influence won’t fall only on our technological ruminations. As synthesized opinions populate social media feeds, our own intuitive induction will draw them into our sense of public opinion. Eventually we will come to take this influence as given, just as we’ve come to self-adjust to opinion polls and Overton windows. Will expressing your views on public issues seem anything more than empty and cynical, once you’ve accepted it’s all just input to endlessly recursive semantic cannibalism? I have no idea. But if enough of us write thinkpieces about it, then GPT-4 will surely have some convincing answers.
+
+
+** Isaiah Berlin
+- First chapter of concepts and categories
+- The pluralism article
+
+** Stephen holmes on beyond self-interest
+** boyd and richerson on beyond self-interest
+** introduction and last chapter of governing the commons
+** schumpeter capitalism socialism and democracy

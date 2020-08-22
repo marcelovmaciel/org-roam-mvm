@@ -1,0 +1,15 @@
+#+title: Democratic Theories are positive theories
+- tags :: [[file:20200812120916-group_consistency.org][Organizations and  consistency]]
+- refs :: cite:dahl1989democracy
+
+  One thing that is missed by most of the literature on political philosophy is that democratic theory *is* positive theory. Though people might want to split them apart this is impossible.
+
+    The deliberative literature not only gives new normative guidelines, it also presents new positive concepts to analyze society. Like publics and counterpublics and networked publics.
+
+    The same can be said about the republican theory and its focus on power and domination.
+
+    What are the positive concepts within those theories? What are the ontological concepts and explanatory models?
+
+* Further references
+- cite:knight15_attem_to_gerry_posit_normat_polit_theor
+- hayward and lovett works 

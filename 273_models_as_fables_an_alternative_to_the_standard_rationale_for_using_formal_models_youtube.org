@@ -36,6 +36,9 @@ Standard view is wrong, use some of the more modern alternatives
   rationality and institutions. They give tips to statistical information
   compressors.
 - Nancy Cartwright (1999) rejects both views, syntatic and semantic, as models *vending machine*
+  #+begin_quote
+purely concerned with producing the right, deductively derived output given a certain input,foregoing any element of creativity in human scientific activity.
+  #+end_quote
 - Johnson's reason for differentiating himself from CP is that he believes that
   treating theoretical models as maps does not do justice to them. It prejudices
   against them. Theories that say substantive things about the world, not
@@ -90,7 +93,7 @@ Standard view is wrong, use some of the more modern alternatives
   social choice and game theory are families of models instead of theories
   doesnt help much in differentiating among those families, to navigating those
   families, and how they relate with theories, frameworks and the such.
-- Since empirical models are about characterizing conditions let us ask: what
+- ([[file:20200722193245-complexity_or_misspecification.org][Complexity or Misspecification]])  Since empirical models are about characterizing conditions let us ask: what
   are the conditions of applicability of rational choice models in general and
   in specific situations?:
   - Consistency

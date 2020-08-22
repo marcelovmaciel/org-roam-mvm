@@ -1,0 +1,480 @@
+#+title: English Vocab
+- tags ::[[file:20200720142242-how_do_you_say_reforma_in_english.org][How do you say reforma in english?]]
+
+
+
+* What is inclement :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       34d04641-2391-4c44-81bf-2af0f1484f4e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+  1. inclement -- ((of *weather or climate*) severe)
+  2. inclement -- (used of persons or behavior; showing no clemency or mercy;
+
+inclement is the same as severe weather
+* What is sweltering :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       aa4f44c2-4b00-451e-840f-1c714c105568
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+  1. swelter -- (be uncomfortably hot) (4. suffocating with heat. Ready to perish with heat; faint with heat.)
+  2. swelter -- (suffer from intense heat; "we were sweltering at the beach")
+  3. (1) sweltering, sweltry -- (excessively hot and humid or adjective – hot and humid; oppressively sticky )
+* What is weltering :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       3f710e55-c347-4d1b-9e16-dc096a0f5eaa
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+
+it is the same as too hot and humid weather, such as Recife.
+* What is Intrepid :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       ea9611a6-d561-447b-9ccb-80f9bf52352f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+is the same as fearless
+  - audacious, brave, dauntless, fearless, hardy, intrepid, unfearing -- (invulnerable to fear or intimidation;
+* What is precarious :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       d552486b-cee4-45a6-81d2-8390abc999fb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+
+can be either unstable OR fraught with danger
+
+* What is presumptous :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       aa7be9d6-c62f-4b70-a2ce-03e56a43d29c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+
+is excessively forward
+
+* What is behooves :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       a7d34e18-ef83-47d4-a89a-236b1adc3450
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+
+-  to be appropriate or necessary (verb)
+  - "It behooves us to reflect on this matter"
+-  is ll behooves is the same as inappropriate
+* What is abrogate :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       48a9a9ee-bc97-4d69-b2f8-d80cc11a5eb0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+revoke or relinquish formally; do away with (verb)
+* What is forthwith :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       717de33c-d334-4f47-85e5-fae60a124dbc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+the same as immediately, instantly, straightaway (adv)
+* What is enact :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       cdb6983a-7db2-4153-afe4-5e1b5b20ecae
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+either to order/decree (like a king) or to act out
+* What is perfunctory :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       6d9683d0-eee7-418e-838a-8a5963028c24
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+(adjective): done routinely and with little interest or care
+* What is scathing :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       716cbe80-96ea-4806-9209-16e95ac502f1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+(adjective) – harshly or bitterly critical
+* What is mawkish :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       b2f2ec75-bba4-411a-bebf-5dc5985dcf6d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+(adjective): overly sentimental to the point that it is disgusting
+* What is draconian :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       490cebe8-a7d7-41f4-a92d-ea6344ce912a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+  - adjective – punishment so severe as to seem excessive for the crime being punished.
+  - adjective – Very severe, oppressive or strict.
+* What is churn out :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       a6410c4f-94e7-4105-b292-bbfa481c319f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+- to produce something automatically, without much thought, and in large amounts
+  - "Hollywood studios have been churning out some very bad movies over the past several years."
+* What is lifted :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       cc913e4f-544d-4549-a52f-c5650cab8aea
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+*may also mean stolen!!*
+  - adjective – turned upward.
+  - verb – Simple past tense and past participle of lift.
+  - adjective – Raised up; held aloft.
+  - adjective – Stolen.
+  - adjective – held up in the air
+* What is rabble-rousing :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       e417d241-44e3-41ca-9fd1-79b71b576ffb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+- may be a noun or an adjective
+- the activity of saying, writing, or doing things that make crowds of people excited or angry, usually intentionally in order to make them act in a particular way:
+* What is zealot :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       9730410e-1ef0-46f1-9c94-488af27e388b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+a person who has very strong opinions about something, and tries to make other people have them too (noun)
+* What is lord it over :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       b2d80c3b-4fe8-46e5-8f68-cb09f745f3ad
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+to behave as if you are better than someone and have the right to tell them what to do
+
+* What is profligacy :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       58371a7c-62bf-4102-ad02-11648cf2024f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+  1. extravagance, prodigality, profligacy -- (the trait of spending extravagantly)
+  2. profligacy, dissipation, dissolution, licentiousness, looseness -- (dissolute indulgence in sensual pleasure)
+* What is taxing :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       5e59c842-612e-47b6-8746-ed9edf8ec5b9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+that exhausts, burdensome, onerous
+* What is aberrant :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       6f0431b0-f6de-4ab2-9c22-aacbe71c2e56
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+   - deviant, markedly different from an accepted norm; "aberrant behavior"; "deviant ideas"
+* What is dumbfounded :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       6bcbdb1c-085c-4b6b-bd6c-63fbab448416
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+- shocked, speechless, astonished
+* What is crestfallen :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       af51c989-3d04-406f-849a-ea01e2816363
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+-  (brought low in spirit; "left us fatigued and deflated spiritually")
+* What is inscrutable :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       ce1bca6a-5230-408b-bb2b-c8dd727a03fc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+- of an obscure nature
+* What is contrived :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       946a7271-2c5f-4933-bfef-3b2fcbb566c9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+  - adjective – unnatural, forced
+  - adjective – showing effects of planning or manipulation
+  - adjective – artificially formal
+* What is smattering :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:19Z
+:FC_TYPE:  normal
+:ID:       a2d04758-75f4-4f7c-b44f-bfc95b7cbb84
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+:END:
+*** Back
+- noun: a slight or superficial understanding of a subject; a small amount of something
+  - "I know only a smattering of German, but Helen is able to read German newspapers and converse with natives."
+* What is paucity :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:20Z
+:FC_TYPE:  normal
+:ID:       91997a4d-5d37-4542-af54-8c4275144661
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:20Z |
+:END:
+*** Back
+-  noun: a lack of something
+* What is tinge :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:20Z
+:FC_TYPE:  normal
+:ID:       407a5e08-6ea4-4ab1-818e-d956f2e6232b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:20Z |
+:END:
+*** Back
+- verb = color, distort, to color lightly
+  - "The sadness tinged his life" "her greying hair was tinged blond"; "the leaves were tinged red in November"
+* What is litany :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:20Z
+:FC_TYPE:  normal
+:ID:       2621bdbf-44f1-4929-81c8-a50bb0cb684b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:20Z |
+:END:
+*** Back
+  1. litany -- (any long and tedious address or recital; "the patient recited a litany of complaints"; "a litany of failures")
+  2. Litany -- (a prayer consisting of a series of invocations by the priest with responses from the congregation)
+* What is riveting :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:20Z
+:FC_TYPE:  normal
+:ID:       1aadee86-e4b6-4ddd-bbf5-4ce2e46063ef
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:20Z |
+:END:
+*** Back
+  - (capable of arousing and holding the attention; "a fascinating story")
+* What is loath :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:20Z
+:FC_TYPE:  normal
+:ID:       cfaaa11d-d273-4039-9b3e-5645b2358758
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:20Z |
+:END:
+*** Back
+- to be reluctant or unwillingly
+* What is moot :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-19T23:14:17Z
+:FC_TYPE:  normal
+:ID:       11305b7f-a37b-449d-92d4-a82c592d0c82
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:17Z |
+:END:
+*** Back
+- open to argument or debate; undecidable in a meaningless or irrelevant way
+* What is foil? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-20T00:03:02Z
+:FC_TYPE:  normal
+:ID:       39dc5756-7723-4eeb-97a9-73f6b7262f35
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-20T00:03:02Z |
+:END:
+*** Back
+
+1. (5) foil -- (a piece of thin and flexible sheet metal; "the photographic film was wrapped in foil")
+2. foil, enhancer -- (*anything that serves by contrast to call attention to another thing's good qualities;* "pretty girls like plain friends as foils")
+
+ Found on cite:christiano19_rule_by_multip_major
