@@ -1,0 +1,13 @@
+#+title: Scale and rationality
+- tags :: [[file:information_transfer_economics_the_irony_of_microfoundations_fundamentalism.org][Information Transfer Economics: The irony of microfoundations fundamentalism]]
+
+One thing that seems to appear over and over is that the proper application of rational choice may 
+depend on  *scale*. It does not explain every choice in every agent, but a
+population of agents might be better represented, effectively, as having a
+rational choice than other things. The same can be said about their utility
+functions. This might be related to how much of aggregation we are using and
+also with time scale. That is, rationality might be a scale effective
+representation of choice, where scale might be time or population. Jason Smith
+and Don Ross argue something like that for population and time respectively.
+
+There is a kind of naive realism in the social sciences which tends to wear the cape of behavioralism or methodological individualism which does not think about scale. Elster is a case in point, even though he is a highly sophisticated zealot of this point of view. Gintis also falls prey to this weakness. To craft an explanatory argument one has to take into account scale, the heterogeneity of components and in which way the information/complexity of those components can be diminished by a scale effective description/explanation. How so? We do not need to know the direction of each spin to explain the thermodynamic behavior. One can apply a mean field technique. Near the critical point the system scale goes bullocks and the system loses all sense of scale (scale-free). For a similar argument in rational choice see https://journals.sagepub.com/doi/abs/10.1177/1470594X06060619?journalCode=ppea Ross is a neoclassical economist, but has also published at least two papers with complex systems scientists.

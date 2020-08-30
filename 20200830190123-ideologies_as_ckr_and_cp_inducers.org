@@ -1,0 +1,12 @@
+#+title: Ideologies as CKR and CP inducers
+- tags ::[[file:20200609140243-on_idealism_and_hegemony.org][On idealism and hegemony : on rationalizing lies]]
+
+Games situations are games + belief hierarchies. Games in themselves are underdetermined. Common knowledge of rationality and Common priors are one way of creating a meaningful belief hierarchy (CKR + CP = rational expectation.). All these are from cite:aumann08_ration_expec_games.
+
+From Downs we know that ideologies are useful as shortcuts
+According to Carl Schmidt the foundation of politics is the enemy-friend distinction. In informationally complex environments ideologies are enemy-friend framers. Ideologies are how people define the games they play, by specifying the belief hierarchies. They are also subject to their own game dynamics - heresthetics.
+
+*Do they induce belief hierarchies?* Is that their function? Can we create a bottom up account of that? Can we analyze it?
+
+* further references
+- cite:aumann08_ration_expec_games

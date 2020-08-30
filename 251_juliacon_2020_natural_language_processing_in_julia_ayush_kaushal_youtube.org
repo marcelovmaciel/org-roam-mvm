@@ -1,6 +1,6 @@
 #+title: url:(251) JuliaCon 2020 | Natural Language Processing in Julia | Ayush Kaushal - YouTube
 #+roam_key: https://www.youtube.com/watch?v=hHCi8ojazqk
-
+- tags :: [[file:20200518163106-julia_tips.org][Julia Tips]]
 
 
 

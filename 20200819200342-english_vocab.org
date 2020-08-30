@@ -478,3 +478,44 @@ that exhausts, burdensome, onerous
 2. foil, enhancer -- (*anything that serves by contrast to call attention to another thing's good qualities;* "pretty girls like plain friends as foils")
 
  Found on cite:christiano19_rule_by_multip_major
+
+* What is groove? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-27T15:26:14Z
+:FC_TYPE:  normal
+:ID:       503b1654-08a5-46da-a935-ef9930ad4162
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-27T15:26:14Z |
+:END:
+
+*** Back
+The noun groove has 3 senses (first 2 from tagged texts)
+1. (1) groove, channel -- (a long narrow furrow cut either by a natural process (such as erosion) or by a tool (as e.g. a groove in a phonograph record))
+2. (1) rut, groove -- (a settled and monotonous routine that is hard to escape; "they fell into a conversational rut")
+3. groove, vallecula -- ((anatomy) any furrow or channel on a bodily structure or part)
+
+The verb groove has 2 senses (no senses from tagged texts)
+1. groove -- (make a groove in, or provide with a groove; "groove a vinyl record")
+2. furrow, rut, groove -- (hollow out in the form of a furrow or groove; "furrow soil")
+* What is accretion? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-28T19:07:49Z
+:FC_TYPE:  normal
+:ID:       54d68a75-3710-48a4-a9a7-e3fa507b4e1d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-28T19:07:50Z |
+:END:
+*** Back
+The noun accretion has 6 senses (first 1 from tagged texts)
+1. (2) accretion, accumulation -- (an increase by natural growth or addition)
+2. accretion -- (something contributing to growth or increase; "he scraped away the accretions of paint"; "the central city surrounded by recent accretions")
+3. accretion -- ((astronomy) the formation of a celestial object by the effect of gravity pulling together surrounding objects and gases)
+4. accretion -- ((biology) growth by addition as by the adhesion of parts or particles)
+5. accretion -- ((geology) an increase in land resulting from alluvial deposits or waterborne sediment)
+6. accretion -- ((law) an increase in a beneficiary's share in an estate (as when a co-beneficiary dies or fails to meet some condition or rejects the inheritance))

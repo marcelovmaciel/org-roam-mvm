@@ -1,0 +1,19 @@
+#+title: Young Habermas project
+- tags :: [[file:20200711113146-science_dimension_provocations.org][Science dimension provocations]], [[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]]
+
+In the end the young Habermas' goals are well calibrated. His view that social science ought to be *descriptive, explanatory, interpretive, normative and critical* in scope, and that philosophy is not apart from social science, but its auto-reflexive branch, as well as of all other sciences,  is powerful and resonates with Peirce and Dewey.
+
+Not even interpretive politologists such as Bevir and Blakely who are critical of the positivist mainstream manage to equilibrate the poles of a comprehensive social science. Particularly, they mischaracterize the natural sciences. Their view of the natural sciences is too simplistic and old-fashioned, and this allows them to draw a broader gap between the areas of knowledge than is justified. A constructive perspective they bring is that being interpretive is not a position located in the quanti x quali debate. Actually, you can be both while doing interpretive social science. The problem with their account is that by creating straw mans  of the natural and behavioral sciences they foreclose fruitful collaborations between areas, particularly the other behavioral and mereological sciences. An example of such collaboration is the work of Michael Tomasello which is full sociobiological and has got profound implications for both the onto-genetic view of Habermas and  all of the  rational choice institutionalism. Furthermore, their excessive culturalism leads them astray in descriptive/explanatory dimensions as they use concepts such as neoliberalism as bullshit shortcuts.
+
+Back to Habermas, this integration of the dimensions of inquiry recovers a powerful tradition set by Peirce and Dewey, which is redeemed in the Critical tradition by Jaeggi's work. Richard Bernstein, James Johnson, Elinor Ostrom,  and Thamy Pogrebinschi can also be enlisted in this pragmatic reorientation of the discipline. The old which is too big to die tradition of empiricist-logicist tradition of political science can be incorporated and remodeled as it brings a rigorous perspective on the dilemmas and (im)possibilities of situational and institutional arrangements. Politology is in this perspective the area of knowledge whose purpose is to act as a an amplifying device for this accumulated practical reasoning knowledge about collective choice and action situations, informing our networked publics and allowing them to  overcome problems.
+
+Those dimensions of the social inquiry are like sides of a rubik cube. Social
+reality mixes those colors. We artificially separate them, but we can see one
+side because there is an arrangement of other colors to do so.
+
+
+* Further references
+
+- cite:pogrebinschi2010democracia
+- cite:bernstein1978restructuring
+- cite:johnson2006consequences

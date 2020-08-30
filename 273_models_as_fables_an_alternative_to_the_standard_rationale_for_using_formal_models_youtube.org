@@ -86,6 +86,9 @@ purely concerned with producing the right, deductively derived output given a ce
   of models. As Schelling I think theoretical models AND empirical models are
   objects/tools. The theoretical models are toys for conceptual story telling.
   Empirical models are maps for empirical story telling.
+Kelly paper on the game of science, in cite:bold2007foundations  ,  may be relevant
+
+
 - What is dead and what is alive in rational choice institutionalism? Retelling
   the story of the founding schools
 - To say that something is a family of models also does not help How do we

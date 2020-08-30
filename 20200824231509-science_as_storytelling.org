@@ -1,0 +1,15 @@
+#+title: Science as storytelling or Science as playing
+- tags ::[[file:273_models_as_fables_an_alternative_to_the_standard_rationale_for_using_formal_models_youtube.org][
+  url: (273) Models as Fables: An Alternative to the Standard Rationale for Using Formal Models - YouTube]]
+
+
+Johnson says models are fables. This does not do justice to the mediating
+  property of models. As Schelling I think theoretical models AND empirical
+  models are objects/tools. The theoretical models are toys for conceptual story
+  telling. Empirical models are maps for empirical story telling.
+
+
+* Further References
+- Schelling on modeling
+- Kelly paper on the game of science, in cite:bold2007foundations , may be relevant
+-

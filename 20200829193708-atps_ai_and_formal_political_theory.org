@@ -1,0 +1,11 @@
+#+title: ATPs, AI and formal political theory
+- tags :: [[file:20200722194221-social_computational_trinitarianism.org][Social computational trinitarianism]],[[file:273_models_as_fables_an_alternative_to_the_standard_rationale_for_using_formal_models_youtube.org][url: (273) Models as Fables: An Alternative to the Standard Rationale for Using Formal Models - YouTube]]
+
+  
+It is undeniable that there has been a huge development in political methodology by means of the Machine Learning Revolution. However, no such development has been seen in the theoretical tradition. The ABM literature would be the closest, but in the end it is simply an enfatuation with OOD as applied to theoretical modeling. Building theoretical models is costly, but we could lower the entry barrier and more generally the transaction costs of doing rigorous theoretical modeling by means of symbolic, type theoretic and symbolic programs. James Johnson has argued that theories differ from models insofar they make substantive claims about the world. Both theoretical propositions and models can be readily formalized using contemporary symbolic and type theoretic technology.
+
+
+- The discussion made by De marchi. Im using his argument to my own ends.
+- http://math.andrej.com/category/every-proof-assistant/
+- https://uniformal.github.io/
+-

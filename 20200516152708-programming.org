@@ -15,3 +15,5 @@
 *** Back
 A process = program + state of all threads executing the program. Threads share
 resources while programs do not. For more see [[https://www.youtube.com/watch?v=O3EyzlZxx3g][Difference Between Process and Thread - Georgia Tech - Advanced Operating Sys...]]
+* What is my block password?
+08dBAchWx6jakREsP81SqfcSiyMQHwTSagQyJk68691eXk1ArMomMTDx9wb8iuIqmxRr3rudDo3JFIo2j4kLo3nHufmWcb8h7cL

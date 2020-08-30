@@ -341,7 +341,13 @@ else BinNode (x,y) t1 (insert (key,d) t2)
 - The speed of the binary search depends on the shape of the tree (how balanced it is).
 
 - The principle of induction can also be extended to trees.
--
+- reflect :: BinTree -> BinTree is related to reverse :: List -> List. Particularly
+#+BEGIN_SRC haskell
+inorder (reflect t) == reverse (inorder t)
+#+END_SRC
+-  For a proof see p 112 and one of the flashcards, it uses induction.
+- The size of a balanced tree is determined by its height. Intuitively, \(size = 2^h - 1\), where \(h\) is the height. This can be proved by induction.
+
 
 ** What are the main concepts of the text?
 *** Chapter 1 - Introduction to haskell
@@ -788,4 +794,23 @@ Using induction and those two lemmas:
 #+BEGIN_SRC text
 reverse xs ++ [x] = reverse ([x] ++ xs)
 reverse (xs++ys) = reverse ys ++ reverse xs
+#+END_SRC
+* How do you define a binary tree in haskell? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-28T01:56:37Z
+:FC_TYPE:  normal
+:ID:       dd9cb976-dfdd-42a1-988a-96e56fa6d736
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-28T01:56:37Z |
+:END:
+*** Back
+#+BEGIN_SRC haskell
+
+data BinTree a
+= BinLeaf
+| BinNode a (BinTree a) (BinTree a)
+deriving Show
 #+END_SRC

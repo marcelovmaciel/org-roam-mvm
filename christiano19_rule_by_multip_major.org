@@ -19,7 +19,7 @@ Sean ingham is a relevant formal political theorist. His theory of popular contr
 
 ** What is the goal/ general argument of the text?
 That there are some conceptual gaps, such as preference formation and welfarism,
-and the account is too based on situations instead of systems.
+and the account is too focused on situations instead of systems.
 ** What are the specific arguments of the text?
 - Democracies - government under the control of many majorities x  popular will x majority rule
 - For thomas cristiano control characterizes one dimension of democracy as political equality (like dahl cite:dahl1989democracy)
@@ -40,7 +40,7 @@ The key here is that this
 allows for each of many majorities to have control over an issue even when only
 one of them gets what it wants.
    #+end_quote
-  - intensity and range condition
+ - intensity and range condition
     - The less intense a groups intensity has to be on a issue so that it can block other options the more control it has
     - It has more control the bigger the range of values it has control
     #+begin_quote
@@ -58,7 +58,7 @@ it is not sufficient for democracy that every majority in a society
 have some control over some outcomes of political decision making. This condition
 could well obtain in some authoritarian societies.
     #+end_quote
-  - widespread blocking condition
+ - widespread blocking condition
     #+begin_quote
 a society is under minimally democratic popular control when and only
 when every majority has some sufficient level of control over outcomes, or, in other
@@ -66,7 +66,7 @@ words, no majority has to sacrifice basic needs to get what it wants (106).
 Presumably the gap between the control of the more powerful and the less
 powerful must not be too great.
     #+end_quote
-  - egalitarian control condition
+ - egalitarian control condition
     - equally sized groups have equal control
     #+begin_quote
 egalitarian democracy realizes political
@@ -78,6 +78,7 @@ about the issue for it to get what it wants, it has less control (158). This not
 will require a conception of interpersonal comparisons of preference intensity
 and hence involves a major departure from the classic framework of social choice.
     #+end_quote
+
 - So his account is  completely based on preference intensity and interpersonal comparison of utility
 - Democracy has nothing to do with popular will AT ALL (which is good)
 - Cristiano considers that missing in inghams theory is an element of power, of outcome affecting.
@@ -93,6 +94,7 @@ those desires.
 Normally, we say persons have control over an outcome when something they do
 or can do affects the outcome. The outcome is up to them.
   #+end_quote
+
 - Another criticism is that when there is a cycle and people have equal control what happens is that there is no control! This is a contradiction!
 - Yet another criticism is that the theory treats preferences as primitives. However, if there are epistemic injustices, how can we talk about control, in inghams terms? Cristiano way out is that there is once again something missing, beyond preferences, in ingham definition of control (power? implicit here is the debate on power from dahl, bachrach and lukes)
   #+begin_quote
@@ -127,10 +129,10 @@ in the political system.
 
 - I would say that the difference here might lie in different views of "freedom". Ingham  gives a negative treatment, while cristiano is giving a more positive. Or at least he is siding with a more rationalist view of preferences. He's got a point, but intuitively you may be misinformed and have underdeveloped preferences and still be in control. Anyone who's ever got a boss or took part of a small scale collective decision making knows that. I believe one can keep the negative account of Ingham as a long as a relational element is added to the mix here, as cristiano argued before. On the other hand, conflating preferences and beliefs may be a real problem. Gotta think more about those two sides of this argument (see further refs). I think Cristiano is asking for too much. It makes sense, it is more realist, if you accept the ontology of the argument (I do), but it  does not seem practical. Do we need a whole account of structural formation of preferences to create a theory of democracy? What is gained by that?
 
-  - The final criticism is that the theory is about "control at the margin" "in
-    a particular situation given the particular preferences of others." He wants
-    to see how to scale this theory to whole political systems. He is being
-    fully dahlsian here. Example:
+- The final criticism is that the theory is about "control at the margin" "in
+  a particular situation given the particular preferences of others." He wants
+  to see how to scale this theory to whole political systems. He is being
+  fully dahlsian here. Example:
     #+begin_quote
 it is often the case that people, having used up their political
 capital, are not in situations of equal control with others. If the use of the equal
@@ -139,7 +141,7 @@ with the knowledge that they will have less power later or on other issues, then
 the subsequent inequality would be legitimate. But it is legitimate only if the
 overall relations between the political actors are on a footing of equality.
     #+end_quote
-  - Once again, paying more attention to the relational aspect of control seems the route to solve this. Sincerely, I would need to actually read the book to think this through.
+  - Once again, paying more attention to the relational aspect of control seems the route to solve this. Sincerely, I would need to actually read the book to think this through. 
 ** What are the main concepts of the text?
 - political equality
 - control

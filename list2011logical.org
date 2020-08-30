@@ -106,7 +106,7 @@ Choice and Welfare 32 (2009): 575–601.
 
 
 
-This paper template resonates deeply with cite:patty2015aggregation
+
 
 
 #+begin_quote
@@ -119,6 +119,10 @@ formal or other constraints the resulting outputs should obey. Robust-
 ness to pluralism, basic majoritarianism, and collective rationality are
 perhaps the most paradigmatic instances of such conditions.
 #+end_quote
+
+
+
+
 
 How does this relate to Arrows theorem?
 
@@ -140,3 +144,9 @@ of the democratic trilemma in the case of preference aggregation, where
 basic majoritarianism is replaced by the conjunction of the weak Pareto
 principle, independence of irrelevant alternatives, and nondictatorship.
 #+end_quote
+
+
+* Insights
+This general template for analyzing aggregating procedures deeply resonates with
+cite:patty2015aggregation as well as their work on big data cite:Patty_2014.
+Furthermore, this might be related to Input/Output logic. For more on Input/output logic see page 163 of cite:lowe2003foundations

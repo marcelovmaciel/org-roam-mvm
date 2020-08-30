@@ -138,3 +138,4 @@ Dont forget the philisophers take on measurement. Take notes!!!
 * (Preferences x Attitudes) and Environment
 - Give an information theoretic account of when we can use preferences and when
   attitudes is all we CAN use
+

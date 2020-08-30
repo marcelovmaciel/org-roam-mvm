@@ -1,0 +1,13 @@
+#+title: My Weltanschauung 2
+- tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
+
+  I have been converging into a new interpretative frame. There are three "spheres" of knowledge. The *formal foundations*, which are equally located in mathematics, logic and computation. The "sciences" of patterns, reasoning and problem solving - which are the basis of both conceptual and empirical storytelling. Statistics and systems science also lie here.  Its pure study lies in the formal sciences research program (https://en.wikipedia.org/wiki/Formal_science).  The expressive mediums, found in natural and formal language, and all kinds of higher dimensional mediums, commonly called visualizations, such as diagrams and plots. Finally there are the substantial, empirical, sciences. My domain expertise and interest lies in *politics*.
+
+  All that means that my studies will focus on three fronts:
+  - The Formal Sciences
+  - The Expressive Mediums 
+  - Politology
+
+
+* Further resources
+- cite:lowe2006foundations pages 1, 27, 143, 199, 217, 233, 255
