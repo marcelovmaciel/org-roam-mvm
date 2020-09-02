@@ -1,0 +1,14 @@
+#+title: From equalities to equivalences
+
+All our political discourse is based upon the notion of equality. For some
+political equality is the regulating idea impelling all of the democratic creed.
+The concept plays a similar role in theories of justice. Curiously, from Stuart Mill
+onward its been clear that this is a leaky abstraction, as once we declare
+the imperativeness of equality a proviso of "equals but different" forthwith
+follows. For 80 years mathematicians have been erecting an alternative structure, by replacing equality with equivalences (Here lies a Jamesonian theme: from one to many; from monism to pluralism). Political Economists have neglected the fruitfulness of this enterprise, at their own peril. Can't we re-frame both Democratic Theory and the Theory of Justice by simply replacing this conceptual piece?
+
+* Further references
+- https://www.quantamagazine.org/with-category-theory-mathematics-escapes-from-equality-20191010/
+- https://www.quantamagazine.org/emily-riehl-conducts-the-mathematical-orchestra-from-the-middle-20200902/
+
+

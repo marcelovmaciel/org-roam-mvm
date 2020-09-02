@@ -132,7 +132,7 @@ This means that the tools of equilibria analysis are useful for analysis, not pr
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-08-19T20:55:19Z |
+| front    | 2.50 |   2 |     1.00 | 2020-09-02T23:05:56Z |
 :END:
 
 ** Back

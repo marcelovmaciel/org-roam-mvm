@@ -69,7 +69,7 @@ For a defense see:
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   2 |     1.00 | 2020-07-04T10:24:52Z |
+| front    | 2.65 |   3 |     6.00 | 2020-09-07T23:06:42Z |
 :END:
 - tags :: [[file:20200522123528-what_is_a_voting_method.org][What is a voting method?]]
 

@@ -1,0 +1,41 @@
+#+TITLE: cite: The entanglement of methods of policy inquiry with democratic possibilities
+#+ROAM_KEY: cite:orr2018entanglement
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: orr2018entanglement
+:NOTER_DOCUMENT: %(orb-process-file-field "orr2018entanglement")
+:AUTHOR: Orr, S. & Johnson, J.
+:JOURNAL: The Routledge Handbook of Ethics and Public Policy
+:DATE:
+:YEAR: 2018
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+This is directly related to my note about [[file:20200825143750-young_habermas_project.org][Young Habermas project]] and to [[file:20200824211623-my_weltanschauung_2.org][My
+Weltanschauung 2]]. That is, how to reorient politology beyond a technocratic and
+shortsighted perspective about is role within society.
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text?
+- They start setting the stage
+- institutios are the rules of the game
+  - Coordinating tools
+  - who does what to whom for what purposes + rule breaking response
+- democracy as citizens participation, particularly through vertical accountability
+- Democracy = deliberation + voting (market and forum elster and so on)
+- Democracy has the final saying on institutional arrangements within the democratic order (priority of democracy )
+- Insulated experts lead to private interests and private knowledge and in the end become "the willing tools of big economic interests".
+- They consider, however, that a better criticism is that the technocratic vision misunderstands political inquiry. That is, what kind of knowledge is needed, generated and disseminated in political economics.
+- They situate themselves within pragmatic counters to the technocratic view. Descendants of Dewey such as Cartwright, Kitcher, Anderson and Putnam
+- Their focus is methodological: models/mechanisms/metrics
+- Evidence-based approaches are shortsighted. One ought to attent to how evidence is generated, assessed and incorporated into the political process
+-
+
+** What are the main concepts of the text?
+- institutions
+- democratic institutions

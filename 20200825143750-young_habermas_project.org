@@ -1,5 +1,5 @@
 #+title: Young Habermas project
-- tags :: [[file:20200711113146-science_dimension_provocations.org][Science dimension provocations]], [[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]]
+- tags :: [[file:20200711113146-science_dimension_provocations.org][Science dimension provocations]], [[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]], [[file:20200824211623-my_weltanschauung_2.org][My Weltanschauung 2]]
 
 In the end the young Habermas' goals are well calibrated. His view that social science ought to be *descriptive, explanatory, interpretive, normative and critical* in scope, and that philosophy is not apart from social science, but its auto-reflexive branch, as well as of all other sciences,  is powerful and resonates with Peirce and Dewey.
 
@@ -17,3 +17,4 @@ side because there is an arrangement of other colors to do so.
 - cite:pogrebinschi2010democracia
 - cite:bernstein1978restructuring
 - cite:johnson2006consequences
+- cite:orr2018entanglement

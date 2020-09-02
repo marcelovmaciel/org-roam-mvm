@@ -1,5 +1,5 @@
 #+title: External scaffolding
-- tags :: [[file:20200715175913-sociothenical_view_of_formalization.org][Sociothenical view of formalization]]
+- tags :: [[file:20200715175913-sociothenical_view_of_formalization.org][Sociothenical view of formalization]], [[file:20200722194221-social_computational_trinitarianism.org][Social computational trinitarianism]], [[file:20200824211623-my_weltanschauung_2.org][My Weltanschauung 2]]
 
 I already have the theory that the value  of formalization lies not in rigour but in tweaking, tinkering and delegating to an external system.
 
@@ -13,3 +13,5 @@ The next step is to relate this with plotting and diagrams.
 * further references
 
 - cite:stjernfelt2007diagrammatology
+- [[https://plato.stanford.edu/entries/hegel-dialectics/][Hegel’s Dialectics (Stanford Encyclopedia of Philosophy)]]
+- cite:maybee2009picturing

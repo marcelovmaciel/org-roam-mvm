@@ -11,3 +11,12 @@
 
 * Further resources
 - cite:lowe2006foundations pages 1, 27, 143, 199, 217, 233, 255
+** Writing
+- [[https://thelocalyarn.com/excursus/pollen-cookbook/index.html][Pollen Cookbook]]
+- [[https://www.etymonline.com/][Online Etymology Dictionary | Origin, history and meaning of English words]]
+- cite:strunk2007elements
+- cite:eijkhout1992tex
+- cite:knuth1984texbook
+** Polis-Logos
+- cite:elster1978logic
+- [[https://www.tandfonline.com/toc/sinq20/23/2?nav=tocList][Symposyum on Elster1978]]

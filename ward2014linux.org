@@ -3,7 +3,6 @@
 
 - tags :: [[file:learn_linux_101_streams_pipes_and_redirects_build_smart_build_secure_ibm_developer.org][Learn Linux, 101: Streams, pipes, and redirects – Build Smart. Build Secure. IBM Developer]]
 
-
 *  Notes
 :PROPERTIES:
 :Custom_ID: ward2014linux
@@ -575,7 +574,11 @@ DESCRIPTION
 - sftp
 
 *** Chap 11 - Introducao aos shell scripts
-*** Chap 13 _ Espacos do usuário 
+*** Chap 13 _ Espacos do usuário
+- /usr/bin vs /usr/local/bin
+- login shells vs non login shells
+- chsh
+
 * Flashcards
 ** What is a linux layer? :fc:
 :PROPERTIES:

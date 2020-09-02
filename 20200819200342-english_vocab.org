@@ -519,3 +519,25 @@ The noun accretion has 6 senses (first 1 from tagged texts)
 4. accretion -- ((biology) growth by addition as by the adhesion of parts or particles)
 5. accretion -- ((geology) an increase in land resulting from alluvial deposits or waterborne sediment)
 6. accretion -- ((law) an increase in a beneficiary's share in an estate (as when a co-beneficiary dies or fails to meet some condition or rejects the inheritance))
+* What are "because" substitutes? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-08-31T20:20:48Z
+:FC_TYPE:  normal
+:ID:       a0784501-10cf-48ec-82df-298e1a94eba3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-08-31T20:20:48Z |
+:END:
+*** Back
+For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
+- For
+  - "Let us make merry, for tomorrow we may die."
+- Inasmuch as
+  - Inasmuch as you are their guardian, you are responsible for their behavior. (= Because you are their guardian, you are responsible for their behavior.)
+  - Inasmuch as she is the only earning member of the family, she has a duty to support her parents and siblings.
+- Owing to / thanks to
+  - Owing to (thanks to) his irresponsible behaviour, he lost his job.
+- As a result of
+- As a consequence of
