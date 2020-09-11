@@ -1,0 +1,26 @@
+#+title: url: How Close Are Computers to Automating Mathematical Reasoning? | Quanta Magazine
+#+roam_key: https://www.quantamagazine.org/how-close-are-computers-to-automating-mathematical-reasoning-20200827/
+- tags :: [[file:20200722194221-social_computational_trinitarianism.org][Social computational trinitarianism]]
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+There is a controversy about the usage of computers in math, but the telos is their adoption
+** What are the specific arguments of the text?
+- Josef Urban and Christian Szegedy are using machine learning to boost existing provers
+- ATPs are automated theorem provers (such as E) and use brute force methods
+- ITP are like Agda and Coq (or HOL and Isabelle)
+- The tendency is to mix ITPs with ATPs and with machine learning
+- for Szegedy automated reasoning is a subset of nlp
+-
+** What are the main concepts of the text?
+- ITP
+- ATP
+- automated reasoning
+
+
+* Further references
+- josef urban
+- Christian Szegedy
+-

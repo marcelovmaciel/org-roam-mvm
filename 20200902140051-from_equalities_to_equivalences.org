@@ -1,14 +1,47 @@
 #+title: From equalities to equivalences
+- tags :: [[file:20200519125138-formal_political_theory.org][Formal Political Theory]] 
 
 All our political discourse is based upon the notion of equality. For some
 political equality is the regulating idea impelling all of the democratic creed.
 The concept plays a similar role in theories of justice. Curiously, from Stuart Mill
 onward its been clear that this is a leaky abstraction, as once we declare
-the imperativeness of equality a proviso of "equals but different" forthwith
-follows. For 80 years mathematicians have been erecting an alternative structure, by replacing equality with equivalences (Here lies a Jamesonian theme: from one to many; from monism to pluralism). Political Economists have neglected the fruitfulness of this enterprise, at their own peril. Can't we re-frame both Democratic Theory and the Theory of Justice by simply replacing this conceptual piece?
+the imperativeness of equality a proviso of "equals but different" follows forthwith. For 80 years mathematicians have been erecting an alternative structure, by replacing equality with equivalences (Here lies a Jamesonian theme: from one to many; from monism to pluralism). Political Economists have neglected the fruitfulness of this enterprise, at their own peril. Can't we re-frame both Democratic Theory and the Theory of Justice by simply replacing this conceptual piece?
 
 * Further references
-- https://www.quantamagazine.org/with-category-theory-mathematics-escapes-from-equality-20191010/
-- https://www.quantamagazine.org/emily-riehl-conducts-the-mathematical-orchestra-from-the-middle-20200902/
+- [X] https://www.quantamagazine.org/with-category-theory-mathematics-escapes-from-equality-20191010/
 
 
+- [X] https://www.quantamagazine.org/emily-riehl-conducts-the-mathematical-orchestra-from-the-middle-20200902/
+
+    - Two objects are the same when:
+
+  #+begin_quote
+Two objects in a higher category should be considered “the same” when they are equivalent. This essentially means “seen as the same by all other objects in the higher category.”
+  #+end_quote
+ - Maclane and Eilenberg
+   #+begin_quote
+The categorical perspective emerged in mathematics in 1945 when Samuel Eilenberg and Saunders Mac Lane published their radical paper, “General Theory of Natural Equivalences.” It proposed a deeply unconventional idea, arguing that mathematics needed *to do away with the equal sign, and the whole simplistic notion of equality, and replace it with the deeper, more sophisticated idea of “equivalence.”*
+
+Instead of calling two things exactly equal, Eilenberg and Mac Lane urged mathematicians to *embrace sophisticated new mathematical structures that captured the many ways in which two things might be the same, or equivalent.*
+  #+end_quote
+
+- https://kerodon.net/
+
+- [[https://stacks.math.columbia.edu/][Index—The Stacks project]]
+
+* vocab
+** what is veneer? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-02T23:47:52Z
+:FC_TYPE:  normal
+:ID:       6c13c34f-4a5c-45e8-b04f-3153c995d5e0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-02T23:47:52Z |
+:END:
+
+*** Back
+1. veneer, veneering -- (coating consisting of a thin layer of superior wood glued to a base of inferior wood)
+2. facing, veneer -- (an ornamental coating to a building)

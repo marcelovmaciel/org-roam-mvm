@@ -129,3 +129,58 @@ foopattern [] = "0"
 foopattern (x:xs) = x ++ "+ "  ++ foopattern xs
 
 #+END_SRC
+* injl, how does `let` scoping work? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-10T13:36:56Z
+:FC_TYPE:  normal
+:ID:       d28fc0c0-72f2-4d27-b6a4-733b030ed3c7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-10T13:36:56Z |
+:END:
+*** Back
+Mason Protter: When you write
+
+#+BEGIN_SRC julia
+let x = y
+    stuff
+end
+
+#it is kinda like writing
+
+((x) -> stuff)(y)
+
+#at least for the purposes of scoping of variables. On the other hand, when you write
+
+let
+    x = y
+    stuff
+end
+
+#it is kinda like writing
+
+(() -> (x = y; stuff))()
+#+END_SRC
+
+Mason Protter: This is really important if you're writing let blocks in the
+global scope, because if I write
+
+#+BEGIN_SRC julia
+y = 1
+let
+    x = y
+    stuff(x)
+end
+
+# y is a global variable in that block and there will be a performance penalty
+
+# wheras there are no global variables involved at runtime when I write
+
+y = 1
+let x = y
+    stuff(x)
+end
+
+#+END_SRC

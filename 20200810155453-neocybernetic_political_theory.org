@@ -1,4 +1,6 @@
 #+title: Neocybernetic political theory
 - [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation : behavioral spillover and institutional complexity]]
+- [[file:20200825143750-young_habermas_project.org][Young Habermas project]]
+- [[file:20200722194221-social_computational_trinitarianism.org][Social computational trinitarianism]]
 
 Drawing on Ostrom focus on democratic possibilities and aligica work on seeing like a citizen, johnson work on measurement and data visualization in public policy, philosophers work on gpt and james scott work on seeing like a ste, kieran healy on the data moment, Habermas work on legitimacy crisis, the old cybernetic literature and data feminist and critical ai studies argue for the possibility of a neocybernetic agenda which merges normative political theory, formal political theory and political methodology, and steers the discipline in allowing society "see" by means of measures, characterizations, explorables and data visualization their dilemmas and challenges. On the other hand to interview open knowledge and manoel in how they see it. Politics is too important for the monopoly of political science, and that is why those civil society agents have been taking the lead. Political science can have a central role however.

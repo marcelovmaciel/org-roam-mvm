@@ -541,3 +541,1069 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
   - Owing to (thanks to) his irresponsible behaviour, he lost his job.
 - As a result of
 - As a consequence of
+
+
+
+
+
+* What is  pithy? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       92303383-6cd7-4a4c-8db5-804d2b3a6cce
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - concise and full of meaning
+* What is  meandering? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       667f852c-558b-4aee-95eb-342b09569121
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - to move or cause to move in a sinuous, spiral, or circular course
+  - rambling
+* What is  nadir? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       5fe698b9-fb44-4d11-96ac-aacf7c91a7b4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - the lowest point
+* What is  boast? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       671826de-18b0-4ad7-b1a1-ad9f7ec23351
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - to threaten
+* What is  effect? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       e2392100-55aa-4808-9d5f-bd4015daa963
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - noun – In art, an accidental or unusual combination of colors, lights, or forms which especially excite the interest of a painter and form a suitable motive or key in painting or etching.
+  - noun – That which is effected by an efficient cause; a consequent; more generally, the result of any kind of cause except a final cause: as, the e-ffect of heat.
+  - noun – Power to produce consequnces or results; force; validity; account: as, the obligation is void and of no effect.-
+  - noun – Purport; import or general intent: as, he immediately wrote to that effect; his speech was to the effect that, etc.-
+  - noun – A state or course of accomplishment or fulfilment; effectuation; achievement; operation: as, to bring a plan into effect; the medicine soon- took effect.
+  - noun – Actual fact; reality; not mere appearance: preceded by in.-
+  - noun – Mental impression; general result upon the mind of what is apprehended by any of the faculties: as, the effect of a view, or of a picture
+* What is  affability? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       76c41843-cc47-4dce-be85-86936568a170
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - noun – The quality of being affable; readiness to converse or be addressed; civility in intercourse; ready condescension; benignity.
+
+  - noun – Synonyms Sociability, approachableness, accessibility, urbanity, complaisance, suavity, comity, amenity, friendliness, openness.
+
+  - noun – The quality of being affable; readiness to converse; courteousness in receiving others and in conversation; complaisant behavior.
+
+  - noun – The state or quality of being affable, friendly, or approachable.
+
+  - noun – a disposition to be friendly and approachable (easy to talk to)
+    - diffidence
+      - noun – Distrust; want of confidence in regard to anything; doubt of the ability or disposition of others.
+
+      - noun – More especially, distrust of one's self; want of confidence in one's own ability, worth, or fitness; retiring disposition; modest reserve; shyness.
+
+      - noun – Synonyms Modesty, Shyness, etc. (see bashfulness), fear, timidity, hesitation, apprehension.
+    - boorishness
+      - noun – The state of being boorish; clownish-ness; rusticity; coarseness of manners.
+      - noun – the manner of a rude or insensitive person
+    - apocryphal
+      - adjective: being of questionable authenticity
+    - unassailable
+      - adjective: immune to attack; without flaws
+
+    - derivative
+      - adjective: imitating or based on
+    - *nettlesome*
+      - adjective: causing irritation or annoyance
+    - insolvent
+      - bankrupt
+    - staid
+      - characterized by dignity and propriety
+    - garrulous
+      - adjective: full of trivial conversation
+    - forlorn
+      - adjective: marked by or showing hopelessness
+    - gregarious
+      - adjective: to be likely to socialize with others
+    - bumbling 
+      - adjective: lacking physical movement skills, especially with the hands
+    - sprawling
+      1. (8) sprawl -- (sit or lie with one's limbs spread out)
+      2. (2) sprawl, straggle -- (go, come, or spread in a rambling or irregular
+         way;
+* What is  agog? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       e3aa7394-e3f1-4291-a71c-0f36015eed61
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - adjective – In eager desire, eager, astir.
+
+  - adjective – Wide open.
+
+  - adverb – In a state of high anticipation, excitement, or interest.
+
+  - adjective – highly excited
+* What is  vex? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       f56261cd-fdf6-498d-a7c2-81e4fdfbe230
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - annoy
+  - make worry
+  - disturb
+  - perplex, baffle
+* What is  overseer? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       b1d7b538-ede1-4e69-9446-f3a2143a2e63
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - 1. overseer, superintendent -- (a person who directs and manages an organization)
+* What is  martinet? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       560adddc-76d5-4e12-a98b-051520f06532
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - 1. martinet, disciplinarian, moralist -- (someone who demands exact conformity to rules and forms
+* What is  hack? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       29b554a8-381a-434a-bc45-ab8837d729e0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  1. (1) hack, drudge, hacker -- (one who works hard at boring tasks)
+  2. machine politician, ward-heeler, political hack, hack -- (a politician who belongs to a small clique that controls a political party for private rather than public ends)
+  3. hack, hack writer, literary hack -- (a mediocre and disdained writer)
+* What is  dissembler? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       b9ff7660-630e-4b61-afee-d92249995eed
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  - 1. hypocrite, dissembler, dissimulator, phony, phoney, pretender -- (a person who professes beliefs and opinions that he or she does not hold in order to conceal his or her real feelings or motives)
+* What is  histrionics? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:33Z
+:FC_TYPE:  normal
+:ID:       f61b0f09-a70f-46b7-b3e3-44f38ad4d4b9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+:END:
+
+*** Back
+
+  1. (1) theatrical performance, theatrical, representation, histrionics -- (a performance of a play)
+  2. histrionics -- (a deliberate display of emotion for effect)
+* What is  flamboyance? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       f56ee093-da53-4b21-8b5d-9cc384e61b17
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. flamboyance, floridness, floridity, showiness -- (extravagant elaborateness; "he wrote with great flamboyance")
+* What is  undertone? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       6d219f60-e13c-4d81-997b-cd89a0fe1dd3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. undertone -- (a quiet or hushed tone of voice; "spoke in undertones")
+  2. undertone, undercurrent -- (a subdued emotional quality underlying an utterance; implicit meaning)
+  3. undertone, tinge -- (a pale or subdued color)
+* What is  aboveboard? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       15da8b23-2257-445b-81c2-bb168d31cb49
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - honest
+* What is  crestfallen? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       4af27e96-5a84-4659-b33b-7fb155712141
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. having a drooping crest or hanging head
+  2. feeling shame or humiliation : dejected
+* What is  heartened? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       d2da4b23-a84b-4777-a5b7-183d74b6a654
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. cheer, hearten, recreate, embolden -- (give encouragement to)
+* What is  dilatory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       e575e809-3977-4df7-863a-e9a3d522d7a6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: wasting time
+* What is  subdued? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       0ff6c5bc-a6b7-4c36-8c1c-8a6721b51caa
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective – Conquered; overpowered; crushed; submissive; mild.
+  - adjective – Not glaring in color; soft in tone.
+
+  - adjective – Conquered; overpowered; crushed; submissive; mild.
+
+  - adjective – Not glaring in color; soft and light in tone.
+
+  - verb – Simple past tense and past participle of subdue.
+
+  - adjective – quieted and brought under control
+
+  - adjective – restrained in style or quality
+* What is  forthright? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       fbe56ee2-dad5-461e-9102-346bd9dbce39
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - characterized by directness in manner or speech; without subtlety or evasion;
+* What is  equivocal? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       3f3a6cdc-5305-4ce4-8ad2-69a5df8d062a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: confusing or ambiguous
+* What is  inkling? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       e0da46dc-5b80-418b-8fff-fe1bdc53848b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - noun: a slight suggestion or vague understanding
+* What is  debonair? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       e0b4c3de-5a73-472a-a9a8-eec675f11032
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. debonair, debonaire, debonnaire, suave -- (having a sophisticated charm; "a debonair gentleman")
+  2. chipper, debonair, debonaire, jaunty -- (having a cheerful, lively, and self-confident air; "looking chipper, like a man...diverted by his own wit"- Frances G. Patton; "life that is gay, brisk, and debonair"- H.M.Reynolds; "walked with a jaunty step"; "a jaunty optimist")
+* What is  trenchant? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       515227ee-a150-482a-845f-ebaf8ae8d8a5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: characterized by or full of force and vigor; having keenness and forcefulness and penetration in thought, expression, or intellect
+* What is  poignant? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       cc22e4e2-5b3d-4719-8dcc-bc57ce1bedef
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: emotionally touching
+* What is  ebb? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       9e7d3bb3-ac1a-4f14-b65a-9e2c257f899b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - To recede, retire, decrease, sink, lower, wane, fall away.
+* What is  restiveness? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       db3f8edc-69a2-43f2-9767-ebbb0f0b4c79
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - noun – The state or character of being restive, in any sense.
+
+  - noun – The characteristic of being restive.
+
+  - noun – the anxious feeling you have when you have the jitters
+
+  - noun – characterized by nervousness and quickness to take fright
+* What is  epigrammatic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       59576114-0f25-4f1c-981f-a5b2ee5c5152
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective – terse and witty and like a maxim
+* What is  sartorial? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       c590761f-e958-4473-b077-6c24a2288437
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: related to fashion or clothes
+* What is  inchoate? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       142df97f-cfec-42a8-8f59-58f903f2b0f1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - only partly in existence; imperfectly formed
+* What is  steeled himself for? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       7c4ba7dc-6e46-4549-b3bb-0f49378ea73f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - braced himself
+* What is  tepid? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       ee34883e-440b-4acf-8ea1-83c1c6982960
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - feeling or showing little interest or enthusiasm
+* What is  lionized? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       77d21fe0-cf06-4d71-9415-af9b4b755bd9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - assign great social importance to
+* What is  miser? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       1f2d3f28-6f41-4f6d-843a-ff3147c43bdc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - often living miserably
+* What is  curmudgeon? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       ce448987-b57f-4a7d-af82-d8e299ffe7f8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - a crusty irascible cantankerous old person full of stubborn ideas
+* What is  irascible? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       689d03ee-2a10-4028-ad79-51d42febf7d9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. choleric, irascible, hotheaded, hot-tempered, quick-tempered, short-tempered -- (quickly aroused to anger; "a hotheaded commander")
+  2. choleric, irascible -- (characterized by anger; "a choleric outburst"; "an irascible response")
+* What is  cantankerous? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       24138975-b364-4b90-b814-f65ef05bfc7a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. bloody-minded, cantankerous -- (stubbornly obstructive and unwilling to cooperate; "unions...have never been as bloody-minded about demarcation as the shipbuilders"- Spectator)
+  2. cantankerous, crotchety, ornery -- (having a difficult and contrary disposition; "a cantankerous and venomous-tongued old lady"- Dorothy Sayers)
+* What is  brusque? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       77ed6022-54a1-40e8-8a32-95c6472099a9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - marked by rude or peremptory shortness
+* What is  unseemly? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       aed46c84-e3bc-43d3-875d-6f5fd4a66c3d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - 1. indecent, indecorous, unbecoming, uncomely, unseemly, untoward -- (not in keeping with accepted standards of what is right or proper in polite society
+* What is  steadfast? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       769b64b9-52bd-4fb1-8a04-af7087c03eb3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. firm, steadfast, steady, stiff, unbendable, unfaltering, unshakable, unwavering -- (marked by firm determination or resolution; not shakable; "firm convictions"; "a firm mouth"; "steadfast resolve"; "a man of unbendable perseverence"; "unwavering loyalty")
+  2. steadfast, staunch, unswerving -- (firm and dependable especially in loyalty; "a steadfast ally"; "a staunch defender of free speech"; "unswerving devotion"; "unswerving allegiance")
+* What is  pointed? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       c155aba6-dc09-49e7-b91e-201be1c28c27
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - critical?
+* What is  desultory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       80391568-5c11-4de4-a862-96aee0170efd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - 1. (1) desultory -- (marked by lack of definite plan or regularity or purpose; jumping from one thing to another; "desultory thoughts"; "the desultory conversation characteristic of cocktail parties")
+* What is  Notwithstanding? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       074104a3-8d14-45db-88ae-11e440d6e096
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - 1. (1) however, nevertheless, withal, still, yet, all the same, even so, nonetheless, notwithstanding -- (despite anything to the contrary (usually following a concession); "although I'm a little afraid, however I'd like to try it"; "while we disliked each other, nevertheless we agreed"; "he was a stern yet fair master"; "granted that it is dangerous, all the same I still want to go")
+* What is  mercurial? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       acf996a5-52c8-41bf-a5ca-ec72e08b0ff4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. (1) erratic, fickle, mercurial, quicksilver -- (*liable to sudden unpredictable change*; "erratic behavior"; "fickle weather"; "mercurial twists of temperament"; "a quicksilver character, cool and willful at one moment, utterly fragile the next")
+  2. Mercurial -- (relating to or under the (astrological) influence of the planet Mercury; "the Mercurial canals")
+  3. Mercurial -- (relating to or having characteristics (eloquence, shrewdness, swiftness, thievishness) attributed to the god Mercury; "more than Mercurial thievishness")
+  4. mercurial -- (relating to or containing or caused by mercury; "mercurial preparations"; "mercurial sore mouth")
+* What is  torrid? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       e32e6637-44fc-4fce-811d-b1538a1b967f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. ardent, fervent, fervid, fiery, impassioned, perfervid, torrid -- (characterized by intense emotion; "ardent love"; "an ardent lover"; "a fervent desire to change society"; "a fervent admirer"; "fiery oratory"; "an impassioned appeal"; "a torrid love affair")
+  2. torrid -- (emotionally charged and vigorously energetic; "a torrid dance"; "torrid jazz bands"; "hot trumpets and torrid rhythms")
+  3. torrid -- (extremely hot; "the torrid noonday sun"; "sultry sands of the dessert")
+* What is  sycophantic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       88b8ad49-030e-4085-b514-8a82b064c632
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+
+  - adjective: describing a person who is overly flattering
+
+    - The CEO was unaware of the damaging consequences of his choices, largely because he surrounded himself with sycophants who would never dare criticize him
+* What is  pan out? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       6fad8c41-702b-437a-b203-327419006752
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - to develop in a particular way or in a successful way
+* What is  obdurate? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       74aacd10-4fa2-4b33-a813-ca6031a8dfed
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: unable to be persuaded or moved emotionally; stubborn; unyielding.
+* What is  munificent? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       0712e2fb-2ea9-4048-a623-118d9b31c1b4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: very generous
+* What is  persnickety? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       e35b39b7-f37c-4e04-8311-f2b45bf6e0ba
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective – Finicky or fussy; demanding attention to petty details; -- of people.
+
+  - adjective – snobbish; behaving aloofly.
+
+  - adjective – Fastidious or fussy.
+
+  - adjective – Obsessive about mundane details, demanding for precision.
+
+  - adjective – characterized by excessive precision and attention to trivial details
+
+  - adjective – (used colloquially) overly conceited or arrogant
+* What is  wayward? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       25be1c1b-c830-49bd-bc1d-3a3bd9c7d305
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - Full of caprices or whims; froward; perverse.
+* What is  fullsome? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       efe8d476-5ec0-4f20-b941-9fd84d8a2fbc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+
+  - Full; full and plump; fat.
+
+  - Causing surfeit; cloying.
+
+  - Offensive from excess, as of praise or demonstrative  affection; gross.
+* What is  insidious? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       2e67c8e9-3a56-4a60-999c-e74186118bd9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - adjective: working in a subtle but destructive way
+* What is  sullen? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       d1536b31-ae13-48ab-8bb4-3afda2193a75
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - showing a brooding ill humor
+  - darkened by clouds
+* What is  hamper? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       b837a03f-d0df-40d6-94ce-aadd2b3e47f5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - (a restraint that confines or restricts freedom (especially something used to tie down or restrain a prisoner)
+* What is  stultified? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       a1138dc1-f12b-4635-9992-c75beb449c06
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. stultify -- (prove to be of unsound mind or demonstrate someone's incompetence; "nobody is legally allowed to stultify himself")
+  2. stultify -- (cause to appear foolish; "He stultified himself by contradicting himself and being inconsistent")
+  3. cripple, stultify -- (deprive of strength or efficiency; make useless or worthless; "This measure crippled our efforts"; "Their behavior stultified the boss's hard work")
+* What is  brazen? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       8952a861-5b9e-466f-bdf6-15c4cc7441b4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - 1. brazen -- (face with defiance or impudence; "brazen it out")
+* What is  craven? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       61c34b25-909b-4d35-9739-71126ad3c63a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - an abjact coward
+* What is  spinelessness? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       147eb63e-76ff-4542-bbb1-1a1657826dc9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  - noun – The state or quality of being spineless; cowardice.
+
+  - noun – the quality of lacking a strong character; an irresolute disposition
+* What is  hobbled? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       a078e179-4fa9-4b21-b7ea-6634fe2bfba8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. (2) limp, gimp, hobble, hitch -- (walk impeded by some physical limitation or injury; "The old woman hobbles down to the store every day")
+  2. (1) hobble -- (hamper the action or progress of; "The chairman was hobbled by the all-powerful dean")
+  3. hopple, hobble -- (strap the foreleg and hind leg together on each side (of a horse) in order to keep the legs on the same side moving in unison; "hobble race horses")
+* What is  hamstrung? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-07T22:17:32Z
+:FC_TYPE:  normal
+:ID:       f0d9a007-af22-42bf-8c41-5187137a823f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+:END:
+
+*** Back
+
+  1. hamstring -- (make ineffective or powerless; "The teachers were hamstrung by the overly rigid schedules")
+  2. hamstring -- (cripple by cutting the hamstring)
+
+
+* What is insofar? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-09-09T23:31:11Z
+:FC_TYPE:  normal
+:ID:       cf26fa1e-53f0-4751-9e77-3627bf380e65
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-09-09T23:31:11Z |
+:END:
+*** Back
+1. (3) insofar, in so far, so far, to that extent, to that degree -- (to the degree or extent that; "insofar as it can be ascertained, the horse lung is comparable to that of man"; "so far as it is reasonably practical he should practice restraint")

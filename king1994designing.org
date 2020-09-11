@@ -1,0 +1,106 @@
+#+TITLE: Designing social inquiry: scientific
+inference in qualitative research
+#+ROAM_KEY: cite:king1994designing
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: king1994designing
+:NOTER_DOCUMENT: %(orb-process-file-field "king1994designing")
+:AUTHOR: King, G. et al.
+:JOURNAL:
+:DATE:
+:YEAR: 1994
+:DOI:
+:URL:
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+KKV is the main methodological work in all political science
+
+* Struct questions
+
+- I'll start splitting by chap1 then write a wrap up.
+  
+** What is the goal/ general argument of the text?
+From the preface we get what they want to say:
+there is a unified logic of, descriptive and causal, inference, which applies both to qualitative and quantitative research.
+
+*** CHAPTER 1- The Science in Social Science
+
+** What are the specific arguments of the text?
+
+*** CHAPTER 1- The Science in Social Science
+- The chapter in the end is about those two topics:
+  - A definition of science;
+    - There are two styles of research, but a single logic of inference
+    - Science is defined by attempts at descriptive/explanatory inference (by empirics) + publicity + fallibilism + a method
+    - Complexity is theory relative.
+  - A definition of research design and some tips on how to improve research designs;
+    - Research design is constituted of four components: research question, theory, data, and the use of the data.
+    - We should aim to improve all of them.
+  - + A preview of other themes.
+    - *Observable implications* are central to the scientific enterprise and it is through them that we connect theory and data
+    - We should aim to maximize *leverage*: "explaining as much as possible with as little as possible."
+    - We should *always* Report uncertainty and be skeptical.
+
+- 
+
+*** CHAPTER 2 - Descriptive Inference
+- Roadmap of the chap:
+   - defend descriptive inference
+   - discuss the contradictory goals of science
+   - define inference
+   - something about models of science
+   - models for data collection
+   - models for summarization of historical detail
+   - models for descriptive inference
+   - criteria for judging descriptive inferences
+- Both description and explanation are important, though most research nowadays tend to privilege "explanation"
+  
+** What are the main concepts of the text?
+
+- inference
+- descriptive inference
+- causal inference
+
+*** CHAPTER 1- The Science in Social Science
+
+- Techniques / Research design / Philosophy of the Social Science (p.3)
+- Qualitative = non-numerical (p.4)
+- Area studies (p.4)
+- Case studies (p.4)
+- quantitative-systematic-generalizing branch  vs  qualitative-humanistic-discursive branch (p.4)
+- alike in degree (i.e., quantitative differences) or in kind (i.e., qualitative differences) (p.5)
+- recipes vs precepts and rules for research (p.7)
+- fallibilistic empiricism (p.7)
+- scientific research (inference + publicity + uncertainty + THE SCIENTIFIC METHOD) (p.7)
+- causal effects (p.7)
+- principles of (data) selection (p.7)
+- observation processing (p.7)
+- logic of conclusions (logic of conditionals?) (p.7)
+- estimate of uncertainty (p.8)
+- class of events (p.10)
+- counterfactual analysis (p.10)
+- class of events + counterfactual analysis (p.11)
+- observable implication (p.11)
+- science as hypothetical dedutivism (p.12)
+- research design = research question, theory, data, and the use of the data. (p.13)
+- Improving questions = Social + scientific significance
+- Social science theory (p.19):
+  #+begin_quote
+A social science theory is a reasoned and precise speculation about the
+answer to a research question, including a statement about why the
+proposed answer is correct.
+  #+end_quote
+- parsimony (p.20)
+- pilot projects (p.22)
+- (train test split) (p.23)
+- validity (p.25)
+- reliability (p.25)
+- selection bias (p.28)
+- omitted variable bias (p.28)
+- efficiency (p.28)
+- leverage (p.29)
+- ecological fallacy (p.30)
+- Degree of certainty (p.32)
+- accuracy of the data (p.32)
+- confounders (p.32)

@@ -1,0 +1,25 @@
+#+title: url: Disciplinarities: intra, cross, multi, inter, trans – Alexander Refsum Jensenius
+#+roam_key: https://www.arj.no/2012/03/12/disciplinarities-2/
+
+- tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]], [[file:20200824211623-my_weltanschauung_2.org][My Weltanschauung 2]] 
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+As a complexity scientist and typical disciplinary transgressor I am interested in types of interaction between areas.
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+To define kinds of interaction between disciplines
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       fcd9a880-6d5d-48d2-99ae-b61633178596
+:END:
+
+[[attachment:_20200907_185829screenshot.png]]
+
+** What are the main concepts of the text?
+- Intradisciplinary: working within a single discipline.
+- Crossdisciplinary: viewing one discipline from the perspective of another.
+- Multidisciplinary: people from different disciplines working together, each drawing on their disciplinary knowledge.
+- Interdisciplinary: integrating knowledge and methods from different disciplines, using a real synthesis of approaches.
+- Transdisciplinary: creating a unity of intellectual frameworks beyond the disciplinary perspectives.
