@@ -1,0 +1,20 @@
+#+title: Social choice results as artifacts
+- source :: cite:sep-voting-methods
+- tags :: [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][conditions of manipulability]]
+  Pacuit makes the same question as I did years ago:
+  #+begin_quote
+  The main question is whether the voting paradoxes are simply features of the
+  formal framework used to represent an election scenario or formalizations of
+  real-life phenomena. This raises a number of subtle issues about the scope of
+  mathematical modeling in the social sciences,
+  #+end_quote
+
+  This is directly related to the probability of any of the paradoxes
+  (behavioral social choice) and to showing that they indeed occurred in an
+  empirical setting (riker vs makie). This has obvious normative implications.
+
+  *My notes, particularly from Nurmi, are relevant here*
+
+  Given the  PhD selection procedures, the work of Sean Ingham is also important.
+  - cite:ingham2019arrow
+  - cite:wiens2020general

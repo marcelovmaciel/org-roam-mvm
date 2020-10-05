@@ -11,6 +11,10 @@
 
 * Ideas to develop
 
+
+** Implement Social choice software in haskell and in julia
+[[https://staff.fnwi.uva.nl/d.j.n.vaneijck2/software/voting/Voting.hs]]
+
 ** Judgement aggregation intersection with AI
 People use bayesian networks (INSERT ROAM) to study condorcet's JT  cite:dietrich2008judgment,dietrich2013epistemic. this may be useful for AI, particularly the interface with causality!!!!
 

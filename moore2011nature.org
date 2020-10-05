@@ -648,7 +648,7 @@ We are often interested in how things change as function of the size of the syst
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-29T21:08:16Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-26T22:31:32Z |
 :END:
 
 *** Back

@@ -686,7 +686,7 @@ By minimizing distractions, having clear, meaningful and unique tasks and by com
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T19:18:39Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-01T18:57:25Z |
 :END:
 *** Back
 
@@ -760,7 +760,7 @@ It is when we do not process our fleeting notes and literature notes enough.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T19:22:34Z |
+| front    | 2.50 |   2 |     1.00 | 2020-09-16T19:40:49Z |
 :END:
 *** Back
 There are two telos. One is publishing, which is actually all about publicizing our ideas so that we may get closer to truth. The second is personal: to become a different person.
@@ -871,7 +871,7 @@ and contain all the necessary information in themselves. *Literature notes* can 
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T19:29:51Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-26T22:31:01Z |
 :END:
 *** Back
 Why the distinction? *One should not collect ideas and treat every idea as a permanent note.* This will crowd the system.
@@ -919,7 +919,7 @@ So we can remain motivated. So we can achieve flow.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T19:35:56Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-26T22:31:20Z |
 :END:
 *** Back
  - proofreading,
@@ -1015,7 +1015,7 @@ Once again, look at the gist vs supporting information. See how the propositions
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-14T20:06:09Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-22T00:14:25Z |
 :END:
 *** Back
 Typical literature notes questions:

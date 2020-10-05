@@ -159,7 +159,7 @@ The resource for this is [[https://github.com/google/ml-fairness-gym][GitHub - g
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-03T00:06:18Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-24T20:02:49Z |
 :END:
 *** Back
 

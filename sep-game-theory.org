@@ -362,7 +362,7 @@ Actually a better nomenclature would be coalitional vs non-coalitional game theo
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:42:59Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-15T19:52:36Z |
 :END:
 
 ** Back

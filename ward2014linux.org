@@ -1159,7 +1159,7 @@ like this to redirect both stdout and stderr to the same place
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-07-11T13:34:08Z |
+| front    | 2.50 |   2 |     1.00 | 2020-09-16T19:40:38Z |
 :END:
 *** Back
 - kill -STOP pid or killall -STOP pid; will pause the process
@@ -1291,7 +1291,7 @@ zcvf file.tar f1 f2 fn; creates and zips the files)
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-10T21:05:56Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-15T19:54:36Z |
 :END:
 *** Back
 [[file:~/Drive/Org/imgs/unixdirsh.png]]

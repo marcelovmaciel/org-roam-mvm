@@ -10,12 +10,34 @@ individuals as consistent?
 
 This is first and foremost a mix of formal and empirical question, but now i think mostly of philosophical references.
 
+- Espstein, List, Spierkeman and Dietrich are the main names for Rational groups.
+
+- Since this idea connections with group agency, it can be applied to : classes
+  (through social structure, sally haslanger), people (and ingham work here!
+  most of his papers are in my .references), and parties (here ypi's work, but
+  also downs and laver, maybe even bolleyer).
 
 
 * Further references
+** General
 - Dedeos work on how social technologies shape ideas
 - https://stanford.library.sydney.edu.au/archives/sum2019/entries/social-ontology/
 - cite:littlenew
 - cite:list13_method_indiv_holis_polit_scien
 - cite:list14_three_kinds_collec_attit
+- cite:Christia-2006
+- cite:list2011group
 - cite:list16_what_is_it_like_to
+
+- http://www.franzdietrich.net/ProjectOpinionPoolingAndBayesianGroups.htm (this is really important)
+-  https://onlinelibrary.wiley.com/doi/abs/10.1002/wcs.1184
+
+-
+     cite:epstein17_what_are_social_group
+- cite:baillon16_group_decis_rules_group_ration_under_risk
+- cite:gallagher17_advan_throug_narrat
+- cite:perron2015groups
+- [[https://plato.stanford.edu/entries/social-ontology/][Social Ontology (Stanford Encyclopedia of Philosophy)]]
+
+** Connecting with class
+- cite:haslanger15_what_is_struc_explan

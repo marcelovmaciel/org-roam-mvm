@@ -1,0 +1,9 @@
+#+title: Algoristic Politology
+- tags :: [[file:20200902140051-from_equalities_to_equivalences.org][From equalities to equivalences]],
+
+From [[https://graphicallinearalgebra.net/2015/04/26/adding-part-1-and-mr-fibonacci/][3. Adding (Part 1) and Mr Fibonacci | Graphical Linear Algebra]] I get the
+great distinction betweeen algorists and abacists. My interest in the
+appplication of the Formal Sciences is actually with the intention of updating
+our conceptual empirical and actual political tooling with the intention of
+improving our odds of cracking the self-government puzzle set up by Madison. I
+see myself pretty much as an algorist.

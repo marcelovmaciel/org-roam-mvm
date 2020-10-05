@@ -94,7 +94,7 @@ Petri nets are used in the julia ecosystem as a general template for both abm's 
 
 * inductive party competition
 use dedeo ?
-* what is the ideational structure of parliamentary discourse in brazil
+* what is the ideational structure of parliamentary discourse hin brazil
 - What remains?  What has changed?
 - Saquarema vs luzias
 - WGS interview in which he gives the typical leftist diagnosis of the problems of brazil
@@ -121,6 +121,7 @@ Dont forget the philisophers take on measurement. Take notes!!!
 - path dependence and group rationality: can path dependence LEAD TO group rationality? see list paper.
 
 * Boyd and richerson model explaining the Young socialist old conservative
+
 * Tomasello -> shared and collective intentionality vs stakes
 - One important concept is the one of *intentionality*
 - shared and collective intentionality are also something that should be in my nuts and bolts
@@ -139,3 +140,5 @@ Dont forget the philisophers take on measurement. Take notes!!!
 - Give an information theoretic account of when we can use preferences and when
   attitudes is all we CAN use
 
+* evolutionary gans
+rock paper and scissors

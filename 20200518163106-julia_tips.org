@@ -60,7 +60,7 @@ include(joinpath(docsdir, "make.jl"))
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-09-01T23:06:33Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-15T19:52:01Z |
 :END:
 
 *** Back
@@ -69,7 +69,7 @@ Using Parameters.jl:
 [[file:~/Drive/Org/imgs/parameters.jpeg]]
 
 
-** How do we download stuff from the internet using julia? :fc:
+* How do we download stuff from the internet using julia? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-07-10T16:47:12Z
 :FC_TYPE:  normal

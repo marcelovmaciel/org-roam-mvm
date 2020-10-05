@@ -434,6 +434,8 @@ inorder (reflect t) == reverse (inorder t)
 - linear search
 - binary search (trees)
 - Induction on trees 
+
+
 * Exercises
 ** Chapter 4
 *** Exercise 1.

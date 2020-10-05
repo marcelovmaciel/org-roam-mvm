@@ -12,8 +12,10 @@ My presentation for Hamburg made this point implicitly. The principle of affecte
 - berlin has something to say here too
 - as well as shapiro
 - przeworski
+- cite:wolkenstein2020multidimensional
 
 *** Political economy references
+- [[https://journals.sagepub.com/doi/full/10.1177/1065912920940791][SAGE Journals: Your gateway to world-class journal research]]
 - cite:mcclintock18_reeval_runof_latin_americ
 - for-links-mcclintock_lasa_2019.pdf in pdfs folder (add the reference later)
 - cite:tabarrok1999would

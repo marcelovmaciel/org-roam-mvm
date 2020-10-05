@@ -1,6 +1,8 @@
-#+TITLE: Designing social inquiry: scientific
+#+TITLE: cite: Designing social inquiry: scientific
 inference in qualitative research
 #+ROAM_KEY: cite:king1994designing
+- tag :: [[file:20200703043814-explanation_interpretation_and_critique.org][Explanation, interpretation and critique]]
+
 * TODO Notes
 :PROPERTIES:
 :Custom_ID: king1994designing
@@ -25,37 +27,732 @@ From the preface we get what they want to say:
 there is a unified logic of, descriptive and causal, inference, which applies both to qualitative and quantitative research.
 
 *** CHAPTER 1- The Science in Social Science
+There are two styles of research but an unique logic that unify them.
 
+*** CHAPTER 2 - Descriptive Inference
+That all research aims to disambiguate between systematic and non systematic attributes of the world. 
 ** What are the specific arguments of the text?
 
 *** CHAPTER 1- The Science in Social Science
 - The chapter in the end is about those two topics:
   - A definition of science;
     - There are two styles of research, but a single logic of inference
-    - Science is defined by attempts at descriptive/explanatory inference (by empirics) + publicity + fallibilism + a method
+    - Science is defined by attempts at descriptive/explanatory inference (by empirics) + publicity + fallibilism +  method
     - Complexity is theory relative.
   - A definition of research design and some tips on how to improve research designs;
     - Research design is constituted of four components: research question, theory, data, and the use of the data.
     - We should aim to improve all of them.
   - + A preview of other themes.
-    - *Observable implications* are central to the scientific enterprise and it is through them that we connect theory and data
+    - *Observable implications* are central to the scientific enterprise and it is throurh them that we connect theory and data
     - We should aim to maximize *leverage*: "explaining as much as possible with as little as possible."
     - We should *always* Report uncertainty and be skeptical.
+- Practical goal: valid inferences
+- Research design is about :
+  #+begin_quote
+how to pose questions and fashion scholarly research
+to make valid descriptive and causal inferences.
+  #+end_quote
+- They are a *middle ground* between philosophy and techniques (Both the lower and higher ground leaks into their abstraction of "unified logic of research design")
+- There are two styles of research and one logic of inference (which tends to be clearer in quant research, which shows where we are headed)
+- What is the quantitative style?
+  #+begin_quote
+Quantitative research uses numbers and statistical methods. It tends to
+be based on numerical measurements of specific aspects of phenom-
+ena; it abstracts from particular instances to seek general description
+or to test causal hypotheses; it seeks measurements and analyses that
+are easily replicable by other researchers.
+  #+end_quote
+- What is the qualitative style?
+  #+begin_quote
+by definition, none of these approaches relies on numerical mea-
+surements.
+  #+end_quote
+  - Area or case studies
+  - " The particular place or event is analyzed closely and in full detail."
+- There is a dichotomy:
+  - "quantitative-systematic-generalizing branch and a qualitative-humanistic-discursive"
+  - "case studies versus statistical studies, area studies versus comparative
+    studies, and “scientific” studies of politics using quantitative methods
+    versus “historical” investigations relying on rich textual and contex-
+    tual understanding."
+- One continous theme is that we need both quant and quali research
+  - "If we are to understand the rapidly changing social world, we will need to include information that cannot be easily quantified as well as that which can. "
+  #+begin_quote
+all social science requires comparison, which entails
+judgments of which phenomena are *“more” or “less” alike in degree (i.e., quantitative differences) or in kind (i.e., qualitative differences*
+  #+end_quote
+- This is the main assumption of the text. That one can extract a "logic of inference" from statistical models! This is how techniques infiltrate the debate about logic!
+    #+begin_quote
+Precisely defined statistical methods that undergird quantitative research represent abstract formal models applicableto all kinds of research
+  #+end_quote
+  - #+begin_quote We are not trying to get all social scientists out of the library and into the computer
+    center, or to replace idiosyncratic conversations with structured interviews. Rather, we argue that nonstatistical research will produce more
+    reliable results if researchers pay attention to the rules of scientific inference—rules that are sometimes more clearly stated in the style of quantitative research.
+    #+end_quote
+- Theory is "philosophy" for them. Empiria, data, facts, is the foundation of science for them is the only hallmark of truth
+  #+begin_quote
+Many of the most important
+questions concerning political life—about such concepts as agency, obligation, legitimacy, citizenship, sovereignty, and the proper relationship between national societies and international politics—are philosophical rather than empirical. But the rules are relevant to all research
+*where the goal is to learn facts about the real world.* *Indeed, the dis-tinctive characteristic that sets social science apart from casual observation is that social science seeks to arrive at valid inferences by the systematic use of well-established procedures of inquiry.*
+  #+end_quote
+    - Notice that conceptual sophistication does not appear here. We are simply common sense political empiricists
+  - No one in sane conscience would disagree with using rigorous and well-established procedures of inquiry. The problem is that their theory of well-established procedures of inquiry is imporivished by their flat one directional and overly empirical perspective.
+- They say that do not give recipes but precepts and "rules meant to discipline thought, not stifle it." I do think that they manage to stifle thought...
+- For them their main assumptions are fallibility of knowledge and an aspiration for descriptive and causal understanding
+- For them science is:
+  - Aim is inference
+      #+begin_quote
+our particular definition of science requires the additional step of attempting
+to infer beyond the immediate data to something broader that is not directly
+observed. [...] the key distinguishing mark of scientific research is the goal
+of making inferences that go beyond the particular observations collected.
+      #+end_quote
+  - Procedures are *public*
+    - Publicity is related to reliability assessment
+    - They mention some elements of research design here:
+      - The *principles of selection of observations*, the ways *observations were processed* and the *logic by which conclusions are drawn*
+  - Uncertain conclusions
+    - Which leads to the need of *estimating uncertainty*
+    - From fallibilism to uncertainty estimation. This estimation of uncertainty, however, is nontrivial. It leads us to problems of risk,uncertainty and ignorance for instance. Also, how can we estimate uncertainty of one shot nontrivial large scale events? (savage and binmore here).
+  - The content is the *method*. This is the most contentious. Here we can furnish another attack on their project: the subject matter leads to new methods and new logics. Functionalism works in biology, but not as well as in the social sciences. Atoms do not have culture nor reflexity.
 
-- 
+- Though they affirm that science is a *social enterprise* they do not endogeneize this sociality as well as they could. Furthermore,  for them to make a contribution is to do inference, so its empirical.
 
+- For them complexity is conditional on the state of the theory and the more complex a phenomenon the higher the payoff of using their precepts
+  #+begin_quote
+ *“complexity” is partly conditional on the state of our theory.* [...]
+
+the biggest payoff for using the rules of scientific inference occurs precisely when data are limited, observation tools are
+flawed, measurements are unclear, and relationships are uncertain.
+  #+end_quote
+- What about *unique events* we combine class of events ("conceptualizing each case as a member of a class of events about which meaningful generalizations can be made.") + counterfactual analysis ("course of events which is altered through modifications in one or more ‘conditions’ ”")
+  - Still on counterfactuals:
+    #+begin_quote
+ one way to distinguish systematic features of evolution from stochastic, chance events may be to imagine what the world would be like if all conditions up to a specific point were fixed and then the rest of history were rerun.
+    #+end_quote
+  - The dinossaur example is great
+  - It is here that they introduce the concept of observable implication, which they only define on chapter 2.
+- They do follow H-D (flatland):
+  #+begin_quote
+Social scientists often begin research with a considered design, col-
+lect some data, and draw conclusions. But this process is rarely a
+smooth one and is not always best done in this order:
+  #+end_quote
+  - Another example of flatland being weird:
+    #+begin_quote
+. At times, they can design more appropriate data-collection procedures in order
+to evaluate a theory better; at other times, they can use the data they have and
+recast a theoretical question (or even pose an entirely different question that
+was not originally foreseen) to produce a more important research project.
+    #+end_quote
+- Research design = the research question, the theory, the data, and the use of the data.
+  - #+begin_quote
+    These components are not usually developed separately and
+    scholars do not attend to them in any preordained order. In fact, for
+    qualitative researchers who begin their field work before choosing a
+    precise research question, data comes first, followed by the others.
+    #+end_quote
+  - Notice  *fieldwork* appearing here. How they see that is clearer in chap2
+- #+begin_quote
+ But where do research questions originate? How does a scholar choose the topic for analysis?
+#+end_quote
+  -  Kevin munger has a great blog post about that !
+  - Their rule is : academic and social relevance.
+    #+begin_quote
+ a research project should pose a question that is “important” in the real
+world. The topic should be consequential for political, social, or eco-
+nomic life, [...]
+, a research
+project should make a specific contribution to an identifiable scholarly literature by increasing our collective ability to construct verified scientific explanations of some aspect of the world.
+    #+end_quote
+    - They add a caveat which is not followed by the rest of the discipline (due to the causal revolution). for more on that see john gerring mere description
+      #+begin_quote
+This latter criterion does not imply
+that all research that contributes to our stock of social science expla-
+nations in fact aims directly at making causal inferences. Sometimes
+the state of knowledge in a field is such that much fact-finding and
+description is needed before we can take on the challenge of expla-
+nation. Often the contribution of a single project will be descriptive
+inference. Sometimes the goal may not even be descriptive inference
+but rather will be the close observation of particular events or the sum-
+mary of historical detail. These, however, meet our second criterion
+because they are prerequisites to explanation.
+      #+end_quote
+
+- They repeatedly put empirics as the foundation and harbinger of truth:
+  #+begin_quote
+Brilliant insights can contribute to un-
+derstanding by yielding interesting new hypotheses, but brilliance is
+not a method of empirical research. *All hypotheses need to be evaluated empirically before they can make a contribution to knowledge.*
+  #+end_quote
+- On page 16-17 they give some tips on
+  #+begin_quote
+explicitly locating a research design within the
+framework of the existing social scientific literature. This ensures that
+the investigator understand the “state of the art” and minimizes the
+chance of duplicating what has already been done.
+  #+end_quote
+- They do mix up research projects and research projects. This undermines all their attempts of defining what is a contribution and what is not. They contradict themselves all the time.
+  #+begin_quote
+In either case, a research program, and if possible a specific research
+project, should aim to satisfy our two criteria: it should deal with a significant real-world topic and be designed to contribute, directly or indirectly, to a specific scholarly literature.
+  #+end_quote
+  - "Cannot" how:
+  #+begin_quote
+. A proposed topic that cannot be refined into a specific research
+project permitting valid descriptive or causal inference should be modified
+along the way or abandoned.
+  #+end_quote
+- Once we have some theory some data we get into the problem of design
+  #+begin_quote
+What questions of interest to us have already been answered? How can we pose and refine our question so that it seems capable of being answered with the tools available?
+  #+end_quote
+-  Their definition of theory is ok, but then they mix it up with hypothesis (there is a many to many relationship that they dont seen to see):
+  #+begin_quote
+A social science theory is a reasoned and precise speculation about the answer
+to a research question, including a statement about why the proposed answer is
+correct. Theories usually imply several more specific descriptive or causal
+hypotheses.
+#+end_quote
+- How can we improve theory?
+  - Through falsifiable theories. *Create theories that can be wrong* that is: "5 We need to be able to give a direct answer to the question: What evidence would convince us that we are wrong? 6 If there is no answer to this question, then we do not have a theory."
+  - Create theories with lots of *observable implications*
+  - *Do not be vague*. Write clear cut hypothesis!
+    #+begin_quote
+    in designing theories, be as concrete as possible. Vaguely
+    stated theories and hypotheses serve no purpose but to obfuscate. The-
+    ories that are stated precisely and make specific predictions can be
+    shown more easily to be wrong and are therefore better.
+    #+end_quote
+- They reasonably do not recommend *parsimony*. Parsimony *assumes* the world is simple. Occam's razor and things like that.
+- *After seeing the data we can enlarge a theory-hypothesis but do not restrict it* (in general).
+  #+begin_quote
+. The general point is that after seeing the data, we may modify our theory in a
+way that makes it apply to a larger range of phenomena.
+
+[...]
+The opposite practice, however, is generally inappropriate. After observing the data, we should not just add a restrictive condition and
+then proceed as if our theory, with that qualification, has been shown
+to be correct.
+
+[...]
+
+we can make the theory less restrictive (so that it covers a broader range of phenomena and is exposed to more opportunities for falsification), but we should not make it more restrictive without collecting new data to test the new version of the theory. If we cannot collect additional data, then we are stuck; and we do not propose any magical way of getting unstuck. At some point, deciding that we are wrong is best; indeed, negative findings can be quite valuable for a scholarly literature
+  #+end_quote
+- We can call that the *train-test split theory of theory data relationship*. We should not use the same data to both generate and test a theory.
+- What is data?
+  #+begin_quote
+“Data” are systematically collected elements of information about the
+world.
+  #+end_quote
+- Their *some theory some data* theory is also applied to *data collection*
+  #+begin_quote
+In practice any
+data-collection effort requires some degree of theory, just as formulating any theory requires some data
+  #+end_quote
+- They have the following recommendations for *data collection*:
+  1. "record and report the process by which the data are generated."
+  2. "in order better to evaluate a theory, collect data on as many of its observable implications as possible."
+  3. " ensure that data-collection methods are reliable. Reliability means that
+     applying the same procedure in the same way will always produce the same measure."
+  4. "all data and analyses should, insofar as possible, be replicable. Replicability applies not only to data, so that we can see whether our measures are reliable, but to the entire reasoning process used in producing conclusions. On the basis of our research report, a new researcher should be able to duplicate our data and trace the logic by which we reached our conclusions." (p.26 gives and example of replication in quali)
+- How do we improve the *use of existing data*?
+  - Beware of bias. We should try to make inferences which are unbiased, correct on average.
+  - Maximize efficiency (beware of variance?)
+    #+begin_quote
+    an efficient use of data involves maximizing the information used for descriptive or causal inference. Maximizing efficiency requires not only using all our data, but also using all the relevant information in the data to improve inferences. For example, if the data are disaggregated into small geographical units, we should use it that way, not just as a national aggregate.
+    #+end_quote
+
+- Some biases:
+  - *selection bias*
+    #+begin_quote
+    choosing observations in a manner that systematically distorts the population from which they were drawn.
+    #+end_quote
+  - *omitted variable bias*
+
+
+- They conclude by foreclosing some themes of the rest of the book.
+- *Observable implications* centrality in science is one of their main themes.
+  #+begin_quote
+we have emphasized that every theory, to be worth-
+while, must have implications about the observations we expect to
+find if the theory is correct
+  #+end_quote
+  - Notice the *worthwhile*.
+  - Observable implications are what allow us distinguish relevant from irrelevant facts in data collection (something better discussed on chapter 2)
+  - Their connection of theory and data is done by the observable implications concept (empirics)
+   #+begin_quote
+   Any theory that does real work for us has implications for empirical investigation; no empirical investigation can be successful with-
+  out theory to guide its choice of questions.
+  [...]
+
+  We should ask of any theory: What are its observable implications?
+  We should ask about any empirical investigations: Are the observa-
+  tions relevant to the implications of our theory, and, if so, what do they
+  enable us to infer about the correctness of the theory?
+   #+end_quote
+  - Notice the *does real work*
+- Other concept they dont discuss much but which will appear is the *leverage* concept.
+  - "explaining as much as possible with as little as possible."
+  - "If we can accurately explain what at first appears to be a complicated effect with a single causal variable or a few variables, the leverage we have over a problem is very high. Conversely, if we can explain many effects on the basis of one or a few variables we also have high leverage"
+  - Qualitative research should strive for more leverage
+    #+begin_quote
+    Areas conventionally studied qualitatively are often those in which leverage is low. Explanation of anything seems to require a host of explanatory variables: we use a lot to explain a little.
+    #+end_quote
+  - Leverage is connected to observable implications
+    #+begin_quote
+Maximizing leverage is so important and so general that we strongly
+recommend that researchers routinely list all possible observable implications
+of their hypothesis that might be observed in their data or in other data.
+    #+end_quote
+- Notice that leverage  IS NOT the same as parsimony. Actually it is something more of a positive than a negative concept (instead of restricting, derive more)
+  #+begin_quote
+  None of these, nor the general concept of maximizing leverage, are the same as the concept of parsimony, which, as we explained in section 1.2.2, is an assumption about the nature of the world rather than a rule for designing research.
+  #+end_quote
+- An important footnote is one about *ecological fallacy.* One thing that we learn in undergraduate studies is that we cant use aggregate data to talk about individuals. What king says is that it is not simple, but there is information about individuals in the aggregate
+  #+begin_quote
+  widely recognize that some information about individuals does exist at aggregate levels of analysis, and many methods of unbiased “ecological” inference have been developed.
+  #+end_quote
+- We should always report our *uncertainty*
+  #+begin_quote
+  Perhaps the single most serious problem with qualitative research in political science is the pervasive failure to provide reasonable estimates of the uncertainty of the investigator’s inferences
+  #+end_quote
+- We should be skeptical and inquiry the accuracy of the data and think about what else might explain phenomena.
+  
 *** CHAPTER 2 - Descriptive Inference
 - Roadmap of the chap:
-   - defend descriptive inference
-   - discuss the contradictory goals of science
-   - define inference
-   - something about models of science
-   - models for data collection
-   - models for summarization of historical detail
-   - models for descriptive inference
-   - criteria for judging descriptive inferences
-- Both description and explanation are important, though most research nowadays tend to privilege "explanation"
-  
+  - defend descriptive inference
+  - discuss the contradictory goals of science
+  - define inference
+  - something about models of science
+  - models for data collection
+  - models for summarization of historical detail
+  - models for descriptive inference
+  - criteria for judging descriptive inferences
+- They argue that both description and explanation are important, though most research nowadays tend to privilege "explanation" (MVM here)
+- Description is non-trivial: mass of facts again
+- Description is not equal to descriptive inference:
+  #+begin_quote
+we distinguish description—the collection of facts—
+from descriptive inference.
+  #+end_quote
+- Descriptive inference is also "science". Mere description, though, is not (though it might be needed in preliminary works).
+  #+begin_quote
+  . It is not description versus explanation that distinguishes scientific
+research from other re- search; it is whether systematic inference is conducted
+according to valid procedures. Inference, whether descriptive or causal,
+quantita- tive or qualitative, is the ultimate goal of all good social science
+[...]Good archival work or well-done summaries of histori- cal facts may make
+good descriptive history, but neither are sufficient to constitute socialscience.
+  #+end_quote
+- Learning about things in general and about things in particular may seen  contradictory goals, but they are not.
+  #+begin_quote
+the seemingly contradictory goals of scholarship: discovering general knowledge
+and learning about particular facts.
+[...]
+
+the very purpose of moving from the particular to the general is
+to improve our understanding of both. The specific entities of the
+social world—or, more precisely, specific facts about these entities—
+provide the basis on which generalizations must rest. In addition, we
+almost always learn more about a specific case by studying more general conclusions.
+  #+end_quote
+- There is, however, a difference in *focus*. They disagree that there is a divergence of goals  (though humanists might say there is).
+- How do they characterize the *interpretative humanist* position?
+  #+begin_quote
+ In the human sciences, some historical and anthropological research-
+ers claim to seek only specific knowledge through what they call “interpretation.” Interpretivists seek accurate summaries of historical detail.
+[...]
+We want to know not only what caused the agent to perform some act but also the agent’s reasons for taking the action.” Geertz (1973:17).
+[...]
+Scholars who emphasize “interpretation” seek to illuminate the intentional aspects of human behavior by employing *Verstehen* (“emphathy: understanding the meaning of actions and interactions from the members’ own points of view” [Eckstein 1975:81]). *Interpretivists seek to explain the reasons for intentional action in relation to the whole set of concepts and practices in which it is embedded.*
+  #+end_quote
+- Interpretivists also have their own *standards of evaluation* and *operational recommendations*.
+  - *Coherence and scope* are the main standards:
+    #+begin_quote
+They also employ standards of evaluation: “The most obvious standards are coherence and scope: an interpretative account should provide maximal
+coherence or intelligibility to a set of social practices, and an interpretative account of a particular set of practices should be consistent with other practices or traditions of the society” (Moon 1975: 173).
+    #+end_quote
+  - Their main operational recommmendation is *cultural immersion* (*Soaking and Poaking*, in political science parlance)
+    #+begin_quote
+    The single most important operational recommendation of
+the interpretivists is that researchers should learn a great deal about a
+culture prior to formulating research questions. For only with a deep
+cultural immersion and understanding of a subject can a researcher
+ask the right questions and formulate useful hypotheses. F
+    #+end_quote
+- Contra Geertz and other interpretivists, they argue for the unity of interpretation and inference (fenno and putnam as examples)
+  #+begin_quote
+In our view,
+however, science (as we have defined it in section 1.1.2) and interpreta-
+tion are not fundamentally different endeavors aimed at divergent
+goals. [...]
+
+We only wish to add that evaluating the veracity of claims based on methods such as participant observation can only be accomplished through the logic of scientific inference,
+
+[...]
+
+” Any definition of science that does not in-
+clude room for ideas regarding the generation of hypotheses is as fool-
+ish as an interpretive account that does not care about discovering
+truth.
+
+[...]
+
+If we could understand human behavior only through Verstehen, we would never be able to falsify our descriptive hypotheses or provide evidence for them beyond our experience. Our conclusions would never go beyond the status of untested hypotheses, and our interpretations would remain personal rather than scientific.
+
+  #+end_quote
+- They go too far. The veracity of a claim is not DETERMINED by cross case inference. Come on! If inferential claims, are made in interpretive research then ok, but this is not the only kind of claim they make. For them it is determined, since they are H-Dists.
+- Their example of wink interpretation sucks...
+- But the overall message is that interpretation is a "theory generator" which we later test with scientific methods
+  #+begin_quote
+The
+magnificent importance of interpretation suggested by this example is
+clear: it provides new ways of looking at the world—new concepts to
+be considered and hypotheses to be evaluated. Without deep immer-
+sion in a situation, we might not even think of the right theories to
+evaluate.
+  #+end_quote
+- Interpretations should be translated as causal hypothesis, which if do not generalize are false:
+  #+begin_quote
+If what we interpret as winks were actually involuntary twitches,
+our attempts to derive causal inferences about eyelid contraction on
+the basis of a theory of voluntary social interaction would be rou-
+tinely unsuccessful: we would not be able to generalize and we would
+know it.
+  #+end_quote
+- This is obviously false...
+- They argue that we need to *see* to prove something right or wrong. Quali methods are methods of *seeing*. They do not accept the argument that quali methods may be better to understand some non-observable phenomena. For them it is all about observations. Seeing. Facts.
+  #+begin_quote
+Psathas may be correct that social scientists who focus on only overt,
+observable, behaviors are missing a lot, but how are we to know if we
+cannot see? For example, if two theories of self-conception have identical observable manifestations, then no observer will have sufficient in-
+formation to distinguish the two. This is true no matter how clever or
+culturally sensitive the observer is, how skilled she is at interpretation,
+how well she “brackets” her own presuppositions, or how hard she
+tries. Interpretation, feeling, thick description, participant observation, nonparticipant observation, depth interviewing, empathy, quantification and statistical analysis, and all other procedures and methods are inadequate to the task of distinguishing two theories without differing observable consequences. On the other hand, if the two theories have some observable manifestations that differ, then the methods we describe in this book provide ways to distinguish between them. In practice, *ethnographers (and all other good social scientists) do look for observable behavior in order to distinguish among their theories. They may immerse themselves in the culture, but they all rely on various forms of observation.*
+  #+end_quote
+
+- That two theories have equal observable implications does not mean that they are wrong, only that an excessively empirical focus is too narrow to distinguish among those claims. One theory may be simpler for instance. The non-observables might have observable *implications* as they like to say, but themselves cannot be *seen* in any direct sense. Meaning and interpretation allow us to tap into that non-observables. What is the problem with that? (mvm here again, obviously)
+
+- Given their attack on interpretativism they restate their uniqueness-complexity-simplification argument.
+- Againts the claim that general knowledge would undermine understanding particular events, they argue that both support each other.
+  - The traditional view:
+    #+begin_quote
+Some qualitatively oriented researchers would reject the position that
+general knowledge is either necessary or useful (perhaps even possi-
+ble) as the basis for understanding a particular event. Their position is
+that the events or units they study are “unique.” [...]
+
+Researchers in
+this tradition believe that they would lose their ability to explain the
+specific if they attempted to deal with the general—with revolutions or
+democratization or senatorial primaries.
+    #+end_quote
+- Their first response: nothing is gained by saying something is unique. everythin is unique in some sense. (lol)
+  #+begin_quote
+All phenomena, all
+events, are in some sense unique.
+Viewed holistically, every aspect of social reality is infinitely complex
+and connected in some way to preceding natural and sociological
+events. Inherent uniqueness, therefore, is part of the human condition:
+it does not distinguish situations amenable to scientific generalizations
+from those about which generalizations are not possible. Indeed, as we
+showed in discussing theories of dinosaur extinction in chapter 1, even
+unique events can be studied scientifically by paying attention to the
+observable implications of theories developed to account for them.
+  #+end_quote
+- The argument is stronger in the defense of *simplification*. They argue that uniqueness is a bad take, we should aim to understand what is *systematic or non systematic*. That is the aim of descriptive inference.
+  #+begin_quote
+The point is not whether events are inherently unique,
+but whether the *key features* of social reality that we want to understand can be abstracted from a *mass of facts*. One of the first and most
+difficult tasks of research in the social sciences is this act of simplification. It is a task that makes us vulnerable to the criticism of oversimplification and of omitting significant aspects of the situation. Neverthe-
+less, such simplication is inevitable for all researchers. Simplification
+has been an integral part of every known scholarly work—quantita-
+tive and qualitative, anthropological and economic, in the social sci-
+ences and in the natural and physical sciences
+  #+end_quote
+- The best way to guarantee that our simplifications are not leaving some things out is to have a deeper understanding of the cases. That is how one connects particularist research with inference.
+  #+begin_quote
+Where possible, analysts should simplify their descriptions only
+after they attain an understanding of the richness of history and cul-
+ture. Social scientists may use only a few parts of the history of some
+set of events in making inferences. Nevertheless, rich, unstructured
+knowledge of the historical and cultural context of the phenomena
+with which they want to deal in a simplified and scientific way is usu-
+ally a requisite for avoiding simplications that are simply wrong. Few
+of us would trust the generalizations of a social scientist about revolu-
+tions or senatorial elections if that investigator knew little and cared
+less about the French Revolution or the 1948 Texas election
+
+[...]
+we believe that, where possible, social science research
+should be both general and specific: it should tell us something about
+classes of events as well as about specific events at particular places.
+We want to be timeless and timebound at the same time. The emphasis
+on either goal may vary from research endeavor to research endeavor,
+but both are likely to be present. Furthermore, rather than the two
+goals being opposed to each other, they are mutually supportive.
+  #+end_quote
+- In the end it seems like they want us to describe using a combination of quant and quali methods, but to test using quant.
+  #+begin_quote
+In doing case studies of govern-
+ment policy, researchers ask their informants trenchant, well-specified questions to which answers will be relatively unambiguous, and they systematically follow up on off-hand remarks made by an interviewee that suggest relevant hypotheses. Case studies are essential for description, and are, therefore, fundamental to social science.
+  #+end_quote
+- One of the debates that happened after kkv was how quali research could be used to test theories (process tracing). 
+- They argue that case studies allows us improve our description, and this complements explanation instead of competing with it.
+  #+begin_quote
+Good description is better than bad
+explanation.
+One of the often overlooked advantages of the in-depth case-study
+method is that the development of good causal hypotheses is complementary to good description rather than competitive with it. Framing a case study around an explanatory question may lead to more
+focused and relevant description, even if the study is ultimately
+thwarted in its attempt to provide even a single valid causal inference.
+  #+end_quote
+- They argue that observable implications provide us with a criterio for the selection of facts - that is for data collection. (we have discussed that already, it is here, p 46, that they define inference and talk about the some theory some data approach of theirs).
+- Here they declare their  maxim: explore conditionals to the maximum. That is, derive as much as we can from our theories so that they lead to new tests and new data gathering and through its revision new theories which loop. list all potential sources of confrontation for our hypothesis/theory. Then pick the easiest to collect or which will give us the most information. If adding an observation or doing an interview does not help in this confrontation it should not be done.
+  #+begin_quote
+  our observations are either implications of our theory or irrelevant. If they are irrelevant or not observable, we should ignore them.
+  #+end_quote
+- Other tips related to data collection are:
+  - do not systematize too much if this systematization is not derived from the theory
+  - collect data from different levels IF they give relevant information
+  - collect nonsymmetric data
+- What is data collection after all?
+  #+begin_quote
+By data collection, we refer to a wide range of methods, includ- ing
+observation, participant observation, intensive interviews, large- scale sample
+surveys, history recorded from secondary sources, ran- domized experiments,
+ethnography, content analyses, and any other method of collecting reliable
+evidence. *The most important rule for all data collection is to report how the
+data were created and how we came to possess them.*
+  #+end_quote
+- They differentiate *variables, units and observations*
+  #+begin_quote
+units may be people, countries, organizations, years, elections, or de-
+cades, and often, some combination of these or other units
+
+
+In these examples, the variable is y; the units are the individual
+people; and the observations are the values of the variables for each unit
+(income for dollars or degree of cooperation).
+  #+end_quote
+- Do they give any specific recommendation on variables,units observations collection? No.
+  #+begin_quote
+  At the data-collection
+stage, no formal rules apply as to what variables to collect, how many
+units there should be, whether the units must outnumber the vari-
+ables, or how well variables should be measured. The only rule is our
+judgment as to what will prove to be important.
+  #+end_quote
+- They reiterate the train-test advice of theory-data relationship
+  #+begin_quote
+empirical research can be used both to evaluate a
+priori hypotheses or to suggest hypotheses not previously considered;
+but if the latter approach is followed, new data must be collected to
+evaluate these hypotheses.
+  #+end_quote
+- They distinguish cases from observations!! This is important
+  #+begin_quote
+  It should be very clear from our discussion that most works labeled
+“case studies” have numerous variables measured over many different
+types of units. Although case-study research rarely uses more than a
+handful of cases, the total number of observations is generally im-
+mense. *It is therefore essential to distinguish between the number of cases and the number of observations. The former may be of some interest for some purposes, but only the latter is of importance in judging the amount of information a study brings to bear on a theoretical
+question.* We therefore reserve the commonly used n to refer only to
+the number of observations and not to the number of cases.
+  #+end_quote
+- Another important distinction they make, though obvious, is that summaries are not inference. Some beginner might mix those up though. Here Statistics does help  - we want from some observations estimate the parameters of the dgp distribution. Sample statistics, with small s,  *expressions of the data in abbreviated form*, help us in accomplishing that. max, min, range, mode, median, mean are statistics.
+- Rules for summaries:
+  - Focus on the outcome of interest
+    #+begin_quote
+The first rule is
+that summaries should focus on the outcomes that we wish to describe or
+explain.
+    #+end_quote
+  - Summaries must simplify information
+    #+begin_quote
+A second, equally obvious precept is that a
+summary must simplify the information at our disposal. In quantitative
+terms, this rule means that *we should always use fewer summary statistics than units in the original data,* otherwise, we could as easily present all the original data without any summary at all.
+    #+end_quote
+- Here they define descriptive inference:
+  #+begin_quote
+Descriptive inference is the process of understanding an unobserved
+phenomenon on the basis of a set of observations.
+  #+end_quote
+- They defend *indeterminism*
+  #+begin_quote
+But a certain degree of ran-
+domness or unpredictability is inherent in politics, as in all of social life
+and all of scientific inquiry
+  #+end_quote
+  - they directly reference popper here
+- The variations in values of observations arise from two separate types of factors: *systematic and nonsystematic differences.*
+  #+begin_quote
+  With appropriate inferential techniques, we can usually learn about the nature of systematic differences even with the ambiguity that occurs in one set of real data due to nonsystematic, or random, differences.
+  #+end_quote
+- This dichotomy is as important as the particular vs general one, and is related to the former.
+  #+begin_quote
+one of the fundamental goals of inference is to distinguish the systematic component from the nonsystematic component of the phenomena we
+study. The systematic component is not more important than the nonsystematic component, and our attention should not be focused on one to the exclusion of the other. However, distinguishing between the two is an essential task of social science.
+
+[...]
+
+In descriptive inference, we seek to understand the degree to which
+our observations reflect either typical phenomena or outliers.
+  #+end_quote
+- They introduce the notions of *realized variable vs random variable*
+  #+begin_quote
+The set of observations
+which we label y is a  realized variable. Its values vary over the n units. In addition, we define Y as a random variable because it varies randomly across hypothetical replications of the same election
+  #+end_quote
+- Statistics, summaries, estimates, from our random variables are the systematic features of the world we are interested in, because they are so by definition. The samples we take from a distribution vary, but its counterfactual moments are constant (at least from a frequentist point of view).
+
+  #+begin_quote
+expected value of the Labor vote in
+district 5 (the average Labor vote Y 5 across a large number of hypo-
+thetical elections in this district). Since this is a systematic feature of the
+underlying electoral system, the expected value is of considerable in-
+terest to social scientists. In contrast, the Labor vote in one observed
+election, y 5 , is of considerably less long-term interest since it is a func-
+tion of systematic features and random error. 10
+The expected value (one feature of the systematic component) in the
+fifth West Bank community, El-Bireh, is expressed formally as follows:
+E(Y 5 ) = m 5
+where E(·) is the expected value operation, producing the average
+across an infinite number of hypothetical replications of the week we
+observe in community 5, El-Bireh.
+
+#+end_quote
+- Basically, what they are saying here is that when we analyze something we should separate the systematic from the non systematic by:
+  - imagining possible worlds and what would be the expected value in those worlds for a random variable
+  - seeing the average value among all the expected values of those random variables
+- The *average* across units, instead of across worlds, is another important measure. In their examples is the average level of conflict across all districts in a community.
+- The variance gives the size of the nonsystematic component, how much the variable of interest varies if we keep systematic features constant.
+- They presented realized variables, random variables, expected values, average and variance as models of the systematic vs nonsystematic argument. This random variable framework is their way of disciplining thought about the systematic or non-systematic dichotomy 
+  #+begin_quote
+  we begin any analysis with
+all observations being the result of “nonsystematic” forces. Our job is
+then to provide evidence that particular events or processes are the
+result of systematic forces. Whether an unexplained event or process is
+a truly random occurrence or just the result of as yet unidentified ex-
+planatory variables is left as a subject for future research.
+This argument applies with equal force to qualitative and quantita-
+tive researchers. Qualitative research is often historical, but it is of
+most use as social science when it is also explicitly inferential. To con-
+ceptualize the random variables from which observations are gener-
+ated and to attempt to estimate their systematic features—rather than
+merely summarizing the historical detail—does not require large-scale
+data collections.
+  #+end_quote
+- Yet another distinction they make is that systematic factors are persistent but not constant.
+  #+begin_quote
+Systematic factors are persistent and have consistent consequences
+when the factors take a particular value. Nonsystematic factors are
+transitory: we cannot predict their impact. But this does not mean that
+systematic factors represent constants.
+  #+end_quote
+- When is something *unbiased*?
+  #+begin_quote
+Across a large number of applications, do we get the right answer on average? If yes, then this method, or “estimator,” is said to be unbiased.
+
+[...]
+
+Unbiased estimates occur when the variation from one replication of
+a measure to the next is nonsystematic and moves the estimate sometimes one way, sometimes the other. Bias occurs when there is a systematic error in the measure that shifts the estimate more in one direction than another over a set of replications.
+  #+end_quote
+- Bias = systematic *error* in measurement
+- An important tip they give is that *bias is theory dependent*
+  #+begin_quote
+, bias depends on the theory that is being investigated and does not just exist in the data alone. It makes little sense to say that a particular data set is biased, even though it may be filled with many individual errors.
+  #+end_quote
+- Another important notion is the difference between *systemic bias and statistical bias*. Statistical bias is related to a problem in measurement, while systemic bias is substantive bias in favor or against groups.
+
+  #+begin_quote
+we might wish to distinguish our definition of “statistical bias” in an estimator from “substantive bias” in an electoral system. An example of the latter are polling hours that make it harder for
+working people to vote—a not uncommon substantive bias of various
+electoral systems. As researchers, we may wish to estimate the mean
+vote of the actual electoral system (the one with the substantive bias),
+but we might also wish to estimate the mean of a hypothetical electoral
+system that doesn’t have a substantive bias due to the hours the polls
+are open.
+  #+end_quote
+
+- Reflexivity of subjects is one of the main sources of bias in social data. An example is :
+  #+begin_quote
+Social science data are susceptible to one major source of bias of
+which we should be wary: people who provide the raw information
+that we use for descriptive inferences often have reasons for providing
+estimates that are systematically too high or low
+  #+end_quote
+- Another criteria to analyze descriptive inference is *efficiency*
+  #+begin_quote
+Efficiency is a relative concept that is measured by calculating the
+variance of the estimator across hypothetical replications. For un-
+biased estimators, the smaller the variance, the more efficient (the bet-
+ter) the estimator.
+[...]
+, the efficiency crite-
+rion can also help distinguish among alternative estimators with a
+small amount of bias. (An estimator with a large bias should generally
+be ruled out even without evaluating its efficiency.)
+  #+end_quote
+- One should never think only in terms of bias or of efficiency. They both together give us a more complete and sound understanding of methodological choices.
+  #+begin_quote
+we may
+often be willing to incur a small amount of bias in exchange for a large
+gain in efficiency.
+
+[...]
+
+we have the obvious result that more observations are better.
+More interesting are the conditions under which a more detailed
+study of our one community would yield as good or better results
+as our large-n study. That is, although we should always prefer stud-
+ies with more observations (given the resources necessary to collect
+them), there are situations where a single case study (as always, con-
+taining many observations) is better than a study based on more observations, each one of which is not as detailed or certain.
+  #+end_quote
+- Consistency is another less important concept. ALL EQUAL, as the number of observations gets very large, the variability decreases to zero, and the estimate equals the parameter we are trying to estimate.
+- However, most of the time we face *trade-offs* between bias and efficiency
+  #+begin_quote
+Suppose, for example, that
+any single measurement of the phenomenon we are studying is sub-
+ject to factors that make the measure likely to be far from the true
+value (i.e., the estimator has high variance). And suppose that we have
+some understanding—from other studies, perhaps—of what these fac-
+tors might be. Suppose further that our ability to observe and cor-
+rect for these factors decreases substantially with the increase in the
+number of communities studied (if, for no other reason, than that we
+lack the time and knowledge to make corrections for such factors
+across a large number of observations). We are then faced with a trade-off between a case study that has additional observations internal to
+the case and twenty-five cases in which each contains only one ob-
+servation.
+  #+end_quote
+- The last paragraph of page 67 is highly relevant to show how-when qualitative research might be more useful then quantitative research for INFERENTIAL reasons! The other two examples are also pretty good!
+- A restatement of the argument for a mixed methods approach (or at least awareness) is:
+  #+begin_quote
+Large-scale studies may depend upon numbers that are not
+well understood by the naive researcher working on a data base (who
+may be unaware of the way in which election statistics are gathered in
+a particular locale and assumes, incorrectly, that they have some real
+relationship to the votes as cast). The researcher working closely with
+the materials and understanding their origin may be able to make the
+necessary corrections
+  #+end_quote
+- Formally, the typical measure of the bias-variance trade-off  is the *MSE mean square error* = variance + squared bias. The formula show this is not a logical trade-off, but a practical one.
+- I have to give more thought to that, but using the bias x variance tradeoff as guide for inference seeems to confirms my view that KKV has a train-test theory of the relationship between theory and data. THe bias x efficiency tradeoff is simply the well known, in the machine learning community, bias x variance trade off. From wikipedia:
+  #+begin_quote
+Ideally, one wants to choose a model that both accurately captures the regularities in its training data, but also generalizes well to unseen data. Unfortunately, it is typically impossible to do both simultaneously. High-variance learning methods may be able to represent their training set well but are at risk of overfitting to noisy or unrepresentative training data. In contrast, algorithms with high bias typically produce simpler models that don't tend to overfit but may underfit their training data, failing to capture important regularities.
+
+Models with high variance are usually more complex (e.g. higher-order regression polynomials), enabling them to represent the training set more accurately. In the process, however, they may also represent a large noise component in the training set, making their predictions less accurate – despite their added complexity. In contrast, models with higher bias tend to be relatively simple (low-order or even linear regression polynomials) but may produce lower variance predictions when applied beyond the training set.
+
+  The bias error is an error from erroneous assumptions in the learning algorithm. High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting).
+
+    The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs (overfitting).
+
+  #+end_quote
 ** What are the main concepts of the text?
 
 - inference
@@ -72,6 +769,7 @@ there is a unified logic of, descriptive and causal, inference, which applies bo
 - alike in degree (i.e., quantitative differences) or in kind (i.e., qualitative differences) (p.5)
 - recipes vs precepts and rules for research (p.7)
 - fallibilistic empiricism (p.7)
+
 - scientific research (inference + publicity + uncertainty + THE SCIENTIFIC METHOD) (p.7)
 - causal effects (p.7)
 - principles of (data) selection (p.7)
@@ -81,7 +779,7 @@ there is a unified logic of, descriptive and causal, inference, which applies bo
 - class of events (p.10)
 - counterfactual analysis (p.10)
 - class of events + counterfactual analysis (p.11)
-- observable implication (p.11)
+o- observable implication (p.11)
 - science as hypothetical dedutivism (p.12)
 - research design = research question, theory, data, and the use of the data. (p.13)
 - Improving questions = Social + scientific significance
@@ -104,3 +802,78 @@ proposed answer is correct.
 - Degree of certainty (p.32)
 - accuracy of the data (p.32)
 - confounders (p.32)
+
+*** CHAPTER 2 - Descriptive Inference
+- contradictory goals of scholarship: general knowledge + learning about particular facts (p.35)
+- generalist vs particularist social research vs both (them) (p.35)
+- interpretation (p.36)
+- uniqueness (p.36)
+- comparative case studies (p.36)
+- interpretation only vs interpretation as part of bigger whole (p.36)
+- Verstehen (p.37)
+- interpretive standards of evaluation: coherence and scope (p.37)
+- soaking and poaking  : interpretation through cultural immersion (p.37-38)
+- mass of facts and simplification (p.42)
+- structured focused comparison through congruence procedure (p.45)
+- some data + some data => observable implications => criterion for the selection of facts (p.46)
+- model (p.49)
+- data collection (p51)
+- variables, units and observations (p51)
+- Statistic (p.53)
+- descriptive inference (p.55)
+- systematic and nonsystematic differences (p.56)
+- realized variable random variable (p.57)
+- expected value (p.58)
+- average (p.58)
+- two views of randomness (p.59)
+- bias (p.63)
+- estimator (p.63)
+- substantive vs statistical bias (p.64)
+- efficiency (variance) (p.66)
+- consistency (p.67)
+- bias-efficiency trade-off (p.69)
+- mean squared error (p.74)
+*** CHAPTER 3 Causality and Causal Inference
+- key causal variable x  control variables
+- treatment group x control group
+- counterfactual condition
+- Rubin's model
+- probabilistic causality
+- causal effect
+- Realized causal effect
+- fundamental problem of causal inference
+- random causal  effect
+- mean causal effect
+- variance of the causal effect
+- causal mechanisms
+- multiple causality
+- symmetric vs assymetric causality
+- intervening effects
+- equifinality = multiple causation
+- unit homogeneity
+- conditional independence
+- constant effect assumption
+- endogeneity
+- random selection/assignment
+- control for confounding effects
+- estimate of \(\beta\) as the least squares regression estimate
+- causal theories
+- internal consistency
+- falsifiability
+- verification vs falsification
+- bounds of applicability
+- probabilistic justificationist
+- file drawer problem
+- concreteness \(\approx\) specificity
+- middle-range theory
+
+  
+
+
+
+
+* Further references
+- cite:johnson2006consequences
+- Chapter 11 of cite:brady2010rethinking
+- cite:mahoney2010after
+- 

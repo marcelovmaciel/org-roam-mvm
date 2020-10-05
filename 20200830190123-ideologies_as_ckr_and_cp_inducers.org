@@ -10,3 +10,6 @@ According to Carl Schmidt the foundation of politics is the enemy-friend distinc
 
 * further references
 - cite:aumann08_ration_expec_games
+- cite:freeden2013political
+- cite:freeden2013oxford
+- cite:freeden1996ideologies

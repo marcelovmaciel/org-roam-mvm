@@ -28,3 +28,18 @@ HSL  : 38, 19%, 89%
 - A good font is t1xtt from txfonts
 - \usepackage[dvipsnames]{xcolor} and the color BurntOrange are useful
 - Likewise, \pagecolor{brown!20}.
+
+
+
+
+To change colors of sections use ([[https://tex.stackexchange.com/questions/75667/change-colour-on-chapter-section-headings-lyx][color - Change Colour on Chapter/Section headings {Lyx} - TeX - LaTeX Stack E...]])
+#+BEGIN_SRC latex
+\usepackage[dvipsnames]{xcolor}
+\usepackage{sectsty}
+
+
+\begin{document}
+\sectionfont{\color{brown!89}}
+
+....
+#+END_SRC

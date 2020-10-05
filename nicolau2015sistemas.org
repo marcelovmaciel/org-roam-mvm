@@ -297,19 +297,6 @@ Essa desproporcionalidade leva a "maiorias manufaturadas" (Rae).
 - Contra
   - O SNTV estimula a competição entre candidaturas de políticos DO MESMO partido. Isso incentiva redes clientelistas, politicas particularistas e em ultima instancia corrupção generalizada. 
 
-* Sobre eleicoes presidenciais ver p 38-42 :fc:
-:PROPERTIES:
-:FC_CREATED: 2020-07-03T10:30:18Z
-:FC_TYPE:  normal
-:ID:       b8c1a703-8a73-4229-89c8-38ce45716d34
-:END:
-:REVIEW_DATA:
-| position | ease | box | interval | due                  |
-|----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:18Z |
-:END:
-** Back
-Basicamente fala que qualquer método majoritário uninominal  (plurality, plurality with runoff, alternative voting ) pode ser usado.
 
 * Quais os efeitos possíveis de sistemas eleitorais? :fc:
 :PROPERTIES:
@@ -365,7 +352,7 @@ p 90
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-07-03T10:30:53Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-22T00:11:03Z |
 :END:
 ** Back
 Medida criada por laakso e taagepera para mensurar de forma mais concreta

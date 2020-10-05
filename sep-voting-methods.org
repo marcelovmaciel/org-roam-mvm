@@ -233,7 +233,7 @@ Proxy voting is when agents can delegate their vote on some issues. Liquid
 Democracy is when votes can be further delegated.
 
 
-** Further references
+*** Further references
 
 - *On proxy voting*:
   Green-Armytage, J., 2015, “Direct voting and proxy voting,” Constitutional Political Economy, 26(2): 190–220.

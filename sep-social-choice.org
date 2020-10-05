@@ -202,7 +202,7 @@ Examples of other such aggregation problems to which Arrow's theorem has been ap
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-21T00:30:49Z |
+| front    | 2.50 |   2 |     1.00 | 2020-09-25T19:47:12Z |
 :END:
 
 *** Back
@@ -410,7 +410,7 @@ Relatedly, majority rule minimizes the number of frustrated voters (defined as v
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-05-20T23:57:32Z |
+| front    | 2.50 |   1 |     0.01 | 2020-09-15T19:53:50Z |
 :END:
 
 ** Back
