@@ -1,0 +1,28 @@
+#+TITLE: cite:Explanation 
+#+ROAM_KEY: cite:roth2010explanation
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: roth2010explanation
+:NOTER_DOCUMENT: %(orb-process-file-field "roth2010explanation")
+:AUTHOR: Roth, P. A.
+:JOURNAL:
+:DATE:
+:YEAR: 2010
+:DOI:
+:URL:
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+I am reading this text to understand what counts as an explanation and how it relates to causality and interpretation. Particularly, I intend to use cite:johnson2006consequences, cite:king1994designing, cite:roberts18_what_is_polit_method,
+cite:slembrouck01_explan_inter_critiq_analy_discour
+
+and delineate what is what. Right now, I believe that the interventionist view gives the proper conceptualization of causality, but not of explanation. The cause of effects vs effects of causes debate by cite:morton2010experimental and the arguments of cite:johnson2006consequences and Goldthorpe about causal mechanisms allow me to argue that causality is something akin to RCM, but causal mechanisms are needed for proper explanation.
+* Struct questions
+
+** What is the goal/ general argument of the text?
+To define what explanation is, or at least to say how it has been traditionally defined. 
+** What are the specific arguments of the text?
+
+** What are the main concepts of the text?

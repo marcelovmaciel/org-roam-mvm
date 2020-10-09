@@ -113,11 +113,13 @@ is excessively forward
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
 :END:
-*** Back
+*** Back :ATTACH:
 
 -  to be appropriate or necessary (verb)
   - "It behooves us to reflect on this matter"
 -  is ll behooves is the same as inappropriate
+ [[attachment:_20201005_205117screenshot.png]]
+
 * What is abrogate :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-08-19T23:14:19Z
@@ -181,8 +183,11 @@ either to order/decree (like a king) or to act out
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
 :END:
-*** Back
+*** Back :ATTACH:
 (adjective) – harshly or bitterly critical
+
+[[attachment:_20201005_204434screenshot.png]]
+
 * What is mawkish :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-08-19T23:14:19Z
@@ -265,7 +270,7 @@ either to order/decree (like a king) or to act out
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T16:37:34Z |
 :END:
 *** Back
 a person who has very strong opinions about something, and tries to make other people have them too (noun)
@@ -373,10 +378,13 @@ that exhausts, burdensome, onerous
 |----------+------+-----+----------+----------------------|
 | front    | 2.50 |   0 |     0.00 | 2020-10-02T19:29:37Z |
 :END:
-*** Back
+*** Back :ATTACH:
   - adjective – unnatural, forced
   - adjective – showing effects of planning or manipulation
   - adjective – artificially formal
+
+    [[attachment:_20201005_204553screenshot.png]]
+
 * What is smattering :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-08-19T23:14:19Z
@@ -467,11 +475,13 @@ that exhausts, burdensome, onerous
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:17Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T16:37:26Z |
 :END:
-*** Back
+*** Back :ATTACH:
     -  debatable or irrelevant 
 - open to argument or debate; undecidable in a meaningless or irrelevant way
+  [[attachment:_20201007_144839screenshot.png]]
+
 * What is foil? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-08-20T00:03:02Z
@@ -481,7 +491,7 @@ that exhausts, burdensome, onerous
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-20T00:03:02Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-05T23:57:56Z |
 :END:
 *** Back
 
@@ -569,9 +579,11 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
 | front    | 2.50 |   0 |     0.00 | 2020-10-01T19:27:10Z |
 :END:
 
-*** Back
+*** Back :ATTACH:
 
   - concise and full of meaning
+    [[attachment:_20201005_205233screenshot.png]]
+
 * What is  meandering? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-07T22:17:33Z
@@ -684,7 +696,7 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
 :END:
 
 *** Back
-
+  - anxious
   - adjective – In eager desire, eager, astir.
 
   - adjective – Wide open.
@@ -719,7 +731,7 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:33Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:00:51Z |
 :END:
 
 *** Back
@@ -749,7 +761,7 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-09-26T22:30:23Z |
+| front    | 2.50 |   2 |     1.00 | 2020-10-06T23:49:51Z |
 :END:
 
 *** Back
@@ -812,7 +824,7 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-05T23:55:09Z |
 :END:
 
 *** Back
@@ -1302,9 +1314,13 @@ While the intensity of these fears has ebbed somewhat in the years since Septemb
 | front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
 :END:
 
-*** Back
+*** Back :ATTACH:
 
   - 1. (1) desultory -- (marked by lack of definite plan or regularity or purpose; jumping from one thing to another; "desultory thoughts"; "the desultory conversation characteristic of cocktail parties")
+
+
+[[attachment:_20201005_204923screenshot.png]]
+
 * What is  Notwithstanding? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-07T22:17:32Z
@@ -1530,7 +1546,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:04:41Z |
 :END:
 
 *** Back
@@ -1565,9 +1581,12 @@ Notwithstanding, today was a wonderful today.
 | front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
 :END:
 
-*** Back
+*** Back :ATTACH:
 
   - 1. brazen -- (face with defiance or impudence; "brazen it out")
+
+[[attachment:_20201007_144059screenshot.png]]
+
 * What is  craven? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-07T22:17:32Z
@@ -1626,14 +1645,16 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:41:46Z |
 :END:
 
-*** Back
+*** Back :ATTACH:
 
   1. hamstring -- (make ineffective or powerless; "The teachers were hamstrung by the overly rigid schedules")
   2. hamstring -- (cripple by cutting the hamstring)
 
+
+[[attachment:_20201007_144240screenshot.png]]
 
 * What is insofar? :fc:
 :PROPERTIES:
@@ -1644,7 +1665,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-09T23:31:11Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:04:31Z |
 :END:
 *** Back
 
@@ -1697,7 +1718,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-10-02T15:56:23Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-05T23:57:38Z |
 :END:
 *** Back
   - adjective: being of questionable authenticity
@@ -1751,7 +1772,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T16:29:28Z |
+| front    | 2.50 |   2 |     1.00 | 2020-10-08T17:41:14Z |
 :END:
 *** Back
   - bankrupt
@@ -1792,8 +1813,12 @@ Notwithstanding, today was a wonderful today.
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-09-30T16:29:28Z |
 :END:
-*** Back
+*** Back :ATTACH:
   - adjective: marked by or showing hopelessness
+
+
+[[attachment:_20201005_204237screenshot.png]]
+
 *  gregarious :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-30T16:29:28Z
@@ -1818,8 +1843,11 @@ Notwithstanding, today was a wonderful today.
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-09-30T16:29:28Z |
 :END:
-*** Back
+*** Back :ATTACH:
   - adjective: lacking physical movement skills, especially with the hands
+
+[[attachment:_20201005_204819screenshot.png]]
+
 *  sprawling :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-30T16:29:28Z
@@ -1831,10 +1859,14 @@ Notwithstanding, today was a wonderful today.
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-09-30T16:29:28Z |
 :END:
-*** Back
+*** Back :ATTACH:
   1. (8) sprawl -- (sit or lie with one's limbs spread out)
   2. (2) sprawl, straggle -- (go, come, or spread in a rambling or irregular
      way;
+
+
+[[attachment:_20201005_205342screenshot.png]]
+[[attachment:_20201005_205400screenshot.png]]
 
 
 
@@ -1848,7 +1880,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T17:02:15Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-05T23:47:25Z |
 :END:
 *** Back
 
@@ -1927,7 +1959,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-09-30T17:57:20Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-05T23:55:22Z |
 :END:
 *** Back
 
@@ -1973,7 +2005,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T17:02:15Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-06T16:23:22Z |
 :END:
 *** Back
 
@@ -2171,7 +2203,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T17:02:15Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:36:33Z |
 :END:
 *** Back
 
@@ -2272,7 +2304,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T17:02:15Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:04:52Z |
 :END:
 *** Back
 
@@ -2300,7 +2332,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-10-01T18:57:35Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-07T17:51:10Z |
 :END:
 *** Back
 
@@ -2442,7 +2474,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-10-02T16:15:34Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-05T23:58:13Z |
 :END:
 *** Back
 
@@ -2744,7 +2776,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-10-02T19:29:08Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-05T23:58:04Z |
 :END:
 *** Back
 
@@ -2826,12 +2858,13 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T17:02:16Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-05T23:57:27Z |
 :END:
 *** Back
 
   1. envy, begrudge -- (be envious of; set one's heart on)
   2. begrudge, resent -- (wish ill or allow unwillingly)
+
 * What is  precipitous :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-30T17:02:16Z
@@ -3005,9 +3038,14 @@ Notwithstanding, today was a wonderful today.
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-09-30T17:02:16Z |
 :END:
-*** Back
+*** Back :ATTACH:
 
   1. (5) affray, altercation, fracas -- (noisy quarrel)
+
+[[attachment:_20201007_144529screenshot.png]]
+
+[[attachment:_20201007_144553screenshot.png]]
+
 * What is  crony :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-30T17:02:16Z
@@ -3017,7 +3055,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-09-30T17:02:16Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:01:03Z |
 :END:
 *** Back
 
@@ -3213,7 +3251,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-10-01T16:29:38Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:37:28Z |
 :END:
 
 *** Back
@@ -3369,10 +3407,14 @@ Notwithstanding, today was a wonderful today.
 | front    | 2.50 |   2 |     1.00 | 2020-10-02T18:48:10Z |
 :END:
 
-*** Back
+*** Back :ATTACH:
 
     + noun: the quality of talking or writing easily and continuously
     + The professor's volubility knows no bounds; he could talk through a hurricane and elaborate a point from one St. Patrick's Day to the next.
+
+
+[[attachment:_20201005_205743screenshot.png]]
+
 * What is  venality? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-10-01T16:29:38Z
@@ -3479,9 +3521,1846 @@ although broad, is largely inchoate and so inconsistent.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-10-04T21:39:06Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:07:17Z |
 :END:
 *** Back
 The noun parish has 2 senses (first 1 from tagged texts)
 1. (3) parish -- (a local church community)
 2. parish -- (the local subdivision of a diocese committed to one pastor)
+
+
+* what is nonplussed? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-05T20:54:36Z
+:FC_TYPE:  normal
+:ID:       397b93ed-c077-4033-802f-e086601ac568
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-05T20:54:36Z |
+:END:
+*** Back
+The verb nonplus has 1 sense (no senses from tagged texts)
+1. perplex, vex, stick, get, puzzle, mystify, baffle, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, amaze, dumbfound -- (be a mystery or bewildering to; "This beats me!"; "Got me--I don't know the answer!"; "a vexing problem"; "This question really stuck me")
+
+ Overview of adj nonplussed
+
+The adj nonplussed has 1 sense (no senses from tagged texts)
+1. at a loss, nonplused, nonplussed, puzzled -- (filled with bewilderment; "at a loss to understand those remarks"; "puzzled that she left without saying goodbye")
+* what is underscore? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-05T21:08:49Z
+:FC_TYPE:  normal
+:ID:       6c9856b6-e471-46c3-8cd1-11df437b8a79
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-05T21:08:49Z |
+:END:
+*** Back
+The verb underscore has 2 senses (first 1 from tagged texts)
+1. (3) underscore, underline, emphasize, emphasise -- (give extra weight to (a communication); "Her gesture emphasized her words")
+2. underline, underscore -- (draw a line or lines underneath to call attention to)
+
+
+
+* What is disingenuous? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-05T21:28:17Z
+:FC_TYPE:  normal
+:ID:       244ed8cd-dafd-464c-a326-89415ef9f6ce
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-05T21:28:17Z |
+:END:
+*** Back
+ dis•in•gen•u•ous dĭs″ĭn-jĕn′yoo͞-əs►
+
+    adj.
+    Not straightforward or candid; insincere or calculating.
+    adj.
+    Pretending to be unaware or unsophisticated; faux-naïf.
+    adj.
+    Unaware or uninformed; naive.
+
+
+
+* What is  prodigal? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       e528e1f7-fbe4-4a1e-8e07-c8a9e163f5f3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+
+  - spending money or resources freely and recklessly; wastefully extravagant "prodigal habits die hard"
+* What is  funereal? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       879690c3-5bd8-4412-a0c1-c22e7b684dac
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - 1. funereal, sepulchral -- (suited to or suggestive of a grave or burial; "funereal gloom"; "hollow sepulchral tones")
+* What is  regale? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       32301a60-1b90-4e50-89ce-ac6a7949c41e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  Re•ga•le rĭ-gāl′►
+   intransitive verb
+   To provide with great enjoyment; entertain. synonym: amuse.
+   intransitive verb
+   To entertain sumptuously with food and drink; provide a feast for.
+   intransitive verb
+   To feast.
+* What is  condone? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       bc9b55d3-a1d1-4bf5-91e0-182c15c1f65c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  1. (1) excuse, condone -- (excuse, overlook, or make allowances for; be lenient with; "excuse someone's behavior"; "She condoned her husband's occasional infidelities")
+* What is  trumpet? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       aca35c1b-fb6c-4fba-a054-f563b26e99dd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  trumpet verb (ANNOUNCE)
+   [ T ] mainly disapproving
+   to announce or talk about something proudly to a lot of people:
+   The museum has been loudly trumpeting its reputation as one of the finest.
+   Their much-trumpeted "low low prices" affect only five percent of the goods that they sell.
+* What is  recondite? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       050b378d-c15c-4663-8aa9-19302c1acf55
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  1. abstruse, deep, recondite -- (difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge; "the professor's lectures were so abstruse that students tended to avoid them"; "a deep metaphysical theory"; "some recondite problem in historiography")
+* What is  stilted? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       878c1bc7-6a57-46ae-93dc-71b6f90824d7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:46:28Z |
+:END:
+
+*** Back
+  - artificially formal
+* What is  derisive? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       e7ade9e5-1b85-4769-9fbe-e635f08e092c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - expressing contempt
+* What is  faltering? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       5cf34932-0281-492a-9481-04d90fbf20fc
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - hesitating (adjective), hesitancy (noun)
+* What is  outlandish? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       2a03162a-6f23-4a5f-873b-10b9a9f82142
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  1. bizarre, eccentric, freakish, freaky, flaky, flakey, gonzo, off-the-wall, outlandish, outre -- (conspicuously or grossly unconventional or unusual; "restaurants of bizarre design--one like a hat, another like a rabbit"; "famed for his eccentric spelling"; "a freakish combination of styles"; "his off-the-wall antics"; "the outlandish clothes of teenagers"; "outre and affected stage antics")
+* What is  undergird? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       2b78fe81-ff07-4e97-84f6-9ef10298df92
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - to give (a sound / secure basis / evidence) / (moral support)
+* What is  thwarting? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       9280cdce-4743-4b2c-9a05-40026cac2a9f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - hindering / blocking
+* What is  poring? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       5acbf3f6-1215-492b-a937-46334b07fa65
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - (direct one's attention on something; "Please focus on your studies and not on your hobbies")
+    to read or study with steady attention or application: a scholar poring over a rare old manuscript.
+    to gaze earnestly or steadily: to pore over a painting.
+    to meditate or ponder intently (usually followed by over, on, or upon): He pored over the strange events of the preceding evening.
+* What is  benighted? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       29dd95b2-e194-48ae-b8a9-4eeea588b647
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - fallen into a state  of ignorance
+* What is  disheveled? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       2719dffc-e04e-4df3-86bd-ef404ec5c2c3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - in disarray
+* What is  huddled? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       f93ef5bc-e950-45ca-9704-648aa583ac00
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - crowded together
+* What is  uncanny? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       d7cf4bf7-7bff-4873-9348-1ff4201950b9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - surpassing the ordinary or normal
+* What is  provident? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       0d05a9f4-a3ab-4566-b54f-6c7029df1f0b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - careful in regard to your own interests
+* What is  rile up? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-06T16:14:52Z
+:FC_TYPE:  normal
+:ID:       4d47e204-25a0-47ea-bba5-351eb8127eea
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+:END:
+
+*** Back
+  - agitate in an angry manner
+* what is  perennial? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       4a3bc93f-bee7-4373-9fba-47d7875b4d33
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+  -  m
+
+*** Back
+
+eans something that occurs over the seasons and is constant throughout the years. This is a little too extreme to describe 4 hours.
+* what is  protracted? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       05344c91-ee05-4f53-9720-a599858cc12f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+  -  means lengthy
+* what is  lachrymose? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       66f245b3-14be-4658-bf12-da1ae764ba35
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+  -  means sad, tearful
+* what is  penurious? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       5a8d2db6-844a-4936-ae40-50a60930f351
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+  -  means having no money
+* what is   prolonged? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       f30c7b94-2cca-411f-89ed-0f81a157ea9c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+  -  means lengthy
+
+* what is  sybarite? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       e149a436-8776-4542-a80b-0bf76f5f3bc1
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+  - 1. voluptuary, sybarite -- (a person addicted to luxury and pleasures of the senses)
+
+* what is  entreaties? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       530ec99e-39a1-40fe-8322-8c4c338a9fb6
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+  - 1. entreaty, prayer, appeal -- (earnest or urgent request; "an entreaty to stop the fighting"; "an appeal for help"; "an appeal to the public to keep calm")
+
+* what is  appeasement? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       389b5090-2625-4354-844c-9c8fbbfff832
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+  - noun – The act of appeasing, or the state of being appeased, or in peace; pacification.
+
+  - noun – The act of appeasing, or the state of being appeased; pacification.
+
+  - noun – The state of being appeased; the policy of giving in to demands in order to preserve the peace.
+
+  - noun – the act of appeasing (as by acceding to the demands of)
+
+
+* what is  unimpeachable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       0989fb80-ae07-456c-9c7a-c28f3e17481e
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+  - adjective: free of guilt; not subject to blame; beyond doubt or reproach
+* what is  untenable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       5d3e6169-607d-4fbd-9fe0-247dd3430fde
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+  - adjective: (of theories etc) incapable of being defended or justified
+* what is  punctilious? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       6002e5fd-a366-4206-9675-7230073a02d1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: marked by precise accordance with details
+
+    The colonel was so punctilious about enforcing regulations that men feel compelled to polish even the soles of their shoes.
+* what is  fastidious? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:45Z
+:FC_TYPE:  normal
+:ID:       663267f7-b05b-442a-9bc5-7485459bdca8
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:45Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: giving careful attention to detail
+
+    The surgeon's fastidious attention to each and every tiny cut or stitch frustrated his staff but overjoyed his patients.
+* what is  lavish? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       9f09dcb3-ce08-4b3e-abe8-31e0f2bda6a1
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:36:54Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: more than is needed; very fancy
+
+    Fido's birthday feast was lavish; most guests thought that a dog would not be able to appreciate the bits of gold in his steak-flavored ice cream.
+* what is  stinginess? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       a9172342-39dc-4744-b4c5-edfd9003c6fe
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - noun – The state or quality of being stingy; extreme avarice; niggardliness; miserliness.
+
+  - noun – The quality or state of being stingy.
+
+  - noun – A lack of generosity.
+
+  - noun – a lack of generosity; a general unwillingness to part with money
+* what is  recondite? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       52d900e3-67be-4f68-abea-e2ca34969ea9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge
+
+    I found Ulysses recondite and never finished the book, waiting instead to read it with someone else so we could penetrate its meaning together.
+
+* what is  schmooze? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       57c8e164-bd9c-4d52-b775-eb5dc57d8a61
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+  - verb – To talk casually, especially in order to gain an advantage or make a social connection
+
+  - noun – A casual conversation, especially one held in order to gain an advantage or make a social connection.
+
+  - noun – an informal conversation
+
+  - verb – talk idly or casually and in a friendly way
+* what is  hobnob? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       7e2b87da-f416-49fb-a047-f23d7ed04212
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - To drink together; hence, to talk familiarly or socially. Also hob-a-nob, hob-and-nob, hob-or-nob.
+
+  - Take or not take: a familiar invitation to drinking.
+
+  - At random; come what will.
+
+  - Also written hob-a-nob, hob-and-nob, hob-or-nob.
+
+  - intransitive verb – To drink familiarly (with another).
+
+  - intransitive verb – To associate familiarly; to be on intimate terms.
+
+  - adverb – Have or have not; -- a familiar invitation to reciprocal drinking.
+* what is  muckrake? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       59aebc84-a033-4999-b083-c5d9fb363f76
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - intransitive verb – To seek for, expose, or charge, especially habitually, corruption, real or alleged, on the part of public men and corporations.
+
+  - verb – to search for and expose corruption or scandal especially as done by a journalist.
+
+  - verb – explore and expose misconduct and scandals concerning public figures
+* what is  intermingle? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       e2526190-a51a-48f8-94c8-1ed9bf86908f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - To mingle or mix together; mix up; intermix.
+  - To be mixed or incorporated.
+  - transitive verb – To mingle or mix together; to intermix.
+  - intransitive verb – To be mixed or incorporated.
+  - verb – To mix or become mixed together.
+  - verb – combine into one
+* what is  cumbrous? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       38d003c3-b45b-47d7-a032-07acd54602c9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - Burdensome; hindering or obstructing; rendering action difficult or toilsome; clogging; cumbersome.
+  - Causing trouble or annoyance; troublesome; vexatious.
+  - Difficult to use; characterized by unwieldiness or clumsiness; ungainly; clumsy.
+  - adjective – Rendering action or motion difficult or toilsome; serving to obstruct or hinder; burdensome; clogging.
+  - adjective – Giving trouble; vexatious.
+  - adjective – Unwieldy because of its weight; cumbersome.
+  - adjective – Giving trouble; vexatious.
+* what is  ponderous? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       9664f04d-a59d-42b6-95d3-4793fbf9ce5b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - adjective: weighed-down; moving slowly
+
+  - Laden with 20 kilograms of college text books, the freshman moved ponderously across the campus.
+* what is  brio? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       49bb4459-5ba2-4859-8680-2e7f37816222
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - 1. animation, spiritedness, invigoration, brio, vivification -- (quality of being active or spirited or alive and vigorous)
+
+* what is  cutback? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       757d35e8-1e43-47f0-a6a0-699027f261af
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+  - noun – a reduction in quantity or rate; a reduction in the amount of an activity or the funding for an activity.
+
+  - noun – a return to an earlier scene or story line in a novel, movie, etc.
+
+  - noun – a sudden switching of directions of a running football player, a surfboarder, etc.
+
+  - noun – A reduction in an existing program of some sort.
+
+  - noun – Maneuver where the surfer turns and surfs back towards where the wave is breaking.
+
+  - noun – Solvent-thinned bitumen used in cold process roofing adhesives, cements and coatings.
+
+  - noun – An offensive pass played into a position further from the attacking goal line.
+* what is  largesse? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       8a2f1131-3c6d-44c2-b840-8196bfa582a6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - noun – Alternative spelling of largess.
+
+  - noun – a gift or money given (as for service or out of benevolence); usually given ostentatiously
+
+  - noun – liberality in bestowing gifts; extremely liberal and generous of spirit
+* what is  sanguine? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       1d331e69-db6c-41e1-a074-cbeab8c17941
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:47:38Z |
+:END:
+
+
+*** Back
+
+  - adjective: cheerful; optimistic
+  - With the prospect of having to learn 3,000 words during the course of the summer, Paul was anything but sanguine.
+* what is  acerbic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       dc00b85a-150c-4d7f-ac91-bac2c31dc93e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: harsh in tone
+  - Most movie critics are acerbic towards summer blockbusters, often referring to them as garbage.
+* what is  habitual? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       7a5f5f10-2dbf-4021-8616-08b902b2df40
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - inveterate
+
+* what is  ingratiating? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       4cc838a8-3ee6-4efa-84f2-7c114ef86dfe
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+  - adjective – capable of winning favor.
+
+  - adjective – calculated to please or gain favor.
+
+  - adjective – Which ingratiates; which attempts to bring oneself into the favour of another. The implication is often of flattery or insincerity.
+
+  - verb – Present participle of ingratiate.
+
+  - adjective – calculated to please or gain favor
+
+  - adjective – capable of winning favor
+* what is  fawning? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       6a7d25c6-49e1-4024-b8ec-7d13026e6211
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   1 |     0.01 | 2020-10-07T17:55:57Z |
+:END:
+
+
+*** Back
+
+
+  - noun – The act of caressing or flattering servilely; mean obsequiousness.
+  - verb – Present participle of fawn.
+  - adjective – attempting to win favor by flattery
+  - adjective – attempting to win favor from influential people by flattery
+* what is  harried? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       8b594b1c-06a7-4677-910f-adf24fba58f6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: troubled persistently especially with petty annoyances
+
+    With a team of new hires to train, Martha was constantly harried with little questions and could not focus on her projects.
+* what is  besiege? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       cda11b28-fcda-4d60-9bd3-0aebe8f6e178
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:37:15Z |
+:END:
+
+
+*** Back
+
+
+  - verb: harass, as with questions or requests; cause to feel distressed or worried
+
+    - After discovering a priceless artifact in her backyard, Jane was besieged by phone calls, emails, and reporters all trying to buy, hold or see the rare piece of history.
+* what is  disbar? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       480ccd1a-f11d-4d03-a6e5-56a5d3cad011
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - In law, to expel from the bar, as a barrister; strike off from the roll of attorneys.
+  - transitive verb – To expel from the bar, or the legal profession; to deprive (an attorney, barrister, or counselor) of his status and privileges as such.
+  - verb – To expel from the bar, or the legal profession; to deprive (an attorney, barrister, or counselor) of his or her status and privileges as such.
+  - verb – To exclude someone from something.
+  - verb – remove from the bar; expel from the practice of law by official action
+
+* what is  fete? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       c199f25f-1783-4e1f-89d3-b81c40957562
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+  - verb: to celebrate a person
+  - After World War II, war heroes were feted at first but quickly forgotten.
+* what is  diffidence? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       50233c07-b7f4-4cda-8d0f-29847ae1d5b3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - noun – Distrust of one's self or one's own powers; lack of self-reliance; modesty; modest reserve; bashfulness.
+
+  - noun – The state of being diffident, timid or shy; reticence or self-effacement.
+
+  - noun – Mistrust, distrust, lack of confidence in someone or something.
+* what is  thoroughgoing? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       af1fc105-5d2a-4476-b4c7-441e03ba7341
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - adjective: very thorough; complete
+  - As a thoroughgoing bibliophile, one who had turned his house into a veritable library, he shocked his friends when he bought a Kindle.
+
+* what is  caviling? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       44c98757-457d-4b6e-b15e-bfaaf6787bd6
+:END:
+
+
+*** Back
+
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+  - noun – The act of raising captious and frivolous objections; an objection of a captious nature: as, “cavillings and menacings,”
+  - Raising frivolous objections; fault-finding.
+  - adjective – Disposed to cavil; finding fault without good reason. See captious.
+* what is  doting? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       0cf7f766-d281-4f99-8acf-31fef7c10768
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - Excessively fond.
+  - Also spelled doating.
+
+  - adjective – That dotes; silly; excessively fond.
+  - verb – Present participle of dote.
+  - adjective – Characterized by giving love and affection.
+  - noun – Excessive fondness; reverence.
+* what is  gloat? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       510b4763-2527-4d45-a15e-b86dd0666c4d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    | 2.50 |   0 |     0.00 | 2020-10-07T17:36:18Z |
+:END:
+
+
+*** Back
+
+  - To stare; gaze intently; specifically, to dwell or ponder with pleasure, as upon something that gratifies an evil passion or a corrupt propensity: as, to gloat over the corpse of an enemy; to gloat upon a lascivious spectacle; to gloat over the ruin of a rival.
+* what is  carping? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       fc8ffc32-a106-437f-bd09-a7c095fb02e0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - noun: persistently petty and unjustified criticism
+  - What seemed like incessant nagging and carping about my behavior from my mother turned out to be wise and useful advice that has served me well.
+* what is  groveling? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       11ef0f4b-6326-45c8-add9-461dbea203eb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+
+  - Lying with the face downward; lying prone; crawling; abject.
+
+  - Mean; low; without dignity or respect.
+  - Synonyms Abject, Low, Mean, etc. See abject. adjective – Lying prone; low; debased; submissive in a self-abasing manner.
+  -  adjective – totally submissive
+* what is  relinquish? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T17:31:44Z
+:FC_TYPE:  normal
+:ID:       39f3a247-2610-4241-b2df-a9c680f0dbd4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T17:31:44Z |
+:END:
+
+
+*** Back
+
+  - To give up the possession or occupancy of; withdraw from; leave; abandon; quit.
+  - To cease from; give up the pursuit or practice of; desist from: as, to relinquish bad habits.
+  - To renounce a claim to; resign:-as, to relinquish a debt.
+
+
+
+* What is panders? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T21:48:15Z
+:FC_TYPE:  normal
+:ID:       362f94ef-3e23-4d23-bc51-cd4f451c6e8f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T21:48:15Z |
+:END:
+*** Back
+The verb pander has 2 senses (no senses from tagged texts)
+1. gratify, pander, indulge -- (yield (to); give satisfaction to)
+2. pander, pimp, procure -- (arrange for sexual partners for others)
+*  What is inefable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T21:50:39Z
+:FC_TYPE:  normal
+:ID:       c56b6fc6-22bd-40d1-8dfb-64bc189b274d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T21:50:39Z |
+:END:
+
+
+*** Back
+
+ineffable
+
+adjective: too sacred to be uttered; defying expression or description
+
+While art critics can occasionally pinpoint a work's greatness, much of why a piece captures our imaginations is completely ineffable.
+
+
+* What is astounding? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T21:54:03Z
+:FC_TYPE:  normal
+:ID:       521418a2-fd16-4f2a-832c-eef62789074c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T21:54:03Z |
+:END:
+
+*** Back
+
+astounding
+
+Causing or fitted to cause surprise or wonder; causing amazement; highly astonishing.
+
+adjective – Of a nature to astound; astonishing; amazing.
+
+verb – Present participle of astound.
+
+adjective – That astounds or astound.
+
+*adjective – so surprisingly impressive as to stun or overwhelm*
+
+adjective – bewildering or striking dumb with wonder
+
+
+* What is trite? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T21:54:59Z
+:FC_TYPE:  normal
+:ID:       58bf9b9c-5e40-4386-908d-e3c8b6bfe9ad
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T21:54:59Z |
+:END:
+
+
+*** Back
+adjective: repeated too often; overfamiliar through overuse
+
+Many style guides recommend not using idioms in writing because these trite expressions are uninteresting and show a lack of imagination on the part of the writer.
+
+
+* what is edifying? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T21:57:01Z
+:FC_TYPE:  normal
+:ID:       47704f0b-14c0-4abc-9010-461019bdd331
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T21:57:01Z |
+:END:
+
+
+*** Back
+
+edifying
+
+adjective: enlightening or uplifting so as to encourage intellectual or moral improvement
+
+I recently read an article in the Times about whether good literature is edifying or not; specifically, does reading more make a person more moral.
+
+* What is thrall? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:02:19Z
+:FC_TYPE:  normal
+:ID:       68c15e63-fd67-4d0c-800d-04e975bae593
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:02:19Z |
+:END:
+*** Back
+
+
+noun – A slave; a serf; a bondman; a captive.
+
+noun – One who is a slave to some desire, appetite, spell, or other influence; one who is in moral bondage.
+
+noun – Thraldom, literal or figurative; bondage; slavery; subjection.
+
+noun – A shelf or stand; a stand for barrels.
+
+Enslaved; bond; subjugated.
+
+Figuratively, subject; enthralled.
+
+To deprive of liberty; enslave.
+
+* what is hemmed in ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:05:45Z
+:FC_TYPE:  normal
+:ID:       9561af1f-4191-45dd-873f-59d82be33408
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:05:45Z |
+:END:
+
+*** Back
+1. hem -- (fold over and sew together to provide with a hem; "hem my skirt")
+2. hem -- (utter `hem' or `ahem')
+
+* What is ineluctable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:08:02Z
+:FC_TYPE:  normal
+:ID:       9da49dd1-6077-4d2c-93c6-e7f3d365846e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:08:02Z |
+:END:
+*** Back
+
+ineluctable
+
+adjective: impossible to avoid or evade:
+
+For those who smoke cigarettes for years, a major health crisis brought on by smoking is ineluctable.
+
+
+* What is studied? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:09:33Z
+:FC_TYPE:  normal
+:ID:       a8eef196-1a25-44c8-b6b9-5515242954e9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:09:33Z |
+:END:
+
+
+*** Back
+studied
+
+Informed or qualified by study; instructed; versed; learned.
+
+Studiously contrived or thought out; premeditated; deliberate: as, a studied insult.
+
+adjective – Closely examined; read with diligence and attention; made the subject of study; well considered.
+
+adjective – Well versed in any branch of learning; qualified by study; learned.
+
+*adjective – Premeditated; planned; designed.*
+
+
+
+
+* What is tawdry? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:12:40Z
+:FC_TYPE:  normal
+:ID:       341dcc2f-b200-4eb6-b6b8-b157c83e67d9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:12:40Z |
+:END:
+
+*** Back
+
+tawdry
+
+adjective: tastelessly showy; cheap and shoddy
+
+Carol expected to find New York City magical, the way so many movies had portrayed it, but she was surprised how often tawdry displays took the place of genuine elegance.
+
+
+* What is treacly? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:12:15Z
+:FC_TYPE:  normal
+:ID:       336baebd-333b-4c8d-9eab-e43d6ec5b7b0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:12:15Z |
+:END:
+
+
+*** Back
+
+treacly
+
+Composed of or like treacle abounding in treacle; sweet and viscous.
+
+adjective – Like, or composed of, treacle.
+
+adjective – thick and sticky
+
+*adjective – consisting of treacle, or cloying sentimental speech*
+
+*adjective – overly sweet*
+
+
+* What is numinous? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:13:56Z
+:FC_TYPE:  normal
+:ID:       3494d97e-c691-452e-b107-41dd08933a0b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:13:56Z |
+:END:
+
+
+*** Back
+
+numinous
+
+adjective – Evincing the presence of a deity.
+
+adjective – same as supernatural.
+
+adjective – Related to a numen; indicating the presence of a divinity
+
+adjective – Awe-inspiring; evoking a sense of the transcendent, mystical or sublime.
+
+adjective – of or relating to or characteristic of a numen
+
+adjective – evincing the presence of a deity
+
+
+* What is hagiographic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-07T22:14:19Z
+:FC_TYPE:  normal
+:ID:       9e36a0e1-437d-4d62-a470-44cf4dab957e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-07T22:14:19Z |
+:END:
+
+*** Back
+
+hagiographic
+
+adjective: excessively flattering toward someone's life or work
+
+Most accounts of Tiger Woods's life were hagiographic, until, that is, his affairs made headlines.
+* What is broadside? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:47:47Z
+:FC_TYPE:  normal
+:ID:       d2835262-71b5-43b3-b6af-190784bd9e6b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:47:47Z |
+:END:
+
+*** Back
+
+broadside
+
+noun: a strong verbal attack
+
+Political broadsides are usually strongest in the weeks leading up to a national election.
+
+* What is prognostication? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:48:14Z
+:FC_TYPE:  normal
+:ID:       cf5a4059-f021-4ad7-ab18-4f8fd1056f79
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:48:14Z |
+:END:
+*** Back
+
+prognostication
+
+noun: a statement made about the future
+
+When the Senator was asked about where the negotiations would lead, he said that any guess he could make would be an unreliable prognostication.
+
+
+* What is querulous? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:48:34Z
+:FC_TYPE:  normal
+:ID:       16b8363c-94e0-41be-a6bd-e052fd543a0a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:48:34Z |
+:END:
+*** Back
+
+querulous
+
+adjective: habitually complaining
+
+The querulous old woman was beginning to wear down even the happier members of the staff with her ceaseless complaining.
+
+
+* What is vapid? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:50:31Z
+:FC_TYPE:  normal
+:ID:       15ae36cc-2692-4239-8de2-e47ff404f716
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:50:31Z |
+:END:
+*** Back
+ empty and uninspiring.
+
+
+* What is superannuated? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:52:05Z
+:FC_TYPE:  normal
+:ID:       8652f591-636b-4d7a-b1c7-ed2496409790
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:52:05Z |
+:END:
+*** Back
+(A) simply means very old or obsolete, neither of which is captured by the context.
+
+
+
+* What is ostensibly? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:54:58Z
+:FC_TYPE:  normal
+:ID:       0302f6df-1b8a-4f87-afca-ee6fb758e906
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:54:58Z |
+:END:
+*** Back
+ostensibly
+
+In an ostensible manner; as shown or pretended; professedly.
+
+adverb – In an ostensible manner; avowedly; professedly; apparently.
+
+adverb – seemingly, apparently, on the surface
+
+adverb – from appearances alone
+
+
+* What is squelch? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T17:58:52Z
+:FC_TYPE:  normal
+:ID:       eba0789e-f192-480c-99d7-e01153843b3f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T17:58:52Z |
+:END:
+*** Back
+
+squelch
+
+verb: suppress or crush completely
+
+After the dictator consolidated his power, he took steps to squelch all criticism, often arresting any journalist who said anything that could be interpreted as negative about his regime.
+
+
+
+
+* What is unprepossessing? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:02:13Z
+:FC_TYPE:  normal
+:ID:       b6c7477f-45e4-4e00-a4ac-72de631320de
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:02:13Z |
+:END:
+*** Back
+adjective: creating an unfavorable or neutral first impression
+
+World leaders coming to meet Gandhi would expect a towering sage, and often would be surprised by the unprepossessing little man dressed only in a loincloth and shawl.
+
+
+
+* What is beguiling? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:02:42Z
+:FC_TYPE:  normal
+:ID:       c5ae75d8-2713-4f7e-8081-cdb84e1a357b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:02:42Z |
+:END:
+*** Back
+adjective – Alluring by guile; deluding; misleading; diverting.
+
+verb – Present participle of beguile.
+
+noun – A beguilement.
+
+adjective – That beguiles or beguile.
+
+adjective – misleading by means of pleasant or alluring methods
+
+adjective – highly attractive and able to arouse hope or desire
+
+* What is burgeon? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:03:54Z
+:FC_TYPE:  normal
+:ID:       fa4c4f8b-e0a3-4ab8-aef9-aa0b61bd460c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:03:54Z |
+:END:
+*** Back
+The verb burgeon has 1 sense (first 1 from tagged texts)
+1. (3) burgeon -- (grow and flourish; "The burgeoning administration"; "The burgeoning population")
+* What is peter out ? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:05:07Z
+:FC_TYPE:  normal
+:ID:       f69b7031-645b-4b95-be0a-7df874c17476
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:05:07Z |
+:END:
+
+*** Back
+peter out
+— phrasal verb with peter verb
+uk
+/ˈpiː.tər/ us
+/ˈpiː.t̬ɚ/
+to gradually stop or disappear:
+The fighting which started in the night had petered out by morning.
+The track petered out after a mile or so.
+* What is discountenance :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:12:55Z
+:FC_TYPE:  normal
+:ID:       81b6ee2d-c2f0-4c2c-939c-cde81f86303f
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:12:55Z |
+:END:
+
+*** Back
+to put out of countenance; put to shame; abash.
+
+To set the countenance against; show disapprobation of; hence, to discourage, check, or restrain: as, to discountenance the use of wine; to discountenance the frivolities of the age.
+
+noun – Cold treatment; unfavorable aspect; unfriendly regard; disapprobation; whatever tends to check or discourage.
+
+
+* What is brook? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:13:22Z
+:FC_TYPE:  normal
+:ID:       e348272a-f8e1-4e3c-bd64-b0d49e4c8fbe
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:13:22Z |
+:END:
+
+*** Back
+brook
+
+verb: put up with something or somebody unpleasant
+
+While she was at the chalkboard, the teacher did not brook any form of talking--even a tiny peep resulted in afternoon detention.
+
+* What is contumely? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:13:47Z
+:FC_TYPE:  normal
+:ID:       e3da8886-aef5-4442-90cf-ad3de6a7dc20
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:13:47Z |
+:END:
+*** Back
+
+contumely
+
+noun – Insolently offensive or abusive speech; haughtiness and contempt expressed in words; overbearing or reviling language; contemptuousness; insolence.
+
+noun – A contumelious statement or act; an exhibition of haughty contempt or insolence.
+
+noun – Synonyms Abuse, rudeness, scorn.
+
+noun – Rudeness compounded of haughtiness and contempt; scornful insolence; despiteful treatment; disdain; contemptuousness in act or speech; disgrace.
+
+noun – Offensive and abusive language or behaviour; scorn, insult.
+
+*noun – a rude expression intended to offend or hurt*
+
+
+
+* What is hackneyed? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:16:05Z
+:FC_TYPE:  normal
+:ID:       6f67496c-69e7-42fa-bf44-dd8b15590314
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:16:05Z |
+:END:
+*** Back
+adjective: lacking significance through having been overused
+
+Cheryl rolled her eyes when she heard the lecturer's hackneyed advice to "be true to yourself."
+
+
+* what is forthright? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:17:39Z
+:FC_TYPE:  normal
+:ID:       95506dd7-c65e-4164-9e3f-0f1fb8b03055
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:17:39Z |
+:END:
+
+
+*** Back
+
+adjective: characterized by directness in manner or speech; without subtlety or evasion
+
+I did not expect the insurance agent to give us any straight answers, but I was pleasantly surprised by how forthright he was.
+* What is opprobrium? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:20:09Z
+:FC_TYPE:  normal
+:ID:       b1e327c0-d161-4e87-b1e5-d6c9f65e51b6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:20:09Z |
+:END:
+
+*** Back
+1. obloquy, opprobrium -- (state of disgrace resulting from public abuse)
+2. infamy, opprobrium -- (a state of extreme dishonor; "a date which will live in infamy"- F.D.Roosevelt; "the name was a by-word of scorn and opprobrium throughout the city")
+* What is panegyric? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:21:01Z
+:FC_TYPE:  normal
+:ID:       01605456-ce59-48b4-a52d-0e9252d89381
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:21:01Z |
+:END:
+
+*** Back
+1. encomium, eulogy, panegyric, paean, pean -- (a formal expression of praise)
+
+praise, congratulations, kudos, extolment
+
+
+* What is botched? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:21:29Z
+:FC_TYPE:  normal
+:ID:       b39ec0e1-42f1-439a-a836-29c7eaa259eb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:21:29Z |
+:END:
+
+
+*** Back
+1. botch, bodge, bumble, fumble, botch up, muff, blow, flub, screw up, ball up, spoil, muck up, bungle, fluff, bollix, bollix up, bollocks, bollocks up, bobble, mishandle, louse up, foul up, mess up, fuck up -- (make a mess of, destroy or ruin; "I botched the dinner and we had to eat out"; "the pianist screwed up the difficult passage in the second movement")
+
+
+* What is brook? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:21:55Z
+:FC_TYPE:  normal
+:ID:       5f5e6d28-9bc6-4876-9129-2043284d4127
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:21:55Z |
+:END:
+
+*** Back
+1. (1) digest, endure, stick out, stomach, bear, stand, tolerate, support, brook, abide, suffer, put up -- (put up with something or somebody unpleasant; "I cannot bear his constant criticism"; "The new secretary had to endure a lot of unprofessional remarks"; "he learned to tolerate the heat"; "She stuck out two years in a miserable marriage")
+
+* What is trite? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-09T18:22:23Z
+:FC_TYPE:  normal
+:ID:       b450f96b-0cb8-4194-8d99-7598a546992a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-09T18:22:23Z |
+:END:
+
+*** Back
+1. (1) banal, commonplace, hackneyed, old-hat, shopworn, stock, threadbare, timeworn, tired, trite, well-worn -- (repeated too often; overfamiliar through overuse; "bromidic sermons"; "his remarks were trite and commonplace"; "hackneyed phrases"; "a stock answer"; "repeating threadbare jokes"; "parroting some timeworn axiom"; "the trite metaphor `hard as nails'")
