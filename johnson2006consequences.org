@@ -1,0 +1,45 @@
+#+TITLE: cite:Consequences of positivism: a pragmatist assessment
+#+ROAM_KEY: cite:johnson2006consequences
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: johnson2006consequences
+:NOTER_DOCUMENT: %(orb-process-file-field "johnson2006consequences")
+:AUTHOR: Johnson, J.
+:JOURNAL: Comparative Political Studies
+:DATE:
+:YEAR: 2006
+:DOI:
+:URL:
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+This a great, and in some sense traditional (at least if you are acquainted with elter and goldthorpe), criticism of the philosophical assumptions of kkv and their dire consequences
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That kkv is positivist, in a specific sense (the vienna circle vulgarization), and this has bad consequences for political research (even the naturalist kind). 
+** What are the specific arguments of the text?
+** What are the main concepts of the text?
+- inference as generalization (johnson's translation of kkvv)
+- pragmatic consequentialism
+  #+begin_quote
+, pragma- tism approaches theories and concepts instrumentally and assesses them
+in terms of their consequences
+  #+end_quote
+- theory of inquiry (vision of social science )
+- explanation as identification of variation generators
+   #+begin_quote
+This means that there is no room in their theory of inquiry for causal
+explanation understood as requiring analysts to identify the causal factors
+that generate variation in the phenomena being studied
+#+end_quote
+
+- primacy of observation (seeing to believe)
+- causation as a generative process (goldhthorpe 2001)
+- Lipset hypothesis
+- Duverger's law
+- mechanism: entities, activities and conditions

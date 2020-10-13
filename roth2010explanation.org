@@ -26,3 +26,22 @@ To define what explanation is, or at least to say how it has been traditionally 
 ** What are the specific arguments of the text?
 
 ** What are the main concepts of the text?
+- explanation vs interpretation : reconstruct agents reasons for actions vs robust predictive value
+  #+begin_quote
+The most fundamental concerns whether
+or not the goal or purpose of social inquiry should
+be to reconstruct actions (i.e., purposive behavior)
+in terms of an agent’s (individual actor’s) perspec-
+tive. An alternative view maintains that the pur-
+pose of social inquiry should be to develop
+explanations, that is, accounts that have robust
+predictive value.
+  #+end_quote
+- positivist
+  #+begin_quote
+, the term positivism enjoys wide use
+as an epithet attached to all views that insist that
+the purpose of social science explanation requires
+being able to apply generalizations to account for
+observed cases
+  #+end_quote

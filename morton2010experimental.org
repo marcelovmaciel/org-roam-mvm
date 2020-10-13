@@ -1,0 +1,26 @@
+#+TITLE: cite: Experimental political science and the study of causality: from nature to the lab
+#+ROAM_KEY: cite:morton2010experimental
+*  Notes
+:PROPERTIES:
+:Custom_ID: morton2010experimental
+:NOTER_DOCUMENT: %(orb-process-file-field "morton2010experimental")
+:AUTHOR: Morton, R. B. & Williams, K. C.
+:JOURNAL:
+:DATE:
+:YEAR: 2010
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Morton is a relevant EITM proponent, which can be seen as a search for unification within a logical empiricist epistemology. Her favoured route, however, is indeed interesting : experimental research + formal theory. Most of the examples are about information and voting, so the book not only teaches concepts, but instantiates them with cool, though outdated, papers.
+
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+In general, is to teach experimental methods for political scientists
+** What are the specific arguments of the text?
+** What are the main concepts of the text?
