@@ -24,3 +24,14 @@ Morton is a relevant EITM proponent, which can be seen as a search for unificati
 In general, is to teach experimental methods for political scientists
 ** What are the specific arguments of the text?
 ** What are the main concepts of the text?
+
+
+
+* Further references
+- cite:dawid13_fittin_scien_into_legal_contex
+- cite:gelman2013ask
+- cite:goldthorpe2016sociology
+- cite:guala2005methodology
+- cite:Imbens_2019
+- cite:heckman17_abduc_econom
+-

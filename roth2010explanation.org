@@ -18,14 +18,49 @@
 I am reading this text to understand what counts as an explanation and how it relates to causality and interpretation. Particularly, I intend to use cite:johnson2006consequences, cite:king1994designing, cite:roberts18_what_is_polit_method,
 cite:slembrouck01_explan_inter_critiq_analy_discour
 
-and delineate what is what. Right now, I believe that the interventionist view gives the proper conceptualization of causality, but not of explanation. The cause of effects vs effects of causes debate by cite:morton2010experimental and the arguments of cite:johnson2006consequences and Goldthorpe about causal mechanisms allow me to argue that causality is something akin to RCM, but causal mechanisms are needed for proper explanation.
+ and delineate what is what. Right now, I believe that the interventionist view gives the proper conceptualization of causality, but not of explanation. The cause of effects vs effects of causes debate by cite:morton2010experimental and the arguments of cite:johnson2006consequences and Goldthorpe about causal mechanisms allow me to argue that causality is something akin to RCM, but causal mechanisms are needed for proper explanation.
 * Struct questions
 
 ** What is the goal/ general argument of the text?
 To define what explanation is, or at least to say how it has been traditionally defined. 
 ** What are the specific arguments of the text?
+- D-n is not sufficient for explanation (spurious correlations) and the model relies on robust generalizations which may not exist in social science
+- From some point of view explanation does not need to interpret, that is, it does not "need to reflect or reconstruct the view of agents with respect to the events to be explained."
+  #+begin_quote
+So, for example, economic explanations of choice of marital partner or eco-
+logical explanations of cultural traditions employ underlying regularities to
+account for observed behaviors but diverge from any account that might be
+offered of those whose behavior is so explained.
+  #+end_quote
+- Positivist means many things. Roth says that it usually is about requiring generalization for explanation. That is, he frames it as the generalist position in kkv dichotomy. He recognizes that it is somehow related to both Comte and the vienna circle
+  - Comte
+  - Vienna circle (HD+ DN)
+  - Generalist-systematic (vs the humanist-interpretive)
 
+- The Logical positivists used to criteria for good theory: conditional syntax + empirical testability
+- Models of scientific explanation tend to take it as some relation between theory and instances
+- Two typical criticisms of explanation:
+  - They do not incorporate the perspective of subjects (not strictly true)
+  - the syntatic structure precludes normative evaluation (true, but moot)
+- While trying to illustrate the difference between explanation and interpretation, Roth ends up giving an example which is not particularly good. It is only bad research from both sides
+  #+begin_quote
+The difference between
+explanations here is just the difference between an
+emphasis on the culturally specific and a universal-
+izing rational agent approach to explanation. The
+former explains by reconstructing the agents’ rea-
+sons for doing what they did but yields no general-
+ization. The latter explains by seeing this action as
+typifying what any rational agent (taken as a
+generic notion) would do in such a case. The same
+explanandum event is in this instance explained by
+incompatible explanantia.
+  #+end_quote
+- Postpositivist accounts fail to provide an unifying characterization of science
+- For Roth what constitutes the mark of explanation is still unkown. This is also not true. 
 ** What are the main concepts of the text?
+
+- D-N : explanatia (antecedent conditions) -> explanandum (event to be explained)
 - explanation vs interpretation : reconstruct agents reasons for actions vs robust predictive value
   #+begin_quote
 The most fundamental concerns whether
@@ -44,4 +79,9 @@ as an epithet attached to all views that insist that
 the purpose of social science explanation requires
 being able to apply generalizations to account for
 observed cases
+  #+end_quote
+- Explanatory underdetermination
+  #+begin_quote
+is, the fact that competing
+explanatory frameworks appear capable of accounting for the known data.
   #+end_quote

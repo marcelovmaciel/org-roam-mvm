@@ -120,7 +120,7 @@ Dont forget the philisophers take on measurement. Take notes!!!
 - Knight 1992 Power norms emergence
 - path dependence and group rationality: can path dependence LEAD TO group rationality? see list paper.
 
-* Boyd and richerson model explaining the Young socialist old conservative
+
 
 * Tomasello -> shared and collective intentionality vs stakes
 - One important concept is the one of *intentionality*
@@ -142,3 +142,28 @@ Dont forget the philisophers take on measurement. Take notes!!!
 
 * evolutionary gans
 rock paper and scissors
+
+- QRE might be useful too
+- As well as mckelvey last paper !
+
+
+* The abductive jump and storytelling
+
+- Explanation as hallmark of science;
+- Zooming out of the theory-empirics strict coupling (dunheim problem as typical
+  in myopic)
+- EOC and COF interplay as explanation;
+- Abductive jump through story telling;
+  - There are at least two moments in the usage of theoretical models: as credible worlds or as analogies (fables). What they are differ from how they are used. 
+
+- [[https://www.amazon.com/-/pt/dp/0822959267][Amazon.com: Four Decades of Scientific Explanation (9780822959267): Salmon, W...]]
+
+(see further references in Morton note)
+
+- Bradley efron new paper might be useful too (for contrasting with prediction
+  in a ml setting) cite:efron20_predic_estim_attrib
+- Pearl Causality Chap 9
+
+* Port vats and knudson to Turing.jl
+- https://arxiv.org/pdf/1812.09384.pdf Revisiting the gelman rubin diagnostic
+

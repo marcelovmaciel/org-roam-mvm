@@ -85,7 +85,7 @@ purely concerned with producing the right, deductively derived output given a ce
 - He says models are fables. This does not do justice to the mediating property
   of models. As Schelling I think theoretical models AND empirical models are
   objects/tools. The theoretical models are toys for conceptual story telling.
-  Empirical models are maps for empirical story telling.
+  Empirical models are maps for empirical story telling (gelman comes here).
 Kelly paper on the game of science, in cite:bold2007foundations  ,  may be relevant
 
 

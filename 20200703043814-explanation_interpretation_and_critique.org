@@ -1,13 +1,24 @@
 #+TITLE: Explanation, interpretation and critique
 - tags :: [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]]
 
-  I have a general view of things that I consider interesting. This note here will be the place used to try to organize [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]] into some categories. I'm particularly interested in differentiating:
+  I have a general view of things that I consider interesting. This note here
+  will be the place used to try to organize [[file:20200628152829-my_weltanschauung.org][My Weltanschauung]] into some
+  categories. I'm particularly interested in differentiating:
 
   - positive x normative x critical
   - empirical x  theoretical
   - explanation x interpretation x critique
 
-The positive x normative is a difference of focus. All positive research is value laden, most clearly in motivating the research and in the derivations that usually follow from analysis. On the other hand all normative research has positive assumptions, even if of historical nature (horizon). This final take is the critical one. A critical view is related to the *emancipatory* nature of the research. A critique is exactly a reevaluation of both positive and normative categories in terms of how they might contribute to the emancipation of mankind according to some big mix of normative-positive-historical narrative. Positive and normative concepts are interrelated, while the critical dimension stays above them.
+The positive x normative is a difference of focus. All positive research is
+value laden, most clearly in motivating the research and in the derivations that
+usually follow from analysis. On the other hand all normative research has
+positive assumptions, even if of historical nature (horizon). This final take is
+the critical one. A critical view is related to the *emancipatory* nature of the
+research. A critique is exactly a reevaluation of both positive and normative
+categories in terms of how they might contribute to the emancipation of mankind
+according to some big mix of normative-positive-historical narrative. Positive
+and normative concepts are interrelated, while the critical dimension stays
+above them.
 
 
 - Description + explanation + interpretation + normative analysis + critique

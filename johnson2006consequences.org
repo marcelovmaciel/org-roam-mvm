@@ -22,7 +22,114 @@ This a great, and in some sense traditional (at least if you are acquainted with
 
 ** What is the goal/ general argument of the text?
 That kkv is positivist, in a specific sense (the vienna circle vulgarization), and this has bad consequences for political research (even the naturalist kind). 
-** What are the specific arguments of the text?
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       e85376ef-b7ca-4ece-825a-f4737c8032ba
+:END:
+- KKV posits generalization as the nearly exclusive aim of good social science
+- Their underlying logic is commited to a specific conception of descriptive and causal inference
+  - One thing I disagree with johnson is that causal mechanisms lead to a different "logic" of causal inference (maybe I can counter this tendency of mine by reading freedman)
+- For johson the underlying unity lies within the construction of causal explanations which involve specifying underlying, unobservable, mechanisms that generate the patterns.
+- *One important thing he mentions is having explanation as goal which unifies the science does not entail embracing positivism.*
+- One of his main points is that KKV ends up misconstruing even quantitative research
+- The second point is that KKV does not sidestep philosophy (which is obvious for me)
+- Johnson as usual defends that scientific progress comes both from the empirical and the conceptual fronts
+- More than a defense of causal mechanisms vis à vis potential outcomes - which is how Johnson frames - johson criticism echoes Morton's view that CoE matters a lot
+  #+begin_quote
+here is no room in their theory of inquiry for causal
+explanation understood as requiring analysts to identify the causal factors
+that generate variation in the phenomena being studied. As a consequence,
+KKV’s theory of inquiry cannot make sense of repeated demands by those
+engaged in quantitative political science for just that sort of explanation
+  #+end_quote
+- Seeing is believing is one of kkv's mottos.  this a positivist motto to which we can counterague: how do we know what we are seeing is real/important/relevant/nonspurious? 
+  #+begin_quote
+KKV ask, “Social scientists who focus on only overt, observable behaviors are missing a
+lot, but how are we to know if we cannot see?” (p. 41). It is useful to juxtapose their query with
+this remark: “Positivism results from the conception that seeing is believing” (Hacking, 1983,
+p. 63).
+  #+end_quote
+- A great deal of KKV ideological stance is indeed the observable consequences argument:
+  #+begin_quote
+KKV do not seek to
+dispense altogether with unobservable theoretical entities [...]
+They insist that abstract classifications and
+unobservable concepts although unavoidable, are justified insofar as they
+contribute to generality.
+[...]
+the best way to immunize
+social research from the potentially damaging influence of unobservable fac-
+tors is to tightly link whatever concepts we employ to their “observable con-
+sequences” (p. 111).
+  #+end_quote
+- Johnson argues that indeed interpretivists have generality as a goal, even if implicitly. Here kkv's and Johson's positions converge
+- The problem is that kkv *redefines* causality in terms of observables and explanation as the estimation of causal effects
+  #+begin_quote
+The view KKV endorse
+purportedly redefines causality in terms of observable outcomes—the causal
+effect. This, in turn, allows them to reduce the task of explanation (recall [3’]
+and [4] in the previous section) to the estimation of causal effects. In this way,
+passages such as the one quoted above notwithstanding, KKV do not depart
+from the basic positivist commitments Hacking (1983) identifies. If seeing
+is believing, then one task for positivists simply is to redefine any suspect
+philosophical concepts in terms that render them more fully susceptible to
+the protective force of observation
+  #+end_quote
+- The above criticism is the main point of the article
+- Johnson continues his argument by advocating causal mechanisms:
+  #+begin_quote
+Explanation involves the effort to identify how observed phe-
+nomena are brought about, to specify the causal mechanisms that generate
+those features of the world for which we wish to account. In stark contrast to
+the view KKV advance, then, there appears to be broad agreement among
+philosophers that “citing causes explains while citing effects does not” Hausman 1998, pp. 161-163).
+  #+end_quote
+
+- The DGP is not completely (empirical evidence and inference) or even directly observable (theory and its consequences)
+
+- The consequences of theory might be useful beyond testing the theory. This way I disagree both with Johnson and with KKV !!! HAHAHAH 
+
+- Acting strategically is the example johson provides of nonobservable explanation
+#+begin_quote
+The most commonly
+accepted mechanisms each presume that some political actors (elites or vot-
+ers or both) act strategically. And this, of course, drives a wedge between
+their “observable” behavior and the reasons (beliefs and preferences) that
+motivate it
+#+end_quote
+
+- I'm not sure I follow johnson here. To explain using strategic models the works do not test the models per se, obviously, but analyze conditions to determine whether the game indeed happens in the situation. That is what the whole study of rationalizability is about after all. We do study both empirical conditions and corollaries (effects) of theoretical arguments.
+- Obviously, identifying the empirical regularity,  the causal effect is not enough. Here we are in agreement. However, there is a interplay with "observable consequences" which Johnson does not recognize.
+- Indeed, theory must not be subordinate to the task of "testing" it and KKV do argue that the formulation of theories must be done with falsification in mind
+  #+begin_quote
+ost of that advice (again, recall passages [1] and [5] above, for
+instance) subordinates the task of formulating theory to the anticipated de-
+mands of testing or assessing it—at least as KKV interpret those demands. In
+that sense, their advice suffers from the mistaken notion that theory adds
+nothing to a plausible explanation over and above what can be gleaned from
+confronting some hypothesis with what they call “the hard facts of empirical
+reality” (King et al., 1995, p. 475)
+  #+end_quote
+
+- Once again, I believe that Johnson gleans at least two levels of kinds of "positive theory".
+
+- - Johnson argument about *qualitative* theory is indeed useful. He argues that qualitative research IS NOT simply another way of "gathering observations". As others argue it is much more than that. KKV argument can be salvaged if we argue that we are investigating causal mechanisms, and as such we are soaking and poking to find / infer them. That way qualitative research is a zoom in to infer specific situations and processes that the superficial view provided by statistical methods cannot achieve (freeman here).
+-
+- This argument is relevant for my position that the apparatus of Pearl might help in bridging theoretical and statistical modeling
+  #+begin_quote
+. In response to this uneasi-
+ness, pragmatists recommend that we abandon the positivist endeavor to
+inoculate our research against unobservable theoretical entities and instead
+pay explicit attention to how we can usefully incorporate them into our
+explanations
+  #+end_quote
+- One side contribution of the text is providing a definition of mechanisms:
+
+[[attachment:_20201019_202657screenshot.png]]
+- As sicussed by Johnson, the study of mechanisms is not only about the mechanisms themselves, but particularly about the *conditions* in which they operate. He does disagree with Elster who sees the causal mechanistic perspective as simply the gathering of mechanisms. For Johnson they activation condition is the key for generalization in a causal mechanistic perspective of explanation. I wonder whether this is how we can connect the argument pattern with the causal mechanisms perspective. I also wonder if this perspective by Machamer is general enough to allow us to go beyond methodological individualism for example. If it is not simply an expression of that (as, I believe, goldthorpe is).
+
+  - A final minor point is that causal mechanisms are not about intervening variables. This is something that I have to think more about (p.248). Johnson argues that to treat them as variables is also a way of reconceptualizing them. Along the same lines, to say that a causal mechanistic perspective leads to infinite regress is a double standard because the same could be said about virtually any empirical research.
+    \(\text{\textcolor{red}{must take notes of clarke and primo last chapter and come back here}}\)
 ** What are the main concepts of the text?
 - inference as generalization (johnson's translation of kkvv)
 - pragmatic consequentialism
@@ -37,9 +144,56 @@ This means that there is no room in their theory of inquiry for causal
 explanation understood as requiring analysts to identify the causal factors
 that generate variation in the phenomena being studied
 #+end_quote
-
 - primacy of observation (seeing to believe)
+
 - causation as a generative process (goldhthorpe 2001)
+
 - Lipset hypothesis
+
 - Duverger's law
+
 - mechanism: entities, activities and conditions
+
+- Theory of inquiry:
+  #+begin_quote
+the rules of method are themselves theories or conjectures about how objects like us living in a world
+like this one might sort and choose between the ideas that occur to them. Our theories about inquiry, as
+embodied in the methodology of science, reflect long efforts by trial and error at figuring out how to
+produce dependable knowledge. (Laudan 1990, p. 102)
+  #+end_quote
+
+** What is the gist of the text?
+
+It argues that KKV define causality and explanation as almost synonyms, with causality being defined in a purely empirical EOC way which is not how social scientists tend to think about causality. This problematization of how KKV define causality and explanation is the gist of the text. 
+
+A second thing that sticks is that we can be on the generalist systematic side while not being a positivist.
+
+#+begin_quote
+Those positivist commitments drive a preoccupation with obser-
+vation and generalization that in turn, leads KKV to embrace a revisionist
+definition of causality, a corresponding understanding of explanation, and a
+litany of methodological advice that simply leaves no room for the crucial
+conceptual tasks demanded by explanation as it commonly is understood.
+#+end_quote
+* Further references
+
+Laudan, L. (1981). A problem solving approach to scientific progress. In I. Hacking (Ed.), Scien-
+tific revolutions (pp. 144-155). New York: Oxford University Press.
+
+Laudan, L. (1990). Science and relativism. Chicago: University of Chicago Press.
+Laudan, L. (1996). Beyond positivism and relativism. Boulder, CO: Westview.
+
+
+Johnson, J. (2002). How conceptual problems migrate: Rational choice, interpretation, and the
+hazards of pluralism. Annual Review of Political Science, 5, 223-248.
+
+Johnson, J. (2003). Conceptual problems as obstacles to progress in political science. Journal of
+Theoretical Politics, 15(1), 87-115.
+
+
+
+Hausman, D. (1998). Causal asymmetries. New York: Cambridge University Press.
+
+
+Machamer, P., Darden, L., & Craver, C. (2000). Thinking about mechanisms. Philosophy of Sci-
+ence, 67(1), 1-25

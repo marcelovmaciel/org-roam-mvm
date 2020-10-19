@@ -576,7 +576,7 @@ For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-10-01T19:27:10Z |
+| front    | 2.50 |   1 |     0.01 | 2020-10-14T18:49:51Z |
 :END:
 
 *** Back :ATTACH:
@@ -4215,7 +4215,7 @@ eans something that occurs over the seasons and is constant throughout the years
 :END:
 
 
-*** Back
+*** Back :ATTACH:
 
 
   - To drink together; hence, to talk familiarly or socially. Also hob-a-nob, hob-and-nob, hob-or-nob.
@@ -4231,6 +4231,10 @@ eans something that occurs over the seasons and is constant throughout the years
   - intransitive verb – To associate familiarly; to be on intimate terms.
 
   - adverb – Have or have not; -- a familiar invitation to reciprocal drinking.
+
+[[attachment:_20201014_153741screenshot.png]]
+
+
 * what is  muckrake? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-10-07T17:31:44Z
@@ -4366,7 +4370,7 @@ eans something that occurs over the seasons and is constant throughout the years
 :END:
 
 
-*** Back
+*** Back :ATTACH:
 
 
   - noun – Alternative spelling of largess.
@@ -4374,6 +4378,9 @@ eans something that occurs over the seasons and is constant throughout the years
   - noun – a gift or money given (as for service or out of benevolence); usually given ostentatiously
 
   - noun – liberality in bestowing gifts; extremely liberal and generous of spirit
+
+[[attachment:_20201014_153508screenshot.png]]
+
 * what is  sanguine? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-10-07T17:31:44Z
@@ -5146,7 +5153,7 @@ verb: suppress or crush completely
 
 After the dictator consolidated his power, he took steps to squelch all criticism, often arresting any journalist who said anything that could be interpreted as negative about his regime.
 
-
+silenciar
 
 
 * What is unprepossessing? :fc:
@@ -6763,3 +6770,690 @@ The verb impugn has 1 sense (no senses from tagged texts)
   1. (2) alert, brisk, lively, merry, rattling, snappy, spanking, zippy -- (quick and energetic; "a brisk walk in the park"; "a lively gait"; "a merry chase"; "traveling at a rattling rate"; "a snappy pace"; "a spanking breeze")
   2. (1) bracing, brisk, fresh, refreshing, refreshful, tonic -- (imparting vitality and energy; "the bracing mountain air")
   3. brisk -- (very active; "doing a brisk business")
+
+
+* What is buttressed? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-16T19:22:45Z
+:FC_TYPE:  normal
+:ID:       0af9258e-9beb-4416-8c51-930218c662cb
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-16T19:22:45Z |
+:END:
+
+*** Back
+Furnished with a buttress or buttresses: said of an arch, or of a building or part of a building, as a Gothic church.
+
+adjective – having buttresses or supports.
+
+verb – Simple past tense and past participle of buttress.
+
+adjective – held up by braces or buttresses
+
+* What is admonitory? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-16T19:23:27Z
+:FC_TYPE:  normal
+:ID:       ac4eacfa-713b-4574-afae-4afad34a8df3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-16T19:23:27Z |
+:END:
+*** Back
+
+admonitory
+
+adjective: serving to warn; expressing reproof or reproach especially as a corrective
+
+*reproving, cautionary*
+
+At the assembly, the high school vice-principal gave the students an admonitory speech, warning them of the many risks and dangers of prom night.
+
+
+
+
+* What is ebb? :ATTACH:
+:PROPERTIES:
+:ID:       1c23d56b-973c-4bcd-bda6-c6a6c50fc808
+:END:
+
+
+
+ noun – A flowing backward or away; decline; decay; a gradual falling off or diminution: as, the ebb of prosperity; crime is on the ebb.
+
+To flow back; return, as the water of a tide, toward the ocean; subside: opposed to flow: as, the tide ebbs and flows twice in twenty-four hours.
+
+To return or recede; fall away; decline.
+
+
+[[attachment:_20201016_162656screenshot.png]]
+
+
+
+
+
+
+* What is a canard? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-16T19:32:52Z
+:FC_TYPE:  normal
+:ID:       bf2fa873-8ace-4859-a6b9-64e962a90dbd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-16T19:32:52Z |
+:END:
+*** Back
+
+
+ noun – An absurd story or statement intended as an imposition; a fabricated story to which currency is given, as by a newspaper: a *hoax*.
+
+noun – Hence A broadside cried in the streets: so called from the generally sensational nature of its contents.
+
+noun – An extravagant or absurd report or story; a fabricated sensational report or statement; esp. one set afloat in the newspapers to hoax the public.
+
+*noun – A false or misleading report or story, especially if deliberately so.*
+
+noun – A type of aircraft in which the primary horizontal control and stabilization surfaces are in front of the main wing.
+
+
+* What is encomiastic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:00:09Z
+:FC_TYPE:  normal
+:ID:       1723090e-ef5f-483b-ad0e-297ee38257bd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:00:09Z |
+:END:
+
+*** Back
+
+
+encomiastic
+
+Bestowing praise; commendatory; laudatory; eulogistic: as, an encomiastic address or discourse.
+
+noun – An encomium.
+
+adjective – Bestowing praise; praising; eulogistic; laudatory.
+
+
+
+
+* What is offing? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:00:51Z
+:FC_TYPE:  normal
+:ID:       62d24b9a-b6df-4894-ab76-8d89ad028ada
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:00:51Z |
+:END:
+
+*** Back
+1. offing -- (the near or foreseeable future; "there was a wedding in the offing")
+
+
+* What is obloquy? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:01:07Z
+:FC_TYPE:  normal
+:ID:       dd037e90-2c79-45bf-965f-4c007a751d88
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:01:07Z |
+:END:
+
+
+*** Back
+1. obloquy, opprobrium -- (state of disgrace resulting from public abuse)
+2. defamation, calumny, calumniation, obloquy, traducement, hatchet job -- (a false accusation of an offense or a malicious misrepresentation of someone's words or actions)
+
+
+* What is umbrage? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:01:36Z
+:FC_TYPE:  normal
+:ID:       9c0167ba-8297-4117-a32f-06c0fa0a3234
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:01:36Z |
+:END:
+
+
+*** Back
+
+1. umbrage, offense, offence -- (a feeling of anger caused by being offended;
+
+
+
+* What is candidness? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:03:47Z
+:FC_TYPE:  normal
+:ID:       e020be8e-5506-4214-aba6-aae7ec631901
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:03:47Z |
+:END:
+
+*** Back
+candidness
+
+noun: the quality of being honest and straightforward in attitude and speech
+
+Although I was unhappy that the relationship ended, I appreciated her candidness about why she was ready to move on from the relationship.
+
+
+* What is snide? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:13:39Z
+:FC_TYPE:  normal
+:ID:       1f9128ae-6c2a-4936-8534-b9259a61315e
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:13:39Z |
+:END:
+
+
+*** Back
+
+snide
+
+adjective: expressive of contempt; *derogatory* or mocking in an indirect way
+
+The chairman interpreted Taylor's question about promotions as a snide remark,
+but in all innocence Taylor was trying to figure out the company's process.
+
+
+
+* What is simpering? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:14:09Z
+:FC_TYPE:  normal
+:ID:       c89c28d0-e83c-4e5f-a5f6-f186d9a5a5e9
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:14:09Z |
+:END:
+
+*** Back
+
+
+simper
+
+To smile in an affected, silly manner; smirk.
+
+To twinkle; glimmer.
+
+* What is duly? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:23:01Z
+:FC_TYPE:  normal
+:ID:       9a95fdf7-3d9c-4689-8129-dec016f7d456
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:23:01Z |
+:END:
+
+*** Back
+duly
+
+noun – Same as dulia.
+
+In a due manner; when or as due; agreeably to obligation or propriety; exactly; fitly; properly.
+
+adverb – In a due, fit, or becoming manner; as it (anything) ought to be; properly; regularly.
+
+adverb – In a due, fit, or becoming manner; as it ought to be; properly.
+
+adverb – Regularly; at the proper time.
+
+adverb – at the proper time
+
+
+
+* What is tyro? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:23:30Z
+:FC_TYPE:  normal
+:ID:       60009fe0-27bd-4c39-b5bc-4722f42265d6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:23:30Z |
+:END:
+
+
+*** Back
+noob
+1. novice, beginner, tyro, tiro, initiate -- (someone new to a field or activity)
+
+
+
+* What is patina? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:24:46Z
+:FC_TYPE:  normal
+:ID:       9ba9d62f-b31e-41be-adcc-8fa03cefd418
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:24:46Z |
+:END:
+
+*** Back
+patina
+
+noun – A bowl; a patella.
+
+
+Pátina é um composto químico que se forma na superfície de um metal
+
+*noun – An incrustation which forms on bronze after a certain amount of exposure to the weather, or after burial beneath the ground.*
+
+noun – By extension, the surface-texture or -color which other works of decorative art, as a wooden cabinet or the like, gain through the action of time.
+
+noun – The *surface,* produced partly by accretion, partly by discoloration and the effects of acid in the soil, given to marble by long inhumation.
+
+noun – [capitalized] [NL.] In conch., a genus of gastropods.
+
+noun – A dish or plate of metal or earthenware; a patella.
+
+noun – The color or incrustation which age gives to works of art; especially, the green rust which covers ancient bronzes, coins, and medals.
+
+
+* What is humdrum? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:28:04Z
+:FC_TYPE:  normal
+:ID:       bbc15dd7-268f-4631-af69-a39afbaafbcd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:28:04Z |
+:END:
+
+
+*** Back
+humdrum
+
+adjective: dull and lacking excitement
+
+Having grown up in a humdrum suburb, Jacob relished life in New York City after moving.
+
+
+
+* What is askance? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:32:33Z
+:FC_TYPE:  normal
+:ID:       8f0f28c0-3569-4ada-ac58-5ee086e0e87b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:32:33Z |
+:END:
+
+*** Back
+
+askance
+
+adverb: with a look of suspicion or disapproval
+
+The old couple looked askance on the teenagers seated next to them, whispering to each other, "They've got rings through their noses and purple hair!"
+
+
+
+* What is spurn? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:33:02Z
+:FC_TYPE:  normal
+:ID:       23e60724-b4b8-4841-9fb0-1896c9b99457
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:33:02Z |
+:END:
+
+*** Back
+1. (2) reject, spurn, freeze off, scorn, pooh-pooh, disdain, turn down -- (reject with contempt; "She spurned his advances")
+
+
+* What is smugly? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:33:30Z
+:FC_TYPE:  normal
+:ID:       23ed7b88-a676-4575-bd82-b8da46bac970
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:33:30Z |
+:END:
+
+*** Back
+smugly
+
+In a smug manner; neatly; sprucely.
+
+adverb – In a smug manner.
+
+adverb – In a self-satisfied manner.
+
+adverb – in a smug manner
+
+* What is dilapidated? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:36:23Z
+:FC_TYPE:  normal
+:ID:       aad538d6-71bf-4b5d-ae59-164bb7dd1a9c
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:36:23Z |
+:END:
+
+*** Back
+adjective: in terrible condition
+
+The main house has been restored but the gazebo is still dilapidated and unusable.
+
+
+* What is ramshackle? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:36:57Z
+:FC_TYPE:  normal
+:ID:       98539a95-2e1c-4ee0-b27b-fbddb83c3dd0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:36:57Z |
+:END:
+
+
+*** Back
+A corrupt form of ransack, confused with ramshackle.
+
+Loose-jointed; ill-made; out of gear or repair; crazy; tumble-down; unregulated; chaotic.
+
+noun – A thoughtless fellow.
+
+transitive verb – To search or ransack; to rummage.
+
+*adjective – Loose; disjointed; falling to pieces; out of repair.*
+
+*adjective – In disrepair or disorder; poorly maintained; lacking upkeep, usually of buildings or vehicles.*
+
+adjective – in deplorable condition
+* What is uncanny? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:41:05Z
+:FC_TYPE:  normal
+:ID:       09553b2a-295c-4b78-b9a5-f2457d2ca1a2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:41:05Z |
+:END:
+
+*** Back
+
+uncanny
+
+adjective: suggesting the operation of supernatural influences; surpassing the ordinary or normal
+
+Reggie has an uncanny ability to connect with animals: feral cats will readily approach him, and sometimes even wild birds will land on his finger.
+
+
+
+
+* What is wily? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:41:37Z
+:FC_TYPE:  normal
+:ID:       b5d203ae-5de7-4208-8299-59574f0c1320
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:41:37Z |
+:END:
+
+*** Back
+
+Full of wiles; subtle; cunning; *crafty; sly.*
+
+Synonyms Cunning, Artful, Sly, etc. (see cunning), designing, deceitful, foxy, diplomatic, delusive, insidious.
+
+adjective – Full of wiles, tricks, or stratagems; using craft or stratagem to accomplish a purpose; mischievously artful; subtle.
+
+adjective – sly, cunning, full of tricks
+
+adjective – marked by skill in deception
+
+
+
+* What is crafty? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-17T14:42:15Z
+:FC_TYPE:  normal
+:ID:       e2fce3d6-3059-4988-8a26-2eae7dcdddc6
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-17T14:42:15Z |
+:END:
+*** Back
+Possessing or displaying skill, especially manual skill or art: as, “crafty work,”
+
+Skilful in devising and executing schemes, especially secret or evil schemes; cunning; artful (which is the opposite of artless!); wily; sly.
+
+Characterized by or springing from craft or deceit: as, crafty wiles.
+
+adjective – Relating to, or characterized by, craft or skill; dexterous.
+
+adjective – Possessing dexterity; skilled; skillful.
+
+adjective – Skillful at deceiving others; characterized by craft; cunning; wily.
+
+
+
+
+* What is snubbed: :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-18T22:36:39Z
+:FC_TYPE:  normal
+:ID:       a288097f-ef76-41f8-a669-93d92b2ea090
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-18T22:36:39Z |
+:END:
+
+
+*** Back
+1. (3) ignore, disregard, snub, cut -- (refuse to acknowledge; "She cut him dead at the meeting")
+2. (1) rebuff, snub, repel -- (reject outright and bluntly; "She snubbed his proposal")
+
+
+
+* What is acumen? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-18T22:37:05Z
+:FC_TYPE:  normal
+:ID:       c30927d3-e72a-4379-8369-36d45371d161
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-18T22:37:05Z |
+:END:
+*** Back
+
+
+1. acumen -- (a tapering point)
+2. insightfulness, acumen -- (shrewdness shown by keen insight)
+
+
+perspicácia, sagacidade
+
+
+* What is miserliness? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-18T22:38:24Z
+:FC_TYPE:  normal
+:ID:       85340d99-d7f6-43a5-afc7-1e087013b6e0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-18T22:38:24Z |
+:END:
+
+*** Back
+1. miserliness -- (total lack of generosity with money)
+
+
+* What is exacting? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-18T22:38:37Z
+:FC_TYPE:  normal
+:ID:       2ad4a116-240b-4f59-8885-0e319935ef88
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-18T22:38:37Z |
+:END:
+*** Back
+meticulous
+
+* What is inordinate? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-18T22:39:07Z
+:FC_TYPE:  normal
+:ID:       5f8e64fc-f725-468b-98c7-f76660d393ba
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-18T22:39:07Z |
+:END:
+
+*** Back
+1. excessive, inordinate, undue, unreasonable -- (*beyond normal limits*; "excessive charges"; "a book of inordinate length"; "his dress stops just short of undue elegance"; "unreasonable demands")
+
+
+* What is disinterestedness? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-19T13:21:33Z
+:FC_TYPE:  normal
+:ID:       0ad8241b-771e-4dff-99d5-46827b8fcbaa
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-19T13:21:33Z |
+:END:
+
+
+*** Back
+1. disinterestedness -- (freedom from bias or from selfish motives)
+
+
+* What is volubility? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-19T13:21:49Z
+:FC_TYPE:  normal
+:ID:       683c9e52-dcf9-47a3-ab10-d317e46d4e85
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-19T13:21:49Z |
+:END:
+
+*** Back
+1. fluency, volubility, articulateness -- (the quality of being facile in speech and writing)
+
+* What is prosaic :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-19T13:22:14Z
+:FC_TYPE:  normal
+:ID:       34c05b80-971c-4037-b56d-3270fe850cb5
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-19T13:22:14Z |
+:END:
+
+*** Back
+1. matter-of-fact, prosaic -- (*not fanciful or imaginative*; "local guides describe the history of various places in matter-of-fact tones"; "a prosaic and unimaginative essay")
+2. pedestrian, prosaic, prosy, earthbound -- (*lacking wit or imagination*; "a pedestrian movie plot")
+3. commonplace, humdrum, prosaic, unglamorous, unglamourous -- (*not challenging; dull and lacking excitement*; "an unglamorous job greasing engines")
+
+
+* What is restive? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-19T13:22:57Z
+:FC_TYPE:  normal
+:ID:       4c299915-2998-42f3-a9d6-6e45e09fc82a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-19T13:22:57Z |
+:END:
+
+*** Back
+
+1. (2) edgy, high-strung, highly strung, jittery, jumpy, nervy, overstrung, restive, *uptight* -- (being in a tense state)
+2. restive -- (impatient especially under restriction or delay; "the government has done nothing to ease restrictions and manufacturers are growing restive")
+* What is skittish? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-19T13:23:29Z
+:FC_TYPE:  normal
+:ID:       81e6e6b2-7158-40ee-99b2-5cdbb879eec2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-19T13:23:29Z |
+:END:
+*** Back
+1. skittish, flighty, spooky, nervous -- (unpredictably excitable (especially of
