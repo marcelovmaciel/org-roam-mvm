@@ -1,0 +1,30 @@
+#+TITLE: Elinor ostrom’s challenge for laboratory experiments
+#+ROAM_KEY: cite:wilson2014elinor
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: wilson2014elinor
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/wilson2014elinor.pdf
+:AUTHOR: Wilson, R. K.
+:JOURNAL: Journal of Natural Resources Policy Research
+:DATE:
+:YEAR: 2014
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Its an article which discusses how much ostrom's challenge were dealt with by the experimetrics community
+
+** What are the specific arguments of the text?
+- The REFERENCES are the most important here. Also, the OPEN PROBLEMS!
+- That groups which are internally different in terms of endowments contribute less is very interesting
+- That being able to craft boundary rules also raise contribution is awesome
+- That being able to craft other rules such as regulatory rules, voting, binding rules and so on also raise contribution
+-
+** What are the main concepts of the text?

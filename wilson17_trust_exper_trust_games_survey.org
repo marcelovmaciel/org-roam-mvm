@@ -1,0 +1,72 @@
+#+TITLE: Trust experiments, trust games, and surveys
+#+ROAM_KEY: cite:wilson17_trust_exper_trust_games_survey
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: wilson17_trust_exper_trust_games_survey
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/wilson17_trust_exper_trust_games_survey.pdf
+:AUTHOR: Wilson, R. K.
+:JOURNAL:
+:DATE:
+:YEAR: 2017
+:DOI:  http://dx.doi.org/10.1093/oxfordhb/9780190274801.013.2
+:URL: https://doi.org/10.1093/oxfordhb/9780190274801.013.2
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Present the behavioral approach to trust
+** What are the specific arguments of the text?
+- There are two approaches to trust:
+  - Surveys
+  - Experiments
+- The trust game is probably measuring a particular and narrow kind of dyadic trust. Generalized trust differs from political trust which may not be related at all, or may be, with what is measured in the trust game.
+- He argues that it is important to develop a measure akin to what the trust game measures but that can be applied to the field / survey .
+
+** What are the main concepts of the text?
+- The trust game Berg et al. (1995)
+
+
+* My impressions
+
+- In the trust game it is clear that we are talking about trust. What are specialists saying when they assert that simple majority rule is a method which people trust?
+
+- It would be interesting to draw an analogy between those experiments below and one which measured trust in POLITICAL institutions
+  #+begin_quote
+Others, using different populations, report similar findings to Glaeser et al. (2000). An
+ambitious study by Bellemare and Kröger (2007) uses a random sample of a Danish
+population. They find that “inferences using a popular survey trust question as a proxy for
+social capital are significantly different from those using our experimental
+measure” (185). Like Glaeser et al., they find little correlation between the GSS item and
+trust in the trust game. Johansson-Stenman et al. (2013) also use the trust game and the
+standard GSS item with villagers in Bangladesh. They find that the GSS question is
+correlated with trustworthiness in the trust game. Karlan (2005) finds the same thing,
+showing that the GSS item is correlated with trustworthiness, but not trust. Gächter et al.
+(2004) also find no correlation with the GSS item and trust (although the latter is
+measured using levels of cooperation in the public goods game). These findings lead
+Cárdenas and Carpenter (2008) to pronounce that there is consensus that the GSS and
+WVS items better measure trustworthiness than trust.
+  #+end_quote
+
+- *Pinpoiting the causal effect of trust may be done by a proper decomposition of the game. It probably will lead to some change in the behavioral component!!!!!*
+
+* Words
+** What is mainstay? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-05T23:01:36Z
+:FC_TYPE:  normal
+:ID:       04ca977b-bd9e-43cd-b210-1d884a746efd
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-05T23:01:36Z |
+:END:
+
+*** Back
+1. pillar, mainstay -- (a prominent supporter; "he is a pillar of the community")
+2. anchor, mainstay, keystone, backbone, linchpin, lynchpin -- (a central cohesive source of support and stability; "faith is his anchor"; "the keystone of campaign reform was the ban on soft money"; "he is the linchpin of this firm")

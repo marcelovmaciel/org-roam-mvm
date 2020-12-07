@@ -1,0 +1,52 @@
+#+TITLE: The contribution of behavioral economics to political science
+#+ROAM_KEY: cite:wilson11_contr_behav_econom_to_polit_scien
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: wilson11_contr_behav_econom_to_polit_scien
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/wilson11_contr_behav_econom_to_polit_scien.pdf
+:AUTHOR: Wilson, R. K.
+:JOURNAL: Annual Review of Political Science
+:DATE:
+:YEAR: 2011
+:DOI:  http://dx.doi.org/10.1146/annurev-polisci-041309-114513
+:URL: https://doi.org/10.1146/annurev-polisci-041309-114513
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+- Useful in general for experimental methods
+- particularly useful for rice application
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Behavioral economics is about understanding violations of the standard model.
+** What are the specific arguments of the text?
+- Classes of violation:
+  - social preference
+  - time discounting
+  - context (framing)
+  - overconfidence
+  - strategic constraints (multi-level thinking)
+  - emotions
+  - status differentials
+- Different approaches (from Khalil 2009):
+  1. Revise theory: tinker utility functions
+  2. Import psychology: add heuristics into models
+- Loss aversion leads people to behave weirdly with loss and with 0 utility
+- Status quo bias (also known as endowment effect) is something to beware. Particularly for my argument about institutional reform.
+- Multilevel-thinking:
+  - Nagel (1995):
+    - People learn to think in levels
+    - Modal subject is level 2
+    - Great majority $\leq$ 3
+    - Nagel R. 1995. Unraveling in guessing games: an experiment study. Am. Econ. Rev. 85:1313–26
+  - McKelvey & Palfrey (1992)
+    - McKelvey RD, Palfrey TR. 1992. An experimental study of the centipede game. Econometrica 60:803–3
+  - Wilson 1986 finds that most people vote sincerely
+    - Wilson RK. 1986. Forward and backward agenda procedures: committee experiments on structurally induced equilibrium. J. Polit. 48:390–409
+    - Wilson RK, Pearson A. 1987. Evidence of sophisticated voting in a committee setting: theory and experiments. Qual. Quantity 21:255–73
+  -
+** What are the main concepts of the text?
+-

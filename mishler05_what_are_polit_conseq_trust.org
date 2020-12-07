@@ -1,0 +1,82 @@
+#+TITLE: What are the political consequences of trust?
+#+ROAM_KEY: cite:mishler05_what_are_polit_conseq_trust
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: mishler05_what_are_polit_conseq_trust
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/mishler05_what_are_polit_conseq_trust.pdf
+:AUTHOR: Mishler, W. & Rose, R.
+:JOURNAL: Comparative Political Studies
+:DATE:
+:YEAR: 2005
+:DOI:  http://dx.doi.org/10.1177/0010414005278419
+:URL: https://doi.org/10.1177/0010414005278419
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Discuss what theory of trust is better supported by data, using a structural equation
+
+** What are the specific arguments of the text?
+
+- Cultural theories of democracy:
+  - Civic culture $\rightarrow$ Make democracy work
+  - Relatedly Trust $\rightarrow$ Support  $\rightarrow$ Make democracy work
+  - Def:
+    #+begin_quote
+We use the term cultural theories to refer to a variety of loosely related
+constructs that seek to explain political institutions and behavior in terms of
+the shared customs, values, and beliefs of a social group.
+    #+end_quote
+- Institutional theories of democracy would be most prominent alternative to civic culture theories. In those theories logic is : regime performance $\rightarrow$ political support
+- The same can be said about institutions: if they perform well then they receive support
+- Both kinds of theories ASSUME that trust matters, he says.
+- They find that economic performance matters more than institutional and interpersonal trust:
+  #+begin_quote
+The results show that the consequences of institutional and interper- sonal
+trust in Russia are considerably more limited than cultural theories pre-
+suppose. Institutional hypotheses about the importance of political and eco-
+nomic performance receive much greater support. Nevertheless, the effects,
+especially of institutional trust, are sufficient to suggest that cultural
+theories cannot be dismissed altogether and need to be integrated with
+institutional theories in a synthetic model.
+  #+end_quote
+
+- Their argument is that trust in political institutions may contribute to support for democratic ideals, but does not explain much support for the current regime nor for undemocratic alternatives
+
+- It is not only about ECONOMIC performance, but also about political PERFORMANCE. So, it is not about trusting the "political institutions", but, rather, assessing if they are performing well
+  - So, in their view performance matters more, and actually explains, trust and support.
+- Heretofore, their literature review
+  - Why trust matters?
+    1. It generates, or sometimes is deemed equal, diffuse support
+    2. Facilitates the acceptance of democratic ideals and rejection of undemocratic alternatives
+       #+begin_quote
+       Second, cultural theories hypothesize that trust facilitates the public’s acceptance of democratic values and ideals (Norris, 1999) and its rejection of undemocratic alternatives (Muller, Jukam, & Seligson, 1982; Rose, Mishler, & Haerpfer, 1998).
+       #+end_quote
+    3. Trust promotes political involvement
+    4. There is also the interpersonal trust literature (Uslaner, 2002 is a summary, but Wilson also works within this tradition). It argues that interpersonal trust indirectly leads to trust in institutions and, hence, to political support.
+- Hierarchy (or radius) of trust:
+  1. family and friends
+  2. impersonal trust
+  3. trust on political institutions
+
+- The relationship between those spheres is contentious: unidirectional, reciprocal or none:?
+- Institutional theories see trust as a response to institutional performance
+  - Jackman & Miller, 1996; Mishler & Rose, 2001
+  - Jackman, Robert W., & Miller, Ross A. (1996). The poverty of political culture. American Jour- nal of Political Science, 40(3), 697-716
+- Therefore, trust is not something deeply embedded. For institutional theories both trust and support are caused by performance, and trust is, at most, a control variable (as it might, through democratic ideals and more involvement and so on, indirectly impact support).
+** What are the main concepts of the text?
+- Trust vs performance vs support
+- Hierarchy or radius of trust
+* Further references
+For political culture lit see:
+- Easton, David. (1965). A systems analysis of political life. New York: John Wiley.
+- Easton, David. (1975). A re-assessment of the concept of political support.
+  British Journal of Political Science, 5, 435-457.
+- Putnam 1993
+- Almond, Gabriel A., & Verba, Sidney. (1963). The civic culture. Princeton, NJ: Princeton University Press.
+- Jackman, Robert W., & Miller, Ross A. (1996). The poverty of political culture. American Jour- nal of Political Science, 40(3), 697-716

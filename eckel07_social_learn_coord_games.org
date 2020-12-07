@@ -1,0 +1,37 @@
+ #+TITLE: Social learning in coordination games: does status matter?
+#+ROAM_KEY: cite:eckel07_social_learn_coord_games
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: eckel07_social_learn_coord_games
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/eckel07_social_learn_coord_games.pdf
+:AUTHOR: Eckel, C. C. & Wilson, R. K.
+:JOURNAL: Experimental Economics
+:DATE:
+:YEAR: 2007
+:DOI:  http://dx.doi.org/10.1007/s10683-007-9185-x
+:URL: https://doi.org/10.1007/s10683-007-9185-x
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Investigate empirically the role of status in learning process within coordination games.
+
+** What are the specific arguments of the text?
+- QRE do not take into account the identity of agents, insofar agents are responding to predicted distributions of actions
+  + This seems to be related to the algebraic decomposition criticism
+-
+** What are the main concepts of the text?
+
+* Insights
+- One thing that may be investigated is whether agents with higher status and go AGAINST the rule of the game will have more influence than others. Something like that ... Let's say that a politician such as bolsonaro is against a rule. How can we "simulate" something akin to this in a formal model and in an experimental setting?
+- Can we simulate what he is talking in the conclusion?
+  #+begin_quote
+While the difference is not large, it is significant, and in a *dynamic setting
+could make a difference in the likelihood that an economic system will converge
+on a socially-desirable, efficient outcome.*
+  #+end_quote

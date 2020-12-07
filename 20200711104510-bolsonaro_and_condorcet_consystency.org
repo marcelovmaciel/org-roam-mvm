@@ -3,8 +3,6 @@
 
 My presentation for Hamburg made this point implicitly. The principle of affected interested from cite:dahl1989democracy could be used in conjunction with both condorcet and borda normative views. The argument made by cite:coleman1986democracy of the role of signals in democracy can be another thread for a dynamical view.
 
-
-
 ** Further references
 - cite:Siegenfeld_2020
 *** Political Theoretical references
@@ -13,6 +11,8 @@ My presentation for Hamburg made this point implicitly. The principle of affecte
 - as well as shapiro
 - przeworski
 - cite:wolkenstein2020multidimensional
+- cite:mclean1995duncan
+- cite:monroe1995fully
 
 *** Political economy references
 - [[https://journals.sagepub.com/doi/full/10.1177/1065912920940791][SAGE Journals: Your gateway to world-class journal research]]
@@ -20,3 +20,19 @@ My presentation for Hamburg made this point implicitly. The principle of affecte
 - for-links-mcclintock_lasa_2019.pdf in pdfs folder (add the reference later)
 - cite:tabarrok1999would
 - cite:tabarrok2001president
+- cite:kaminski1999communism
+- [[http://procaccia.info/wp-content/uploads/2020/02/justification.pdf]] (proccacia, explainable voting )
+- cite:brams12_narrow_field_elect
+
+*** The experimental refs
+- cite:jessie2015decomposing
+- cite:zhao20_cost_reason_strat_sophis
+- cite:elkind20_cognit_hierar_votin_manip_k_approv_votin
+- cite:halpern15_algor_ration
+- cite:wilson11_contr_behav_econom_to_polit_scien
+- cite:straeten10_strat_sincer_heuris_votin_under
+- cite:jessie2016luce
+- cite:blais2016voting
+- cite:bassi14_votin_system_strat_manip
+- cite:harrison08_votin_games_comput_compl
+-

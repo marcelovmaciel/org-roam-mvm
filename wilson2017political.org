@@ -1,0 +1,40 @@
+#+TITLE: Political trust in experimental designs
+#+ROAM_KEY: cite:wilson2017political
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: wilson2017political
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/wilson2017political.pdf
+:AUTHOR: Wilson, R. K. & Eckel, C. C.
+:JOURNAL:
+:DATE:
+:YEAR: 2017
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+
+** What are the specific arguments of the text?
+- Some see trust as the foundation for stable political institutions and of social capital and civic engagement (putnam)
+- Others relate it to some aspects of political institutions (HEREIN lies my interest)
+  - Bianco: trust reduces the cost in reaching political compromise
+- *What are the causal underpinnings of trust?*
+- Most research on trust focus on dyadic trust instead of trust on political institutions
+- He has used the investment game as a measurement tool for the trust between citizens and politicians
+- GSS items do not capture trust, but at best trustworthiness and there are serious problems of comparability.
+- The mismatch between attitudinal items and behavior is something to be better understood
+- Open problem: trust precedes political institutions or vice-versa?
+** What are the main concepts of the text?
+- Trust vs trustworthiness
+
+
+
+* References
+- Hardin, R. (2002), Trust and Trustworthiness, New York: Russell Sage Foundation.
+- Nannestad, P. (2008), ‘What have we learned about generalized trust, if anything?’, Annual Review of Political Science, 11 (1), 413–3

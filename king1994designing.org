@@ -31,6 +31,8 @@ There are two styles of research but an unique logic that unify them.
 
 *** CHAPTER 2 - Descriptive Inference
 That all research aims to disambiguate between systematic and non systematic attributes of the world. 
+*** CHAPTER 3 Causality and Causal Inference
+To present a slight modification of the Rubin causal model as their definition of causality and as the main constituent of explanations 
 ** What are the specific arguments of the text?
 
 *** CHAPTER 1- The Science in Social Science
@@ -753,6 +755,119 @@ Models with high variance are usually more complex (e.g. higher-order regression
     The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs (overfitting).
 
   #+end_quote
+*** CHAPTER 3 Causality and Causal Inference :ATTACH:
+:PROPERTIES:
+:ID:       1f481252-ca28-407e-8eee-c115f572e7a7
+:END:
+
+- summary of the chapter
+  #+begin_quote
+In section 3.1 we provide a rigorous deﬁnition of causality appro- priate for
+qualitative and quantitative research, then in section 3.2 we clarify several
+alternative notions of causality in the literature and demonstrate that they do
+not conﬂict with our more fundamental deﬁ- nition. In section 3.3 we discuss the
+precise assumptions about the world and the hypotheses required to make reliable
+causal inferences. We then consider in section 3.4 how to apply to causal
+inference the criteria we developed for judging descriptive inference. In
+section 3.5 we conclude this chapter with more general advice on how to con-
+struct causal explanations, theories, and hypotheses.
+  #+end_quote
+  1. They define causality
+  2. They argue that their definition is more fundamental than others (e.g. causal mechanisms )
+  3. They discuss some assumptions needed for causal inference (in their model)
+  4. how to use the criteria developed for descriptive inference in causal inference tasks
+  5. give advice on the construction of explanations/theories/hypothesis 
+
+- They do not claim causal explanation is the only kind of research that must be
+  pursued (p.75). This is nice, but there is indeed a bias towards causal
+  estimation in political science, the so called causal empiricist perspective.
+- One thing that is paramount, they argue, is clarity whether the goal of the research is descriptive or explanatory. I do not believe, though, that this is the best way to frame, or at least it is not sufficient. cite:Clarke_2012 have concocted a better classification scheme, both for theoretical and empirical models. I believe that more can be done within their framework, though. From the theoretical point of view a better disambiguation of "types" of theories is necessary lest confusion regarding the role of theory remains. Their view of theories as maps does not do justice to more theoretical endeavors, as cite:johnson2006consequences argues in some of his articles (look my tcc for the precise reference). From the empirical side, there is a dearth of discussion of machine learning model. How do they fit in cite:Clarke_2012 scheme ? Moreover, causal inference in the cite:bareinboim20201on tradition seems a way of connecting the FTA with the RCM causal empiricism. Gotta stop, as I'm diverting the attention from KKV here. Must turn this into a stand alone note.
+- They identify causal inference with explanation. First they argue that #+begin_quote
+At its core, real explanation is always based on causal inferences.
+#+end_quote
+- Inasmuch they want their definition of causality to apply to a single unit, They extend cite:holland1986statistics discussion of the Rubin model with some probabilistic causality meat, as developed by Suppes (1970) ([[https://plato.stanford.edu/entries/causation-probabilistic/][Probabilistic Causation (Stanford Encyclopedia of Philosophy)]])
+- Explanatory variables = key causal variables (treatment group + control group) + control variables
+- They use the Rubin causal model.
+- For them it is important to be careful with counterfactuals. They must be precise an reasonable.
+  #+begin_quote
+although they are obviously counter to the facts,
+they must be reasonable and it should be possible for the counterfac-
+tual event to have occurred under precisely stated circumstances
+  #+end_quote
+- The *realized causal effect* for unit $i$ is the difference between the value of the dependent variable if it was treated vs if it was not. Obviously, this definition is purely theoretical. This is the *fundemntal problem of causal inference*.
+- Since this realized causal effect comes from a random variable it varies
+  probabilistic. Consequently, the *random causal effect* for unit $i$ is the
+  difference between the random variables: dependent value Y when treated and not treated.
+
+#+begin_quote
+the realized causal effect in equation 3.1 is a single
+unobserved realization of the random causal effect in equation 3.2.
+#+end_quote
+#+begin_quote
+Just as in the deﬁnition of a random variable, a random causal effect
+is a causal effect that varies over hypothetical replications of the same
+experiment but also represents many interesting systematic features
+of elections.
+#+end_quote
+
+#+begin_quote
+the causal effect is the difference between the sys- tematic component of
+observations made when the explanatory variable takes one value and the
+systematic component of comparable observations when the explanatory variable
+takes on another value.
+#+end_quote
+
+- How does their definition differ from Holland's? They want to distinguish
+  between systematic an nonsystematic components, and they believe that
+  Holland's definition does not allow such thing. As such, their expected value
+  operators averages over hypothetical replications of the same experiment for a
+  single unit, while for Holland this average is over units (missing value
+  problem).
+- Since this is a random variable it is possible to work with moments of its associated probablity measure:
+  [[attachment:_20201025_182429screenshot.png]]
+#+begin_quote
+We deﬁne the mean causal effect to be the average of the realized causal
+effects across replications of these experiments.
+#+end_quote
+[[attachment:_20201025_183803screenshot.png]]
+-  On different perspectives on causality : causal mechanisms, multiple causality and symmetric vs asymmetric causality
+- They argue that causal mechanisms is common as a way of understanding  "the processes through which causality operates" that is, of specifying *how* effects are exerted.
+- They put lots of things under the same umbrella:
+  #+begin_quote
+“process tracing” (which we discuss in section 6.3.3), “historical analysis,” and “detailed case studies.”
+  #+end_quote
+- They argue that their definition is more fundamental:
+  #+begin_quote
+However, identifying the causal mechanisms requires causal inference, using the methods discussed below. That is, to demonstrate the
+causal status of each potential linkage in such a posited mechanism,
+the investigator would have to deﬁne and then estimate the causal effect underlying it. To portray an internally consistent causal mechanism requires using our more fundamental deﬁnition of causality
+offered in section 3.1 for each link in the chain of causal events.
+Hence our deﬁnition of causality is logically prior to the identiﬁcation of causal mechanisms.
+  #+end_quote
+- However, this is a heavily empiricist account. Imagine we had to have data on
+  each linkage? Why not theory? That is why for them it leads to infinite
+  regress. It is not only logical, but it is a data sink. However, logically
+  speaking it is not possible it is an infinite regress... As
+  cite:johnson2006consequences argues. So I imagine they think about it
+  practically, which is also wrong.
+- Also, many people have pointed out that identification of effects DO NOT constitute an explanation. Explanation requires both EoC and CoE. cite:morton2010experimental argues that. cite:elster2009excessive too. So does cite:johnson2006consequences and cite:goldthorpe2016sociology.
+- As cite:johnson2006consequences they not only redefine causality, redefine explanation BUT THEY ALSO REDEFINE CAUSAL MECHANISMS KKKKKKK They treat causal mechanisms as directly observable things, which IS NOT how they are used by other social scientists. My view is that they are so ingrained in an empiricist mindset that they treat Everything as an empirical matter.
+  #+begin_quote
+These *intervening effects*—caused by the constitutional system
+and, in turn, affecting political stability—*can be directly observed.*
+  #+end_quote
+- They take an empiricist stance which is untenable:
+  #+begin_quote
+We can
+deﬁne a causal effect without understanding all the causal mecha-
+nisms involved, but we cannot identify causal mechanisms without
+deﬁning the concept of causal effect
+  #+end_quote
+- Look how they first use two different verbs here. DEFINE and IDENTIFY. NEITHER
+  is prior to the other. When we define causal effects we have causal mechanisms
+  in mind. Both kinds of research is legitimate. Explanation requires both, actually. If not "causal mechanisms" at least some kind of CoE
+-  I will not dwell upon multiple causation and asymmetric causation as I consider an outdated debate
+-
 ** What are the main concepts of the text?
 
 - inference
@@ -872,8 +987,13 @@ proposed answer is correct.
 
 
 
+
+
+
+
 * Further references
 - cite:johnson2006consequences
 - Chapter 11 of cite:brady2010rethinking
 - cite:mahoney2010after
-- 
+- cite:holland1986statistics
+- Jon elster 1983

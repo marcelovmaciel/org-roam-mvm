@@ -47,3 +47,5 @@ The condorcet winner on the other hand is the following: an alternative $x$ is a
 
 
 As the majority relation is cyclical its possible there is no condorcet winner. And that is exactly what happens if there is  a top cycle. Elements of a top cycle would be condorcet winners IF there weren't other elements in the set. They are cyclical among themselves, but beat all other elements.
+* Further references
+cite:procaccia11_comput_social_choic

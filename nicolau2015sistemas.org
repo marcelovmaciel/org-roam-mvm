@@ -15,9 +15,6 @@
 :URL:
 :END:
 
-
-
-
 * É plurality usada no brasil? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-07-03T10:26:58Z

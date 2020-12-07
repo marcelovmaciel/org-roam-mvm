@@ -1,0 +1,36 @@
+#+title: Algebraic Social Theories
+
+There is a neat connection between category theory, algebraic approaches to
+mathematical social science and programming, and complex systems. Algebraic
+decomposition is used both to split the behavioral and strategic parts of games
+and as a coarse graining techique in complex systems. Moreover, the study of
+algebraic properties is also relevant for program design. I am interested in how
+a categorical approach might be concretized  by this algebraic perspective.
+
+- Programming:
+  - cite:sandy2020algebra
+- Complex Systems:
+  - cite:rhodes2009applications
+  - cite:dedeo11_effec_theor_circuit_autom
+
+- Math
+  - cite:judson2017abstract
+  - cite:gilbert2004modern
+    
+- Mathematical Social Science:
+  - cite:jessie2019coordinate
+  - cite:Saari_2009
+  - cite:Saari_1989
+  - cite:saari2001sum
+  - cite:kaminski04_social_choic_infor
+  - cite:candogan2011flows
+  - cite:candogan13_near_poten_games
+  - cite:hwang2016strategic
+  - cite:capraro2012existence
+  - cite:freer2020algebraic
+  - cite:laszlo2019partition
+  - cite:guisasola20_with_poten_games_which_outcom_is_better
+
+- Categorical approaches
+  - cite:di2020games
+  -

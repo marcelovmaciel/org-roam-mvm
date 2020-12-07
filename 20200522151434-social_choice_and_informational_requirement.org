@@ -43,3 +43,16 @@ They are asked to determine which candidates they approve of rather than selecti
   #+end_quote
 
 *How can we formalize this insight that ranking and approving are related but cannot be derived from each other*. In what sense are they related? What is the concept that connects them ? Is there a functorial relationship here?
+
+
+* The sen approach
+Amartya sen has founded a perspective within social choice which gives emphasis to the informational basis of procedures. Both Saari and Kaminski have papers on that. Saari is arguably the second biggest name on the perspective.
+
+- cite:Saari_2009
+- cite:Saari_2001
+- cite:Saari_1989
+- cite:yamamura17_inter_compar_neces_arrov_aggreg
+- cite:roberts2005social
+- cite:kaminski04_social_choic_infor
+- cite:abramsky2015arrow
+- cite:amartya2011informational

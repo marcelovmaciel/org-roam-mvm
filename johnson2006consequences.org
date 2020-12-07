@@ -128,6 +128,7 @@ explanations
 [[attachment:_20201019_202657screenshot.png]]
 - As sicussed by Johnson, the study of mechanisms is not only about the mechanisms themselves, but particularly about the *conditions* in which they operate. He does disagree with Elster who sees the causal mechanistic perspective as simply the gathering of mechanisms. For Johnson they activation condition is the key for generalization in a causal mechanistic perspective of explanation. I wonder whether this is how we can connect the argument pattern with the causal mechanisms perspective. I also wonder if this perspective by Machamer is general enough to allow us to go beyond methodological individualism for example. If it is not simply an expression of that (as, I believe, goldthorpe is).
 
+
   - A final minor point is that causal mechanisms are not about intervening variables. This is something that I have to think more about (p.248). Johnson argues that to treat them as variables is also a way of reconceptualizing them. Along the same lines, to say that a causal mechanistic perspective leads to infinite regress is a double standard because the same could be said about virtually any empirical research.
     \(\text{\textcolor{red}{must take notes of clarke and primo last chapter and come back here}}\)
 ** What are the main concepts of the text?
@@ -197,3 +198,8 @@ Hausman, D. (1998). Causal asymmetries. New York: Cambridge University Press.
 
 Machamer, P., Darden, L., & Craver, C. (2000). Thinking about mechanisms. Philosophy of Sci-
 ence, 67(1), 1-25
+
+* Further references for insights
+- For a discussion of causal inference and analytical narrative see
+  - cite:caughey19_causal_infer_americ_polit_devel
+  - cite:binder19_how_we

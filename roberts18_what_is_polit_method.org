@@ -1,5 +1,9 @@
 #+TITLE: What Is Political Methodology?
 #+ROAM_KEY: cite:roberts18_what_is_polit_method
+
+- tags :: [[file:johnson2006consequences.org][cite:Consequences of positivism: a pragmatist assessment]]
+
+
 * TODO Notes
 :PROPERTIES:
 :Custom_ID: roberts18_what_is_polit_method
@@ -21,4 +25,50 @@ It is useful to see what a rising methodologist has to say about the state of th
 ** What is the goal/ general argument of the text?
 
 ** What are the specific arguments of the text?
+- Given the goal of political methodology is must be question oriented
+- She follows kkv in her definition of political methodology
+  #+begin_quote
+Political methodology is about finding the most scientific method conditional
+upon the stage of the research process, the data availability, and question of
+interest (King, Keohane, and Verba 1994).
+  #+end_quote
+- Political methodology focus on questions with easy access to data
+- she admits that political methodology is a great deal about scientific arbitrage:
+  #+begin_quote
+. Much of political methodology lies in adapt-
+ing solutions developed in different contexts to the political
+science realm, taking into account the data realities of a par-
+ticular situation and creating tools that better fit the needs of
+applied researchers (King 1990)
+  #+end_quote
+
+- methodological developments due to comparativists:
+  - natural experiments
+  - field experiments
+  - cellphone applications
+  - satellite images
+  - online geolocation
+  - text as data
+
+- typical narrow focus of political methodologists:
+  - voter turnout
+  - ideology
+  - congress
+
+- Political methodologists should contribute to data scarce questions
+- 
+
 ** What are the main concepts of the text?
+- What characterizes the activity of a political methodologist:
+  #+begin_quote
+develops and characterizes measures and methods to more sci-
+entifically answer political science questions.
+  #+end_quote
+- *question-oriented* political methodology
+- The *two-hats* of political methodologists: substantive and methodological
+
+
+* Further references
+- King, Gary. 1990. “On Political Methodology.” Political Analysis 2: 1–29
+- Abdelal, Rawi, Yoshiko M. Herrera, Alastair Iain Johnston, and Rose McDermott.2006. “Identity as a Variable.” Perspectives on Politics 4 (4): 695–711.
+-

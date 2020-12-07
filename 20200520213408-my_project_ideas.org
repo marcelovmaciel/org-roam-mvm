@@ -167,3 +167,18 @@ rock paper and scissors
 * Port vats and knudson to Turing.jl
 - https://arxiv.org/pdf/1812.09384.pdf Revisiting the gelman rubin diagnostic
 
+
+* the unity and originality of wgs thought as a public choice theorist
+
+* a political theory of reflevixity
+- seek to unify the systemic and rct approaches
+* port the gan in causal inference package
+https://github.com/gsbDBI/ds-wgan
+
+* K-level beliefs!!!!
+
+http://www.columbia.edu/~md3405/papers.shtml
+
+
+* trust and behavioral decomposition
+Can we find the causal effect of trust by paying attention to the behavioral component of games?

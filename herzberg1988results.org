@@ -1,0 +1,124 @@
+#+TITLE: Results on sophisticated voting in an experimental setting
+#+ROAM_KEY: cite:herzberg1988results
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: herzberg1988results
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/herzberg1988results.pdf
+:AUTHOR: Herzberg, R. Q. & Wilson, R. K.
+:JOURNAL: The Journal of Politics
+:DATE:
+:YEAR: 1988
+:DOI:
+:URL:
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+They design some laboratory tests to check if people indeed vote strategically in an agenda setting. They discover that they dont
+** What are the specific arguments of the text?
+- Strategic voting requires intermediate non-utility maximizing decisions to produce a preferred final outcome
+- They control 3 things:
+  - information conditions
+  - risk associated with errors by other players
+  - complexity of the decision process
+-  Robin Farquharson (1969) as first model of sophisticated voting.
+  #+begin_quote
+Farquharson reduces simple majority rule proce- dures to games in normal form.
+This leaves a decision maker facing the prob- lem of selecting an optimal
+strategy given the possible strategies played by other decision makers. [...]
+Theorists have considerably embellished Farquharson's original discussion (see
+Kramer, 1972; McKelvey and Niemi, 1978; Miller, 1980; Niemi and Frank, 1982;
+Shepsle and Weingast, 1984; Banks, 1984; Denzau, Riker, and Shepsle, 1985;
+McKelvey, 1986; and Ordeshook and Schwartz, 1987)
+ #+end_quote
+- $\uparrow$ $\uparrow$ $\uparrow$ $\uparrow$ $\uparrow$ This is a great list to work on!!
+#+begin_src haskell
+data SophisticatedVotingEmpirics = CaseStudies | LabExperiments
+#+end_src
+- Non-myopic individuals $\neq$ Strategic individuals
+- They give an informal treatment of difficulty:
+  #+begin_quote
+The ex- periments by Wilson and Pearson (1987) often involved lengthy agendas in
+which sophisticated choices occurred early in the agenda. This meant that to act
+with foresight, individuals had to calculate a complex set of intersecting win
+sets in a two-dimensional space-a difficult task at best. Even in finite
+alternative games, where solving decision trees and locating sophisticated nodes
+of such trees is easier, this task can become quite complicated. Hence, it may
+be that sophisticated behavior occurs only in settings in which the calculations
+involved in uncovering a sophisticated strategy are limited.
+  #+end_quote
+- Another interesting take is that people have to take into consideration whether the other agents are actually playing strategically (that is what his second point is all about)
+  #+begin_quote
+In order to produce a sophisticated outcome, all participants must play their
+appropriate sophisticated or sincere strategies. At worst, even if all other
+players choose only their sincere strategies, a sophisticated decision maker
+will obtain the sincere outcome. However, if other decision makers fail to
+comprehend the nature of the decision setting, then a sophisti- cated voter can
+be left even worse off. In the absence of any assurance that other participants
+are playing the same game, choosing a sophisticated strat- egy may be risky
+  #+end_quote
+- There is also the problem of justification! Representatives have to justify their moves ! Kinda.
+  #+begin_quote
+As Denzau, Riker, and Shepsle (1985) point out, sophisticated choices (which are
+contrary to self-interest in the short run) may be difficult for representatives
+to explain to constituents. A representative's plight is compounded if a
+sophisticated strategy fails (due to non-maximizing choices by others) and the
+collective choice is worse than the sincere choice. If a decision maker can only
+imperfectly assess the likely strategic choices of others (who may not even be
+"playing the same game") then sophisti- cated choices may be risky for a
+representative who must stand by and justify each vote.
+  #+end_quote
+- Finally there is the other side of the coin. The informational environment has been covered, but institutions also impose constraints.
+  #+begin_quote
+the length of an agenda can complicate the calculations that an individual must
+make. Agenda length often is defined by specific institu- tional rules which
+govern the number of allowable amendments and limit the length of time open for
+discussion.
+  #+end_quote
+  + this kind of constraint is related to the structurally-induced equilibrium theories
+
+- Experimental design
+  - Binary voting !
+  - Preferences were induced
+  - Human vs 4 sincere robots
+  - Treatment
+    - Agendas of three lengths
+      - Short: 4 alternatives and three votes
+      - Medium: 6 alternatives and five votes
+      - Long: 8 alternatives and 7 votes
+- Results:
+  - Sophisticated voting was used only 29.7% of the time. This result is interpreted as an upper limit on such behavior
+  - Instead of monotonically decreasing with complexity, the sophisticated voting followed a curvilinear functional form. That is, the scenario with the most strategic voting was the medium complexity one.
+  - Found no relationship between practicing and sophisticated voting
+  - Found no relationship between sophisticated behavior in the practice vs in the actual experiment
+  - Found consistency in strategic voting (repeated the last scenario with five participants. Sincerely, this does not count...)
+  - They have found a limited sophistication behavior (wrongly choose the alternative that would be strategic in the short scenario, but not in the medium and long scenarios )
+  - Their final argument is particularly important:
+    #+begin_quote
+What is interesting is that the decision-setting places constraints on the
+extent to which sophisticated strategies are employed. This means that when
+model- ing or studying individual behavior in collective choice settings, the
+extent to which the decision setting enhances or hinders sophisticated choices
+must also be taken into account.
+    #+end_quote
+** What are the main concepts of the text?
+
+* Further refs
+- Farquharson (1969)
+- Kramer, 1972;
+-  McKelvey and Niemi, 1978;
+-  Miller, 1980; Niemi and Frank, 1982;
+Shepsle and Weingast, 1984; Banks, 1984; Denzau, Riker, and Shepsle, 1985;
+McKelvey, 1986; and Ordeshook and Schwartz, 198
+- Wilson and Pearson 1987
+* Insights
+- Note that they analyzing an AGENDA setting
+- Can we use compositional game theory instead of the extensive form, as in mckelvey and niem, to study strategic voting?

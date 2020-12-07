@@ -1,0 +1,26 @@
+#+TITLE: Brain activity in the play of dominant strategy and mixed strategy games
+#+ROAM_KEY: cite:wilson2006brain
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: wilson2006brain
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/wilson2006brain.pdf
+:AUTHOR: Wilson, R. K. et al.
+:JOURNAL: Political Psychology
+:DATE:
+:YEAR: 2006
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+
+** What are the specific arguments of the text?
+
+** What are the main concepts of the text?

@@ -181,7 +181,7 @@ either to order/decree (like a king) or to act out
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-20T16:43:25Z |
 :END:
 *** Back :ATTACH:
 (adjective) – harshly or bitterly critical
@@ -299,9 +299,12 @@ to behave as if you are better than someone and have the right to tell them what
 |----------+------+-----+----------+----------------------|
 | front    |  2.5 |   0 |        0 | 2020-08-19T23:14:19Z |
 :END:
-*** Back
+*** Back :ATTACH:
   1. extravagance, prodigality, profligacy -- (the trait of spending extravagantly)
   2. profligacy, dissipation, dissolution, licentiousness, looseness -- (dissolute indulgence in sensual pleasure)
+
+     [[attachment:_20201020_115842screenshot.png]]
+
 * What is taxing :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-08-19T23:14:19Z
@@ -530,7 +533,7 @@ The verb groove has 2 senses (no senses from tagged texts)
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-28T19:07:50Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-20T16:39:56Z |
 :END:
 *** Back
 The noun accretion has 6 senses (first 1 from tagged texts)
@@ -549,7 +552,7 @@ The noun accretion has 6 senses (first 1 from tagged texts)
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-08-31T20:20:48Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-20T14:57:28Z |
 :END:
 *** Back
 For, inasmuch as , owing to, thanks to, as a result of , as a consequence of.
@@ -1417,12 +1420,15 @@ Notwithstanding, today was a wonderful today.
 | front    |  2.5 |   0 |        0 | 2020-09-07T22:17:32Z |
 :END:
 
-*** Back
+*** Back :ATTACH:
+  - adjective: describing a person who is *overly flattering* (*bajulador*)
+    - The CEO was unaware of the damaging consequences of his choices, largely
+      because he surrounded himself with sycophants who would never dare
+      criticize him
+
+[[attachment:_20201020_182212screenshot.png]]
 
 
-  - adjective: describing a person who is overly flattering
-
-    - The CEO was unaware of the damaging consequences of his choices, largely because he surrounded himself with sycophants who would never dare criticize him
 * What is  pan out? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-07T22:17:32Z
@@ -1573,7 +1579,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:04:41Z |
+| front    | 2.50 |   2 |     1.00 | 2020-10-21T16:43:07Z |
 :END:
 
 *** Back
@@ -1696,7 +1702,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   1 |     0.01 | 2020-10-06T00:04:31Z |
+| front    | 2.50 |   2 |     1.00 | 2020-10-21T21:20:56Z |
 :END:
 *** Back
 
@@ -1993,7 +1999,7 @@ Notwithstanding, today was a wonderful today.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    | 2.50 |   0 |     0.00 | 2020-10-05T23:55:22Z |
+| front    | 2.50 |   1 |     0.01 | 2020-11-10T13:39:35Z |
 :END:
 *** Back
 
@@ -2289,9 +2295,12 @@ b* What is  obsequious :fc:
 |----------+------+-----+----------+----------------------|
 | front    | 2.50 |   0 |     0.00 | 2020-10-02T15:54:59Z |
 :END:
-*** Back
+*** Back :ATTACH:
 
   - adjective: smug and ignorant towards artistic and cultural values
+
+[[attachment:_20201020_134246screenshot.png]]
+
 * What is  specious :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-09-30T17:02:15Z
@@ -3859,7 +3868,7 @@ The verb underscore has 2 senses (first 1 from tagged texts)
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-10-06T16:14:52Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-20T13:51:15Z |
 :END:
 
 *** Back
@@ -4248,12 +4257,15 @@ eans something that occurs over the seasons and is constant throughout the years
 :END:
 
 
-*** Back
+*** Back :ATTACH:
 
 
   - intransitive verb – To seek for, expose, or charge, especially habitually, corruption, real or alleged, on the part of public men and corporations.
 
-  - verb – to search for and expose corruption or scandal especially as done by a journalist.
+  - *verb – to search for and expose corruption or scandal especially as done by a journalist.*
+
+
+[[attachment:_20201020_134535screenshot.png]]
 
   - verb – explore and expose misconduct and scandals concerning public figures
 * what is  intermingle? :fc:
@@ -4487,12 +4499,19 @@ eans something that occurs over the seasons and is constant throughout the years
 :END:
 
 
-*** Back
+*** Back :ATTACH:
 
 
   - adjective: troubled persistently especially with petty annoyances
 
     With a team of new hires to train, Martha was constantly harried with little questions and could not focus on her projects.
+
+
+
+[[attachment:_20201020_182342screenshot.png]]
+
+inasmuch
+
 * what is  besiege? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-10-07T17:31:44Z
@@ -4564,7 +4583,8 @@ eans something that occurs over the seasons and is constant throughout the years
 
   - noun – The state of being diffident, timid or shy; reticence or self-effacement.
 
-  - noun – Mistrust, distrust, lack of confidence in someone or something.
+  - *noun – Mistrust, distrust, lack of confidence in someone or something.*
+
 * what is  thoroughgoing? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-10-07T17:31:44Z
@@ -4726,7 +4746,7 @@ notavelmente associado à política.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-10-07T21:50:39Z |
+| front    | 2.50 |   1 |     0.01 | 2020-11-10T13:39:19Z |
 :END:
 
 
@@ -5430,7 +5450,7 @@ praise, congratulations, kudos, extolment
 
 
 
-*** Back
+*** Back :ATTACH:
 garrulity
 
 noun – The quality of being garrulous; talkativeness; loquacity.
@@ -5440,6 +5460,12 @@ noun – Talkativeness; loquacity.
 noun – The state or characteristic of being garrulous.
 
 noun – the quality of being wordy and talkative
+
+tagarela
+
+
+[[attachment:_20201020_134110screenshot.png]]
+[[attachment:_20201020_134122screenshot.png]]
 
 
 
@@ -6847,7 +6873,7 @@ To return or recede; fall away; decline.
 :REVIEW_DATA:
 | position | ease | box | interval | due                  |
 |----------+------+-----+----------+----------------------|
-| front    |  2.5 |   0 |        0 | 2020-10-16T19:32:52Z |
+| front    | 2.50 |   0 |     0.00 | 2020-10-20T16:44:08Z |
 :END:
 *** Back
 
@@ -7428,6 +7454,9 @@ meticulous
 3. commonplace, humdrum, prosaic, unglamorous, unglamourous -- (*not challenging; dull and lacking excitement*; "an unglamorous job greasing engines")
 
 
+debacle
+
+
 * What is restive? :fc:
 :PROPERTIES:
 :FC_CREATED: 2020-10-19T13:22:57Z
@@ -7456,4 +7485,520 @@ meticulous
 | front    |  2.5 |   0 |        0 | 2020-10-19T13:23:29Z |
 :END:
 *** Back
-1. skittish, flighty, spooky, nervous -- (unpredictably excitable (especially of
+1. skittish, flighty, spooky, nervous -- (unpredictably excitable (especially of 
+palatable
+
+lastly
+
+precaution
+
+
+* What is expansive? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-21T21:13:38Z
+:FC_TYPE:  normal
+:ID:       d0d3eee6-bb61-4746-925f-091f82205900
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-21T21:13:38Z |
+:END:
+
+*** Back
+expansive
+
+adjective: communicative, and prone to talking in a sociable manner
+
+After a few sips of cognac, the octogenarian shed his irascible demeanor and became expansive, speaking fondly of the “good old days”.
+
+
+* What is chalked? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-21T21:23:21Z
+:FC_TYPE:  normal
+:ID:       b3bcea01-566a-4d06-b94e-7506c21c5c22
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-21T21:23:21Z |
+:END:
+
+*** Back
+1. chalk -- (write, draw, or trace with chalk)
+
+
+* WHat is facile? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:37:32Z
+:FC_TYPE:  normal
+:ID:       89824ce4-e821-4c62-8863-88b8eb3092ab
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:37:32Z |
+:END:
+
+
+*** Back
+
+
+facile
+
+adjective: arrived at without due care or effort; lacking depth
+
+Many news shows provide facile explanations to complex politics, so I prefer to read the in-depth reporting of The New York Times.
+
+* What is debonair? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:37:55Z
+:FC_TYPE:  normal
+:ID:       95cf017a-e8f0-4e6b-9f7e-29cea12559d0
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:37:55Z |
+:END:
+
+*** Back
+debonair
+
+adjective: having a sophisticated charm
+
+James Bond is known for his good looks, high tech gadgets, and debonair manner.
+
+
+* What is smug? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:38:16Z
+:FC_TYPE:  normal
+:ID:       7a3d4b32-2f15-4f3e-8576-f23980e37cce
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:38:16Z |
+:END:
+
+
+*** Back
+
+ smug
+
+adjective: marked by excessive complacency or self-satisfaction
+
+When Phil was dating the model, he had a smug attitude that annoyed his buddies.
+
+
+* What is hew to? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:52:26Z
+:FC_TYPE:  normal
+:ID:       12c0879e-078a-4c98-be6f-5db65647da08
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:52:26Z |
+:END:
+
+
+*** Back
+
+hew to
+phrasal verb de hew
+ conform or adhere to a particular idea or approach.
+
+
+* What is racy? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:58:27Z
+:FC_TYPE:  normal
+:ID:       1ac2ac02-9108-41be-ab11-c1b7c72a0027
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:58:27Z |
+:END:
+
+
+*** Back
+ adjective – Having a strong flavor indicating origin; of distinct characteristic taste; tasting of the soil; hence, fresh; rich.
+
+adjective – Hence: Exciting to the mental taste by a strong or distinctive character of thought or language; peculiar and piquant; fresh and lively.
+
+adjective – somewhat suggestive of sexual themes; slightly improper; risqué.
+
+* What is untrammeled? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:58:55Z
+:FC_TYPE:  normal
+:ID:       71a9c691-f79f-4de0-85a6-611fed2317f4
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:58:55Z |
+:END:
+
+*** Back
+adjective: not confined or limited
+
+The whole notion of living untrammeled inspired the American Revolution and was enshrined in the Declaration of Independence and the Constitution.
+* What is slander? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T18:59:56Z
+:FC_TYPE:  normal
+:ID:       c5021b09-d5a5-414e-a5c6-3a05a03223c2
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T18:59:56Z |
+:END:
+
+
+*** Back
+
+slander
+
+To be a stumbling-block to; give offense to; offend.
+
+To discredit; disgrace; dishonor.
+
+To speak ill of; defame; calumniate; disparage.
+
+Specifically In law, to utter false and injurious tales or reports regarding; injure or tarnish the good name and reputation of, by false tales maliciously told or propagated. See slander, n., 4, and compare libel.
+
+To reproach; charge: with with.
+
+* What is ousted? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T19:00:20Z
+:FC_TYPE:  normal
+:ID:       e18231c3-1bb1-457a-a3b7-0107ab406549
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T19:00:20Z |
+:END:
+
+*** Back
+oust
+
+noun – Same as oast.
+
+To take away; remove.
+
+To turn out; eject; dispossess.
+
+transitive verb – To take away; to remove.
+
+transitive verb – To eject; to expel; to turn out.
+
+noun – See oast.
+
+verb – To expel; to remove.
+
+
+* What is inured to? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T19:06:00Z
+:FC_TYPE:  normal
+:ID:       9fce5849-914c-42e9-bf3a-349fbc9e13de
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T19:06:00Z |
+:END:
+
+*** Back
+
+inured
+
+verb – Simple past tense and past participle of inure.
+
+adjective – made tough by habitual exposure
+
+
+* What is commendable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T19:07:57Z
+:FC_TYPE:  normal
+:ID:       5206c751-c55c-436a-b269-94b5a0562f23
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T19:07:57Z |
+:END:
+
+
+
+commendable
+
+adjective: worthy of high praise
+
+The efforts of the firefighters running into the burning building were commendable.
+
+
+
+* What is auspicious/favorable? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T19:08:26Z
+:FC_TYPE:  normal
+:ID:       ac1bc1e1-1a21-4f1c-aaca-09bf66657e96
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T19:08:26Z |
+:END:
+
+*** Back
+auspicious
+
+adjective: favorable, the opposite of sinister
+
+Despite an auspicious beginning, Mike’s road trip became a series of mishaps, and he was soon stranded and penniless, leaning against his wrecked automobile.
+
+
+* What is peripatetic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-22T19:12:57Z
+:FC_TYPE:  normal
+:ID:       970c29c2-a3e4-43b1-a605-715ea092ef65
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-22T19:12:57Z |
+:END:
+
+*** Back
+peripatetic
+
+adjective: traveling by foot
+
+Jim always preferred a peripatetic approach to discovering a city: he felt that he could see so many more details while walking.
+* What is the relationship between snub and slight? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:08:07Z
+:FC_TYPE:  normal
+:ID:       7c3a3c1f-81a4-4d42-bff1-1aba9090c92b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:08:07Z |
+:END:
+*** Back
+They both can be used to talk about making little of something
+
+* What is pedestrian? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:10:30Z
+:FC_TYPE:  normal
+:ID:       1cf8cfcd-b9a6-4d63-b8ae-704f0da6c915
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:10:30Z |
+:END:
+
+
+*** Back
+pedestrian
+
+adjective: lacking imagination
+
+While Nan was always engaged in philosophical speculation, her brother was occupied with far more pedestrian concerns: how to earn a salary and run a household.
+
+* What is quixotic? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:12:22Z
+:FC_TYPE:  normal
+:ID:       12b97186-c96d-4fd8-947a-2073946948af
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:12:22Z |
+:END:
+
+*** Back
+quixotic
+
+adjective: wildly idealistic; impractical
+
+For every thousand startups with quixotic plans to be the next big name in e-commerce, only a handful ever become profitable.
+* What is egregious? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:13:28Z
+:FC_TYPE:  normal
+:ID:       84ef6696-ba82-4f5d-9c18-7752c50faa99
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:13:28Z |
+:END:
+
+*** Back
+adjective: standing out in a negative way; shockingly bad
+
+The dictator’s abuse of human rights was so egregious that many world leaders demanded that he be tried in an international court for genocide.
+
+* What is bleak? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:14:39Z
+:FC_TYPE:  normal
+:ID:       c21aab70-2718-47bc-88f2-c72a961a5733
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:14:39Z |
+:END:
+
+*** Back
+similar to grim 
+adjective: cold-feeling and dark; hopeless
+
+Veronica bought two plane tickets to the sunny Caribbean because she didn't want to suffer through another winter in her bleak hometown.
+
+
+* What is coalesce? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:19:09Z
+:FC_TYPE:  normal
+:ID:       35b6348a-0478-49fd-9e1b-11a916a0da34
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:19:09Z |
+:END:
+*** Back
+
+coalesce
+
+verb: fuse or cause to grow together
+
+Over time, the various tribes coalesced into a single common culture with one universal language.
+
+
+* what is besmirch? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:20:57Z
+:FC_TYPE:  normal
+:ID:       0c3d39a2-0b37-4c03-b229-8a0b2b8ee07a
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:20:57Z |
+:END:
+
+*** Back
+verb: damage the good name and reputation of someone
+
+The prince's distasteful choice of words besmirched not only his own name but also the reputation of the entire royal family.
+
+
+* What is intimation? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:22:56Z
+:FC_TYPE:  normal
+:ID:       fabe5862-1cdf-4834-9788-24d1c8d02545
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:22:56Z |
+:END:
+*** Back
+
+
+intimation
+
+noun: an indirect suggestion
+
+At first the hostess tried intimation, praising the benefits of cutlery; when Cecil continued eating with his hands, the hostess told him to use a fork at dinner.
+
+
+* What is arch? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:24:01Z
+:FC_TYPE:  normal
+:ID:       d43c7d81-9261-44aa-bae9-472e12f069aa
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:24:01Z |
+:END:
+
+*** Back
+
+arch
+
+adjective: to be deliberately teasing
+
+The baroness was arch, making playful asides to the townspeople; yet because they couldn't pick up on her dry humor, they thought her supercilious.
+
+* What is puckish? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:24:29Z
+:FC_TYPE:  normal
+:ID:       ab9c86f9-afaa-409e-a197-964eaec603f7
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:24:29Z |
+:END:
+
+*** Back
+puckish
+
+Resembling the fairy Puck; like what Puck might do; merry.
+
+adjective – Resembling Puck; merry; mischievous.
+
+adjective – mischievous; excessively playful.
+
+adjective – naughtily or annoyingly playful
+
+
+* What is obliquely? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-10-30T17:26:29Z
+:FC_TYPE:  normal
+:ID:       e3646d79-8de5-4f12-b68b-ec3e5c935473
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-10-30T17:26:29Z |
+:END:
+*** Back
+
+obliquely
+
+In an oblique manner or direction; not directly; slantingly; indirectly.
+
+adverb – In an oblique manner; not directly; indirectly.
+
+adverb – in an oblique manner; sideways
+
+adverb – at an oblique angle
+
+adverb – to, toward or at one side

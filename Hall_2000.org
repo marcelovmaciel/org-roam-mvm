@@ -349,6 +349,9 @@ inorder (reflect t) == reverse (inorder t)
 - The size of a balanced tree is determined by its height. Intuitively, \(size = 2^h - 1\), where \(h\) is the height. This can be proved by induction.
 
 
+
+*** Chapter 6 - Propositional Logic
+
 ** What are the main concepts of the text?
 *** Chapter 1 - Introduction to haskell
 - command to interpreter (e.g. :load)
@@ -435,6 +438,9 @@ inorder (reflect t) == reverse (inorder t)
 - binary search (trees)
 - Induction on trees 
 
+
+
+*** Chapter 6 - Propositional Logic
 
 * Exercises
 ** Chapter 4

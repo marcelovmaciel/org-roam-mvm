@@ -1,0 +1,28 @@
+ #+TITLE: Elinor ostrom’s contributions to the experimental study of social dilemmas
+#+ROAM_KEY: cite:ahn2010elinor
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: ahn2010elinor
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/ahn2010elinor.pdf
+:AUTHOR: Ahn, T. & Wilson, R. K.
+:JOURNAL: Public Choice
+:DATE:
+:YEAR: 2010
+:DOI:
+:URL:
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Same as cite:wilson11_contr_behav_econom_to_polit_scien
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+There is a natural link between theoretical work and experimental research
+** What are the specific arguments of the text?
+- That nash equilibrium explains well the average later behavior in CPR experiments
+- That comparativie statics changing the institution is a great way of connecting theory and experiments
+- That endogenous institutions is something that is well analyzed in experimental settings
+
+** What are the main concepts of the text?

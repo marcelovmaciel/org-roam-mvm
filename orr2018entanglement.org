@@ -43,7 +43,6 @@ shortsighted perspective about is role within society.
 - Models are instruments of practical reasoning
 - reasons (preferences and beliefs) are a class of causal  mechanisms
 - Models as tools to *entertain possibilities*
-
 - The residential seggregation model is an example of conceptual exploration in which there is a entaglement of positive and normative considerations.
 - Johson tends to focus on game theoretic models as tools to explore unseen causal mechanisms related to the reasons of agents. He's got a reason-centric approach. In this he differs from ostrom who takes a situation-centric approach
 
@@ -237,3 +236,12 @@ hew, hew out
 hew
        => strike
           Phrasal Verb-> hew out#1
+
+
+
+
+
+
+* Further refs
+- cite:topper2009disorder
+-
