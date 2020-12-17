@@ -30,6 +30,12 @@ a categorical approach might be concretized  by this algebraic perspective.
   - cite:freer2020algebraic
   - cite:laszlo2019partition
   - cite:guisasola20_with_poten_games_which_outcom_is_better
+  - cite:falik2011algebraic
+  - cite:daugherty2007voting
+  - cite:daugherty2005algebraic
+  - cite:szegedy2015impossibility
+  - cite:xu2015impossibility
+  - cite:barcelo20_algeb_votin_theor_repres_s
 
 - Categorical approaches
   - cite:di2020games

@@ -762,7 +762,7 @@ Models with high variance are usually more complex (e.g. higher-order regression
 
 - summary of the chapter
   #+begin_quote
-In section 3.1 we provide a rigorous deﬁnition of causality appro- priate for
+In section 3.1 we provide a rigorous deﬁnition of causality appro60+priate for
 qualitative and quantitative research, then in section 3.2 we clarify several
 alternative notions of causality in the literature and demonstrate that they do
 not conﬂict with our more fundamental deﬁ- nition. In section 3.3 we discuss the
@@ -894,7 +894,7 @@ deﬁning the concept of causal effect
 - class of events (p.10)
 - counterfactual analysis (p.10)
 - class of events + counterfactual analysis (p.11)
-o- observable implication (p.11)
+- observable implication (p.11)
 - science as hypothetical dedutivism (p.12)
 - research design = research question, theory, data, and the use of the data. (p.13)
 - Improving questions = Social + scientific significance

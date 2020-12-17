@@ -20,6 +20,7 @@ Same as cite:wilson11_contr_behav_econom_to_polit_scien
 * Struct questions
 
 ** What is the goal/ general argument of the text?
+Test if there is any difference between dominant strategy games and mixed strategy games in terms of brain activity. They only find modest support.
 
 ** What are the specific arguments of the text?
 

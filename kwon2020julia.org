@@ -1,0 +1,193 @@
+#+TITLE: Hands-on design patterns and best practices with julia
+#+ROAM_KEY: cite:kwon2020julia
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: kwon2020julia
+:NOTER_DOCUMENT:
+:AUTHOR: Kwong, T.
+:JOURNAL:
+:DATE:
+:YEAR: 2020
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To improve my julia foo
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+*** General
+Teach julia design patterns
+*** Chapter 1
+** What are the specific arguments of the text?
+*** Chapter 2
+- Data science application:  Data Engineering \(\rightarrow\) Model Development \(\rightarrow\) Model Deployment
+- Enterprise application: user interface \(\circ\) middle tier \(\circ\) database backend
+  - data at motion (streams) \(\circ\) data at rest (database)
+- The explanation of namespaces is pretty good. It is basically a way of qualifying the meaning of words.
+
+** What are the main concepts of the text?
+*** Chapter 1
+- Types of patterns
+- Software principles
+  solid, kiss, dry, and so on
+- Software objectives
+*** Chapter 2 - Modules, Packages and Data Type Concepts
+- Data science application:  Data Engineering \(\rightarrow\) Model Development \(\rightarrow\) Model Deployment
+-
+
+
+
+* Questions
+** What are the GOF three types of design patterns? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:10:53Z
+:FC_TYPE:  normal
+:ID:       c41ab28d-617a-4740-a75e-ff7cda6da6d3
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:10:53Z |
+:END:
+*** Back
+- Creational
+  How to create objects
+- Structural
+  How to compose objects
+- Behavioral
+  How objects communicate
+
+** What is SOLID? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:25:14Z
+:FC_TYPE:  normal
+:ID:       6ec9a8bd-3135-4abf-9385-93086e4f1d18
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:25:14Z |
+:END:
+
+*** Back
+- Single responsibility
+  Every entity should be responsible for a single thing
+- Open/Closed
+  Modules should be open to extension but close to modification
+- Liskov substitution
+  If a function works on T and S is a subtype of T then the function should also work on S
+- interface segregation
+  clients should not be forced to implement unneeded interfaces
+- Dependency inversion
+  High level classes should not depend on low level classes, rather they should rely on abstractions of lower level classes
+
+
+** What is DRY? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:25:14Z
+:FC_TYPE:  normal
+:ID:       c5f8f256-f3c5-4571-99cf-0f8db0e20908
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:25:14Z |
+:END:
+
+*** Back
+Dont repeat yourself
+** What is KISS? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:25:14Z
+:FC_TYPE:  normal
+:ID:       a605ba37-0ba2-4520-8080-cb4d96eececa
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:25:14Z |
+:END:
+
+*** Back
+Keep it simple stupid
+
+** What is POLA? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:25:14Z
+:FC_TYPE:  normal
+:ID:       7792c594-3136-4536-ab21-7fc31cc0c8ea
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:25:14Z |
+:END:
+
+*** Back
+Principle of least astonishment
+
+- Functions should have few positional arguments
+- Names must be clear
+- interfaces should be small
+** What is YAGNI? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:25:14Z
+:FC_TYPE:  normal
+:ID:       7a64d4a1-50f6-4524-b1d7-2c7e7cb79333
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:25:14Z |
+:END:
+
+*** Back
+You arent gonna need it
+
+- Only develop what you need today
+** What is POLP? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:25:14Z
+:FC_TYPE:  normal
+:ID:       2d2ee7a3-1106-44a5-a61f-b59524f56f42
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:25:14Z |
+:END:
+
+*** Back
+
+Principle of least privilege
+
+- Clients should only have access to the information they need
+
+
+** What are Kwong types of patterns? :fc:
+:PROPERTIES:
+:FC_CREATED: 2020-12-10T18:48:12Z
+:FC_TYPE:  normal
+:ID:       5691cff6-6310-470e-be93-598ba268aa67
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2020-12-10T18:48:12Z |
+:END:
+*** Back :ATTACH:
+- Reusability
+  [[attachment:_20201210_155055screenshot.png]]
+
+- Performance
+  [[attachment:_20201210_155407screenshot.png]]
+
+- Maintenance
+  [[attachment:_20201210_161647screenshot.png]]
+
+- Safety
+  [[attachment:_20201210_162358screenshot.png]]

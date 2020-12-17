@@ -1,0 +1,65 @@
+#+TITLE: Fully proportional representation
+#+ROAM_KEY: cite:monroe1995fully
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: monroe1995fully
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/monroe1995fully.pdf
+:AUTHOR: Monroe, B. L.
+:JOURNAL: American Political Science Review
+:DATE:
+:YEAR: 1995
+:DOI:
+:URL:
+:END:
+
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+His idea resonates deeply with my [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] idea.
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+Present the ideal of fully proportional representation as relevant for democracy
+** What are the specific arguments of the text?
+- Most literature against plurality rule is focused on single winner elections
+- Proportional elections are naturally multiwinner elections. So he will take the criticisms against first choice voting mechanisms and apply it to multiwinner elections, by concocting the fully proportional representation concept
+- Proportional to What?
+- Representation of What?
+- naive FPR is easy to manipulate (obviously)
+- So, there is a trade-off here between misrepresentation minimization and manipulalibility
+  - borda suckx
+  - approval better
+-
+
+** What are the main concepts of the text?
+- Black definition of proportional representation:
+  #+begin_quote
+Duncan Black (1958) defines proportional repre-
+sentation as an attempt to select a political
+assembly that is a "reflexion" of the "shades
+of political opinion" in society as a whole.
+  #+end_quote
+- Previous attempts at  FPR:
+  #+begin_quote
+The basic principle behind these systems was first tentatively suggested and
+abandoned by Charles Dodgson (Lewis Carroll) (1884b) 2 and then suggested and
+rejected in different form by Black (1958). This principle is as follows: if m
+candidates are to be elected, voters should be segmented into m equal- sized
+coalitions, each of which is assigned a repre- sentative, such that the
+preferences of voters are as closely as possible reflected by the
+representatives of their segment. T
+  #+end_quote
+- *Misrepresentation minimization*
+
+
+* Further references
+- Monroe, Burt L. 1993. "The Limits of Sophisticated Voting."
+Presented to the Midwest Political Science Association,
+Chicago.
+- Monroe, Burt L. 1994a. "DisproportionaHty and Malappor-
+tionment: Measuring Electoral Inequity." Electoral Studies
+13:132-49.
+- Monroe, Burt L. 1994b. "Why Democracies Vote: Social Choice Theory and the Design of Democratic Institutions."
+Presented

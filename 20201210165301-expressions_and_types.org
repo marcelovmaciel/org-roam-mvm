@@ -1,0 +1,4 @@
+#+title: Expressions and types
+- [[file:20200523150423-haskell_general.org][Haskell - General]]
+
+A cool way to think about programming is that it is basically governed by expressions and types. It maps naturally to how programming in haskell is done, for instance (https://stackoverflow.com/questions/16892570/what-is-in-haskell-exactly), but is useful for lisp and julia too. In the end, it makes more sense to me, inasmuch it connects with typed lambda calculus. If I ever teach programming, I think this is the path I'll take to explain things.
