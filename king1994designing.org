@@ -781,7 +781,21 @@ struct causal explanations, theories, and hypotheses.
 - They do not claim causal explanation is the only kind of research that must be
   pursued (p.75). This is nice, but there is indeed a bias towards causal
   estimation in political science, the so called causal empiricist perspective.
-- One thing that is paramount, they argue, is clarity whether the goal of the research is descriptive or explanatory. I do not believe, though, that this is the best way to frame, or at least it is not sufficient. cite:Clarke_2012 have concocted a better classification scheme, both for theoretical and empirical models. I believe that more can be done within their framework, though. From the theoretical point of view a better disambiguation of "types" of theories is necessary lest confusion regarding the role of theory remains. Their view of theories as maps does not do justice to more theoretical endeavors, as cite:johnson2006consequences argues in some of his articles (look my tcc for the precise reference). From the empirical side, there is a dearth of discussion of machine learning model. How do they fit in cite:Clarke_2012 scheme ? Moreover, causal inference in the cite:bareinboim20201on tradition seems a way of connecting the FTA with the RCM causal empiricism. Gotta stop, as I'm diverting the attention from KKV here. Must turn this into a stand alone note.
+- One thing that is paramount, they argue, is clarity whether the goal of the
+  research is descriptive or explanatory. I do not believe, though, that this is
+  the best way to frame, or at least it is not sufficient. cite:Clarke_2012 have
+  concocted a better classification scheme, both for theoretical and empirical
+  models. I believe that more can be done within their framework, though. From
+  the theoretical point of view a better disambiguation of "types" of theories
+  is necessary lest confusion regarding the role of theory remains. Their view
+  of theories as maps does not do justice to more theoretical endeavors, as
+  cite:johnson2006consequences argues in some of his articles (look my tcc for
+  the precise reference). From the empirical side, there is a dearth of
+  discussion on machine learning modeling. How do they fit in cite:Clarke_2012
+  scheme ? Moreover, causal inference in the cite:bareinboim20201on tradition
+  seems a way of connecting the FTA with the RCM causal empiricism. Gotta stop,
+  as I'm diverting the attention from KKV here. Must turn this into a stand
+  alone note.
 - They identify causal inference with explanation. First they argue that #+begin_quote
 At its core, real explanation is always based on causal inferences.
 #+end_quote
@@ -851,22 +865,121 @@ Hence our deﬁnition of causality is logically prior to the identiﬁcation of 
   cite:johnson2006consequences argues. So I imagine they think about it
   practically, which is also wrong.
 - Also, many people have pointed out that identification of effects DO NOT constitute an explanation. Explanation requires both EoC and CoE. cite:morton2010experimental argues that. cite:elster2009excessive too. So does cite:johnson2006consequences and cite:goldthorpe2016sociology.
-- As cite:johnson2006consequences they not only redefine causality, redefine explanation BUT THEY ALSO REDEFINE CAUSAL MECHANISMS KKKKKKK They treat causal mechanisms as directly observable things, which IS NOT how they are used by other social scientists. My view is that they are so ingrained in an empiricist mindset that they treat Everything as an empirical matter.
+- As cite:johnson2006consequences argues they not only redefine causality,
+  redefine explanation BUT THEY ALSO REDEFINE CAUSAL MECHANISMS KKKKKKK They
+  treat causal mechanisms as directly observable things, which IS NOT how they
+  are used by other social scientists. My view is that they are so ingrained in
+  an empiricist mindset that they treat Everything as an empirical matter.
   #+begin_quote
 These *intervening effects*—caused by the constitutional system
 and, in turn, affecting political stability—*can be directly observed.*
   #+end_quote
 - They take an empiricist stance which is untenable:
   #+begin_quote
-We can
-deﬁne a causal effect without understanding all the causal mecha-
-nisms involved, but we cannot identify causal mechanisms without
-deﬁning the concept of causal effect
+We can deﬁne a causal effect without understanding all the causal mecha- nisms
+involved, but we cannot identify causal mechanisms without deﬁning the concept
+of causal effect
   #+end_quote
 - Look how they first use two different verbs here. DEFINE and IDENTIFY. NEITHER
   is prior to the other. When we define causal effects we have causal mechanisms
-  in mind. Both kinds of research is legitimate. Explanation requires both, actually. If not "causal mechanisms" at least some kind of CoE
+  in mind. Both kinds of research is legitimate. Explanation requires both,
+  actually. If not "causal mechanisms" at least some kind of CoE
 -  I will not dwell upon multiple causation and asymmetric causation as I consider an outdated debate
+**** Assumptions for Estimating causal effects
+- THere are basically two:
+  1. unit homogeneity
+  2. conditional independence
+- Since we cannot rerun history we have to compare units. To do so they must be
+  *homogeneous*, that is : "Two units are homogeneous when the expected values of
+  the dependent variables from each unit are the same when our explanatory variable takes on a particular value."
+- This homogeneity may be across time or space
+- *Conditional independence* "the assumption that values are assigned to explanatory variables independently of the values taken by the de- pendent variables."
+- Conditional independence is best assured through experimental methods. A second best are quasi-experimental and then large-n analyses
+- How does random selection / assignment assure conditional inpendence?
+  #+begin_quote
+automatically satisfy three assumptions that underlie the concept of conditional
+independence: (1) that the process of assigning values to the explanatory
+variables is independent of the dependent variables (that is, there is no
+endogeneity problem); (2) that selection bias, which we discuss in section 4.3,
+is absent; and (3) that omitted variable bias (section 5.2) is also absent.
+  #+end_quote
+- Conditional independence can still be achieved if we control for the process which is creating the dependence between explanatory and dependent variable (this is more clearly seen using DAGs, actually)
+**** Criteria for judging causal inferences
+- *Mostly the same ones used in descriptive inference!* This is possible because of the unified formalization in terms of random variables
+- His causal model has lead him to a formal  derivation which has a corollary his assertion that we have to maximize the number of observations under the constraint of feasibility of doing so. In page 99:
+  #+begin_quote
+this component indicates
+that efﬁciency is greatest when we have evidence from a larger
+range of values of the explanatory variable. In general, then, it is best
+to evaluate our causal hypotheses in as many diverse situations as
+possible.
+  #+end_quote
+- On page 99 they give a more precise definition of *observable implicaiton* if
+  the indepent variable take on certain values then other specified values are
+  predicted for the dependent variable
+**** Rules for constructing causal theories
+- Rules:
+  1. Construct falsifiable theories
+  2. Build internally consistent theories
+  3. Select dependent variables carefully
+  4. Maximize concreteness
+  5. State theories in encompassing ways
+- On the falsifiability: construct theories that can be shown to be wrong as quickly as possible
+  - This is contentious. As McElreath argues this creates a flood of bad theories
+- They argue that falsificationism is more useful for formulating theories than
+  to evaluate then.
+- Theory "falsification" in the social sciences is actually a search for their
+  *bounds of applicability*. This is, actually, a good perspective.
+- They self-identify as philosophically bayesian, however, with a twist in the
+  goals (bounds of applicability instead of universal assertions )
+- They argue that most social science is conditional on boundaries, but they
+  keep overloading the name "theory"
+  #+begin_quote
+Most useful social science theo-
+ries are valid under particular conditions (in election campaigns with-
+out strong evidence of immoral behavior by a candidate) or in particu-
+lar settings (in industrialized but not less industrialized nations, in
+House but not Senate campaigns). We should always try to specify the
+bounds of applicability of the theory or hypothesis.
+  #+end_quote
+  - overloading the term theory here, once again, leads to strange arguments.
+    Some versions? The more restricted propositions of marxism are based on the
+    more general "theory". The same can be said about rational choice theory.
+    Maybe theory is lots of things and we have to untangle this mess of concepts
+    which live under the same umbrella called theory
+- One GREAT takeaway from kkv is this bounds of applicability stuff. It is pure
+  juice of complex systems. They consider that THE QUESTION is : Why do these
+  bounds exist? And here lies another research question: all models are limited,
+  all theories are limited. We have to specify bounds of their applicability.
+  Implicit here is the possibility that there are levels in which one theory
+  applies but in another situation another theory applies. That is, this is a
+  problem of phase transition, of levels of explanation, and there is the
+  possibility of multiple theories which coexist.
+- Do *NOT select observations based on the dependent variable*. SIMPLY because
+  it will end up not VARYING.
+- Unobserved concepts are useful in theory formulation, but can be a hindrance
+  to their evaluation if not even their implications can be observed and
+  measured.
+- One thing that they are against is the *gap between concept and indicator* and
+  I fully agree with their take:
+  #+begin_quote
+Often the speciﬁc
+indicator is far from the original concept and has only an indirect and
+uncertain relationship to it. It may not be a valid indicator of the ab-
+stract concept at all. But, after a quick apology for the gap between the
+abstract concept and the speciﬁc indicator, the researcher labels the in-
+dicator with the abstract concept and proceeds onward as if he were
+measuring that concept directly. Unfortunately, such reiﬁcation is
+common in social science work, perhaps more frequently in quantita-
+tive than in qualitative research
+[...]
+
+  #+end_quote
+  - I believe there is a problem here. If there is too much gap between concept
+    and empirical construct maybe either the concept is not good or the data
+    does not allow us to properly measure the concept. Simple. It is a bad
+    pattern to use those proxies. People should think more about design,
+    measurement and conceptualization.
 -
 ** What are the main concepts of the text?
 

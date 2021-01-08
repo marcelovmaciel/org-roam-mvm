@@ -1,0 +1,319 @@
+#+TITLE: How to prove it: a structured approach
+#+ROAM_KEY: cite:velleman2019prove
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: velleman2019prove
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/velleman2019prove.pdf
+:AUTHOR: Velleman, D. J.
+:JOURNAL:
+:DATE:
+:YEAR: 2019
+:DOI:
+:URL:
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Learn math lol
+
+
+* Struct questions
+
+** What are the main concepts of the text?
+*** Chap 1-2 :ATTACH:
+:PROPERTIES:
+:ID:       86e765fd-5b51-40a0-a9d8-551a57235cdd
+:END:
+- The laws of conjunction/disjunction (which can be proved using truth tables):
+  [[attachment:_20210104_181532screenshot.png]]
+
+- The laws of tautology and contradiction
+
+[[attachment:_20210104_182447screenshot.png]]
+- The *symmetric difference* \(A \triangle B \)
+  [[attachment:_20210104_192435screenshot.png]]
+- How does one translate from logic to sets?
+  - By using *truth sets*
+    [[attachment:_20210104_192708screenshot.png]]
+- The *conditional laws*
+  [[attachment:_20210105_103902screenshot.png]]
+- One useful equivalence is  \(P \iff Q = (P \land Q) \lor ( \neg P \land \neg Q) \)
+- Be careful with biconditional equivalences!! Try to spell them, since they are tricky. Page 54 shows some of them
+- The *quantifier negation laws*
+  [[attachment:_20210105_111322screenshot.png]]
+- *Uniqueness* is formalized as following : \(\exists !x P(x) = \exists x (P(x) \land \neg \exists y (P(y) \land y\neq x))\)
+- Notice that universal conditionals are *vacuously true* if the universe of the antecedent is \(\emptyset\)  .
+- Notice that \(\exists x \in A P(x) = \exists x ( \in A \land P(x))\) and that  \(\forall x \in A P(x) = \forall x (x \in A \rightarrow P(x))\)
+- Notice that \(x \in \{n^2 | n \in \mathbb{N}\} = \exists n \in \mathbb{N}(x = n^2)\)
+- The *universal quantifier distributes over conjunction*: \( \forall x (E(x)
+  \land T(x)) = \forall x E(x) \land \forall x T(x) \) while the *existential
+  quantifier distributes over disjunction*: \(\exists x (P(x) \lor Q(x)) =
+  \exists x P(x) \lor \exists x Q(x)\)
+- *Indexed family* : \( x \in \{ x_i | i \in I\} = \exists i \in I(x = x_i) \)
+- The generalized definitions of intersection and union are actually non-trivial:
+  [[attachment:_20210105_135306screenshot.png]]
+  + Where families are sets constituted of other sets
+  + Intersection = the contrapositive and turning into disjunction is easier to grasp \(\{x| \forall A (x \in A \lor A \notin F)\}\)
+  + It is even easier to understand using indexed families. Let \(F = \{A_i | i \in I\}\) then:
+    - \(\cap F = \cap _{i \in I}A_i =\{x | \forall i \in I (x \in A_i)\}\)   (x is in all indexes of the family)
+    - \[ \cup F = \cup_ {i \in I} A_i = \{x | \exists i \in I (x \in A_i ) \} \] (x is there because it is in some index)
+*** Chap 3 - Proof strategies
+- Proofs are games of folding *givens* towards *goals*
+- *Proving goals of the form*:
+  - \(\neg P\):
+    a. Reexpress as a positive statement
+    b. Use proof by contradiction
+  - \(P \to Q\):
+    a. Assume P and prove Q (*modus ponens*)
+    b. Prove the contrapositive: assume Q is false and prove that P is false (*modus tollens* )
+  - \(P \land Q\):
+    - Prove P and Q separately. Treat this as two separate goals
+  - \(P \lor Q\):
+    a. Assume P is false and prove Q, or assume Q is false and prove P
+    b. Use proof by cases
+  - \( P \iff Q\)
+    a. Prove the conditionals separately
+  - \(\forall x P(x)\)
+    a. Let \(x\) stand for an arbitrary object and prove \(P(x)\)
+  - \(\exists P(x)\)
+    a. Find a value of \(x\) that makes \(P(x)\) true. Prove \(P(x)\) for this value of \(x\)
+  - \(\exists !x P(x)\)
+    a. Prove \(\exists P(x)\) and \(\forall y \forall x ((P(y) \land P(z)) \to y = z)\)
+    b. Prove \(\exists x ( P(x)  \land \forall y (P(y) \to y = x)  ) \)
+  - \(\forall n \in \mathbb{N} P(n)\)
+    a. Mathematical induction: Prove base case and \(\forall n \in \mathbb{N} (P(n) \to P(n+1))\) (the induction step)
+    b. Strong induction: \(\forall n \in \mathbb{N} [(\foall k < n P(k)) \to P(n)]\)
+- *When using a given of the form*:
+  - \(\neg P\):
+    a. Reexpress as a positive statement
+    b. If proving by contradiction, try to prove P
+  - \(P \to Q\)
+    a. If given / proven P then Q follows
+    b. Use the contrapositive: if given / proven Q is false, then \(\neg P\) ensues
+  - \(P \land Q\):
+    a. Treat as two givens
+  - \(P \lor Q\):
+    a. Use proof by cases. Assume P is true in case 1. Assume Q is true in case 2.
+    b. If given / proven that \(\neg P\) then Q follows. THe same if Q is false
+  - \(\forall x P(x)\)
+    a. Plug in any value \(a\) and conclude that \(P(a)\) is true
+  - \(\exists P(x)\)
+    a. Introduce a new variable \(x_0\) that stands for a particular object for which \(P(x_0)\) is true
+  - \(\exists !x P(x)\)
+    a) Introduce a new variable \(x_0\) that stands for a particular object for
+      which \(P(x_0)\) is true. Also, you may assume that \(\forall y (P(y) \to y=x_0)\)
+- *General proofs techniques*
+  - Proof by contradiction
+  - Proof by cases
+*** Chap 4 - Relations
+- *Cartesian Product*:
+  \(A \times B = \{(a,b) \text{  } | \text{  } a \in A \text{ and } b \in B\}\)
+- The Cartesian Product is fundamental because it is needed to define the truth set for statements containing two free variables !!!!!!
+  + Truth set of \(P(x,y) = \{(a,b) \in A \times B \text{  } | \text{  } P(a,b)\}\)
+
+* Exercises
+- Page 81 exercise 1.d
+** Section 3.3
+- 2:
+  + Goal
+    - \(A
+      \cap
+       B
+        \setminus
+         C =
+          \emptyset
+          \to
+          A \cap B
+           \subseteq
+            C\)
+  + Proof
+    - Suppose \(A \cap B \setminus C = \emptyset\). From the disjoint we know
+      that either \(x \notin A\) or \(x \notin B\) or \(x \in C\). Now suppose \(x \in A \cap B \) . Then, necessarily, \(x \in C\). Thus if \(A \cap B \setminus C = \emptyset\) then  \(A \cap B \subseteq C\) .
+- 3:
+  - Goal:
+    - \(A \subseteq B\setminus C \to A \cap C = \emptyset\)
+  - Proof:
+    - Suppose \(A \subseteq B\setminus C \). We may translate \(A \cap C = \emptyset\) as saying that if \(x \in A\) then \(x \notin C\) . Well, suppose \(x \in A\). Then from \(A \subseteq B\setminus C \) we know that it is an element of B, but not of C. Thus we have proved that \(A \cap C = \emptyset \)
+- 4:
+  - Given:
+    - \(A \subseteq \mathcal{P}(A)\)
+  - Goal:
+    - \(\mathcal{P}(A) \subseteq \mathcal{P}(\mathcal{P}(A))\)
+  - Suppose \(X \in \mathcal{P}(A)\). Then  \(X \subseteq A\) which leads us to recognize, through \(A \subseteq \mathcal{P}(A)\),  that an element \(x \in X\)  is also an element of \(\mathcal{P}(A)\), that is \(X \subseteq \mathcal{P}(A) = X \in \mathcal{P}(\mathcal{P}(A))\) . This means that if \(X \in \mathcal{P}(A)\) then \(X \in \mathcal{P}(\mathcal{P}(A))\) . Hence, \(\mathcal{P}(A) \subseteq \mathcal{P}(\mathcal{P}(A))\).
+- 6:
+  - Goals:
+    - \(x \neq 1 \iff \text{ there is a number y s.t. } {{y + 1} \over {y-2}} = x\)
+  - Solve for y. \(y = {(2x + 1) \over (1 - x )}\) . Iff \(x \neq 1\) y exists.
+- 7:
+  - Let \(y =  {{x + \sqrt{x^2 - 4}} \over 2 }\). Substitute it in \(y + {1 \over y} = x \).
+- 8:
+  - Goal:
+    - \( A \in \mathcal{F}::Set(Set) \to A \subseteq \cup\mathcal{F}\)
+  - Proof:
+    Suppose \(A \in \mathcal{F}\). Now suppose \(x \in A\) . By the definition of \(\cup \mathcal{F}\) we have that \(x \in \mathcal{F}\), from which follows that \(A \subseteq \mathcal{F}\) and, hence, \( A \in \mathcal{F}::Set(Set) \to A \subseteq \cup\mathcal{F}\)
+- 9:
+  - Goal:
+    - \( A \in \mathcal{F}::Set(Set) \to  \cap\mathcal{F} \subseteq A\)
+    - It is easier to prove the contrapositive. Assume \( \cap\mathcal{F} \not\subseteq A\) . This means that there is an \(x\) s.t. \(x\in \cap \mathcal{F}\) and \(x \notin A\) . From the definition of intersection we know that \(x\) must be an element of all the elements of \(\mathcal{F}\) . This is only possible if \(A \notin F\).
+    - Maybe it was easier to prove directly kkkkkkk
+- 14:
+  - Suppose \(x \in \cup_{i \in I}
+     \mathcal{P}(A_i)
+     \). Then there is an index s.t. \(x \subseteq A_i\) . Now suppose \(y \in x\). From \(x \subseteq A_i\) we know that \(y \in A_i\). Thus, \( y\in \cup_{i \in I}(A_i)\). Since y is arbitrary \(x \subseteq \cup_{i \in I}(A_i) \), which is the same as \(x \in
+     \mathcal{P}(\cup_{i \in I} (A_i))\).
+-
+** Section 3.5
+- 1:
+  + Goal: \(A \cap (B \cup C) \subseteq (A \cap B) \cup C\)
+  + Suppose \(x \in A \cap (B \cup C)\). Since \(x \in B \cup C\) either \(x \in B\) or \(x \in C\) we have:
+    - Case 1: Assume \(x \in B\). Then \(x \in A \cap B\) from which we conclude that \(x \in (A \cap B) \cup C\)
+    - Case 2: Assume \(x \in C\). Then it is clear that \(x \in (A \cap B) \cup C\)
+    Thus, \(A \cap (B \cup C) \subseteq (A \cap B) \cup C\) .
+- 2:
+  - Goal: \( (A \cup B) \setminus C
+    \subseteq
+    A \cup (B \setminus C)
+    \)
+  - Suppose \(x \in (A \cup B) \setminus C\) . Then \(x \notin C\) and either \(x \in A\) or \(x \in B\).
+    - Case 1: Assume \( x \in A\). Clearly \(x \in     A \cup (B \setminus C) \)
+    - Case 2: Assume \(x \in B\). Then \( x \in B \setminus C\) and, subsequently, \(x \in A \cup (B \setminus C)\)
+- 3:
+  - Goal: \(A \setminus (A \setminus B) = A \cap B\)
+  - Proof:
+               \[\begin{aligned}x \in A \setminus  (A \setminus B) = \\
+    x \in A \land (x \notin (A \setminus B))  = \\
+    x \in A \land  (x \notin A \lor (x \in B)) = \\
+    x \in A \land (x \in A \to x \in B)  = \\
+    x \in A \land x \in B = \\
+    x \in A \cap B
+    \end{aligned}\]
+- 4:
+  - Goal: \(A \subseteq B\)
+  - Given:
+    + \(A \cap C \subseteq B \cap C\)
+    + \(A \cup C \subseteq B \cup C\)
+  - Proof
+    - Suppose \(x \in A\). Then \(x \in B \cup C\), since \(x \in A \cup C\). Now either \(x \in B \) or \(x \in C\). If \(x \in B\) the proof is done. Now suppose \(x \in C\). Then it is also an element of \(A \cap C\) and hence of \(B\cap C\). Thus, \(x \in B\). Since x was arbitrary, \( A \subseteq B\).
+- 5
+  - Goal: \(A \triangle B \subseteq A \to B \subseteq A\)
+  - Suppose \(A \triangle B \subseteq A\). Now either \(x \in B \to x \in A\)  or \(x \in A \to x \in B\). The first case is trivial. The second can be proven by using the contrapositive.
+- 6
+  - Goal: \(A \cup C \subseteq B \cup C \iff
+    A \setminus C \subseteq B \setminus C\)
+  - Proof:
+    - \((\Rightarrow)\): Suppose \(x \in A \setminus C\). Then we know, from \(A \cup C\) that \(x \in B \cup C\). Now, either \(x \in B\) or \(x \in C\). We already know that \(x \notin C\). Hence, \(x \in B \setminus C\). Thus, \(    A \setminus C \subseteq B \setminus C\)
+    - The converse is similar.
+- 7
+  - Goal: Let \(A::Set\) and \(B::Set\). \(\mathcal{P}(A) \cup \mathcal{P}(B) \subseteq \mathcal{P}(A\cup B)\).
+  - Proof
+    - Case 1 : \(x \in \mathcal{P}(A) \). Then \(x \subseteq A\). Hence, for any \(a \in x\) we know that it \(a \in A \cup B\). Since a is arbitrary it follows that x \(\subseteq A \cup B = x \in \mathcal{P}(A \cup B)\).
+  - Case 2 is identical
+- 10
+  - Goal: \(|x - 3| > 3 \\to x^2 > 6x \)
+  - Case 1:
+    - Suppose \(|x-3| = x-3\). Then \(x-3 > 3 \to x >6 \to x^2 > 6x\)
+  - Case 2:
+    - Suppose \(|x - 3| = 3 - x \). Then \(3-x > 3 \to x < 0 \to x^2 > 0 \to x^2 > 6x\)
+- 13
+  - Let x even and let x odd and prove separately through substitution
+** Section 3.6
+- 2
+  - Goal: \(\forall x \in \mathbb{R} \exists y (x^2y = x - y)\)
+  - Proof:
+    - (Existence): Let \(y = {x \over {x^2 + 1}}\). Then
+      \[\begin{aligned}
+      x - y = \\
+      x - {x \over {x^2 + 1 }} = \\
+      {{x^3 + x - x} \over {x^2 + 1}} = \\
+      {{x^3}  \over {x^2 + 1 }} = \\
+      x^2 {x \over {x^2 + 1}} = \\
+      x^2 y
+      \end{aligned} \]
+    - (Uniqueness). Let \(x^2z = x -z \). Then
+      \[
+      x^2z = x -z \iff
+       x^2z + z = x
+       \\  \iff \\
+        z(x^2 + 1) = x
+        \\  \iff \\
+        z = {x \over {x^2 + 1}}
+         = y
+        \]
+- 3
+  - Goal : \(\forall x \exists ! y(x \neq 0 \land x \neq 1 \to \frac{y}{x}  = y - x )\)
+  - Proof :
+    - (Existence): Let \(y = \frac{x^2}{x-1}\). Then we have that
+      \[\begin{aligned}
+      y - x = \\
+      {x^2 \over {x-1} } - x = \\
+      {x \over {x - 1}} = \\
+      {x^2 \over {x^2 - x}} = \\
+      {x^2 \over {x - 1}} {1 \over x} = \\
+      {{x^2 \over {x-1}} \over x} = \\
+      {y \over x}
+      \end{aligned}\]
+    - (Uniqueness) Same logic of exercise 1. Find that through algebraic manipulation \(z = y\).
+- 4:
+  - Goal : \(\forall x ( x \neq 0 \to \exists y \forall z (zy = {z \over x}))\)
+  - Proof : easy, same as inchmeal.io proof
+    - (Existence)
+    - (Uniqueness)
+- 5:
+  a.
+     - Goal: \(\cup!\mathcal{F} \subseteq \cup \mathcal{F}\)
+       - Easy peasy. Suppose \(x \in \cup!\mathcal{F}\). Then there is an \(A_0 \in \mathcal{F} \) s.t. \(x \in A_0\). From that we already know that \(x \in \mathcal{F}\). Since x is arbitrary it follows that  \(\cup!\mathcal{F} \subseteq \cup \mathcal{F}\).
+  b.
+     - Bored
+- 6:
+  a. A = \(\emptyset\)
+  b. A = U
+- 7:
+  a. U
+  b. \(\emptyset\)
+- 8:
+  a. \(U \setminus A\)
+  b. \(U \setminus A\)
+- 9:
+  a. \(\emptyset\)
+  b. \(A\)
+  c. \(A \triangle B\)
+  d. A
+- 10: TODO
+- 11: TODO
+- 12: TODO
+
+
+
+** What are the laws of conjunction/disjunction? :fc:
+:PROPERTIES:
+:FC_CREATED: 2021-01-04T21:19:54Z
+:FC_TYPE:  normal
+:ID:       c692adcd-b1cf-4bb7-9e3c-bb82fa4e191d
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2021-01-04T21:19:54Z |
+:END:
+
+*** Back :ATTACH:
+
+[[attachment:_20210104_182005screenshot.png]]
+** How does one translate from logic to sets? :fc:
+:PROPERTIES:
+:FC_CREATED: 2021-01-04T22:27:35Z
+:FC_TYPE:  normal
+:ID:       8f7810e1-4dcd-463c-8bc6-ea32c64c9d3b
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+| front    |  2.5 |   0 |        0 | 2021-01-04T22:27:35Z |
+:END:
+
+*** Back :ATTACH:
+By using *truth sets*
+
+[[attachment:_20210104_192750screenshot.png]]
+]
