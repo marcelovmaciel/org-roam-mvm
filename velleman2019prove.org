@@ -285,6 +285,37 @@ Learn math lol
 
 
 
+** Section 4.1
+- 9
+  - Goal : \(\forall A,B,C ((A \times B) \setminus (C \times D) = [A \times (B \setminus D)] \cup [(A \setminus C) \times B])\)
+  - Proof:
+     \[\begin{aligned}
+    \text{ let x } = (a,b) \\
+    x \in (A \times B) \setminus (C \times D) \iff \\
+    x \in (A \times B) \land  x \notin (C \times D) \iff \\
+    (a \in A \land b \in B) \land \neg (a \in C \land b \in D)  \iff \\
+    (a \in A \land b \in B) \land (a \notin C \lor b \notin D) \iff \\
+    (a \in A \land b \in B \land b \notin D) \lor (a \in A \land a \notin C \land b \in B) \iff \\
+    x \in [A \times (B \setminus D)] \cup [(A \setminus C) \times B])
+     \end{aligned}\]
+
+- 10
+  - Goal: \((A \times B) \cap (C \times D) = \emptyset
+     \to (A \cap C = \emptyset)  \lor (B \cap C = \emptyset)\)
+  - Suppose \(A \cap C\) are not disjoint and the same for \(B \cap D\). Then there is an \(a_0 \in A \cap C \) and a \(b_0 \in B \cap D\). Consequently, \((a,b) \in A \times B\) and \((a,b) \in C \times D\), which is equivalent to saying that \((a,b) \in (A \times B) \cap (C \times D)\). Hence \((A \times B) \cap (C \times D) \neq \emptyset\). Since \((a,b) \) is arbitrary:
+      \((A \times B) \cap (C \times D) = \emptyset
+     \to (A \cap C = \emptyset)  \lor (B \cap C = \emptyset)\)
+- 11
+  a. Goal:
+     \(\cup_{i \in I}(A_i \times B_i) \subseteq (\cup_{i \in I}A_i) \times (\cup_{i \in I}B_i)\).
+     - Suppose \((a,b) \in \cup_{i \in I}(A_i \times B_i)\). Then there is an \(i \in I \) s.t. \((a,b) \in A_i \times B_i\). Since \(a \in A_i\) we know that \(a \in  \cup_{i \in I} A\). Analogously for \(b\). Hence, \((a,b) \in (\cup_{i \in I}B_i)\).
+
+     -
+
+  b. It is only the other side of the iff. Or a string of equivalences.
+
+-
+
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:
 :FC_CREATED: 2021-01-04T21:19:54Z
