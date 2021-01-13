@@ -111,6 +111,15 @@ Learn math lol
   \(A \times B = \{(a,b) \text{  } | \text{  } a \in A \text{ and } b \in B\}\)
 - The Cartesian Product is fundamental because it is needed to define the truth set for statements containing two free variables !!!!!!
   + Truth set of \(P(x,y) = \{(a,b) \in A \times B \text{  } | \text{  } P(a,b)\}\)
+- A *Relation* is defined as \(R \subseteq A \times B\)
+- The *Domain* is defined as \(\text{Dom}(R) = \{a \in A \; | \,  \exists b \in B ((a,b) \in R)\}\)
+- The *Range* is defined as  \(\text{Ran}(R) = \{b \in B \; | \exists a \in A ((a,b) \in R)\}\)
+- The *inverse* is defined as \(R^{-1} = \{(b,a) \in B \times A \; | \,  (a,b) \in R \}\)
+- The *composition* is defined as
+  - \(S \circ R = \{(a,c) \in A \times C \; | \, \exists b \in B ((a,b) \in R \text{ and } (b,c) \in S)\}\)
+- A relation is *reflexive on \(A\)* if \(\forall x \in A((x,x) \in R)\)
+- A relation is *symmetric* if \(\forall x \in A \forall y \in A (xRy \to yRx)\)
+- A relation is *transitive* if \(\forall x \in A \forall  z \in A ((xRy \land yRz) \to xRz)\)
 
 * Exercises
 - Page 81 exercise 1.d
@@ -314,8 +323,50 @@ Learn math lol
 
   b. It is only the other side of the iff. Or a string of equivalences.
 
--
 
+
+** Section 4.2
+- 6
+  - a
+    - Goal: \(\text{Ran}(R^{-1}) = \text{Dom}(R) \)
+      + Proof: Let \( (a,b) \in R\). Then \(\text{Dom}(R) = \{a \in A \; | \,  \exists b \in B ((a,b) \in R)\} = \{a \in A \; | \,  \exists b \in B ((b,a) \in R^{-1})\} = Ran(R^{-1}) \)
+  - c
+    - Goal : \(T \circ (S \circ R) = (T \circ S) \circ R\)
+    - Proof:
+      - Let :
+        - \( R \subseteq A \times B\)
+        - \( S \subseteq B \times C\)
+        - \( T \subseteq C \times D\)
+      - \[\begin{aligned}T \circ (S \circ R) = \\
+         {(a,d) \in A \times D | \exists c \in C( (a,c) \in A \times C ( \exists b \in B ((a,b) \in A \times B) \text{ and } (b,c) \in B \times C) \text{ and } (c,d) \in C \times D)) = \\
+         {(a,d) \in A \times D | \exists c \in C \exists b \in B( (a,c) \in A \times C  \text{ and }    (a,b) \in A \times B \text{ and } (b,c) \in B \times C \text{ and } (c,d) \in C \times D))  = \\
+         {(a,d) \in A \times D |  \exists b \in B(  (a,b) \in R \text{ and } (b,d) \in T \circ S))            = \\
+         (T \circ S) \circ R         \]
+  - d :
+    - Goal : \((S \circ R)^{-1} = R^{-1} \circ S^{-1}\)
+    - Proof: (I was too lazy to write down a proper proof)
+      \((c, a) \in (S \circ R)^{-1} \iff \exists b \in B (b \in (c,b) \in R^{-1} \text{ and } (b, c) \in S^{-1}) \iff (c,a) \in  R^{-1} \circ S^{-1}\)
+- 9:
+  + a) true and easy to prove.
+  + b) Suppose \(R \subseteq S\) Now suppose \((b,a) \in R^{-1}\) then \((a,b) \in R  \) then \((a,b) \in S\) then \((b,a) \in S^{-1}\).
+  + c)
+    -  (\(\Rightarrow\)) Suppose \((b,a) \in  (R \cup S)^{-1} \iff (a,b) \in R \cup S \)
+      - Case 1: \((a,b) \in R\) then \((b,a) \in R^{-1} \to (b,a) \in R^{-1} \cup S^{-1}\)
+      - Case 2: The same for \(S\)
+    -((\(\Leftarrow\)) Also case based
+- 10
+  - Interesting, I have to show that there is no \(b\). Too lazy now.
+
+
+
+** Section 4.3
+- 4
+  - a: none
+  - b: transitive
+    + (a,b), (a,d)
+    + (b,a), (b,d)
+  - c: symmetric, reflexive and transitive
+  - d: transitive
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:
 :FC_CREATED: 2021-01-04T21:19:54Z

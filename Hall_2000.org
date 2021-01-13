@@ -350,10 +350,31 @@ inorder (reflect t) == reverse (inorder t)
 
 
 
-*** Chapter 6 - Propositional Logic
+*** Chapter 6 - Propositional Logic :ATTACH:
+:PROPERTIES:
+:ID:       594dad67-d7e6-4712-82c9-68fbd8f833c3
+:END:
 - Truth tables are a semantic technique, they are used to calculate the values of expressions
 - Natural deduction is a syntatic technique. It defines inference rules which encapsulate all that matters in the system
 - Boolean algebra is another syntactic technique
+- \(\land\) and \(\lor\) are left associate while \(\to\) is right associative
+- It is common to differentiate the *object language* from the *meta-language*. The metalanguage is usually more clearly algebraic.
+- \(P_1, \ldots, P_n \vDash Q\)  if all Ps are true so is Q. The *double turnstile*.
+- If we define the basic truth values and a method for defining  *well-formed formulas* then we have a *model of the logical system*
+- \(P_1, \ldots, P_n \vdash Q\) is a *sequent* and it means that if the Ps are known then the Q can be inferred using *inference rules*
+- There is a difference between \(\vDash\) and \(\vdash\). In the first we are saying something about the object. If the Ps are true so is the Q. It is concerned with Truth. In the second we are saying something about the *logical system*. We are saying that if we know the Ps we can prove something using then. It is concerned with proofs.
+  -
+  [[attachment:_20210112_223933screenshot.png]]
+- Many rules are either *introduction rules* to introduce logical operators (what one should know to introduce it), to make more complex expression from simple ones; or *elimination rules* to remove logical operators, to simplify expressions, to *infer*.
+- *Natural Deduction* only requires
+  #+begin_src  haskell
+False
+#+end_src
+and \(\land, \lor, \to\) .
+- From that we derive:
+  \(True = False \to False\), \(\neg a = a \to False\) and \(a \leftrightarrow b\) is as expected.
+- Inference rules have a natural tree layout
+
 ** What are the main concepts of the text?
 *** Chapter 1 - Introduction to haskell
 - command to interpreter (e.g. :load)
@@ -443,7 +464,16 @@ inorder (reflect t) == reverse (inorder t)
 
 
 *** Chapter 6 - Propositional Logic
-
+- inference rule
+- object language vs meta-language
+- well-formed formula
+- Double turnstile \(\vDash\)
+- Sequent
+- And Introduction \(\land I\)
+- And Elimination Left (\(\land E_L\)) and And Elimination Right (\(\land E_R\))
+- Imply Elimination (\(\to E\)) (also known as *Modus Ponens*)
+- Imply Introduction
+  \((\to I)\)
 * Exercises
 ** Chapter 4
 *** Exercise 1.
