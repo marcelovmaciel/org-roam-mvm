@@ -24,3 +24,68 @@ Related readings are cite:moore2011nature and cite:Hall_2000 .
 ** What is the general argument of the text?
 ** What are the specific arguments of the text?
 ** What are the main concepts of the text?
+- *Composto* : Um numero positivo \(a\) é composto se existe um inteiro \(b\) t.q. \(1 < b< a\) e  \(b |a\) .
+- *Perfeito*: Um numero inteiro \(n\) é perfeito se for igual a soma de seus divisores positivos inferiores a
+-
+*** Chap 2
+- *Fatorial imcompleto*: \((n)_k = n(n-1)(n-2)\ldots[(n-(k-1)] = n(n-1)(n-2)\ldots(n-k+1)\)
+- *Fatorial* é um caso especial em que \(k=n\).
+
+
+* Exercises
+** CHap 1
+*** 5
+- 5.1
+  - Let x and y be odd. Then there is an \(a\) s.t.  \(x = 2a + 1\) and a \(b\) s.t. \(y = 2b + 1 \). Then \(x + 1 = 2a+1 + 2b +1 = 2a+2b+2 = 2(a+b+1)\). Since a+b+1 is an integer it follows that \(x+y\) is even.
+- 5.2
+  - Let x  be odd and y be even. Then there is an \(a\) s.t.  \(x = 2a + 1\) and a \(b\) s.t. \(y = 2b\). Then \(x+1 = 2a + 1 + 2b = 2(a+b) + 1\). Since a and b are integers their sum is also an integer. Then, \(x+y\)  is odd.
+- 5.3
+  - Let \(n\) be odd. Then there is an \(a\) s.t. \(n = 2a + 1\) Then \(-n = -2a - 1 = -2a - 2 + 1  = 2(-a-1) + 1\) . Hence, \(-n\)  is odd.
+- 5.4
+  - Let x and y be even. Then there is an \(a\) s.t.  \(x = 2a\) and a \(b\) s.t. \(y = 2b \). Then \(xy = 2a2b = 2(2ab)\) . Hence, \(xy\) is even - since it is divisible by 2.
+- 5.5
+  - Let x be odd and y be even. Then there is an \(a\) s.t.  \(x = 2a + 1\) and a \(b\) s.t. \(y = 2b\). Then \(xy = (2a + 1)(2b) = 2(2ab + b)\). Since it is divisible by 2, \(xy\) is even.
+- 5.6
+  + Let x and y be odd. Then there is an \(a\) s.t. \(x = 2a + 1\) and a \(b\)
+    s.t. \(y = 2b + 1 \). Then \(xy = (2a+1) (2b + 1 ) = 2a2b + 2a + 2b + 1 =
+    2(ab + a + b) + 1 \). let \(k = (ab + a + b) \) then k is an integer. Since \(xy = 2k+1\) it follows that it is odd.
+- 5.7
+  - Let \(n\) be odd. Then there is an \(a\) s.t. \(n = 2a + 1\). Then \(n^2 =
+    (2a + 1)(2a+1) = (2a2a+2a+2a+1)= 2(2a^2+a)+1\). Hence, \(n^2\) is odd.
+
+- 5.9
+  + Suppose \(a|b\) and \(a|c\). Then there is a \(az = b\) and a \(aw = c\). then \(b+c = az + aw = a(z+w)\). Since \(z+w\) is also an integer it follows that \(a|(b+c)\).
+- 5.11
+  - Let \(a,b,d,x,y \in \mathbb{Z}\) . Suppose \(d|a\) and \(d|b\) . Then there  is \(dk =a\) and a \(dw = b\). Then \(ax = dkx\),  \(by = dwy\) and \(ax + by = dkx + dwy = d(kx + wy)\). Since \( (kx +wy) \in \mathbb{Z}\) then \(d|(ax +by)\) .
+
+- 5.12
+  - Suppose \(a|b\) and \(c|d\) . Then there is a \(aw=b\) and a \(ck =d\). Then \(bd = awck = (ac)(wk)\). Hence \((ac)|(bd)\).
+
+- 5.13
+  - x is odd iff there is an \(a\) s.t. x = 2a + 1 iff x+1 = 2a +2 = 2(a+1) iff x+1 is even.
+- 5.14
+  - x is odd iff there is an \(a\) s.t. x = 2a + 1 = 2b - 2 + 1 = 2b - 1,  where  a = b - 1. (a proper proof would be two sided).
+
+- 5.15
+  - Suppose \(0|x\), then there is an \(a * 0 = x\), but we know that 0
+    multiplied by anything is equal to 0, so \(x=0\). Now suppose \(x = 0\). Then x multiplied by any \(a\) will be equal to 0:  \(ax = a * 0\). Then \(0|x\).
+**** TODO 5.17 onwards
+- 5.17
+  - Goal: \(\sqrt{a} < {a \over x} < a\)
+  - Suppose \(a>1\) and \(1 < \sqrt{a} < a\) .
+  - Now suppose \(1<x<\sqrt{a}\) . Then \({1 \over x} < 1 < {a \over x }\)  and \(a < a\sqrt{a} < a^2\) \(1 < \sqrt{a} < a\)\(1 < \sqrt{a} < a\)\(1 < \sqrt{a} < a\)\(1 < \sqrt{a} < a\)
+*** Self-test
+-
+** Chap 2
+*** 8
+- 8.1
+  - 20
+- 8.2
+  - 26^3
+- 8.3
+  - 2^k ?
+- 8.4
+  - (* 4 2 2 4 ) = 64
+- 8.5
+  - \((500 \times 499 \times \ldots 481) \times 2\)
+  - \(500 \times 499 \times \ldots 461\)
