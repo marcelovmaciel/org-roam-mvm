@@ -30,7 +30,30 @@ Related readings are cite:moore2011nature and cite:Hall_2000 .
 *** Chap 2
 - *Fatorial imcompleto*: \((n)_k = n(n-1)(n-2)\ldots[(n-(k-1)] = n(n-1)(n-2)\ldots(n-k+1)\)
 - *Fatorial* é um caso especial em que \(k=n\).
+- How does one prove that the cardinality of a power set of \(A\) is \(2^{|A|\) ? By showing that this is equivalent to a include-exclude decision tree.
+- Cardinality clusion exclusion \(|A \cup B| = |A| + |B| - |A \cap B|\)
 
+*** Chap 3
+- Notice that reflexivity is about the whole A, while symmetry and transitivity are conditional on being on R. This is what explains a relation being reflexive and transitive but not symmetric, there may be elements of A which are not in R.
+  - Example: \(A=\{1,2,3\}\) and \(R = \{(1,2), (2,1), (1,1), (2,2)\}\)
+- An *Equivalence relation* is one that is:
+  - Reflexive
+  - Symmetric
+  - Transitive
+  - But NOT anti-reflexive and not anti-symmetric
+- Two numbers (\(x,y\)) are *congruent modulo n* if \(n|(x-y)\). We use the following notation to say that: \(x \equiv y \pmod{n}\)
+- Let \(R\) be an equivalence relation on \(A\) and \(a \in A\) . An *Equivalence class* of \(a\) is the set of all element of \(A\) related, by \(R\), to \(a\). That is:
+  Then, to define an equivalence class we need of:
+  - \(R \subseteq A \times A\) which is an equivalence relation (symmetric, transitive and reflexive)
+  - An \(a \in A\) ;
+  - and the set \([a] =\{x \in A : xRa\}\), the so called equivalence class
+- An important theorem: the congruence mod n is an equivalence relation on the set of integers. As such it will define equivalence classes.
+  - From the programming perspective the mod equilavence class is defined through a partial function isnt it?
+- A few important theorems about equivalence classes:
+  1. Let \(R\) is an equivalence class on \(A\) and \(a \in A\) . Then \(a \in [a]\)
+  2. Let \(R\) is an equivalence class on \(A\) and \(a,b \in A\). Then \(aRb \iff [a] = [b]\).
+  3. Let \(R\) is an equivalence class on \(A\) and \(a,x,y \in A\). If \(x,y \in [a]\) then \(xRy\).
+-
 
 * Exercises
 ** CHap 1
@@ -89,3 +112,38 @@ Related readings are cite:moore2011nature and cite:Hall_2000 .
 - 8.5
   - \((500 \times 499 \times \ldots 481) \times 2\)
   - \(500 \times 499 \times \ldots 461\)
+** Chap 3
+- 14.7
+  - c: \(y = x + 1\)
+  - d: \(y|x\)
+  - e: \(yx < 0\)
+- 14.9
+  - \(\leq\) is a counterexample. It is antisymmetric but is not antireflexive
+- 14.16
+  - Always remember that R is not equal to A. The affirmation about transitive and symmetry supose x,y,z in R to imply something about those elements. This means that a set might be symmetric and transitive but not reflexive. This is because reflexivity is an universal property of A, while symmetry and transitivity are conditional on something being on R. More concretely, let \(A=\{1,2,3\}\) and \(R = \{(1,2), (2,1), (1,1), (2,2)\}\). Notice that \(R\) is symmetric and transitive, but not reflexive.
+
+- 15.1
+  - a: n = 2 or n = 5 or n = 10
+  - b: n = 5
+  - c: n = 2 or 3 or 9 or 37 or 54
+  - d: there is no such n
+- 15.2
+  - a-b
+- 15.3
+  a. T
+  b. F
+  c. F
+  d. F
+  e. T
+  f. F
+  g. ?
+- 15.4
+  Suppose they are even. Then there is an \(a\) and a \(b\) s.t. \(2a = x \) and \(2b = y\). Then \(x-y = 2(a-b)\) . This implies \(2 | (x-y)\) , thus \(x \equiv y \pmod{2} \) . Now suppose they are odd. Then there is an Then there is an \(a\) and a \(b\) s.t. \(2a  + 1 = x \) and \(2b + 1 = y\). Then \(x-y = 2 a + 1 - (2b+1) = 2(a-b)\). This implies once again \(2 | (x-y)\) and \(x \equiv y \pmod{2}\) .
+
+- 15.5. Too easy: \(a-(-a) = 2a\) Thus \(2|(a - (-a))\) which means that \(a \equiv -a \pmod{2}\).
+- 15.6
+  - Let \(\equiv \; =   \pmod{n} \). Now \(x \equiv y\) and \(y \equiv z\) is equivalent to saying that \(n|(y-z)\) and that \(n|(x-y)\). From exercise 5.9 from chap 1 we know that \(n|[(x-y) + (y-z)]\) =  \(n|(x-z)\), that is the same as \(x \equiv z \).
+    - Without using 5.9 we could say that there is an a and a b s.t \(nb = y-z\) and \(na= x-y\). Then \(nb+na = n(b+a) = y-z + x -y = x-z\). From \(n(a+b) = x-z\) we derive that \(n|(x-z)\), since \(a,b\) are integers. Thus, \(x \equiv z \).
+
+- 15.12
+  - Suppose \(x,y \in [a]\). Then \(xRa\) and \(yRa\). By symmetry it follows that \(aRy\). \(xRa\) and \(aRy\), by transitivity, leads to \(xRy\). Thus, if \(x,y \in [a]\) then \(xRy\).

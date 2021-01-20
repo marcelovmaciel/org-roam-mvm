@@ -4,11 +4,8 @@
 
 Here are fleeting notes that ought to be better developed.
 
-* The role of actors. Zero intelligence, rational, heterogenous.
 
-* EITM and information gain
-Create a model that shows why the logical fallacy showed by clarke and primo
-matters. The model shows dynamically why their proposal is better. Dynamical model!!
+
 * Social choice results as artifacts
 - source :: cite:sep-voting-methods
 - tags :: [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][conditions of manipulability]]
@@ -27,99 +24,13 @@ matters. The model shows dynamically why their proposal is better. Dynamical mod
   *My notes, particularly from Nurmi, are relevant here*
 
 
-* Empirical dialectics and negativity
-
-
-tenho um plano dormente de em contraponto a elster tentar make sense da epistemologia marxista.n uma defesa,mas atualizar e manter os insights (a la lawvere).obviamente precisaria expurgar o infalibilismo.quando se pensa uma dialetica falibilista o negativo ganha mais importancia
-
-
-quando falo epistemologica tou pensando como o sistema "logico" vai levar a entender categorias e de quebra a pesquisa empirica
-acho que o insight de marx na inversao dele em hegel é exatamente essa. dialetica pode ser invertida exatamente para nos ajudar a ver os buracos de conhecimento que enquanto em hegel sao resolvidos com mais abstracao em marx leva a investigacao da realidade concreta, mas ai ele tava imerso numa epoca em que a visao de conhecimento n era falibilista o bastante. acho que esse é o grande problema do sistema do ponto de vista cientifico
-
-essa nocao de buracos acho tooopo
-
-pq em prog mesmo vc deixa "buracos" no codigo e o sistema infere pra vc a partir de dicas. acho que tem um angu metodologico aqui
-
-mas a partir o momento em que o falibilismo entre em cena a relacao entre categorias tem que ser mediada pela incerteza das proposicoes. intuitivamente isso leva a negatividade de adorno. enfim inutilidade da porra
-
-
-no fim eu tenho a visao que da pra unificar a pratica cientifica por meio de uma triade de fontes: analiticos <-> pragmatistas <-> hegelianos materialistas ; como bom pos marxista acho que cada um é unilateral por um lado mas contribui por outro e que da pra unificar num sistema so
-
-
-* From laws to algorithms
-  From laws to principles to mechanisms to models to algorithms.
-
-  My aim is to frame different ways of doing positive social theory. I'll show
-  that those concepts suggest pretty different ways of representing and
-  explaining the world.
-
-  In this end this is part of a bigger project in algorithmic political theory.
-
-  A good reference is:
-- cite:Knuth1974art
-- pearl works
-- [[https://an1lam.github.io/post/2020-05-15-ci-course-review/][Stephen Malina - Course Review - Causal Inference]]
-- The social software view
-- the literature on modeling vs laws (weisberg, clarke and primo)
-
-  
-
-* Universalism and Social Choice
-
-
-  To take balibar view of universalism as a site of conflict and connect with
-  both social choice (universal domain) and the theory of majorities as
-  coalitions of minorities. Any "universal" aggregation is leaving something
-  out, and from a reflective point of view is open to criticism.
-
-
-
-
-
-* levels, abm and markov coarse graining
-- use baez , isquierdo, dedeo and catlab to think about this project
-- see more and organize that 
-
-* evo aumann program
-use information geometry with evo gt in combination with epistemic game theory
-
-[[https://johncarlosbaez.wordpress.com/2012/06/07/information-geometry-part-11/][Information Geometry (Part 11) | Azimuth]] [[https://johncarlosbaez.wordpress.com/2012/06/24/information-geometry-part-12/][Information Geometry (Part 12) |
-Azimuth]] The 14 starts an interesting discussion about nonequilibrium steady
-states which connect with both page and papadimitrious works
-
-
-* petri nets and bayesian networks
-[[https://www.sciencedirect.com/science/article/pii/S0304397519304694][Bayesian network semantics for Petri nets - ScienceDirect]]
-Petri nets are used in the julia ecosystem as a general template for both abm's and differential equations. I'm interested how they can be used to connect the literature on simulation with the empirical literature on causal inference. This would be a huge methodological contribution.
-
 * inductive party competition
 use dedeo ?
+
 * what is the ideational structure of parliamentary discourse hin brazil
 - What remains?  What has changed?
 - Saquarema vs luzias
 - WGS interview in which he gives the typical leftist diagnosis of the problems of brazil
-
-* inductive approach to system levels
-- use information theory and machine learning to recursively derive levels such
-  as, particularly, class - for economic data
-
-* criticize and port mahoney paper on bayes
-
-
-* Zap ideas
-- Entrega dores abtifascistas como empreendedores políticos
-Dont forget the philisophers take on measurement. Take notes!!!
-- Measurement and characterization as seeing
-- Seeing like a state vs seeing like a citizen
-- How to model dimension games Maybe chwen
-- Is research design only a formalization of hd?
-- Computacional zaller
-- How much complexity is too much in strategic decision making Emergent vs downward (constrained) rationality
-- Markov logic in hypoyhesis test modus pollen?
-- The same breakdown of hd happens with methodological individualism
-- Knight 1992 Power norms emergence
-- path dependence and group rationality: can path dependence LEAD TO group rationality? see list paper.
-
 
 
 * Tomasello -> shared and collective intentionality vs stakes
@@ -129,12 +40,6 @@ Dont forget the philisophers take on measurement. Take notes!!!
 
 * On the relationship between intentionality and teleology
 - Connect rationality, intentionality and teleology https://arxiv.org/pdf/1704.02230.pdf#page30
-
-* Is social chocie really the general template of Political Theory?
-- Can we *reduce* *all* political theory to it?
-- While doing aren't we turning it into something vacuous?
-- What is gained by this remark?
-
 
 * (Preferences x Attitudes) and Environment
 - Give an information theoretic account of when we can use preferences and when
@@ -147,26 +52,6 @@ rock paper and scissors
 - As well as mckelvey last paper !
 
 
-* The abductive jump and storytelling
-
-- Explanation as hallmark of science;
-- Zooming out of the theory-empirics strict coupling (dunheim problem as typical
-  in myopic)
-- EOC and COF interplay as explanation;
-- Abductive jump through story telling;
-  - There are at least two moments in the usage of theoretical models: as credible worlds or as analogies (fables). What they are differ from how they are used. 
-
-- [[https://www.amazon.com/-/pt/dp/0822959267][Amazon.com: Four Decades of Scientific Explanation (9780822959267): Salmon, W...]]
-
-(see further references in Morton note)
-
-- Bradley efron new paper might be useful too (for contrasting with prediction
-  in a ml setting) cite:efron20_predic_estim_attrib
-- Pearl Causality Chap 9
-
-* Port vats and knudson to Turing.jl
-- https://arxiv.org/pdf/1812.09384.pdf Revisiting the gelman rubin diagnostic
-
 
 * the unity and originality of wgs thought as a public choice theorist
 
@@ -175,10 +60,3 @@ rock paper and scissors
 * port the gan in causal inference package
 https://github.com/gsbDBI/ds-wgan
 
-* K-level beliefs!!!!
-
-http://www.columbia.edu/~md3405/papers.shtml
-
-
-* trust and behavioral decomposition
-Can we find the causal effect of trust by paying attention to the behavioral component of games?

@@ -106,7 +106,10 @@ Learn math lol
 - *General proofs techniques*
   - Proof by contradiction
   - Proof by cases
-*** Chap 4 - Relations
+*** Chap 4 - Relations :ATTACH:
+:PROPERTIES:
+:ID:       f5bee330-1195-4cce-9d12-8779e2fb8bda
+:END:
 - *Cartesian Product*:
   \(A \times B = \{(a,b) \text{  } | \text{  } a \in A \text{ and } b \in B\}\)
 - The Cartesian Product is fundamental because it is needed to define the truth set for statements containing two free variables !!!!!!
@@ -120,6 +123,30 @@ Learn math lol
 - A relation is *reflexive on \(A\)* if \(\forall x \in A((x,x) \in R)\)
 - A relation is *symmetric* if \(\forall x \in A \forall y \in A (xRy \to yRx)\)
 - A relation is *transitive* if \(\forall x \in A \forall  z \in A ((xRy \land yRz) \to xRz)\)
+- Some useful facts:
+  - R is reflexive iff \(i_A \subseteq R \)
+  - R is symmetric iff \(R = R^{-1}\)
+  - R is transitive iff \(R \circ R \subseteq Let\)
+- \(R \subseteq A \times A\). It is *antisymmetric* if \(\forall x,y \in A ((xRy \land yRx) \rightarrow x = y)\)
+- \(R \subseteq A \times A\). It is a *partial order* if it is reflexive, transitive and antisymmetric. It is a *total order* if it is a partial order and it is also total: \(\forall x,y \in A(xRy \lor yRx)\) .
+- If R is a partial order on A, \(B \subseteq A\) and \(b \in B\) there are two important concepts:
+  - b is the *R-smallest element* of \(B\) if \(\forall x \in B (bRx)\)
+  - b is the *R-minimal element* of \(B\) if \(\neg \exists x \in B(xRb \land x \neq b)\) which is the same as saying that \(\forall x \in R ((x,b) \in R \rightarrow x = b)\)
+  - b is the *R-largest element* of \(B\) if \(\forall x \in B (xRb)\)
+  - b is the *R-maximal element* of \(B\) if \(\neg \exists x \in B(bRx \land x \neq b)\) which is the same as saying that \(\forall x \in R ((b,x) \in R \rightarrow x = b)\)
+- Those definitions are really important in decision theory (pareto frontier and so on )
+- Some useful properties of smallest/minimal elements:
+  [[attachment:_20210114_161955screenshot.png]]
+- It is common to apply the notion of smallest element to sets. So one works with power sets instead of simple sets, and the smallest element, given a relation (or property),  will be the one which is a subset of all other sets which also have this property.
+- *Lower bounds*  and *upper bounds* are also useful concepts closely related to smallest and largest elements:
+  - Suppose R is a partial order on A; \(B \subseteq A\) and \(a \in A\)
+  - \(a\) is a *lower bound* for B if \(\forall x \in B (aRx)\)
+  - \(a\) is an *upper bound* for B if \(\forall x (xRa)\)
+  - Note that a lower bound for B need not be an element of B !!!!!
+- Other important concepts are the ones of *least upper bound* and *greatest upper bound*
+  [[attachment:_20210114_174751screenshot.png]]
+
+
 
 * Exercises
 - Page 81 exercise 1.d
@@ -295,6 +322,25 @@ Learn math lol
 
 
 ** Section 4.1
+- 5
+  - Goal: \(A \times (B \cup C) = (A \times B ) \cup (A \times C) \)
+  - Proof:
+    - \( (\rightarrow)\) Suppose \((x,y) \in A \times (B \cup C)\) . Then \(x \in A\) and \(y \in B \cup C \) . We have two cases now. Let \(y \in B\)  (Case 1). Then \((x,y) \in A \times B\). Hence \((x,y) \in (A \times B ) \cup (A \times C) \) . Now let \(y \in C\)  (Case 2). Then \((x,y) \in A \times C\). Hence \((x,y) \in (A \times B ) \cup (A \times C) \). Therefore, \(A \times (B \cup C) \subseteq (A \times B ) \cup (A \times C) \)
+    - \( (\leftarrow)\) Suppose \((x,y) \in (A \times B ) \cup (A \times C)\). We know have two cases. (Case 1) Let \((x,y) \in A \times B\) . Then \(y \in B \) and \(y \in B \cup C\) . It follows that \((x,y) \in A \times (B \cup C)\) . Case 2 is similar.
+- 8
+  - Goal: Prove or disprove \( A \times (B\setminus C) = (A \times B) \setminus (A \times C)\)
+    - Its true. \[\begin{aligned}
+      (x,y) \in  (A \times B) \setminus (A \times C)
+      \iff \\
+            x \in A \land y \in B \land (x \notin A \lor y \notin C) \iff
+            \\
+      x \in A  (x \notin A \lor y \notin C) \land y \in B  \; & \{\text{associativity of} \land \} \iff \\
+        [(x \in A \land x \notin A) \lor (x \in \land y \notin C)] \land y \in B
+        \; & \{\text{ distributivity of } \land\} \iff \\
+      x \in A \land y \not \in C \land y \in B
+     \; &  \{\text{distributivity of } \lor \text{ and contradiction law  }\} \iff \\ (x,y) \in A \times (B \setminus C)
+      \end{aligned}\]
+
 - 9
   - Goal : \(\forall A,B,C ((A \times B) \setminus (C \times D) = [A \times (B \setminus D)] \cup [(A \setminus C) \times B])\)
   - Proof:
@@ -367,6 +413,66 @@ Learn math lol
     + (b,a), (b,d)
   - c: symmetric, reflexive and transitive
   - d: transitive
+- 6 ???
+
+- 7:
+  - Goal: R is reflexive iff \(i_A \subseteq R\)
+  - Proof:
+    - \((\rightarrow) \) Suppose R is reflexive. Now suppose \((x,y) \in i_A\). Then  \(x = y \in A \). Using the reflexivity \((x,y) \in R\). Since \((x,y)\) was arbitrary \(i_A \subseteq R\).
+    - \((\leftarrow)\) Similar.
+- 8:
+  - Goal: R is transitive iff \(R \circ R \subseteq R\)
+  - Proof:
+    - \((\rightarrow)\) Suppose R is transitive. Now suppose \((x,z) \in R \circ R\). Then there is a \(y_0 \in A\)  s.t. \(xRy_0\)  and \(y_0Rz\).  From the transitivity it follows that \(xRz\). Since \((x,z)\) was arbitrary we have that  \(R \circ R \subseteq R\)
+    - \((\leftarrow)\) Suppose  \(R \circ R \subseteq R\). Now suppose \(xRy\) and \(yRz\) . Since \(y \in A\)  we have that  \((x,z) \in R \circ R\) and, from \(R \circ R \subseteq R\) , \((x,z) \in R\). Hence R is transitive.
+- 9:
+  - a) Goal: Let \(R \subseteq A \times B\), \(R \circ i_A = R\)
+    - Proof (i was too lazy to prove it correctly. easy if split )
+       \((a,b) \in R \circ i_A \iff ((a,b) \in A \times B \; | \; \exists c \in A ((a,c) \in i_A \text{ and } (c,b) \in R) \iff ((a,b) \in A \times b | \; (\exists c (c=a (a,a \in i_A \text{ and } (a,b) \in R)))  \iff a,b \in R \)
+  - b) analogous. Ok lets do it properly (kinda). Goal: \(i_B \circ R = R \)
+    - \((\leftarrow)\)  Suppose \((a,c) \in R\). Then \(c \in B \to (c,c) \in i_B \to a,c \in i_B \circ R\)
+    - \((\rightarrow)\) Suppose \(a,c \in i_B \circ R \). Then there is a \(b
+      \in B \) s.t. \(a,b \in R\) and \(b,c \in i_B\). From \(b,c \in i_B\) we
+      know that \(b =c\) . Hence \(a,c \in R \)
+- 15
+  - a) False. If R1 is reflexive but R2 is only the identity, then the elements that are in R1 will be in the R1 \ R2, but the set will not be reflexive.
+  - b) R1 = {(0,0), (0,1), (1,0), (1,1)}
+       R2 = {(1,1)}
+       Seems true
+  - c) Seems false.
+- 16: x in A then x,x in R and x,x in S then x,x in R \(\circ\) S
+- 17:
+  - Given: \(R\) and \(S\) are symmetric on \(A\).
+  - Goal: \(\text{Symm}(R \circ S) = \text{TRUE} \iff R\circ S = S  \circ R\)
+  - Proof:
+    - \((\rightarrow)\) Suppose \(\text{Symm}(R \circ S) = \text{TRUE}\).
+      + Suppose \((a,c) \in R \circ S\). Since it is symmetric \((c,a) \in R \circ S \)
+        - Then there is a \(b \in A\) s. t. \((a,b) \in S \) and \( (b,c) \in R\).
+        - There is a \(d \in A \) s.t. \((d,a) \in R \)  and \((c,d) \in S\) .
+        - \((a,b) \in S \) and \( (d,a) \in R \)  then \((d,b) \in  S \circ R\)
+        - If \((c,d) \in S\) and \( (b,c) \in R\)  then \((d,c) \in S\) and \((c,b) \in R\) from which we know that \((d,b) \in R \circ S\)
+        - The argument for \(S\circ R\) is almost identical
+  - \((\leftarrow)\) Too lazy
+- TODO 18:
+  - Given: R and S are transitive on \(A\)
+  - Goal: \(S \circ R \subseteq R \circ S \rightarrow R \circ S \text{ is transitive }\)
+  - Proof:
+    - Suppose \(R \circ S \) is not transitive. Then there is some \(x,y,z \in A\) in which \(x,y \in R \circ S\) and \(y,z \in R\circ S\) and \(x,z \notin R\circ S\) .
+
+    - Now suppose \(a,c \in S \circ R\). Then there is a \(b \in A ( (a,b) \in R \text{ and }  (b,c) \in S)\)
+    - \(x,y \in R \circ S \rightarrow \exists w \in A ((x,w) \in S \text{ and } (w,y) \in R)\)
+    - \(y,z \in R \circ S \rightarrow \exists k \in A ((y,k) \in S \text{ and } (k,z) \in R)\)
+    - \(x,z \notin R\circ S \to \forall m \in A ((x,m) \notin S \lor (m,z) \notin R)\)
+- 19
+  - Incorrect assumption that y is the same in different pairs
+- 20
+  - Suppose R is transitive. Now suppose \((X,Y) \in S\) and \((Y,Z) \in S\). For that we needed \(Y \in B\) where \(B \neq \emptyset\). Then we know that \(xRy\) and \(yRz\) . Since \(R\) is transitive we know that \(xRz\). Since x and z are arbitrary elements of X,Z it follows that \(XSZ\), but then \(S\) is transitive too.
+
+- 21 TODO
+- 22 TODO
+- 23 TODO
+
+
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:
 :FC_CREATED: 2021-01-04T21:19:54Z

@@ -374,7 +374,28 @@ and \(\land, \lor, \to\) .
 - From that we derive:
   \(True = False \to False\), \(\neg a = a \to False\) and \(a \leftrightarrow b\) is as expected.
 - Inference rules have a natural tree layout
+- Discharged assumptions may be marked with a box around them
+- The inference rules of natural deduction and sequent calculus provide a complete foundation for propositional logic. Once we know them the truth tables are not really needed.
+- Proof checker \(\neq\) Theorem prover
+- If truth tables provide a semantic approach and natural deduction provides a syntatic approach then boolean algebra, a form of  equational reasoning, is an *axiomatic approach*
+- The algebraic approach is the easiest one.
+- Some implication laws worthy of attention:
+  - disjunctive syllogism
+  - implication combination
+  - currying
+  - absurdity
+  -
+  [[attachment:_20210113_210849screenshot.png]]
+- \(=\) is a metalanguage operator while \(\leftrightarrow\) is a object language operator
+- The consistency and completeness of a formal system are important properties of a system.
+  -
+  [[attachment:_20210113_211732screenshot.png]]
+- The exercises are too boring since Im already advanced in [[file:velleman2019prove.org][How to prove it: a structured approach]]
+-
 
+
+
+*** Chapter 7 - Predicate Logic
 ** What are the main concepts of the text?
 *** Chapter 1 - Introduction to haskell
 - command to interpreter (e.g. :load)
@@ -463,7 +484,10 @@ and \(\land, \lor, \to\) .
 
 
 
-*** Chapter 6 - Propositional Logic
+*** Chapter 6 - Propositional Logic :ATTACH:
+:PROPERTIES:
+:ID:       b921aa48-1003-40ab-897c-4bd7f92750ea
+:END:
 - inference rule
 - object language vs meta-language
 - well-formed formula
@@ -474,6 +498,14 @@ and \(\land, \lor, \to\) .
 - Imply Elimination (\(\to E\)) (also known as *Modus Ponens*)
 - Imply Introduction
   \((\to I)\)
+- Or Introduction (\(\{\lor I_L\}\) and \(\{\lor I_R\}\))
+                                - Or Elimination \(\{\lor E\}\)
+[[attachment:_20210113_201831screenshot.png]]
+
+- Reductio ad Absurdum
+  [[attachment:_20210113_202429screenshot.png]]
+-
+*** Chapter 7 - Predicate Logic
 * Exercises
 ** Chapter 4
 *** Exercise 1.
@@ -488,6 +520,12 @@ Exercise 2. Prove that the sum of the ﬁrst n odd positive numbers is \(n^2\)
 use the result about  \(\sum_{i=0}^n i = {{n \times (n+1)} \over 2\)
 
 
+
+** Chapter 6
+
+*** Exercise 15
+- Goal \(P \vdash Q \rightarrow P \land Q\)
+- Proof: Use modus tollens. \(\neg P \lor \neg Q \rightarrow \neg Q\)  . We know that P. Hence, \(\neg Q\).
 * Outline
 I will read the first eleven chapters which are a total of 311 pages.
 
