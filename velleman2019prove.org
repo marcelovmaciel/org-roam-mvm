@@ -365,7 +365,7 @@ Learn math lol
      \(\cup_{i \in I}(A_i \times B_i) \subseteq (\cup_{i \in I}A_i) \times (\cup_{i \in I}B_i)\).
      - Suppose \((a,b) \in \cup_{i \in I}(A_i \times B_i)\). Then there is an \(i \in I \) s.t. \((a,b) \in A_i \times B_i\). Since \(a \in A_i\) we know that \(a \in  \cup_{i \in I} A\). Analogously for \(b\). Hence, \((a,b) \in (\cup_{i \in I}B_i)\).
 
-     -
+
 
   b. It is only the other side of the iff. Or a string of equivalences.
 
@@ -388,15 +388,30 @@ Learn math lol
          {(a,d) \in A \times D | \exists c \in C \exists b \in B( (a,c) \in A \times C  \text{ and }    (a,b) \in A \times B \text{ and } (b,c) \in B \times C \text{ and } (c,d) \in C \times D))  = \\
          {(a,d) \in A \times D |  \exists b \in B(  (a,b) \in R \text{ and } (b,d) \in T \circ S))            = \\
          (T \circ S) \circ R         \]
+      - Now, a proper proof.
+        - \((\rightarrow)\) Suppose \( (a,d) \in T \circ (S \circ R)  \). Then there is an \(c \in C\)  s.t. \(  (a,c) \in S \circ R \) and \( (c,d) \in T \). Since \( (a,c) \in S\circ R \) it follows that there is a \(b \in B\) s.t. \( (a,b) \in R \) and \( (b,c) \in S  \) . If \( (b,c) \in S \) and \( (c,d) \in T  \) , then \( (b,d) \in (T \circ S) \) . If \( (b,d) \in (T \circ S) \) and \( (a,b) \in R  \) it follows that \( (a,d) \in (T \circ S ) \circ   R \). Thus, if \( (a,d) \in T \circ (S \circ R)  \) then \( (a,d) \in (T \circ S ) \circ   R \).
+        - \( (\leftarrow) \) Suppose \( (a,d) \in (T \circ S) \circ R \). then there is an \(b \in B \)  s.t. \( (b,d) \in (T \circ S) \) and \( (a,b) \in R \). If \( (b,d) \in (T \circ S) \), then there is a \(c \in C\) s.t. \( (b,c) \in S \) and \( (c,d) \in T \). if \( (a,b)  \in R \) and \( (b,c) \in S \) then \( (a,c) \in (S \circ R) \). From \( (a,c) \in (S \circ R) \)  and \( (c,d) \in T \) it follows that \( (a,d) \in T \circ (S \circ R) \) . Thus if \( (a,d) \in (T \circ S) \circ R \) then  \( (a,d) \in T \circ (S \circ R) \).
+
+
   - d :
     - Goal : \((S \circ R)^{-1} = R^{-1} \circ S^{-1}\)
-    - Proof: (I was too lazy to write down a proper proof)
-      \((c, a) \in (S \circ R)^{-1} \iff \exists b \in B (b \in (c,b) \in R^{-1} \text{ and } (b, c) \in S^{-1}) \iff (c,a) \in  R^{-1} \circ S^{-1}\)
+    - Proof:
+      - (\(\rightarrow\))  Suppose \( (c,a) \in (S \circ R )^{-1} \). then \( (a,c) \in S \circ R \). From that we know there is a \(b\) s.t. \( (a,b) \in R \) and \(  (b,c) \in S \).  Naturally, \( (b,a) \in R^{-1} \) and \( (c,b) \in S^{-1} \). Finally, if \( (b,a) \in R^{-1} \) and \( (c,a) \in R^{-1} \circ S^{-1}  \).
+      - (\(\leftarrow\)) Suppose \( (c,a) \in R^{-1} \circ S^{-1} \). Then there is a \(b\) s.t. \( (b,a) \in R^{-1} \) and \( (c,b) \in S^{-1} \). Thus \( (a,b) \in R \) and \( (b,c) \in S^{-1} \). Thus \( (a,b) \in R \) and \( (b,c) \in S \). Clearly, \(  (a,c) \in S \circ R \). Finally, we can infer from \( (a,c) \in S \circ R  \) that \( (c,a) \in (S\circ R)^{-1}  \). Thus, if \( (c,a) \in R^{-1} \circ S^{-1} \), then \( (c,a) \in (S\circ R)^{-1} \).
+
+- 8 :
+  a. Goal: \(\text{Dom}(S \circ R) \subseteq \text{Dom}(R)\)
+    -  Proof: Suppose \(a \in \text{Dom}(S\circ R)\). Then there is a \(c\) s.t.
+      \((a,c) \in S \circ R\) , from which we infer that there is a \(b\) s.t.
+      \(aRb\) and \(bSc\). Since \((a,b) \in R\) it follows that \(a \in
+      \text{Dom}(R)\).Thus \(\text{Dom}(S \circ R) \subset \text{Dom}(R)\)
+  b. We already know that \(\text{Dom}(S \circ R) \subseteq \text{Dom}(R)\). So, supoose \(a\in \text{Dom}(R)\). Then there is a \(b\) s.t. \(aRb\), from which can be inferred that \(b \in \text{Ran}(R)\). From \(\text{Ran}(R) \subseteq \text{Dom}(S)\)  it follows that \(b \in \text{Dom}(S)\). If \(b \in \text{Dom}(S)\), then there is a \(c\) s.t. \((b,c) \in S\) . So, \((a,c) \in (S \circ R)\). From that it is implied  that \(a \in \text{Dom}(S \circ R)\). thus, if \(a \in \text{Dom}(R)\) and \(\text{Ran}(R) \subseteq \text{Dom}(S)\) then  \(a \in \text{Dom}(S \circ R)\). All in all, \(\text{Ran}(R) \subseteq \text{Dom}(S)\) then  \(\text{Dom}(S \circ R) \subseteq \text{Dom}(R)\).
+
 - 9:
   + a) true and easy to prove.
   + b) Suppose \(R \subseteq S\) Now suppose \((b,a) \in R^{-1}\) then \((a,b) \in R  \) then \((a,b) \in S\) then \((b,a) \in S^{-1}\).
   + c)
-    -  (\(\Rightarrow\)) Suppose \((b,a) \in  (R \cup S)^{-1} \iff (a,b) \in R \cup S \)
+    - (\(\Rightarrow\)) Suppose \((b,a) \in  (R \cup S)^{-1} \iff (a,b) \in R \cup S \)
       - Case 1: \((a,b) \in R\) then \((b,a) \in R^{-1} \to (b,a) \in R^{-1} \cup S^{-1}\)
       - Case 2: The same for \(S\)
     -((\(\Leftarrow\)) Also case based
@@ -423,8 +438,13 @@ Learn math lol
 - 8:
   - Goal: R is transitive iff \(R \circ R \subseteq R\)
   - Proof:
-    - \((\rightarrow)\) Suppose R is transitive. Now suppose \((x,z) \in R \circ R\). Then there is a \(y_0 \in A\)  s.t. \(xRy_0\)  and \(y_0Rz\).  From the transitivity it follows that \(xRz\). Since \((x,z)\) was arbitrary we have that  \(R \circ R \subseteq R\)
-    - \((\leftarrow)\) Suppose  \(R \circ R \subseteq R\). Now suppose \(xRy\) and \(yRz\) . Since \(y \in A\)  we have that  \((x,z) \in R \circ R\) and, from \(R \circ R \subseteq R\) , \((x,z) \in R\). Hence R is transitive.
+    - \((\rightarrow)\) Suppose R is transitive. Now suppose \((x,z) \in R \circ
+      R\). Then there is a \(y_0 \in A\) s.t. \(xRy_0\) and \(y_0Rz\). From the
+      transitivity it follows that \(xRz\). Since \((x,z)\) was arbitrary we
+      have that \(R \circ R \subseteq R\)
+    - \((\leftarrow)\) Suppose \(R \circ R \subseteq R\). Now suppose \(xRy\)
+      and \(yRz\) . Since \(y \in A\) we have that \((x,z) \in R \circ R\) and ,
+      from \(R \circ R \subseteq R\) , \((x,z) \in R\). Hence R is transitive.
 - 9:
   - a) Goal: Let \(R \subseteq A \times B\), \(R \circ i_A = R\)
     - Proof (i was too lazy to prove it correctly. easy if split )
