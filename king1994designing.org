@@ -87,7 +87,9 @@ judgments of which phenomena are *“more” or “less” alike in degree (i.e.
     #+begin_quote
 Precisely defined statistical methods that undergird quantitative research represent abstract formal models applicableto all kinds of research
   #+end_quote
-  - #+begin_quote We are not trying to get all social scientists out of the library and into the computer
+  -
+    #+begin_quote
+    We are not trying to get all social scientists out of the library and into the computer
     center, or to replace idiosyncratic conversations with structured interviews. Rather, we argue that nonstatistical research will produce more
     reliable results if researchers pay attention to the rules of scientific inference—rules that are sometimes more clearly stated in the style of quantitative research.
     #+end_quote
@@ -148,14 +150,16 @@ recast a theoretical question (or even pose an entirely different question that
 was not originally foreseen) to produce a more important research project.
     #+end_quote
 - Research design = the research question, the theory, the data, and the use of the data.
-  - #+begin_quote
+  -
+    #+begin_quote
     These components are not usually developed separately and
     scholars do not attend to them in any preordained order. In fact, for
     qualitative researchers who begin their field work before choosing a
     precise research question, data comes first, followed by the others.
     #+end_quote
   - Notice  *fieldwork* appearing here. How they see that is clearer in chap2
-- #+begin_quote
+-
+  #+begin_quote
  But where do research questions originate? How does a scholar choose the topic for analysis?
 #+end_quote
   -  Kevin munger has a great blog post about that !
@@ -194,7 +198,7 @@ framework of the existing social scientific literature. This ensures that
 the investigator understand the “state of the art” and minimizes the
 chance of duplicating what has already been done.
   #+end_quote
-- They do mix up research projects and research projects. This undermines all their attempts of defining what is a contribution and what is not. They contradict themselves all the time.
+- They do mix up research projects and research programs. This undermines all their attempts of defining what is a contribution and what is not. They contradict themselves all the time.
   #+begin_quote
 In either case, a research program, and if possible a specific research
 project, should aim to satisfy our two criteria: it should deal with a significant real-world topic and be designed to contribute, directly or indirectly, to a specific scholarly literature.
@@ -1019,7 +1023,7 @@ proposed answer is correct.
   #+end_quote
 - parsimony (p.20)
 - pilot projects (p.22)
-- (train test split) (p.23)
+- (train test split) (p.23https://www.esportividade.com.br/entenda-o-que-associar-vitamina-c-ao-aspartato-de-arginina-pode-lhe-trazer/)
 - validity (p.25)
 - reliability (p.25)
 - selection bias (p.28)

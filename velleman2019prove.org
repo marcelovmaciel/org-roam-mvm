@@ -454,6 +454,27 @@ Learn math lol
     - \((\rightarrow)\) Suppose \(a,c \in i_B \circ R \). Then there is a \(b
       \in B \) s.t. \(a,b \in R\) and \(b,c \in i_B\). From \(b,c \in i_B\) we
       know that \(b =c\) . Hence \(a,c \in R \)
+
+- 10
+  - Suppose \((a,a) \in i_D\). Then \(a \in D\). Then there is a \(b \in A\) s.t. \( (a,b) \in S \). Naturally, \((b,a) \in S^{-1}\). Then \((a,a) \in S^{-1} \circ S\).
+  - Suppose \((b,b) \in i_R\). Then \(b \in \text{Ran}(S)\). Then there is an \(a \in A\) s.t. \((a,b) \in S\). Then \((b,a) \in S^{-1}\). Then \((b,b) \in S \circ S^{1}\) .
+- 11
+  - Suppose \((x,y) \in R\). Then \((x,x) \in R\). If \((x,y) \in R\) and \((x,x) \in R\) then \((x,y) \in R \circ R\). Thus \(R \subseteq R \circ R\).
+- 12
+  a. Let \(xRx\). Then \((x,x) \in R^{-1}\). Then \(R^{-1}\) is reflexive.
+  b. Let \(R\) be symmetric and suppose \((x,y) \in R\). Then \((y,x) \in R\). From  the former that it follows that \( (y,x) \in R^{-1}\), while from the latter it follows that \((x,y) \in R^{-1}\). Thus, \(R^{-1}\) is symmetric
+  c. Suppose \(R\) is transitive, and \(xRy\) and \(yRz\) . Naturally, \(xRz\). We now have that \((z,x) \in R^{-1}\), \((z,y) \in R^{-1}\) and \((y,x) \in R^{-1}\). Thus, \(R^{-1}\) is transitive
+
+- 13
+
+  a. Suppose \(a \in A \). Then we know that \(a,a \in R_1\). thus \(a,a \in R_1 \cup R_2\), which means \(R1 \cup R2\) is also reflexive
+  b. Suppose \((x,y) \in R_1 \cup R_2\). Let \((x,y) \not \in R_1\). Then \((x,y) \in R_2\). Iit follows that \( (y,x) \in R_2\), which means that \((y,x) \in R_1 \cup R_2\). Thus \(R_1 \cup R2 \) is symmetric
+  c. Suppose \((x,y) \) and \((y,z)\) are elements of \(R_1 \cup R2 \). It may
+     be possible that \((x,y) \in R_1 \setminus R_2\) while \((y,z) \in R_2
+     \setminus R_1\). So, we cannot affirm that \(R_1 \cup R_2\) will also be
+     transitive. It will only be in some cases, not in all of them.
+
+
 - 15
   - a) False. If R1 is reflexive but R2 is only the identity, then the elements that are in R1 will be in the R1 \ R2, but the set will not be reflexive.
   - b) R1 = {(0,0), (0,1), (1,0), (1,1)}
@@ -525,3 +546,7 @@ By using *truth sets*
 
 [[attachment:_20210104_192750screenshot.png]]
 ]
+
+
+
+Essa noite tive um sonho q pra mim foi bem engracado. Eu tava numa festa do ensino medio. Tinha nocao q tava bem bebado. Ai na primeira parte eu tava num telhado, sentado na beira, conversando com chico e outra pessoa. Ai eu descia pq tava com vertigem. Desci flutuando (????). Ai eu tentava conversar embaixo, mas a voz de chico tava bem baixa. Quando olho pra cima ele tinha encolhido e tava falando de dentro de um sapato (????????). Ai eu desistia. Depois em outra parte eu ia perguntar a Isabella se eu podia entrar na justica pra n ter q terminar o ensino medio pq afinal eu ja tinha diploma de graduacao e mestrado KKKKKK E ela falava q achava q sim kkkkk Sendo q Vinicius tava junto ai ele falava : "Porra, ote fé, vou entrar tbm " KKKKKKK ai eu me tocava q era chapacao minha e vinicius chapado entrou na noia, ai eu tinha uma crise de riso gigante no sonho. Ai acordei.
