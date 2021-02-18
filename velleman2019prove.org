@@ -1,4 +1,5 @@
 #+TITLE: How to prove it: a structured approach
+
 #+ROAM_KEY: cite:velleman2019prove
 * TODO Notes
 :PROPERTIES:
@@ -137,6 +138,17 @@ Learn math lol
 - Those definitions are really important in decision theory (pareto frontier and so on )
 - Some useful properties of smallest/minimal elements:
   [[attachment:_20210114_161955screenshot.png]]
+
+- Let us prove Theorem 4.4.6
+  - 1.
+    - Goal: If B as a smallest element then it is unique.
+      - Proof: Suppose \(b\) is a smallest element of \(B\) . Now suppose \(c\) is also an smallest element. From those two facts it follows that \(bRc\) and \(cRb\). However, since R is a partial order, it is antisymmetric, thus \(c=b\). Thus, if \(c\) is also an smallest element it must be equal to \(b\). With that the uniqueness of b, the smallest element, is demonstrated.
+
+  - 2.
+    - Goal:  \(b\) is R-smallest element of \(B\) \(\rightarrow\) it is also a R-minimal element of \(B\), and it is unique
+    - Proof: Once again we will use the anti-symmetry property. Let \(b\) be a smallest element. Now suppose \((x,b) \in R\). Since \(bRx\) and \(xRb\) it follows from anti-symmetry that \(x=b\). Thus \(b\) is also a minimal element. We could have used 1 to assert that it is also unique, but let suppose a \(c\) which is also minimal. Since \(b\) is smallest \(bRc\), we from the fact that \(c\) is minimal we are lead to conclude that \(c= b\). Thus b is not only minimal, but also unique.
+  - 3
+    - Goal: If \(R\) is a total order \(b\) is a minimal element of \(B\) the \(b\) is the smallest element of \(B\).
 - It is common to apply the notion of smallest element to sets. So one works with power sets instead of simple sets, and the smallest element, given a relation (or property),  will be the one which is a subset of all other sets which also have this property.
 - *Lower bounds*  and *upper bounds* are also useful concepts closely related to smallest and largest elements:
   - Suppose R is a partial order on A; \(B \subseteq A\) and \(a \in A\)
@@ -144,7 +156,17 @@ Learn math lol
   - \(a\) is an *upper bound* for B if \(\forall x (xRa)\)
   - Note that a lower bound for B need not be an element of B !!!!!
 - Other important concepts are the ones of *least upper bound* and *greatest upper bound*
-  [[attachment:_20210114_174751screenshot.png]]
+- Let \(U\) be the set of all upper bounds of a partial order \(R\) on \(A\) and
+  a set \(B\). Then the smallest element of U is called the *least upper bound*
+- Let \(L\) be the set of all lower bounds of a partial order \(R\) on \(A\) and
+  a set \(B\). Then the largest element of L is called the *greatest lower
+  bound*
+- It important to notice that even though a set might have an upper bound it
+  might *not* have a least upper bound. For that, \(U\) would need to have a
+  smallest element, and not all relations and sets will be amenable to that.
+-
+
+
 
 
 
@@ -369,8 +391,6 @@ Learn math lol
 
   b. It is only the other side of the iff. Or a string of equivalences.
 
-
-
 ** Section 4.2
 - 6
   - a
@@ -494,16 +514,18 @@ Learn math lol
         - If \((c,d) \in S\) and \( (b,c) \in R\)  then \((d,c) \in S\) and \((c,b) \in R\) from which we know that \((d,b) \in R \circ S\)
         - The argument for \(S\circ R\) is almost identical
   - \((\leftarrow)\) Too lazy
-- TODO 18:
+- 18:
   - Given: R and S are transitive on \(A\)
   - Goal: \(S \circ R \subseteq R \circ S \rightarrow R \circ S \text{ is transitive }\)
   - Proof:
-    - Suppose \(R \circ S \) is not transitive. Then there is some \(x,y,z \in A\) in which \(x,y \in R \circ S\) and \(y,z \in R\circ S\) and \(x,z \notin R\circ S\) .
-
-    - Now suppose \(a,c \in S \circ R\). Then there is a \(b \in A ( (a,b) \in R \text{ and }  (b,c) \in S)\)
-    - \(x,y \in R \circ S \rightarrow \exists w \in A ((x,w) \in S \text{ and } (w,y) \in R)\)
-    - \(y,z \in R \circ S \rightarrow \exists k \in A ((y,k) \in S \text{ and } (k,z) \in R)\)
-    - \(x,z \notin R\circ S \to \forall m \in A ((x,m) \notin S \lor (m,z) \notin R)\)
+    - Suppose \(S \circ R \subseteq R \circ S\) . Now suppose \((x,y) \in R \circ S\) and \((y,z) \in R \circ S\).
+      - \((x,y) \in R \circ S\) implies that there is a \(k\)  s.t. \((x,k) \in S\) and  \((k,y) \in R\).
+      - \((y,z) \in R \circ S\) implies that there is a \(w\) s.t. \((y,w) \in S\) and \((w,z) \in R\).
+    - Since \((k,y) \in R\) and \((y,w) \in S\), it follows that \((k,w) \in S \circ R\). As we know that  \(S \circ R \subseteq R \circ S \) this leads to \((k,w) \in R \circ S\).
+      - \((k,w) \in R \circ S\) implies that there is a \(m\) s.t. \((k,m) \in S\) and \((m,w) \in R\).
+        - Given that \(S\) is transitive and \((x,k) \in S\) and  \((k,m) \in S\) it follows that \((x,m) \in S\) .
+        - Given that \(R\) is transitive and \((m,w) \in R\) and \((w,z) \in R\) it follows that \((m,z) \in R\) .
+    - If \((x,m) \in S\) and \((m,z) \in R\) we finally have that \((x,z) \in R \circ S\). Thus, \(R \circ S\) is transitive.
 - 19
   - Incorrect assumption that y is the same in different pairs
 - 20
@@ -514,6 +536,53 @@ Learn math lol
 - 23 TODO
 
 
+
+** Section 4.4
+- 1.
+  a. Not total, no \((a,c) \) or \((c,a)\) .
+  b. Not anti-symmetric! \(|-2| \leq |2|\) and \(|2| \leq |-2|\) , but obviously \(2 \neq -2\) .
+  c. Not total! -2 and 2 once again is an example. It is not a pair covered by the relation!
+- 2.
+  a. Total order
+  b. Reflexive and transitive, but not anti-symmetric
+  c. Reflexive and transitive, but not anti-symmetric
+- 3.
+  a. Smallest = 2, minimal = 2, maximal = 3 and 4, largest = none, lower bound = 1 , upper bound = none
+  b. Smallest = minimal = {1}; maximal = largest = none; lower bound = \(\{x \in \mathbb{R} | x \leq 1\}\); g.l.b = 1; upper bound = \(\{x \in \mathbb{R} | x \geq 2\}\); l.u.b = 2
+  c. Maximal = x is a set of natural numbers with 5 elements; largest = upper bound = none; smallest = minimal = lower bound = \(\emptyset\)
+- 4.
+  - (\(\leftarrow\))Suppose \(R \subseteq i_A\). Now let \((x,y) \in R\) .Then \((x,y) \in i_A\), which leads us to conclude that \(x = y\). Thus, \(yRx\) and the relation is symmetric, but now we have that \(xRy\), \((yRx)\)  and \(x = y\), which means it is also anti-symmetric.
+  - \((\rightarrow)\) Now suppose it is both anti-symmetric and symmetric. This means that if we suppose \(xRy\) we get \(yRx\)  (from symmetry), but then \(y= x\) (from anti-symmetry). Since x and y are arbitrary we get that \(R \subseteq i_A\)
+- 5.
+  - All proofs simply follow from \(R\). The only proof that does not follow directly from that is reflexivity. So suppose \(x \in B\) . Then \(x \in A\). Then we have that \((x,x) \in R\), since it is reflexive. But we can also infer that \((x,x) \in B \times B\) . So we have that \((x,x) \in R \cap (B \times B)\) . So it is reflexive.
+- 6.
+  a.
+     - Reflexivity: Suppose \(x \in A \). THen \((x,x) \in R_1\) and \((x,x) \in R_2\). Thus, \((x,x) \in R_1 \cap R_2\). \(R_1 \cap R_2\) is, hence, reflexive.
+     - Transitivity: Suppose \((x,y) \in R_1 \cap R_2\) and \( (y,z) \in R_1 \cap R_2\). Then \((x,z) \in R_1\) and \((x,z) \in R_2\), from which it follows that \(\((x,z) \in R_1 \cap R_2\) . Thus, \(R_1 \cap R_2\) is transitive
+     - Anti-symmetry: If \((x,y) \in R_1 \cap R_2\) and \((y,x) \in R_1 \cap R_2\), we can use either to show \(x = y\). Thus \(R_1 \cap R_2 \) is anti-symmetric.
+       - All in all, it is true.
+  b.
+     - Reflexivity holds
+     - Transitivity: Suppose \((x,y) \in R_1 \cup R_2\) and \( (y,z) \in R_1 \cup R_2\). It might not hold. It is possible that \((x,y)\) comes from \(R_1\) while \((y,z)\) comes from \(R_2\), from which we cannot conclude anything about the transitivity of \(R_1 \cup R_2\).
+
+- 7
+  a.
+     - Reflexivity: Suppose \(a \in A_1\). THen \(aR_1a\), since \(R_1\) is a partial order. Thus \((a,a) \in R_1 \cup R_2\). The same can be said about an \(a_2 \in A_2\). Thus \(R_1 \cup R_2\) is reflexive.
+     - Transitivity Since \(A_1 \cap A_2 = \emptyset\) either \((x,y) \in R_1\) and \((y,z) \in R_1\)  or both the two tuples are constituted of elements of \(R_2\), because y cannot be belong in both \(A_1 \) and \(A_2\).
+       - Case 1: \((x,y) \in R_1\) and \((y,z) \in R_1\). It aint hard to see that \((x,z) \in R_1\), since it is partial order
+       - Case 2:\((x,y) \in R_2\) and \((y,z) \in R_2\). The same as case 1!
+     - Anti-symmetry: once again, we will make use of \(A_1 \cap A_2 = \emptyset\) . Suppose \((x,y) \in R_1 \cup R_2 \). Either \(x\)  and \(y\) are both from \(R_1\) or they are both from \(R_2\). From the anti-symmetry of \(R_1\) and \(R_2\) it follows that in both cases if \((y,x)\) is also an element of the set it follows that \(y=x\). So,\(R_1 \cup R_2\) is anti-symmetric
+     - Since we proved the 3 properties, \(R_1 \cup R_2\) is a partial order.
+  b.
+     - Reflexivity: Suppose \(a \in A_1 \cup A_2\). Then either \(a \in A_1\) or
+       \(a \in A_2\). Those two cases are exhaustive. So we either have
+       \(aR_1a\) or \(aR_2a\), so \((a,a) \in R_1 \cup R_2 \cup (A_1 \times
+       A_2)\).
+
+     - Transitivity:
+
+
+* Questions
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:
 :FC_CREATED: 2021-01-04T21:19:54Z

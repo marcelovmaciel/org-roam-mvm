@@ -1,0 +1,89 @@
+#+TITLE: cite:Causation, statistics, and sociology
+#+ROAM_KEY: cite:goldthorpe2001causation
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: goldthorpe2001causation
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/goldthorpe2001causation.pdf
+:AUTHOR: Goldthorpe, J. H.
+:JOURNAL: European sociological review
+:DATE:
+:YEAR: 2001
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To help lulu. It also connects with my general idea of using causation models to connect empirical and theoretical models. See [[file:king1994designing.org][cite: Designing social inquiry: scientific]]  and [[file:johnson2006consequences.org][cite:Consequences of positivism: a pragmatist assessment]]
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+There are three main concepts of causation: as robust dependence, as consequential manipulation and as generative process. The last is the most appropriate for sociology - since it is based upon the concept of action and is non-experimental.
+** What are the specific arguments of the text?
+- The entry is great inspiration for my paper about EITM and so on.
+- Statistics was founded in an era of skepticism about causation
+- Correlation would be the central concept
+- In the 50s emerged the notion of *probabilistic causation*
+- Causation as robust dependence is more useful for forecasting
+- Causal explanations require domain specific input, theory.
+- Whereas consequential manipulation is more useful for experimental sciences. "No causation without manipulation" ignores the power of individuals -  beyond the researcher -  to have an impact in the world
+- Causation as generative process is more useful because:
+  - It focuses on causes of effects: the analysis begins with the effects and then seeks a causal explanation
+  - The notion of generation fits nicely the methodological individualist credo
+  - fallibilistic and probabilistic - does not aim to completely verify or falsify stuff (bullshit)
+*** Causation as Robust Dependence
+- If X comes before Y and are correlated then X is causing Y
+- It might lead to an eternal recurrence to Zs that are causing X and so on. To deal with that the association/dependence must be *robust*, not easily swayed by introducing or removing variables in the model.
+- This kind of argument is also known as *Granger causality*
+- Causation here is entirely a matter of statistical inference, because we only have to be able to verify the robustness of the association
+- If prediction, forecasting, was the purpose that would be ok.
+- Methodological individualists vehemently attack the view that statistical techniques in themselves are enough. One has to understand how the dependence is *produced* or *generated*
+- The Freedman critique is also relevant:
+  1. Function form depends of prior knowledge
+  2. If prior knowledge is wrong the model will be wrong
+  3. the model must be able to resist changes in exogenous variables (without theory we wont be able to see why the model is not working anymore)
+- *Causal path analysis* is part of this robust dependence toolset (at least what sociologists call causal path analysis)
+- It does focus on *causes of effects*
+*** Causation as consequential manipulation
+- This one is associated with Rubin and Holland (and Neyman)
+- KKV is here too!!!
+- Here *causes are treatments*. They are *manipulable*. A factor X causes Y if its change leads to *systematic* change in Y (it can be probabilistic!).
+- It is *comparative*. One has to compare what *would* have happened to a unit's Y if it had been exposed vs if had not been
+- The fundamental problem of causal inference is that we cant do that *in the same unit*. We have to look at populations of units.
+- So we compare the average of the exposed units Y and the average of the control units Y and the difference is that *Average Treatment Effect* (or average causal effect)
+- There are some preconditions such as homogeneity, non-spillovers, that the process of assignment, in itfself, is not leading to a difference. All in all, that we have a randomized controlled experiment
+- There is no supposition that we have a definite answer. After all, we are thinking in terms of a controlled environment
+- The problem of *spuriousness* that permeates the variable based approach does not happen. We can be sure that the difference is *due to our intervention*
+- It might be argued - as he does -  that it focuses on *effects of causes*. That is, we have the cause and what to estimate its effects, rather than having an effect and wanting to find a cause.
+- The question we are working on is not "X is a cause of Y", but rather "Y is an effect of X".
+- Given the role of control and experimentation in this perspective observational studies should try to mimic as much as possible experiments
+- One huge focus for these studies will, thus, be to assure that the unit assignment is well understood. That is, that we can control for selection biases.
+- This obviously leads to tons of problems. We can never be sure we are controlling for all that matters in the unit assignment.
+- Notice that this problem mirrors the robust dependence one, in which we had to control for thinks that were causing the cause of the dependence. Now we have to control for things that have an effect on the unit assignment.
+- Moreover, lots, most, of things of interest to sociologists does not fit neatly this framework. Some units have intrinsic attributes that cannot be manipulated, for instance. (Actually, a control for that can also be  implemented (mvm here - See Morton's book!!! Ok he also notices that))
+- The real problem is when we are dealing not only with interventions or intrinsic attributes, but with action, argues Goldthorpe: if someone studies for an exam  and goes well she did it as a mattter of voluntary action. THe manipulation would not be enough. Agency cannot be easily incorporated into the causal model. (this is goldthorpe ... )
+- Mvm here: kkv kind deals with that! the action is probabilistic, if we have theory we can account for that. Also, the kind of reflective adaptation to the treatment he mentions  should, and typically is, be considered by the researcher when designing the study
+- The approach, supposedly, only allows "outcome-oriented" action in the *intervener*. It does not deal well with subjects that act in such way. They are also *intervening*, thinking and adapting in response to the stimulus arent them?
+*** Causation as Generative process
+- It appears as *something to be added* to statistical criteria for causation arguments to be convincing (this is almost a quote).
+- Statistical analysis is seen as a black box, one has to argue what *generates* the causal effect of X on Y - be it granger like or manipulation
+- Smoking and lung cancer is the paradigmatic example of generative process: even though association was established, it was only accepted as true when a generative process, a causal link, was demonstrated
+- He argues that the generative perspective corrects the focus of the interventionist perspective on the effect to a focus on how the effect is produced.
+- He argues that the generative perspective is more falsificationist while the interventionist is more verificationist, but it is in terms of stance.
+*** His approach :ATTACH:
+:PROPERTIES:
+:ID:       a8ab0b0e-8624-413c-985a-f45bfade68a1
+:END:
+
+[[attachment:_20210209_155623screenshot.png]]
+- First one establishes that the phenomena indeed *exists* (in kkv terms we are talking about descriptive inference here). It must have some kind of *regularity* (rather than singularities). Leave singularities to historians is basically what his arguing.
+- The enthusiasm for causal inference, why things happen, leads to ignoring description, what is happening.
+- Robust dependence should be treated as descriptive analysis of patterns of association. It might *suggest* things.
+- After one establishes the regularities the next step is the typical methodological individualist one: theorize what produces it, in terms of the action an interaction of inviduals;
+- He calls that explanation a *narrative of action*
+- Capture *central tendencies* of action within *situations of a certain type*
+  [[attachment:_20210209_164003screenshot.png]]
+- The first test of a *narrative of action* is of *adequacy*: if it indeed generates the pattern of interest (simulation is useful here)
+- The second test is of *empirical validity* . Here he follows kkv: what would be the observable implications of the generative process?
+; ** What are the main concepts of the text?

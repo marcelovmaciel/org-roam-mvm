@@ -1,0 +1,104 @@
+#+TITLE: The reach of social choice theory
+#+ROAM_KEY: cite:Sen_2012
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: Sen_2012
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/Sen_2012.pdf
+:AUTHOR: Sen, A.
+:JOURNAL: Social Choice and Welfare
+:DATE:
+:YEAR: 2012
+:DOI:  http://dx.doi.org/10.1007/s00355-011-0613-7
+:URL: http://dx.doi.org/10.1007/s00355-011-0613-7
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+I am reading because it is directly related to my phd application. Moreover, it is related to [[file:20201127202224-algebraic_social_theories.org][Algebraic Social Theories]] and to [[file:20200522151434-social_choice_and_informational_requirement.org][Social Choice and Informational Requirement]]. Also, see cite:kaminski04_social_choic_infor.
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+To develop what Sen considers is the reach and particular contribution of social choice to the study of justice;
+** What are the specific arguments of the text?
+- Sen delineates two great groups of those who are interested in the amelioration of society:
+  - Transcedental institutionalism
+    - Hobbes, Rousseau, Kant, Rawls
+    - Attainment of an ideal
+  - Realization-focused comparison
+    - Diversified, Marquis de Condorcet, Adam Smith, Jeremy Bentham, Mary Wollstonecraft, Karl Marx, John Stuart Mill,
+        #+begin_quote
+    Those focusing on realization-focused comparisons were often primarily
+    interested in the removal of manifest injustice present in the world they saw,
+    such as slavery, or dicta- torial subjugation, or cruel incarceration, or public
+    use of torture, or the prevalence of starvation.
+        #+end_quote
+- Social choice impossibilities are largely solved by improving the informational sensitivity of social decision procedures
+- He argues that there is a *deep connection* in Condorcet interest in voting, social statistics and continuing public discussion. It's all about the usage of *information*
+  #+begin_quote
+There is also a close connection with Condorcet’s deep interest in enriching
+societal statistics, and with his commitment to the necessity of continuing
+public discussion, since they all help to advance the use of more information in
+the procedures of public choice and in the exploration of social justice.
+  #+end_quote
+- The Condorcet tradition is then all about *problems of social assessment*
+- He takes a result and social state perspective. It's about something like states of society as a whole dynamical system, including institutions, structures, and so on
+  - I'm not sure I follow and if I do i am not fully sympathetic
+    #+begin_quote
+No matter how proper the estab-
+lished organizations might be, if a big fish could still devour a small fish at will, then
+that must be a patent violation of human justice
+    #+end_quote
+- This leads to *comparative assessments*. Social Choice is not transcedental, but a comparative endeavor.
+- Social choice is general, and as such it allows one to understand the full extension of normative principles
+  #+begin_quote
+the human mind cannot
+sometimes enough grasp the immense reach of general principles. But once the prin-
+ciples are formulated in unconstrained terms, covering inter alia a great many cases
+other than those that motivated our interest in those principles, we can run into dif-
+ficulties that were not foreseen earlier, when we signed up, as it were, on the dotted
+line.
+  #+end_quote
+- This naturally leads to an understanding of what sen calls *plurality of reasons*, though it is simply good ol liberal, berlinian, pluralism, as reminded by cite:orr2018entanglement in his paper about models among political theorists
+  #+begin_quote
+the possibility of durable conflicts of non-eliminable principles
+can be quite important in the theory of justice.
+  #+end_quote
+- Another point that I had not thought about is incompleteness. That is, partial rankings! Unsolvable conundrums may lead to the breakage of completeness. That is indeed very interesting
+- He also argues that there are many interpretations of the problem of social choice. The most basic one is the distinction of judgments and preferences. The problem of social choice is a matter of epistemology or of interests. This is a *fundamental* problem. Norman Schofield also has something to say about that cite:schofield2013collective, maybe in his architects of political change.
+- He also sees what Black, and I, have seen before: that individual rankings can also fall victim to problems of social choice
+  #+begin_quote
+Sometimes the so-called “individual” rankings and priorities can be seen not as
+those of distinct persons, but of the same person with different approaches to
+the decisional issues involved, all of which could command some respect and
+attention.
+  #+end_quote
+- A *broad comprehension* of the problem of social choice connects it direcly to justice and democracy.
+  #+begin_quote
+the basic connection between public reasoning, on the one hand, and the demands
+of participatory social decisions, on the other, is central not just to the
+practical challenge of making democracy more effective, but also to the
+conceptual problem of basing an adequately articulated idea of social justice on
+the demands of social choice and fairness. Both these exercises have an
+important place in social choice theory, broadly understood.
+  #+end_quote
+-
+** What are the main concepts of the text?
+- Transcendental institutionalism
+- Realization-focused comparison
+- problems of social assessment
+- comparative assessment
+- reach of general principles
+- plurality of reasons
+- incompleteness
+
+
+* Further refs
+- On arrow embarking the sen program:
+  - Kenneth J. Arrow, “Extended Sympathy and the Possibility of Social Choice,” American Economic Review, 67 (1977).
+- On the dual interpretation of social choice see schofield in architects of political change
+- in the relationship between berlinian pluralism and social choice see models among political theorists by johnson.
+- For his distinction between judgments and preferences see
+  - “Social Choice Theory: A Re-examination,” Econometrica, 45 (1977),
+- See what buchanan has to say about public reasoning
+  - See James Buchanan, “Social Choice, Democracy, and Free Markets,” and “Individual Choice in Voting and the Market,” both published in the Journal of Political Economy, 62 (1954).
