@@ -1,0 +1,34 @@
+#+TITLE: Election forensics: using machine learning and synthetic data for possible election anomaly detection
+#+ROAM_KEY: cite:zhang2019election
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: zhang2019election
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/zhang2019election.pdf
+:AUTHOR: Zhang, M. et al.
+:JOURNAL: PloS one
+:DATE:
+:YEAR: 2019
+:DOI:
+:URL:
+:END:
+
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+It is related to my project on [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] . Suppose
+that we have not changed the electoral system. What can be done in a context of
+attacks on the electoral process? Electoral Forensic is a possibility. For a
+counter-argument see cite:luo17_elect_monit_curse, though.
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+To present the usage of machine learning as a techique in election forensic
+** What are the specific arguments of the text?
+- In-person observation is costly and sometimes unfeasible
+-
+
+** What are the main concepts of the text?
+- In-person election observation

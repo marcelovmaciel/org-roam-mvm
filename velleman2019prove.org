@@ -579,7 +579,48 @@ Learn math lol
        \(aR_1a\) or \(aR_2a\), so \((a,a) \in R_1 \cup R_2 \cup (A_1 \times
        A_2)\).
 
-     - Transitivity:
+     - Transitivity:  Suppose \(x,y,z \in A_1 \cup A_2\) and  \((x,y) \in R_1 \cup R_2 \cup (A_1 \times
+       A_2)\); \((y,z) \in R_1 \cup R_2 \cup (A_1 \times
+       A_2)\). We will treat \(R_1 \cup R_2\) as a single thing. Doing so leads us to 4 possible cases:
+       - Case 1:
+         - \((x,y) \in R_1 \cup R_2\)
+         - \((y,z) \in R_1 \cup R_2\)
+         - Since \( R_1 \cup R_2\) is a partial order it follows that \((x,z) \in R_1 \cup R_2\). Thus \((x,z) \in (R_1 \cup R_2) \cup (A_1 \times A_2)\).
+       - Case 2:
+         - \((x,y) \in R_1 \cup R_2\)
+         - \((y,z) \in A_1 \times A_2\)
+         - We once again make use of  \(A_1 \cap A_2 = \emptyset\). It must be the case that \((x,y) \in R_1\), otherwise \(y \in A_2\), which contradicts \(A_1 \cap A_2 = \emptyset\).  So, \(x \in A_1\), \(y \in A_1\) and \(z \in A_2\). Obviously, \((x,z) \in A_1 \times A_2\). Thus \((x,z) \in (R_1 \cup R_2) \cup (A_1 \times A_2)\).
+       - Case 3:
+         - \((x,y) \in A_1 \times A_2  \);
+         - \((y,z) \in R_1 \cup R_2\);
+         - It is analogous to Case 2
+       - Case 4:
+         - \((x,y) \in A_1 \times A_2 \)
+         - \((y,z) \in A_1 \times A_2 \)
+         - Easy, since \(x \in A_1\) and \(z \in A_2\) it naturally follows that \((x,z) \in A_1 \times A_2 \) . Thus \((x,z) \in (R_1 \cup R_2) \cup (A_1 \times A_2)\).
+       - All in all, if \((x,y) \in R_1 \cup R_2 \cup (A_1 \times A_2)\); \((y,z) \in R_1 \cup R_2 \cup (A_1 \times
+     A_2)\), then \((x,z) \in (R_1 \cup R_2) \cup (A_1 \times A_2)\). Hence, \((R_1 \cup R_2) \cup (A_1 \times A_2)\)  is transitive
+     - Anti-symmetry: Suppose \((x,y)\) and \((y,x)\) are elements of \((R_1 \cup R_2) \cup (A_1 \times A_2)\). There are four possible cases.
+       - Case 1:
+         - \((x,y) \in R_1 \cup R_2\)
+         - \((y,x) \in R_1 \cup R_2\)
+         - Since \(R_1 \cup R_2\) is a partial order it follows that \(x = y\)
+       - Case 2:
+         - \((x,y) \in R_1 \cup R_2\)
+         - \((y,x) \in A_1 \times A_2\)
+         - If \((y,x) \in A_1 \times A_2\), then \(y \in  A_1\) . Since \(A_1 \cap A_2 = \emptyset\), it must follow that \((x,y) \in R_1\). But then \( x \in A_2\) and \(x \in A_1\), which we know is not true. So, this case is not possible.
+       - Case 3:
+         - \((x,y) \in A_1 \times A_2  \);
+         - \((y,x) \in R_1 \cup R_2\);
+           - Analogous to case 2.
+       - Case 4:
+         - \((x,y) \in A_1 \times A_2 \)
+         - \((y,x) \in A_1 \times A_2 \)
+           - Also not possible! Since the sets are disjoint those conditions are mutually contradictory
+       - So, if  \((x,y)\) and \((y,x)\) are elements of \((R_1 \cup R_2) \cup (A_1 \times A_2)\) then \(y = x \).
+
+  c.
+
 
 
 * Questions

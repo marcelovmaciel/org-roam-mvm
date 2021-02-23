@@ -1,0 +1,29 @@
+#+TITLE: A systemic approach to deliberative democracy
+#+ROAM_KEY: cite:mansbridge2012systemic
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: mansbridge2012systemic
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/mansbridge2012systemic.pdf
+:AUTHOR: Mansbridge, J. et al.
+:JOURNAL: Deliberative systems: Deliberative democracy at the large scale
+:DATE:
+:YEAR: 2012
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+For the visiting day, and because I consider that one of the most interesting
+developments in democratic theory. Why? Because, as
+cite:knight15_attem_to_gerry_posit_normat_polit_theor reminds, all political
+theory is a mix of positive and normative entities and assessments. Along the
+same lines, the systemic turn is a new avenue for political theorizing, even
+more if one concurrently pays attention to procedures. Finally, this is a
+rehabilitation and recovery of the rational core of Young Habermas' theory of
+democracy.
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text?
+** What are the main concepts of the text?

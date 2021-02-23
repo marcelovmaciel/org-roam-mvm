@@ -35,3 +35,4 @@ profiles that are most likely to arise.
 - The book about democracy and complexity
 - Vincent ostrom book about democracy
 - cite:aligica2014institutional
+- cite:mansbridge2012systemic

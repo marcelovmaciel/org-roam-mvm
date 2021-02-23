@@ -1,0 +1,29 @@
+#+TITLE: cite: The “revival of communism” or the effect of institutions?: the 1993 polish parliamentary elections
+#+ROAM_KEY: cite:kaminski1998revival
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: kaminski1998revival
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/kaminski1998revival.pdf
+:AUTHOR: Kaminski, M. M. et al.
+:JOURNAL:
+:DATE:
+:YEAR: 1998
+:DOI:
+:URL:
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To develop  [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] .
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+
+** What are the specific arguments of the text?
+- Small shift in preferences, but huge electoral victory for the post-communists left
+- If the electoral system was different or if the right had an unified coalition, the scenario would have been another one.
+  +
+** What are the main concepts of the text?
+- partition function

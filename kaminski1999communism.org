@@ -1,0 +1,76 @@
+#+TITLE: How communism could have been saved: formal analysis of electoral bargaining in poland in 1989
+#+ROAM_KEY: cite:kaminski1999communism
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: kaminski1999communism
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/kaminski1999communism.pdf
+:AUTHOR: Kami\'nski, Marek M
+:JOURNAL: Public Choice
+:DATE:
+:YEAR: 1999
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+It connects with my argument about counterfactual institutional analysis in [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]]
+- [[file:kaminski1998revival.org][cite: The “revival of communism” or the effect of institutions?: the 1993 polish parliamentary elections]]
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+STV would be beneficial for communists, likely slowing down the collapse of communism
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       41ca1ca8-a615-4d47-bcf4-9d74922eb8d1
+:END:
+- Biased polls lead to falsely auspicious scenarios for the communists
+- STV and PR would have been ok for the communists, but they did not know that
+- How were polls applied and what were the results?
+  #+begin_quote
+CBOS surveys tried
+to measure electoral support indirectly, as “confidence” in different organi-
+zations (including PUWP and underground Solidarity), and “confidence” in
+important political figures.
+  #+end_quote
+  - Puwp was much better than the opposition (basically)
+- The Poppe and the Church were deemed highly, so their opposition to communism and the economic downturn in 87 onward lead to a shift in the public opinion, particularly to the rejection of PUWP
+- The roundtable compact's most relevant part was the electoral law (and the subject of most negotiations)
+  -
+  [[attachment:_20210220_195958screenshot.png]]
+
+[[attachment:_20210220_200017screenshot.png]]
+
+- He depicts the roundtable talks as simple games
+  #+begin_quote
+Every rule of premier appointment, change in the Con-
+stitution, or vote on a normal bill defines a new game.
+  #+end_quote
+- He talks about 4 games:
+  - Presidential
+  - Constitutional
+  - Premier Appointment
+  - Legislative
+- The initial proposal of PUWP guaranteed a win in all games
+- The accepted proposal guaranteed its win on the Presidential and Premier Appointment game, while risking loses (given the margin of safety) in the Legislative Game. Basically, solidarity could block!
+- The best outcome for solidarity would be a majority in Senate and 35% in the Sejm
+- It actually got 99/100 in senate and the maximum of 35% in Sejm. It had blocking capacity
+- The dropping of support of the communist regime was also related to a drop in biasing influences in polls (fear, media restriction,) and not only the economic crisis
+  -
+  [[attachment:_20210221_104431screenshot.png]]
+- The PR requires PARTIES! Solidarity members were elected as individuals!!! The communists would no accept a legalized organized opposition *party*
+- STV does not require parties and would also be more proportional! So it should have been ex ante preferred by both sides! Kaminski thinks not choosing it was simply a lack of knowledge about electoral rules !!!! KKKKKKKKKK That and the overly optimistic poll results was what led them to not offering a dominant proposal that was also acceptable by solidarity!
+-
+** What are the main concepts of the text?
+- PUWP - The communist party of poland
+- Roundtable Compact - kinda like a constitution established after bargain with the opposition (Solidarity)
+- Center for Public Opinion Research (CBOS)
+- Parliamentary game = simple game
+  - It is a bill passing game. Either it passes, or not, or is blocked. Simple!
+- Margin of safety
+* Insights
+- Remember to take into consideration the social desirability bias when analyzing the polls pre-bolsonaro election!
+- Simple games are a neat tool!
+- He does not make any generative models or anything like that, it is simply an analytic narrative. Nor does he model the different games as explicitly connected.  Maybe in cite:kaminski1998revival
