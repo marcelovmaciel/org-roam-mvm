@@ -15,15 +15,92 @@
 
 
 * Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
-To develop  [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] .
+To develop  [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] . It is intimately related to [[file:kaminski1999communism.org][How communism could have been saved: formal analysis of electoral bargaining in poland in 1989]]
 
 * Struct questions
 
 ** What is the goal/ general argument of the text?
 
-** What are the specific arguments of the text?
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       a57a8310-a15c-4b14-a5ef-969677649268
+:END:
+- Literature as usual tends to focus on (macro)economic and social variables
+  #+begin_quote
+[...] Focused mainly on the economic and social costs of tran-
+sition. These costs were believed responsible for the widespread disillusion-
+ment with democracy and the increase in the support of the former commu-
+nists. T
+  #+end_quote
+
+- That is the whole point of their argument. While people focus on social and
+  economics structures that would explain the shift in preference and hence the
+  shift in political power, they show that all that is conditional upon
+  institutions
 - Small shift in preferences, but huge electoral victory for the post-communists left
-- If the electoral system was different or if the right had an unified coalition, the scenario would have been another one.
-  +
+- If the electoral system was different or if the right had an unified
+  coalition, the scenario would have been another one.
+  #+begin_quote
+It turns out that the
+most powerful effect was that of a new electoral formula. The second most
+powerful factor that contributed to the victory of the Left was the failure of the
+fragmented post-Solidarity Right to form a coalition.
+  #+end_quote
+- The shift in voter distributions, the entrance of two new parties, are shown
+  to have little impact !
+  #+begin_quote
+Only the conjunction of the change in the electoral law, the coalitional failure
+of the Right, and the increased electoral support for the post-communists
+could have produced a post-communist controlled cabinet
+  #+end_quote
+- The main two determining factors to coalesce are *votes and seats*
+- So there are two games: the vote-game and the seat-game
+  - The electoral law is a function that assigns to any vote game \(G^V\) the corresponding seat-game \(G^S = EL(G^V)\)
+- Why would two parties coalesce? The the sum of the seats for the coalition is greater than the sum of the seats secured individually
+  #+begin_quote
+Two (or more) parties coalesce if they expect the number of seats for the
+coalition to be greater than the sum of seats they can secure individually
+  #+end_quote
+- The polls with the plethora of problems typical of the epoch/place had an impact on the failure of coalitional negotiations
+- With the evolution of the polls the right went from a coalitional game to a prisoner's dilemma
+- His data strategy is highly relevant for my own ideas:
+  #+begin_quote
+All simulations use actual district-level election results, data from the CBOS
+surveys, and data from a special survey that was designed by the authors to
+reconstruct second preferences of voters (i.e., candidates/parties they would
+have voted for had their first choice been not available).
+  #+end_quote
+- He assumes away the idea of behavioral adaptation to the electoral law:
+  #+begin_quote
+This assumption simply means that the changes in the electoral law do not induce
+voters to vote strategically. We comment on the robustness of this assumption
+and discuss possible adjustments.
+  #+end_quote
+  -
+  [[attachment:_20210226_125833screenshot.png]]
+- They find a minimal effect of the typical argument: entrance of two new rightist parties (which would had had taken votes from the main right party)
+- This is a great way of defending both coalitional game theory and fair division
+  #+begin_quote
+The first issue to be resolved by members of a prospective coalition is, what
+information should be taken into account to represent the power of the members?
+[...] The second issue is to settle on a fair solution problem of dividing seats
+among coalitional partners. [...] Finally, the last problem is that of
+implementation. How should the solution be implemented given the constraints of
+limited transferability of seats and uncertain results of the elections?
+  #+end_quote
+
+- His analisys is a purely political one. Beauty!
+  #+begin_quote
+Electoral laws, coalitional structures, existing survey
+methodologies, or the timing of elections may strongly influence the results
+  #+end_quote
 ** What are the main concepts of the text?
 - partition function
+- coalesce
+-
+
+* Insights
+- The PT power as seen in polls prior the election foreclosed the formation of
+  an alliance, even though it was Condorcet dominated. This can got into the
+  analysis of [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]]
+-

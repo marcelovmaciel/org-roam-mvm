@@ -1,0 +1,27 @@
+#+TITLE: The theory of committees and elections: the legacy of duncan black
+#+ROAM_KEY: cite:grofman1981theory
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: grofman1981theory
+:NOTER_DOCUMENT:
+:AUTHOR: Grofman, B.
+:JOURNAL: Toward a Science of Politics. Blacksburg: Center for Study of Public Choice
+:DATE:
+:YEAR: 1981
+:DOI:
+:URL:
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Black is arguably my main intellectual predecessor. See cite:mclean1995duncan and cite:black1998theory
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text?
+** What are the main concepts of the text?
+- Public choice =
+  - a theory of committee and elections
+  - a theory of parties and candidates
+  - a theory of public goods
+  - a theory of bureaucracy

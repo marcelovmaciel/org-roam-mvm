@@ -16,7 +16,7 @@
 
 
 * Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
-Learn math lol
+Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a discrete introduction]]
 
 
 * Struct questions
@@ -618,8 +618,17 @@ Learn math lol
          - \((y,x) \in A_1 \times A_2 \)
            - Also not possible! Since the sets are disjoint those conditions are mutually contradictory
        - So, if  \((x,y)\) and \((y,x)\) are elements of \((R_1 \cup R_2) \cup (A_1 \times A_2)\) then \(y = x \).
-
   c.
+     - \(R_1 \cup R_2\)
+         - Suppose \(x\) and \(y\) are elements of \(A_1 \cup A_2\). Since \(A_1 \cap A_2 = \emptyset\) it may be both possible \(x \in A_1 \cup A_2\), \(y \in A_1 \cup A_2\), and that neither \(xR_1y\), \(yR_1x\), \(xR_2y\) or \(yR_2x\); we need only to pick each from a different set. For instance, \(x \in A_1\) while \(y \in A_2\). So, \(R_1 \cup R_2\) is not a total order
+     - \(R_1 \cup R_2 \cup (A_1 \times A_2)\)
+       - I tried to handwave my way out of that and got it wrong. Let's prove it properly.
+       - Suppose \(x,y\)  are elements of \(A_1 \cup A_2\).
+         - If \(x \in A_1\) and \(y \in A_2\) then \((x,y) \in A_1 \times A_2\).
+         - If \(x \in A_2\) and \(y \in A_1\) then \((y,x) \in A_1 \times A_2\).
+         - If \(x \in A_1\) and \(y \in A_1\) then \( (x,y) \in R_1\) (the reverse pair could have been proven) (since \(R_1\) is a total order)
+         - If \(x \in A_2\) and \(y \in A_2\) then \( (x,y) \in R_2\) (the reverse pair could have been proven) (since \(R_2\) is a total order )
+
 
 
 

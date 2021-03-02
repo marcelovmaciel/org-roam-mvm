@@ -1,0 +1,180 @@
+#+TITLE: cite: Balancing epistemic quality and equal participation in a system approach to deliberative democracy
+#+ROAM_KEY: cite:chambers17_balan_epist_qualit_equal_partic
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: chambers17_balan_epist_qualit_equal_partic
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/chambers17_balan_epist_qualit_equal_partic.pdf
+:AUTHOR: Chambers, S.
+:JOURNAL: Social Epistemology
+:DATE:
+:YEAR: 2017
+:DOI:  http://dx.doi.org/10.1080/02691728.2017.1317867
+:URL: https://doi.org/10.1080/02691728.2017.1317867
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To understand Chambers' approach to the tradeoffs between episteme and inclusion. See [[file:20210223150642-higher_order_social_choice.org][Higher Order Social Choice]]
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+- Epistemic elites <-> Ordinary citizens
+                    \(\uparrow\) ethos of equal respect of the autonomy of each one \(\rightarrow\) expose violators
+** What are the specific arguments of the text?
+- The main problem of the text is how to deal with the division of labor
+  (ordinary citizens x experts) in an asymmetricall mediated communication
+  (typical of contemporary democratic public sphere)
+- What is the problem? It flirts with elitism
+  #+begin_quote
+epistemic elites come up with the agendas, ideas, and policy positions and democratic
+publics ratify or repudiate the agendas but do not generate or really engage with them. This I argue
+would violate an essential defining feature of deliberative democracy, namely that epistemic quality
+and equal participation are tightly linked.
+  #+end_quote
+- Epistemic elites <-> Ordinary citizens
+                    \(\uparrow\) ethos of equal respect of the autonomy of each one \(\rightarrow\) expose violators
+- Not enough. Citizens will always be at epistemic disadvantage.
+- So the notion of feedback loop comes to the rescue
+- Unitary vs disaggregated model of deliberation
+- Herein she reminds one of the insigths of the systemic approach, that one
+  arena might be highly democratic, but might not lead to any macro change after
+  all.
+  #+begin_quote
+mini publics or small-scale deliberative initiatives (even sometimes large-scale deliberations in
+Parliaments) may be internally democratic and wonderfully deliberative but fail to add up to enhanced
+democracy at the macro-level (Johnson 2015)
+  #+end_quote
+- The systemic approach naturally leads to a notion of division of labor. At
+  least in terms of democratic, epistemic and ethical functions.
+  #+begin_quote
+A system approach disaggregates the multiple functions of deliberation and identifies different arenas
+and contexts in which different elements of deliberations predominate.
+  #+end_quote
+- In terms of the epistemic function they are interested in the reasons for beliefs, but actually to detach it from individuals. What they want is a system that produces good reasons that those reasons are reflected in the decision.
+  #+begin_quote
+Good deliberation involves substantive and meaningful consideration of relevant reasons. Thinking
+of epistemic gains in systemic terms means that the system has to produce good reasons and these
+good reasons have to be reflected in the decisions taken. Good reasons and epistemic quality become detached from individual-level behavior and competencies.
+  #+end_quote
+- They indeed argue that the system ought to maximize responsiveness (with a filter)
+  #+begin_quote
+While aggregative models of democracy rest on a principle of one person one vote, deliberative dem-
+ocratic models shift the focus to the inclusion of voices and arguments. This points to inclusivity as an
+essential component of democratic deliberation. The system must be as responsive as possible to the
+various and multiple voices, demands, claims, and perspectives in civil society and be especially recep-
+tive and open or porous to marginalized or new voices.
+  #+end_quote
+(#TO-DEVELOP). This is useful both for my idea of maximizing responsiveness of a democratic system and to my idea of seeing deliberative democracy as adding an input of voices/arguments/reasons
+- Habermas' core periphery model is also a positive model:
+  #+begin_quote
+in Habermas’ social theory, systems refer to areas of coordination that operate on logics other
+than communication: the economy and administration are the two most important.
+
+[...]
+
+  In many elite theories, elites
+(understood as epistemic elites) generate policy and set the agenda and citizens are asked to ratify
+those agendas and policies via periodic elections. In Habermas’ model, elites are the discursive ratifiers
+(and launderers) of opinions, claims, and policies that are generated out of the hurly burly of the pub-
+lic sphere. Thus, although there should be a great deal of feedback going on in all directions (which I
+discuss below), the generative flow of communication is from the periphery to the center.
+
+  #+end_quote
+  + The thing is, the flow of direction that here is assumed is actually an empirical problem
+- Habermas' model of center periphery is one in which the  informal talk at the periphery that goes through layers of increasing deliberative stringency
+- In Habermas' theory is not public opinion that matters. It is *considered public opinion*
+  #+begin_quote
+“Considered public opinions” then are opinions about
+public matters that have circulated in such a way that they have been subject to reflection, criticism,
+and serious consideration as public opinion. In other words, considered public opinion is not simply
+opinion that has benefited from information, thoughtfulness, and the exchange ideas. These three
+conditions are not absent in Habermas’ model but a fourth condition is just as important and that is that
+the public reflect on public opinions as public opinions.
+  #+end_quote
+- Considered opinions must come with reasons (my interpretation)
+#+begin_quote
+Here, elites especially elected representatives play a central
+role in translating polled opinion into considered public opinion by reframing it into policy proposals that are then fed back into the public sphere for debate and consideration. This feedback itself has (or
+may have) an influence on the very opinion from which it was drawn.
+The reflective character of the public sphere challenges a standard model of responsiveness common
+in democratic theory that suggests that elites and especially representatives should respond to and
+act on the preferences and interests that come directly from citizens
+#+end_quote
+- So, it is a *reflective model of considered public opinion formation*
+- Framing is a kind of heresthetic
+  #+begin_quote
+Framing poses a
+serious problem for Habermas’ feedback loop because framing appears to hold the power of agenda
+setting. As Calvert and Warren point out, “frames are necessarily prior to opinion-formation on an
+issue or policy: they enable people to understand the problem and form preferences”
+  #+end_quote
+- The thing is, ought to expose manipulative frames.
+- Framing can be positive, but it can wind up undermining democracy
+  #+begin_quote
+. Gay marriage activists pushed to change the frame of
+gay marriage debate from a partisan position. [...]
+Framing powered by partisanship undermines democracy
+only when it becomes detached from civil society inputs and can no longer claim to be responding to
+a flow of information from the periphery to the center.
+  #+end_quote
+
+** What are the main concepts of the text?
+
+
+* Insights
+(#TO-DEVELOP)
+- Not only deliberative democracy is going through this phase. There are
+  initiatives within public choice too. See [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation :
+  behavioral spillover and institutional complexity]]
+- If deliberation is "weighing of reasons or consideration in light of a decision" this is naturally a social choice problem. Now, besides the preferences, we have reasons. Christian List (cite:sep-social-choice, cite:list14_three_kinds_collec_attit) work on reasons for preferences might be highly useful here
+- Deliberation is not necessarily democratic. Any formal theory of democratic
+  deliberation has to be able to distinguish that. Maybe use some sort of reason
+  input in an social choice theoretic model? Don't know. It seems plausible if
+  one remembers what has been said in cite:amartya2011informational. Maybe it is
+  an additional information requirement, composed with a way of processing the
+  this information (which maybe can be inspired by the effort of
+  cite:chung19_formal_theor_democ_delib)
+- Maybe there is a tradeoff between reason giving and voice inclusion?
+  - She solves that by saying that we have to take a systemic look!
+    #+begin_quote
+Thinking
+of epistemic gains in systemic terms means that the system has to produce good reasons and these
+good reasons have to be reflected in the decisions taken. Good reasons and epistemic quality become
+detached from individual-level behavior and competencies. Not every citizen needs to be equally
+knowledgeable; not every political conversation needs to achieve rational discourse. Experts can play
+a large role within the division of labor required to sustain a deliberative system as long as citizens are
+also able to exercise some form of democratic oversight
+    #+end_quote
+  - She also mentions that deliberative democracy goes at the center of the
+    trade-off with an as-if
+- Habermas may be seem as a systemic still hamstrung by a unitary bias
+- They indeed argue that the system ought to maximize responsiveness (with a filter)
+  #+begin_quote
+While aggregative models of democracy rest on a principle of one person one vote, deliberative dem-
+ocratic models shift the focus to the inclusion of voices and arguments. This points to inclusivity as an
+essential component of democratic deliberation. The system must be as responsive as possible to the
+various and multiple voices, demands, claims, and perspectives in civil society and be especially recep-
+tive and open or porous to marginalized or new voices.
+  #+end_quote
+(#TO-DEVELOP). This is useful both for my idea of maximizing responsiveness (cite:monroe1995fully
+) of a democratic system and to my idea of seeing deliberative democracy as adding an input of voices/arguments/reasons (see cite:amartya2011informational view that the social choice functional is highly flexible in terms of additional inputs).
+- Deliberation not necessarily leads to a decision! We can have a pure model in
+  which we have a set of profiles, zipped with a set of reasons, and end up with
+  a new set of profiles
+- Keeping up with the ideas of adding reasons we are taken to a possible *bargaining and manipulative model of reason giving*
+  #+begin_quote
+communication is often
+strategic in the mild sense that it is motivated by a desire to push a particular agenda rather than arrive
+at the truth
+  #+end_quote
+-
+* Further references
+- For an example of deliberative practices within an autocratic system (nondemocratic) see
+  - He, Baogang, and Mark E. Warren. 2011. “Authoritarian Deliberation: The Deliberative Turn in Chinese Political Development.”
+    Perspectives on Politics 9: 269–289.
+- For other perspectives on the epistemic function see
+    - Follesdal, Andreas. 2017 [this issue]. “Tracking Justice Democratically.” Social Epistemology.
+    - friberg-Fernros, Henrik, and Johan Karlsson Schaffer. 2017 [this issue]. “Assessing the Epistemic Quality of Democratic Decision-making in Terms of Adequate Support for Conclusions.” Social Epistemology

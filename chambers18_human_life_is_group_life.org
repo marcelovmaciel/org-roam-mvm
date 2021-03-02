@@ -1,0 +1,23 @@
+#+TITLE: cite: Human life is group life: deliberative democracy for realists
+#+ROAM_KEY: cite:chambers18_human_life_is_group_life
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: chambers18_human_life_is_group_life
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/chambers18_human_life_is_group_life.pdf
+:AUTHOR: Chambers, S.
+:JOURNAL: Critical Review
+:DATE:
+:YEAR: 2018
+:DOI:  http://dx.doi.org/10.1080/08913811.2018.1466852
+:URL: https://doi.org/10.1080/08913811.2018.1466852
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To understand better Chambers' perspective. I am particularly interested in how coupling her systemic approach and justificatory view with the social choice theoretic one. See [[file:20210223150642-higher_order_social_choice.org][Higher Order Social Choice]]  and [[file:mansbridge2012systemic.org][cite: A systemic approach to deliberative democracy]]
+
+
+
+* Further References
+- Sabl, Andrew. . “The Two Cultures of Democratic Theory: Responsiveness, Democratic Quality, and the Empirical-Normative Divide.” Perspectives on
+Politics : -.
+- Disch, Lisa. . “Towards a Mobilization Conception of Democratic Representation.” American Political Science Review : -.

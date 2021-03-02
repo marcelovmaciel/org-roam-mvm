@@ -1,0 +1,38 @@
+#+TITLE: The strange history of social choice, and the contribution of the public choice society to its fifth revival
+#+ROAM_KEY: cite:mclean14_stran_histor_social_choic_contr
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: mclean14_stran_histor_social_choic_contr
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/mclean14_stran_histor_social_choic_contr.pdf
+:AUTHOR: McLean, I.
+:JOURNAL: Public Choice
+:DATE:
+:YEAR: 2014
+:DOI:  http://dx.doi.org/10.1007/s11127-014-0161-7
+:URL: https://doi.org/10.1007/s11127-014-0161-7
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Of historical interest, but also clarifies the relationship between social choice and Public choice. Also, it directly discusses the debate on rationality and collective choice which I beg to differ from the classics. [[file:20210223151354-rational_collectivities.org][Rational collectivities]] [[file:20200721204708-criticism_of_rat_individualism.org][Criticism of rat individualism]] (the main one!!!)
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That rochester was one of the main schools of the public choice, important both
+organizationally and intellectually.
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       106ec883-f0e6-4517-811f-a3314e5c4ad4
+:END:
+- The founders of public choice were skeptic of social choice. Particularly, they argue that there is no such thing as a rational collective.
+  [[attachment:_20210302_104756screenshot.png]]
+  - The plott quote is from cite:plott1976axiomatic
+  - Riker applied the mathematical results and also helped reconnect the threads that went all the way down to Llull
+  - he also discovered that a delegate from the US constitutional convention (1787) had proposed a power index!
+  - A contribution of buchanan and tullock that is important is the notion of voted trading and log-rolling! Riker makes use of that a lot.
+  -
+** What are the main concepts of the text?
+- Vote trading
+- Log rolling

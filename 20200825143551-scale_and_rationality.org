@@ -1,5 +1,5 @@
 #+title: Scale and rationality
-- tags :: [[file:information_transfer_economics_the_irony_of_microfoundations_fundamentalism.org][Information Transfer Economics: The irony of microfoundations fundamentalism]]
+- tags :: [[file:information_transfer_economics_the_irony_of_microfoundations_fundamentalism.org][url: Information Transfer Economics: The irony of microfoundations fundamentalism]],[[file:20210223151354-rational_collectivities.org][ Rational collectivities]]
 
 One thing that seems to appear over and over is that the proper application of rational choice may 
 depend on  *scale*. It does not explain every choice in every agent, but a

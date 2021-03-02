@@ -1,0 +1,7 @@
+#+title: Democracy and insatisfaction: WGS and social choice
+- tags :: [[file:20200714190158-stochastic_democratic_advantage.org][Stochastic democratic advantage]]
+WGS has a theory that democracy is the only regime which institutionalizes the insatisfaction of the citizens, since it cannot possibly fulfill everybody's wishes. To model that is my purpose. *Different voting mechanisms imply different models of satisfaction*. This connects directly with the rule by multiple majorities theory of cite:christiano19_rule_by_multip_major.
+
+* Further References
+- cite:riker1982liberalism
+- Maybe O paradoxo de rousseau?

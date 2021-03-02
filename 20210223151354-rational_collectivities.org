@@ -1,0 +1,21 @@
+#+title: Rational collectivities
+- tags :: [[file:20201127202224-algebraic_social_theories.org][Algebraic Social Theories]], cite:popova13_behav_persp_social_choic
+
+  One interesting thing about the criticism of Bartels of RCT is that indeed in
+  some pre-defined cartesian product of Agents x Alternatives we may not be able
+  to rationalize the agents preferences, say due to incompleteness (partial
+  ranking). Hence, this leads us to the more interesting question: How can we
+  treat a collectivity that may be constituted of a mix of agents lacking in
+  some of the assumptions of rational choice, but that, in the aggregate, we
+  might be able to characterize the collective as rational and in the end as a
+  *voting bloc*? Talking with Kaique I deduce two approaches: a probabilistic
+  one, and an algebraic one (algebraic decomposition).
+
+ So, it seems this is a problem of finding *representative voters*. For that,
+  see [[https://link.springer.com/article/10.1007%2Fs00355-015-0906-3][Preference exclusions for social rationality | SpringerLink]] as an entry
+  point to the literature as well as Duggan's unpublished manuscript "Value
+  Restriction, Median Voters, and the Core" and "Non-cooperative Games Among
+  Groups"
+
+* Further References
+- cite:regenwetter03_gener_concep_value_restr_prefer_major

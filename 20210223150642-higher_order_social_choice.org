@@ -1,0 +1,21 @@
+#+title: Higher Order Social Choice
+- tags :: [[file:20200714183949-systemic_view_of_collective_decision_procedures_justification.org][Systemic view of collective decision procedures justification]], [[file:mansbridge2012systemic.org][cite: A systemic approach to deliberative democracy]]
+
+
+The systemic approach to democratic theory brings new challenges to the
+normative characterization of a social state. Why? Because it is a middle ground
+between the abstract and broad assessment typical of classical social choice and
+the analysis of specific collective choice situations. How so? It is interested
+how the information processing and normative attributes of political procedures
+in different arenas counter-weight each other. Say one arena is more inclusive,
+while the other is epistemically superior. The systemic assessment is, thus, an
+aggregation of assessments of the IO, in the sense of cite:list2011logical, of
+heterogeneous collective choice arenas. Hence, it is an aggregation of
+aggregations! Maybe a categorical approach might be used here to untangle this
+kind of thing. Maybe.
+
+This is related to the systemic approach to deliberative democracy. For an approach focusing on a single decisional arena see cite:chung19_formal_theor_democ_delib
+
+* Further references
+- cite:sen1979informational
+- [[https://www.pdcnet.org/jphil/content/jphil_1985_0082_0004_0169_0184][Moral Information - Amartya Sen - The Journal of Philosophy (Philosophy Docum...]]

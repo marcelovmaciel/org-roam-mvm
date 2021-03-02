@@ -1,4 +1,4 @@
-#+TITLE: A systemic approach to deliberative democracy
+#+TITLE: cite: A systemic approach to deliberative democracy
 #+ROAM_KEY: cite:mansbridge2012systemic
 * TODO Notes
 :PROPERTIES:
@@ -15,15 +15,113 @@
 
 * Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
 For the visiting day, and because I consider that one of the most interesting
-developments in democratic theory. Why? Because, as
-cite:knight15_attem_to_gerry_posit_normat_polit_theor reminds, all political
-theory is a mix of positive and normative entities and assessments. Along the
-same lines, the systemic turn is a new avenue for political theorizing, even
-more if one concurrently pays attention to procedures. Finally, this is a
-rehabilitation and recovery of the rational core of Young Habermas' theory of
-democracy.
+developments in democratic theory. Why? Because, as cite:knight15_attem_to_gerry_posit_normat_polit_theor reminds,  all political theory is a mix of positive and normative entities and assessments. Along the same lines, the systemic turn is a new avenue  for political theorizing, even more if one concurrently pays attention to procedures. Finally, this is a rehabilitation and recovery of the rational core of Young Habermas' theory of democracy.
 * Struct questions
 
 ** What is the goal/ general argument of the text?
 ** What are the specific arguments of the text?
+- The systemic approach is not necessarily coupled to the nation state!
+- THe systemic approach naturally leads to a notion of *division of labour* among parts of a system
+-  We might use different criteria in different sites, but are in generally interested in the aggregation of those sites to have a global assessment/understanding of the political system
+  #+begin_quote
+a single part, which in itself may have
+low or even negative deliberative quality with respect to one of several
+deliberative ideals, may nevertheless make an important contribution to
+an overall deliberative system. For example, highly partisan rhetoric,
+#+end_quote
+- What is a *system*?
+  #+begin_quote
+A system here means a set of distinguishable, differentiated, but to some
+degree interdependent parts, often with distributed functions and a div-
+ision of labour, connected in such a way as to form a complex whole.
+  #+end_quote
+- Some attributes of systems
+  - differentiation and integration
+  - functional division of labour
+  - relational interdependence
+- One has to analyze the parts AND the whole
+  #+begin_quote
+. Normatively, a systemic approach means that the
+system should be judged as a whole in addition to the parts being judged
+independently
+  #+end_quote
+- It is a middle ground between deliberation in general and concrete analysis of deliberation
+  #+begin_quote
+We need to ask not only what good deliberation would be
+both in general and in particular settings, but also what a good deliberative
+system would entail.
+  #+end_quote
+- An important caveat is that not necessarily the whole system is coupled, interdependent, they are simply connected.
+- This leads to a *distributed* notion of decision making and legitimacy
+  #+begin_quote
+Our
+point is that normatively, in the systemic approach the entire burden of
+decision making and legitimacy does not fall on one forum or institution
+but is distributed among different components in different cases.
+  #+end_quote
+- Sites are potentially redundant and dynamic
+- Since they split and combine labours of judgment aggregation is still operating in here
+  #+begin_quote
+Because political judgments involve so
+many factual contingencies and competing normative requirements, and
+because politics involves the alignments of will, both in concert and in
+opposition, among large numbers of citizens, it is virtually impossible to
+conceive of a political system that does not divide the labours of judgment
+and then recombine them in various ways.
+  #+end_quote
+- it is possible that a site has both negative and positive effects on the system
+- Day to day discussion is part of the deliberative system inasmuch it is about public matters
+  #+begin_quote
+Our criteria for inclusion in a deliberative system are
+that the discussions in question involve matters of common concern and
+have a practical orientation.
+  #+end_quote
+- Habermas' model is concentric (and with feedback loops!)
+- What are the *kinds of deliberative arenas*?
+  #+begin_quote
+Deliberative systems include, roughly speaking, four main arenas: the
+binding decisions of the state (both in the law itself and its implementa-
+tion); activities directly related to preparing for those binding decisions;
+informal talk related to those binding decisions; 2 and arenas of formal or
+informal talk related to decisions on issues of common concern that are
+not intended for binding decisions by the state.
+  #+end_quote
+
+- Deliberative systems have an epistemic, ethical and democratic function
+  - Inform the preferences/decision
+  - Promote Mutual Respect
+  - Include citizens
+- Legitimacy ensues when the system respects those 3 functions
+  #+begin_quote
+The successful realization of all three of these functions promotes the
+legitimacy of democratic decision-making by ensuring reasonably sound
+decisions in the context of mutual respect among citizens and an inclusive
+process of collective choice.
+  #+end_quote
+- This approach a lot the *question of standards*
+- An *open problem* is, thus, to define standards of assessment in a systemic perspective
+  #+begin_quote
+Therefore
+in addition to the three larger functions we would also need a template to
+evaluate the conditions that support the various functions of good deliberation
+  #+end_quote
+  #+begin_quote
+Without criteria to evaluate when non-
+deliberative, weakly deliberative, or even anti-deliberative behaviour
+nevertheless enhances the deliberative system, one risks falling into the
+blind spot of old style functionalism: everything can be seen as, in one
+way or another, contributing to the system.
+  #+end_quote
+- Problems in a deliberative system:
+  #+begin_quote
+tight-
+coupling; decoupling; institutional domination; social domination; and
+entrenched partisanship.
+  #+end_quote
+- Empirical analysis and an exploration of the interactions of the deliberative functions are also *open problems*
 ** What are the main concepts of the text?
+- division of labour
+- system
+  - differentiation and integration
+  - functional division of labour
+  - relational interdependence

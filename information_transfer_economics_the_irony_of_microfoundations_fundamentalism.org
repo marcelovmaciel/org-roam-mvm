@@ -1,4 +1,4 @@
-#+title: Information Transfer Economics: The irony of microfoundations fundamentalism
+#+title: url: Information Transfer Economics: The irony of microfoundations fundamentalism
 #+roam_key: http://informationtransfereconomics.blogspot.com/2016/03/the-irony-of-microfoundations.html
 - tags :: [[file:understanding_society_abm_fundamentalism.org][url:Understanding Society: ABM fundamentalism]]
 

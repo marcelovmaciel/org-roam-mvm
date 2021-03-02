@@ -1,0 +1,23 @@
+#+TITLE: A behavioral perspective on social choice
+#+ROAM_KEY: cite:popova13_behav_persp_social_choic
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: popova13_behav_persp_social_choic
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/popova13_behav_persp_social_choic.pdf
+:AUTHOR: Popova, A. et al.
+:JOURNAL: Annals of Mathematics and Artificial Intelligence
+:DATE:
+:YEAR: 2013
+:DOI:  http://dx.doi.org/10.1007/s10472-012-9326-6
+:URL: https://doi.org/10.1007/s10472-012-9326-6
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Useful for [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] , the experimental part
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text?
+** What are the main concepts of the text?

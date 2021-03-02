@@ -1,4 +1,4 @@
-#+TITLE: Fully proportional representation
+#+TITLE: cite:Fully proportional representation
 #+ROAM_KEY: cite:monroe1995fully
 * TODO Notes
 :PROPERTIES:

@@ -1,0 +1,31 @@
+#+title: Pt coalitional management
+- tags :: [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]]
+
+
+I can make an analysis of PT's division of seats among coalitional partners.
+  Was it indeed too centralized? Which supposedly lead to its corruption
+  practices? More generally, it should be possible to delimit a formal theory
+  that finally delimitates whether the brazilian system, and its big
+  fragmentation, is truly bad for this kind of division of seats. *Partition
+  Functions might be the thing to be used here*. (as in cite:kaminski2001coalitional, cite:kaminski1999communism, cite:kaminski1998revival)
+  + That is a great way of motivating the study of fair division in purely
+    political terms. If we leave in an environment of shifting coalitions, the
+    science of division among members of the coalition is of utmost importance
+    to explain coalitional change and even corruption.
+
+- This naturally connects with [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] see the quote from cite:kaminski1998revival
+      #+begin_quote
+In part this
+was a consequence of the absence of reliable procedures for the division
+of future gains.
+    #+end_quote
+
+
+
+* Further references
+- cite:jr.11_distin_between_influen_brazil_legis_behav
+- cite:zucco2019measuring
+- cite:pracca2011political
+- cite:novaes2018disloyal
+- [[https://ora.ox.ac.uk/objects/uuid:77913bdc-be7a-4783-9b09-83d5e1cd8555][Fragmentation without cleavages? Endogenous fractionalization in the Brazilia...]]
+-

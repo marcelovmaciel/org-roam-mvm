@@ -1,0 +1,74 @@
+#+TITLE: Reflections on public choice
+#+ROAM_KEY: cite:grofman2004reflections
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: grofman2004reflections
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/grofman2004reflections.pdf
+:AUTHOR: Grofman, B.
+:JOURNAL: Public Choice
+:DATE:
+:YEAR: 2004
+:DOI:
+:URL:
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+For the gossip, and understand Grofman's views about the Public Choice. See also cite:amadae1999rochester and cite:mclean14_stran_histor_social_choic_contr
+
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       668981a6-25fb-4718-ac0c-8364dc3e5a0f
+:END:
+- What are the main foundational books in public choice?
+  - From 1957 to 1965:
+    -
+    [[attachment:_20210302_150652screenshot.png]]
+  - Important books until 71
+    [[attachment:_20210302_150830screenshot.png]]
+- He adds some important caveats to the narrative of economic imperialism. Public choice was never mainstream
+- Also, Public Choice is not the same as rational choice modeling nor positive political theory
+  #+begin_quote
+But viewing Public Choice and rational choice
+as synonymous is inconsistent with the views of some of the key figures in
+Public Choice.
+  #+end_quote
+- A further take:
+  Public choice is seen as unified due to Tullock syncretic perspective as editor and Riker's proselytism
+- Herein lies another argument that reinforces the distinction between public choice and social choice:
+  #+begin_quote
+James
+Buchanan, from the beginning, distinguished Public Choice (especially that
+portion of it that later became known as constitutional political economy)
+from social choice, and did not attach great importance to Arrow's and related
+work, since in his view, societies were not like individuals and thus it was not
+particularly troubling that they did not behave as such.
+  #+end_quote
+  - Remember cite:mclean14_stran_histor_social_choic_contr and [[file:20200721204708-criticism_of_rat_individualism.org][Criticism of rat individualism]]
+- Public Choice is more methodological individualist than rational choice focused
+  #+begin_quote
+, Buchanan is careful to talk about economics as the study of
+exchange, not as the science of optimization
+  #+end_quote
+- One great argument he makes is that the works of public choice and social choice are among the greatest normative political theory works there is. I agree.
+  #+begin_quote
+Also, works such as Arrow, and
+Buchanan and Tullock, and even large portions of, say, Downs, Black, and
+Olson, are best viewed as contributions to normative political philosophy -
+as such, in my view, they among the best such normative work being done
+by anyone, especially with respect to issues of representation and democratic
+theory.
+  #+end_quote
+  - For more on that see cite:knight15_attem_to_gerry_posit_normat_polit_theor
+  - cite:johnson2014models
+
+** What are the main concepts of the text?
+
+
+* Further references
+
+- Grofman, B. and Norrander, B. 1990. Efficient use of reference group cues in a single dimension. Public Choice 64: 213-227.
