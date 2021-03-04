@@ -6,6 +6,7 @@ Here are fleeting notes that ought to be better developed.
 
 
 
+
 * Social choice results as artifacts
 - source :: cite:sep-voting-methods
 - tags :: [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][conditions of manipulability]]

@@ -11,3 +11,9 @@
 :DOI:  http://dx.doi.org/10.1098/rstb.2008.0259
 :URL: https://doi.org/10.1098/rstb.2008.0259
 :END:
+
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Because the behavioral approach to social choice has many interesting connections with real work applications of collective decision making, particularly the ones using observational and incomplete data.

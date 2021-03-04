@@ -13,8 +13,6 @@
 :END:
 
 
-
-
 * Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
 This is directly related to my [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]] thingy.
 Also, to talk with Grofman. NERVOUS.
@@ -30,5 +28,37 @@ competition, (d ) voter turnout, and (e) the degree of match between the
 preferences of citizens and the policy choices of the government?
 #+end_quote
 ** What are the specific arguments of the text?
-
+- Electoral systems is the area in which political science has the most data:
+  #+begin_quote
+If political science can’t make it there, it can’t make it anywhere.
+  #+end_quote
+- He identifies five research traditions with electoral systems:
+  #+begin_quote
+social choice theory,
+mainstream empirical research, rational choice and game-theoretic models, the social physics
+perspective, and the embedded systems approach
+  #+end_quote
+- he is skeptical that there is enough knowledge for electoral engineering, though there has been indeed an accumulation of insights throughout the years
+  #+begin_quote
+, I am still skeptical as to how precise our knowledge is about electoral system effects
+once we move beyond what Taagepera (2007) calls simple systems to the more complex rules in
+actual use (where the devil is in the details).
+  #+end_quote
+- Also, electoral engineering might be used for electoral manipulation. One ought to pay attention to that
+  #+begin_quote
+A ﬁnal note of caution is that electoral engineering can also be a synonym for electoral
+manipulation. The in-party can engineer electoral rules for its own advantage, e.g., adopting
+plurality slate bloc voting or other forms of party slate bloc voting and then manipulating district
+magnitudes to increase the size of its legislative majorities
+  #+end_quote
+- The electoral systems literature has to beware of causal claims that lead to big causal chains
+  #+begin_quote
+ Ferree et al. (2012)
+make a compelling case for this in the APSA report. They argue that we need to look at mechanisms,
+and that, ceteris paribus, the longer the causal chain between an electoral law and its supposed effects,
+the more diluted its effects are likely to be and the harder it will be for us to detect them.
+  #+end_quote
 ** What are the main concepts of the text?
+- threshold of exclusion
+- threshold of representation
+- distal vs proximal effects

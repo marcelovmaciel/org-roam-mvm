@@ -65,8 +65,32 @@ theory.
   #+end_quote
   - For more on that see cite:knight15_attem_to_gerry_posit_normat_polit_theor
   - cite:johnson2014models
-
+- He makes a good comment about rational choice modeling
+  #+begin_quote
+, the general thread is a simple one: there is no such as the rational
+choice model of any phenomenon, only a rational choice model (Wuffle,
+1999). Moreover, even when rational choice models appear wrong, they are
+"usefully wrong." I refer to models that generate empirical conundrums as
+"usefully wrong" when those models help us to think more clearly about how we need to modify our theories (or rethink our stylized facts) in order to make
+sense of the world.
+  #+end_quote
+- There are, at least, three types of works on cycles
+  #+begin_quote
+(a) analytic and simulation results for the impartial culture and related distri-
+butions (e.g., Black, 1958; Gerhlein and Fishburn, 1976 a, b); (b) theorematic
+results apparently showing that cycles are inevitable unless highly restrictive
+and empirically implausible assumptions are met (Sen, 1970); and (c) work
+on generic cycling in majority rule voting in a multidimensional issue space
+(Mckelvey, 1976, 1979; cf. Riker, 1982).
+  #+end_quote
+-
 ** What are the main concepts of the text?
+- usefully wrong models
+- net value restriction and net preference majorities
+- rational ignorance
+- parties as signaling devices
+- by-product theory of knowledge
+- popcorn machines, cuisinart and waffle irons
 
 
 * Further references

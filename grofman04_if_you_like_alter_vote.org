@@ -1,0 +1,187 @@
+#+TITLE: If you like the alternative vote (a.k.a. the instant runoff), then you ought to know about the coombs rule
+#+ROAM_KEY: cite:grofman04_if_you_like_alter_vote
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: grofman04_if_you_like_alter_vote
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/grofman04_if_you_like_alter_vote.pdf
+:AUTHOR: Grofman, B. & Feld, S. L.
+:JOURNAL: Electoral Studies
+:DATE:
+:YEAR: 2004
+:DOI:  http://dx.doi.org/10.1016/j.electstud.2003.08.001
+:URL: https://doi.org/10.1016/j.electstud.2003.08.001
+:END:
+
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+This paper is directly related to my idea of [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]]
+. Beyond that it proves some interesting facts about both alternative vote
+(instant runoff) and the Coombs' rule .
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That the coombs rule is a great alternative to the alternative vote (pun intended).
+** What are the specific arguments of the text?
+- They will focus on voting rules for selecting a *single* candidate
+- They use the following set of criteria
+  #+begin_quote
+ (1) avoidance of Condorcet losers, (2) choice of Condorcet winners, (3) resistance to manipulability via strategic voting,
+ (4) simplicity.
+  #+end_quote
+- THe coombs rule is potentially inferior to the alternative vote in terms of strategic manipulability. Their argument is not formal though.
+- They have two main results:
+  #+begin_quote
+The ﬁrst new result shows that, under the
+posited assumption, for four alternatives or fewer, AV is always as likely or more likely to
+select the Condorcet winner than plurality. The second new result shows that, under the
+same assumptions, the Coombs rule will always select the Condorcet winner regardless of
+the number of alternatives.
+  #+end_quote
+- Two typical responses to plurality based elections in smds: mmds
+- However, their focus is not on that. Rather, they are interested in how to improve single seat offices elections
+  #+begin_quote
+Electoral reformers who focus on single seat oﬃ-
+ces (such as president or governor), or on individual elections within a legislature
+elected from single member districts, have oﬀered a number of quite diﬀerent
+schemes as improvements over plurality, including approval voting, 3 various Condorcet extension methods, 4 the Borda count, 5 various forms of runoﬀ, 6 and sequen-
+tial single ballot methods that resemble runoﬀs in their eﬀects, such as the alter-
+native vote, (AV) 7 i.e. the single transferable vote restricted to choice of a single
+candidate. 8
+  #+end_quote
+- In the borda vs condorcet debate the big names nowadays would be Saari vs Peyton Young
+- An good example that inspired reformers to propose substitutes to plurality rule was Al Gore loss
+  #+begin_quote
+dorcet extension methods, 4 the Borda count, 5 various forms of runoﬀ, 6 and sequen-
+tial single ballot methods that resemble runoﬀs in their eﬀects, such as the alter-
+native vote, (AV) 7 i.e. the single transferable vote restricted to choice of a single
+candidate. 8
+  #+end_quote
+- Directly related to my research is that reformers have proposed that those alternatives, AV and CR tend to elect more *moderate* candidates
+  #+begin_quote
+Horowitz’s main claim is that AV
+increases the likelihood that candidates would be chosen who are moderate with
+respect to ethnic issues.
+  #+end_quote
+  + For skepticism about this claim see Fraenkel, J., Grofman, B., 2002. Evaluating the impact of electoral reform on inter-ethnic accommodation: the alternative vote in Fiji. Paper prepared for delivery at the Annual Meeting of the European Public Choice Society, Belgirate (Como), Italy, April 4–7
+    #+begin_quote
+Indeed, in modeling the likely impact of AV on voting support for ethnically and non-ethnically
+based parties, at least when they focus on bi-racial or bi-ethnic contexts, scholars such as Donald Hor-
+owitz are implicitly assuming single-peaked preferences over a continuum that is anchored at each end
+by the more extreme national nationalists of each of the two groups (Fraenkel and Grofman, 2002).
+
+[...]
+compared to plurality, AV has a greater likelihood of the end result being a victory by a ‘moderate’ candidate (i.e. one who enjoys broad support but is not necessarily the
+ﬁrst place choice of many voters) as opposed to an ‘extremist’ candidate (i.e.
+one who may have ﬁrst place support from a substantial number of voters but
+who would lose to one or more of the other candidates in the contest if there
+were to be a two-candidate head on head contest).
+    #+end_quote
+- Neither Copeland rule or Nanson method have *policy relevance* since they have never been adopted in large scale elections
+- So, *familiarity* is an important criteria
+- The debate on which voting method to use tends to be divided on those that focus on empirically oriented investigations vs those who focus on theoretical properties of the algorithms
+- the main assumption of the paper is that voters have single-peaked preferences
+- Grofman has extended the notion of single-peakedness to partial single-peakedness and net single-peakedness in:
+  - Feld, S.L., Grofman, B., 1986. Partial single-peakedness: an extension and
+    clariﬁcation. Public Choice 51, 71–80.
+  - Regenwetter, M., Grofman, B., 1998. Choosing subsets: a size-independent probabilistic model and the quest for a social welfare ordering. Social Choice and Welfare 15 (3), 423–443.
+- Both coombs and av are non-monotonic
+  #+begin_quote
+In particular, STV has been attacked because it
+need not be positive responsive (a.k.a. monotonic, a.k.a. non-perverse), i.e., there may be situations in
+which having a (set of) voter(s) rank a candidate higher (without changing their relative rankings for the
+other candidates) may actually turn a winning candidate into a losing candidate (Doron and Kronick,
+1977)—and this argument carries over to AV. The same potential problem also applies to Coombs.
+  #+end_quote
+- They model a higher probability of electing a moderate candidate as a higher probability of choosing the *Condorcet winner*
+- Net single peakedness leads to condorcet winner being chosen by av
+  #+begin_quote
+When preferences are, on balance, single-peaked, there
+always exists a Condorcet winner, and we may identify the Condorcet winner is the
+alternative which is most preferred by the median voter
+  #+end_quote
+- The problem with av is the following:
+  #+begin_quote
+once we have ﬁve or more alternatives, then the superiority
+of AV over plurality even when preferences are single-peaked, is no longer assured
+  #+end_quote
+  - This problem does not happen with coombs rule
+    #+begin_quote
+If voters have single-peaked preferences over a single dimension, and
+voter preferences are sincere, then the Coombs rule always selects the Condorcet win-
+ner (i.e., the alternative supported by the median voter
+    #+end_quote
+-  So, if you want more moderate candidates, you should like the coombs rule even more than the av rule
+  #+begin_quote
+But, if a greater likelihood
+of avoiding the selection of extremist candidates with substantial ﬁrst round but lit-
+tle overall support is a central merit of AV as compared to plurality, if you like AV
+then you should like the Coombs method even more
+  #+end_quote
+- Av is less suscetible to manipulation than both plurality and the coombs rule
+  #+begin_quote
+In AV, unlike plurality, it is argued, voters should have much
+less worry that failing to give their ﬁrst place support to a desirable candidate with
+a greater chance of winning the election than the candidate they sincerely most pre-
+fer might lead to the election of a candidate whom the voter truly did not want.
+[...]
+strategic voting under AV exploits its non-mono-
+tonicity property, 31 in that a candidate may actually be helped if fewer of its
+supporters votes for it,
+[...]
+In contrast, as Chamberlin et al. note
+(1984: 495), strategic voting under Coombs involves lowering the rank in your sub-
+mitted preference ordering of the candidate(s) whom you regard as the greatest
+‘threat’ to your candidate. This is a more ‘natural’ kind of preference misrepresen-
+tation, and therefore, probably more likely to actually occur in practice
+  #+end_quote
+  - His discussion, though, is mostly informal
+- They argue that there are other criteria, though, that could have been used to defend other voting procedures
+  #+begin_quote
+Note, however, that we have been very careful to make no claim that, because
+Coombs and AV both seem superior to plurality, we ‘ought’ to use either AV or
+the Coombs rule. Indeed, if we use Condorcet eﬃciency as our criteria then clearly,
+a Condorcet extension method might seem the most desirable of all, albeit such
+methods tend to be hard to explain in simple terms; or if, like Donald Saari (1995),
+we do not ﬁnd the Condorcet criterion normatively compelling, 37 then we might
+prefer a method such as the Borda count for which other strong arguments can be
+made; or we might follow Steven Brams and his co-authors in opting for approval
+voting, which combines substantial simplicity with a strong likelihood of choosing
+a Condorcet winner when one exists. Finally, if we value simplicity above all, then
+a rule which requires voters to do no more than place an x in front of the ﬁrst
+choice would be the best rule.
+  #+end_quote
+-
+** What are the main concepts of the text?
+- instant runoff
+- Coombs rule
+- instant runoff = alternative vote = single transferable vote restricted to a choice of a single candidate
+- smds = single member district
+- mmds = multimember districts
+- condorcet extension methods
+- Copeland Rule
+- Nanson Rule
+- sequential elimination procedure
+- multiple runoff sequential elimination
+- single peaked preferences
+- partial single-peakedness
+- net single-peakedness
+- condorcet effiency of a rule
+- single-troughedness
+  - "Such preferences arise in situations where voters unwilling to adopt the
+    centrist alternative"
+* Further references
++ For skepticism about the claim  that AV and CR elect more moderate candidates see Fraenkel, J., Grofman, B., 2002. Evaluating the impact of electoral reform on inter-ethnic accommodation: the alternative vote in Fiji. Paper prepared for delivery at the Annual Meeting of the European Public Choice Society, Belgirate (Como), Italy, April 4–7
++ - Grofman has extended the notion of single-peakedness to partial single-peakedness and net single-peakedness in:
+  - Feld, S.L., Grofman, B., 1986. Partial single-peakedness: an extension and
+    clariﬁcation. Public Choice 51, 71–80.
+  - Regenwetter, M., Grofman, B., 1998. Choosing subsets: a size-independent probabilistic model and the quest for a social welfare ordering. Social Choice and Welfare 15 (3), 423–443.
+* Insights
+-
+   Condorcet Winner or Condorcet Loser is about every pairing. Cant we have a
+   concept of frequency? Like PT would lose to almost everybody, but could beat
+   some people. Bolsonaro on the other hand was only strong against PT. This kind
+   of measure matters.
+- His discussion of strategic manipulation of av, coombs and plurality is mostly informal
+- coombs is even better than av if one wants moderate candidates. gotta have that in mind
