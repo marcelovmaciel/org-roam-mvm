@@ -27,11 +27,6 @@ Here are fleeting notes that ought to be better developed.
 * inductive party competition
 use dedeo ?
 
-* what is the ideational structure of parliamentary discourse hin brazil
-- What remains?  What has changed?
-- Saquarema vs luzias
-- WGS interview in which he gives the typical leftist diagnosis of the problems of brazil
-
 
 * Tomasello -> shared and collective intentionality vs stakes
 - One important concept is the one of *intentionality*
@@ -40,6 +35,12 @@ use dedeo ?
 
 * On the relationship between intentionality and teleology
 - Connect rationality, intentionality and teleology https://arxiv.org/pdf/1704.02230.pdf#page30
+
+* What is the effective theory of voting? use the experiment nara taught
+- Simulate it? !!!!
+
+* Modelo de redes para opinião vs modelo SC q pensa estrutura.
+- Puxa saari redes e Black
 
 * (Preferences x Attitudes) and Environment
 - Give an information theoretic account of when we can use preferences and when
@@ -50,7 +51,6 @@ rock paper and scissors
 
 - QRE might be useful too
 - As well as mckelvey last paper !
-
 
 
 * the unity and originality of wgs thought as a public choice theorist

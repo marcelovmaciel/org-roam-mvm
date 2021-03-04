@@ -1,4 +1,4 @@
-#+TITLE: A behavioral perspective on social choice
+#+TITLE: cite: A behavioral perspective on social choice
 #+ROAM_KEY: cite:popova13_behav_persp_social_choic
 * TODO Notes
 :PROPERTIES:
@@ -19,5 +19,145 @@ Useful for [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolson
 * Struct questions
 
 ** What is the goal/ general argument of the text?
+To demonstrate that real world analysis of social choice ought to pay attention to the incompleteness of the data and how to deal with that involves models of data that lead to model-dependent results.
 ** What are the specific arguments of the text?
+- They differentiate a sampling approach, as instantiated in the Impartial
+  Culture assumption and the Impartial Anonymous Culture assumption, and their
+  inference approach
+- This is related to lack of large and accurate datasets
+  #+begin_quote
+Due to
+a lack of large, accurate datasets, many computer scientists, economists, and political
+scientists have turned towards statistical distributions to generate election scenarios
+in order to benchmark and analyze voting rules and other decision procedures
+  #+end_quote
+  - Digital trace data can help here. This is a challenge
+- Given the plethora of identified problems, Shepsle and Bonchek (Analyzing
+  politics) defend minimizing the number of candidates and alternatives
+- The thing is, they show through data analysis that the problems that the
+  mathematical literature deals with are not typical when one looks at actual
+  data
+- The empirical literature founds little evidence of Condorcet's Voting Paradox
+  and single peakedness, and other preference domain restrictions, are not found
+  in real data.
+- They generalize the notion of *profiles* from frequencies of binary relations
+  to probabilities of binary relations
+- Scoring rules are also generalized as a rank
+- Contrary to what is argued by cite:riker1982liberalism previous works have
+  found almost no difference in the results given by Condorcet vs Borda outcomes
+  when using approval voting and found almost no difference, as well as no
+  evidence for Condorcet cycles
+- Condorcet, Borda, and Plurality also agree extensively. Also, no evidence of
+  single peaked preferences has been found.
+- The data used in this paper is the *Netflix Prize*
+  + In which voters have incentives to rank truthfully
+  + The problem, obviously, is the number of alternatives
+    #+begin_quote
+It does not make sense to assume that anyone even knows all of
+these 17,000+ movies. It also makes little sense to assume that viewers have a strict
+preference among every two movies, and this is reflected by the fact that Netflix only
+uses a simple five-point scale for rating the movies. It also may not be legitimate to
+assume complete preferences over groups of movies, say, if one attempted to reduce
+the numbers by grouping movies into genres, release dates, and/or other criteria in
+an effort to sort them into equivalence classes of sorts.
+    #+end_quote
+- They are not interested in finding the most accurate model of movie rating
+  behavior, which is actually a great effort!
+- They describe three methods for data imputation:
+  - agnostic view: assumes nothing, does not consider options which have not been ranked
+    - this leads to a strict partial order
+  - pessmistic view: impute with lower rank
+    - this leads to a strict weak order
+  - anchor-and-adjust view: impute with middle rank
+- They them use different voting rules to evaluate what would be the social
+  outcome. One again they find no substantive difference between condorcet and
+  borda
+  #+begin_quote
+Despite the centuries-old and ongoing debate about the relative merits of Con-
+dorcet and Borda, the empirical evidence has suggested over and again that the two
+rules frequently led to the same social order.
+  #+end_quote
+- The results differ in terms of the imputation method, though. Data imputation
+  is a serious problem in the analysis of real preference data. That can be
+  solved by an accompanying survey though, or something like that
+- If there is too much missing data, the imputation method will dominate the social outcome.
+- They show in a real dataset how treating preferences as strict linear orders
+  os as strict weak orders may dominate, if imputation is used, the analysis
+  #+begin_quote
+Our analysis has shown that treating preferences as strict linear orders or
+strict weak orders may require researchers to impute vast amounts of information
+not provided by the voters or raters.
+  #+end_quote
+  - You can say that the person does not have a preference for options not
+    listed, but this will actually break some of the voting methods.
+    #+begin_quote
+On the other hand, when making as few assumptions about individual preferences
+as possible, as we attempted in the Agnostic model, we may not even be able to
+draw inferences at all for some consensus methods because of data sparsity.
+    #+end_quote
+-
 ** What are the main concepts of the text?
+- Impartial Culture Assumption and the Impartial Anonymous Culture assumption
+- Preference domain restrictions
+- strict partial order
+- interval order
+- semiorder
+- strict weak order
+- strict linear order
+- profile as probability of binary relations
+- generalized rank
+- data imputation models:
+  - pessimistic
+  - agnostic
+  - anchor
+
+
+* Further references
+- For sampling approaches using the IC and the IAC assumptions see
+  1. Gehrlein, W.V., Fishburn, P.C.: Concorcet’s paradox and anonymous preference profiles. Public Choice 26, 1—18 (1976)
+  2. Gehrlein, W.V., Fishburn, P.C.: T
+- For the problem of realistically modeling election data
+  a. Regenwetter, M., Grofman, B.: Approval voting, Borda winners and Condorcet winners: Evi- dence from seven elections. Manage. Sci. 44, 520–533 (1998)
+  b. Regenwetter, M., Grofman, B., Marley, A.A.J., Tsetlin, I.M.: Behavioral Social Choice: Proba- bilistic Models, Statistical Inference, and Applications. Cambridge University Press, New York (2006)
+  c. Regenwetter, M., Ho, M.H., Tsetlin, I.: Sophisticated approval voting,
+     ignorance priors, andplurality heuristics: a behavioral social choice
+     analysis in a Thurstonian framework. Psychol. Rev. 114, 994–1014 (2007)
+  d. Tideman, N., Plassmann, F.: Modeling the outcomes of vote-casting in actual elections. In: Felsenthal, D., Machover, M. (eds.) Electoral Systems: Paradoxes, Assumptions, and Procedures. Springer, New York (2012)
+- For the lack of empirical evidence of condorcet's paradox:
+  - Mackie, G.: Democracy Defended. Cambridge University Press, New York (2003)
+  - Gehrlein, W.V., Fishburn, P.C.: Concorcet’s paradox and anonymous preference profiles. Public Choice 26, 1—18 (1976)
+- For the notion of generalized ranking see :
+  - Regenwetter, M., Rykhlevskaia, E.: On the (numerical) ranking associated with any finite binary relation. J. Math. Psychol. 48, 239–246 (2004)
+- For a work of grofman see:
+  - Regenwetter, M., Grofman, B.: Choosing subsets: a size-independent probabilistic model and the quest for a social welfare ordering. Soc. Choice Welf. 15, 423–443 (1998)
+* Insights
+- The analysis of digital trace data might help to create large datasets of
+  agents' attributes. Maybe nlp?
+- How to actually model election data realistically is an open problem in
+  political science.
+- Data imputation is a serious problem in the analysis of real preference data.
+  That can be solved by an accompanying survey though, or something like that.
+  Moreover, the literature on causal inference can contribute here !!!!! They
+  treat the data imputation problem as one of causal inference! There is stuff
+  to be done here.
+- This paper is a great call for reorientation. Rather then dwell on things like
+  the existence of a condorcet winner or disagreements of methods, the
+  literature should have a better grounding of the basics: characterize and
+  infer preferences after all.
+  #+begin_quote
+Consistent with earlier behavioral social choice papers, the threat of no
+Condorcet winner and/or the threat of dramatic disagreements among competing
+consensus methods continue to be dwarfed by the much more real treat of inaccurate
+inference about social preferences as well as the threat of their strong dependence
+on modeling assumptions.
+  #+end_quote
+- Behavioral social choice is the path towards a broader applicability of social
+  choice by taking into account empirical structured behavior
+- One interesting insight is that agents will have to have their own models of
+  other agents so that they can, say, vote strategically. And the snake eats its
+  tail.
+  #+begin_quote
+Realistically, both individuals and collectivities who want to compute strategic
+choices and/or manipulate a consensus process need to account for inference and
+model dependence issues in their respective computations
+  #+end_quote

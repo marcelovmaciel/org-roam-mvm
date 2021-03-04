@@ -1,4 +1,4 @@
-#+TITLE: The theory of committees and elections: the legacy of duncan black
+#+TITLE: cite:The theory of committees and elections: the legacy of duncan black
 #+ROAM_KEY: cite:grofman1981theory
 * TODO Notes
 :PROPERTIES:

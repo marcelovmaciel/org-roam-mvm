@@ -620,7 +620,7 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
        - So, if  \((x,y)\) and \((y,x)\) are elements of \((R_1 \cup R_2) \cup (A_1 \times A_2)\) then \(y = x \).
   c.
      - \(R_1 \cup R_2\)
-         - Suppose \(x\) and \(y\) are elements of \(A_1 \cup A_2\). Since \(A_1 \cap A_2 = \emptyset\) it may be both possible \(x \in A_1 \cup A_2\), \(y \in A_1 \cup A_2\), and that neither \(xR_1y\), \(yR_1x\), \(xR_2y\) or \(yR_2x\); we need only to pick each from a different set. For instance, \(x \in A_1\) while \(y \in A_2\). So, \(R_1 \cup R_2\) is not a total order
+       - Suppose \(x\) and \(y\) are elements of \(A_1 \cup A_2\). Since \(A_1 \cap A_2 = \emptyset\) it may be both possible \(x \in A_1 \cup A_2\), \(y \in A_1 \cup A_2\), and that neither \(xR_1y\), \(yR_1x\), \(xR_2y\) or \(yR_2x\); we need only to pick each from a different set. For instance, \(x \in A_1\) while \(y \in A_2\). So, \(R_1 \cup R_2\) is not a total order
      - \(R_1 \cup R_2 \cup (A_1 \times A_2)\)
        - I tried to handwave my way out of that and got it wrong. Let's prove it properly.
        - Suppose \(x,y\)  are elements of \(A_1 \cup A_2\).
@@ -628,9 +628,44 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
          - If \(x \in A_2\) and \(y \in A_1\) then \((y,x) \in A_1 \times A_2\).
          - If \(x \in A_1\) and \(y \in A_1\) then \( (x,y) \in R_1\) (the reverse pair could have been proven) (since \(R_1\) is a total order)
          - If \(x \in A_2\) and \(y \in A_2\) then \( (x,y) \in R_2\) (the reverse pair could have been proven) (since \(R_2\) is a total order )
-
-
-
+- 8:
+  - Reflexivity: Suppose \((a,b) \in (A \times B)\). Then \(aRa\) and \(bSb\), due to their reflexivity. Consequently \(((a,b), (a,b)) \in T\). So it is, indeed, reflexive.
+  - Transitivity:
+    - Suppose:
+      - \((a,b)T(c,d)\) \(\rightarrow\)
+        - \(aRc\)
+        - \(bSd\)
+        - \(\{\text{By the definition of } T\}\)
+      - and
+      - \((c,d)T(e,f)\) \(\rightarrow\)
+        - \(cRe\)
+        - \(dSf\)
+        - \(\{\text{By the definition of } T\}\)
+    - So, \(aRe\) and \(bSf\), since they are partial orders. Once again using the defintion of T we get that \((a,b)T(e,f)\). Thus, \(T\) is transitive.
+  - Anti-symmetry
+    - Suppose:
+      - \((a,b)T(c,d)\) \(\rightarrow\)
+        - \(aRc\)
+        - \(bSd\)
+      - \((c,d)T(a,b)\) \(\rightarrow\)
+        - \(cRa\)
+        - \(dSb\)
+    - Since both \(R\) and \(S\) are partial it follows from \(aRc\) and \(cRa\)that \(c=a\) and from \(bSd\) and \(dSb\) that \(b=d\). As such, \((a,b) = (c,d)\)
+  - Completeness (Supposing \(R\) and \(S\) are also complete)
+    - Nope, we can have \((a,c) \in R\) and \((b,d) \in S\) an as such \((a,b)T(c,d)\), but also \((c,a) \notin R\) and \((d,b) \in S\), so that it is not the case that \((c,d)T(a,b)\).
+- 9
+  - Reflexivity:
+    Suppose \((a,b) \in A \times B\). Since \(R\) is reflexive it follows that \(aRa\). Since \(a = a\) it follows that \(bSb\).
+  - Transitivity:(I handwaved a little bit) Suppose \((a,b)L(c,d)\), from that it follows \(aRc\). Alos, suppose \((c,d)L(e,f)\). From that it follows \(cRe\). (Handwave here) If we let \(a = c = e\) we also have \(bSd\) and \(dSf\). Thus, \(bSf\). \(aRe\) is an obvious result due to the handwave, so \((a,b)L(e,f)\). which means that \(L\) is transitive after all
+  - Anti-symmetry: Suppose \( (a,b)L(c,d)\) and \((c,d)L(a,b)\). From that we can infer both \(aRc\) and \(cRa\). Since \(R\) is a partial order we know then that \(a= c\). This can be used to infer that \(bSd\) and \(dSb\). Since \(S\) is also a partial order we derive analogously that \(b = d\). Thus, \((a,b) = (c,d)\).
+- 10
+  - Suppose \( x \in A\) and \(y \in A\).
+  - \((\rightarrow)\) Now suppose \((x,y) \in R\) and \(a \in P_x\). Then \(aRx\). Since \(R\) is transitive it follows that \(aRy\). So \(a\in P_y\). Since \(a\) was arbitrary we have that \(P_x \subseteq P_y\).
+  - \((\leftarrow)\) Since \(R\) is reflexive we know that \(xRx\); so \(x\) itself is in \(P_x\). Now suppose \(P_x \subseteq P_y\). This means that \(x \in P_y\), leading to \(xRy\). Thus, if \(P_x \subseteq P_y\) it follows that \((x,y) \in R\).
+- 11
+  - No smallest, the minimals are the primes, it does have a lower bound = \(\{1\}\)
+- 12
+  - Could not do it. Must review Partial orders on families of sets.
 
 * Questions
 ** What are the laws of conjunction/disjunction? :fc:

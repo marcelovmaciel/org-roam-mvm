@@ -14,8 +14,11 @@ heterogeneous collective choice arenas. Hence, it is an aggregation of
 aggregations! Maybe a categorical approach might be used here to untangle this
 kind of thing. Maybe.
 
-This is related to the systemic approach to deliberative democracy. For an approach focusing on a single decisional arena see cite:chung19_formal_theor_democ_delib
+This is related to the systemic approach to deliberative democracy. For an
+approach focusing on a single decisional arena see
+cite:chung19_formal_theor_democ_delib
 
 * Further references
 - cite:sen1979informational
 - [[https://www.pdcnet.org/jphil/content/jphil_1985_0082_0004_0169_0184][Moral Information - Amartya Sen - The Journal of Philosophy (Philosophy Docum...]]
+- For another meta approach see cite:grofman1985metapreferences

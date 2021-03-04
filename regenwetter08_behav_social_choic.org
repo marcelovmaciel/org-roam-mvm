@@ -1,0 +1,13 @@
+#+TITLE: Behavioural social choice: a status report
+#+ROAM_KEY: cite:regenwetter08_behav_social_choic
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: regenwetter08_behav_social_choic
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/regenwetter08_behav_social_choic.pdf
+:AUTHOR: Regenwetter, M. et al.
+:JOURNAL: Philosophical Transactions of the Royal Society B: Biological Sciences
+:DATE:
+:YEAR: 2008
+:DOI:  http://dx.doi.org/10.1098/rstb.2008.0259
+:URL: https://doi.org/10.1098/rstb.2008.0259
+:END:
