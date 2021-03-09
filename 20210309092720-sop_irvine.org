@@ -1,0 +1,200 @@
+#+title: SOP irvine
+- tags :: [[file:20210308092711-dynamic_issue_salience_abm.org][Dynamic issue salience abm]], [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolsonaro and condorcet consystency]]
+
+
+* Elucidating my SOP
+#+begin_quote
+My primary substantive interest is collective decision-making. I am interested
+in how institutions, discourse, and rhetoric structure conflicting preferences
+and beliefs. For instance, the conservative wave of the past years, in which
+candidates that were not Condorcet-winners were elected, such as the current
+Brazilian president, upholds the topicality of the insights of Borda and
+Condorcet regarding the necessity of exploring more expressive voting methods.
+This is a case which justifies a counterfactual institutional analysis analogous
+to the ones performed by Marek Kaminski in his analysis of the role of the
+electoral law in the collapse of communism in Poland
+
+
+#+end_quote
+
+So, here I am interested in simulating how the election outcome would differ
+under different voting procedures. I was inspired by cite:tabarrok2001president
+and cite:kaminski1999communism, but afterward, I realized that
+cite:grofman04_if_you_like_alter_vote is also relevant. Later, after reading
+cite:kaminski1998revival, I started to wonder why the Worker's Party was unable
+to coalesce with other center-left parties?
+
+#+begin_quote
+as well as revisiting the
+normative foundations of the aforementioned insight by connecting it with the
+literature on political representation, which glosses over the loss of
+information of the aggregative mechanism, and with other normative principles
+such as the principle of affected interest and non-domination.
+
+#+end_quote
+
+I noticed that the literature on representation ignores
+(cite:wolkenstein2020multidimensional) that the political system is
+sociotechnical, the good old Plotts's equation, and as such, it translates the
+values/beliefs of citizens through the voting procedure (the tech part).
+Naturally, the "representation" is queried and processed through the procedure,
+and the "representativeness" is conditional on the informational properties of
+this procedure. I wonder what insights can be garnered by linking this normative
+debate with the literature on social choice and committees and elections, for
+instance: cite:monroe1995fully. Beyond representation, the principle of affected
+interest is a cornerstone of democratic theory (cite:dahl1989democracy), and a
+finer-grained analysis of the role of the procedure in representing "interests"
+also matters, as well as its role in non-domination. This is the normative
+background of the counterfactual analysis. The unoriginal insight is that a
+different voting procedure, say one Condorcet consistent, might be a barrier to
+extremist politicians, such as Bolsonaro, and this is something to be
+considered.
+
+#+begin_quote
+Moreover, the main criteria articulated by specialists to justify the
+maintenance of the plurality rule and its variants tend to be its simplicity,
+which they relate to trust in the political system. Therefore, the
+counterfactual analysis hinges upon the ensuing behavioral adaptation to the
+hypothetical change in the electoral law, that is, the change of vote
+distribution due to strategic voting, and how citizens evaluate the prospective
+rules themselves in terms of their transparency and reliability. Two strands of
+work from the computational social choice literature permit moving this topic to
+uncharted territory. On the one hand, there is the algorithmic characterization
+of the complexity of manipulating voting mechanisms. It is well known that more
+expressive mechanisms are in some sense even more manipulable, but the
+computational perspective counters this argument by demonstrating the
+algorithmic bounds of strategic manipulation. On the other hand, the
+explainability of voting methods is also being scrutinized with algorithmic
+lenses that move beyond informal assertions. Nevertheless, both lines of work
+are purely mathematical. Contrasting these computational results with the
+behavior of human subjects in experimental settings would contribute to putting
+at better footing the endeavor of counterfactual institutional analysis while
+contributing to the empirical analysis of collective choice situations
+#+end_quote
+
+So, to argue that a different voting procedure might be more desirable,
+according to some normative criteria, leads to some complications. I have focused
+on two: the simplicity of the aggregation mechanism and whether it is robust
+against strategic voting - or if the results would not differ much if we take
+into account an adaptive strategic response to the change in the procedure. Both
+were inspired by a minor literature review, the main source was
+cite:Laslier_2011, in which I have noticed both criteria coming up over and over
+as the ones used by specialists to justify the maintenance of plurality rule,
+and variants, as justifiable in large-scale single-winner elections.
+
+The simplicity criterion was something that had been bothering me since I could
+not find a rigorous definition of why a procedure A is simpler than a
+procedure B. cite:Goodin_2006 gave me the idea of splitting the voting procedure
+in two: the "querier" (ballot procedure) and the "processing mechanism" (what they
+call the aggregation procedure). The characterization of the simplicity of the
+processing mechanism seems to be well advanced by works in the computational
+social choice community (cite:procaccia11_comput_social_choic). My take here
+would be to link this literature with some empirical work on whether
+people can understand and "trust" (?), if given an "interpretation", such as
+the one proposed by
+[[http://procaccia.info/wp-content/uploads/2020/02/justification.pdf]], of what the procedure is doing with the votes. Regarding the simplicity of the "querier", I
+am yet to find a work developing some measure of that. Maybe this is
+something that I can investigate, say using some entropy measure and so on.
+
+About strategic voting, I have read cite:herzberg1988results, but think that
+works like cite:elkind20_cognit_hierar_votin_manip_k_approv_votin might be used
+to design new experiments with a proper "cognitive" model of strategic decision
+making in such situations.
+
+#+begin_quote
+From a more theoretical point of view, I am interested in unifying the
+informational basis perspective in social choice, founded by Amartya Sen and
+famously developed by Donald Saari, with the systemic turn in deliberative
+democratic theory, advocated by, among others, Simone Chambers. The focus of the
+former on the fine-grained analysis of the relationship between axiological
+attributes of social procedures, how they process information, and the impact of
+that on the parts vs the whole duality is neatly enriched by the "circulatory"
+view of information of the systemic turn. Along the same lines, this merging
+contributes to the latter's decoupling of the analysis of action situations and
+institutional mechanisms from agents' psychological attributes, such as
+converging ideal points or cognitive biases. Moreover, emergent institutional
+forms defended by cyber-activists and STEM scholars, such as virtual and liquid
+democracy, can be profitably scrutinized by a theoretical frame that emphasizes
+the linkages between agents, queried information, rules, and values in multiple
+levels. Given the growing relevance of algorithms in the reproduction of the
+social fabric, this is an unforeseen front of intervention for political
+scientists which I intend to explore.
+#+end_quote
+
+Well, this is the most far-fetched part. I am interested in  how social choice can contribute to *systemic perspectives* that ensue new
+evaluation conundrums. The systemic deliberative perspective
+(cite:mansbridge2012systemic) accepts labor division among decision
+arenas. This approach is interested in how the information processing and
+normative attributes of political procedures in different arenas counter-weight
+each other. The evaluation problem is that one ought to see how
+heterogeneous arenas might be better in some criteria, like inclusion, and worse
+in other epistemic function, for instance. How to compare arenas rigorously
+seems daunting, but the final objective is even harder: to give a
+holistic assessment of the deliberative "health" of a whole system. Which brings
+a /new/ assessment problem. Suppose there is a system A with arenas \(a_1, a_2,
+a_3\), and a system B with arenas \(b_1, b_2, b_3\). This systemic perspective must be able not only to characterize each of those arenas according to some criteria but also to say whether \(A\) is a "better" configuration than \(B\). So, a
+meta-aggregation problem. I am only considering the arenas in isolation, but
+feedbacks between them would also impact the assessment of the social state.
+Though this is clear in the systemic approach to deliberative democracy, this kind of assessment of networked arenas is an implicit problem incite:dahl1989democracy (when he talks about a "decisive stage") and
+cite:ostrom2009understanding polycentric approach. It bothers me, but this kind
+of problem is not something I think I would be able to tackle in the
+following years (or even if it makes sense what I am writing here).
+
+Like the parts vs the whole duality, there are other things, but let us leave it to another day!
+
+* Original Sop
+My primary substantive interest is collective decision-making. I am interested
+in how institutions, discourse, and rhetoric structure conflicting preferences
+and beliefs. For instance, the conservative wave of the past years, in which
+candidates that were not Condorcet-winners were elected, such as the current
+Brazilian president, upholds the topicality of the insights of Borda and
+Condorcet regarding the necessity of exploring more expressive voting methods.
+This is a case which justifies a counterfactual institutional analysis analogous
+to the ones performed by Marek Kaminski in his analysis of the role of the
+electoral law in the collapse of communism in Poland as well as revisiting the
+normative foundations of the aforementioned insight by connecting it with the
+literature on political representation, which glosses over the loss of
+information of the aggregative mechanism, and with other normative principles
+such as the principle of affected interest and non-domination.
+
+
+Moreover, the main criteria articulated by specialists to justify the
+maintenance of the plurality rule and its variants tend to be its simplicity,
+which they relate to trust in the political system. Therefore, the
+counterfactual analysis hinges upon the ensuing behavioral adaptation to the
+hypothetical change in the electoral law, that is, the change of vote
+distribution due to strategic voting; and how citizens evaluate the prospective
+rules themselves, in terms of their transparency and reliability. Two strands of
+work from the computational social choice literature permit moving this topic to
+uncharted territory. On the one hand, there is the algorithmic characterization
+of the complexity of manipulating voting mechanisms. It is well known that more
+expressive mechanisms are in some sense even more manipulable, but the
+computational perspective counters this argument by demonstrating the
+algorithmic bounds of strategic manipulation. On the other hand, the
+explainability of voting methods is also being scrutinized with algorithmic
+lenses that move beyond informal assertions. Nevertheless, both lines of work
+are purely mathematical. Contrasting these computational results with the
+behavior of human subjects in experimental settings would contribute to putting
+at better footing the endeavor of counterfactual institutional analysis, while
+contributing to the empirical analysis of collective choice situations, as
+distinctively pursued by UCI's scholars such as Bernard Grofman and Shawn
+Rosenberg.
+
+
+From a more theoretical point of view, I am interested in unifying the
+informational basis perspective in social choice, founded by Amartya Sen and
+famously developed by Donald Saari, with the systemic turn in deliberative
+democratic theory, advocated by, among others, Simone Chambers. The focus of the
+former on the fine-grained analysis of the relationship between axiological
+attributes of social procedures, how they process information, and the impact of
+that on the parts vs the whole duality is neatly enriched by the "circulatory"
+view of information of the systemic turn. Along the same lines, this merging
+contributes to the latter's decoupling of the analysis of action situations and
+institutional mechanisms from agents' psychological attributes, such as
+converging ideal points or cognitive biases. Moreover, emergent institutional
+forms defended by cyber-activists and STEM scholars, such as virtual and liquid
+democracy, can be profitably scrutinized by a theoretical frame that emphasizes
+the linkages between agents, queried information, rules, and values in multiple
+levels. Given the growing relevance of algorithms in the reproduction of the
+social fabric, this is an unforeseen front of intervention for political
+scientists which I intend to explore.

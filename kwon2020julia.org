@@ -28,6 +28,7 @@ Teach julia design patterns
 - Enterprise application: user interface \(\circ\) middle tier \(\circ\) database backend
   - data at motion (streams) \(\circ\) data at rest (database)
 - The explanation of namespaces is pretty good. It is basically a way of qualifying the meaning of words.
+*** Chapter 3 - Software quality objectives
 
 ** What are the main concepts of the text?
 *** Chapter 1
@@ -37,8 +38,8 @@ Teach julia design patterns
 - Software objectives
 *** Chapter 2 - Modules, Packages and Data Type Concepts
 - Data science application:  Data Engineering \(\rightarrow\) Model Development \(\rightarrow\) Model Deployment
+- ~PkgTemplate~ is an useful tool for standardized pkg setup
 -
-
 
 
 * Questions

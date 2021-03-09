@@ -1,5 +1,5 @@
 #+title: The tradegy of democratic centralism: war and democratic decoupling
-
+- tags :: [[file:20200812120916-group_consistency.org][Organizations and  consistency]]      [[file:20210223151354-rational_collectivities.org][Rational collectivities]]
 Democratic Centralism is an organizational theory which was created in a context
 of revolutionary activity. As such, it was successful in Russia and widely
 disseminated. From a social choice theoretic perspective it is interesting to
@@ -21,3 +21,7 @@ harmful that can be for the party.
 - cite:bolleyer2013new
 - cite:feld2014modeling
 - cite:kaminski06_gener_equil_model_multi_party_compet
+- cite:schwartz21_parties
+- cite:hebert18_polit_parties
+- cite:tullock1971paradox
+-

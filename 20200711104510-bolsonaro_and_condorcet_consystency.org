@@ -1,6 +1,10 @@
 #+title: Bolsonaro and condorcet consystency
 - tags ::  [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
 
+#+transclude: t
+[[file:20210309092720-sop_irvine.org::*Original Sop][Original Sop]]
+
+
 My presentation for Hamburg made this point implicitly. The principle of affected interested from cite:dahl1989democracy could be used in conjunction with both condorcet and borda normative views. The argument made by cite:coleman1986democracy of the role of signals in democracy can be another thread for a dynamical view.
 
 ** Further references

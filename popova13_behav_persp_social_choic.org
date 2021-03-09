@@ -19,7 +19,9 @@ Useful for [[file:20200711104510-bolsonaro_and_condorcet_consystency.org][Bolson
 * Struct questions
 
 ** What is the goal/ general argument of the text?
-To demonstrate that real world analysis of social choice ought to pay attention to the incompleteness of the data and how to deal with that involves models of data that lead to model-dependent results.
+To demonstrate that real world analysis of social choice ought to pay attention
+to the incompleteness of the data and how to deal with that involves models of
+data that lead to model-dependent results.
 ** What are the specific arguments of the text?
 - They differentiate a sampling approach, as instantiated in the Impartial
   Culture assumption and the Impartial Anonymous Culture assumption, and their

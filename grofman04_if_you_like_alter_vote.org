@@ -178,10 +178,9 @@ choice would be the best rule.
     clariﬁcation. Public Choice 51, 71–80.
   - Regenwetter, M., Grofman, B., 1998. Choosing subsets: a size-independent probabilistic model and the quest for a social welfare ordering. Social Choice and Welfare 15 (3), 423–443.
 * Insights
--
-   Condorcet Winner or Condorcet Loser is about every pairing. Cant we have a
-   concept of frequency? Like PT would lose to almost everybody, but could beat
-   some people. Bolsonaro on the other hand was only strong against PT. This kind
-   of measure matters.
+- Condorcet Winner or Condorcet Loser is about every pairing. Cant we have a
+  concept of frequency? Like PT would lose to almost everybody, but could beat
+  some people. Bolsonaro on the other hand was only strong against PT. This kind
+  of measure matters.
 - His discussion of strategic manipulation of av, coombs and plurality is mostly informal
 - coombs is even better than av if one wants moderate candidates. gotta have that in mind

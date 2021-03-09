@@ -666,7 +666,87 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
   - No smallest, the minimals are the primes, it does have a lower bound = \(\{1\}\)
 - 12
   - Could not do it. Must review Partial orders on families of sets.
+  - TO-PROVE
+- 13
+  - Goal: If R is partial on A so is \(R^{-1}\).
+  - Proof:
+    - Reflexivity: Suppose \(x \in A\). Then \(xRx\), but from that it can be
+      inferrend that \(xR^{-1}x\). So, \(R^{-1}\) is reflexive
+    - Transitivity: SUppose \(yR^{-1}x\) and \(zR^{-1}y\). So , \(xRy\) and
+      \(yRz\). Since \(R\) is transitive it also follows that \(xRz\), bu then
+      \(zR^{-1}x\). Summing up, from \(yR^{-1}x\) and \(zR^{-1}y\) we wind up
+      with \(zR^{-1}x\). So, \(R^{-1}\) is transitive.
+    - Anti-symmetry: Suppose \(xR^{-1}y\) and \(yR^{-1}x\). From that we get
+      that \(yRx\) and \(xRy\). However, we already know from the anti-symmetry
+      of \(R\) that if this is the case then \(x = y\). So, if \(xR^{-1}y\) and
+      \(yR^{-1}x\) we get that \(y = x\). Thus, \(R^{-1}\) is transitive.
+    - It is trivial to prove that if R is total so is its inverse
+- 14
+  - Goal: b is R-largest of B iff b is \(R^{-1}\)-smallest of B.
+    - b is R-largest of B =
+      \(\forall x \in B (xRb)\) =
+      \(\forall x \in B (bR^{-1}x)\) =
+      b is \(R^{-1}\)-smallest of \(B\).
+  - Goal: b is R-minimal of B iff b is \(R^{-1}\)-maximal of B.
+    - b is R-minimal of B =
+      \(\forall x \in B (xRb \to b = x)\) =
+      \(\forall x \in B (b R^{-1}x \to b = x )\) =
+      b is \(R^{-1}\)-maximal of \(B\).
+- 15
+  - An important given is that \(R_1 \subseteq R_2\)!
+  - Suppose b is \(R_1\)-smallest of B. Now let \(x \in B\). Then \((b,x) \in
+    R_1\). From \(R_1 \subseteq R_2\) , we get that \((b,x) \in R_2\). Since x
+    is arbitrary it follows that b is also \(R_2\)-smallest of \(B\)
 
+  - Suppose b is \(R_2\)-minimal of
+    \(B\). Let \(x \in B\). If
+    \((x,b) \in R_1\) then \((x,b)
+    \in R_2\). Since b is
+    \(R_2\)-minimal if follows that
+    \(b=x\). Thus, for any \(x \in
+    B\) if we let \((x,b) \in R_1\)
+    too we get, using the fact that
+    \(b\) is \(R_2\)-minimal, that
+    \(b = x\). This is the same as
+    saying that \(b\) is also
+    \(R_1\)-minimal. Thus, if \(b\)
+    is \(R_2\)-minimal of B it is
+    also \(R_1\)-minimal of B.
+
+- 16
+  - Goal: if \(b\) is R-largest of B
+    then it is also R-maximal of B
+    and is unique
+  - It follows neatly form Exercise
+    14 composed with Theorem 4.4.3.
+  - Suppose \(b\) is R-largest of B.
+    Then b is \(R^{-1}\)-smallest of
+    B (by exercise 14 ). By theorem
+    4.4.3 we can infer that \(b\) is
+    also \(R^{-1}\)-minimal of B and
+    that it is unique. To say that b
+    is \(R^{-1}\)-minimal amounts to
+    saying that it is R-maximal
+    (once again, exercise 14, part
+    b). Since b is unique its been
+    proved that if b is R-largest of
+    B then it is also maximal and
+    unique.
+- 17
+  - It is not true. Let \(D = \{ (x,y) \in \mathbb{Z}^+ \times \mathbb{Z}^+  \; | \; x \small{|}y \text{ and they are both odd }\}\) and let \(B = \{3,8,9\}\). 3 is the only D-minimal element, but it is not the smallest. Actually, there is no D-smallest in \(B\).
+- 18
+  - Suppose \(a \in A\). Now suppose
+    a is an upper bound of \(B_1\).
+    Now let \(y \in B_2\). Then
+    there is a \(z \in B_1\) s.t.
+    \(yRz\). Since \(a\) is an upper
+    bound for \(B_1\) i t neatly
+    follows that \(zRa\). By the
+    transitivity of \(R\) it follows
+    that \(yRa\). Since \(y\) was
+    arbitrary, it follows that \(a\)
+    is an upper bound for \(B_2\)
+    too.
 * Questions
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:
@@ -701,6 +781,3 @@ By using *truth sets*
 [[attachment:_20210104_192750screenshot.png]]
 ]
 
-
-
-Essa noite tive um sonho q pra mim foi bem engracado. Eu tava numa festa do ensino medio. Tinha nocao q tava bem bebado. Ai na primeira parte eu tava num telhado, sentado na beira, conversando com chico e outra pessoa. Ai eu descia pq tava com vertigem. Desci flutuando (????). Ai eu tentava conversar embaixo, mas a voz de chico tava bem baixa. Quando olho pra cima ele tinha encolhido e tava falando de dentro de um sapato (????????). Ai eu desistia. Depois em outra parte eu ia perguntar a Isabella se eu podia entrar na justica pra n ter q terminar o ensino medio pq afinal eu ja tinha diploma de graduacao e mestrado KKKKKK E ela falava q achava q sim kkkkk Sendo q Vinicius tava junto ai ele falava : "Porra, ote fé, vou entrar tbm " KKKKKKK ai eu me tocava q era chapacao minha e vinicius chapado entrou na noia, ai eu tinha uma crise de riso gigante no sonho. Ai acordei.

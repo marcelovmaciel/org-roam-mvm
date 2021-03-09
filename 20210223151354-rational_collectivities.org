@@ -19,3 +19,5 @@
 
 * Further References
 - cite:regenwetter03_gener_concep_value_restr_prefer_major
+- cite:meon06_major_votin_with_stoch_prefer
+-

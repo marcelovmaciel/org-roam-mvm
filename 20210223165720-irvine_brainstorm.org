@@ -1,0 +1,56 @@
+#+TITLE: Irvine Brainstorm
+
+* ideas
+- collective decision making
+- the information basis and the political subsystem as an information and
+  discursive subsystem
+- hamburg letter
+- formal politologists contribution to interpretive and fair machine learning in
+  the algorithmic society
+- a neopragmatist appropria ntion of the contributions of  causal empiricism
+  - [[file:20200825143750-young_habermas_project.org][Young Habermas project]]
+  - [[file:orr2018entanglement.org][cite: The entanglement of methods of policy inquiry with democratic possibilities]]
+- using pearl model to connect eoc with coe
+- my idea about[[file:20200711104510-bolsonaro_and_condorcet_consystency.org][ Bolsonaro and condorcet consystency]]
+  - the experimental extensions:
+    - argumento teorico em representacao justificando mecanismo de voto mais
+      expressivo em eleicoes para executivo + trabalho equivalente a esses
+      artigos ai investigando se mudaria o resultado (intuicao minha e de bruno
+      reis é que sim, ciro ganharia) + estudo experimental para ver a
+      estabilidade de sistemas alternativos ao comportamento estrategico +
+      talvez um estudo experimental sobre complexidade de sistema de votos (the
+      study about simplicity using proccacia paper on explainability of social
+      choice )
+
+
+* people
+- kaminski
+  - cite:kaminski04_social_choic_infor
+  - cite:kaminski1999communism
+  - cite:kaminski15_schel_games_kuran_domin_elect_coalit
+  - cite:kaminski1998revival
+
+
+# - carole uhlaner
+- shawn rosenberg (?)
+  - cite:rosenberg2007rethinking
+  - cite:rosenberg05_empir_study_delib_democ
+
+- simone chambers
+  - cite:dryzek16_forum_system_polit
+  - cite:warren17_probl_based_approac_to_democ_theor
+    - *it is interesting how the three things warren mention are basically* the same mentioned by cite:list2011logical
+
+  - cite:mansbridge2012systemic
+
+  - cite:owen2015survey
+
+  - cite:chambers18_human_life_is_group_life
+
+  - https://youtu.be/NJulxKG2dmU?t=2578 its a change of *gaze* it is not inventing a new democracy. Change the gaze from election and voting, change to how people are getting their opinions, the information that is circulating in society , the structural possibilities for that information circulation
+    - Coupling the *circulatory model* with the Sen approach unifying an informational perspective;
+  - cite:chambers17_balan_epist_qualit_equal_partic
+
+  - cite:owen15_survey_artic
+  - https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12123
+- keith topper

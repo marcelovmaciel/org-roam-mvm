@@ -1,6 +1,6 @@
 #+title: Organizations and  consistency
-- [[file:20200810155453-neocybernetic_political_theory.org][Neocybernetic political theory]], [[file:20200520172702-social_simulation_beyond_coleman_s_boat.org][Social Simulation Beyond Coleman's boat]], [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation : behavioral spillover and institutional complexity]]
-
+- [[file:20200810155453-neocybernetic_political_theory.org][Neocybernetic political theory]], [[file:20200520172702-social_simulation_beyond_coleman_s_boat.org][Social Simulation Beyond Coleman's boat]], [[file:20200722202514-renewing_plots_equation_behavioral_spillover_and_institutional_complexity.org][project:Renewing plots equation : behavioral spillover and institutional complexity, ]]
+- [[file:20210223151354-rational_collectivities.org][Rational collectivities]]
 
 When can we use the rct models? Ross argues for a view of agents akin to
 machines. Amadae even has a paper on that. The thing is: how can we say
