@@ -1,0 +1,140 @@
+#+title: Dynamic issue salience abm
+- tags :: [[file:20200531170641-is_plurality_rule_justified.org][Is plurality rule justifiable?]]
+
+A fundamental characteristic of democracy is the state
+responsiveness to the preferences, beliefs and attitudes of citizens
+cite:dahl1989democracy. In modern democracies, this occurs
+through mechanisms of connection between constituents and politicians
+cite:schumpeter2013capitalism,habermas1994three . Democracies
+are, thus, based on the nexus between public opinion and representative
+government. Elections, the competitive struggle for citizens' votes,
+are, arguably, the main medium by which this connection is fashioned
+cite:riker1982liberalism
+
+
+Implicit in this nexus is the possibility that parties' vote share
+change between elections as a consequence of how citizens perceive the
+course of government. Ergo, elections are not only an aggregative
+mechanism, but also define a dynamic feedback between the two poles of
+the democratic nexus, as citizens update their preferences parties and
+politicians, consequently, adapt their platforms.
+
+
+The most prominent line of research investigating this feedback is the
+spatial theory of voting and party competition
+cite:black1998theory cite:downs1957economic . The fundamental idea of
+this family of models is that both the alternatives and preferences of
+political agents are associated with (geometric) spaces, in which the
+relation of similarity/difference is translated into a
+proximity/distance relation cite:humphreys2010spatial. In this
+setting, electoral competition can be analyzed as a positioning
+competition in "policy spaces", as citizens are presumed to vote on the
+party less distant to their preferred policies.
+
+
+The original convergence predictions spurred a plethora of modifications and
+extensions to improve the theory's explanatory and predictive power
+cite:grofman2004downs. A non-exhaustive list of such extensions may include
+probabilistic voting, uncertainty about voters preferences, behavioral factors,
+valence, more dimensions, and more parties
+cite:adams1999multiparty,glazer1989model,adams2005unified,schofield2005valence,schofield1998nash
+. The development of computational methods, particularly agent-based modeling,
+also allowed researchers to go beyond static equilibrium predictions and study
+electoral competition as a dynamical system, with party entry/exit, adaptive
+parties, endogenous behavioral rules selection, voter abstention, among other
+new model elements cite:plumper2008multi,laver2011party,de1999adaptive .
+
+
+Although all those variants exist, most works tend to assume voters
+attributes as exogenous and static. Even computational works that pay
+heed to the demand side of the electoral competition only do so on the
+initial condition of the simulations cite:laver2011party .
+cite:kollman1998political  is an instance of work that is primarily
+interested in how distributions of ideal points and decision weights
+affect the electoral competition, but only vary those distributions
+between different runs. /What if voters also change throughout iterated
+elections? What are the effects of shifting voters ideal points, issue
+salience, and different losses and distance functions on political
+variables such as effective number of parties, party longevity, party
+eccentricity and representativeness of the party configurations?/ Those
+are the questions that I aim at investigating, through a set of
+interrelated computational models.
+
+
+If one takes this dynamical view of the demand side of the electoral
+competition many venues of research are opened to be explored.
+cite:bolleyer2013new  argues that voters volatility is useful for
+new parties in the short run, as they capitalize on both the salience of
+an issue and the relative difficulty of old parties to move swiftly on
+the policy space, but on the long run those fluctuating voters can't be
+expected to repeat their vote decision, which represents a challenge to
+the electoral sustainability of new parties. The relationship between
+parties longevity and voters volatility can be naturally investigated in
+this dynamic setting, and, therefore, is in the scope of this project.
+
+
+Another phenomenon of interest is issue dynamics
+cite:downs1996ecology,belanger2008issue. There are at least four
+reasons for its significance. First, empirical research has shown
+support for a decreasing ideological differentiation, in the left-right
+dimension, between parties
+cite:adams2012subconstituency,hellwig2014structure . Second,
+empirical research on the repositioning of parties in the left-right
+dimension also shows support for a behavior close to a random-walk
+cite:dalton2015random . Third, theoretical research has proven
+that the location game on more than one dimension may give incentives to
+differentiation on some axis of competition
+cite:irmen1998competition , and empirical research points to issue
+emphasis distinctions among parties cite:conti2018party . Fourth,
+a series of articles have demonstrated empirically that representation
+gaps may occur if voters give different weights to the left-right x
+liberal-conservative dimensions and parties cluster on an
+one-dimensional axis (liberal-left x authoritarian-right)
+cite:kurella2017issue,hillen2019consequences,hall2019representation.
+This means that not only the salience of issues matter, but also how
+parties may use them as strategic resources and how representation gaps
+may emerge and be sustained  cite:kurella2017blind,de2014issue.
+
+
+All in all, a tentative simulation design would be the following: the
+main independent variables are the distributions of ideal points, the
+distributions of weights, the kind of loss function (linear, quadratic
+or gaussian) and the $p$ parameter of the Minkowski distance (in a range
+from 1 to 2). Regarding the evolution of ideal points and saliences at
+least three scenarios can be tested: noise in the population level;
+different changes conditional on the kind of agent - such as a
+uniform-centrist agent versus a consistent-extremist agent in the
+typology of cite:kollman1998political  - and grounded on empirical
+research on voters' behavior and psychology; and finally strategic issue
+emphasis by parties. How to properly do so ought to be investigated at
+the first part of the development of the PHD project. The same can be
+said about the system measures, particularly how to ensure measures that
+are meaningful across different parametrizations, and other elements
+such as electoral quotas. Since the focus is on the voters side, it is
+intended to restrict the parties behavior to few decision rules as a way
+of lowering the complexity of the endeavor
+cite:de2005computational. The baseline decision rule would be,
+provisionally, the explorer rule, which is the one: with greater
+empirical adequacy in the set of rules tested by
+cite:laver2011party , is typical in the literature of computational
+models of political economy, and is also consistent with the empirical
+literature on parties electoral behavior, since an observed random walk
+behavior may actually be due to the adoption of an adaptive strategy in
+an exploitation-exploration reinforcement learning problem
+cite:shalizi2006methods ,cite:dalton2015random . The envisaged output
+analysis combines quasi-monte carlo methods for parameter sweep design
+matrices, such as sobol sequences; global sensitivity analysis, for
+instance saltelli's method; and markov chain techniques, such as the
+$\hat{r}$ statistic, to study convergence properties of the system
+cite:saltelli2008global,gelman2011inference,izquierdo2009techniques.
+
+The leading research goal is to craft a family of models that represent
+the flux of both sides of the democratic nexus and to understand the
+implications of such dynamics, strengthening the spatial theoretical
+tradition and inspiring further empirical research. A secondary goal is
+to develop open-source software tools for reuse and collaboration in the
+computational political science community.
+
+
+* Further references
+cite:selck06_effec_issue_salien_polit_decis_makin

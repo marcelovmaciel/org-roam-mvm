@@ -712,7 +712,6 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
     \(R_1\)-minimal. Thus, if \(b\)
     is \(R_2\)-minimal of B it is
     also \(R_1\)-minimal of B.
-
 - 16
   - Goal: if \(b\) is R-largest of B
     then it is also R-maximal of B
@@ -735,18 +734,50 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
 - 17
   - It is not true. Let \(D = \{ (x,y) \in \mathbb{Z}^+ \times \mathbb{Z}^+  \; | \; x \small{|}y \text{ and they are both odd }\}\) and let \(B = \{3,8,9\}\). 3 is the only D-minimal element, but it is not the smallest. Actually, there is no D-smallest in \(B\).
 - 18
-  - Suppose \(a \in A\). Now suppose
-    a is an upper bound of \(B_1\).
-    Now let \(y \in B_2\). Then
-    there is a \(z \in B_1\) s.t.
-    \(yRz\). Since \(a\) is an upper
-    bound for \(B_1\) i t neatly
-    follows that \(zRa\). By the
-    transitivity of \(R\) it follows
-    that \(yRa\). Since \(y\) was
-    arbitrary, it follows that \(a\)
-    is an upper bound for \(B_2\)
-    too.
+  a. Suppose \(a \in A\). Now suppose
+     a is an upper bound of \(B_1\).
+     Now let \(y \in B_2\). Then
+     there is a \(z \in B_1\) s.t.
+     \(yRz\). Since \(a\) is an upper
+     bound for \(B_1\) i t neatly
+     follows that \(zRa\). By the
+     transitivity of \(R\) it follows
+     that \(yRa\). Since \(y\) was
+     arbitrary, it follows that \(a\)
+     is an upper bound for \(B_2\)
+     too.
+  b. We will prove the contrapositive. There are two cases. Either we suppose \(b_1 \in B_1\) is a R-maximal element or we do so for \(B_2\). If \(b_1\) is a maximal element by the definition of \(B_1\) we learn that there is an \(c_2 \in B_2\) s.t. \(b_1Rc_2\). However, since \(b_1\) is a maximal element we conclude that \(b_1 = c_2\), and as such \(B_1 \cap B_2 \neq \emptyset\). The same follows for the other case. By the contrapositive, if the sets are disjoint neither of them can have a maximal element.
+- 19
+  - Completeness is defined for \(A\). So when he says that \(x \in B\) and argues about completeness he is missing the possibility that \(x \in A \setminus B\). This nullifies the whole proof. Besides that as usual his cases are not exhaustive.
+- 20
+  a. Suppose \(b\) is \(R\)-smallest of \(B\). Let \(L\) be the set of R-lower bounds of B and \(l\) be an element of it. Notice that since \(b\) is an element of \(B\) it follows from the definition of a lower bound that \(lRb\). Since \(l\) was arbitrary this amounts to saying that \(b\) is the largest element of the set of lower bounds, which is the definition of g.l.b. So, if b is R-smallest of B it must be the g.l.b of \(B\).
+
+  b. The proof is analogous to a.
+- 21
+  a. Goal: \(u \in U  \land uRy \to y \in U\)
+     - Proof: Suppose \(u \in U\) and \(uRy\). If we let \(b \in B\) then we have that \(bRu\), by the definition of an upper bound. Since \(R\) is a partial order, hence transitive, this means that from \(uRy\) and \(bRu\) we can infer that \(bRy\). Since \(b\) was arbitrary this means that \(y\) is also an upper bound. So, \(U\) is closed upward
+
+  b. Goal: every element of B is a lower bound for U
+     - Proof: Let \(b \in B\) and \(u \in U\). By the definition of an upper bound we know that \(bRu\). But u is any element of \(U\) so \(b\) is a lower bound for U. The thing is, \(b\) is also arbitrary, so we wind up concluding that every element of B is also a lower bound for U.
+
+  c. Could not do it. Tried a lot.
+- 22: Failed again. My intuition tells me that \(U_1 \subseteq U_2\), hence it follows naturally that \(x_1Rx_2\), as \(x_2\) is the upper bound of \(B_1\) too and \(x_1\) is smaller than all other upper bounds of \(B_1\)
+- 23
+  - \(\cup \mathp{F}\): Let start proving that \(\cup \mathp{F}\) is an upper
+    bound. Suppose we have a set \(X\) s.t. \(X \not \subseteq \cup \mathp{F}\)
+    . This means that \(X\) has elements that \(\cup\mathp{F}\) does not. Well,
+    this means that \(X\) is not an element of \(F\), because if it were those
+    elements would be also elements of \(\cup F\). By the contrapositive, if \(X
+    \in F\) then \(X \subseteq \cup F\). Thus, \(\cup F\) is an upper bound of
+    \(F\), in the subset partial order relation. Now let us prove that it is the
+    least upper bound of \(F\). This means that it is the least element of the
+    set \(\mathbb{U}\) of upper bounds of F. Now, suppose we have an upper bound
+    \(U \in \mathbb{U}\) such that \(\cup F \not \subseteq U\). This means that
+    there is an element of \(\cup F\) that is not contained by \(U\), but then
+    \(U\) cannot possibly be an upper bound of F. We have arrived at a
+    contradiction. So, it must be the case that \(\cup F \subseteq U\) for any
+    upper bound of \(F\). Thus, \(\cup F\) is the least upper bound of \(F\).
+  - \(\cap F\) is pretty similar
 * Questions
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:

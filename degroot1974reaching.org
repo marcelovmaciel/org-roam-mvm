@@ -1,0 +1,64 @@
+#+TITLE: cite:Reaching a consensus
+#+ROAM_KEY: cite:degroot1974reaching
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: degroot1974reaching
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/degroot1974reaching.pdf
+:AUTHOR: DeGroot, M. H.
+:JOURNAL: Journal of the American Statistical Association
+:DATE:
+:YEAR: 1974
+:DOI:
+:URL:
+:END:
+
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+To write a paper with Grofman. Hopefully I'll never touch an OD paper
+afterwards. The closest idea that relates to that is [[file:20210308092711-dynamic_issue_salience_abm.org][Dynamic issue salience abm]]. Obviously, there is a connection with my own paper on od: cite:maciel20_ideol_motiv_biases_multip_issues_opinion_model
+
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+To present a model of consensual dynamics.
+** What are the specific arguments of the text? :ATTACH:
+:PROPERTIES:
+:ID:       8b4e3558-fcbf-4189-ba74-384db26e4fbd
+:END:
+- Notice that he mentions two versions of the model:
+  - Probability distribution
+  - Point estimate of a parameter
+- Agents: \(i = 1, \ldots , k\)
+- \(F_i\) subjective probability distribution for some \(\theta \in A \subseteq \Omega\) s.t. \(\OMEGA\) is the parameter space
+- If \(\sum_{i=1}^k p_i = 1\) then  \(\sum_{i=1}^k p_i F_i(A)\)  is the probability distribution of any measurable set \(A\), also known as the overall opinion of the group, or as the *opinion pool*
+- What is the posterior opinion of \(i\) after interacting with \(j = 1\) ?
+  \(F_{i1} =\sum_{j=1}^k p_{ij} F_i(A)  \)
+- \(\mathb{P}_{k,k} = p_{i j}(i=1, \cdots, k ; j=1, \cdots, k) \), notice it is a stochastic matrix, also:
+  \(F^{\prime}=\left(F_{1}, \cdots, F_{k}\right) \)  and \( \mathbf{F}^{(1) \prime}=\left(F_{11}, \cdots, F_{k 1}\right)\)
+  then \(\mathbf{F^{(1)} = \mathbf{P}\mathbf{F}\)
+- If everybody is connected, and everybody sees others have revised their opinions, them they ought to review the opinions again! So:
+ \(F_{i 2}=\sum_{j=1}^{k} p_{i j} F_{j 1}\)
+- Notice that if we generalize that well get:
+  - \(\mathbf{F^{(n)} = \mathbf{P}\mathbf{F}^{(n-1)}\)
+  - And the process stops when we get:
+    \(\mathbf{F^{(n+1)} \approxeq \mathbf{F}^{n}\)
+- Since it is a stochastic matrix  it can be regarded as a one-step transition probability of a Markov Chain.
+- Results using markov chain:
+  - If the states of the chain form *at least* two disjoint closed sets of communicating states
+  - or
+  - if the communicating states in a single closed set are periodic
+  - then
+  - a consensus is not reached
+- The examples are paramount!!!
+- One interesting thing is that the changing weights is taken into account. I have not thought about this much, gotta see my own paper:
+  [[attachment:_20210311_204702screenshot.png]]
+
+** What are the main concepts of the text?
+- Opinion pool
+
+* Further references
+- https://github.com/antigones/streamlit-degroot
+- [[https://1littleendian.medium.com/a-dashboard-to-visualize-degroot-learning-on-networks-with-python-and-streamlit-6aa1192746cb][A dashboard to visualize DeGroot learning on networks with Python and Streaml...]]
+- [[https://faculty.washington.edu/conormw/Teaching/Files/Models/2014/Lectures/5_Models_Lecture.pdf]]
