@@ -812,10 +812,34 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
 3.
    a)
       - Goal: show that if a relation is asymmetric then it is also anti-symmetric
-      - Proof:
-        If a relation is asymmetric then its anti-symmetry is vacuously true, since the antecedent of the definition is never true.
-   b) Suppose \(R\) is a strict partial order. Now suppose \(xRy\). Finally, lets see if we can also suppose \(yRx\). Notice that since \(R\) is transitive this leads to \(xRx\), but this contradicts the irreflexive property of \(R\). Thus, if R is a strict partial order and we suppose \(xRy\) we cannot also suppose that \(yRx\). Since x and y are arbitrary this amounts to saying that R is asymmetric. \(\blacksquare\)
+      - Proof: If a relation is asymmetric then its anti-symmetry is vacuously
+        true, since the antecedent of the definition is never true.
+   b) Suppose \(R\) is a strict partial order. Now suppose \(xRy\). Finally,
+      lets see if we can also suppose \(yRx\). Notice that since \(R\) is
+      transitive this leads to \(xRx\), but this contradicts the irreflexive
+      property of \(R\). Thus, if R is a strict partial order and we suppose
+      \(xRy\) we cannot also suppose that \(yRx\). Since x and y are arbitrary
+      this amounts to saying that R is asymmetric. \(\blacksquare\)
 4.
+   a. We already know that \(S\) is reflexive. So lets prove that it is
+      transitive. If we let \(S = R \cup i_A\) it is obvious that if we suppose
+      \(xSy\) and \(ySz\) we will always wind up with \(xSz\) so \(S\) is
+      transitive. This is not exactly a proof isn't it? So let us dwell on the
+      boringness of the actual cases of the aforementioned disjunction. There
+      are four of them.
+      - Case 1: \((x,y) \in R \text{ and } (y,z) \in i_A \)
+        - If \((y,z) \in i_A\) then \(y = z\), then \((x,z) \in R\) then \((x,z) \in S\)
+      - Case 2:  \((x,y) \in R \text{ and } (y,z) \in  R\)
+        - Since \( R\) is transitive \((x,z) \in R\) and as such \((x,z) \in S\)
+      - Case 3:  \((x,y) \in i_A \text{ and } (y,z) \in R \)
+        - If \((x,y) \in i_A\) then \( x = y \) , then \((x,z) \in R\) , then \((x,z) \in S\)
+      - Case 4:  \((x,y) \in i_A \text{ and } (y,z) \in i_A \)
+        + \(y = x = z \) so \((x,z) \in i_A\) so \((x,z) \in S\)
+      Now to anti-symmetry. From 3.b we know that \(R\) is asymmetric and, hence, anti-symmetric. Now, since \(R\) is asymmetric the only way we can suppose \(xSy\) and \(ySx\) is if they do not come from \(R\), but rather from \(i_A\), but then \(y = x \). Thus, \(S\) is anti-symmetric.
+   b. Suppose \( x \text{ and } y  \in A\). Since \(R\) is a strict total order it can be inferred that either \(xRy\) or \(yRx\) or \(y = x\). If \(xRy\) we have \(xSy\) , since \(R \subseteq S\) . The same follows for \(yRx\). If \(y= x\) we cannot say any pair of them is an element of \(R\) , since it is irreflexive, but we are not obliged to so. Actually if they are equal we can say that \((x,y) = (y,x) = (x,x) = (y,y)  \in i_A\).Since \(i_A \subseteq S\) any of these pairs are also elements of \(S\). thus, \(S\) is a total order.
+5.
+   a. From the definition of \(S \subseteq R\) by definition. It is also irreflexive by definition, so \( S \in \{T \subseteq A \times A \mid T \subseteq R \text{ and } T \text{ is irreflexive} \}\) . Now let \(T\) be an irreflexive set s.t. \(T \subseteq R\)  If we let \((x,y) \in T\) we know that \(x \neq y\) and as such we get both that \((x,y) \in R\) and \((x,y) \not \in i_A\). That is, \((x,) \in S\). Since they were arbitarry elements of \(T\) we have that \(T \subseteq S\). Since \(T\) itself is arbitrary we conclude that \(S\) is the largest element of the family.
+   b. We already know that \(S\) is irreflexive, so we are left with the task of proving that it is also transitive, if we suppose that \(R \) is a partial order. Suppose \(xSy\) and \(ySz\). From the definition of S we can infer that \(xRy\), \(x \neq y\), \(yRz\) and \(y\neq z\). From the fact R is a partial order we can infer that \(xRz\). The missing piece now is to show that \((x,z) \not \in i_A\). contradiction. Suppose \( x = z \). If we do so we are lead by the anti-simmetry of \(R\) to conclude that given that  \(y = z = x\) . This contradicts our assumption that \(xSy\) and \(ySz\). Thus, it must be the case that \(x \neq z\). Thus, \((x,z) \not \in i_A\). Since the elements were arbitrary we can conclude that \(S\) is transitive.
 
 
 * Questions

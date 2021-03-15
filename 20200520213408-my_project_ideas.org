@@ -4,35 +4,8 @@
 
 Here are fleeting notes that ought to be better developed.
 
-
-
-
-* Social choice results as artifacts
-- source :: cite:sep-voting-methods
-- tags :: [[file:20200711112400-on_the_conditions_of_manipulability_of_voting_methods.org][conditions of manipulability]]
-  Pacuit makes the same question as I did years ago:
-  #+begin_quote
-  The main question is whether the voting paradoxes are simply features of the
-  formal framework used to represent an election scenario or formalizations of
-  real-life phenomena. This raises a number of subtle issues about the scope of
-  mathematical modeling in the social sciences,
-  #+end_quote
-
-  This is directly related to the probability of any of the paradoxes
-  (behavioral social choice) and to showing that they indeed occurred in an
-  empirical setting (riker vs makie).
-
-  *My notes, particularly from Nurmi, are relevant here*
-
-
-* inductive party competition
-use dedeo ?
-
-
-* Tomasello -> shared and collective intentionality vs stakes
-- One important concept is the one of *intentionality*
-- shared and collective intentionality are also something that should be in my nuts and bolts
-
+* Social choice and classifying
+Use saari theory to show why paired comparisons in ai are bad. Hypothesis is that they lead to poorer accuracy purely due to the loss of information. This matters for batch vs whole dataset algorithm s
 
 * On the relationship between intentionality and teleology
 - Connect rationality, intentionality and teleology https://arxiv.org/pdf/1704.02230.pdf#page30
