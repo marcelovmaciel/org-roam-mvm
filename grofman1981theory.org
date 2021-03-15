@@ -13,8 +13,8 @@
 :END:
 
 * Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
-Black is arguably my main intellectual predecessor. See cite:mclean1995duncan and cite:black1998theory
-
+Black is arguably my main intellectual predecessor. See cite:mclean1995duncan and cite:black1998theory. Grofman is one of his main successors
+cite:grofman2004reflections and cite:regenwetter08_behav_social_choic
 * Struct questions
 
 ** What is the goal/ general argument of the text?

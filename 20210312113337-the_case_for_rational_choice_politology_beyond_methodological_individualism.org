@@ -1,0 +1,17 @@
+#+title: The Case for Rational Choice Politology beyond Methodological individualism
+- tags ::[[file:20210223151354-rational_collectivities.org][Rational collectivities]]  [[file:20200825143551-scale_and_rationality.org][Scale and rationality]]
+
+   - Rational choice = relation, function, maximization (neumann)
+   - Wont bother to discuss self-interest, though can mention
+   - Why? Allocation of limited resource (opportunity cost for research),
+     information, supervenience, complexification of social interaction = sem
+     tempo irmao to go all the way down
+   - Emergent brittlenes = the possibility of breakdown (such as prisoner
+     dilemma, paradoxes, free riding) is the main contribution of the
+     individualist variant and can not be ignored. But leads to interesting
+     questions about levels, instead of dogmatism
+   - Agents beyond individuals : Groups/collectivities/organizations, animals,
+     robots;
+   - Politology beyond government: theoretical framework allows rekindling the
+     who gets what how of laswell (see cite:grofman20203) in a sociotechnical
+     and non-anthropoteitic perspective

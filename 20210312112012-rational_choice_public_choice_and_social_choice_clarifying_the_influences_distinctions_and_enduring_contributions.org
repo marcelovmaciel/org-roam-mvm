@@ -1,0 +1,9 @@
+#+title: Rational choice, public choice and social choice: clarifying the influences, distinctions and enduring contributions
+- cite:grofman2004reflections, cite:mclean14_stran_histor_social_choic_contr
+
+
+This is basically an educative paper idea. Here I discuss the origins of social
+choice, public choice, and rct. Show the tensions between public choice and
+social choice, how rational choice is not a synonym to public choice. Discuss
+the influences of the three schools. Here I would need to discuss methodological
+individualism and self-interest. Definitely.

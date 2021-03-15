@@ -1,0 +1,69 @@
+#+TITLE: The truth about behavioral change
+#+ROAM_KEY: cite:centola2018truth
+- tags :: cite:grofman20203
+* TODO Notes
+:PROPERTIES:
+:Custom_ID: centola2018truth
+:NOTER_DOCUMENT: /home/mvmaciel/Drive/Org/pdfs/centola2018truth.pdf
+:AUTHOR: Centola, D. & Lord, T.
+:JOURNAL:
+:DATE:
+:YEAR: 2018
+:DOI:
+:URL:
+:END:
+
+* Why am I reading this/ Where this might be useful/Which project or idea that I already have will benefit from this and how?
+Because Grofman has sent me. It might be useful for my simulation with him.
+Beyond the academic value, it is a practically interesting text. As my project
+involves a great deal of brokerage between the mathematical politology and
+computer science, it brings tons of interesting ideas how can I devise
+networking strategies to succeed professionally.
+
+
+* Struct questions
+
+** What is the goal/ general argument of the text?
+That wide bridges are needed for behavioral change, because they provide
+opportunities for multiple reinforcing feedbacks between the parts, and multiple
+exposure is necessary for behavioral change- a type of *complex contagion*.
+** What are the specific arguments of the text?
+- "Complex contagions, such as the adoption of new behaviors, require multiple
+  sources of exposure."
+
+- Strong ties, hence, are needed for complex contagion
+
+- Briges may be gauged by the lenght ("distance spanned by the bridge") or the
+  width ("number of ties they contain")
+- The notion that weak ties matter for diffusion may lead to overinvestiment on
+  weak ties and neglecting the ties within the group (strong ties).
+#+begin_quote
+. Efforts to create more-efficient pathways to accelerate information flow
+between weak, distant ties can inadvertently erode the social reinforcement that
+is necessary to maintain behavioral influence
+#+end_quote
+- Individual brokers who bridge structural holes have enormous strategic benefits!
+  - Useful for information diffusion, not as much for behavioral change
+  - Brokers may be untrustworthy
+  - His ideas may not be useful
+  - The bridge is too fragile since it depends on a single person
+
+
+** What are the main concepts of the text?
+- reinforcing ties
+- wide bridges
+- complex contagion
+- sources of reinforcement:
+  - strategic complementarity
+  - credibility
+  - legitimacy
+  - emotional contagion
+- width vs length of a bridge
+- structural hole
+  #+begin_quote
+Burt defines a structural hole as a gap between two diverse social clusters that
+prevents access to nonredundant information.
+  #+end_quote
+* Insights
+I could not think of any academic insight, but it seems particularly interesting
+to think about professional strategies.

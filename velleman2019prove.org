@@ -1,4 +1,4 @@
-#+TITLE: How to prove it: a structured approach
+#+TITLE: cite: How to prove it: a structured approach
 
 #+ROAM_KEY: cite:velleman2019prove
 * TODO Notes
@@ -164,10 +164,24 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
 - It important to notice that even though a set might have an upper bound it
   might *not* have a least upper bound. For that, \(U\) would need to have a
   smallest element, and not all relations and sets will be amenable to that.
+- An important notion is that of *closure*. It is the smallest set  \(L\) of the family of sets that contains another set \(M\) while having an additional property (such as reflexivity, transitivity and so on.  ) :
+  - \(\mathcal{F}=\{T \subseteq \mathbb{R} \times \mathbb{R} \mid M \subseteq T \text { and } T \text { satisfies some property }\}\)
+- So, to prove that a relation \(S\) is a closure of another \(R\) we have to prove:
+  - That \(R \subseteq S\)
+  - That \(S\) actually has the property
+  - That S is the smallest element of the family that has that property and contain \(R\) . That is:
+    \(\text { For every relation } T \subseteq A \times A, \text { if } R \subseteq T \text { and } T \text { has the property, then } S \subseteq T \text { . }\)
+- So, this notion of closure naturally leads to the notion of *reflexive closure*, *transitive closure* and *symmetric closure*
+
+- Examples of reflexive closures: \(<\) and \(\leq\) ; \(\subset\) and \(\subseteq\)
+- Now we get into the central notions of *strict partial order* and *strict total order*. The strict partial order is a relation that is *irreflexive* and transitive. Notice that the reflexive closure of a strict partial order is simply a partial order.
+  - \(R\) is *irreflexive* if \(\forall x \in A ((x,x) \not \in R)\)
+  - anti-symmetry follows from the combination of transitivity and irreflexivity
+- A relation that is irreflexive, transitive and respects the following requirement: \(\forall x \in A \forall y \in A (xRy \lor yRx \lor x = y)\)  ; is a strict total order. Notice once again that its reflexive closure is simply a total order.
+- A relation is *asymmetric* if \(\forall x \in A \forall y \in A ((x,y) \in R \to (y,x) \not \in R   )\)
+- The easiest way to find a reflexive closure, \(S\), of a relation \(R\) is by adding the identity relation to the set: \(S = R \cup i_A\)
+- The easiest way to find a symmetric closure, \(S\), of a relation \(R\) is by adding the inverse relation to the set: \(S = R \cup R^{-1}\)
 -
-
-
-
 
 
 * Exercises
@@ -778,6 +792,32 @@ Learn math lol. See also [[file:scheinerman2012mathematics.org][Mathematics: a d
     contradiction. So, it must be the case that \(\cup F \subseteq U\) for any
     upper bound of \(F\). Thus, \(\cup F\) is the least upper bound of \(F\).
   - \(\cap F\) is pretty similar
+
+** Section 4.5
+1.
+   a.
+      - Reflexive Closure: \(R \cup \{(b,b), (c,c)\}\)
+      - Symmetric Closure: \(R \cup \{(b,a)\}\)
+      - Transitive Closure:\(R \cup \{(a,c), (b,b), (c,c)\}\)
+   b.
+      - Reflexive Closure: \(R \cup i_A = \leq\)
+      - Symmetric Closure:
+        \(R \cup R^{-1} = \{(x,y) \in \mathbb{R} \times \mathbb{R} \quad | x < y \text{ or  } x > y \} = \{(x,y) \in \mathbb{R} \times \mathbb{R} \quad | x \neq y \} \)
+      - Transitive Closure: \(R\) is already transitive.
+   c. Did not get it. TO-PROVE
+      - Reflexive Closure:
+      - Symmetric Closure:
+      - Transitive Closure:
+2. I could turn into a normal definition of each R then replicate what I've done in the previous question. Useless, so nope.
+3.
+   a)
+      - Goal: show that if a relation is asymmetric then it is also anti-symmetric
+      - Proof:
+        If a relation is asymmetric then its anti-symmetry is vacuously true, since the antecedent of the definition is never true.
+   b) Suppose \(R\) is a strict partial order. Now suppose \(xRy\). Finally, lets see if we can also suppose \(yRx\). Notice that since \(R\) is transitive this leads to \(xRx\), but this contradicts the irreflexive property of \(R\). Thus, if R is a strict partial order and we suppose \(xRy\) we cannot also suppose that \(yRx\). Since x and y are arbitrary this amounts to saying that R is asymmetric. \(\blacksquare\)
+4.
+
+
 * Questions
 ** What are the laws of conjunction/disjunction? :fc:
 :PROPERTIES:

@@ -52,7 +52,8 @@ To present a model of consensual dynamics.
   - then
   - a consensus is not reached
 - The examples are paramount!!!
-- One interesting thing is that the changing weights is taken into account. I have not thought about this much, gotta see my own paper:
+- One interesting thing is that the changing weights is taken into account. I
+  have not thought about this much, gotta see my own paper:
   [[attachment:_20210311_204702screenshot.png]]
 
 ** What are the main concepts of the text?

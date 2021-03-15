@@ -390,7 +390,7 @@ and \(\land, \lor, \to\) .
 - The consistency and completeness of a formal system are important properties of a system.
   -
   [[attachment:_20210113_211732screenshot.png]]
-- The exercises are too boring since Im already advanced in [[file:velleman2019prove.org][How to prove it: a structured approach]]
+- The exercises are too boring since Im already advanced in [[file:velleman2019prove.org][cite: How to prove it: a structured approach]]
 -
 
 
